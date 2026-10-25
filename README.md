@@ -91,3 +91,58 @@ When starting a new session:
 3. Verify claims against primary documents in `plan/` and `assets/docs/`.
 4. Insert citations, synchronize facts with previously locked tabs, and produce the `_final_locked.txt` copy.
 5. Update the checkbox in this `README.md` and move to the next tab in sequence.
+
+---
+
+## 7. Working From More Than One Machine
+
+This repository is edited from both a desktop and a laptop. Git does not push work from one machine to the other: a push updates GitHub, and each machine must fetch before it sees the new commits.
+
+**Rule of thumb: pull before you type, push before you switch machines.**
+
+### Quick sync (recommended)
+
+Run from the repository root after any editing session:
+
+```powershell
+.\sync.ps1 "what you changed"
+```
+
+The script stages everything, commits, fetches, rebases onto `origin/main`, and pushes. If both machines edited the same lines it stops at the conflict, explains how to resolve or abort, and pushes nothing.
+
+Options:
+
+* `.\sync.ps1` — commits with a generated message: `sync <machine> <timestamp>`.
+* `.\sync.ps1 -NoPush "work in progress"` — commit locally only, no network.
+
+### Manual equivalent
+
+```powershell
+# finishing on one machine
+git add -A
+git commit -m "what you changed"
+git push
+
+# starting on the other machine
+git pull --ff-only
+```
+
+`pull.ff` is configured as `only`, so a pull that would require a merge stops instead of quietly producing a merge commit.
+
+### Line endings
+
+[`.gitattributes`](.gitattributes) normalizes every text file to LF in both the repository and the working tree, and marks PDFs and images as binary. This repository's local config sets `core.autocrlf` to `false` so the Git for Windows system default cannot override the attributes file.
+
+### If a pull is rejected because of uncommitted work
+
+```powershell
+git stash -u
+git pull --ff-only
+git stash pop
+```
+
+### First-time setup on a new machine
+
+```powershell
+git clone https://github.com/night-joe/dahmer-archive.git
+```
