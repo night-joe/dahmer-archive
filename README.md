@@ -1,8 +1,7 @@
 # The Jeffrey Dahmer Case Archive — Webapp Research & Development Guide
 
 **Last Updated:** 2026-10-25  
-**Current Phase:** Phase B — Content & Citation Verification (Tab-by-Tab)  
-**Repository Path:** `C:\Users\edark\antigravity\dahmer-archive`
+**Current Phase:** Phase B — Content & Citation Verification (Tab-by-Tab)
 
 ---
 
