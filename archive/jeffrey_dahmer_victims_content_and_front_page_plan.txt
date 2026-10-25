@@ -1,0 +1,509 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+VICTIMS TAB — CONTENT & FRONT-PAGE DISPLAY PLAN
+Version: 0.1 — Working Reference
+Date: 2026-09-26
+
+STATUS
+------
+This is a working content/reference document for the Victims tab.
+
+It is NOT final website copy.
+The biographies preserve the current research draft and planning decisions.
+Individual facts, ages, dates, wording, and source provenance still need to be
+validated before the Victims tab is locked.
+
+PROJECT PRINCIPLE
+-----------------
+The Victims section should shift attention away from Dahmer and toward the
+people who were killed: who they were, what is publicly known about their
+lives, and what can be responsibly reconstructed from the historical record.
+
+Core principle:
+"Where the record is thin, leave it thin rather than filling gaps with
+speculation."
+
+The page should not treat the victims as numbered case entries or as a
+ranking of importance.
+
+VICTIMS TAB — APPROVED STRUCTURE
+--------------------------------
+Header tab:
+VICTIMS ▾
+
+Primary page:
+    /victims
+
+Page structure:
+1. Introduction
+2. Interactive Table 1: The Victims
+3. Individual victim profiles in chronological order
+4. About the Record
+5. Sources & Notes
+
+Interactive principle:
+- Table entries can link/jump to the corresponding individual profile.
+- Individual profiles can contain source citations and relevant internal links.
+- The full page includes all 17 victims.
+
+TABLE 1
+-------
+Columns currently planned:
+- Name
+- Age
+- Background
+- Who They Were
+
+"Who They Were" is the important human-centered field.
+
+Important data-handling rule:
+- Ages and some dates can differ across sources.
+- Do not silently choose a number when reliable sources conflict.
+- Where a documented discrepancy matters, use a source note.
+- Prefer "Last known date" where an exact date of death is not securely
+  established.
+- Steven Tuomi is a particularly important example of uncertainty because
+  remains were not recovered and the exact circumstances/date are not fully
+  established in the public record.
+
+INDIVIDUAL PROFILE STYLE
+------------------------
+Profiles should be visually consistent while allowing different lengths.
+
+Suggested pattern:
+    NAME
+    Age · Place / Background
+
+    Background
+    Biographical material
+
+    Life
+    Family, school/work, interests, aspirations, relationships, community
+
+    Case context
+    Brief, factual sentence connecting the person to the case
+
+    Sources [1] [2]
+
+The exact subheading pattern can be adjusted during content finalization.
+
+Editorial rule:
+- Biographical information should dominate.
+- Details about the killing itself should be brief and non-graphic.
+- Later media controversies should normally live in Impact / Media & Cultural
+  Portrayal rather than in the victim biography.
+
+CURRENT RESEARCH DRAFT — 17 VICTIMS
+-----------------------------------
+1. STEVEN HICKS, 18
+   - Born Steven Mark Hicks.
+   - Grew up in Coventry Township near Akron, Ohio.
+   - Son of Richard Hicks, a quality-control analyst, and Martha Hicks, a
+     homemaker.
+   - Graduated from Coventry High School in 1978.
+   - Described by people who knew him as kindhearted, compassionate, helpful,
+     and open to making new friends.
+   - Was hitchhiking to a rock concert when Dahmer offered him a ride.
+   - Became Dahmer's first victim on June 18, 1978.
+   - Verification needed for exact biographical wording and date.
+
+2. STEVEN TUOMI, AROUND 24
+   - Steven W. Tuomi.
+   - Grew up in Ontonagon, Michigan.
+   - Graduated from Ontonagon High School in 1981.
+   - Later worked at a Milwaukee restaurant.
+   - Last seen leaving work on September 15, 1987.
+   - Classmates reportedly remembered him as quiet and artistic.
+   - Family did not report him missing until December after noticing uncashed
+     paychecks and an untouched apartment.
+   - Dahmer admitted killing him.
+   - No remains were recovered and he was not formally charged with the murder.
+   - Has a memorial at Holy Family Cemetery in Ontonagon.
+   - Exact age/date of death should be handled carefully.
+
+3. JAMES "JAMIE" DOXTATOR, 14
+   - Half Stockbridge and part Oneida.
+   - Oldest of four children.
+   - Enjoyed pool and bike rides.
+   - Reportedly nearly six feet tall despite being 14.
+   - Mother Debbie Vega later described him as vivacious and social.
+   - Had recently left home, reportedly to get away from an abusive stepfather.
+   - Dahmer met him at a Milwaukee bus stop in January 1988.
+   - Verify tribal/background wording and family-source attribution carefully.
+
+4. RICHARD GUERRERO, 25
+   - Came from a family of Mexican descent.
+   - Sister Janie Hagen described him as close to his family and often helping
+     their mother with shopping and errands.
+   - Left his family's home for a friend's house on March 24, 1988.
+   - Was carrying three dollars and no wallet according to the draft.
+   - Family hired a private investigator who later defrauded them.
+   - Decades later, Hagen publicly criticized Dahmer-themed tourism.
+   - Keep the family-life material here; move tourism/media criticism to
+     Impact / Media.
+
+5. ANTHONY SEARS, 26
+   - Had recently been made a manager at Baker Square.
+   - Aspiring model.
+   - Had a girlfriend he intended to marry after saving enough money.
+   - Had told loved ones he would celebrate his promotion at Easter dinner.
+   - Was killed in March 1989.
+   - Verify age against source records before finalizing table.
+
+6. RAYMOND "RICKY BEEKS" SMITH, 33
+   - Generally known by the nickname Ricky Beeks.
+   - Had recently been released from prison.
+   - Was living with his half-sister in Rockford, Illinois.
+   - Had a ten-year-old daughter.
+   - Last seen in May 1990.
+   - Need further biographical sourcing if fuller profile is desired.
+
+7. EDWARD "EDDIE" SMITH, 28
+   - Described as devoutly Christian and close with his mother Josephene and
+     siblings JW and Carolyn.
+   - Hoped to pursue modeling.
+   - Nicknamed "the Sheikh" by friends because of the turban-like wraps he wore.
+   - Sister Theresa later publicly confirmed that he was gay.
+   - Reported missing in June 1990.
+   - Verify age and exact wording around sexuality/family attribution.
+
+8. ERNEST MILLER, 22
+   - Dreamed of becoming a professional dancer.
+   - Planned to enroll in an arts college in Chicago.
+   - Was in Milwaukee visiting relatives when he was killed.
+   - Killed in September 1990.
+   - Verify age and details against primary/strong secondary sources.
+
+9. DAVID THOMAS, 23
+   - Had a two-year-old daughter, Courtia Beanland.
+   - Ex-girlfriend Chandra Beanland later described the child's questions about
+     when her father was coming home.
+   - Friends remembered him as fun-loving.
+   - Reported missing in late September 1990.
+   - Verify exact chronology and attribution.
+
+10. CURTIS STRAUGHTER, 18
+    - Dropped out of high school.
+    - Worked as a nursing assistant.
+    - Lived with grandmother Catherine and mother Dorothy in Milwaukee.
+    - Hoped to earn a GED and attend modeling school.
+    - Grandmother said he often stayed out with friends, so his absence did not
+      alarm her immediately.
+    - Last seen in mid-February 1991.
+    - Verify age discrepancy and exact last-seen date.
+
+11. ERROL LINDSEY, 19
+    - Youngest of six siblings.
+    - Left behind a child born after his death.
+    - Sister Rita Isbell later delivered a well-known victim-impact statement
+      at trial.
+    - Isbell later publicly criticized the 2022 Netflix dramatization.
+    - The Netflix/media criticism belongs primarily in Impact / Media.
+    - Disappeared in April 1991.
+
+12. ANTHONY "TONY" HUGHES, 31
+    - Deaf since childhood pneumonia.
+    - Communicated through lip-reading and sign language.
+    - Lived in Madison and was visiting family in Milwaukee.
+    - Mother Shirley Hughes taught a Bible class at her church.
+    - Told his mother he would stay overnight with a new friend named Jeffrey.
+    - Mother later publicly criticized entertainment portrayals of the case.
+    - Last seen leaving a Milwaukee gay bar on May 24, 1991.
+    - Keep deafness and family/life material here; move media criticism to
+      Impact / Media.
+
+13. KONERAK SINTHASOMPHONE, 14
+    - Born in 1976.
+    - One of ten children.
+    - Family fled Laos in 1979 following political change, crossing the Mekong
+      into Thailand.
+    - Spent roughly a year in a refugee camp before resettling in Wisconsin.
+    - Family resettlement involved assistance from Milwaukee's Catholic
+      Archdiocese.
+    - Older siblings worked in factories/assembly lines as the family built a
+      life in Wisconsin.
+    - Older brother Somsack had been sexually assaulted by Dahmer in 1988.
+    - Konerak's 1991 police encounter became central to later public scrutiny
+      of institutional response.
+    - His biography should be split conceptually:
+        A. Who Konerak was / family history
+        B. Why his case became historically significant
+    - Detailed police-failure analysis belongs in Systemic Failures.
+
+14. MATT TURNER, 20
+    - Sometimes used the name Donald Montrell.
+    - From Flint, Michigan.
+    - Hoped to become a model.
+    - Met Dahmer at a Chicago gay pride event.
+    - Agreed to travel back with him.
+    - Disappeared in late June 1991.
+    - Verify exact date and source for alias/name usage.
+
+15. JEREMIAH WEINBERGER, 23
+    - Born in Puerto Rico.
+    - Lived in Chicago.
+    - Worked as a customer service representative for a video company.
+    - Roommate described him as meticulous, neat, and careful about appearance.
+    - Last seen July 6 after leaving a Chicago gay bar with Dahmer.
+    - Dahmer said they traveled by Greyhound bus to Milwaukee and Weinberger
+      stayed two days before he was killed.
+    - Verify all dates and biographical attributions.
+
+16. OLIVER LACY, 23
+    - Youngest of three sons.
+    - Had a two-year-old daughter.
+    - Engaged to be married.
+    - Raised by a single mother, Catherine.
+    - Wore his late father's cross necklace as a keepsake.
+    - Last seen in mid-July 1991.
+    - Verify exact last-seen date and family details.
+
+17. JOSEPH BRADEHOFT, 25
+    - Had recently moved to Milwaukee.
+    - Reportedly on his way to a job interview when he encountered Dahmer.
+    - Father of three children, ages two to seven.
+    - Final known victim in the series.
+    - Killed in late July 1991 shortly before Tracy Edwards' escape.
+    - Verify date and employment details.
+
+FRONT-PAGE VICTIMS DISPLAY
+---------------------------
+Approved concept:
+- The homepage shows a curated selection of 6 victim profiles.
+- It does NOT imply these six were more important than the other eleven.
+- Selection is based on representing varied backgrounds, chronology, and
+  dimensions of the historical record.
+- Full profiles for all 17 remain on /victims.
+
+SELECTED SIX
+------------
+1. Steven Hicks
+   Role in selection:
+   - First known victim / beginning of the documented killing history.
+   - Gives the reader an entry point into 1978 and Ohio.
+
+2. Richard Guerrero
+   Role in selection:
+   - Strong family-oriented biographical material.
+   - Adds a Milwaukee/Latino family perspective.
+
+3. Anthony Sears
+   Role in selection:
+   - Work, modeling ambitions, relationship, and plans for marriage.
+   - Strong example of ordinary future plans interrupted by the crime.
+
+4. Anthony "Tony" Hughes
+   Role in selection:
+   - Distinct life experience through deafness and communication.
+   - Madison/Milwaukee connection.
+   - Strong family and community context.
+
+5. Konerak Sinthasomphone
+   Role in selection:
+   - Distinct refugee-family history.
+   - Natural bridge from Victims into Systemic Failures.
+   - Important historical/institutional context.
+
+6. Joseph Bradehoft
+   Role in selection:
+   - Final victim.
+   - Chronological endpoint.
+   - Father of three and recent arrival in Milwaukee.
+
+FRONT-PAGE CARD PRINCIPLE
+-------------------------
+Section heading:
+    SELECTED VICTIM PROFILES
+
+Possible supporting line:
+    Six of the seventeen profiles are introduced here. The full record is
+    available on the Victims page.
+
+Cards may have different sizes, following the approved editorial homepage
+principle.
+
+Important:
+- Size differences should create editorial rhythm, not imply value or
+  importance.
+- Avoid numbering these six as "1-6".
+- Prefer age + place/background as metadata.
+- Do not use murder date as the primary card metadata.
+- Keep biography above crime details.
+- Provide a "View all 17 victims ->" link to /victims.
+
+Suggested metadata:
+    18 · Coventry Township, Ohio
+    25 · Milwaukee
+    26 · Milwaukee
+    31 · Madison / Milwaukee
+    14 · Milwaukee
+    25 · Milwaukee
+
+The exact metadata will be adjusted after factual verification.
+
+POSSIBLE HOMEPAGE LAYOUT
+------------------------
+Conceptual only; exact visual design will be decided during implementation:
+
+    THE VICTIMS
+
+    Selected Victim Profiles
+
+    [Larger card: Anthony Hughes]
+    [Medium card: Steven Hicks] [Smaller card: Richard Guerrero]
+
+    [Medium card: Konerak]      [Medium card: Anthony Sears]
+    [Smaller / medium card: Joseph Bradehoft]
+
+    View all 17 victims ->
+
+The design must not visually establish a ranking of victims.
+
+WHAT TO MOVE OUT OF VICTIMS
+---------------------------
+Keep on Victims:
+- family
+- childhood / upbringing
+- education
+- work
+- relationships
+- interests
+- aspirations
+- community connections
+- concise case context
+
+Primarily move to Impact / Media & Cultural Portrayal:
+- criticism of Netflix dramatization
+- family criticism of entertainment adaptations
+- criticism of Dahmer-themed tourism
+- wider public/media packaging of the victims' stories
+
+Primarily move to Systemic Failures:
+- detailed police response to Konerak
+- institutional failures involving previous contacts
+- broader analysis of race/sexuality and police response
+
+The Victims page can include short links to those deeper sections.
+
+INTERACTIVE BEHAVIOR
+--------------------
+Table:
+- Clicking a victim name jumps to that person's profile.
+
+Profile:
+- Source citations should be clickable where practical.
+- Relevant names/events can link to deeper pages.
+- Konerak's profile can link to Systemic Failures.
+- Family/media references can link to Media & Cultural Portrayal where relevant.
+
+PAGE END
+--------
+After the 17 profiles:
+
+    ABOUT THE RECORD
+
+Suggested purpose:
+- Explain that surviving public information is uneven.
+- Some families gave detailed interviews/testimony while less biographical
+  material survives for others.
+- Profile lengths may therefore differ.
+- Identify when information comes primarily from relatives, contemporary
+  reporting, court records, or later recollections.
+- Avoid presenting all details as equally documented.
+
+Then:
+
+    SOURCES & NOTES
+
+Potentially link to:
+    /sources
+
+DATA / FACT-CHECK TODO
+----------------------
+Before the Victims tab is locked, verify:
+- age for every victim
+- birth dates where available
+- exact last-seen dates
+- exact killing dates where securely established
+- spelling of names
+- family names and relationships
+- occupation/employment claims
+- education claims
+- ethnicity/ancestry wording
+- disability/communication information
+- refugee/resettlement details
+- aliases
+- memorial information
+- claims attributed to family members or friends
+- media/Netflix statements
+- wording of "first", "second", "final", etc., where chronology is disputed
+
+Special caution:
+- Do not present an inferred date of death as an exact established date when
+  the historical record does not support that precision.
+- Do not convert later recollections into contemporaneous facts without
+  attribution.
+- Preserve uncertainty in the final copy where uncertainty is part of the
+  record.
+
+RELATION TO OTHER TABS
+----------------------
+Victims -> Timeline
+- Timeline contains the complete chronological event reconstruction.
+- Victims page remains biography-centered.
+
+Victims -> Context
+- Context explains Milwaukee and the broader historical setting.
+
+Victims -> Systemic Failures
+- Detailed institutional response belongs there.
+
+Victims -> Media & Cultural Portrayal
+- Later family responses to entertainment/media belong primarily there.
+
+Victims -> Modern Re-examination
+- Retrospective scholarship and changing interpretation belong there.
+
+RELATION TO HOMEPAGE
+--------------------
+Homepage:
+    Selected Victim Profiles
+
+Full page:
+    /victims
+
+Homepage is a curated preview.
+The /victims page contains all 17 profiles and the complete Table 1.
+
+CHANGE LOG
+----------
+2026-09-26
+- Finalized the Victims tab as a people-centered research section.
+- Approved all 17 victims appearing on the full /victims page.
+- Approved chronological ordering for individual profiles.
+- Approved Table 1 with Name, Age, Background, and Who They Were.
+- Established that the full victims table should not become a ranking system.
+- Approved six front-page selected victim profiles:
+  Steven Hicks
+  Richard Guerrero
+  Anthony Sears
+  Anthony "Tony" Hughes
+  Konerak Sinthasomphone
+  Joseph Bradehoft
+- Approved variable-size editorial cards for the front-page selection.
+- Established that card size must not imply importance.
+- Decided to keep biography central and move most later media controversies to
+  Impact / Media & Cultural Portrayal.
+- Identified ages/dates and several biographical claims for later verification.
+- Added an "About the Record" section to explain uneven surviving evidence.
+
+NEXT STEP
+---------
+Before the Victims tab is locked:
+1. Validate the 17 biographies against reliable sources.
+2. Resolve or explicitly document important age/date discrepancies.
+3. Refine each profile's wording and length.
+4. Finalize Table 1.
+5. Finalize the six homepage cards and their short descriptions.
+6. Lock the Victims tab and move to Timeline.
+
+END OF VICTIMS CONTENT & FRONT-PAGE PLAN

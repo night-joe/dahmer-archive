@@ -1,0 +1,166 @@
+/* ==========================================================================
+   THE DAHMER CASE ARCHIVE — BASE & TYPOGRAPHY STYLES
+   File: assets/css/base.css
+   Version: 2.0 (Master Design Specification)
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 1.75rem);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: var(--leading-normal);
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Selection --- */
+::selection {
+  background-color: var(--accent-red-subtle);
+  color: var(--accent-red);
+}
+
+/* --- Links --- */
+a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--accent-red);
+  text-decoration-color: var(--accent-red);
+}
+
+/* --- Typography Hierarchy --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  color: var(--text-primary);
+  letter-spacing: -0.018em;
+}
+
+h1 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: var(--text-xl);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-2xs);
+  border-bottom: 1px solid var(--border-light);
+}
+
+h3 {
+  font-size: var(--text-lg);
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-xs);
+}
+
+h4 {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-2xs);
+}
+
+p {
+  margin-bottom: 1.35rem;
+  color: var(--text-primary);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
+
+/* --- Lists --- */
+ul, ol {
+  margin-bottom: 1.35rem;
+  padding-left: 1.5rem;
+  font-size: var(--text-base);
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: var(--leading-normal);
+}
+
+/* --- Inline Code & Monospace --- */
+code, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  padding: 0.15em 0.35em;
+  border-radius: 2px;
+}
+
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-light);
+  padding: var(--space-md);
+  overflow-x: auto;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+/* --- Container Classes --- */
+.container {
+  width: 100%;
+  max-width: var(--max-width-page);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+}
+
+.article-container {
+  width: 100%;
+  max-width: var(--max-width-article);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wide-container {
+  width: 100%;
+  max-width: var(--max-width-wide);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Utility Classes --- */
+.text-muted { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+.text-serif { font-family: var(--font-serif); }
+.text-sans { font-family: var(--font-sans); }
+.font-mono { font-family: var(--font-mono); }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.uppercase { text-transform: uppercase; letter-spacing: 0.06em; }
+.hidden { display: none !important; }

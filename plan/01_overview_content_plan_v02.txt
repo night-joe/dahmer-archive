@@ -1,0 +1,550 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+OVERVIEW TAB + FRONT-PAGE OVERVIEW FEATURE
+FACT-CHECKED & REFINED CONTENT / STRUCTURE PLAN
+Version: 0.2 — Working Reference
+Date: 2026-09-27
+
+STATUS
+------
+This document is the working reference for two related but deliberately
+different Overview experiences:
+
+1. HOMEPAGE -> OVERVIEW FEATURE
+2. HEADER -> OVERVIEW -> /overview
+
+They share subject matter and editorial voice, but they are NOT the same
+article and should NOT have the same depth.
+
+CORE DISTINCTION
+----------------
+HOMEPAGE OVERVIEW FEATURE
+    = descriptive, concise introduction to the case and the research project
+
+FULL OVERVIEW PAGE
+    = comprehensive case article and factual spine of the website
+
+HEADER BEHAVIOR
+---------------
+The header's "Overview" item always opens:
+    /overview
+
+The homepage Overview feature ends with:
+    Read more -> /overview
+
+The homepage feature can expand in place, but expansion does not navigate away
+from the homepage.
+
+PAGE /overview ROLE
+-------------------
+The full Overview page should be the detailed, central case article.
+
+It should:
+- establish the factual foundation for the whole project
+- give a substantial narrative account of the case
+- introduce major themes without duplicating every specialist page
+- link internally to detailed pages
+- end with a short Overview Conclusion
+
+FULL OVERVIEW — FINAL STRUCTURE
+-------------------------------
+1. Introduction
+2. The Night Tracy Edwards Escaped
+3. Discovery, Investigation & Arrest
+4. Confession & Reconstruction of the Case
+5. Early Life & Background
+6. The Killing Period
+7. Trial & Legal Proceedings
+8. Death in Prison
+9. Legacy & Continuing Re-examination
+10. Overview Conclusion
+
+This structure is intended to be comprehensive without duplicating the full
+Victims, Timeline, Context, Systemic Failures, Psychological Profile, Media,
+or Impact pages.
+
+SECTION 1 — INTRODUCTION
+-----------------------
+Purpose:
+Introduce the case, the 1978–1991 span, Milwaukee context, victims, and the
+broader research scope.
+
+Key editorial points:
+- Dahmer confessed to 17 killings between 1978 and 1991.
+- He was convicted of 16 murders: 15 in Wisconsin and 1 in Ohio.
+- Eleven victims' remains were recovered from Apartment 213.
+- The case should be introduced as a historical/institutional subject, not
+  only as a crime story.
+- Avoid unsupported claims about an "unusually high number" of disappearances
+  or that "no one had connected" all cases before 1991.
+- Avoid loaded terms such as "monster", "depraved predator", "domestic hell",
+  "house of horrors", and similar language in the site's own voice.
+
+Suggested editorial opening:
+    "Between 1978 and 1991, Jeffrey Dahmer murdered 17 men and boys, most of
+    them in Milwaukee. The crimes unfolded over more than a decade, with a
+    long gap between his first known killing in Ohio in 1978 and the series of
+    murders that resumed in Milwaukee in 1987. By the time Dahmer was arrested
+    in July 1991, investigators were confronting a case that spanned multiple
+    victims, locations, years and jurisdictions."
+
+The exact final prose will be source-cited when the Overview page is locked.
+
+SECTION 2 — THE NIGHT TRACY EDWARDS ESCAPED
+-------------------------------------------
+Purpose:
+Use Tracy Edwards's escape as the narrative entry into the discovery of the
+case.
+
+Core facts:
+- July 22, 1991
+- Edwards was 32
+- He escaped with a handcuff attached to one wrist.
+- He encountered Milwaukee police at approximately 11:30 p.m.
+- Officers Rolf Mueller and Robert Rauth accompanied him back to Apartment 213.
+- Edwards said Dahmer had threatened him with a knife.
+- Police then discovered evidence inside the apartment.
+
+Editorial rule:
+- Present Edwards's account as testimony/statement when describing subjective
+  experiences or Dahmer's statements.
+- Do not dramatize the episode beyond the documented sequence.
+
+SECTION 3 — DISCOVERY, INVESTIGATION & ARREST
+---------------------------------------------
+Merge the earlier separate sections:
+    "How Police Uncovered the Truth"
+    "Arrest"
+
+Core sequence:
+    Edwards -> police return -> photographs/evidence -> arrest -> wider search
+
+The section should explain:
+- officers entering Apartment 213
+- discovery of Polaroid photographs
+- discovery of human remains
+- arrest of Dahmer
+- transition from an assault complaint to a major homicide investigation
+
+Keep the forensic inventory concise here.
+
+Link:
+    Investigation & Arrest -> /case/investigation
+
+SECTION 4 — CONFESSION & RECONSTRUCTION OF THE CASE
+----------------------------------------------------
+Dahmer gave extensive statements to Milwaukee homicide detectives after his
+arrest.
+
+Key points:
+- Detectives Patrick Kennedy and Dennis Murphy conducted extended interviews.
+- Contemporary accounts describe roughly 60 hours of interviews.
+- Dahmer confessed to 17 killings.
+- His statements were combined with physical, forensic and documentary
+  evidence to reconstruct the victim series.
+
+Important:
+- Do not say the confession alone "proved everything."
+- Attribute Dahmer's own descriptions as his statements rather than objective
+  fact.
+- Link to:
+    /timeline
+    /case/offense-series
+    /victims
+
+SECTION 5 — EARLY LIFE & BACKGROUND
+-----------------------------------
+This should be a concise overview, not the full biography.
+
+Retain:
+- birth in Milwaukee
+- childhood/family background
+- move to Ohio
+- school years
+- alcohol use
+- animal/bone interests
+- parents' divorce
+- first murder in 1978
+- Army service and discharge
+- later move to Milwaukee
+- 1988 sexual-assault case
+- 1989 sentence and probation
+- resumption of killing
+
+Avoid:
+- turning biography into a causal explanation
+- stating that family conflict, surgery, alcohol, or animal interests caused the
+  murders
+- detailed sexual/psychiatric analysis
+
+Link:
+    Early Life & Background -> /context#early-life
+
+SECTION 6 — THE KILLING PERIOD
+------------------------------
+Do NOT reproduce the complete 17-victim list here.
+
+Instead provide a concise narrative:
+
+1978
+    First known killing in Bath Township, Ohio.
+
+1987–1989
+    Killing resumes in Milwaukee, including the period at the grandmother's
+    West Allis home.
+
+1990–1991
+    The majority of the remaining killings occur at Apartment 213, 924 N.
+    25th Street, with increasing frequency and more extensive preservation,
+    concealment and experimentation documented in the record.
+
+Use a summarized visual mini-timeline.
+
+Then:
+    Explore the full victim record -> /victims
+    Explore the Master Timeline -> /timeline
+    Explore the Offense Series -> /case/offense-series
+
+Important:
+Do not duplicate the complete Victims table or 17 detailed offense profiles.
+
+SECTION 7 — TRIAL & LEGAL PROCEEDINGS
+-------------------------------------
+Key points:
+- Dahmer pleaded guilty but insane to the 15 Wisconsin murder charges.
+- The legal issue was mental responsibility, not factual guilt.
+- Competing psychiatric experts testified.
+- The jury found Dahmer legally sane on all 15 counts.
+- Judge Laurence Gram Jr. imposed 15 consecutive life terms.
+- In Ohio, Dahmer pleaded guilty to the 1978 murder of Steven Hicks and received
+  an additional life sentence.
+- Total murder convictions: 16.
+
+Important legal distinction:
+Do NOT write:
+    "The jury convicted him on all 15 counts."
+
+Correct framework:
+    "Dahmer had already pleaded guilty. The jury was asked to determine
+    whether he was legally responsible under Wisconsin's mental-responsibility
+    standard."
+
+Link:
+    Trial & Legal Proceedings -> /case/trial
+    Psychological Profile -> /topics/psychological-profile
+
+SECTION 8 — DEATH IN PRISON
+---------------------------
+Brief factual section:
+- November 28, 1994
+- Columbia Correctional Institution
+- Dahmer was killed by fellow inmate Christopher Scarver
+- He was 34
+
+Avoid extended discussion of Scarver's motives here.
+
+SECTION 9 — LEGACY & CONTINUING RE-EXAMINATION
+----------------------------------------------
+Keep this brief.
+
+Explain that the case remains a subject of:
+- historical research
+- legal and institutional analysis
+- victim advocacy
+- documentary and dramatic media
+- changing public memory
+- modern reassessment
+
+Then link to:
+    Media & Cultural Portrayal -> /impact/media-cultural-portrayal
+    Modern Re-examination -> /impact/modern-re-examination
+    Social Impact & Reform -> /impact/social-impact-reform
+
+Do not place the entire Netflix/media discussion in Overview.
+
+SECTION 10 — OVERVIEW CONCLUSION
+--------------------------------
+This is the SHORT conclusion embedded at the end of /overview.
+
+Purpose:
+- summarize the case
+- reinforce the distinction between the criminal narrative and the wider
+  institutional/social research
+- prepare the reader to explore the deeper tabs
+
+Target:
+3–5 paragraphs.
+
+It should NOT repeat the full final Conclusion under Impact.
+
+Possible editorial direction:
+    "The documented history establishes a long sequence of killings, but the
+    significance of the case extends beyond the crimes themselves. The record
+    includes repeated encounters with police, probation supervision, missing-
+    person investigations, neighborhood complaints, and later legal and public
+    scrutiny.
+
+    Examining those records does not provide a single explanation for why
+    Dahmer committed the murders. It does, however, show how individual
+    criminal behavior intersected with institutions, communities, and the
+    social conditions of Milwaukee at the time.
+
+    The rest of this project follows those intersections in greater detail."
+
+Then:
+    Continue through the research ->
+
+HOMEPAGE OVERVIEW FEATURE
+-------------------------
+Purpose:
+The homepage Overview is NOT the full /overview article.
+
+It should be:
+- descriptive
+- concise
+- engaging
+- research-oriented
+- less detailed than /overview
+- sufficient to orient a first-time reader
+- free of graphic detail
+- followed by "Read more -> /overview"
+
+APPROVED HOMEPAGE OVERVIEW DIRECTION
+------------------------------------
+Working title:
+    The Jeffrey Dahmer Case
+
+The article should cover:
+
+1. Basic case
+   1978–1991; 17 killings confessed to; 16 murder convictions.
+
+2. Victims
+   A brief acknowledgment of who they were and the diversity of their
+   backgrounds without turning the section into demographic statistics.
+
+3. Discovery
+   Tracy Edwards's escape and the July 22, 1991 discovery.
+
+4. Institutional questions
+   A concise introduction to police, probation, housing, race, sexuality and
+   community response.
+
+5. Research scope
+   Explain that this project examines the victims, chronology, historical
+   context, institutional failures, psychology, motivations, social impact,
+   media and modern reassessment.
+
+APPROVED HOMEPAGE ARTICLE — WORKING FINAL VERSION
+-------------------------------------------------
+Title:
+    THE JEFFREY DAHMER CASE
+
+Text:
+
+"Between 1978 and 1991, Jeffrey Dahmer murdered 17 men and boys, most of them
+in Milwaukee. The crimes unfolded over more than a decade, with a long gap
+between his first known killing in Ohio in 1978 and the series of murders that
+resumed in Milwaukee in 1987. By the time Dahmer was arrested in July 1991,
+the case had become one of the most extensive and consequential serial-murder
+investigations in the United States. The FBI records that 11 victims' remains
+were recovered from his Milwaukee apartment, while Dahmer ultimately confessed
+to 17 killings."
+
+"The case cannot be understood only through the crimes themselves. Many of
+Dahmer's victims were young men from marginalized communities, including a
+large number of Black victims, while others were Asian, white, Latino and
+Native American. Many encounters occurred around Milwaukee's LGBTQ nightlife
+and other public places where Dahmer met potential victims. The historical
+record also places the case within a Milwaukee experiencing significant racial
+and economic divisions, making questions of visibility, vulnerability and
+institutional response an important part of its later examination."
+
+"The case finally came to light on the night of July 22, 1991, when Tracy
+Edwards escaped from Dahmer's apartment with a handcuff attached to one wrist
+and flagged down police at about 11:30 p.m. Officers followed Edwards back to
+924 North 25th Street, where they arrested Dahmer and discovered human remains
+and other evidence inside Apartment 213. Investigators soon learned that the
+material in the apartment was connected to a much larger series of killings."
+
+"What followed was more than a criminal investigation. It became an
+examination of previous police contacts, probation supervision, neighborhood
+complaints, the treatment of Konerak Sinthasomphone, and the ways in which
+race, poverty and sexuality shaped the circumstances surrounding the victims.
+This project examines the case beyond the headline: the victims' lives, the
+chronology of the killings, Milwaukee's historical context, the investigation
+and trial, documented psychological evaluations, institutional failures,
+social consequences and the ways the case has been represented and
+re-examined over the decades."
+
+END OF HOMEPAGE ARTICLE
+----------------------
+
+FRONT-PAGE INTERACTION — APPROVED
+---------------------------------
+Initial state:
+- Show approximately 15–20 lines of the homepage Overview feature.
+- Treat 15–20 lines as a visual target, not a fixed character/line count,
+  because wrapping varies across screen sizes.
+- Use a subtle visual fade or equivalent cue to indicate hidden content.
+- Provide a clear expand control.
+
+Expanded state:
+- Full homepage Overview article appears in place.
+- Other homepage sections remain visible.
+- End of article contains:
+      Read more -> /overview
+- Include:
+      Show less
+- Show less returns to the compact ~15–20-line state.
+
+Interaction rules:
+- Read more must not accidentally trigger collapse/expand.
+- Controls must be keyboard accessible.
+- Expansion does not navigate away from the homepage.
+
+HEADER OVERVIEW BEHAVIOR
+------------------------
+Clicking the header's Overview item always opens:
+    /overview
+
+The header Overview destination is the full detailed article.
+
+HOMEPAGE vs FULL OVERVIEW — VISUAL DIFFERENCE
+---------------------------------------------
+Homepage:
+- shorter
+- larger lead presentation
+- descriptive/deck-like writing
+- designed for first-time visitors
+
+Full /overview:
+- longer
+- more detailed sections
+- richer internal linking
+- more documentary detail
+- short conclusion at the end
+
+They should feel like two layers of the same publication, not two unrelated
+articles.
+
+INTERNAL HYPERLINKS
+-------------------
+Overview should act as a gateway into the rest of the research.
+
+Examples:
+- victims -> /victims
+- timeline -> /timeline
+- historical context -> /context
+- early life -> /context#early-life
+- offense series -> /case/offense-series
+- investigation -> /case/investigation
+- trial -> /case/trial
+- systemic failures -> /topics/systemic-failures
+- psychological profile -> /topics/psychological-profile
+- theories -> /topics/theories-motivations
+- media -> /impact/media-cultural-portrayal
+- modern re-examination -> /impact/modern-re-examination
+
+The Overview should hyperlink naturally in prose rather than turning every
+second sentence into an underlined road sign.
+
+INTERACTIVE VISUALS FOR /overview
+---------------------------------
+Approved or possible:
+- small key-facts line/module
+- concise chronology
+- expandable mini sections
+- internal linked names
+- source citations
+
+Avoid:
+- dashboard-style card grids
+- excessive animation
+- graphic crime-scene imagery
+- decorative "true crime" effects
+
+KEY FACTS MODULE
+----------------
+Possible restrained module near the top:
+
+17
+killings confessed to
+
+16
+murder convictions
+
+1978–1991
+known killing period
+
+July 22, 1991
+arrest
+
+These should be presented as editorial facts, not dashboard KPI cards.
+
+SOURCE HANDLING
+---------------
+The Overview must use exact citations in the final build.
+
+Priority:
+1. FBI records
+2. Court records / opinions
+3. Contemporary newspaper and wire-service reporting
+4. Forensic / academic sources
+5. Reputable later historical sources
+
+Important:
+- Distinguish 17 confessed killings from 16 murder convictions.
+- Distinguish last-known dates from exact death dates.
+- Attribute disputed interpretations.
+- Do not turn later theories into factual claims.
+
+DESIGN STATUS
+-------------
+Typography: APPROVED
+Colors: APPROVED
+Article width: APPROVED
+Homepage hierarchy: APPROVED
+Variable-size cards: APPROVED
+Image policy: APPROVED
+Citation style: APPROVED
+URL structure: APPROVED
+Mobile behavior: APPROVED
+Methodology: APPROVED
+
+CONTENT STATUS
+--------------
+Homepage Overview feature: APPROVED IN PRINCIPLE
+Full Overview structure: APPROVED
+Short Overview conclusion: APPROVED
+Internal hyperlink strategy: APPROVED
+Expanded/collapsed homepage behavior: APPROVED
+Final source-by-source article citations: NOT YET INSERTED
+Final web copy: NOT YET LOCKED
+
+NEXT STEP
+---------
+When all content tabs are completed:
+1. Consolidate this Overview file with the other current tab plans.
+2. Build the complete webpage architecture.
+3. Map the Overview content into reusable article components.
+4. Implement internal links and citation anchors.
+5. Populate the final content after the architecture is approved.
+
+CHANGE LOG
+----------
+2026-09-27
+- Created a dedicated Overview reference file.
+- Confirmed that the homepage Overview feature and /overview are distinct
+  editorial layers.
+- Retained the comprehensive Overview article structure.
+- Retained the short conclusion at the end of /overview.
+- Confirmed that the homepage feature expands in place to show its full text.
+- Confirmed Read more -> /overview and Show less behavior.
+- Confirmed that header Overview always opens /overview.
+- Formalized internal hyperlink behavior from Overview into the deeper research
+  pages.
+- Added a source-handling and editorial-caution framework.
+- Kept the homepage article descriptive and removed unnecessary duplication
+  with Victims, Timeline, Media and other specialized pages.
+
+END OF OVERVIEW CONTENT & PLAN

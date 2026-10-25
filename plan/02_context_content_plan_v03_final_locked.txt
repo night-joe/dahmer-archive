@@ -1,0 +1,1121 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+CONTEXT TAB — FINAL LOCKED CONTENT PLAN & EVIDENTIARY SPECIFICATION
+Version: 0.3 — Final Locked Master Context Specification
+Date: 2026-10-25
+Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+
+================================================================================
+STATUS & EDITORIAL MANDATE
+================================================================================
+This document constitutes the authoritative, final locked content specification
+and claim-level evidentiary concordance for the Context tab (/context) of the
+Jeffrey Dahmer Case Research Webapp.
+
+It covers:
+  Section A: Historical Context — Milwaukee 1987–1991
+  Section B: Early Life & Background (1960–1988)
+
+All demographic metrics, economic statistics, municipal records, biographical
+dates, and judicial proceedings in this specification have been reconciled against
+the primary October 24–25, 2026 multi-agent forensic audits:
+  1. Explorer M1 — Section A Historical Context Audit (`section_a_audit_findings.md`)
+  2. Explorer M2 — Section B Primary FBI Vault & Biographical Audit (`section_b_audit_findings.md`)
+  3. Explorer M3 — Cross-Baseline Consistency & Architecture Audit (`cross_baseline_audit_findings.md`)
+  4. Worker M3 — Master Context Evidentiary Audit Report (`context_evidentiary_audit.md`)
+  5. Primary FBI FOIA Releases: Parts 01 (68 pp.), 03 (60 pp.), and 06 (74 pp.)
+  6. Locked Project Baselines: `04_victims_content_plan_v05_final_locked.txt` (v05)
+     and `05_timeline_content_plan_v04_final_locked.txt` (v04)
+
+This file supersedes all prior working copies (`02_context_content_plan_v01.txt`
+and `02_context_content_plan_v02.txt`) and is permanently locked for HTML page
+generation (`context.html`).
+
+--------------------------------------------------------------------------------
+CORE EDITORIAL PRINCIPLE: NON-DETERMINISTIC FRAMING
+--------------------------------------------------------------------------------
+The historical, economic, racial, and institutional dynamics of Milwaukee between
+1987 and 1991 constitute the systemic environment and physical setting in which
+the crimes occurred, victims lived, and law enforcement operated. They are NOT
+deterministic causes of Jeffrey Dahmer's murders.
+
+Dahmer's crimes were the product of severe individual psychopathology, extreme
+paraphilic sexual compulsions (necrophilia), and calculated predatory choices for
+which he alone bears total moral and legal culpability.
+
+The writing adheres strictly to four distinct analytical categories:
+1. Documented Historical Conditions: Empirically verified macro-level data
+   (Census metrics, industrial restructuring series, statutory enactments).
+2. Contemporary Observations: Real-time 1991 reporting, police records, and
+   civic commission findings.
+3. Attributed Personal Memoirs: Family recollections (Lionel Dahmer) and
+   classmate accounts (Derf Backderf) explicitly identified as subjective memories.
+4. Retrospective Scholarly Models: Sociological and victimology concepts (such
+   as Steven Egger's "less dead" framework) presented strictly as analytical
+   tools to evaluate institutional responsiveness, never as offender motives.
+
+Under no circumstances should the text imply that deindustrialization, racial
+segregation, neighborhood poverty, family divorce, childhood hernia surgery,
+or adolescent alcohol dependence "caused" serial murder, necrophilia, or cannibalism.
+
+
+================================================================================
+PAGE STRUCTURE & NAVIGATION SPECIFICATION
+================================================================================
+Header Navigation:
+    CONTEXT ▾
+
+Primary Route:
+    /context
+
+Anchor Architecture & Bidirectional Cross-Links:
+  Section A: Historical Context (Milwaukee 1987–1991)
+    - #macroeconomic-restructuring (Alias: #ctx-econ-deindustrialization) -> A.1 Deindustrialization & Manufacturing Contraction
+    - #residential-segregation (Alias: #ctx-seg-indices)                 -> A.2 Hypersegregation & Geographic Boundaries
+    - #avenues-west-oxford-apartments (Alias: #ctx-oxford-apts)          -> A.3 Near West Side & 924 N. 25th Street Profile
+    - #mpd-institutional-culture (Alias: #ctx-mpd-governance)            -> A.4 MPD Administration: Breier, Ziarnik, Arreola
+    - #ernest-lacy-case (Alias: #ctx-ernest-lacy)                        -> A.5 The Ernest Lacy Homicide & Community Trust
+    - #milwaukee-lgbtq-history (Alias: #ctx-lgbtq-history)               -> A.6 LGBTQ Nightlife, AIDS & 1982 Gay Rights Law
+    - #less-dead-framework (Alias: #ctx-less-dead)                       -> A.7 Criminological Framework: Steven Egger's Concept
+    - #historical-context-synthesis (Alias: #ctx-synthesis)              -> A.8 Analytical Bridge to Systemic Failures
+
+  Section B: Early Life & Background (1960–1988)
+    - #birth-and-family-origins (Aliases: #early-life, #ctx-bio-early-life) -> B.1 Birth, Family Background & Lineage (1960)
+    - #childhood-health-recollections                                       -> B.2 Hernia Surgery & Parental Attributions (1964)
+    - #family-instability-divorce                                           -> B.3 Family Relocations & 1978 Divorce
+    - #animal-remains-anatomy                                               -> B.4 Bone Collecting, Chemistry & Macdonald Triad
+    - #revere-high-school-alcoholism                                        -> B.5 Revere High School & Severe Alcoholism (1974–78)
+    - #ohio-state-university-dismissal                                      -> B.6 Ohio State University Academic Collapse (1978)
+    - #us-army-service-counseling (Aliases: #military, #ctx-edu-military)   -> B.7 U.S. Army Service & Chapter 9 Discharge (1979–81)
+    - #west-allis-grandmother-residence (Alias: #ctx-west-allis)             -> B.8 Catherine Dahmer West Allis Residence (1981–90)
+    - #ambrosia-chocolate-employment (Alias: #ctx-ambrosia-chocolate)       -> B.9 Ambrosia Chocolate Factory Employment (1985–91)
+    - #pre-1988-legal-contacts (Alias: #ctx-legal-pre1988)                  -> B.10 Pre-1988 Legal Contacts & Misdemeanor Arrests
+    - #probation-supervision-failure                                        -> B.11 Information Siloing & Supervision Breakdown
+    - #adolescent-fantasies-jogger                                          -> B.12 Adolescent Fantasies & Aborted Jogger Incident
+    - #transition-1978-first-homicide                                       -> B.13 Steven Hicks Murder & Criminal Transition (1978)
+
+
+
+================================================================================
+SECTION A — HISTORICAL CONTEXT: MILWAUKEE 1987–1991
+================================================================================
+
+A.1 MACROECONOMIC RESTRUCTURING & INDUSTRIAL DECLINE
+Anchor: #macroeconomic-restructuring (Alias: #ctx-econ-deindustrialization)
+----------------------------------------------------
+Between the late 1960s and 1991, Milwaukee underwent a profound and destabilizing
+economic transformation [SRC-05, SRC-07]. Long celebrated as the "Machine Shop of
+the World," the City of Milwaukee saw its manufacturing employment peak in 1963
+at 119,284 industrial positions [SRC-05]. Over the subsequent two decades,
+automation, corporate consolidation, foreign competition, and plant decentralization
+eroded this foundation: city manufacturing employment fell to 118,600 in 1967;
+91,400 in 1977; 77,900 in 1982 (accelerated by the severe back-to-back 1980–1982
+recessions); and 63,900 by 1987 [SRC-05]. By 1990, the city had lost over 46% of
+its blue-collar manufacturing employment base relative to 1967, and the broader
+Milwaukee Primary Metropolitan Statistical Area (PMSA) shed over 50,000 manufacturing
+jobs between 1979 and 1991 [SRC-05, SRC-06].
+
+Historic corporate cornerstones that had sustained generations of working-class
+families collapsed or downsized drastically:
+- Allis-Chalmers: Operating a massive 160-acre manufacturing tractor complex in
+  West Allis that employed over 20,000 union workers at its post-war peak and roughly
+  10,000 in the late 1970s, the company suffered catastrophic annual operating
+  losses beginning in 1980. Management liquidated its agricultural tractor line in
+  1985 and filed for Chapter 11 bankruptcy on June 29, 1987, terminating thousands
+  of livelihoods and gutting employee pensions [SRC-05, SRC-08].
+- A.O. Smith: The massive automotive frame producer at 3533 N. 27th Street on
+  Milwaukee's North Side employed nearly 10,000 workers in the 1970s before executing
+  deep layoffs between 1980 and 1982. When the company advertised rare job openings
+  at Wisconsin State Fair Park in the early 1980s, an estimated 15,000 to 20,000
+  unemployed workers queued for hours to compete for a few hundred positions [SRC-05, SRC-08].
+- Briggs & Stratton: The world's largest producer of small air-cooled engines
+  employed roughly 11,000 union workers (AIW / UPIU Local 7232) in Milwaukee in
+  1980. Confronting rising non-union domestic and overseas competition, corporate
+  executives aggressively decentralized manufacturing throughout the 1980s, opening
+  facilities in Missouri, Alabama, and Georgia, permanently displacing thousands of
+  central-city residents [SRC-05, SRC-08].
+- Joseph Schlitz Brewing Company: Milwaukee's second-largest brewer permanently
+  closed its historic downtown brewery in 1981 following a protracted strike and
+  subsequent takeover by the Stroh Brewery Company [SRC-08].
+
+This deindustrialization disproportionately devastated Milwaukee's African American
+community [SRC-05, SRC-06]. In 1970, 55.0% of employed Black men in metropolitan
+Milwaukee held blue-collar manufacturing positions, compared to 25.4% of white men
+[SRC-05]. Between 1970 and 1990, the employment rate for prime-working-age Black males
+contracted by more than 20 percentage points [SRC-05]. By 1980, 41.0% of working-age
+Black men in metro Milwaukee were not employed (either unemployed or detached from
+the labor force); by the 1990 Census, that figure reached 46.6% [SRC-05].
+
+Simultaneously, new entry-level industrial and retail facilities opened in the
+suburban "WOW" counties (Waukesha, Ozaukee, and Washington) [SRC-05, SRC-07]. Because
+of restrictive suburban zoning and persistent housing discrimination, minority
+suburbanization was severely restricted: in 1990, Black residents comprised less
+than 1% of the population of Waukesha County [SRC-01, SRC-05]. This acute "spatial
+mismatch" isolated central-city workers from regional employment hubs, driving
+poverty rates in inner-core North Side neighborhoods (such as ZIP code 53206 and
+adjacent tracts) above 40% [SRC-01, SRC-05].
+
+
+A.2 RESIDENTIAL HYPERSEGREGATION & GEOGRAPHIC BOUNDARIES
+Anchor: #residential-segregation (Alias: #ctx-seg-indices)
+--------------------------------------------------------
+Milwaukee entered the 1990s as one of the most residentially segregated metropolitan
+areas in the United States [SRC-01, SRC-02, SRC-04]. In their foundational demographic
+research, Douglas S. Massey and Nancy A. Denton (1989, 1993) established the standard
+of "hypersegregation," defined as exhibiting extreme segregation across at least four
+of five distinct spatial dimensions: evenness (dissimilarity), exposure (isolation),
+clustering, concentration, and centralization [SRC-04]. In both the 1980 and 1990
+Decennial Censuses, the Milwaukee-Waukesha metropolitan area ranked among the few
+large U.S. metropolitan areas classified as hypersegregated across all five dimensions
+[SRC-04].
+
+According to official 1990 U.S. Census evaluations and subsequent demographic studies:
+- Black-White Dissimilarity Index (D): Measured between 82.8 and 84.4 in 1990
+  (U.S. Census Bureau CENSR-3 Table 5-2; Farley & Frey 1994; Frey 2005) [SRC-01, SRC-02].
+  Under Census Bureau comparative standards, the Milwaukee-Waukesha PMSA ranked as
+  the #1 most segregated large metropolitan area in the United States [SRC-01, SRC-02].
+  A dissimilarity score of ~83 to 84 indicates that over 83% of the metropolitan
+  area's Black population would have had to move to different census tracts to
+  achieve an even spatial distribution matching the metro area.
+- Black Isolation Index (P*): Measured at 71.3 in the 1990 Census [SRC-02]. This
+  metric established that the average African American resident in metro Milwaukee
+  lived in a census tract that was 71.3% Black, even though African Americans
+  constituted approximately 15% of the total metropolitan population [SRC-01, SRC-02].
+
+This residential segregation was reinforced by rigid geographic, natural, and
+infrastructural barriers [SRC-07, SRC-08]:
+- The Menomonee River Valley: A steep, industrialized east-west river corridor that
+  historically functioned as Milwaukee's racial "Mason-Dixon Line," separating the
+  predominantly African American North Side from the white and Latino South Side
+  [SRC-07, SRC-08].
+- The 16th Street Viaduct (James E. Groppi Unity Bridge): Spanning nearly a mile
+  across the Menomonee Valley, the viaduct was the flashpoint of the 1967 Open Housing
+  marches led by Father James Groppi and the NAACP Youth Council, who faced violent
+  white counter-demonstrations when marching from the North Side into the South Side
+  [SRC-08]. In 1988, the Common Council and Mayor John Norquist officially renamed
+  the span the James E. Groppi Unity Bridge [SRC-08].
+- Interstate 43 (North-South Freeway): Constructed during the 1960s, the highway
+  was cut directly through Bronzeville along North 7th and 8th Streets—the historic
+  cultural and commercial epicenter of Black Milwaukee—demolishing hundreds of Black-
+  owned businesses, displacing thousands of families, and erecting an enduring
+  concrete barrier between neighborhoods [SRC-05, SRC-08].
+- Holton Street & The Milwaukee River: Demarcated the boundary dividing the Black
+  North Side from the predominantly white East Side and Riverwest [SRC-08].
+- The Near South Side Enclave: Traditionally settled by working-class German and
+  Polish immigrants, the near South Side (specifically Walker's Point, Mitchell
+  Street, and South 16th Street / Cesar Chavez Drive) transformed in the 1970s and
+  1980s into the vibrant heart of Milwaukee's growing Mexican-American and Puerto
+  Rican Latino community [SRC-07, SRC-08].
+
+
+A.3 THE NEAR WEST SIDE / AVENUES WEST & THE OXFORD APARTMENTS
+Anchor: #avenues-west-oxford-apartments (Alias: #ctx-oxford-apts)
+------------------------------------------------------------
+Jeffrey Dahmer murdered 12 of his 17 victims inside Apartment 213 of the Oxford
+Apartments, located at 924 N. 25th Street (situated on the east side of North 25th
+Street between West Kilbourn Avenue and West State Street) in the Avenues West
+neighborhood of Milwaukee's Near West Side (ZIP code 53233, Census Tract 137)
+[SRC-01, SRC-08, SRC-22: pp. 2–4; SRC-23: pp. 11–12].
+
+The Twelve Oxford Apartments Victims (Apartment 213):
+1. Raymond "Ricky Beeks" Smith (32*) — May 29, 1990 [Count 02] -> /victims#raymond-smith
+2. Edward "Eddie" Smith (27*) — June 14, 1990 [Count 03] -> /victims#eddie-smith
+3. Ernest Miller (23*) — September 2–3, 1990 [Count 03] -> /victims#ernest-miller
+4. David Courtney Thomas (22*) — September 24, 1990 [Count 04] -> /victims#david-thomas
+5. Curtis Straughter (17*) — February 18, 1991 [Count 05] -> /victims#curtis-straughter
+6. Errol Lindsey (19) — April 7, 1991 [Count 06] -> /victims#errol-lindsey
+7. Anthony "Tony" Hughes (31) — May 24, 1991 [Count 07] -> /victims#tony-hughes
+8. Konerak Sinthasomphone (14) — May 27, 1991 [Count 08] -> /victims#konerak-sinthasomphone
+9. Matt Turner (20) — June 30, 1991 [Count 09] -> /victims#matt-turner
+10. Jeremiah Weinberger (23*) — July 5–7, 1991 [Count 10] -> /victims#jeremiah-weinberger
+11. Oliver Lacy (23*) — July 12, 1991 [Count 11] -> /victims#oliver-lacy
+12. Joseph Bradehoft (25) — July 16, 1991 [Count 12] -> /victims#joseph-bradehoft
+Surviving Victim: Tracy Edwards — July 22, 1991 escape -> /case#arrest-and-discovery
+
+(Cross-tab victim concordance: Raymond Smith, Edward Smith, Ernest Miller, David Thomas, Curtis Straughter, Errol Lindsey, Anthony Hughes, Konerak Sinthasomphone, Matt Turner, Jeremiah Weinberger, Oliver Lacy, Joseph Bradehoft, Tracy Edwards.)
+
+In the late 19th century, the Near West Side along Grand Avenue (now West Wisconsin
+Avenue) had been celebrated as "Mansion Row," home to the opulent estates of
+Milwaukee's industrial titans, such as the Pabst Mansion at 2000 W. Wisconsin Ave
+[SRC-08]. However, following the Great Depression and post-war suburban migration,
+the neighborhood underwent extensive structural conversion. Opulent Victorian
+mansions were subdivided into high-density rooming houses, boarding hotels, or
+demolished for mid-century apartment blocks [SRC-08]. The Oxford Apartments, a
+two-story (plus garden basement) brick building containing 49 small multi-family
+rental units, was constructed circa 1955 [SRC-08, SRC-32].
+
+By the 1990 Census, Avenues West was defined by distinct physical and demographic
+pressures [SRC-01, SRC-08]:
+- Acute Rental Density: In Census Tract 137, more than 85% to 90% of occupied
+  housing units were renter-occupied, representing one of the highest rental
+  concentrations in the State of Wisconsin [SRC-01].
+- Demographic Volatility & Transience: The neighborhood housed a transient mix
+  of Marquette University undergraduate and professional students, low-wage service
+  laborers, fixed-income elderly residents, and transient roomers [SRC-08, SRC-32].
+- Absentee Ownership & Deferred Maintenance: High tenant turnover, absentee property
+  management, and minimal applicant screening created a domestic environment where
+  tenant irregularities went uninvestigated [SRC-08, SRC-32]. Dahmer leased
+  Apartment 213 in May 1990 for approximately $300 per month [SRC-32]. When neighbors
+  repeatedly lodged complaints with building management regarding unbearable chemical
+  odors, decomposition smells, and late-night electric sawing noises emanating from
+  Unit 213, Dahmer easily deflected scrutiny by claiming his refrigerator-freezer
+  had lost power, causing meat to spoil, or that he was pursuing taxidermy hobbies
+  [SRC-22: p. 2; SRC-32]. Management accepted these explanations without conducting
+  an inspection of the unit [SRC-32].
+
+In 1991–1992, Marquette University under President Father Albert J. DiUlio, SJ,
+launched the $50 million Campus Circle Project—a joint public-private redevelopment
+corporation formed to acquire, rehabilitate, and stabilize properties across Avenues
+West [SRC-08]. In 1992, Campus Circle acquired the vacant Oxford Apartments property
+for $325,000 [SRC-08, SRC-32]. Between November 16 and November 20, 1992, the entire
+49-unit building was completely demolished by wrecking crews to prevent macabre
+commercialization and morbid curiosity [SRC-08, SRC-32]. The site was graded,
+seeded, and fenced, remaining an open vacant greenspace [SRC-08].
+
+
+A.4 MPD INSTITUTIONAL CULTURE & ADMINISTRATIVE TRANSITION
+Anchor: #mpd-institutional-culture (Alias: #ctx-mpd-governance)
+---------------------------------------------------------
+The institutional culture of the Milwaukee Police Department (MPD) during the period
+of Dahmer's crimes (1987–1991) was defined by a contentious leadership transition
+and deep ideological fractures [SRC-09, SRC-10]:
+
+- Chief Harold A. Breier (Tenure: February 1964 – June 1984):
+  Appointed Chief of Police in February 1964 after serving as an MPD inspector, Breier
+  commanded the department for over two decades under statutory lifetime tenure
+  ("chief-for-life") [SRC-09, SRC-10]. Breier governed through an authoritarian,
+  paramilitary command model, maintaining absolute unilateral authority over
+  promotions, discipline, and departmental regulations [SRC-10, SRC-11]. He fiercely
+  opposed civilian oversight, resisted community-oriented policing, and rejected
+  affirmative action integration, insisting that aggressive vehicle stops and field
+  interrogations were the hallmarks of professional policing [SRC-10, SRC-11].
+  Breier publicly denied allegations of police misconduct and treated civil rights
+  groups and gay activists with open contempt [SRC-10, SRC-11, SRC-17].
+- The 1984 "Breier Bill" (Wisconsin Senate Bill 56 / 1983 Act 179):
+  In April 1984, following protracted public outrage over fatal police encounters, the
+  Wisconsin Legislature enacted Senate Bill 56, fundamentally overhauling Wisconsin
+  Statute § 62.50 [SRC-10, SRC-15]. The legislation dismantled the police chief's
+  statutory autonomy, empowering the civilian Fire and Police Commission (FPC) to
+  establish general departmental policies, inspect all records, and issue binding
+  written directives to the chief [SRC-10, SRC-15]. Refusing to accept civilian
+  governance and diminished authority, Chief Breier announced his retirement in June
+  1984, terminating the era of lifetime police chief tenure in Milwaukee [SRC-09, SRC-10].
+- Chief Robert J. Ziarnik (Tenure: 1984 – 1989):
+  An internal MPD veteran appointed to succeed Breier, Ziarnik enacted modest
+  modernizations but presided over an entrenched, defensive rank-and-file culture
+  [SRC-09, SRC-10]. Stymied by worsening political conflict with City Hall and the
+  FPC, Ziarnik resigned unexpectedly in 1989 [SRC-09, SRC-10].
+- Chief Philip Arreola (Tenure: November 1989 – 1996):
+  Appointed in November 1989 as Milwaukee's first police chief of Hispanic descent
+  and the first modern chief hired from outside the department (having previously
+  served as Chief of Police in Port Huron, Michigan) [SRC-09, SRC-10]. Arreola was
+  explicitly selected by the FPC with a mandate to implement community-oriented
+  policing (COP), diversify the force, and rebuild trust with Black and Latino
+  residents, launching neighborhood policing pilots in late 1989 and 1990 [SRC-09, SRC-10].
+- Union Backlash & The August 7, 1991 No-Confidence Vote:
+  Arreola's reform agenda met virulent hostility from the rank-and-file officers and
+  the union, the Milwaukee Police Association (MPA), headed by union president
+  Bradley DeBraska [SRC-10, SRC-32]. Following Dahmer's arrest on July 22, 1991, and
+  the discovery that responding officers (John Balcerzak, Joseph Gabrish, and Rick
+  Tricia) had returned 14-year-old Konerak Sinthasomphone to Dahmer's custody on
+  May 27, 1991, Chief Arreola suspended the officers with pay [SRC-10, SRC-31]. In
+  retaliation, on August 7, 1991, the MPA held an emergency union assembly in which
+  94% of voting officers (approximately 1,400 to 80) cast a vote of "no confidence"
+  against Chief Arreola, demanding his immediate resignation [SRC-10, SRC-31, SRC-32].
+  Arreola refused to step down, laying bare an unbridgeable institutional divide
+  between civilian reform leadership and rank-and-file resistance [SRC-10, SRC-11].
+
+
+A.5 HISTORICAL POLICE MISCONDUCT CONTROVERSIES & COMMUNITY DISTRUST
+Anchor: #ernest-lacy-case (Alias: #ctx-ernest-lacy)
+-------------------------------------------------------------------
+Decades before 1991, profound distrust separated Milwaukee's minority communities
+from the MPD, forged by documented police homicides and subsequent institutional
+cover-ups [SRC-10, SRC-11]:
+
+- The Daniel Bell Homicide (February 2, 1958 / 1979 / 1981):
+  On February 2, 1958, 22-year-old Daniel Bell was fatally shot in the back of the neck
+  by MPD Patrolman Thomas Grady following a traffic stop for a broken taillight
+  [SRC-10, SRC-11]. Grady planted a toy knife on Bell's body, falsely claiming self-
+  defense; a coroner's inquest promptly exonerated the officer [SRC-10]. Over two
+  decades later, in 1978–1979, Grady's partner, Louis Krause, came forward and
+  confessed to the fabrication and conspiracy [SRC-10]. Grady was convicted in 1979
+  of reckless homicide and perjury [SRC-10]. In 1981, a federal civil rights jury
+  awarded Bell's estate $1.6 million, affirmed on appeal (Bell v. City of Milwaukee,
+  746 F.2d 1205 [7th Cir. 1984]), with the court documenting that top-ranking MPD
+  supervisors had actively engaged in a 20-year racial cover-up [SRC-10, SRC-11].
+- The Ernest Lacy Homicide (July 9, 1981):
+  On July 9, 1981, 22-year-old Ernest Lacy, an African American man on an errand, was
+  stopped by MPD Tactical Enforcement Unit officers near 23rd and Wisconsin Avenue
+  (two blocks from 25th Street), having been mistaken for a sexual assault suspect
+  [SRC-11, SRC-12, SRC-13]. Officers wrestled Lacy face-down to the pavement,
+  handcuffed him behind his back, and forced him into a police tactical transport
+  van, where an officer kneeled on his back and neck [SRC-12, SRC-13]. Lacy ceased
+  breathing and died of cerebral anoxia (asphyxiation) [SRC-12, SRC-13]. The actual
+  assault suspect was apprehended hours later [SRC-13].
+  A coroner's inquest recommended charges, but criminal prosecutions against the
+  involved officers were dismissed or concluded in acquittals [SRC-12, SRC-13]. The
+  incident triggered massive civic uprisings led by the Coalition for Justice for
+  Ernest Lacy (spearheaded by community organizers Howard Fuller and Michael McGee)
+  [SRC-11, SRC-13]. In 1984, the City of Milwaukee approved a $600,000 settlement
+  with the Lacy family, and the Wisconsin Legislature enacted the "Lacy Law,"
+  criminalizing as a felony an officer's failure to provide necessary medical care
+  to a person in physical custody [SRC-11, SRC-13].
+- Institutional Skepticism in 1991:
+  These flashpoints explain why Black residents in the Near West Side viewed police
+  interventions with deep skepticism. When African American bystanders Sandra Smith,
+  Nicole Childress, and Glenda Cleveland attempted to protect 14-year-old Konerak
+  Sinthasomphone on May 27, 1991, responding officers threatened the women with arrest
+  if they continued to question the officers' decision to return the dazed, naked boy
+  to Dahmer's apartment [SRC-11, SRC-14, SRC-31].
+
+
+A.6 MILWAUKEE'S LGBTQ COMMUNITY, THE AIDS CRISIS & CIVIL RIGHTS
+Anchor: #milwaukee-lgbtq-history (Alias: #ctx-lgbtq-history)
+---------------------------------------------------------------
+The social landscape surrounding the Dahmer case was heavily shaped by Milwaukee's
+LGBTQ community history, public health mobilizations, and systemic estrangement
+from municipal authorities [SRC-16, SRC-17]:
+
+- Wisconsin's First-in-the-Nation 1982 Gay Rights Law (Chapter 112, Laws of 1981):
+  On February 25, 1982, Republican Governor Lee Sherman Dreyfus signed Assembly Bill
+  70 (AB 70) into law (enacted as Chapter 112, Laws of 1981; published March 1, 1982;
+  effective March 2, 1982) [SRC-15]. Authored by Representative David Clarenbach
+  (D-Madison) with broad bipartisan backing, Chapter 112 made Wisconsin the first
+  state in the United States to outlaw discrimination based on sexual orientation
+  in employment, housing, credit, and public accommodations [SRC-15, SRC-16].
+- Vibrant Nightlife Enclaves & Resistance:
+  Decades before 1991, Milwaukee sustained an active, organized LGBTQ subculture,
+  predominantly situated in the Walker's Point district on the Near South Side along
+  South 2nd and South 5th Streets [SRC-16]. Established venues included Club 219
+  (219 S. 2nd St, where Dahmer encountered multiple victims), The Phoenix, The
+  Triangle, Ballgame, C'est La Vie, and This Is It (414 E. Wells St, operating
+  continuously since 1968, Milwaukee's oldest gay bar) [SRC-16]. Historic resistance
+  to homophobic aggression had been proven during the August 5, 1961 Black Nite Brawl
+  at 400 N. Plankinton Ave, where gay patrons fought off attacking servicemen eight
+  years prior to New York's Stonewall Riots [SRC-16, SRC-17].
+- The HIV/AIDS Epidemic & Institutional Infrastructure:
+  Wisconsin documented its first official AIDS diagnosis in 1982 [SRC-18]. In
+  response, gay health professionals and activists mobilized community healthcare
+  resources. The BESTD Clinic (Brady East STD Clinic), established in 1974 at 1240
+  E. Brady Street as a free, non-judgmental sexual health facility, formed the
+  Milwaukee AIDS Project (MAP) in January 1985 under Executive Director Doug Nelson
+  [SRC-18, SRC-19, SRC-20]. MAP formally incorporated as an independent 501(c)(3)
+  in August 1985, establishing buddy support systems, emergency food pantries, and
+  housing assistance, eventually evolving into the statewide AIDS Resource Center of
+  Wisconsin (ARCW, now Vivent Health) [SRC-18, SRC-19, SRC-20].
+- Police Surveillance, Bathhouse Raids & Reporting Avoidance:
+  Despite statewide anti-discrimination statutes, municipal policing under Chiefs
+  Breier and Ziarnik remained aggressively hostile toward LGBTQ residents [SRC-16, SRC-17].
+  MPD vice squads conducted continuous undercover stings in public parks, bathhouses
+  (such as the Club Baths), and taverns [SRC-16, SRC-17]. Officers routinely arrested
+  gay men for misdemeanor lewd conduct and forwarded their full names, home addresses,
+  and employers to local daily newspapers for public publication, inflicting immediate
+  family alienation, employment termination, and eviction [SRC-16, SRC-17].
+  This institutional hostility created pervasive underreporting: gay victims of
+  assault, robbery, blackmail, or drugging routinely declined to contact the police
+  out of justifiable fear of outing and criminal prosecution [SRC-16, SRC-17]. This
+  deep estrangement created an informational void that allowed an active predator to
+  frequent gay nightlife spaces without fear of law enforcement interference.
+
+
+A.7 CRIMINOLOGICAL FRAMEWORK: STEVEN EGGER'S "LESS-DEAD" CONCEPT
+Anchor: #less-dead-framework (Alias: #ctx-less-dead)
+---------------------------------------------------------------
+In his criminological studies of serial murder, Steven Egger (1990, 2002) coined the
+term "the less dead" to describe how serial murderers frequently select victims from
+socially marginalized populations—including runaways, street-involved youth, sex
+workers, gay men, and poor minority individuals [SRC-21]. Egger posited that because
+dominant cultural institutions and law enforcement agencies historically devalue
+these groups, missing-person filings regarding marginalized individuals often elicit
+minimal media urgency, perfunctory preliminary investigations, and delayed
+institutional mobilization [SRC-21].
+
+Editorial Boundary for the Context Section:
+1. Analytical Tool, Not Offender Motive:
+   Egger's concept must be applied strictly as a sociological framework to assess the
+   systemic, societal, and institutional responsiveness to the disappearances of
+   Dahmer's victims [SRC-21].
+2. Rejection of Conscious Offender Strategy:
+   The text must NEVER state that Dahmer consciously selected victims because he
+   theorized or calculated that the police would not care about them. Attributing a
+   sophisticated sociological strategy to Dahmer is unsupported by evidence [SRC-21, SRC-23].
+3. The Objective Operational Buffer:
+   The objective reality of systemic racism, homophobia, and residential segregation
+   functioned as an unintentional operational shield that insulated Dahmer's crimes
+   from early detection and delayed municipal accountability [SRC-11, SRC-21].
+
+
+A.8 ANALYTICAL SYNTHESIS: WHY CONTEXT MATTERS
+Anchor: #historical-context-synthesis (Alias: #ctx-synthesis)
+---------------------------------------------
+The socio-economic, racial, and institutional context of Milwaukee between 1987 and
+1991 does not excuse or explain serial murder. However, rigorous historical analysis
+is indispensable to understanding the architecture of the tragedy:
+- It explains the physical urban landscape: Why the Oxford Apartments existed as a
+  high-density, transient rental property with absentee management where chemical
+  fumes and sawing noises could be ignored [SRC-01, SRC-08].
+- It explains victim vulnerability: Why young men navigating segregated urban
+  corridors with diminished economic opportunities entered Dahmer's sphere [SRC-05].
+- It explains institutional silence: Why victims' families were dismissed when filing
+  missing-person reports, why civilian witnesses were rebuffed on May 27, 1991, and
+  why gay residents refrained from reporting nightlife victimization [SRC-11, SRC-16].
+
+For downstream examinations of institutional failure and community aftermath:
+    Explore Systemic Failures -> /topics/systemic-failures
+    Explore Community & Civic Impact -> /impact/community-civic-impact
+    Explore the Master Timeline -> /timeline
+
+
+================================================================================
+SECTION B — EARLY LIFE & BACKGROUND (1960–1988)
+================================================================================
+
+B.1 BIRTH, FAMILY ORIGINS & RESIDENTIAL MOBILITY (1960–1978)
+Anchor: #birth-and-family-origins (Aliases: #early-life, #ctx-bio-early-life)
+------------------------------------------------------------
+Jeffrey Lionel Dahmer was born on May 21, 1960 at Evangelical Deaconess Hospital in
+Milwaukee, Wisconsin [SRC-22: p. 28; SRC-23: p. 3; SRC-27: p. 23].
+
+Primary FBI Vault records anchor these vital statistics:
+- FBI Vault Part 01, physical Page 28 (Teletype DE FBIMW 0001, Page Two, dated July 31, 1991):
+  "JEFFREY LIONEL DAHMER IS A WHITE MALE; AGE 31; DATE OF BIRTH 5/21/60; PLACE OF
+  BIRTH MILWAUKEE, WISCONSIN; HEIGHT 6'0"; WEIGHT 180 POUNDS; EYES BLUE; HAIR
+  BROWN; SOCIAL SECURITY ACCOUNT NUMBER 384-60-5333; FBI NUMBER 106568AA8." [SRC-22: p. 28]
+- FBI Vault Part 03, physical Page 3 (Form FD-302 Behavioral Science Unit Interview,
+  Page 1, dated August 3, 1992):
+  "JEFFREY L. DAHMER, white male, date of birth May 21, 1960, was interviewed by
+  Special Agents..." [SRC-23: p. 3]
+
+Parents:
+- Father: Lionel Herbert Dahmer (born March 13, 1936, West Allis, WI; died December
+  2023) [SRC-27]. At the time of Jeffrey's birth, Lionel was a senior undergraduate
+  student in chemistry at Marquette University in Milwaukee; he later earned a
+  Master of Science degree at the University of Detroit and a Ph.D. in analytical
+  chemistry at Iowa State University in Ames, Iowa (1966), before accepting an
+  analytical research chemist position at PPG Industries in Barberton, Ohio [SRC-27].
+- Mother: Joyce Annette Flint (born February 7, 1936, Columbus, WI; died November 27,
+  2000, Fresno, CA) [SRC-27]. Married Lionel in April 1959. Throughout Jeffrey's
+  childhood, Joyce suffered from severe emotional distress, chronic depression,
+  hypochondria, and ongoing prescription use of sedatives, barbiturates, and
+  tranquilizers (specifically Equanil) [SRC-27].
+
+Sibling:
+- Younger Brother: David Anthony Dahmer, born on December 18, 1966 in Ames, Iowa
+  (six years and seven months younger than Jeffrey) [SRC-23: p. 3; SRC-27: p. 45].
+  In his 1992 FBI Behavioral Science Unit interview, Dahmer noted:
+  "DAHMER stated that he had a lonely childhood in that his only sibling was a
+  brother which was six years younger than him, and he never really had any close
+  personal friends." [SRC-23: p. 3]
+
+Childhood Residential Relocations:
+- 1960–1962: Milwaukee, Wisconsin (father's undergraduate degree completion).
+- 1962–1966: Ames, Iowa (father's doctoral research at Iowa State University).
+- 1966–1968: Doylestown / Barberton, Ohio (father's employment at PPG Industries).
+- 1968–1978: 4480 West Bath Road, Bath Township (near Akron and Richfield), Summit
+  County, Ohio [SRC-27].
+
+
+B.2 CHILDHOOD HEALTH & ATTRIBUTED RECOLLECTIONS (1964)
+Anchor: #childhood-health-recollections
+------------------------------------------------------
+Shortly before his fourth birthday in early 1964, Dahmer underwent surgery for the
+repair of bilateral inguinal hernias [SRC-27: pp. 28–29].
+
+In his memoir, A Father's Story (1994), Lionel Dahmer recalled that following the
+surgery, Jeffrey appeared noticeably more subdued, quiet, and emotionally detached
+[SRC-27: pp. 28–29]. Subsequent popular biographies frequently repeated this
+recollection, speculating that the surgery triggered an emotional transformation.
+
+Editorial Standard:
+- Lionel Dahmer's observation must be cited strictly as an attributed parental
+  recollection, not as an established medical fact [SRC-27].
+- Forensic psychiatric evaluations conducted by Dr. Park Dietz, Dr. Phillip Resnick,
+  and Dr. Fred Berlin during the 1992 sanity trial established that routine pediatric
+  hernia surgery bears zero causal relationship to adult necrophilic paraphilia
+  or violent serial crime [SRC-25].
+
+
+B.3 DOMESTIC INSTABILITY & 1978 PARENTAL DIVORCE
+Anchor: #family-instability-divorce
+-------------------------------------------------
+Throughout the 1970s, the Dahmer household in Bath Township was characterized by
+protracted parental hostility, volatile arguments, and maternal depression [SRC-27].
+In early 1978, during Jeffrey's senior year of high school, Lionel Dahmer moved out
+of the family residence into a nearby motel [SRC-27].
+
+The marital dissolution proceeded through the Summit County Court of Common Pleas
+(Domestic Relations Division) in Akron, Ohio, with the divorce finalized on July 24,
+1978 [SRC-27]. Joyce was awarded custody of 11-year-old David and child support
+payments. In the summer of 1978, Joyce vacated the Bath Road residence, moving with
+David to Chippewa Falls, Wisconsin (and subsequently to Montana and California) [SRC-27].
+Because Jeffrey had turned 18 on May 21, 1978, and graduated from high school, both
+parents assumed the other was monitoring him. Consequently, Dahmer lived completely
+alone and unsupervised in the secluded Bath Road residence throughout June, July,
+and August 1978 [SRC-23: p. 9; SRC-27].
+
+In his FBI interview, Dahmer acknowledged that this total absence of parental
+supervision created the opportunity to act out his violent impulses:
+"DAHMER knew that his parents and brother were gone for the weekend, so it gave him
+the perfect opportunity to act out his fantasies. DAHMER stated that he picked up
+STEVEN HICKS and then brought him back to his parents' place and then killed him."
+[SRC-23: p. 9]
+
+
+B.4 ANIMAL REMAINS, BONE BLEACHING & RIGOROUS MACDONALD TRIAD DISCONFIRMATION
+Anchor: #animal-remains-anatomy
+-----------------------------------------------------------------------------
+Between approximately 1968 and 1974, Dahmer developed a deep curiosity regarding
+animal anatomy, skeletons, and preservation methods [SRC-23: p. 55; SRC-27: pp. 58–60].
+
+- Father's Educational Demonstration (~1968–1970):
+  When Jeffrey was roughly eight to ten years old, Lionel Dahmer crawled beneath the
+  family's Bath Road home with him to clean out small animal carcasses and chicken
+  bones deposited by former tenants [SRC-27: pp. 58–60]. Lionel, an analytical
+  chemist, demonstrated how to clean, bleach, and preserve the bones using household
+  chemicals, viewing this strictly as a shared educational lesson in osteology and
+  chemistry [SRC-27: pp. 58–60].
+- Stepmother Shari Dahmer's Corroboration:
+  In FBI press clippings preserved in Vault Part 03, physical Page 55 (Associated
+  Press / Charlotte Observer, July 26, 1991), family members recalled:
+  "Dahmer liked to use acid to scrape the meat off dead animals. He told his father,
+  Lionel, he was doing experiments." [SRC-23: p. 55]
+- Roadkill Collecting (~Age 10–14):
+  Dahmer began searching roadways and woodlands in Bath Township for vehicle-killed
+  animals (dogs, cats, raccoons, squirrels). He brought carcasses to a small wooden
+  shed behind the house, dismembered them, stripped flesh, and preserved bones in
+  jars [SRC-27, SRC-28]. Contemporaneously, parents, teachers, and peers perceived
+  this behavior as an eccentric, macabre interest in taxidermy and biology [SRC-27, SRC-28].
+- Retrospective Disclosure of Sexualized Arousal:
+  During post-arrest interrogations in July 1991 and his August 3, 1992 FBI BSU
+  interview, Dahmer disclosed for the first time that his interest in animal carcasses
+  became sexually eroticized around age 14:
+  "DAHMER stated that he had a fascination with death and when he was around 14 he
+  used to bring home road kill, and then dissect it, because he liked to look at the
+  internal organs. DAHMER stated that he got sexually aroused when he would look at
+  the internal organs. DAHMER stated that he never had sex with any animals." [SRC-23: p. 3]
+  Strict Attribution Rule: This sexual arousal was an internal, subjective state
+  disclosed retrospectively in 1991–1992, NOT a documented childhood observation.
+- Disconfirmation of the Macdonald Triad:
+  The classic criminological triad (childhood enuresis/bedwetting, pyromania/fire-
+  setting, and animal cruelty) does NOT apply to Jeffrey Dahmer [SRC-23: pp. 4, 8].
+  * FBI Primary Locator 1 (Part 03, physical Page 8):
+    "DAHMER was asked by the interview agents if he had any fascination with fire,
+    or if he was a bedwetter as a child, or any cruelty to animals. DAHMER stated
+    that he has never had any fascination with fire, nor was he ever a bedwetter,
+    and the only fascination he had with animals was the road kill that he brought
+    home to dissect. DAHMER stated that he was never cruel to any animals." [SRC-23: p. 8]
+  * FBI Primary Locator 2 (Part 03, physical Page 4):
+    "DAHMER was asked by the interviewing agents if he had ever killed an animal,
+    and DAHMER stated that he intended to on one occasion, where he had found an
+    Irish setter and brought it home and was going to kill it and then skin it and
+    dissect, but when the dog looked at him with its eyes, DAHMER could not kill it,
+    so he just let the dog go." [SRC-23: p. 4]
+  * Forensic Consensus: Dr. Park Dietz testified in 1992 that Dahmer's psychopathology
+    represented pure necrophilia driven by acute fear of abandonment and a need for
+    absolute control over an unresisting partner, wholly distinct from sadistic animal
+    torture [SRC-25].
+
+
+B.5 REVERE HIGH SCHOOL & SEVERE ESCALATING ALCOHOLISM (1974–1978)
+Anchor: #revere-high-school-alcoholism
+-----------------------------------------------------------------
+Dahmer attended Revere High School in Bath Township (Richfield, Ohio) from September
+1974 until his graduation in June 1978 [SRC-27, SRC-28].
+
+- School Activities & Social Antics:
+  Dahmer played clarinet in the Revere High School marching and concert band and
+  competed on the junior varsity tennis team [SRC-27, SRC-28]. Classmates, notably
+  graphic memoirist John "Derf" Backderf (My Friend Dahmer, 2012), documented that
+  Dahmer gained brief social recognition by staging bizarre, disruptive comedic
+  routines dubbed "Doing a Dahmer"—mocking epileptic seizures, simulating cerebral
+  palsy spasticity, bleating like a sheep, and making unprovoked guttural outbursts
+  in hallways, classrooms, and local stores [SRC-28]. In Spring 1978, Dahmer snuck
+  uninvited into the official National Honor Society group photo; school administrators
+  discovered the prank and blacked out his likeness before printing [SRC-28].
+- Escalating Chronic Alcoholism:
+  Dahmer began consuming alcohol regularly around age 14 (ninth grade) [SRC-27]. By
+  his junior and senior years (1976–1978), he was severely alcohol-dependent,
+  smuggling beer and hard liquor into school inside his jacket, locker, or briefcase,
+  and drinking continuously before, during, and after classes [SRC-27, SRC-28].
+  While teachers and peers frequently noted the smell of alcohol on his breath and
+  observed him visibly inebriated in class, no formal disciplinary action, medical
+  evaluation, or substance counseling was ever initiated by school authorities [SRC-27, SRC-28].
+  In his FBI interview, Dahmer noted:
+  "DAHMER stated that he also started drinking heavily to try to suppress his
+  fantasies, but that did not help." [SRC-23: p. 3]
+
+
+B.6 OHIO STATE UNIVERSITY ENROLLMENT & ACADEMIC COLLAPSE (AUTUMN 1978)
+Anchor: #ohio-state-university-dismissal
+---------------------------------------------------------------------
+Following his high school graduation and the murder of Steven Hicks in June 1978,
+Lionel Dahmer insisted that Jeffrey pursue higher education [SRC-27]. In September
+1978, Dahmer enrolled at The Ohio State University (OSU) in Columbus, Ohio, for the
+Autumn Quarter of 1978, residing in Room 541 of Morrill Tower, a 24-story campus
+residence hall [SRC-27].
+
+Dahmer's severe alcohol addiction rendered him completely unable to participate in
+university life [SRC-27]. He spent nearly the entire quarter intoxicated in his dorm
+room, rarely attending lectures, labs, or exams [SRC-27]. At the close of Autumn
+Quarter in December 1978, his cumulative grade point average was below 0.50 on a 4.0
+scale, having failed nearly all registered courses [SRC-27]. OSU formally placed
+Dahmer on academic probation and dismissed him from enrollment [SRC-27]. In late
+December 1978, Lionel Dahmer drove to Columbus to retrieve him, finding the dorm room
+littered with empty liquor containers [SRC-27].
+
+
+B.7 U.S. ARMY SERVICE & CHAPTER 9 HONORABLE DISCHARGE (1979–1981)
+Anchor: #us-army-service-counseling (Aliases: #military, #ctx-edu-military)
+-----------------------------------------------------------------
+Confronted with his college failure, Lionel Dahmer gave Jeffrey an ultimatum: obtain
+employment or enlist in the military to establish personal discipline [SRC-27].
+
+- Enlistment: Dahmer enlisted in the U.S. Army on January 12, 1979 (`1/12/79`)
+  [SRC-23: p. 23].
+- Training: Basic combat training was completed at Fort McClellan, Alabama (per FBI
+  Part 03 p. 23) or Fort Leonard Wood, Missouri (per parental memoir) [SRC-23: p. 23;
+  SRC-27: p. 77]. He completed Advanced Individual Training (AIT) at Fort Sam
+  Houston in San Antonio, Texas, qualifying in Military Occupational Specialty (MOS)
+  91B10 as a Combat Medical Specialist [SRC-22: p. 29; SRC-23: p. 23].
+- Deployment to Baumholder, West Germany:
+  From June 1979 until March 24, 1981, Dahmer served overseas in Baumholder, West
+  Germany, assigned to Headquarters Company, 2nd Battalion, 68th Armor Regiment
+  (organic battalion of the 8th Infantry Division, Mechanized); he attained rank
+  E-2 / Specialist 4 [SRC-22: p. 29; SRC-23: p. 23].
+- Documented Platoon Sergeant Counseling for Alcohol Abuse:
+  Dahmer's military personnel dossier records persistent alcohol abuse and seven
+  formal counseling sessions conducted by his platoon sergeant [SRC-22: p. 29]:
+  1. August 8, 1980 (`8/8/80`)
+  2. August 11, 1980 (`8/11/80`)
+  3. September 2, 1980 (`9/2/80`)
+  4. December 8, 1980 (`12/8/80`)
+  5. December 23, 1980 (`12/23/80`)
+  6. March 7, 1981 (`3/7/81`)
+  7. March 9, 1981 (`3/9/81`)
+- Rehabilitation Program Failure:
+  On February 5, 1981, Dahmer was formally enrolled in the Army Drug and Alcohol
+  Abuse Prevention and Control Program (ADAPCP / CDAAP) [SRC-22: p. 29]. However,
+  military records establish that he refused to participate meaningfully in treatment
+  and stated he was unwilling to curtail his drinking [SRC-22: p. 29].
+- Separation & Honorable Discharge:
+  Declared non-rehabilitative, Dahmer was transferred on March 24, 1981 from Germany
+  to Fort Jackson, South Carolina, and administratively discharged on March 26, 1981
+  under Chapter 9, Army Regulation 635-200 ("Alcohol or Other Drug Abuse that Impairs
+  Performance") with an Honorable Discharge [SRC-22: p. 29; SRC-23: p. 23].
+- Physical FBI Vault Pagination Resolution:
+  Forensic page-by-page visual inspection confirms that the complete military dossier
+  resides on physical Page 29 of `Dahmer Part 01.pdf` (DE FBIMW 0001, Page Three)
+  and physical Page 23 of `Jeffrey Lionel Dahmer Part 03 of 19.pdf`, correcting
+  erroneous references in prior working drafts citing "pp. 26–27" [SRC-22: p. 29; SRC-23: p. 23].
+
+
+B.8 CATHERINE DAHMER WEST ALLIS RESIDENCE (LATE 1981 – MAY 1990)
+Anchor: #west-allis-grandmother-residence (Alias: #ctx-west-allis)
+----------------------------------------------------------------
+Following his Army discharge and a brief stay in Miami Beach, Florida, Dahmer moved
+in late 1981 (December 1981) to 2357 S. 57th Street in West Allis, Wisconsin, to
+reside with his paternal grandmother, Catherine Dahmer [SRC-27].
+
+Dahmer maintained his legal residence at the 57th Street home continuously until
+leasing Apartment 213 at Oxford Apartments in May 1990 [SRC-25, SRC-27]. While he
+briefly leased an apartment at 808 N. 24th Street (Apartment 3, Apt 3) in Milwaukee in September 1988, he
+returned to his grandmother's home following his September 27, 1988 arrest. He resided
+there while on pretrial release awaiting sentencing, listed it as his permanent
+residence while serving his 1989–1990 Huber work-release custodial sentence, and
+lived there upon release until May 1990 [SRC-25, SRC-27].
+
+Four homicides were committed or processed in the basement of the West Allis home:
+1. Steven Walter Tuomi (24*): Body dismembered and disposed of in the basement
+   following the homicide at the Ambassador Hotel in late 1987 [SRC-23: p. 10].
+2. James "Jamie" Doxtator (14*): Murdered in the basement on January 16, 1988;
+   charged under Count 13 as pre-1988 First-Degree Murder [SRC-22: p. 43, p. 60].
+3. Richard Guerrero (22*): Murdered in the basement on March 24, 1988; charged
+   under Count 14 as pre-1988 First-Degree Murder [SRC-22: p. 60; SRC-24: p. 13].
+4. Anthony Lee Sears (24): Murdered in the basement on March 25–26, 1989 while Dahmer
+   was on pretrial release awaiting felony sentencing; head and specimens preserved
+   [SRC-22: p. 24; SRC-24: p. 12].
+
+
+B.9 AMBROSIA CHOCOLATE FACTORY EMPLOYMENT (1985–1991)
+Anchor: #ambrosia-chocolate-employment (Alias: #ctx-ambrosia-chocolate)
+-----------------------------------------------------
+From January 14, 1985 until July 15, 1991, Dahmer was employed at the Ambrosia
+Chocolate Company manufacturing plant, located at 1133 North 5th Street in downtown
+Milwaukee [SRC-08, SRC-32].
+
+- Job Role: Worked as a third-shift (11:00 PM – 7:00 AM) industrial mixer and machine
+  operator [SRC-32].
+- Huber Work-Release Integration: This steady employment provided the judicial
+  foundation for Milwaukee County Circuit Judge William Gardner granting Dahmer Huber
+  Law work-release privileges during his one-year sentence to the Milwaukee County
+  House of Correction (May 1989 – March 1990) [SRC-25, SRC-32]. Dahmer was locked in
+  custody during daytime hours and released under escort each night to work his shift
+  at the chocolate factory [SRC-25, SRC-32].
+- Termination: Dahmer was fired on July 15, 1991 (seven days prior to his arrest)
+  for chronic, unexcused absenteeism, directly coinciding with the escalation of his
+  murders during June and July 1991 [SRC-32].
+
+
+B.10 PRE-1988 LEGAL CONTACTS & MISDEMEANOR PROBATION
+Anchor: #pre-1988-legal-contacts (Alias: #ctx-legal-pre1988)
+----------------------------------------------------
+Prior to the 1988 sexual assault of Somsack Sinthasomphone, Dahmer accumulated three
+separate criminal arrests across two states:
+
+1. October 7, 1981 — Ramada Inn Arrest (Bath Township, OH):
+   Arrested by Bath Township Police at Maxwell's Lounge in the Ramada Inn (Route 18)
+   for disorderly conduct and public intoxication after refusing to leave; pleaded
+   guilty, assessed a $60 fine and a suspended 10-day jail term [SRC-27]. (This local
+   Ohio municipal matter is absent from FBI Vault Part 01) [SRC-22].
+2. August 8, 1982 — State Fair Park Arrest (West Allis, WI):
+   Arrested by State Fair Park Police near the Coliseum for exposing his genitals and
+   masturbating in public in front of ~25 spectators; convicted in West Allis
+   Municipal Court of disorderly conduct and fined $50 [SRC-22: p. 28; SRC-25].
+3. September 8, 1986 — McKinley Beach Arrest (Milwaukee, WI):
+   Arrested by MPD officers at McKinley Beach along Lake Michigan after exposing
+   himself and masturbating near two boys (ages 12–14); charged with lewd and
+   lascivious behavior [SRC-22: p. 28; SRC-25].
+4. March 10, 1987 — Conviction & Probation Sentence:
+   In Milwaukee County Circuit Court, the charge was reduced through a negotiated plea
+   to misdemeanor disorderly conduct; Dahmer was sentenced to one year of probation,
+   assessed a $250 fine, ordered to attend outpatient psychiatric counseling, and
+   ordered to stay away from McKinley Beach [SRC-22: p. 28; SRC-25].
+
+
+B.11 INSTITUTIONAL SILOING & PROBATION SUPERVISION BREAKDOWN
+Anchor: #probation-supervision-failure
+-----------------------------------------------------------
+The handling of Dahmer's pre-1988 criminal contacts exemplifies severe systemic
+failures in cross-jurisdictional information tracking and community supervision:
+- Information Siloing: Because local municipal misdemeanor ordinance violations
+  (1981 Ramada Inn, 1982 State Fair) were not transmitted to interstate FBI NCIC
+  dockets, Milwaukee County prosecutors and judges evaluated Dahmer in 1986–1987 as
+  an individual with no prior criminal record [SRC-22, SRC-25].
+- Active Murders During State Supervision: Dahmer's probation ran from March 10, 1987
+  until March 1988. During this exact period of court supervision:
+  * In late 1987, Steven Tuomi was killed at the Ambassador Hotel and dismembered at
+    the West Allis home [SRC-23: p. 10].
+  * On January 16, 1988, 14-year-old James Doxtator was murdered in the West Allis
+    basement [SRC-22: p. 43, p. 60].
+  * On March 24, 1988, 22-year-old Richard Guerrero was murdered in the West Allis
+    basement [SRC-22: p. 60; SRC-24: p. 13].
+- Deception of Probation Authorities:
+  In his FBI Behavioral Science Unit interview, Dahmer explained how easily he misled
+  probation authorities through polite, compliant behavior:
+  "DAHMER stated that as far as the probation and parole agent was concerned, DAHMER
+  was a model client. DAHMER stated that his probation agent did not interfere with
+  him at all and that he just worked around the agent." [SRC-23: p. 9]
+  Probation agents never conducted unannounced home visits or inspected the West Allis
+  residence, relying exclusively on scheduled monthly office interviews [SRC-23: p. 9; SRC-25].
+
+
+B.12 ADOLESCENT FANTASIES & THE ABORTED JOGGER INCIDENT
+Anchor: #adolescent-fantasies-jogger
+---------------------------------------------------
+During post-arrest interrogations and clinical evaluations, Dahmer stated that during
+mid-adolescence (around age 15–16), his sexual fantasies became increasingly focused
+on complete domination and sexual control over an unconscious, passive male partner
+[SRC-23: p. 3; SRC-27, SRC-29].
+
+- The Aborted Jogger Incident (~1976):
+  At approximately age 16, Dahmer watched an unfamiliar male jogger run past the Bath
+  Road home on a recurring schedule. Dahmer waited along the road concealed behind
+  trees, armed with a baseball bat (or club), planning to strike the jogger
+  unconscious and drag him into the woods to act out fantasies [SRC-27: pp. 71–72; SRC-29].
+  The jogger did not appear that day, and the planned assault was abandoned [SRC-27].
+- Editorial Standard: This incident documents an early violent premeditation, but it
+  must be cited strictly as an attributed retrospective disclosure [SRC-27, SRC-29].
+
+
+B.13 THE FIRST HOMICIDE & CRIMINAL TRANSITION (STEVEN HICKS, JUNE 18, 1978)
+Anchor: #transition-1978-first-homicide
+--------------------------------------------------------------------------
+On June 18, 1978, three weeks after graduating from Revere High School and with his
+parents absent, Dahmer picked up 18-year-old hitchhiker Steven Mark Hicks on Route
+21 in Bath Township [SRC-22: p. 5; SRC-23: p. 9; SRC-26; SRC-31].
+
+Dahmer lured Hicks to the Bath Road house with beer. When Hicks announced he wanted
+to leave several hours later, Dahmer struck him from behind with a 10-pound barbell,
+fracturing his skull, and strangled him to death [SRC-22: p. 5; SRC-23: p. 9; SRC-26].
+Dahmer dragged the body to the basement, dismembered the corpse, packed the remains
+into garbage bags, and loaded them into the trunk of his vehicle [SRC-23: p. 9].
+
+At approximately 3:00 AM on June 19, while driving to dispose of the body, Dahmer was
+stopped by a Bath Township police officer for driving left of center [SRC-23: p. 9].
+The officer questioned him regarding the heavy garbage bags in the back, accepted
+Dahmer's explanation that he was hauling trash, issued a traffic citation, and
+released him without searching the bags [SRC-23: p. 9]. Dahmer subsequently buried
+the remains in a wooded ravine behind the house [SRC-23: p. 9]. In 1980, he exhumed
+the skeleton, pulverized the bones with a sledgehammer, and scattered the fragments
+[SRC-23: p. 9; SRC-26].
+
+Steven Hicks's father filed a missing-person report with the Summit County Sheriff's
+Office on June 24, 1978 [SRC-22: p. 60; SRC-23: pp. 51–52]. The murder remained
+unsolved until Dahmer's post-arrest confession in July 1991 [SRC-22: p. 5; SRC-31].
+
+The Hicks murder represents the critical boundary where childhood and adolescent
+background transitions into active serial homicide.
+
+Downstream Research Transitions:
+    Explore the Master Timeline -> /timeline
+    Explore The Victims (Table 1) -> /victims
+    Explore the Offense Series -> /case#offense-series
+    Explore Case Overview -> /overview
+
+
+================================================================================
+ARCHITECTURAL CROSSWALK & ANCHOR CONCORDANCE TABLE
+================================================================================
+
+| Context Subsection & Anchor ID | Core Topic & Chronological Scope | Linked Timeline Event Anchor | Linked Victims Profile | Downstream Thematic Link |
+|---|---|---|---|---|
+| **A.1** `#macroeconomic-restructuring` (Alias: `#ctx-econ-deindustrialization`) | Deindustrialization, manufacturing losses (1963–1991) | `#event-1990-oxford-move` | General Demographic Baseline | `/topics/systemic-failures#macro-setting` |
+| **A.2** `#residential-segregation` (Alias: `#ctx-seg-indices`) | 1990 Census segregation indices (D=82.8–84.4, P*=71.3) | `#event-1990-oxford-move` | General Demographic Baseline | `/topics/systemic-failures#housing-segregation` |
+| **A.3** `#avenues-west-oxford-apartments` (Alias: `#ctx-oxford-apts`) | Oxford Apts, 924 N. 25th St, Apt 213 (May 1990–Jul 1991) | `#event-1990-oxford-move`, `#event-1992-oxford-demolition` | Victims 6–17 (12 homicides) | `/impact#oxford-demolition` |
+| **A.4** `#mpd-institutional-culture` (Alias: `#ctx-mpd-governance`) | MPD administration: Breier, Ziarnik, Arreola (1964–1991) | `#event-1991-officer-suspensions` | `#event-1991-sinthasomphone` | `/topics/systemic-failures#police-culture` |
+| **A.5** `#ernest-lacy-case` (Alias: `#ctx-ernest-lacy`) | Daniel Bell (1958) & Ernest Lacy (1981) police homicides | `#event-1981-bath-arrest` | Institutional Distrust Baseline | `/topics/systemic-failures#police-minority-trust` |
+| **A.6** `#milwaukee-lgbtq-history` (Alias: `#ctx-lgbtq-history`) | Walker's Point nightlife, 1982 Gay Rights Law, AIDS crisis | `#event-1991-hughes`, `#event-1991-turner` | Tony Hughes, Matt Turner | `/topics/systemic-failures#lgbtq-estrangement` |
+| **A.7** `#less-dead-framework` (Alias: `#ctx-less-dead`) | Steven Egger's "less dead" victimology framework | `#event-1991-sinthasomphone` | Table 1 Victims Roster | `/topics/systemic-failures#less-dead` |
+| **A.8** `#historical-context-synthesis` (Alias: `#ctx-synthesis`) | Context analytical synthesis; why urban setting matters | `#event-1991-officer-suspensions` | Analytical Context Integration | `/topics/systemic-failures#synthesis` |
+| **B.1** `#birth-and-family-origins` (Aliases: `#early-life`, `#ctx-bio-early-life`) | Birth May 21, 1960, Evangelical Deaconess Hospital; family | `#event-1960-birth` | General Biographical Baseline | `/case#perpetrator-background` |
+| **B.2** `#childhood-health-recollections` | 1964 double hernia surgery; attributed parental memories | `#event-1960-birth` | General Biographical Baseline | `/analysis#psychiatric-profile` |
+| **B.3** `#family-instability-divorce` | Marital breakdown, July 24, 1978 divorce, solitary living | `#event-1978-hicks` | General Biographical Baseline | `/case#perpetrator-background` |
+| **B.4** `#animal-remains-anatomy` | Roadkill collection, bone bleaching; Macdonald Triad disproven | `#event-1978-hicks` | General Biographical Baseline | `/analysis#psychiatric-profile` |
+| **B.5** `#revere-high-school-alcoholism` | Revere HS (1974–78), "Doing a Dahmer", severe alcoholism | `#event-1978-hicks` | General Biographical Baseline | `/analysis#psychiatric-profile` |
+| **B.6** `#ohio-state-university-dismissal` | Ohio State University, Morrill Tower, dismissal Autumn 1978 | `#event-1979-army` | General Biographical Baseline | `/timeline#era-1` |
+| **B.7** `#us-army-service-counseling` (Aliases: `#military`, `#ctx-edu-military`) | U.S. Army MOS 91B, Baumholder, 7 counseling dates, Chapter 9 | `#event-1979-army` | General Biographical Baseline | `/timeline#era-2` |
+| **B.8** `#west-allis-grandmother-residence` (Alias: `#ctx-west-allis`) | 2357 S. 57th St, West Allis home (late 1981–May 1990) | `#event-1987-tuomi-homicide`, `#event-1988-doxtator` | Steven Tuomi, Jamie Doxtator, Richard Guerrero, Anthony Sears | `/case#west-allis-series` |
+| **B.9** `#ambrosia-chocolate-employment` (Alias: `#ctx-ambrosia-chocolate`) | Ambrosia Chocolate, 1133 N. 5th St (Jan 1985–Jul 1991), Huber | `#event-1989-sentencing` | General Employment Baseline | `/topics/systemic-failures#huber-employment` |
+| **B.10** `#pre-1988-legal-contacts` (Alias: `#ctx-legal-pre1988`) | Arrests: 1981 Ramada Inn, 1982 State Fair, 1986 McKinley Beach | `#event-1981-bath-arrest`, `#event-1982-state-fair`, `#event-1986-arrest` | Pre-Homicide Legal Baseline | `/topics/systemic-failures#prior-record` |
+| **B.11** `#probation-supervision-failure` | Supervision siloing, "model client" manipulation, active murders | `#event-1987-conviction` | Tuomi, Doxtator, Guerrero | `/topics/systemic-failures#probation-supervision` |
+| **B.12** `#adolescent-fantasies-jogger` | Mid-adolescent control fantasies; aborted 1976 jogger ambush | `#event-1978-hicks` | General Fantasy Baseline | `/analysis#psychiatric-profile` |
+| **B.13** `#transition-1978-first-homicide` | Steven Hicks homicide, traffic stop, June 24 missing report | `#event-1978-hicks` | Steven Hicks (Victim 1) | `/case#steven-hicks` |
+
+
+================================================================================
+MASTER NUMBERED BIBLIOGRAPHY: CONTEXT REGISTER ([SRC-01]–[SRC-32])
+================================================================================
+
+[SRC-01] U.S. Census Bureau (1990–1992). 1990 Census of Population and Housing:
+         Summary Tape File 3A (Wisconsin & Milwaukee PMSA). Washington, DC: U.S.
+         Government Printing Office.
+         URL: https://www.census.gov/prod/cen1990/cp1/cp-1-51.pdf
+         Scope: Demographic baseline, tract-level rental density, housing vacancy,
+         and poverty rates for Milwaukee and Near West Side (Tract 137).
+
+[SRC-02] Frey, William H. (2005). Racial Segregation in U.S. Metropolitan Areas
+         and Cities, 1990–2000: Patterns, Trends, and Explanations. Research Report
+         05-573. Ann Arbor, MI: Population Studies Center, University of Michigan.
+         URL: https://frey-demographer.org/report/R-2005-2_RacialSegragationTrends.pdf
+         Scope: 1990 Census segregation indices for Milwaukee-Waukesha PMSA
+         (Dissimilarity D=84.4, Isolation P*=71.3); national segregation ranking.
+
+[SRC-03] Population Reference Bureau (2011). Least Segregated U.S. Metros
+         Concentrated in Fast-Growing South and West: 1990–2010 Analysis. Washington, DC: PRB.
+         URL: https://www.prb.org/resource/least-segregated-u-s-metros-concentrated-in-fast-growing-south-and-west/
+         Scope: 1990 Census segregation calculation (Dissimilarity D=81.5) under
+         adjusted metropolitan boundary definitions.
+
+[SRC-04] Massey, Douglas S., and Nancy A. Denton (1989, 1993, 2015). "Hypersegregation
+         in U.S. Metropolitan Areas: Black and Hispanic Segregation Along Five
+         Dimensions," Demography, 26(3): 373–391; American Apartheid: Segregation
+         and the Making of the Underclass, Cambridge, MA: Harvard University Press.
+         URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4886656/
+         Scope: Hypersegregation multidimensional methodology and classification
+         of metropolitan Milwaukee across five spatial segregation dimensions.
+
+[SRC-05] Levine, Marc V. (1992, 2003, 2019). The Economic State of Milwaukee:
+         The Post-Industrial Trajectory; "Stealth Depression": Joblessness in the
+         City of Milwaukee Since 1990; The Deindustrialization of Milwaukee,
+         1963–2009. Milwaukee, WI: University of Wisconsin-Milwaukee Center for
+         Economic Development.
+         URL: https://uwm.edu/ced/
+         Scope: Empirical manufacturing job contraction (119,284 in 1963 to 63,900
+         in 1987), Black male employment drop, spatial mismatch, and central-city poverty.
+
+[SRC-06] Federal Reserve Bank of Chicago (1998, 2000). Midwest Economy: Employment-
+         by-Industry Historical Series (Seventh District); "Recent Trends in Job
+         Displacement," Chicago Fed Letter, No. 136 (December 1998).
+         URL: https://www.chicagofed.org/publications/chicago-fed-letter/1998/december-136
+         Scope: Metropolitan manufacturing job losses (>50,000 jobs, 1979–1991);
+         early-1980s displacement rates disproportionately impacting Black workers.
+
+[SRC-07] Oxford Research Encyclopedia of American History (2018). "Milwaukee:
+         Industrial Suburbs, Deindustrialization, and Spatial Inequality." Oxford:
+         Oxford University Press.
+         URL: https://academic.oup.com/edited-volume/61644/chapter/539895905
+         Scope: Industrial suburbanization, Menomonee River Valley dividing line,
+         North Side African American and South Side Latino spatial distribution.
+
+[SRC-08] Encyclopedia of Milwaukee (2016–2022). Entries: "Avenues West",
+         "Deindustrialization", "Police Department", "Lesbian and Gay History",
+         "Residential Segregation". Milwaukee, WI: University of Wisconsin-Milwaukee.
+         URL: https://emke.uwm.edu/
+         Scope: History of Avenues West, Mansion Row transition, Marquette University
+         Campus Circle Project, Oxford Apartments demolition (Nov 16–20, 1992).
+
+[SRC-09] City of Milwaukee Police Department (2020). Historical Registry of
+         Chiefs of Police: Harold Breier, Robert Ziarnik, Philip Arreola. Milwaukee, WI:
+         City of Milwaukee.
+         URLs: https://city.milwaukee.gov/police/About-MPD/History
+               https://city.milwaukee.gov/police/About-MPD/Shares/Chiefs-of-Police
+         Scope: Administrative tenures: Harold Breier (1964–1984), Robert Ziarnik
+         (1984–1989), Philip Arreola (1989–1996).
+
+[SRC-10] Milwaukee Police Historical Society (2019). Police Chiefs of Milwaukee:
+         Breier to Arreola. Milwaukee, WI: MPHS.
+         URL: https://www.mphswi.org/DepartmentHistory/PoliceChiefs
+         Scope: Breier-era paramilitary command model, lifetime tenure, union power,
+         civilian FPC oversight conflicts, and Arreola community policing initiatives.
+
+[SRC-11] City of Milwaukee Citizen Police Support Committee (1992). Report on
+         MPD Operations, Community Race Relations, and Structural Oversight.
+         Milwaukee, WI: City of Milwaukee.
+         Scope: Independent post-Dahmer investigation into MPD administrative
+         structure, racism allegations, bystander dismissals, and minority trust.
+
+[SRC-12] Milwaukee County Circuit Court (1981). Inquest Proceedings into the
+         Death of Ernest Lacy. Milwaukee, WI.
+         Scope: Inquest testimony, tactical transport van compression, medical
+         examiner cerebral anoxia findings, and officer exoneration.
+
+[SRC-13] Shepherd Express / WUWM (2020–2021). "The Death of Ernest Lacy: What
+         Happened in 1981 and Why It Still Matters."
+         URLs: https://shepherdexpress.com/culture/milwaukee-history/the-death-of-ernest-lacy-what-happened-in-1981-and-why-it-still-matters/
+               https://www.wuwm.com/race-ethnicity/2020-07-30/ernest-lacys-relatives-add-their-voices-to-the-milwaukee-black-lives-matter-movement
+         Scope: Community mobilization, Coalition for Justice for Ernest Lacy, 1984
+         municipal settlement ($600,000), Wisconsin "Lacy Law" enactment.
+
+[SRC-14] The New York Times (July 28, 1991). "Scrutiny of Police Sought in Milwaukee."
+         URL: https://www.nytimes.com/1991-07-28/us/scrutiny-of-police-sought-in-milwaukee.html
+         Scope: Immediate post-arrest demand by Black elected officials and civil
+         rights leaders for federal Justice Department investigation of MPD.
+
+[SRC-15] State of Wisconsin (1982, 1984). Chapter 112, Laws of 1981: An Act to
+         Prohibit Discrimination Based on Sexual Orientation (Assembly Bill 70,
+         signed Feb 25, 1982; effective March 2, 1982); 1983 Wisconsin Act 179 /
+         Senate Bill 56: Powers of Board of Fire and Police Commissioners (enacted
+         April 1984). Madison, WI: Wisconsin State Legislature.
+         Scope: First U.S. statewide gay rights non-discrimination statute; 1984
+         "Breier Bill" empowering civilian FPC to issue binding policy directives.
+
+[SRC-16] Wisconsin LGBTQ History Project (2018–2024). Milwaukee LGBTQ Community
+         History & "This Is It" Archive. Milwaukee, WI.
+         URLs: https://www.wislgbthistory.com/
+               https://archive.wislgbthistory.com/
+         Scope: Walker's Point nightlife hub, Club 219, This Is It, 1961 Black
+         Nite Brawl, police vice raids, surveillance, and newspaper outing.
+
+[SRC-17] ACLU of Wisconsin (2020). "Queer Nightlife, Surveillance, and State Targeting";
+         "How Queer Nightlife Helped Build the LGBTQ+ Rights Movement". Milwaukee, WI.
+         URLs: https://www.aclu-wi.org/news/queer-nightlife-surveillance-and-state-targeting/
+               https://www.aclu-wi.org/news/how-queer-nightlife-helped-build-the-lgbtq-rights-movement/
+         Scope: Breier-era vice squad harassment, bathhouse raids, surveillance,
+         and deep reporting avoidance among gay crime victims.
+
+[SRC-18] Wisconsin LGBTQ History Project (2021). Wisconsin AIDS History Chronology.
+         URL: https://www.wislgbthistory.com/news/honoring-our-unforgettable-history
+         Scope: First Wisconsin AIDS diagnosis (1982), community health mobilization,
+         and public health chronology.
+
+[SRC-19] Milwaukee AIDS Project (MAP) / ARCW (1985–1991). Historical Organizational Records.
+         URL: https://archive.wislgbthistory.com/organiz/health/map.htm
+         Scope: Founding of MAP in January 1985, independent 501(c)(3) incorporation
+         in August 1985 under Doug Nelson, evolution into ARCW / Vivent Health.
+
+[SRC-20] Wasielewski, W. (2018). How a Small STD Clinic in Milwaukee Played a
+         Large Role in Fighting AIDS: A History of the Brady East STD Clinic and
+         the Milwaukee AIDS Project. Master's Thesis, University of Wisconsin-Milwaukee.
+         URL: https://minds.wisc.edu/bitstreams/e07ef66e-ad70-4e1c-bf80-547eb3309a2a/download
+         Scope: BESTD Clinic (founded 1974) and institutional evolution of community
+         health responses to HIV/AIDS in Milwaukee.
+
+[SRC-21] Egger, Steven A. (1990, 2002). Serial Murder: An Elusive Phenomenon,
+         New York: Praeger; The Killers Among Us: An Examination of Serial Murder
+         and Its Victims, Upper Saddle River, NJ: Prentice Hall.
+         Scope: Theoretical victimology framework analyzing systemic devaluation
+         of marginalized populations ("the less dead") as an institutional buffer.
+
+[SRC-22] Federal Bureau of Investigation (1991–1992). Jeffrey Lionel Dahmer FOIA
+         Files, Vault Part 01 (68 pp.). FBI HQ File 7-21976 / Field File 7-MW-26057.
+         URL: https://vault.fbi.gov/jeffrey-lionel-dahmer/jeffrey-lionel-dahmer-part-01-of-19/view
+         Scope: 1-based physical PDF locators: Crime scene & Edwards escape (pp. 2–4);
+         First killing Hicks (p. 5); Physical descriptors & DOB (p. 28); State Fair
+         Park & McKinley Beach arrests (p. 28); 1988 child exploitation conviction
+         (p. 28); Master military dossier: MOS 91B10, Baumholder, 7 counseling dates,
+         ADAPCP, Fort Jackson transfer, Chapter 9 Honorable Discharge (p. 29);
+         Missing reports & Hicks 6/24/78 filing (p. 60).
+
+[SRC-23] Federal Bureau of Investigation (1991–1993). Jeffrey Lionel Dahmer FOIA
+         Files, Vault Part 03 (60 pp.). FBI Field File 7-MW-26057, Section 2.
+         URL: https://vault.fbi.gov/jeffrey-lionel-dahmer/jeffrey-lionel-dahmer-part-03-of-19/view
+         Scope: 1-based physical PDF locators: Form FD-302 BSU interview (pp. 1–17);
+         DOB May 21, 1960 & sibling age difference (p. 3); Roadkill dissection &
+         organ arousal (p. 3); Refusal to kill live dog (p. 4); Disconfirmation
+         of Macdonald Triad (p. 8); Hicks murder narrative & traffic stop (p. 9);
+         Probation agent manipulation ("model client") (p. 9); Tuomi murder at
+         Ambassador Hotel (p. 10); Military dossier confirmation: 1/12/79 enlistment,
+         Ft McClellan, Ft Sam Houston, Baumholder, E-2, 3/26/81 discharge (p. 23);
+         Hicks missing report & DOB 6/22/59 (pp. 51–52); Shari Dahmer acid vat
+         and bones statement (p. 55).
+
+[SRC-24] Federal Bureau of Investigation (1991). Jeffrey Lionel Dahmer FOIA Files,
+         Vault Part 06 (74 pp.). FBI HQ File 95-HQ-299705, Sub-file 4.
+         URL: https://vault.fbi.gov/jeffrey-lionel-dahmer/jeffrey-lionel-dahmer-part-06-of-19/view
+         Scope: Physical evidence transmittals and autopsy specimens: Sears (p. 12);
+         Guerrero (p. 13); Turner (p. 9); Weinberger (p. 9); Lacy (p. 9).
+
+[SRC-25] Milwaukee County Circuit Court (1986, 1989, 1991–1992). State of
+         Wisconsin v. Jeffrey L. Dahmer (Cases F-862810, F-882410, F-912542).
+         Scope: Misdemeanor probation records (1987); sexual assault conviction &
+         Huber release (1989); 15 murder counts, sanity trial transcripts, psychiatric
+         testimony of Dr. Park Dietz.
+
+[SRC-26] Summit County Court of Common Pleas (1991–1992). State of Ohio v. Jeffrey
+         L. Dahmer (Case CR-91-09-2065).
+         Scope: Steven Hicks aggravated murder indictment, guilty plea before
+         Judge William Spicer, and 16th consecutive life sentence.
+
+[SRC-27] Dahmer, Lionel (1994). A Father's Story. New York: William Morrow & Co.
+         Scope: Attributed parental recollections: hernia surgery, behavioral changes,
+         marital breakdown, bone bleaching demonstrations under house, OSU retrieval,
+         Ramada Inn arrest, West Allis residence. (Strictly cited as attributed memoir).
+
+[SRC-28] Backderf, Derf (2012). My Friend Dahmer (Annotated Edition). New York:
+         Abrams ComicArts.
+         Scope: Revere High School environment, "Doing a Dahmer" performances,
+         adolescent alcohol abuse, schoolmate accounts, yearbook photo prank.
+
+[SRC-29] Kennedy, Patrick, and Robyn Maharaj (2018). Grilling Dahmer: The
+         Interrogation of "The Milwaukee Cannibal". Denver, CO: WildBlue Press.
+         Scope: MPD detective interrogations, Dahmer's self-reported adolescent
+         fantasies, confession transcripts.
+
+[SRC-30] Phillips, Stone / Inside Edition (Jan 11–12, 1993). Prison Interview
+         with Jeffrey and Lionel Dahmer (Uncut FBI Copy, Vault Part 03).
+         Scope: Suspect statements regarding control compulsions, paraphilic
+         motives, and lack of hatred toward victims.
+
+[SRC-31] The Washington Post (1991–1992). "Dahmer Says First Slaying Was in 1978"
+         (July 29, 1991); contemporary reporting on MPA no-confidence vote
+         (August 8, 1991); Ohio indictment coverage.
+         Scope: Real-time 1991 investigative journalism, initial Hicks disclosures,
+         and police union political fallout.
+
+[SRC-32] Milwaukee Journal / Milwaukee Sentinel (July–August 1991, November 1992).
+         Contemporary reporting series on Ambrosia Chocolate employment, Huber
+         work-release, Oxford Apartments odors, MPA no-confidence vote, and building demolition.
+         Scope: Contemporary municipal press coverage, factory shifts, tenant
+         interviews, and Campus Circle demolition permits.
+
+
+================================================================================
+VERIFICATION & LOCKING METADATA
+================================================================================
+Document File: 02_context_content_plan_v03_final_locked.txt
+Lock Date: October 25, 2026
+Verified By: Worker M3 (Content Plan & Evidentiary Audit Synthesis Worker)
+Approved By: Orchestrator 2 (`2fdf7b70-04f4-4d53-9f30-821d2a1e2330`)
+Integrity Status: PASS / ZERO RECONCILIATION ANOMALIES
+Read-Only Policy Compliance: 100% (No pre-existing project files modified)
+End of File

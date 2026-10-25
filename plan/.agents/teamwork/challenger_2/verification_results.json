@@ -1,0 +1,465 @@
+{
+  "task1_geographic": [
+    {
+      "testName": "Oxford Apts Address (924 N. 25th St)",
+      "passed": true,
+      "details": "contextV03=true, timelineV04=true"
+    },
+    {
+      "testName": "Oxford Apts Unit (Apartment 213)",
+      "passed": true,
+      "details": "contextV03 specifies Apt 213: true"
+    },
+    {
+      "testName": "Oxford Apts Move-in Date (May 1990)",
+      "passed": true,
+      "details": "contextV03=true, timelineV04=true"
+    },
+    {
+      "testName": "West Allis Address (2357 S. 57th St)",
+      "passed": true,
+      "details": "contextV03 specifies 2357 S. 57th St: true"
+    },
+    {
+      "testName": "West Allis Span (late 1981 – May 1990)",
+      "passed": true,
+      "details": "contextV03 specifies late 1981 – May 1990: true"
+    },
+    {
+      "testName": "West Allis Sears & Huber Context",
+      "passed": false,
+      "details": "Sears covered=false, Huber covered=true"
+    },
+    {
+      "testName": "Ambrosia Address (1133 North 5th Street)",
+      "passed": true,
+      "details": "contextV03 specifies 1133 North 5th Street: true"
+    },
+    {
+      "testName": "Ambrosia Hire Date (January 14, 1985)",
+      "passed": true,
+      "details": "contextV03 specifies Jan 14, 1985: true"
+    },
+    {
+      "testName": "Ambrosia Fired Date (July 15, 1991)",
+      "passed": true,
+      "details": "contextV03 specifies July 15, 1991: true"
+    },
+    {
+      "testName": "1988 Assault Address (808 North 24th Street, Apt 3)",
+      "passed": true,
+      "details": "contextV03 specifies 808 N. 24th St Apt 3: addr=true, apt=true"
+    },
+    {
+      "testName": "Audit documents 225 24th St correction",
+      "passed": true,
+      "details": "context_evidentiary_audit.md notes correction of 225 24th St: true"
+    }
+  ],
+  "task2_chronological_victims": [
+    {
+      "testName": "Victim Alignment: Steven Hicks",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Steven Tuomi",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: James Doxtator",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Richard Guerrero",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Anthony Sears",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Raymond Smith",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Edward Smith",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Ernest Miller",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: David Thomas",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Curtis Straughter",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Errol Lindsey",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Anthony Hughes",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Konerak Sinthasomphone",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Matt Turner",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Jeremiah Weinberger",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Oliver Lacy",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Joseph Bradehoft",
+      "passed": true,
+      "details": "inContext=true, inVictims=true, inTimeline=true"
+    },
+    {
+      "testName": "Victim Alignment: Tracy Edwards",
+      "passed": false,
+      "details": "inContext=true, inVictims=false, inTimeline=true"
+    },
+    {
+      "testName": "Somsack (1988, age 13) present in Context",
+      "passed": true,
+      "details": "Somsack mentioned: true"
+    },
+    {
+      "testName": "Konerak (1991, age 14) present in Context",
+      "passed": true,
+      "details": "Konerak mentioned: true"
+    },
+    {
+      "testName": "Distinction between Somsack and Konerak explicitly maintained",
+      "passed": true,
+      "details": "Distinction maintained in contextV03: true"
+    },
+    {
+      "testName": "Audit addresses Timeline v04 Sombat error",
+      "passed": true,
+      "details": "Audit notes Sombat vs Somsack: true"
+    }
+  ],
+  "task3_anchors": [
+    {
+      "testName": "Context Anchor Definition: #macroeconomic-restructuring",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #residential-segregation",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #avenues-west-oxford-apartments",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #mpd-institutional-culture",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #ernest-lacy-case",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #milwaukee-lgbtq-history",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #less-dead-framework",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #historical-context-synthesis",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #birth-and-family-origins",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #childhood-health-recollections",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #family-instability-divorce",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #animal-remains-anatomy",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #revere-high-school-alcoholism",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #ohio-state-university-dismissal",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #us-army-service-counseling",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #west-allis-grandmother-residence",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #ambrosia-chocolate-employment",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #pre-1988-legal-contacts",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #probation-supervision-failure",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #adolescent-fantasies-jogger",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Context Anchor Definition: #transition-1978-first-homicide",
+      "passed": true,
+      "details": "found 3 occurrences in contextV03"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1990-oxford-move",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1992-oxford-demolition",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1991-officer-suspensions",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1991-sinthasomphone",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1981-bath-arrest",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1991-hughes",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1991-turner",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1960-birth",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1978-hicks",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1979-army",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1987-tuomi-homicide",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1988-doxtator",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1989-sentencing",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1982-state-fair",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1986-arrest",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Timeline Anchor Cross-Reference: #event-1987-conviction",
+      "passed": true,
+      "details": "exists in timelineV04: true"
+    },
+    {
+      "testName": "Incoming Cross-Link Resolution: 05_timeline_v04 -> /context#early-life",
+      "passed": true,
+      "details": "target anchor #early-life exists in contextV03: true"
+    },
+    {
+      "testName": "Incoming Cross-Link Resolution: 05_timeline_v04 -> /context#military",
+      "passed": true,
+      "details": "target anchor #military exists in contextV03: true"
+    },
+    {
+      "testName": "Incoming Cross-Link Resolution: 01_overview_v02 -> /context#early-life",
+      "passed": true,
+      "details": "target anchor #early-life exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-econ-deindustrialization",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-seg-indices",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-oxford-apts",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-mpd-governance",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-lgbtq-history",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-bio-early-life",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-edu-military",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    },
+    {
+      "testName": "Dispatch #ctx-* prefix pattern: #ctx-legal-pre1988",
+      "passed": true,
+      "details": "exists in contextV03: true"
+    }
+  ],
+  "task4_file_integrity": [
+    {
+      "testName": "Preexisting file preserved: 00_webapp_master_implementation_plan_v04.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 01_overview_content_plan_v02.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 02_context_content_plan_v02.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 03a_case_offense_series_plan_v02.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 03b_case_investigation_and_trial_plan_v02.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 04_victims_content_plan_v02.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 04_victims_content_plan_v05_final_locked.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 05_timeline_content_plan_v03.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: 05_timeline_content_plan_v04_final_locked.txt",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    },
+    {
+      "testName": "Preexisting file preserved: README.md",
+      "passed": true,
+      "details": "file exists in plan directory: true"
+    }
+  ]
+}

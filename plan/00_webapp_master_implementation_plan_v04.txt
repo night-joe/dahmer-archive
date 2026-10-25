@@ -1,0 +1,757 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+IMPLEMENTATION PLAN / REFERENCE GUIDE
+Version: 0.1 — Planning Stage
+Date: 2026-09-25
+
+STATUS
+------
+This file is the working reference for the project.
+
+It is NOT the final webapp and contains no implementation code.
+
+Purpose:
+- Preserve the decisions made during planning.
+- Keep the information architecture, visual direction, content strategy, and workflow consistent as the project grows.
+- Provide a local reference so the project can continue even when the chat becomes long or crowded.
+- Record future changes and improvements without losing earlier decisions.
+
+IMPORTANT WORKFLOW RULE
+-----------------------
+Do not build an incomplete app.
+
+The app should only be built after the structure, design specification, and sufficient content have been finalized and the user explicitly confirms that it is time to start building.
+
+CONTENT WORKFLOW
+----------------
+Content will be developed one major tab at a time.
+
+For each tab:
+1. User provides research/content.
+2. Validate the material.
+3. Check factual consistency, chronology, terminology, unsupported claims, and internal contradictions.
+4. Refine wording and structure while preserving the user's research intent.
+5. Fact-check externally where necessary and distinguish:
+   - documented facts
+   - attributed interpretations
+   - disputed accounts
+   - later theories/speculation
+6. Shape the material for the web:
+   - article sections
+   - tables
+   - timelines
+   - callouts
+   - citations
+   - internal hyperlinks
+7. Review and finalize the tab.
+8. Treat finalized content as locked unless a later correction or improvement is deliberately approved.
+
+Recommended content order:
+Overview -> Victims -> Timeline -> Context -> Case -> Analysis -> Impact -> Sources
+
+CORE EDITORIAL PRINCIPLE
+------------------------
+The project should read like a serious historical/research publication rather than a sensational true-crime site.
+
+The subject matter should be handled:
+- factually
+- non-sensationally
+- with attention to victims as people
+- with clear separation between evidence and interpretation
+- without graphic material
+- without turning the perpetrator into the sole focus of the publication
+
+OVERALL INFORMATION ARCHITECTURE
+---------------------------------
+Primary header navigation:
+
+OVERVIEW | VICTIMS | TIMELINE | CONTEXT | CASE | ANALYSIS | IMPACT | SOURCES
+
+There are 7 main editorial tabs plus a separate Sources destination.
+
+The current grouping logic is:
+
+1. OVERVIEW
+   The comprehensive entry point and factual spine of the project.
+
+2. VICTIMS
+   Dedicated space for victim biographies and the full victims overview.
+
+3. TIMELINE
+   The complete chronological reconstruction of the case.
+
+4. CONTEXT
+   Historical and biographical context surrounding the case.
+
+5. CASE
+   The offense series, investigation, arrest, and legal proceedings.
+
+6. ANALYSIS
+   Systemic failures, psychological evaluation, and theories/motivations.
+
+7. IMPACT
+   Community effects, reform discussions, media/cultural portrayal, modern
+   re-examination, and the final full conclusion.
+
+8. SOURCES
+   Full research sources, further reading, and methodology/source notes.
+
+The broad tab grouping is approved.
+Exact dropdown item lists can be refined while the content for each tab is
+finalized.
+
+HEADER / NAVIGATION BEHAVIOR
+----------------------------
+Desktop:
+- Single horizontal editorial header.
+- Main tabs have downward-arrow indicators where dropdowns are present.
+- Clicking a tab label opens that tab's main page.
+- Clicking the arrow opens the dropdown.
+- Hovering may also open the dropdown on desktop.
+- Dropdown links go directly to the corresponding article or page.
+- Active section should have a subtle visual indicator, preferably red or
+  another restrained accent.
+
+Mobile:
+- The long horizontal navigation collapses into one simple menu.
+- The menu expands vertically.
+- Avoid cramped horizontal navigation.
+- Favor vertical scrolling and readable article layouts.
+- Do not require users to zoom or horizontally navigate the article itself.
+
+CURRENT HEADER GROUPING
+-----------------------
+OVERVIEW
+- Overview
+- Short Conclusion section at the end of the Overview article
+
+VICTIMS
+- Victims Overview
+
+TIMELINE
+- Master Chronological Timeline
+
+CONTEXT
+- Historical Context: Milwaukee 1987-1991
+- Early Life & Background
+
+CASE
+- The Offense Series
+- Investigation & Arrest
+- Trial & Legal Proceedings
+
+ANALYSIS
+- Systemic Failures
+  - Police Contacts
+  - Probation / parole oversight
+  - Housing / community complaints
+  - Racial bias in response
+- Psychological Profile & Evaluation
+- Theories & Motivations
+
+IMPACT
+- Community & Civic Impact
+- Social Impact & Reform
+- Media & Cultural Portrayal
+- Modern Re-examination
+- Full Conclusion (final research conclusion)
+
+SOURCES
+- Further Reading & Key Sources
+- Methodology / research notes
+
+NOTE ON CONCLUSION
+------------------
+There are intentionally two different conclusions.
+
+1. OVERVIEW CONCLUSION
+   - Short.
+   - Appears at the end of the comprehensive Overview article.
+   - Summarizes the case and gives the reader a concise takeaway.
+   - Can be an anchor/section within /overview rather than a completely
+     separate article.
+   - The Overview article may contain internal hyperlinks to full articles in
+     other sections.
+
+2. IMPACT CONCLUSION
+   - Full final conclusion of the research project.
+   - Appears at the bottom of the Impact dropdown after Modern Re-examination.
+   - Synthesizes the entire body of research:
+     historical record, victims, institutional failures, psychological
+     research, social consequences, media portrayal, and modern
+     re-examination.
+   - This is the true closing essay of the publication.
+
+The two conclusions must not simply repeat each other.
+
+OVERVIEW ARTICLE / HOMEPAGE FEATURE
+------------------------------------
+There are two different "Overview" experiences.
+
+1. HOMEPAGE OVERVIEW ARTICLE
+   - This is the prominent front-page feature.
+   - It is descriptive and relatively concise.
+   - Its job is to introduce the case and orient a first-time reader.
+   - It should cover the basic who / what / when / where and briefly explain
+     what the wider research project examines.
+   - It should not attempt to reproduce the full research article.
+   - At the end, include a clear "Read more" link that opens the full
+     Overview page from the header navigation.
+
+2. FULL OVERVIEW PAGE (/overview)
+   - This is the detailed Overview article.
+   - It is comprehensive enough that a reader can understand the case in
+     substantial depth without immediately opening every other page.
+   - It should contain:
+     - geographic and temporal scope
+     - major documented events
+     - fuller case progression
+     - concise explanation of the victims
+     - key institutional contacts/issues
+     - investigation and arrest
+     - trial/legal outcome
+     - why the case remains historically significant
+     - internal hyperlinks to the deeper research articles
+     - short Overview Conclusion at the end
+
+The homepage feature and the /overview page therefore share the same subject
+and editorial voice, but they are intentionally different in depth.
+
+INTERNAL LINKING PRINCIPLE
+--------------------------
+The homepage Overview feature should end with a "Read more" link to /overview.
+
+The full /overview article should then link naturally to the detailed pages for
+topics such as Victims, Timeline, Historical Context, Systemic Failures,
+Investigation, Trial, Psychological Profile, and other relevant sections.
+
+The header's Overview tab always opens the full /overview page.
+
+Internal hyperlinks should be used naturally.
+
+Example principle:
+A brief mention of institutional failures in Overview can link directly to
+the full Systemic Failures article.
+
+HOMEPAGE / FRONT PAGE
+---------------------
+The homepage is a curated editorial front page, not simply the full Overview
+article and not a dashboard.
+
+Approved hierarchy:
+
+1. MAIN FEATURE: OVERVIEW
+   - Largest/dominant feature.
+   - Descriptive homepage feature introducing the case.
+   - More concise than /overview.
+   - Ends with a "Read more" link to the full /overview page.
+   - /overview establishes the detailed factual spine of the project.
+
+2. SECONDARY FEATURES: HISTORICAL CONTEXT + VICTIMS
+   - Historical Context: Milwaukee 1987-1991
+   - Victims section with emphasis on who the victims were as people.
+   - The homepage should not duplicate the full victims table.
+
+3. MAJOR VISUAL ELEMENT: SUMMARIZED TIMELINE
+   - A concise "Case at a Glance" timeline.
+   - The homepage version is a summary.
+   - Link to the full Master Chronological Timeline.
+
+4. INTELLECTUAL FRAMEWORK: RESEARCH QUESTIONS
+   Suggested questions:
+   - What happened?
+   - Who were the victims?
+   - What did institutions know?
+   - How has the case been remembered/re-examined?
+
+5. FEATURED RESEARCH + RESEARCH & SOURCES
+   - Small editorial selections near the bottom.
+   - These are not additional top-level navigation categories.
+
+FRONT-PAGE OVERVIEW INTERACTION
+-------------------------------
+Approved interaction model for the homepage Overview feature:
+
+1. INITIAL / COLLAPSED STATE
+   - Show only approximately 15-20 lines of the Overview feature.
+   - Treat "15-20 lines" as a visual target rather than a rigid count because
+     line wrapping changes across screen sizes and font settings.
+   - Use a subtle fade/gradient or equivalent visual cue at the bottom to show
+     that more content is available.
+   - Provide a clear expand affordance.
+
+2. EXPANDED STATE
+   - Clicking the Overview card/expand control reveals the complete homepage
+     Overview article in place.
+   - Other homepage sections remain present below/around it; the expansion does
+     not navigate away or replace the homepage.
+   - The expanded article ends with:
+       Read more -> /overview
+   - A "Show less" control collapses the feature back to its compact state.
+   - The interaction should be keyboard accessible and should not interfere
+     with the "Read more" link.
+
+3. HEADER BEHAVIOR
+   - Clicking the header "Overview" navigation item always opens /overview.
+   - The header Overview destination is the full, detailed Overview page, not
+     the expandable homepage feature.
+
+4. DESIGN INTENT
+   - Homepage Overview is a concise, expandable editorial preview.
+   - /overview is the full research article.
+   - The two versions share content and voice but have different depth.
+
+HOMEPAGE CARD DESIGN
+--------------------
+Use different card/article sizes instead of placing every feature in an
+identical grid.
+
+Goal:
+- create editorial hierarchy
+- make the main feature visibly dominant
+- use medium and smaller modules for secondary material
+- retain generous whitespace
+- avoid a dashboard/card-grid aesthetic
+
+The layout should feel like a curated newspaper front page or research
+publication rather than a SaaS dashboard.
+
+FEATURED RESEARCH
+-----------------
+This is a curated gateway to deeper articles, not another TOC level.
+
+Suggested featured pieces:
+- Systemic Failures
+- Psychological Profile & Evaluation
+- Media & Cultural Portrayal
+- Modern Re-examination
+
+Each can have:
+- title
+- one or two lines of description/deck
+- simple "Read article" link
+
+These can change later as the research content develops.
+
+RESEARCH & SOURCES ON HOMEPAGE
+------------------------------
+The homepage should contain only a compact source/research introduction.
+
+Purpose:
+- explain what kinds of evidence the project uses
+- communicate research credibility
+- link to the complete Sources page
+
+Possible categories:
+- Primary Records
+- Contemporary Reporting
+- Books & Scholarship
+- Documentaries & Interviews
+
+Do NOT put the complete bibliography on the homepage.
+
+HEADER SOURCES PAGE VS HOMEPAGE SOURCES
+----------------------------------------
+They serve different purposes.
+
+HEADER -> SOURCES
+- Complete source repository.
+- Further reading.
+- Source notes.
+- Methodology/research notes.
+
+HOMEPAGE -> RESEARCH & SOURCES
+- Short explanation of the evidence base.
+- Small selection or categories.
+- Link to full Sources page.
+
+METHODOLOGY
+-----------
+Include a small methodology/research section.
+
+It does not need to be a major header tab.
+
+It can live under Sources and/or be linked from the minimal footer.
+
+It should eventually explain:
+- source types used
+- how conflicting accounts are handled
+- how documented facts are separated from interpretation
+- limits of surviving records
+- how later claims/theories are treated
+
+VISUAL DIRECTION
+----------------
+Overall aesthetic:
+- restrained editorial/newspaper appearance
+- minimal
+- spacious
+- serious
+- readable
+- black / warm off-white / grey / red palette
+
+The inspiration is the visual language of a modern newspaper or long-form
+editorial publication, not its content or branding.
+
+COLORS
+------
+Approved palette concept:
+- black: primary text/navigation
+- warm off-white: primary page background
+- shades of grey: secondary text, borders, metadata
+- restrained red/dark red: accents, active states, links/section markers
+
+Avoid:
+- blue-heavy web defaults
+- gradients
+- excessive accent colors
+- ornamental UI effects
+- bright multi-color dashboards
+
+TYPOGRAPHY
+----------
+Approved principle:
+- strong editorial serif for masthead, major titles, and article headings
+- clean sans-serif for navigation, controls, metadata, and tables
+
+Possible direction:
+- serif similar in character to Newsreader / Georgia / Source Serif
+- sans-serif similar in character to Inter / Helvetica / Arial
+
+Exact fonts can be selected during implementation.
+
+ARTICLE WIDTH & SPACING
+-----------------------
+Approved:
+- consistent readable article width, approximately 700-800px for normal prose
+- generous margins and whitespace
+- wider layouts for tables/timelines where required
+
+Avoid:
+- overly wide paragraphs
+- dense dashboard layouts
+- cramped cards
+- excessive decorative elements
+
+TABLES
+------
+Victims Overview:
+Table 1
+Columns:
+- Name
+- Age
+- Background
+- focus on who they were
+
+Master Chronological Timeline:
+Table 2
+Columns:
+- Date
+- Event
+- Institutional Contact Point
+- Significance
+
+Mobile behavior:
+- Preserve readability.
+- Prefer adapting/simplifying presentation over forcing a tiny desktop table
+  onto a phone.
+- Vertical scrolling is preferred wherever practical.
+
+IMAGERY
+--------
+Approved image policy:
+- Use only images that are free to reuse / appropriately licensed.
+- No graphic crime-scene material.
+- No sensational imagery.
+
+Preferred visual material:
+- Milwaukee archival/context photographs
+- relevant locations
+- historical documents where appropriate
+- maps
+- restrained period-related visual material
+
+Images should support historical understanding rather than dramatize the
+case.
+
+CITATION STYLE
+--------------
+Approved style:
+- inline numbered citations such as [1]
+- citations should be clickable where practical
+- corresponding source notes appear at the bottom of the article
+
+This is especially important for:
+- Timeline
+- Systemic Failures
+- Psychological Profile & Evaluation
+- Modern Re-examination
+- other claims where source provenance matters
+
+URL / ROUTING PLAN
+------------------
+Approved clean routes:
+
+/overview
+/victims
+/timeline
+/context
+/case/...
+/topics/systemic-failures
+/topics/psychological-profile
+/topics/media-cultural-portrayal
+/impact/...
+/sources
+
+Exact route list may be adjusted once every content page is finalized.
+
+FOOTER
+------
+Keep the footer minimal.
+
+Possible future elements:
+- project title
+- sources
+- methodology
+- last updated
+- other small utility links
+
+Do not over-design the footer.
+
+RESPONSIVE / MOBILE PRINCIPLES
+------------------------------
+Mobile should be simple and primarily vertical.
+
+Priorities:
+1. readable typography
+2. generous vertical spacing
+3. simple collapsible navigation
+4. article content that does not require zooming
+5. tables/timelines adapted for narrow screens
+6. no unnecessarily complex horizontal UI
+
+Do not try to reproduce the full desktop composition on a phone at all
+costs.
+
+CONTENT / EDITORIAL STRUCTURE
+-----------------------------
+Original research TOC entries that must all be represented somewhere:
+
+1. Overview
+2. Victims Overview
+3. Master Chronological Timeline
+4. Historical Context: Milwaukee 1987-1991
+5. Early Life & Background
+6. The Offense Series
+7. Systemic Failures
+   - Police contacts
+   - Probation / parole oversight
+   - Housing / community complaints
+   - Racial bias in response
+8. Community & Civic Impact
+9. Investigation & Arrest
+10. Trial & Legal Proceedings
+11. Psychological Profile & Evaluation
+12. Theories and Motivations — what research actually says
+13. Social Impact and Reform
+14. Media & Cultural Portrayal
+15. Modern Re-examination
+16. Further Reading & Key Sources
+17. Conclusion
+
+These are grouped under the header rather than displayed as 17 separate
+top-level navigation tabs.
+
+IMPORTANT EDITORIAL DISTINCTIONS
+--------------------------------
+Victims:
+- emphasize who they were
+- avoid reducing people to names, ages, or case numbers
+- full detail belongs on the Victims page
+
+The Offense Series:
+- brief and non-sensational
+- focus on pattern, development, and escalation
+- avoid unnecessary graphic detail
+
+Systemic Failures:
+- separate documented institutional contacts from interpretation
+- use the four research subthemes listed above
+
+Psychological Profile & Evaluation:
+- distinguish documented evaluations from later interpretation
+- avoid treating speculation as established fact
+
+Theories & Motivations:
+- explicitly distinguish:
+  documented statements
+  professional interpretations
+  later theories
+  unsupported speculation
+- focus on what research actually supports
+
+Media & Cultural Portrayal:
+- distinguish historical record from dramatic reconstruction
+- place contemporary coverage and later cultural portrayals in context
+
+Modern Re-examination:
+- examine how the case has been revisited decades later
+- identify changes in scholarship, public memory, and interpretation
+
+
+TIMELINE CROSS-LINKING RULE
+----------------------------
+The Master Timeline is the chronological navigation hub for the whole site.
+Major Timeline events should link directly to the most detailed destination
+page and subsection using anchors.
+
+Examples:
+- victim/offense event -> /case/offense-series#<victim-anchor>
+- police/institutional event -> /topics/systemic-failures#<anchor>
+- court/legal event -> /case/trial#<anchor>
+- victim biographical event -> /victims#<victim-anchor>
+- historical/geographical event -> /context#<anchor>
+- aftermath/re-examination event -> /impact/<article>#<anchor>
+
+Detailed destination pages should, where practical, provide a reverse
+"View in Master Timeline ->" link back to /timeline#<anchor>.
+
+The Timeline should provide navigation rather than duplicate detailed prose.
+
+GENERAL IMPLEMENTATION RULES
+----------------------------
+1. Do not begin building the app until the user confirms to start.
+2. Do not invent missing content while pretending it is verified research.
+3. Keep the design minimal and editorial.
+4. Preserve internal hyperlinks between related pages.
+5. Make every major TOC entry reachable through the header/dropdown system.
+6. Keep Overview comprehensive but readable.
+7. Keep the homepage curated rather than encyclopedic.
+8. Prefer evidence and attribution over unsupported certainty.
+9. Use free-to-reuse/licensed imagery only.
+10. Treat this document as the living project guide.
+
+IMPACT CONTENT STATUS
+---------------------
+Joe has a research paper ready for the IMPACT section.
+
+It covers the planned Impact research areas:
+- Community & Civic Impact
+- Social Impact & Reform
+- Media & Cultural Portrayal
+- Modern Re-examination
+- Final Conclusion
+
+The research paper is ready and should be preserved as source material.
+
+Important workflow rule:
+Do NOT integrate or rewrite the Impact research into the webapp yet.
+We will add, validate, structure, and place this material when we actually
+work on the IMPACT section during the webapp content/architecture phase.
+
+CURRENT PROJECT PHASE
+---------------------
+PHASE A — DESIGN / INFORMATION ARCHITECTURE
+[COMPLETED]
+
+PHASE B — CONTENT FINALIZATION
+[CURRENT]
+
+Work through:
+1. Overview [COMPLETED — overview.html live]
+2. Victims [COMPLETED & LOCKED — 04_victims_content_plan_v05_final_locked.txt]
+3. Timeline [COMPLETED & LOCKED — 05_timeline_content_plan_v04_final_locked.txt]
+4. Context [COMPLETED & LOCKED — 02_context_content_plan_v03_final_locked.txt]
+5. Case [CURRENT — 03a_case_offense_series_plan_v02.txt, 03b_case_investigation_and_trial_plan_v02.txt]
+6. Analysis
+7. Impact
+8. Sources / Methodology
+
+PHASE C — DESIGN SPECIFICATION FINAL CHECK
+[AFTER CONTENT]
+
+Confirm:
+- final typography
+- final colors
+- final spacing
+- final card hierarchy
+- final routes
+- final mobile behavior
+- final citation mechanics
+- final image treatment
+
+PHASE D — BUILD
+[NOT STARTED]
+
+Only after explicit confirmation.
+
+CHANGE LOG
+----------
+2026-10-25
+- Finalized and locked the Context Tab content specification:
+  `02_context_content_plan_v03_final_locked.txt`. Completed multi-agent
+  evidentiary audit (`context_evidentiary_audit.md`) covering Section A
+  (Milwaukee 1987–1991 Historical Context, Census segregation metrics,
+  industrial restructuring, MPD administration) and Section B (Early Life &
+  Background, primary FBI Vault 1-based page coordinates for military 91B
+  service and alcohol counseling, early legal dockets), enforced strict
+  non-deterministic framing, and locked the 32-entry authoritative bibliography.
+- Advanced Phase B status to Tab 5: Case.
+2026-10-25
+- Finalized and locked the Timeline Tab content specification:
+  `05_timeline_content_plan_v04_final_locked.txt`. Reconciled Table 2 Master
+  Chronological Timeline across 44 milestones (1960–1994+), mapped claim-level
+  citations with verified 1-based FBI Vault PDF locators and court dockets,
+  enforced strict 4-milestone separation, established site-wide anchor IDs,
+  and locked the 33-entry authoritative bibliography.
+- Advanced Phase B status to Tab 4: Context.
+2026-10-25
+- Finalized and locked the Victims Tab content specification:
+  `04_victims_content_plan_v05_final_locked.txt`. Reconciled all 17 victim
+  biographies, Table 1 register, primary DOB anchors across FBI Parts 01, 03,
+  and 06, permanently retired the provisional dagger (†) following David
+  Thomas DOB verification (Dec 21, 1967; age 22*), and locked the 27-entry
+  authoritative bibliography.
+- Advanced Phase B status to Tab 3: Timeline.
+2026-10-05
+- Added an Impact content-status note: Joe has a research paper ready for the
+  IMPACT section.
+- The research paper will be incorporated only when the IMPACT section is
+  actively worked on in the webapp; it is not to be integrated prematurely.
+2026-09-26
+- Added Timeline cross-linking rule: major chronological events link directly
+  to their detailed Case/Analysis/Trial/Victims/Context/Impact destination.
+- Established reverse links from detailed pages back to the matching Timeline
+  anchor where practical.
+- Confirmed Timeline as the site's chronological navigation hub.
+2026-09-26
+- Finalized homepage Overview interaction: collapsed preview of about 15-20
+  lines, expandable in place, other homepage sections remain visible, with
+  "Read more -> /overview" and "Show less".
+- Clarified that the 15-20 line target is approximate and responsive rather
+  than a fixed line count.
+- Confirmed header Overview always opens the full /overview page.
+2026-09-25
+- Clarified that the homepage Overview feature and the header Overview page
+  are intentionally different in depth.
+- Homepage Overview is descriptive and concise; its "Read more" link opens
+  the detailed /overview page.
+- The header Overview tab points directly to /overview.
+2026-09-25
+- Decided to create a local implementation-plan TXT as the project's
+  reference guide.
+- Established 7 primary editorial tabs plus Sources.
+- Approved comprehensive Overview article with a short conclusion.
+- Added a second, full Conclusion under Impact after Modern Re-examination.
+- Established homepage hierarchy.
+- Approved variable-size editorial cards rather than a uniform grid.
+- Approved restrained black / warm off-white / grey / red palette.
+- Approved serif + sans-serif typography pairing.
+- Approved consistent article width and generous spacing.
+- Approved free-to-reuse, non-graphic imagery.
+- Approved numbered inline citation style.
+- Approved clean URL structure.
+- Approved simple mobile-first/vertical reading behavior.
+- Added Methodology as supporting research material.
+- Agreed to finalize content tab-by-tab before implementation.
+
+END OF REFERENCE DOCUMENT

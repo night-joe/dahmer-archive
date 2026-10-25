@@ -1,0 +1,587 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+VICTIMS TAB — FACT-CHECKED & REFINED CONTENT PLAN
+Version: 0.2 — Working Reference
+Date: 2026-09-26
+
+STATUS
+------
+This document supersedes the previous Victims-plan draft.
+
+It is still a working reference, not final website copy. The profiles below
+have been fact-checked against the available public record and refined for a
+research-oriented presentation. Final article copy will receive article-level
+citations during the Sources phase.
+
+CORE EDITORIAL PRINCIPLE
+------------------------
+The Victims section should focus on the people who were killed: who they were,
+what is publicly known about their lives, and what can responsibly be
+reconstructed from the record.
+
+Where the record is thin, leave it thin rather than filling gaps with
+speculation.
+
+The page should not:
+- rank victims
+- number them as a hierarchy of importance
+- sensationalize their deaths
+- use later media controversies as substitutes for biographies
+
+APPROVED VICTIMS PAGE STRUCTURE
+-------------------------------
+Header:
+    VICTIMS ▾
+
+Main route:
+    /victims
+
+Page:
+1. Introduction
+2. Interactive Table 1: The Victims
+3. Individual profiles in chronological order
+4. About the Record
+5. Sources & Notes
+
+TABLE 1
+-------
+Columns:
+- Name
+- Age
+- Background
+- Who They Were
+
+The "Who They Were" field is the human-centered part of the table.
+
+Important data rule:
+Ages in historical sources are not always consistent. Where a meaningful
+discrepancy exists, the final page should retain a source note instead of
+pretending certainty.
+
+Do not use "Date of death" as a standard table field. Prefer a "Last known
+date" or similar wording where the historical record is uncertain.
+
+INTERACTIVE PLAN
+----------------
+- Clicking a victim's name in Table 1 jumps to that person's profile.
+- Each profile can include inline numbered source citations.
+- Relevant names/events can link to deeper sections of the research.
+- Konerak's profile can link to Systemic Failures.
+- Later media/family responses can link to Media & Cultural Portrayal.
+
+PROFILE EDITORIAL PATTERN
+-------------------------
+Each profile should be compact enough to read, but can vary in length according
+to the amount of reliable information available.
+
+Suggested visual pattern:
+
+    NAME
+
+    Age · Place / Background
+
+    Short biographical profile
+
+    Brief case context
+
+    Sources [1] [2]
+
+The killing itself should normally receive no more than the minimum context
+needed to orient the reader.
+
+FACT-CHECKED / REFINED PROFILES
+-------------------------------
+
+1. STEVEN HICKS, 18
+-------------------
+Steven Mark Hicks had recently graduated from high school in Coventry
+Township, Ohio. His father, Richard, described him as a deeply caring young
+man; in an Associated Press account, he recalled Hicks becoming distraught
+after shooting a rabbit during a hunting trip. Hicks was hitchhiking to a
+rock concert at Chippewa Lake Park when he was picked up by Dahmer. He was
+last seen on June 18, 1978, and his remains were not located until after
+Dahmer confessed in 1991.
+
+Refinement:
+- Keep family and recent-graduate context.
+- Remove unsupported superlatives such as "always open to making new friends"
+  unless a source is cited.
+- Use June 18 as the last-known date.
+- Avoid presenting an exact death date as independent forensic fact.
+
+2. STEVEN TUOMI, 28
+-------------------
+Steven W. Tuomi grew up in Ontonagon in Michigan's Upper Peninsula and worked
+as a short-order cook at a Milwaukee restaurant. Former classmates remembered
+him as quiet but artistic; one recalled a stained-glass lamp he made in art
+class. Tuomi was last seen in Milwaukee on September 15, 1987. Dahmer later
+admitted killing him, but Tuomi was the only Milwaukee victim for whom Dahmer
+was not charged because investigators did not have sufficient physical
+evidence.
+
+Refinement:
+- Change the draft's "around 24" to 28 in the main presentation.
+- Do not state a precise death date.
+- The lack of recovered remains and absence of a murder charge should be
+  clearly noted as part of the record.
+
+3. JAMES "JAMIE" DOXTATOR, 14
+-----------------------------
+Jamie Doxtator was the oldest of four children and was of Stockbridge and
+Oneida ancestry. He was nearly six feet tall and was remembered as enjoying
+pool and riding his bike. His mother, Debbie Vega, later spoke publicly about
+him and his family. Doxtator was last seen on January 16, 1988.
+
+Refinement:
+- Keep the ancestry wording cautious and source-attributed.
+- Remove the claim that he had recently left home because of an abusive
+  stepfather unless the final article has a direct, reliable source for that
+  detail.
+- Use January 16, 1988 rather than only "January 1988."
+
+4. RICHARD GUERRERO, 25*
+-------------------------
+Richard Guerrero came from a family of Mexican descent. His sister, Janie
+Hagen, described him as close to his family and said he sometimes helped
+their mother with errands and babysat her young daughter. Guerrero disappeared
+in March 1988 and was last seen around that period. His family later described
+the difficulty of getting answers and hired a private investigator who
+defrauded them.
+
+Refinement:
+- Use 25 as the commonly reported age in the principal Milwaukee Journal
+  Sentinel retrospective.
+- Add a source note because the FBI file lists a December 12, 1965 birth date,
+  which would imply a younger age at the time of his disappearance.
+- Do not silently resolve the discrepancy.
+- Keep Hagen's later criticism of Dahmer tourism primarily in Impact / Media.
+
+5. ANTHONY SEARS, 24
+--------------------
+Anthony Sears was a Milwaukee restaurant manager who had recently received a
+promotion at Baker's Square. He aspired to become a model and was saving money
+with plans to leave Milwaukee. His mother said he had spoken about marrying
+his girlfriend once he had enough money. He was last seen on March 25, 1989.
+
+Refinement:
+- Change the draft's age from 26 to 24.
+- Keep his work, modeling ambitions, family celebration, and marriage plans.
+- These details strongly support the page's purpose of showing who he was.
+
+6. RAYMOND "RICKY BEEKS" SMITH, 33*
+-------------------------------------
+Raymond Lamont Smith, commonly known as Ricky Beeks, had been living with a
+half-sister after his release from prison. He had a ten-year-old daughter who
+lived in Rockford, Illinois. He was last seen on May 29, 1990.
+
+Refinement:
+- Prefer the name "Raymond 'Ricky Beeks' Smith" in the formal profile.
+- Note that the FBI file gives a birth date of August 10, 1957, which would
+  imply age 32 at the time; the Milwaukee Journal Sentinel retrospective
+  reports 33.
+- Use a source note rather than choosing silently.
+- Avoid the draft's suggestion that his disappearance was unremarkable;
+  instead simply state the documented family circumstances.
+
+7. EDWARD "EDDIE" SMITH, 28*
+-----------------------------
+Eddie Smith aspired to become a professional model and was known among friends
+for wearing a turban-like head wrap, which led to the nickname "the Sheikh."
+He was reported missing in June 1990. His sister Carolyn later received a
+telephone call, apparently from Dahmer, indicating that Eddie was dead.
+Family statements presented in court described him as having been raised in a
+loving Christian home and as being close to his family.
+
+Refinement:
+- Use 28 as the principal reported age, but note the FBI birth-date discrepancy
+  if age is displayed numerically.
+- Keep the modeling aspiration and family description.
+- State sexual orientation only when supported by an identified family or
+  primary source, and use attribution rather than presenting later statements
+  as contemporaneous facts.
+
+8. ERNEST MILLER, 24*
+---------------------
+Ernest Miller was preparing to begin classes at an arts college in Chicago and
+hoped to become a professional dancer. His aunt, Vivian Miller, described him
+as a talented dancer who had sung and performed when he was younger and had
+sung at church. Miller had graduated from Milwaukee High School of the Arts
+and was visiting relatives in Milwaukee. He was last seen on September 2,
+1990.
+
+Refinement:
+- The Milwaukee Journal Sentinel retrospective gives his age as 24.
+- The FBI file lists a May 5, 1967 birth date, which would imply a younger age;
+  preserve this as a documented discrepancy.
+- Keep his education, dancing, and family context.
+
+9. DAVID THOMAS, 23
+-------------------
+David Thomas was the father of a two-year-old daughter, Courtia Beanland.
+His former girlfriend, Chandra Beanland, remembered him as fun-loving.
+Although Thomas sometimes stayed away for periods, Beanland reported him
+missing in September 1990. He was last seen on September 24, 1990.
+
+Refinement:
+- Remove the phrase "passionate hustler" from the draft because it is vague
+  and not useful to the site's biographical purpose.
+- Keep the daughter/family context, with careful attribution.
+- Avoid importing the full victim-impact statement into the biography.
+
+10. CURTIS STRAUGHTER, 17-18*
+-----------------------------
+Curtis Straughter was a high-school dropout who had joined Gay Youth Milwaukee
+at age 15. He worked as a nursing assistant and was planning to obtain a
+high-school equivalency certificate and attend modeling school. He lived with
+his grandmother, and his mother later spoke at the trial. He was last seen in
+early March 1991.
+
+Refinement:
+- There is a documented age discrepancy.
+- The Milwaukee Journal Sentinel retrospective reports 18.
+- The Wisconsin criminal complaint gives a date of birth of April 16, 1973,
+  and records his grandmother as last seeing him on February 18, 1991,
+  implying that he was 17.
+- The final table should not silently choose. Display "17*" or another clearly
+  sourced formulation with a note explaining the discrepancy.
+- The last-seen date also appears as March 7 in the later Journal Sentinel
+  retrospective, while other contemporaneous records give February 18.
+  This should be resolved in the Timeline/source notes rather than treated as
+  settled without qualification.
+
+11. ERROL LINDSEY, 19
+--------------------
+Errol Lindsey was the youngest of six children. A friend recalled that he
+worked making plaster figures, and his eighth-grade art teacher kept a
+watercolor he had made. His mother remembered him as someone who usually went
+to work and came home. Lindsey was last seen on April 7, 1991. His sister,
+Rita Isbell, later delivered a victim-impact statement at Dahmer's sentencing.
+
+Refinement:
+- Keep the art, work, and family details.
+- The unborn daughter and Rita Isbell's later media criticism can be included
+  with careful sourcing, but the Netflix controversy belongs primarily in
+  Media & Cultural Portrayal.
+- Do not make the later dramatization the defining fact of Lindsey's profile.
+
+12. ANTHONY "TONY" HUGHES, 31
+-----------------------------
+Anthony Hughes lived in Madison and had returned to Milwaukee to visit family.
+He was deaf after an illness with pneumonia in infancy and communicated using
+lip-reading, sign language, and written notes. He was remembered by family as
+outgoing and socially connected. His mother, Shirley Hughes, was prominent
+in later reporting and court proceedings. Hughes was last seen on May 24,
+1991.
+
+Refinement:
+- Keep deafness and communication because they are important parts of his
+  life, not merely case details.
+- Do not use "deaf and mute" as an unqualified label when better wording is
+  available; describe the communication circumstances directly.
+- Keep his Madison/Milwaukee connection.
+- Move later entertainment/media criticism to Impact / Media.
+
+13. KONERAK SINTHASOMPHONE, 14
+------------------------------
+Konerak Sinthasomphone was one of a large Laotian immigrant family that
+settled in Milwaukee in 1980. A contemporary Milwaukee Sentinel report stated
+that the family came from Laos in November 1980 after worsening conditions
+following the 1975 communist takeover. His father had been a farmer in Laos.
+Konerak was about three when the family arrived, was a freshman at Pulaski
+High School, and regularly played soccer at Mitchell Park. He was reported
+missing in May 1991.
+
+Konerak's profile should contain a separate short subsection:
+    WHY HIS CASE MATTERS
+
+That subsection can briefly note that he was the younger brother of Somsack
+Sinthasomphone, whom Dahmer had sexually assaulted in 1988, and that Konerak's
+May 27, 1991 police encounter later became central to scrutiny of institutional
+response.
+
+Refinement:
+- Replace the earlier draft's 1979/1980 refugee chronology with the better-
+  supported contemporary wording above.
+- The exact details of canoe crossing, refugee-camp duration, and Catholic
+  relocation assistance should be used only with direct citations to the
+  relevant source.
+- Detailed police-failure analysis belongs in Systemic Failures.
+
+14. MATT TURNER, 20
+-------------------
+Matt Turner was a native of Flint, Michigan, who lived in Chicago and aspired
+to become a model. He met Dahmer after Chicago's Gay Pride parade and agreed
+to travel to Milwaukee. Turner had previously left home and had lived at a
+Chicago halfway house. He occasionally used the name Donald Montrell. He was
+last seen on June 30, 1991.
+
+Refinement:
+- The FBI file confirms the Donald Montrell alias and gives a July 3, 1970
+  birth date.
+- Keep the Chicago and halfway-house context.
+- Avoid graphic details of the killing in the biography.
+
+15. JEREMIAH WEINBERGER, 23
+----------------------------
+Jeremiah Weinberger was a native of Puerto Rico who lived in Chicago and
+worked as a customer service representative for a video store. His roommate
+remembered him as meticulous, artistic, neatly dressed, and attentive to his
+appearance. Weinberger encountered Dahmer in Chicago and traveled with him to
+Milwaukee by Greyhound bus. He was last seen on July 6, 1991.
+
+Refinement:
+- Use "video store" rather than "video company" unless a stronger source
+  supports the latter.
+- Keep the roommate's observations with attribution.
+- The specific bar/location context can be added later if directly sourced.
+
+16. OLIVER LACY, 23*
+---------------------
+Oliver Lacy was the youngest of three sons. He had a two-year-old child named
+Emmanuel and was engaged to be married. Originally from Oak Park, Illinois,
+he ran track at River Forest High School. His mother, Catherine Lacy,
+described him as outspoken. He wore a cross that had belonged to his late
+father and had moved to Milwaukee from Chicago within months of his father's
+death. He was last seen on July 12, 1991 and was the first of Dahmer's victims
+identified after the arrest.
+
+Refinement:
+- Use 23 as the main age reported by the Milwaukee Journal Sentinel
+  retrospective.
+- Note that the FBI file gives a June 23, 1967 birth date, which would imply
+  age 24; preserve the discrepancy in a source note.
+- Remove "raised by a single mother" unless the final article has a direct,
+  reliable source for that detail.
+- Keep the cross, family, engagement, child, and athletics details.
+
+17. JOSEPH BRADEHOFT, 25
+------------------------
+Joseph Bradehoft had recently moved to Milwaukee and was looking for work.
+His brother Donald had rented a Milwaukee apartment for him. He had recently
+lived in Illinois and Minnesota and had a wife and three children in Minnesota,
+ages two to seven. He loved sports and fishing. He left for a job interview
+on July 16, 1991 and never returned. He met Dahmer near the Marquette
+University campus and became Dahmer's final known victim.
+
+Refinement:
+- Use July 16 as the last-known date based on the Milwaukee Journal Sentinel
+  retrospective.
+- Do not state "killed in late July" as the primary date field.
+- Keep the father/husband/work-search context.
+- The exact encounter and murder chronology can be documented on the full
+  Timeline page with source notes.
+
+FRONT-PAGE SELECTED VICTIMS
+---------------------------
+Approved six:
+1. Steven Hicks
+2. Richard Guerrero
+3. Anthony Sears
+4. Anthony "Tony" Hughes
+5. Konerak Sinthasomphone
+6. Joseph Bradehoft
+
+Selection principle:
+These six are not being presented as the "most important" victims. They were
+selected to give the homepage a varied cross-section of chronology, family
+background, aspirations, disability/communication, immigration history, and
+the final stage of the case.
+
+FRONT-PAGE CARD CONTENT
+-----------------------
+Section heading:
+    SELECTED VICTIM PROFILES
+
+Supporting line:
+    Six of the seventeen profiles are introduced here. The full record is
+    available on the Victims page.
+
+Card metadata should favor:
+- age
+- place/background
+- one short biographical descriptor
+
+Avoid:
+- numbering the cards
+- leading with murder dates
+- graphic descriptions
+- media notoriety as the reason for selection
+
+Suggested short card descriptors:
+
+STEVEN HICKS
+    Recently graduated high school; remembered as deeply caring; first known
+    victim in the documented series.
+
+RICHARD GUERRERO
+    Close to his family and involved in everyday family life in Milwaukee.
+
+ANTHONY SEARS
+    Restaurant manager and aspiring model with plans for marriage and a future
+    outside Milwaukee.
+
+ANTHONY "TONY" HUGHES
+    Deaf Madison resident with strong family and community connections.
+
+KONERAK SINTHASOMPHONE
+    Milwaukee high-school student from a Laotian immigrant family.
+
+JOSEPH BRADEHOFT
+    Father of three who had recently moved to Milwaukee looking for work.
+
+FRONT-PAGE CARD LAYOUT
+----------------------
+Conceptual only:
+
+    THE VICTIMS
+    Selected Victim Profiles
+
+    [Large card]       [Medium card]
+    Tony Hughes        Steven Hicks
+
+    [Small card]       [Medium card]
+    Richard Guerrero   Konerak Sinthasomphone
+
+    [Medium card]      [Medium card]
+    Anthony Sears      Joseph Bradehoft
+
+    View all 17 victims ->
+
+Different card sizes are allowed to create editorial rhythm, but visual size
+must not imply that one victim mattered more than another.
+
+ABOUT THE RECORD
+----------------
+At the end of the Victims page:
+
+    ABOUT THE RECORD
+
+Purpose:
+- explain that the surviving public record is uneven
+- explain why profiles have different lengths
+- distinguish family recollections, contemporary reporting, official records,
+  court documents, and later reporting
+- preserve uncertainty where the historical record is contradictory
+
+Suggested principle:
+    "The amount of surviving information differs from person to person. We
+    do not fill those gaps with speculation."
+
+MEDIA / IMPACT SEPARATION
+-------------------------
+Keep on Victims:
+- family
+- childhood
+- education
+- work
+- relationships
+- interests
+- aspirations
+- community life
+- concise case context
+
+Move primarily to Impact / Media & Cultural Portrayal:
+- criticism of Netflix adaptations
+- later family objections to entertainment portrayals
+- criticism of Dahmer-themed tourism
+- public packaging of the victims' stories
+
+Move primarily to Systemic Failures:
+- detailed police response to Konerak
+- prior police/probation contacts
+- broader analysis of institutional and racial/sexuality-related response
+
+AGE / DATE DISCREPANCIES TO HANDLE EXPLICITLY
+----------------------------------------------
+The following deserve source notes in the final page:
+
+- Richard Guerrero: MJS reports 25; FBI file lists DOB 12/12/1965.
+- Raymond "Ricky Beeks" Smith: MJS reports 33; FBI file lists DOB 8/10/1957.
+- Edward "Eddie" Smith: MJS reports 28; FBI file lists DOB 8/2/1962.
+- Ernest Miller: MJS reports 24; FBI file lists DOB 5/5/1967.
+- Curtis Straughter: MJS reports 18; criminal complaint gives DOB 4/16/1973,
+  implying 17 at the relevant 1991 dates; MJS and contemporaneous records also
+  differ on the last-seen date.
+- Oliver Lacy: MJS reports 23; FBI file lists DOB 6/23/1967.
+- Steven Tuomi's exact age/death date should not be presented as more certain
+  than the supporting record allows.
+
+PRIMARY / HIGH-VALUE SOURCES USED FOR THIS REVISION
+----------------------------------------------------
+1. Milwaukee Journal Sentinel retrospective (Sept. 29, 2022), "Jeffrey Dahmer
+   killed 17 people before his crimes were discovered. These are the victims
+   and what we knew about them."
+   The article is available through syndicated/archived copies and was used
+   as the principal biographical source for this revision.
+
+2. FBI Vault — Jeffrey Lionel Dahmer FOIA files, especially Parts 01, 02, 03,
+   and 06.
+   Used for:
+   - dates of birth
+   - missing-person information
+   - identification records
+   - official investigative descriptions
+   - documented discrepancies
+
+3. Contemporary Milwaukee Sentinel material preserved in the FBI FOIA
+   material.
+   Used particularly for the early reporting on Konerak Sinthasomphone.
+
+4. UPI archival reports from 1991.
+   Used for contemporary reporting on identifications, charges, and the
+   Sinthasomphone incident where appropriate.
+
+5. Wisconsin criminal complaint material.
+   Used particularly for documented birth date / last-seen information in the
+   Curtis Straughter case and other formal case details.
+
+SOURCE-HANDLING RULE
+--------------------
+Do not treat a later retrospective article as equivalent to a contemporaneous
+official record.
+
+Where the sources disagree:
+- identify the disagreement
+- prefer the strongest primary/contemporaneous source for factual fields
+  where appropriate
+- retain the uncertainty in notes when it cannot be resolved
+- do not manufacture a false single answer
+
+CURRENT STATUS
+--------------
+Victims information architecture: APPROVED
+Front-page six-victim selection: APPROVED
+Front-page card concept: APPROVED
+Biographical draft: FACT-CHECKED / REFINED
+Final source-by-source article citations: NOT YET INSERTED
+Final web copy: NOT YET LOCKED
+
+NEXT STEP
+---------
+Before locking the Victims tab:
+1. Convert each refined profile into final article prose.
+2. Attach exact citations to individual claims.
+3. Resolve or document the remaining age/date discrepancies.
+4. Finalize Table 1.
+5. Finalize the six homepage cards and responsive presentation.
+6. Lock Victims and move to Timeline.
+
+CHANGE LOG
+----------
+2026-09-26
+- Fact-checked the current Victims draft against the Milwaukee Journal Sentinel
+  retrospective, FBI FOIA records, contemporary Milwaukee Sentinel material,
+  UPI archives, and formal case documents.
+- Corrected major age issues, including Anthony Sears (24), Steven Tuomi (28),
+  and Ernest Miller (reported 24 with a documented FBI birth-date discrepancy).
+- Added explicit age/date discrepancy handling for Guerrero, Ricky Beeks,
+  Eddie Smith, Ernest Miller, Curtis Straughter, and Oliver Lacy.
+- Changed Curtis Straughter to an explicit 17-18 discrepancy rather than
+  silently selecting one age.
+- Refined Konerak's family history to use the stronger contemporary Milwaukee
+  Sentinel account rather than the earlier, less directly sourced chronology.
+- Removed or softened unsupported/sensational wording.
+- Moved later media controversies out of the core biographies.
+- Retained the approved six front-page victims.
+- Added source-handling rules and a final fact-check checklist.
+
+END OF VICTIMS FACT-CHECKED & REFINED PLAN

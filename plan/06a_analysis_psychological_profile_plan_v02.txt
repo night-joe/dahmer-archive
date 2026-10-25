@@ -1,0 +1,609 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+ANALYSIS TAB — PSYCHOLOGICAL PROFILE & EVALUATION
+FACT-CHECKED & REFINED CONTENT / STRUCTURE PLAN
+Version: 0.2 — Working Reference
+Date: 2026-09-27
+
+STATUS
+------
+This document is the working reference for:
+ANALYSIS -> PSYCHOLOGICAL PROFILE & EVALUATION
+
+It is NOT final website copy.
+
+The section has been generated from the documented 1992 sanity-trial record
+and contemporary reporting because the user's Notion material does not contain
+a dedicated psychological section.
+
+CORE PURPOSE
+------------
+This page should answer:
+
+- What did the mental-health experts who evaluated Dahmer actually conclude?
+- Which diagnoses or clinical descriptions were used?
+- Where did the experts disagree?
+- What was the difference between mental illness and legal insanity?
+- What can the evaluations reasonably tell us?
+- What can they NOT tell us?
+
+The page should NOT:
+- retrospectively diagnose Dahmer from outside the record
+- present one expert's theory as a settled explanation
+- equate paraphilia with criminality
+- equate mental illness with legal insanity
+- treat homosexuality as a disorder
+- present the site's own assessment of Dahmer's mental state
+
+KEY EDITORIAL PRINCIPLE
+-----------------------
+The central distinction is:
+
+    MENTAL DISORDER / CLINICAL DESCRIPTION
+                     ≠
+    LEGAL INSANITY / CRIMINAL RESPONSIBILITY
+
+Several experts agreed that Dahmer had significant psychological or sexual
+pathology, while disagreeing over its nature, severity, and whether it produced
+the degree of impairment required for legal insanity under Wisconsin law.
+
+This distinction should be the visual and conceptual centerpiece of the page.
+
+RECOMMENDED PAGE STRUCTURE
+--------------------------
+1. Introduction: The psychological question
+2. How Dahmer was evaluated
+3. The 1992 expert witnesses
+4. Diagnoses and clinical findings
+5. Paraphilia and necrophilia
+6. Personality, control, and compulsivity
+7. Planning, concealment, and legal responsibility
+8. The "zombie" / control experiments
+9. Competing expert interpretations
+10. Jury's legal finding
+11. What the evaluations establish
+12. What they cannot establish
+13. Modern caution and terminology
+14. Sources / clinical notes
+
+SECTION 1 — THE PSYCHOLOGICAL QUESTION
+--------------------------------------
+The central question in the 1992 Wisconsin proceedings was not whether Dahmer
+had psychological disorders. Multiple experts described substantial pathology.
+
+The legal question was whether a mental disease or defect caused the degree of
+impairment required under Wisconsin law for a defendant to be excused from
+criminal responsibility.
+
+The site should introduce the section with:
+
+    "Dahmer's sanity trial was not a debate over whether he was psychologically
+    disturbed. The experts largely agreed that he was. They disagreed about
+    the nature and severity of that disturbance and, most importantly, whether
+    it prevented him from appreciating the wrongfulness of his conduct or from
+    controlling his behavior."
+
+This distinction is strongly supported by the trial reporting. The prosecution
+experts emphasized control and awareness; defense experts emphasized the
+strength and progression of Dahmer's paraphilic and other disorders.
+
+SECTION 2 — HOW DAHMER WAS EVALUATED
+------------------------------------
+The final page should explain that the experts drew on:
+- interviews with Dahmer
+- review of his personal history
+- police records and confession material
+- observations of his behavior and mental status
+- collateral information
+- clinical evaluation relevant to the legal question
+
+Avoid presenting the process as one single standardized modern assessment.
+
+Dahmer was evaluated by several specialists whose roles differed:
+- defense-retained / defense witnesses
+- court-appointed or independent experts
+- prosecution experts
+
+The most important names for the page are:
+- Frederick Berlin
+- Judith Becker
+- Carl Wahlstrom
+- George Palermo
+- Samuel Friedman
+- Park Dietz
+
+IMPORTANT:
+Contemporary reporting and later summaries sometimes describe the exact expert
+roles differently. The final article should identify each witness and role from
+the trial record/source being cited rather than relying on a single later list.
+
+SECTION 3 — THE 1992 EXPERT WITNESSES
+------------------------------------
+
+A. FREDERICK BERLIN
+-------------------
+Role:
+Defense psychiatrist and specialist in sexual disorders.
+
+Key testimony:
+- Described Dahmer as having severe sexual pathology centered on recurrent
+  fantasies involving dead bodies.
+- Considered the condition a mental disease.
+- Emphasized the progressive and compelling nature of Dahmer's sexual urges.
+- Argued that the disorder significantly impaired his ability to control those
+  urges.
+
+Important interpretation:
+Berlin's testimony should be presented as the defense-side clinical opinion,
+not as the site's own causal explanation.
+
+Source:
+Washington Post and UPI trial coverage, February 3–4, 1992.
+
+B. JUDITH BECKER
+----------------
+Role:
+Defense clinical psychologist / sex-offender researcher.
+
+Key testimony:
+- Diagnosed Dahmer with necrophilia.
+- Said the condition was central to the murders.
+- Described a pattern in which Dahmer's fantasies and behavior became more
+  consuming over time.
+- Acknowledged on cross-examination that Dahmer had released some people after
+  encounters did not develop as he had expected, an example used by the
+  prosecution to argue that he retained behavioral control.
+
+Important interpretation:
+Do not use Becker's testimony to claim that necrophilia inevitably causes
+murder. Her testimony was about this particular defendant and the legal
+question.
+
+Source:
+UPI / Washington Post, February 4–5, 1992.
+
+C. CARL WAHLSTROM
+-----------------
+Role:
+Defense forensic psychiatrist.
+
+Key testimony:
+- Described multiple psychiatric diagnoses, including necrophilia and
+  personality pathology; contemporary accounts also report diagnoses of
+  borderline and schizotypal personality disorders, alcohol dependence, and a
+  psychotic disorder.
+- Interpreted Dahmer's later experimentation as connected to a desire to
+  create a permanently controllable companion.
+- Said Dahmer's behavior became more disorganized while the frequency of
+  killing increased.
+
+IMPORTANT:
+The list of diagnoses comes from contemporary trial reporting and later
+summaries. The final site should cite the specific testimony/record attached
+to each diagnosis rather than displaying the list as a timeless clinical fact.
+
+Source:
+UPI, February 5, 1992; trial transcript where available.
+
+D. GEORGE PALERMO
+-----------------
+Role:
+Court-appointed psychiatrist who testified independently of the prosecution
+and defense.
+
+Key testimony:
+- Described a serious personality disorder.
+- Emphasized hostility, frustrated desire, fear of rejection, and desire for
+  control.
+- Characterized Dahmer in terms of sexual sadism.
+- Concluded that Dahmer was legally sane.
+- Did not diagnose him with necrophilia in the same way some defense experts
+  did, according to contemporary reporting.
+
+Important:
+Palermo's motivation theory is one expert's interpretation. Do not write
+"he killed because he hated his homosexual attraction" in the site's own
+voice.
+
+Source:
+Associated Press/Washington Post, February 6, 1992.
+
+E. SAMUEL FRIEDMAN
+------------------
+Role:
+Clinical psychologist who evaluated Dahmer at Palermo's request.
+
+Key testimony:
+- Described Dahmer as socially isolated and portrayed the victims/remains as
+  connected to companionship and trophy-like attachment.
+- Characterized the behavior as part of a hunting/sexual-gratification pattern.
+- His testimony supported the conclusion that Dahmer was legally sane.
+
+Important:
+The "hunter" analogy is Friedman's characterization, not a scientific
+classification adopted by the site.
+
+Source:
+Contemporary AP/Deseret reporting, February 6–7, 1992.
+
+F. PARK DIETZ
+------------
+Role:
+Forensic psychiatrist who testified for the prosecution.
+
+Key testimony:
+- Diagnosed alcohol dependence/substance-use disorder and paraphilia in
+  contemporary terms.
+- Argued that paraphilic interests explain sexual arousal/motivation but do
+  not themselves determine whether a person acts on those interests.
+- Emphasized Dahmer's ability to make choices, plan, conceal, and refrain
+  under some circumstances.
+- Concluded Dahmer was legally sane.
+
+Important:
+Dietz's testimony is crucial for the distinction between:
+    desire
+    behavior
+    choice
+    legal responsibility
+
+Source:
+UPI, February 13, 1992; Court TV transcript where available.
+
+SECTION 4 — DIAGNOSES AND CLINICAL FINDINGS
+-------------------------------------------
+The final page should NOT present one definitive diagnosis.
+
+Instead, provide a comparison table:
+
+EXPERT              | SIDE/ROLE       | IMPORTANT CLINICAL DESCRIPTIONS
+---------------------------------------------------------------------------
+Frederick Berlin    | Defense         | Necrophilia / severe sexual disorder
+Judith Becker      | Defense         | Necrophilia / sexual pathology
+Carl Wahlstrom     | Defense         | Multiple personality, sexual, substance-
+                     |                 | related and psychotic diagnoses
+George Palermo     | Court-appointed | Severe mixed personality pathology;
+                     |                 | sexual-sadistic features
+Samuel Friedman    | Independent     | Isolation/companionship/trophy interpretation
+Park Dietz         | Prosecution     | Paraphilia; alcohol/substance disorder;
+                     |                 | emphasis on control and choice
+
+IMPORTANT TERMINOLOGY NOTE
+--------------------------
+"Paraphilia" and "necrophilia" should be explained as terms used in the
+historical clinical/legal record.
+
+Do not write as though:
+- paraphilia = violence
+- necrophilia = murder
+- homosexuality = pathology
+
+The final article should explicitly state that homosexuality itself is not a
+psychiatric disorder and should not be grouped with the disorders discussed in
+the trial.
+
+The diagnostic vocabulary also reflects the psychiatric standards of the early
+1990s. The page should avoid retroactively converting every 1992 label into a
+current DSM-5-TR diagnosis.
+
+SECTION 5 — PARAPHILIA AND NECROPHILIA
+--------------------------------------
+This should be one of the most carefully written sections.
+
+Basic explanation:
+
+Paraphilia:
+A broad clinical term used in the period for atypical or unusual patterns of
+sexual arousal/interest under specified diagnostic criteria.
+
+Necrophilia:
+A term used by several experts to describe Dahmer's sexual interest in
+corpse-related activity.
+
+Important distinction:
+A diagnosis/descriptive label does not, by itself, establish criminal
+responsibility or explain every act.
+
+The experts disagreed:
+- Berlin and Becker treated necrophilic interests as central to Dahmer's
+  behavior and sufficiently impairing to matter for legal responsibility.
+- Fosdal accepted that Dahmer had necrophilic/paraphilic pathology but said it
+  did not create the degree of impairment required by Wisconsin law.
+- Dietz emphasized that paraphilic interests did not require acting on them.
+- Palermo disputed the way the defense characterized necrophilia and instead
+  emphasized personality pathology, hostility, power and control.
+
+The disagreement itself is the subject of the page.
+
+SECTION 6 — PERSONALITY, CONTROL AND COMPULSIVITY
+-------------------------------------------------
+The page should avoid the false choice:
+    "Dahmer was either a monster who chose everything OR completely helpless."
+
+The trial evidence was more complicated.
+
+Documented points:
+- Defense experts described powerful, progressively intrusive urges.
+- Prosecution experts emphasized planning and the ability to refrain.
+- Becker acknowledged examples where Dahmer released people.
+- Dietz emphasized that the presence of a sexual interest did not compel action.
+- Palermo considered Dahmer disturbed but still legally responsible.
+
+Use a neutral synthesis:
+
+    "The disagreement was not whether Dahmer had abnormal or severe desires.
+    It was whether those desires produced the kind of impairment recognized by
+    Wisconsin's legal standard."
+
+SECTION 7 — PLANNING, CONCEALMENT AND LEGAL RESPONSIBILITY
+-----------------------------------------------------------
+This is the bridge between psychology and law.
+
+Prosecution evidence emphasized:
+- choosing locations
+- obtaining supplies
+- using alcohol/drugs
+- creating cover stories
+- hiding evidence
+- changing behavior when discovery seemed possible
+- avoiding police detection
+
+Defense evidence emphasized:
+- increasingly consuming fantasies
+- psychological deterioration
+- the progressive character of the disorder
+- difficulty controlling urges
+
+The final article should not say:
+    "Planning proves sanity."
+
+Planning is evidence relevant to the legal question, but legal sanity was a
+formal conclusion under Wisconsin law after expert testimony and jury
+deliberation.
+
+The jury ultimately found Dahmer legally sane on all fifteen Wisconsin counts.
+
+SECTION 8 — CONTROL EXPERIMENTS
+------------------------------
+Use the neutral title:
+    EXPERIMENTATION AND CONTROL
+
+The 1992 trial heard testimony that Dahmer drilled into four victims' heads
+and attempted to create a permanently submissive state.
+
+The important psychological question was not the physical technique itself.
+
+It was what the behavior suggested about his goals:
+- desire for a controllable companion
+- attempts to eliminate resistance or abandonment
+- changing relationship between sexual fantasy and killing
+- practical desire to avoid the recurring process of killing and disposing
+  of bodies
+
+Fosdal testified that Dahmer had been trying to solve what he saw as a
+problem of preserving a controllable partner; defense experts interpreted the
+experiments in terms of increasingly severe pathology.
+
+Keep the physical details minimal and place the deeper description, if needed,
+behind an expandable evidence note.
+
+SECTION 9 — MOTIVATION: WHAT THE PSYCHOLOGICAL RECORD CAN SAY
+--------------------------------------------------------------
+The page should not settle motivation.
+
+Documented themes in expert testimony included:
+- sexual gratification
+- companionship
+- fear of rejection
+- desire for control
+- hostility
+- power
+- fantasy
+- necrophilic/paraphilic interests
+- alcohol as a disinhibiting factor
+
+These were not universally accepted as a single explanation.
+
+The site should end this section with:
+    "The psychological record does not produce one universally accepted cause
+    of the killings. It provides several competing clinical interpretations,
+    some of which overlap and some of which conflict."
+
+Link:
+    Theories & Motivations -> /topics/theories-motivations
+
+SECTION 10 — THE INSANITY QUESTION
+----------------------------------
+Use a clear explainer box:
+
+    WHAT WAS THE JURY DECIDING?
+
+    Dahmer had already pleaded guilty to the fifteen Wisconsin murders.
+
+    The jury was deciding whether a mental disease or defect made him legally
+    responsible under Wisconsin's mental-responsibility standard.
+
+The jury found him legally sane on all fifteen counts.
+
+This means:
+- the jury did not decide whether he committed the murders
+- a finding of legal sanity did not mean experts thought he had no
+  psychological disorder
+- several experts did diagnose substantial pathology
+- the legal question was whether the pathology produced the degree of
+  impairment required by the statute
+
+SECTION 11 — WHAT THE EVALUATIONS ESTABLISH
+-------------------------------------------
+The final page can safely state:
+
+1. Dahmer was evaluated by multiple mental-health professionals in connection
+   with his 1992 legal proceedings.
+2. The experts agreed that he had significant psychological/sexual pathology,
+   but disagreed over diagnosis and severity.
+3. Defense experts generally argued that the pathology substantially impaired
+   control/responsibility.
+4. Prosecution/court-appointed experts emphasized awareness, planning,
+   concealment and behavioral control.
+5. The jury rejected the insanity defense and found him legally sane on all
+   fifteen Wisconsin counts.
+
+These are the strongest stable conclusions from the trial record.
+
+SECTION 12 — WHAT THE EVALUATIONS CANNOT ESTABLISH
+---------------------------------------------------
+They cannot reliably establish:
+- a single cause of the murders
+- that childhood experiences "caused" the killings
+- that alcohol alone caused the behavior
+- that a particular diagnosis mechanically produced violence
+- that all of Dahmer's statements to evaluators were truthful
+- that any one expert's retrospective theory is objectively proven
+- a modern diagnosis from outside the historical clinical record
+
+This section is important for preventing the page from becoming pop-psychology
+dressed as forensic science.
+
+SECTION 13 — MODERN CAUTION
+---------------------------
+Add a short note:
+
+    "The terminology used in the 1992 proceedings belongs to the psychiatric
+    and legal context of that period. Diagnostic manuals, terminology and
+    forensic standards have evolved. The site therefore reports historical
+    diagnoses and testimony as historical evidence rather than retroactively
+    converting them into a modern diagnosis."
+
+Also clarify:
+- homosexuality was not a diagnosis to be explained
+- the page studies the psychological evaluations, not sexual orientation as
+  pathology
+
+SECTION 14 — INTERACTIVE DESIGN
+-------------------------------
+Recommended interface:
+
+TOP:
+    "Mental Disorder vs Legal Insanity"
+
+Then an interactive expert comparison:
+
+    [Berlin]
+    [Becker]
+    [Wahlstrom]
+    [Palermo]
+    [Friedman]
+    [Dietz]
+
+Click an expert:
+- role
+- side/appointment
+- key findings
+- conclusion on legal responsibility
+- source citations
+
+SECOND MODULE:
+    "What Was the Disagreement?"
+
+Three expandable items:
+    1. Diagnosis
+    2. Control
+    3. Legal responsibility
+
+THIRD MODULE:
+    "The Sanity Question"
+
+A simple visual:
+    Psychological disorder
+             ↓
+    Does it cause qualifying impairment?
+             ↓
+    Wisconsin legal standard
+             ↓
+    Jury verdict
+
+FOURTH MODULE:
+    "What We Can / Cannot Conclude"
+
+Two-column comparison:
+    Supported by record
+    Not established by record
+
+CROSS-LINKING
+-------------
+From Context:
+    /context#early-life
+    /context#alcohol
+
+From Offense Series:
+    /case/offense-series#experimentation
+
+From Trial:
+    /case/trial#sanity-trial
+    /case/trial#sanity-verdict
+
+To Theories:
+    /topics/theories-motivations
+
+To Timeline:
+    /timeline#sanity-trial
+    /timeline#sanity-verdict
+
+To Sources:
+    /sources
+
+SOURCE PRIORITY
+---------------
+1. Trial testimony / Court TV transcript
+2. Contemporary AP / Washington Post / UPI trial reporting
+3. Wisconsin court records
+4. Contemporary forensic/psychiatric reporting
+5. Later scholarly analysis
+
+KEY SOURCES
+-----------
+- Washington Post, February 3–15, 1992 trial coverage.
+- UPI Archives, February 2–15, 1992.
+- Court TV archive/transcripts of the 1992 sanity trial.
+- Wisconsin criminal case records where available.
+- Contemporary reporting of George Palermo, Frederick Berlin, Judith Becker,
+  Carl Wahlstrom, Samuel Friedman and Park Dietz testimony.
+
+CURRENT STATUS
+--------------
+Psychological Profile information architecture: APPROVED IN PRINCIPLE
+Independent generation from trial record: COMPLETE
+Expert comparison structure: APPROVED IN PRINCIPLE
+Clinical/legal distinction: APPROVED
+Final article prose: NOT YET LOCKED
+Exact article citations: NOT YET INSERTED
+Modern terminology/source note: APPROVED
+
+NEXT STEP
+---------
+1. Verify each expert's diagnosis and role against the trial transcript.
+2. Convert this plan into final article prose.
+3. Add exact citations for each diagnosis/testimony claim.
+4. Build the interactive expert comparison.
+5. Add the "Mental Disorder vs Legal Insanity" explainer.
+6. Lock Psychological Profile & Evaluation.
+7. Move to Theories & Motivations.
+
+CHANGE LOG
+----------
+2026-09-27
+- Created this section from the documented 1992 sanity-trial record because the
+  user's Notion project did not contain a dedicated psychological section.
+- Established the core distinction between psychological disorder and legal
+  insanity.
+- Included the principal expert witnesses: Berlin, Becker, Wahlstrom,
+  Palermo, Friedman and Dietz.
+- Preserved disagreement among experts instead of creating a single diagnosis.
+- Removed unsupported retrospective causal explanations.
+- Added a specific "What the evaluations can/cannot establish" section.
+- Added historical terminology caution so 1992 diagnoses are not presented as
+  automatic modern diagnoses.
+- Added an interactive expert-comparison design.
+- Linked detailed psychiatric interpretation to Theories & Motivations rather
+  than making this page settle motivation.
+
+END OF PSYCHOLOGICAL PROFILE & EVALUATION PLAN

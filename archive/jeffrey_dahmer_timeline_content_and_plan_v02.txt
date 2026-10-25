@@ -1,0 +1,954 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+TIMELINE TAB — FACT-CHECKED & REFINED CONTENT PLAN
+Version: 0.2 — Working Reference
+Date: 2026-09-26
+
+STATUS
+------
+This document is the working reference for the Timeline tab.
+
+It is NOT final website copy.
+The timeline has been fact-checked and structurally refined from the user's
+draft. Some dates in the historical record remain approximate or conflict
+between sources. Where that happens, the final timeline should preserve the
+uncertainty rather than force a false precision.
+
+CORE PURPOSE
+------------
+The Timeline is the chronological spine of the research project.
+
+It should answer:
+- What happened?
+- When did it happen?
+- Which institution or authority was involved?
+- Why is the event relevant to the broader historical record?
+
+The Timeline should not become a second Systemic Failures article. It can
+identify institutional contact and significance, but detailed interpretation
+belongs in the relevant topic pages.
+
+APPROVED TABLE
+--------------
+Table 2: Master Chronological Timeline
+
+Columns:
+- Date
+- Event
+- Institutional Contact Point
+- Significance
+
+Use "Date / Period" where an exact date is not reliably established.
+
+DATE-HANDLING RULE
+------------------
+Dates should be labeled according to what the source actually establishes.
+
+Possible date labels:
+- exact date
+- last seen
+- month/year
+- approximate period
+- later-documented event
+
+Do not convert:
+- last-seen dates into proven death dates
+- dates from later recollections into contemporaneous certainty
+- Dahmer's approximate recollection into exact chronology
+
+This is especially important for Steven Tuomi.
+
+TIMELINE ORGANIZATION
+---------------------
+The full /timeline page should be divided into visually distinct historical
+eras:
+
+1. 1960–1978 — Early life and first known killing
+2. 1979–1986 — Military service and early legal contacts
+3. 1987–1989 — Return to killing and pre-probation period
+4. 1990 — Apartment 213 and escalation
+5. 1991 — Final months, discovery, arrest and investigation
+6. 1992 — Trial, sentencing and immediate aftermath
+7. 1994 — Death in prison
+8. Later legal / institutional re-examination
+
+The eras are visual groupings, not separate pages.
+
+FACT-CHECKED MASTER TIMELINE
+----------------------------
+
+1960
+-----
+May 21, 1960
+Event:
+Jeffrey Lionel Dahmer is born in Milwaukee, Wisconsin.
+
+Institutional Contact:
+Vital records / none beyond ordinary birth registration.
+
+Significance:
+Establishes the beginning of the biographical timeline. The FBI records his
+place of birth as Milwaukee, Wisconsin.
+
+Refinement:
+Do not force an institutional-failure interpretation onto a birth record.
+
+1978
+----
+June 18, 1978
+Event:
+Steven Hicks is last seen after accepting a ride from Dahmer in the Bath
+Township, Ohio area. Dahmer later confessed to killing him.
+
+Institutional Contact:
+Ohio missing-person / local law-enforcement records.
+
+Significance:
+First known killing in Dahmer's later confession. Hicks remained an
+unresolved missing-person case until evidence developed after the 1991
+investigation.
+
+Important:
+The date June 18 is strongly supported as Hicks's last known sighting.
+Dahmer's later account supplied the murder details.
+
+Source:
+FBI Vault, Jeffrey Lionel Dahmer Part 03.
+
+1979–1981
+----------
+December 1979 / 1979 enlistment through March 1981
+Event:
+Dahmer serves in the U.S. Army, trains as a medical specialist/combat medic,
+and is stationed in West Germany.
+
+Institutional Contact:
+United States Army.
+
+Significance:
+Military records document repeated alcohol-related counseling and other
+disciplinary/administrative problems. He was enrolled in an alcohol
+rehabilitation program but did not enter treatment, and he was honorably
+discharged in March 1981.
+
+Refinement:
+Do NOT write:
+"discharged without psychiatric intervention."
+
+The available record supports repeated counseling for alcohol abuse and a
+rehabilitation referral/program, not a conclusion that no intervention of any
+kind occurred.
+
+The FBI-derived military records document counseling on multiple dates and
+the March 1981 honorable discharge.
+
+1981
+----
+October 1981
+Event:
+After returning to Ohio, Dahmer is arrested in Bath Township for disorderly
+conduct connected to intoxication/open alcohol at a Ramada Inn.
+
+Institutional Contact:
+Bath Township Police / local court.
+
+Significance:
+Adds an important documented legal contact between military discharge and
+Dahmer's later Wisconsin arrests.
+
+Refinement:
+This event was missing from the original timeline and should be included if
+the goal is a complete institutional chronology.
+
+1982
+----
+August 8, 1982
+Event:
+Dahmer is arrested by State Fair Park police for disorderly conduct.
+
+Institutional Contact:
+Wisconsin State Fair Park Police / local court.
+
+Significance:
+Earliest confirmed Wisconsin criminal-history entry in the FBI record.
+
+Refinement:
+Do not include the "$60 fine" unless a primary source is attached. The FBI
+record confirms conviction/fine but the amount is not established there.
+
+1986–1987
+----------
+September 8, 1986
+Event:
+Dahmer is arrested by Milwaukee police for lewd and lascivious behavior.
+
+Institutional Contact:
+Milwaukee Police Department / court.
+
+Significance:
+Begins another documented criminal-history episode.
+
+Refinement:
+The charge was later reduced/changed. Do NOT say he was convicted of lewd and
+lascivious behavior.
+
+March 10, 1987
+Event:
+The 1986 charge is reduced to disorderly conduct; Dahmer is convicted and
+sentenced to one year of probation and fined.
+
+Institutional Contact:
+Milwaukee court / probation.
+
+Significance:
+Documents a prior probationary criminal-justice contact before the 1988
+child-sexual-assault case.
+
+1987
+----
+September 15, 1987
+Event:
+Steven Tuomi is last seen in Milwaukee after leaving work.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Important starting point for the Tuomi chronology.
+
+November 1987 — date uncertain
+Event:
+Dahmer later identifies Steven Tuomi as his second victim and says the death
+occurred at the Ambassador Hotel.
+
+Institutional Contact:
+Hotel / later police investigation.
+
+Significance:
+Marks the return to killing after the 1978 Hicks case.
+
+Refinement:
+Do not present "November 20, 1987" as an independently established exact
+death date unless the final source note can support it. The FBI interview
+record says Dahmer placed the killing "somewhere around 1986 or 1987,"
+while Tuomi's known last sighting was September 15, 1987.
+
+This is one of the timeline's deliberate uncertainty markers.
+
+1988
+----
+January 16, 1988
+Event:
+James "Jamie" Doxtator disappears and is later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee-area missing-person records.
+
+Significance:
+First known Milwaukee killing in the renewed sequence.
+
+March 24, 1988
+Event:
+Richard Guerrero disappears and is later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee police / missing-person investigation.
+
+Significance:
+Adds a second unresolved disappearance before Dahmer's 1989 conviction.
+
+September 1988
+Event:
+Dahmer sexually assaults 13-year-old Somsack Sinthasomphone.
+
+Institutional Contact:
+Milwaukee Police Department / Milwaukee County Circuit Court.
+
+September 27, 1988
+Event:
+Dahmer is arrested and charged in the Somsack Sinthasomphone case.
+
+Institutional Contact:
+Milwaukee Police Department / Milwaukee County Circuit Court.
+
+Significance:
+This is the most consequential pre-1991 criminal-justice intervention
+because Dahmer enters the probation system afterward.
+
+1989
+----
+March 25, 1989
+Event:
+Anthony Sears is last seen and is later established as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee Police / missing-person records; Dahmer was free while his 1988
+case was still pending.
+
+Significance:
+The killing occurred between Dahmer's 1988 arrest and May 1989 sentencing,
+making the chronology relevant to the later examination of pretrial release.
+
+Refinement:
+Do not call this a proven "pretrial-services failure" unless the source
+establishes that conclusion. State the documented legal status and let the
+Systemic Failures article analyze the supervision issue.
+
+May 24, 1989
+Event:
+Dahmer is sentenced for the 1988 sexual-assault/child-enticing convictions.
+
+Institutional Contact:
+Milwaukee County Circuit Court / Wisconsin probation system.
+
+Significance:
+He receives one year in the Milwaukee House of Correction with work-release
+privileges and five years of probation. Probation becomes a central
+institutional context for the 1990–1991 killings.
+
+Refinement:
+Do not collapse the sentencing into "five years probation" alone; both the
+custodial sentence and probation are important.
+
+1990
+----
+March 1990
+Event:
+Dahmer is released from the House of Correction and begins serving probation.
+
+Institutional Contact:
+Wisconsin probation/parole system.
+
+Significance:
+Places him under active community supervision during the period in which
+most later killings occurred.
+
+May 1990
+Event:
+Dahmer moves from his grandmother's West Allis home into Apartment 213 at
+924 N. 25th Street, Oxford Apartments, Milwaukee.
+
+Institutional Contact:
+Landlord/building management; Wisconsin probation.
+
+Significance:
+Creates the physical setting for the majority of the remaining murders.
+
+Refinement:
+Do not write that his probation officer "failed mandatory quarterly home visits."
+The relevant Wisconsin rule for maximum supervision required face-to-face
+contact at least every 14 days and home visits at least every 30 days unless
+waived by a supervisor. Donna Chester did not make home visits because waivers
+were approved by her supervisor.
+
+May 1990
+----------
+May 20, 1990
+Event:
+Raymond "Ricky Beeks" Smith is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person investigation.
+
+Significance:
+First known murder at Apartment 213.
+
+June 14, 1990
+Event:
+Edward "Eddie" Smith is last seen leaving the Phoenix Bar and later
+identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Second known murder at Apartment 213.
+
+September 3, 1990
+Event:
+Ernest Miller is last seen visiting in Milwaukee and later identified as a
+Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Third known murder at Apartment 213.
+
+September 24, 1990
+Event:
+David Thomas is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Fourth known murder at Apartment 213 in 1990.
+
+1990–1991
+---------
+1990–1991
+Event:
+Apartment residents and neighbors report persistent unpleasant odors coming
+from Apartment 213. Dahmer gives explanations involving spoiled food/freezer
+problems.
+
+Institutional Contact:
+Oxford Apartments management / neighbors.
+
+Significance:
+Becomes an important community-information thread for later analysis of
+housing and institutional response.
+
+Refinement:
+Do not state that "complaints were ignored" as an absolute unless a source
+demonstrates the full chain of notice. The timeline should document the
+complaints and explanations; Systemic Failures should analyze the response.
+
+1991
+----
+February 18, 1991
+Event:
+Curtis Straughter is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Marks renewed killing activity in 1991 after the 1990 sequence.
+
+Refinement:
+Some secondary sources use slightly different dates. Use the strongest
+contemporaneous record and retain a note if conflict remains.
+
+April 7, 1991
+Event:
+Errol Lindsey is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Shows increasing frequency as Dahmer's final months approach.
+
+May 24, 1991
+Event:
+Anthony "Tony" Hughes is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Two days later, the case intersects directly with police action involving
+another victim.
+
+May 27, 1991
+Event:
+Konerak Sinthasomphone is found outside Dahmer's apartment in a distressed
+condition. Police respond and return him to Dahmer's custody; Konerak is
+later killed.
+
+Institutional Contact:
+Milwaukee Police Department.
+
+Significance:
+This becomes the most closely examined institutional failure in the case.
+The response was immediately investigated after Dahmer's arrest, and the
+episode later became the subject of federal civil litigation concerning
+police conduct and departmental policies.
+
+Refinement:
+Do not state "no background check" or other procedural details as settled
+fact unless the final source establishes them. The final page should focus on
+the documented sequence and link to Systemic Failures for analysis.
+
+June 30, 1991
+Event:
+Matt Turner disappears and is later identified as a Dahmer victim.
+
+Institutional Contact:
+Chicago/Milwaukee law-enforcement records.
+
+Significance:
+Marks the beginning of the final rapid sequence of killings.
+
+July 6, 1991
+Event:
+Jeremiah Weinberger is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Chicago missing-person records / Milwaukee investigation.
+
+Significance:
+Second known victim in the final sequence.
+
+July 12, 1991
+Event:
+Oliver Lacy is last seen and later identified as a Dahmer victim.
+
+Institutional Contact:
+Milwaukee missing-person records.
+
+Significance:
+Third known victim in the final sequence.
+
+July 16, 1991
+Event:
+Joseph Bradehoft leaves for a job interview and does not return; he is later
+identified as Dahmer's final known victim.
+
+Institutional Contact:
+Milwaukee missing-person investigation.
+
+Significance:
+Final known killing before the July 22 arrest.
+
+Refinement:
+Use "final known victim" or "final victim in the 17-killing sequence" rather
+than relying on a precise death date when source records differ.
+
+July 22, 1991 — 11:30 p.m.
+Event:
+Tracy Edwards escapes from Apartment 213 with a handcuff attached to one
+wrist and flags down Milwaukee police officers Robert Rauth and Rolf Mueller.
+They accompany him back to the apartment.
+
+Institutional Contact:
+Milwaukee Police Department.
+
+Significance:
+The escape directly leads to police entry, discovery of evidence and
+Dahmer's arrest.
+
+July 22–23, 1991
+Event:
+Police searching Apartment 213 find Polaroid photographs and human remains.
+Dahmer is arrested.
+
+Institutional Contact:
+Milwaukee Police Department / Milwaukee County medical examiner / FBI
+assistance.
+
+Significance:
+The investigation shifts from an assault incident to a multi-homicide
+investigation.
+
+July 23, 1991 onward
+Event:
+Dahmer begins extensive interviews with detectives and confesses to multiple
+killings; the interviews continue over the following days/weeks.
+
+Institutional Contact:
+Milwaukee Police homicide investigators.
+
+Significance:
+His statements become a major source for reconstructing the victim sequence,
+locations, and circumstances.
+
+Refinement:
+The FBI and contemporary reporting describe roughly 60 hours of interviews
+and the confession of 17 killings. Use "more than 60 hours" only when the
+source supports that exact characterization.
+
+July 25, 1991
+Event:
+Dahmer is formally charged with four counts of first-degree intentional
+homicide and as a habitual criminal.
+
+Institutional Contact:
+Milwaukee County Circuit Court / District Attorney's Office.
+
+Significance:
+Marks the formal beginning of the Wisconsin murder prosecution.
+
+July 26, 1991
+Event:
+Milwaukee Police Chief Philip Arreola announces that three officers involved
+in the May 27 Sinthasomphone encounter are suspended pending investigation.
+
+Institutional Contact:
+Milwaukee Police Department / Internal Affairs.
+
+Significance:
+Shows the department's immediate institutional response once the earlier
+police contact becomes known.
+
+August 6, 1991
+Event:
+Eight additional homicide counts are filed, bringing the Wisconsin murder
+charges to 12.
+
+Institutional Contact:
+Milwaukee County Circuit Court.
+
+Significance:
+The scale of the prosecution expands as investigators identify additional
+victims and evidence.
+
+August 22, 1991
+Event:
+Three further homicide counts are filed, bringing the Wisconsin total to 15.
+
+Institutional Contact:
+Milwaukee County Circuit Court.
+
+Significance:
+Completes the set of 15 Wisconsin homicide counts later resolved in the
+1992 trial.
+
+September 1991
+----------------
+September 1991
+Event:
+Ohio investigators identify human remains from Dahmer's former family
+property as belonging to Steven Hicks.
+
+Institutional Contact:
+Summit County investigators / coroner / forensic identification.
+
+Significance:
+Provides independent forensic confirmation of the earliest known homicide
+and extends the case beyond Wisconsin.
+
+Refinement:
+The exact identification date should be cited to the forensic record when the
+final page is written.
+
+1992
+----
+January 13, 1992
+Event:
+Dahmer enters a plea of guilty but insane to the 15 Wisconsin murder charges.
+
+Institutional Contact:
+Milwaukee County Circuit Court.
+
+Significance:
+Because guilt is admitted, the major contested issue becomes Dahmer's mental
+responsibility at the time of the killings.
+
+January 27, 1992 onward
+Event:
+The sanity phase of the Milwaukee trial begins.
+
+Institutional Contact:
+Milwaukee County Circuit Court / psychiatric experts.
+
+Significance:
+Competing psychiatric testimony addresses legal insanity rather than whether
+Dahmer committed the killings.
+
+February 15, 1992
+Event:
+Jury finds Dahmer legally sane.
+
+Institutional Contact:
+Milwaukee County Circuit Court jury.
+
+Significance:
+Rejects the guilty-but-insane defense.
+
+February 17, 1992
+Event:
+Judge Laurence Gram Jr. sentences Dahmer to 15 consecutive life terms in
+Wisconsin.
+
+Institutional Contact:
+Milwaukee County Circuit Court.
+
+Significance:
+Concludes the Wisconsin criminal case.
+
+Refinement:
+Do not describe the jury as "convicting" him after trial. Dahmer had already
+pleaded guilty; the jury determined his legal sanity.
+
+May 1, 1992
+Event:
+Dahmer pleads guilty in Ohio to the 1978 murder of Steven Hicks and receives
+a life sentence consecutive to his Wisconsin terms.
+
+Institutional Contact:
+Summit County Court of Common Pleas, Ohio.
+
+Significance:
+Produces a 16th murder conviction and closes the second state's criminal
+case.
+
+Refinement:
+Do not use the draft's "exceeds 940 years" wording. Published accounts give
+different arithmetic for the Wisconsin sentence. The clearest stable fact for
+this project's timeline is 15 consecutive life terms in Wisconsin plus one
+additional life sentence in Ohio.
+
+1992 — civil/institutional aftermath
+-------------------------------------
+1992–1995
+Event:
+Federal civil litigation examines the May 27, 1991 police encounter and
+broader allegations concerning police conduct and policies involving
+minorities and gay men.
+
+Institutional Contact:
+U.S. District Court for the Eastern District of Wisconsin / City of Milwaukee
+/ Milwaukee Police Department.
+
+Significance:
+Moves the case beyond criminal prosecution into constitutional, civil-rights
+and institutional accountability questions.
+
+Refinement:
+Do not summarize the litigation as a simple judicial finding that "the police
+caused the murders." The cases involved different allegations, procedural
+postures, and legal standards.
+
+November 1992
+Event:
+The Oxford Apartments at 924 N. 25th Street are demolished after being
+purchased by the Campus Circle Project, a nonprofit redevelopment organization
+affiliated with Marquette University.
+
+Institutional Contact:
+Campus Circle Project / neighborhood redevelopment organizations.
+
+Significance:
+The building is removed after becoming a focus of public attention and
+unwanted tourism; plans were announced to landscape the site with grass and
+flowers.
+
+Refinement:
+The City of Milwaukee Redevelopment Authorities should NOT be listed as the
+primary institution for the purchase/demolition. UPI reported Campus Circle
+Project and Career Youth Development as the organizations behind the effort.
+
+1994
+----
+November 28, 1994
+Event:
+Dahmer is beaten to death by fellow inmate Christopher Scarver during a
+cleaning detail at Columbia Correctional Institution in Portage, Wisconsin.
+Inmate Jesse Anderson is also fatally attacked.
+
+Institutional Contact:
+Wisconsin Department of Corrections / Columbia Correctional Institution.
+
+Significance:
+Ends Dahmer's life in custody and becomes a separate institutional episode
+about prison management and inmate supervision.
+
+Refinement:
+Do not state "security failures allowed unsupervised contact" as established
+fact without a specific finding. Contemporary/later reporting does not support
+turning that claim into a settled conclusion. The timeline should document
+the attack; a later analysis section can examine supervision questions and
+official findings.
+
+INTERACTIVE TIMELINE PLAN
+-------------------------
+The webapp should make the timeline useful as a research tool rather than a
+static table.
+
+Approved ideas:
+
+1. ERA NAVIGATION
+   - Clickable year/era markers.
+   - Selecting an era scrolls to that period.
+
+2. FILTERS
+   Optional filters:
+   - Crime / victim event
+   - Police / law enforcement
+   - Court / legal
+   - Probation / supervision
+   - Housing / community
+   - Investigation / forensic
+   - Aftermath / institutional review
+
+3. EXPANDABLE EVENTS
+   - Default row is compact.
+   - Clicking expands the event for a short explanation.
+   - Expanded view can show source notes and internal links.
+
+4. CROSS-LINKING
+   Examples:
+   - Konerak event -> /topics/systemic-failures
+   - Probation events -> /topics/systemic-failures
+   - Hicks -> /victims#steven-hicks
+   - Trial events -> /case/trial
+   - Oxford demolition -> /impact/community-civic-impact
+
+5. MOBILE
+   - Prefer a vertical timeline.
+   - Each event becomes a readable block.
+   - Avoid making the user horizontally scroll an entire four-column desktop
+     table.
+   - The four-field information remains accessible through stacked labels.
+
+VISUAL DESIGN
+-------------
+The timeline should feel archival/editorial, not like a project-management
+dashboard.
+
+Possible visual pattern:
+
+    1991
+    │
+    ├── FEB 18
+    │   Curtis Straughter
+    │
+    ├── APR 7
+    │   Errol Lindsey
+    │
+    ├── MAY 24
+    │   Tony Hughes
+    │
+    ├── MAY 27
+    │   Konerak Sinthasomphone
+    │   [Police contact]
+    │
+    └── JUL 22
+        Tracy Edwards escapes
+        Dahmer arrested
+
+The full table remains the reference layer underneath or alongside the visual
+timeline.
+
+IMPORTANT EDITORIAL SEPARATION
+------------------------------
+Timeline:
+- chronology
+- documented institutional contacts
+- concise significance
+
+Systemic Failures:
+- analysis
+- competing interpretations
+- institutional policy examination
+- racial/sexuality-related response
+- probation and police oversight analysis
+
+Victims:
+- biographies
+- individual life details
+
+Case / Investigation:
+- detailed investigative reconstruction
+
+Trial:
+- legal proceedings and psychiatric testimony
+
+Impact:
+- community response
+- civil litigation aftermath
+- reform discussion
+- memory and media
+
+The Timeline should link to those pages rather than duplicate them.
+
+KEY SOURCE SET
+--------------
+1. FBI Vault — Jeffrey Lionel Dahmer FOIA files, Parts 01, 03, 06 and related
+   records.
+   Useful for:
+   - criminal history
+   - victim identification
+   - last-seen records
+   - birth dates
+   - investigative chronology
+   - Steven Tuomi uncertainty
+   - military/alcohol records
+
+2. Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343
+   (E.D. Wis. 1992).
+   Useful for:
+   - May 27, 1991 incident
+   - police response
+   - subsequent civil litigation context
+
+3. Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995)
+   and 105 F.3d 1182 (7th Cir. 1997).
+   Useful for:
+   - probation supervision
+   - Donna Chester
+   - home-visit waivers
+   - treatment and supervision details
+   - post-arrest probation issues
+
+4. Washington Post archive, January/August 1991 and January/February 1992.
+   Useful for:
+   - criminal charging chronology
+   - guilty-but-insane plea
+   - trial chronology
+
+5. UPI Archives, July 1991 and May 1992.
+   Useful for:
+   - contemporary investigation
+   - institutional response
+   - Ohio plea/sentencing
+   - early case reporting
+
+6. UPI Archives, August 13, 1992.
+   "Dahmer apartment building to be razed, turned into park."
+   Useful for:
+   - Campus Circle Project
+   - planned demolition
+   - community-redevelopment rationale
+
+FINAL FACT-CHECK NOTES
+----------------------
+Corrections made from the original draft:
+- Added October 1981 Bath Township arrest.
+- Corrected 1986 charge outcome: reduced to disorderly conduct in 1987;
+  do not say he was convicted of lewd and lascivious behavior.
+- Reframed 1981 Army period to document alcohol counseling and rehabilitation
+  referral rather than claiming no intervention.
+- Split September 1986 arrest and March 1987 disposition into separate events.
+- Separated Steven Tuomi's last-known sighting from the later uncertain murder
+  chronology.
+- Corrected the 1991 sequence: Curtis Straughter belongs in February, followed
+  by Errol Lindsey in April and Tony Hughes in May.
+- Added July 26, 1991 suspension of three officers as an institutional
+  response.
+- Added July/August 1991 charge-expansion milestones.
+- Added September 1991 forensic identification of Steven Hicks.
+- Corrected the 1992 trial structure: guilty-but-insane plea, sanity phase,
+  jury's sanity finding, then judicial sentencing.
+- Added the post-trial civil/institutional litigation period.
+- Corrected the Oxford Apartments demolition attribution from Milwaukee
+  Redevelopment Authorities to the Campus Circle Project / redevelopment
+  organizations.
+- Removed the claim that probation officer home visits were "mandatory
+  quarterly"; the relevant maximum-supervision rule allowed supervisor-approved
+  waivers, and the record shows such waivers were granted.
+- Removed the draft's unsupported "terminal acceleration" label and replaced it
+  with neutral descriptions such as "rapid sequence of killings."
+- Removed or softened claims that institutional actors "ignored" warnings when
+  the source supports documenting contact/complaints but not that broad causal
+  conclusion.
+- Removed the draft's "total custodial sentence exceeds 940 years without
+  parole" formulation because published arithmetic differs; the stable legal
+  facts are 15 consecutive Wisconsin life terms plus one Ohio life sentence.
+- Reframed the 1994 prison event so the timeline records the attack without
+  asserting an unproven security failure.
+
+CURRENT STATUS
+--------------
+Timeline information architecture: APPROVED
+Table 2 columns: APPROVED
+Historical eras: APPROVED
+Interactive approach: APPROVED IN PRINCIPLE
+Fact-checked timeline draft: REFINED
+Final article citations: NOT YET INSERTED
+Final web copy: NOT YET LOCKED
+
+NEXT STEP
+---------
+Before locking the Timeline tab:
+1. Source-check every exact date in the final copy.
+2. Decide which date labels are exact, last-known, or approximate.
+3. Finalize the full Table 2 wording.
+4. Build the expandable event text.
+5. Add cross-links to Victims, Systemic Failures, Case, Trial and Impact.
+6. Finalize mobile timeline presentation.
+7. Lock Timeline and move to Context.
+
+END OF TIMELINE FACT-CHECKED & REFINED PLAN

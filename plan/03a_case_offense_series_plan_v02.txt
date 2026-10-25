@@ -1,0 +1,623 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+CASE TAB — THE OFFENSE SERIES
+FACT-CHECKED & REFINED CONTENT / STRUCTURE PLAN
+Version: 0.2 — Working Reference
+Date: 2026-09-27
+
+STATUS
+------
+This document is the working reference for:
+CASE -> THE OFFENSE SERIES
+
+It is NOT final website copy.
+
+The offense-series draft has been fact-checked and restructured into a
+non-graphic, case-by-case research format. Final article prose and exact
+citations will be completed when the Case tab is locked.
+
+CASE TAB
+--------
+CASE
+- The Offense Series
+- Investigation & Arrest
+- Trial & Legal Proceedings
+
+This document concerns:
+    /case/offense-series
+
+CORE PURPOSE
+------------
+The Offense Series should explain the documented development of Dahmer's
+offending pattern without reproducing graphic material.
+
+It should answer:
+- How did each victim encounter Dahmer?
+- What approach or method is documented?
+- What happened afterward?
+- What institutional contact, if any, occurred?
+- What does the event contribute to understanding the broader pattern?
+
+The page should be detailed enough to reconstruct the case but should not become
+a graphic catalogue of violence.
+
+EDITORIAL PRINCIPLE
+-------------------
+The series should be about:
+    event + pattern + evidence + aftermath
+
+It should NOT be about:
+    gore + spectacle + increasingly graphic descriptions
+
+No graphic descriptions of:
+- mutilation
+- sexual acts
+- anatomy beyond what is necessary for forensic/historical understanding
+- remains
+
+Use neutral wording such as:
+    drugged
+    strangled
+    killed
+    dismembered
+    remains were disposed of
+    remains were preserved
+    forensic evidence was recovered
+
+Where a method is unusually important to the historical record, describe it
+briefly and clinically.
+
+THREE-PHASE FRAMEWORK
+---------------------
+The user's three-phase framework is retained because it gives the page a clear
+editorial structure.
+
+Important wording rule:
+These are a research/organizational framework for this website, not a formal
+criminological classification.
+
+1. PHASE ONE — BATH TOWNSHIP, OHIO
+   1978
+
+2. PHASE TWO — GRANDMOTHER'S WEST ALLIS HOME
+   1987–1989
+
+3. PHASE THREE — OXFORD APARTMENTS, APARTMENT 213
+   1990–1991
+
+This framework is supported by the documented locations and chronology, but
+the page should avoid claiming that these phases were objectively defined by
+criminologists.
+
+PHASE ONE — BATH TOWNSHIP, OHIO
+-------------------------------
+Steven Hicks — June 18, 1978
+
+Approach / Background:
+Dahmer, recently graduated from high school, encountered 18-year-old Steven
+Hicks while Hicks was hitchhiking to a concert.
+
+Documented method:
+Dahmer later confessed that Hicks was killed at the family residence. His
+account and later biographical sources describe a combination of blunt-force
+attack and strangulation.
+
+Aftermath:
+Dahmer dismembered Hicks's remains and initially buried them on the family
+property. He later exhumed the remains, further processed them, and scattered
+the bone fragments.
+
+Institutional contact:
+Hicks was a missing person. The disappearance did not lead to a homicide
+investigation connecting Dahmer to the death at the time.
+
+Significance:
+This is the first known homicide in the 17-killing confession and the only
+known killing before the long gap from 1978 to 1987.
+
+Important refinement:
+- Use "first known homicide" rather than "beginning of a serial pattern" as
+  an absolute claim; the latter is a later analytical framing.
+- June 18 should be described as the last known date/encounter unless the final
+  source supports a precise death date.
+- Keep disposal details brief.
+
+PHASE TWO — GRANDMOTHER'S WEST ALLIS HOME
+-----------------------------------------
+Timeframe:
+1987–1989
+
+Important location correction:
+Dahmer continued living with his grandmother, Catherine, in West Allis until
+he moved to 924 N. 25th Street in May 1990. The phrase "1987–1989" refers to
+the period containing the four known killings at or connected with the
+grandmother's home; the residence itself continued into 1990.
+
+STEVEN TUOMI — SEPTEMBER 1987
+-----------------------------
+Approach:
+Dahmer met Steven Tuomi in Milwaukee and took him to a room at the Ambassador
+Hotel.
+
+Documented method:
+According to Dahmer's later account to investigators, he intended to drug
+Tuomi but awoke after drinking to find Tuomi dead beside him. Dahmer said he
+did not remember the killing.
+
+Aftermath:
+He purchased a large suitcase, transported Tuomi's body to his grandmother's
+home, and dismembered and disposed of the remains there.
+
+Institutional contact:
+Tuomi was reported missing. No homicide charge was filed against Dahmer for
+Tuomi's death because investigators did not have sufficient physical evidence.
+
+Significance:
+This marks the return to homicide after the nine-year gap.
+
+Important uncertainty:
+The exact date of Tuomi's death is not independently established. The FBI
+interview record has Dahmer placing it "somewhere around 1986 or 1987," while
+Tuomi's last known sighting was September 15, 1987.
+
+Do not present a precise November 20, 1987 death date as settled fact without a
+source capable of supporting that precision.
+
+JAMES "JAMIE" DOXTATOR — JANUARY 1988
+-------------------------------------
+Approach:
+Dahmer encountered 14-year-old James Doxtator in Milwaukee and offered money
+for nude photographs.
+
+Documented method:
+Dahmer drugged and strangled Doxtator.
+
+Aftermath:
+The body was kept in the grandmother's basement for a period before
+dismemberment and disposal.
+
+Institutional contact:
+Doxtator was a missing person.
+
+Significance:
+Represents the beginning of a repeatable Milwaukee approach involving
+enticement, drugging and strangulation.
+
+RICHARD GUERRERO — MARCH 1988
+------------------------------
+Approach:
+Dahmer encountered Richard Guerrero in Milwaukee and offered money in the
+context of photographs.
+
+Documented method:
+Guerrero was drugged and strangled.
+
+Aftermath:
+His remains were dismembered and disposed of.
+
+Institutional contact:
+Guerrero was reported missing; his family later pursued outside investigative
+help.
+
+Significance:
+Adds another unresolved disappearance to the developing pattern.
+
+ANTHONY SEARS — MARCH 1989
+---------------------------
+Approach:
+Dahmer met Anthony Sears at a bar and brought him to his grandmother's home,
+where photographs and sexual contact were part of the pretext.
+
+Documented method:
+Dahmer drugged and strangled Sears.
+
+Aftermath:
+Dahmer preserved some of Sears's remains. His preserved head and genitalia were
+later found in Apartment 213 after the 1991 arrest.
+
+Institutional contact:
+Sears was reported missing.
+
+Significance:
+This is the point at which trophy retention becomes an especially important
+documented part of the pattern.
+
+Refinement:
+- The "first permanent trophy retention" is supported by later accounts and can
+  be described as a documented development in Dahmer's behavior.
+- Avoid reproducing detailed preservation techniques.
+- Do not say the skull itself was "kept as a trophy" unless the source wording
+  supports that interpretation; "preserved remains were retained" is cleaner.
+
+PHASE THREE — OXFORD APARTMENTS, APARTMENT 213
+----------------------------------------------
+Timeframe:
+May 1990 – July 1991
+
+Location:
+924 North 25th Street, Apartment 213, Milwaukee.
+
+The final phase contains twelve known killings.
+
+The transition should be described as:
+- a new living environment
+- continued enticement and drugging
+- more systematic storage/preservation of remains
+- increasing frequency of killings
+- additional experimentation
+- accumulation of evidence
+- eventual inability to conceal the activity
+
+Avoid the broad evaluative phrase:
+    "sharp jump in both frequency and severity"
+
+Prefer:
+    "The frequency of killings increased substantially, while the documented
+    methods of concealment, preservation and experimentation also became more
+    elaborate."
+
+WHY THE APARTMENT MATTERS
+-------------------------
+By the time of the arrest, investigators recovered the remains of eleven
+victims from Apartment 213. The FBI documents extensive physical evidence,
+including photographs, body parts and a 55-gallon drum containing several
+torsos. The crime-scene record provides the physical evidence base for the
+later reconstruction of the twelve Apartment 213 killings.
+
+Do not over-describe the crime-scene contents in the introductory Phase Three
+section. Detailed forensic evidence can be handled in Investigation & Arrest.
+
+CASE-BY-CASE OFFENSE ENTRIES
+----------------------------
+The Phase Three page should contain expandable entries for:
+
+1. Raymond "Ricky Beeks" Smith — May 1990
+2. Edward Smith — June 1990
+3. Ernest Miller — September 1990
+4. David Thomas — September 1990
+5. Curtis Straughter — February 1991
+6. Errol Lindsey — April 1991
+7. Anthony "Tony" Hughes — May 1991
+8. Konerak Sinthasomphone — May 1991
+9. Matt Turner — June 1991
+10. Jeremiah Weinberger — July 1991
+11. Oliver Lacy — July 1991
+12. Joseph Bradehoft — July 1991
+
+STANDARD ENTRY STRUCTURE
+------------------------
+Each entry should use the same editorial pattern:
+
+    VICTIM NAME
+    date · location
+
+    BACKGROUND / ENCOUNTER
+    How Dahmer encountered the victim and what is documented about the
+    initial pretext.
+
+    METHOD / PATTERN
+    Concise, non-graphic description of incapacitation and killing method
+    where reliably established.
+
+    AFTERMATH
+    What happened to the body/remains, whether anything was retained, and
+    how/when the victim was later identified.
+
+    INSTITUTIONAL CONTACT
+    Missing-person report, police contact, court/probation intersection, or
+    other relevant institutional record.
+
+    SIGNIFICANCE
+    One short paragraph identifying what the case contributes to understanding
+    the larger pattern.
+
+    SOURCES [1] [2]
+
+This keeps the page detailed while avoiding repetitive free-form narratives.
+
+EXPERIMENTAL "ZOMBIE" / DRILLING EPISODES
+------------------------------------------
+This material should be retained, but treated very carefully.
+
+Documented finding:
+During the 1992 sanity trial, prosecution psychiatrist Frederick Fosdal
+testified that Dahmer had drilled holes into the heads of four victims and
+introduced acid or boiling water in attempts to render them permanently
+submissive. The testimony framed these as attempts at control rather than
+simply killing.
+
+Use this as an analytical subsection:
+
+    EXPERIMENTATION AND CONTROL
+
+Do not write:
+    "Dahmer was trying to keep them alive rather than kill them."
+
+More accurate:
+    "Dahmer told investigators that he was experimenting with methods intended
+    to produce a permanently submissive, controllable state. Some of these
+    attempts proved fatal."
+
+Known documented cases include:
+- Errol Lindsey
+- Tony Hughes
+- Konerak Sinthasomphone
+- Jeremiah Weinberger
+
+The exact medical description should remain brief and clinical.
+
+Source:
+Washington Post/AP coverage of the 1992 sanity trial; forensic review in
+Academic Forensic Pathology.
+
+NECROPHILIA
+-----------
+Retain as a documented recurring behavior, but do not make it the organizing
+theme of every offense.
+
+Suggested formulation:
+    "Dahmer acknowledged engaging in sexual acts with the bodies of some
+    victims after death. The behavior formed part of the broader pattern
+    examined by psychiatric experts during the 1992 trial."
+
+This is better than implying it occurred identically in every case.
+
+CANNIBALISM
+-----------
+Retain as a documented component of the later offense history, but keep it
+brief.
+
+Suggested formulation:
+    "Dahmer also told investigators that he had consumed parts of some
+    victims. The prosecution and defense both discussed this behavior during
+    the 1992 sanity trial."
+
+If individual cases identify specific retained/consumed tissues, that can be
+mentioned only when the source is explicit.
+
+Do not confidently state a fixed list such as "at least two" when the broader
+record contains differing accounts about which victims or parts were
+consumed.
+
+PHOTOGRAPHY
+-----------
+Photography became a recurring component of the later pattern.
+
+Keep:
+- Polaroid photographs documented the victims and aspects of the disposal
+  process.
+- The photographs became important evidence after the arrest.
+
+Avoid:
+- describing individual graphic photographs
+- reproducing them
+- using graphic photographic imagery on the website
+
+TROPHY / REMAINS RETENTION
+--------------------------
+This developed over time.
+
+Early:
+- Hicks: remains disposed of rather than retained as a long-term collection.
+- Tuomi: Dahmer later described a temporary attempt to preserve his head/skull.
+- Sears: later accounts document permanent retention of preserved remains.
+- 1990–1991: retention and preservation became a major part of the Apartment
+  213 evidence.
+
+This progression can be visualized as:
+    disposal -> temporary retention -> preserved remains -> extensive collection
+
+Use this as an analytical pattern, not as a claim that every stage was neat
+or inevitable.
+
+INSTITUTIONAL INTERSECTIONS IN THE OFFENSE SERIES
+-------------------------------------------------
+The offense page should mention institutions only briefly.
+
+Examples:
+- Hicks -> missing-person history / Ohio law enforcement
+- Tuomi -> missing-person history; no murder charge
+- Doxtator / Guerrero / Sears -> missing-person context
+- Edward Smith / etc. -> missing-person records
+- Konerak -> direct police encounter; link to Systemic Failures
+- final victims -> investigation after arrest
+- Trial evidence -> link to Trial & Legal Proceedings
+
+The detailed institutional analysis belongs elsewhere.
+
+CASE / TIMELINE CROSS-LINKING
+-----------------------------
+Timeline is the chronological navigation hub.
+
+Every major offense entry should have:
+    View in Master Timeline -> /timeline#...
+
+Timeline event links should point to:
+    /case/offense-series#victim-slug
+
+Examples:
+    /timeline#steven-hicks
+    /case/offense-series#steven-hicks
+
+    /timeline#konerak-sinthasomphone
+    /case/offense-series#konerak-sinthasomphone
+
+For institutional events:
+    /timeline#konerak-police-encounter
+        -> /topics/systemic-failures#konerak
+
+For trial events:
+    /timeline#trial
+        -> /case/trial
+
+This makes the Timeline a navigation hub rather than a duplicate article.
+
+INTERACTIVE DESIGN
+------------------
+Use expandable case entries.
+
+Collapsed state:
+    victim name
+    date
+    location
+    one-sentence summary
+
+Expanded state:
+    Background / Encounter
+    Method / Pattern
+    Aftermath
+    Institutional Contact
+    Significance
+    Sources
+
+Optional visual tags:
+    VICTIM
+    LOCATION
+    YEAR
+
+Avoid large bright labels or dashboard-style badges.
+
+PHASE NAVIGATION
+----------------
+Provide small phase links near the top:
+
+    1978
+    1987–1989
+    1990–1991
+
+Clicking a phase scrolls to that section.
+
+A small "Pattern & Escalation" module can summarize:
+- long gap after 1978
+- renewed killing in 1987
+- increasing frequency after 1990
+- more extensive preservation and evidence accumulation
+- final rapid sequence in 1991
+
+Do not describe this as a scientifically established "loss of control" unless
+the source is explicitly attributed.
+
+END OF OFFENSE SERIES
+---------------------
+After the final Joseph Bradehoft entry:
+
+    PATTERN & ESCALATION
+
+    This section summarizes the documented changes in:
+    - frequency
+    - victim recruitment
+    - incapacitation
+    - preservation
+    - experimentation
+    - concealment
+
+Then:
+
+    Investigation & Arrest -> /case/investigation
+    Master Timeline -> /timeline
+    Systemic Failures -> /topics/systemic-failures
+
+IMPORTANT CONTENT TO MOVE ELSEWHERE
+-----------------------------------
+Move to Investigation & Arrest:
+- detailed Apartment 213 crime-scene evidence
+- forensic identification
+- police search sequence
+- evidence inventory
+- confession interviews
+- links between remains and specific victims
+
+Move to Trial & Legal Proceedings:
+- psychiatric testimony
+- detailed legal arguments about necrophilia, compulsion, sanity and control
+- sentencing evidence
+
+Move to Systemic Failures:
+- police encounters
+- probation supervision
+- missing-person investigation analysis
+- Konerak police response
+- institutional patterns
+
+Move to Psychological Profile & Evaluation:
+- detailed meaning of fantasies
+- clinical interpretations
+- diagnostic issues
+- control/compulsion debate
+
+Move to Theories & Motivations:
+- causal theories
+- later scholarly explanations
+- competing interpretations
+
+SENSITIVITY / PRESENTATION RULES
+--------------------------------
+- No graphic images.
+- No crime-scene photographs used as decorative material.
+- No sensational section titles.
+- No theatrical descriptions such as "house of horrors," "hell," "monster,"
+  "grotesque museum," etc.
+- No unnecessary anatomical detail.
+- Keep quotations from victims/families only where they add historical value.
+- Attribute statements from Dahmer himself as his account, not automatically
+  as objective fact.
+- Use forensic findings when they materially clarify the historical record.
+
+SOURCE PRIORITY
+---------------
+Preferred sources:
+1. FBI Vault / Department of Justice records
+2. Court records and opinions
+3. Contemporary newspaper/archive reporting
+4. Forensic/academic publications
+5. Strong secondary historical biographies
+
+Later summaries can help locate material but should not override primary or
+contemporaneous records.
+
+CURRENT STATUS
+--------------
+Three-phase Case framework: APPROVED IN PRINCIPLE
+Individual case profiles: APPROVED IN PRINCIPLE
+Non-graphic detail level: APPROVED
+Interactive expandable entries: APPROVED IN PRINCIPLE
+Timeline cross-links: APPROVED
+Final case prose: NOT YET LOCKED
+Exact citations for every case: NOT YET INSERTED
+
+NEXT STEP
+---------
+1. Build a final source-backed chronology for each of the 17 offenses.
+2. Write the case profiles in the standard Background / Method / Aftermath /
+   Institutional Contact / Significance format.
+3. Resolve date/age discrepancies consistently with the Timeline and Victims
+   pages.
+4. Add exact source citations.
+5. Add cross-links to /victims and /timeline.
+6. Lock The Offense Series.
+7. Move to Investigation & Arrest.
+
+CHANGE LOG
+----------
+2026-09-27
+- Adopted the user's three-phase framework as the editorial structure:
+  Bath Township, Grandmother's West Allis home, Oxford Apartments.
+- Changed phase language to "research/organizational framework" rather than
+  presenting it as a formal criminological classification.
+- Corrected the Grandmother phase timeframe: the relevant four killings span
+  1987–1989, while Dahmer remained at the grandmother's residence until 1990.
+- Reframed "sharp jump in severity" as an increase in frequency and complexity
+  of concealment/preservation/experimentation.
+- Retained individual case treatment for all 17 victims.
+- Added the standard case-profile template.
+- Retained experimental drilling/zombie material but narrowed it to documented
+  testimony and clinical significance.
+- Changed cannibalism wording to acknowledge that the historical record contains
+  different accounts and that the site should not assert a fixed victim list
+  without explicit sourcing.
+- Retained photography and trophy retention as documented pattern elements.
+- Formalized two-way Timeline <-> Case cross-linking.
+- Established strict non-graphic editorial rules.
+- Separated detailed institutional, forensic and psychiatric analysis into the
+  appropriate tabs.
+
+END OF OFFENSE SERIES PLAN

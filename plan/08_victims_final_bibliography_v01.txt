@@ -1,0 +1,185 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+VICTIMS TAB — FINAL NUMBERED BIBLIOGRAPHY & SOURCE CROSSWALK
+Version: 1.0 — working bibliography for the citation-only Victims plan
+Date: 2026-10-21
+
+SCOPE NOTE
+----------
+These 17 numbers are final within `04_victims_content_plan_v03_cited_working_copy.txt` only.
+They are not a renumbering of the approved all-tabs `08_sources_by_tab.txt` register. Do not
+propagate them to other tabs until the global register is reconciled. Entries repeated within
+the Victims plan have been deduplicated; the generic UPI portal and Impact-only sources are
+excluded because they are not claim-level sources for this version.
+
+CROSSWALK FROM PREVIOUS VICTIMS WORKING HANDLES
+-----------------------------------------------
+Existing source-register entries retained in the local Victims bibliography:
+- Former Victims ref [1] (Milwaukee Journal Sentinel retrospective) → final [1]
+- Former Victims ref [2] (FBI Vault parent record) → final [2]
+- Former Victims ref [3] (Milwaukee County complaint) → final [3]
+- Former Victims ref [5] (NYT, July 31, 1991) → final [4]
+- Former Victims ref [6] (Washington Post, May 2, 1992) → final [5]
+- Former Victims ref [7] (UPI, August 2, 1991) → final [6]
+- Former Victims ref [8] (Marquette/AP, July 26, 1991) → final [7]
+- Former Victims ref [9] (Court TV victim-impact statements) → final [8]
+- Former ref [4] (UPI, July 24, 1991) is not used as a claim-level citation in this plan copy.
+- Former refs [10]–[13] are Impact/Media or institutional-response sources and are not carried into
+  this Victims-only bibliography unless a relevant claim is later brought into scope.
+- Former ref [14] (generic UPI Archives portal) is a locator only, not a claim-level source.
+
+Temporary working labels from the source supplement:
+- V-S01 → final [9]
+- V-S02 → final [10]
+- V-S03 → final [11]
+- V-S04 → final [12]
+- V-S05 → final [13]
+- V-S06 → omitted for now (optional civil-suit context; no current profile claim requires it)
+- V-S07 → final [14]
+- V-S08 → final [15]
+- V-S09 → final [16]
+- V-S10 → final [17]
+
+FINAL NUMBERED BIBLIOGRAPHY — VICTIMS TAB (DEDUPLICATED)
+------------------------------------------------------
+The numbers below are final within this Victims-plan working copy. Repeated
+references to the same source have been consolidated. The generic UPI archive
+portal and Impact-only media articles are not listed as claim-level sources.
+FBI Part/page locators after [2] identify specific sub-documents; they are not
+separate bibliography entries. For Part 06 PDF p. 9, the text was transcribed
+and verified by the user; this copy does not claim independent visual inspection.
+
+[1] Milwaukee Journal Sentinel — “Jeffrey Dahmer’s 17 victims and what we knew
+about them” / victims retrospective (September 28–29, 2022). [SECONDARY — principal
+biographical source]
+URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+Used for: biographical details, family recollections, reported ages, and the
+specific last-seen wording used by the retrospective.
+
+[2] Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA records,
+including Parts 01, 03, 04, and 06. [PRIMARY]
+Collection URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+Part 01 PDF: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+Part 03 PDF: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+Part 04 landing page: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2004
+Part 06 PDF: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+Used with exact PDF locators for DOB entries, missing-person records, identification, and the
+Tuomi account (“somewhere around 1986 or 1987”). FBI internal wording such as “believe” is
+preserved as attribution, not treated as independently conclusive civil-record evidence.
+
+[3] Milwaukee County — Jeffrey Dahmer criminal complaint (1991), DocumentCloud copy. [PRIMARY;
+allegations and sworn statements, not judicial findings]
+URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+Used for: formal complaint allegations, the Konerak/Somsack connection, and
+formal date/DOB statements including Curtis Straughter.
+
+[4] The New York Times — “Bone Fragments, Many Human, Are Found at Suspect’s Ohio Home”
+(July 31, 1991). [CONTEMPORARY]
+URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+Used for: the Ohio discovery/recovery context for Hicks.
+
+[5] The Washington Post — “Dahmer Gets Life Term in 1978 Murder in Ohio” (May 2, 1992).
+[CONTEMPORARY]
+URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+Used for: Hicks family perspective in the Ohio sentencing context.
+
+[6] UPI — “Laotian Family Upset After Hearing Tape” (August 2, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+Used for: the Sinthasomphone family’s reaction and the year 1980 family-arrival context; does not
+independently support the precise month November.
+
+[7] Marquette University AP wire archive — “2 Women Say Officers Failed To Aid 14-year-old”
+(July 26, 1991). [CONTEMPORARY]
+URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+Used for: contemporary accounts of the May 27, 1991 police encounter involving Konerak.
+
+[8] Court TV — “WI v. Jeffrey Dahmer (1992): Victim Impact Statements.” [PRIMARY RECORDING OF
+COURT PROCEEDINGS]
+URL: https://www.youtube.com/watch?v=IiIZrCcCijc
+Used for: family statements at sentencing, including Rita Isbell’s statement and family comments
+about Eddie Smith.
+
+[9] UPI — “Complaint: Man Killed Victims, Saved Heart to Eat” (July 25, 1991). [CONTEMPORARY
+REPORTING OF COMPLAINT ALLEGATIONS]
+URL: https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+Used for: contemporary account of complaint allegations and chronology concerning Hughes,
+Sinthasomphone, Turner, Weinberger, Lacy, and Bradehoft. Alleged offense dates are not last-seen
+dates or judicial findings.
+
+[10] UPI — “Three More Mass Murder Victims Identified” (July 26, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/
+Used for: contemporaneous identifications/reported ages for Straughter, Lindsey, Hughes, and
+Ricky Beeks, plus contemporary reporting of the Konerak police response.
+
+[11] UPI — “Dahmer Reportedly Made Terror Phone Calls” (July 30, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/
+Used for: Guerrero’s reported age, Eddie Smith’s sister’s telephone-call account, Ernest Miller’s
+family-reported disappearance, and David Thomas’s missing-person context. It does not support
+Thomas’s exact September 24 last-seen date.
+
+[12] UPI — “Family of Dahmer Victim Files Lawsuit” (August 5, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/
+Used for: last-seen dates reported for Turner, Weinberger, Lacy, and Bradehoft.
+
+[13] UPI — “Dahmer Charged with Dozen Killings” (August 6, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+Used selectively for reported ages, charging context, and contemporaneous procedural information;
+charge descriptions remain allegations.
+
+[14] UPI — “Dahmer’s 17th Victim Identified” (August 16, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+Used for Doxtator’s identification and month-level last-seen description, and Sears’s contemporary
+age/chronology. It does not support Doxtator’s exact January 16 date; its Sears chronology contains
+an internal March/Easter inconsistency.
+
+[15] UPI — “Dahmer Opts for Innocent and Insanity Pleas” (September 11, 1991). [CONTEMPORARY]
+URL: https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+Used for contemporaneous charging context: no Milwaukee homicide charge had been filed over Tuomi
+because the evidence was reported insufficient to prosecute at that time.
+
+[16] The Washington Post — “Dahmer’s Attorney Hints at Insanity Defense” (publisher page displays
+August 22, 1991; archive URL path contains August 23). [CONTEMPORARY]
+URL: https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+Used for the qualified charging-status rationale concerning Tuomi. This does not establish a
+precise death date or resolve the uncertain year in Dahmer’s recollection.
+
+[17] The Washington Post — “Bones Found at Dahmer Site Identified” (publisher-displayed date
+September 13, 1991; archive URL path contains September 14). [CONTEMPORARY]
+URL: https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/
+Used for Hicks remains identification by comparison with dental/X-ray records. Preserve both the
+displayed publication date and URL-path date in metadata.
+
+SOURCE VERIFICATION NOTES — OPEN ITEMS PRESERVED
+------------------------------------------------
+These notes do not rewrite the frozen profile prose. They identify claims whose exact scope or
+locator is still pending, so a numbered citation is not mistaken for full verification.
+
+- **Jamie Doxtator:** UPI [14] confirms January 1988 at month-level, not January 16. The exact day
+  in the profile remains unverified and needs a direct, page-level source before final publication.
+- **Konerak Sinthasomphone’s family arrival:** UPI [6] supports 1980 but not November. The described
+  Milwaukee Sentinel clipping is believed to be preserved in FBI Part 04 under [2], but its
+  standalone PDF page/image locator is not yet confirmed. The month remains pending.
+- **Anthony Sears:** MJS [1] gives March 25 as last seen; UPI [14] describes an encounter on the
+  night of March 26 and an Easter-home plan dated March 27. Easter Sunday in 1989 was March 26, so
+  the UPI sequence is internally inconsistent. The profile retains the MJS date without claiming
+  the UPI dates reconcile.
+- **Steven Tuomi:** MJS [1] reports age 28; UPI [13] also gives a contemporary age label, while FBI Part 01 PDF p. 43 records a DOB detectives “believe”
+  was December 19, 1962, implying age 24 on September 15, 1987. [1, 2 (Part 01, PDF p. 43; Part 03, PDF p. 10), 13, 15, 16] FBI Part 03 PDF p. 10 describes the
+  alleged Ambassador Hotel event as “somewhere around 1986 or 1987.” Keep these as distinct source
+  statements; do not claim a precise death date or silently resolve the discrepancy.
+- **Jeremiah Weinberger:** FBI Part 01 PDF p. 25 records September 25, 1967, while user-verified FBI
+  Part 06 PDF p. 9 records September 29, 1967. Both locators are user-confirmed. A third September 28
+  variant previously transcribed has no sufficiently reliable standalone locator in this audit and
+  is not treated here as a third confirmed anchor. All dates still yield age 23 in July 1991.
+- **Oliver Lacy:** FBI Part 01 PDF p. 24 records June 23, 1968, while user-verified FBI Part 06 PDF
+  p. 9 records June 23, 1967. Both are recorded as sourced conflicts; neither is silently selected.
+- **Age reference points:** UPI [10] and [11] often report age at identification/publication in 1991,
+  not age on the earlier last-seen date. Keep age-at-report and age-at-last-known-contact distinct.
+  Guerrero’s UPI [11] age of 23 when reported missing remains in tension with DOB-derived age 22.
+- **Ernest Miller and David Thomas:** UPI [11] gives family-reported September disappearance details but
+  does not erase the differences between Miller’s September 2 report, the complaint/FBI early
+  September 3 record, and Thomas’s exact September 24 last-seen date reported by MJS [1].
+- **Curtis Straughter:** MJS [1] reports last seen March 7 and age 18; FBI/complaint records [2, 3]
+  give DOB April 16, 1973 and the grandmother’s February 18 last sighting. Keep both chronology
+  accounts explicit; do not force them into a reconciled single date.
+- **Complaint language:** Source [3] records allegations and sworn statements. Do not present an
+  alleged “on or about” offense date as a judicially established exact date.

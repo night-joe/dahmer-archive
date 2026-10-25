@@ -1,0 +1,1763 @@
+﻿JEFFREY DAHMER CASE RESEARCH WEBAPP
+SOURCES BY TAB & MASTER METHODOLOGY DIRECTORY — WORKING COPY
+Version: 2.2 — reviewed Victims source-register working draft
+Date: 2026-10-21
+Status: WORKING COPY ONLY — the approved master 08_sources_by_tab.txt is unchanged and remains the source-of-record until this copy is reviewed and approved.
+Working-copy base: 08_sources_by_tab.txt (approved master remains unchanged)
+
+REVIEW PASS (2026-10-21)
+-----------------------
+This pass corrects the Washington Post date metadata for V-S09, clarifies age-reference points in
+several contemporary reports, and repairs inherited dash-encoding artefacts in this working copy.
+No existing Victims refs [1]–[14] or frozen content-plan wording was changed. Doxtator's exact
+January 16 date and the Sinthasomphone family's exact November 1980 arrival month remain open for
+a later pass, as agreed.
+
+PURPOSE
+-------
+Working copy of the approved source directory, with pending article-level additions for the
+Victims tab. This draft is not a replacement for the approved master until reviewed and approved.
+
+HOW THIS FILE IS ORGANIZED
+--------------------------
+- One heading per tab (matching the header navigation).
+- Tabs with multiple articles have sub-headings per article.
+- Entries are numbered within each tab for easy manual reference.
+- The same source may appear under several tabs. That is intentional;
+  pick the copy that fits the section you are working on.
+- The IMPACT section is fully synchronized with the finalized content plan
+  (07_impact_and_legacy_content_plan_v01.txt / impact.txt) and its 50 verified sources.
+- Section 8 contains the complete Editorial Methodology, Research Standards, and
+  Primary Repositories governing /sources.html.
+
+CONVENTIONS / CAUTIONS
+----------------------
+- [PRIMARY]      = official record, court document, government/agency file
+- [CONTEMPORARY] = reporting published at the time of events (1991–1995)
+- [SCHOLARLY]    = peer-reviewed or academic reference work
+- [SECONDARY]    = later books/reporting/documentaries — good for context,
+                   verify factual claims against primary sources
+- [TERTIARY / INDEX ONLY] = Wikipedia, A&E, Biography.com, Today.com etc.
+                   Use only to locate better sources; do not cite as evidence.
+- Some archives are paywalled (Washington Post, NYT, jsonline). Use library
+  access, publisher archives, or archive.today copies where needed.
+- UPI Archives and WaPo/NYT archives are searchable; individual articles are
+  linked where already located.
+- All URLs were located via web search on 2026-10-06. Re-verify before final
+  citation in the Sources phase.
+
+
+WORKING-COPY NOTICE (2026-10-21)
+-------------------------------
+This file is a separate working copy created for Victims-tab source-register consolidation.
+The approved master file 08_sources_by_tab.txt has not been edited. Existing Victims-tab refs [1]–[14]
+are preserved exactly; supplement IDs below (V-S01 onward) are internal working labels, not final
+citation numbers. Do not insert these labels as final inline citations. Final global numbering and
+deduplication remain deferred until the source register is approved.
+
+
+=====================================================================
+SECTION 0 — CORE REPOSITORIES & SEARCH PORTALS (used across all tabs)
+=====================================================================
+
+1. FBI Vault — Jeffrey Lionel Dahmer (FOIA file, Parts 01–14) [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Search all Dahmer vault items: https://vault.fbi.gov/search?SearchableText=jeffrey+dahmer
+   Covers: dates of birth, missing-person records, criminal history, military
+   and alcohol-counseling records, victim identification, the June 23, 1993
+   memo about the Inside Edition interview. Plan files cite Parts 01, 02, 03, 06.
+
+2. FBI — "Serial Killers, Part 7: Jeffrey Dahmer" (FBI.gov, 2014) [PRIMARY]
+   URL: https://www.fbi.gov/news/stories/serial-killers-part-7-jeffrey-dahmer
+   Covers: FBI forensic/identification assistance, arrest sequence, tracing
+   Dahmer's trail across states and internationally, the 11-victims figure.
+
+3. UPI Archives — searchable wire-service archive [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/
+   Covers: 1991–1995 day-by-day case reporting. Search "Dahmer". Specific
+   articles already located are listed under the relevant tabs.
+
+4. The Washington Post — archive [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/
+   Covers: July–August 1991 discovery/arrest reporting and the full
+   February 1992 sanity-trial coverage. Specific articles listed below.
+
+5. The New York Times — archive [CONTEMPORARY]
+   URL: https://www.nytimes.com/ (site search; articles listed below)
+   Covers: discovery, 17-slayings scope, police scrutiny, Ohio remains,
+   1994 prison death and the corrections report.
+
+6. Milwaukee Journal Sentinel (jsonline.com) + legacy archive [CONTEMPORARY + later]
+   URL: https://www.jsonline.com/
+   Legacy archive: https://archive.jsonline.com/
+   Covers: the principal 2022 victims retrospective, fact-checks, memorial
+   debate, MPD policy history, 1991–94 coverage held in the legacy archive.
+
+7. Court TV — WI v. Jeffrey Dahmer (1992) trial archive [CONTEMPORARY]
+   URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+   YouTube trial archive playlist: https://www.youtube.com/playlist?list=PLMD8umRLJkKwl6m5RZbGklOkudKOu_sHh
+   Covers: televised sanity-trial footage — witness testimony, victim impact
+   statements, sentencing. Key clips are listed under Case/Analysis tabs.
+
+8. Justia Law / CourtListener — free full-text federal opinions [PRIMARY]
+   URLs: https://law.justia.com/ and https://www.courtlistener.com/
+   Covers: all Sinthasomphone, Weinberger and Balcerzak opinions listed below.
+
+9. Marquette University — AP wire archive (CUAP database) [CONTEMPORARY]
+   Example item: "2 Women Say Officers Failed To Aid 14-year-old" (7/26/1991)
+   URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+   Covers: searchable 1991–92 AP wire copy filed in Milwaukee (Konerak
+   incident, charges, trial). Useful when UPI lacks a specific day's story.
+
+10. Wisconsin Circuit Court Access (WCCA) [PRIMARY]
+    URL: https://wcca.wicourts.gov/
+    Covers: State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit
+    Court (case no. 91-CF-3584) — state case records/index. Older records may
+    require contacting the Milwaukee County Clerk of Courts.
+
+11. DocumentCloud — Jeffrey Dahmer criminal complaint (scanned) [PRIMARY]
+    URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    Covers: Milwaukee County criminal complaint text (charges, victim dates
+    of birth/last-seen data, e.g. Curtis Straughter). Search DocumentCloud for
+    additional complaint filings (July 25 / Aug 6 / Aug 22, 1991).
+
+12. Milwaukee Fire and Police Commission [PRIMARY]
+    URL: https://city.milwaukee.gov/fpc
+    Discipline decisions: https://city.milwaukee.gov/DisciplineDecisions.htm
+    Covers: officer-discipline oversight body; records/proceedings behind the
+    Balcerzak/Gabrish/Porubcan discipline history.
+
+13. Milwaukee Police Department — official history pages [PRIMARY]
+    URL: https://city.milwaukee.gov/police/About-MPD/History
+    Chiefs of Police: https://city.milwaukee.gov/police/About-MPD/Shares/Chiefs-of-Police
+    Covers: chief chronology (Breier 1964–84, Ziarnik 1984–89, Arreola 1989–96),
+    department history for the Context tab.
+
+14. Encyclopedia of Milwaukee (UW-Milwaukee) [SCHOLARLY]
+    URL: https://emke.uwm.edu/
+    Covers: peer-reviewed entries on Avenues West, deindustrialization,
+    segregation, policing, lesbian & gay history, AIDS — core Context sources.
+
+
+=====================================================================
+OVERVIEW TAB
+=====================================================================
+(Homepage Overview feature + full /overview article: case spine, discovery,
+confession, trial outcome, death in prison, legacy)
+
+1. FBI Vault — Jeffrey Lionel Dahmer [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Covers: official file spanning 1978–1993; biographical data, criminal
+   history, investigation chronology.
+
+2. FBI — "Serial Killers, Part 7: Jeffrey Dahmer" [PRIMARY]
+   URL: https://www.fbi.gov/news/stories/serial-killers-part-7-jeffrey-dahmer
+   Covers: arrest sequence, 11 victims' remains from Apartment 213, FBI role.
+
+3. Milwaukee Journal Sentinel — "Jeffrey Dahmer's 17 victims and what we knew
+   about them" (Sept. 28–29, 2022) [SECONDARY — principal retrospective]
+   URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+   Covers: full victim record; the principal biographical source used in the
+   Victims plan (ages occasionally differ from FBI files — see plan notes).
+
+4. New York Times — "Parts of Many Bodies Found in a Milwaukee Apartment"
+   (July 24, 1991) [CONTEMPORARY]
+   URL: https://www.nytimes.com/1991-07-24/us/parts-of-many-bodies-found-in-a-milwaukee-apartment.html
+   Covers: discovery night/next-day reporting; Oxford Apartments residents'
+   prior odor complaints.
+
+5. New York Times — "17 Slayings Tied to Milwaukee Man" (July 26, 1991) [CONTEMPORARY]
+   URL: https://www.nytimes.com/1991-07-26/us/17-slayings-tied-to-milwaukee-man.html
+   Covers: scope of the confession; prior child-molestation conviction.
+
+6. Washington Post — "Dahmer Says First Slaying Was in 1978" (July 29, 1991) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-07-29/dahmer-says-first-slaying-was-in-1978/4a8b7a1c-93f6-4f33-abbe-86f0a3a71ac6/
+   Covers: Steven Hicks confession details, June 18, 1978, Bath Township.
+
+7. UPI Archives — "Jury finds Dahmer sane" (Feb. 15, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-02-15/Jury-finds-Dahmer-sane/6349698130000/
+   Covers: sanity verdict; 10-2 votes reported.
+
+8. UPI Archives — sentencing (Feb. 17, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-02-17/A-Milwaukee-County-judge-Monday-sentenced-Jeffrey-L-Dahmer/3417698302800/
+   Covers: 15 consecutive life terms; Dahmer's statement to Judge Gram.
+
+9. UPI Archives — "Dahmer sentenced to life for Hicks murder" (May 1, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-05-01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/
+   Covers: Ohio guilty plea and additional life sentence (16th conviction).
+
+10. New York Times — "Suspect in Dahmer Killing Said, 'I'm the Chosen One'"
+    (Nov. 30, 1994) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1994-11-30/us/suspect-in-dahmer-killing-said-i-m-the-chosen-one.html
+    Covers: death in prison; Christopher Scarver; Columbia Correctional.
+
+11. New York Times — "Report Questions Actions of Dahmer Guards" (Dec. 11, 1994) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1994-12-11/us/report-questions-actions-of-dahmer-guards.html
+    Covers: later official review of the Nov. 28, 1994 prison attack.
+
+12. A&E — "Case File: Jeffrey Dahmer" (updated 2025) [TERTIARY / INDEX ONLY]
+    URL: https://www.aetv.com/articles/jeffrey-dahmer
+    Covers: general case summary — orientation only, not for citation.
+
+13. Biography.com — "Jeffrey Dahmer: A Timeline of His Murders, Arrests and
+    Death" (2025) [TERTIARY / INDEX ONLY]
+    URL: https://www.biography.com/crime/a64379331/jeffrey-dahmer-timeline
+    Covers: quick chronology cross-check — verify against primary sources.
+
+14. Wikipedia — "Jeffrey Dahmer" [TERTIARY / INDEX ONLY]
+    URL: https://en.wikipedia.org/wiki/Jeffrey_Dahmer
+    Covers: heavily footnoted index for locating primary sources; check its
+    references, do not cite the article itself.
+
+
+=====================================================================
+VICTIMS TAB
+=====================================================================
+(Biographies of all 17 victims; Table 1; About the Record. Age/date claims are cross-checked
+against these sources. Any unresolved discrepancy or difference in age reference point must remain
+explicit rather than being silently reconciled.)
+
+1. Milwaukee Journal Sentinel — victims retrospective (Sept. 28–29, 2022) [SECONDARY — principal]
+   URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+   Covers: biographical details, family recollections, reported ages for all
+   17 victims; the main source used in the Victims plan fact-check.
+
+2. FBI Vault — Jeffrey Lionel Dahmer, esp. Parts 01, 02, 03, 06 [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Covers: dates of birth, missing-person data, identification records,
+   official investigative descriptions — basis for the documented age
+   discrepancies (Guerrero, Ricky Beeks Smith, Eddie Smith, Miller, Lacy).
+
+3. DocumentCloud — Milwaukee County criminal complaint (1991) [PRIMARY]
+   URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+   Covers: formal DOB/last-seen entries (e.g., Curtis Straughter DOB
+   4/16/1973, grandmother's last sighting Feb. 18, 1991).
+
+4. UPI Archives — "Suspect in multiple slayings says he 'responsible'"
+   (July 24, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-07-24/Suspect-in-multiple-slayings-says-he-responsible/5763680328000/
+   Covers: first official count — 11 male victims' remains in the apartment.
+
+5. New York Times — "Bone Fragments, Many Human, Are Found at Suspect's Ohio
+   Home" (July 31, 1991) [CONTEMPORARY]
+   URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+   Covers: Steven Hicks / Bath Township recovery; Ohio dimension of the series.
+
+6. Washington Post — "Dahmer Gets Life Term in 1978 Murder in Ohio"
+   (May 2, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+   Covers: Hicks family at the Ohio sentencing; victim-family perspective.
+
+7. UPI Archives — "Laotian family upset after hearing tape" (Aug. 2, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+   Covers: Sinthasomphone family reaction to police radio tapes (Konerak).
+
+8. Marquette AP wire archive — "2 Women Say Officers Failed To Aid 14-year-old"
+   (July 26, 1991) [CONTEMPORARY]
+   URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+   Covers: Sandra Smith / Nicole Childress accounts of the May 27 Konerak
+   incident; early family/neighbor testimony.
+
+9. Court TV — "WI v. Jeffrey Dahmer (1992): Victim Impact Statements" [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=IiIZrCcCijc
+   Covers: Rita Isbell's Feb. 17, 1992 statement and other families'
+   sentencing statements (Errol Lindsey, Eddie Smith, David Thomas families).
+
+10. Milwaukee Journal Sentinel (legacy archive) — "Cleveland tried to stop
+    Dahmer from killing" (Glenda Cleveland, 2011) [SECONDARY]
+    URL: https://archive.jsonline.com/news/milwaukee/112910479.html
+    Covers: the neighbor who called police on May 27, 1991; her account and
+    obituary-era retrospective.
+
+11. jsonline — "Memorial to Jeffrey Dahmer's victims unlikely to happen"
+    (Sept. 28, 2022) [SECONDARY]
+    URL: https://www.jsonline.com/story/news/2022-09-28/memorial-jeffrey-dahmers-victims-unlikely-happen-milwaukee/8122753001/
+    Covers: families' views on remembrance (links Victim profiles to Impact).
+
+12. Business Insider — Rita Isbell on Netflix's Dahmer series (Sept. 2022) [SECONDARY]
+    URL: https://www.businessinsider.com/rita-isbell-sister-jeffrey-dahmer-victim-talks-about-netflix-show-2022-9
+    Covers: Errol Lindsey's sister in her own words (later media response;
+    use mainly for Impact/Media, per plan).
+
+13. Houston Public Media — "Errol Lindsey's sister criticizes 'Dahmer' Netflix
+    series" (Oct. 13, 2022) [SECONDARY]
+    URL: https://www.houstonpublicmedia.org/articles/shows/town-square/2022-10-13/435048/errol-lindseys-sister-criticizes-dahmer-netflix-series-says-it-forces-family-to-relive-painful-memories/
+    Covers: further Isbell interview material.
+
+14. UPI Archives — identification and charges reporting, July–September 1991
+    (search "Dahmer victims identified") [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/
+    Covers: contemporaneous victim-identification announcements; useful for
+    last-seen dates and family statements (all 17 profiles).
+
+Note: For family interviews quoted in the MJS retrospective (Hicks, Doxtator,
+Guerrero/Hagen, Sears, Miller, Hughes, Lacy, Bradehoft families), the
+retrospective itself is the citation source; the underlying 1991–92 AP/UPI
+stories can be located through repository 3 above.
+
+
+=====================================================================
+VICTIMS TAB — CLAIM-LEVEL SOURCE SUPPLEMENT (WORKING / NOT FINAL NUMBERING)
+=====================================================================
+
+Purpose
+-------
+These article-level sources were identified in the six Victims citation audits and the Master
+Citation Tracker. They supplement, rather than replace, existing Victims-tab refs [1]–[14]. The
+IDs V-S01 onward are temporary source-register handles. They are not the final public citation
+numbers. At final bibliography consolidation, match these entries against sources already listed
+under other tabs and avoid duplicate global entries.
+
+Age-reference-point caution (added during review)
+-------------------------------------------------
+A contemporary article's age label may describe age at publication/identification rather than age at
+last contact or alleged death. Before calling an age discrepancy a conflict, establish the date the
+source's age refers to. Keep report-date age and age at last-known-alive/offense date distinct. This
+matters for Turner, Straughter, Beeks, Eddie Smith, Ernest Miller, and possibly Tuomi. Guerrero's
+July 30 article explicitly says he was 23 when reported missing in March 1988, so that claim remains
+in tension with the DOB-derived age from the FBI record.
+
+A. Direct contemporary articles for Victims claims
+--------------------------------------------------
+
+V-S01. UPI — “Complaint: Man killed victims, saved heart to eat” (July 25, 1991) [CONTEMPORARY;
+       report summarizing a criminal complaint]
+       URL: https://www.upi.com/amp/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+       Use for: contemporary reporting of the original complaint; alleged encounter/offense dates
+       concerning Matt Turner, Jeremiah Weinberger, Oliver Lacy, and Joseph Bradehoft; Tony Hughes's
+       May 24 disappearance/encounter report; the relationship between Konerak and Somsack.
+       Limits: this is a journalist's report of allegations in a complaint, not a judicial finding.
+       It reports Turner as 21 in a July 25 article. DOB July 3, 1970 makes him 21 on the report date
+       but 20 on the June 30 last-known/complaint date. These are different age reference points,
+       not by themselves a DOB conflict. Note that the Aug. 6 UPI article lists Turner as 20; preserve this
+       cross-article age-label difference rather than silently harmonizing it. Treat reported complaint dates as alleged offense
+       dates, not last-seen or reported-missing dates.
+
+V-S02. UPI — “Three more mass murder victims identified” (July 26, 1991) [CONTEMPORARY]
+       URL: https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/
+       Use for: contemporary identification context and reported ages for Curtis Straughter (18),
+       Errol Lindsey (19), Tony Hughes (31), and Ricky Beeks (33); it also reports the medical
+       examiner's identification methods and the police response to the Konerak incident.
+       Limits: age labels in this July 26 report are not necessarily ages at the last-known/offense
+       date. Straughter's DOB makes him 17 on February 18, 1991, despite the article's age 18; Beeks
+       was 32 on the MJS last-seen date in May 1990, but 33 by July 1991. Keep those reference dates
+       explicit rather than treating the article labels alone as DOB conflicts. It does not establish
+       Straughter's exact last-seen date. Avoid reproducing its historical label for Hughes; use the frozen profile's
+       specific, respectful communication description.
+
+V-S03. UPI — “Dahmer reportedly made terror phone calls” (July 30, 1991) [CONTEMPORARY]
+       URL: https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/
+       Use for: Guerrero's reported age of 23 when missing in March 1988; Eddie Smith's sister's
+       account of a phone call and statement that she last saw him at her home on June 14, 1990;
+       Ernest Miller family-reported disappearance on September 2; David Thomas (23) described as
+       missing since September 1990.
+       Limits: Guerrero's age remains a separate unresolved discrepancy: the article explicitly says he
+       was 23 when reported missing in March 1988, while the FBI DOB-derived age is 22 on March 29.
+       The article labels Eddie Smith 28 in July 1991, while the DOB-derived age on his June 14, 1990
+       last-seen date is 27; it describes Ernest Miller as 24 in July 1991, while he was 23 on the
+       September 2/3, 1990 disappearance/offense dates. Treat these as different age reference points
+       unless a source explicitly anchors age to the earlier event. Eddie's
+       June 14 last-seen statement is not the same as the FBI's June 23 missing-report entry.
+       Ernest Miller's September 2 press account differs from the sworn statement/FBI early-morning
+       September 3 entry. The article does not independently establish Thomas's exact September 24
+       last-seen date.
+
+V-S04. UPI — “Family of Dahmer victim files lawsuit” (August 5, 1991) [CONTEMPORARY]
+       URL: https://www.upi.com/amp/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/
+       Use for: Lacy last seen July 12; Turner June 30; Weinberger July 6; Bradehoft July 16; and
+       contemporary reporting about the Lacy family's civil suit.
+       Limits: these are reported last-seen dates, not dates of alleged homicide. Preserve their
+       distinctions from complaint dates and missing-person report dates.
+
+V-S05. UPI — “Dahmer charged with dozen killings” (August 6, 1991) [CONTEMPORARY]
+       URL: https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+       Use for: contemporary list of charges, reported ages, family comments at the hearing, and
+       summarized allegations concerning several victims including Sears, Ricky Beeks, Miller,
+       Thomas, Straughter, Lindsey, Hughes, Sinthasomphone, Turner, Weinberger, Lacy, and Bradehoft.
+       Limits: this article is already listed in other tab sources; reuse the same canonical source
+       record during global bibliography consolidation. Charge dates are allegations, not judicial
+       findings. This article lists Turner as 20, in contrast to the July 25–26 UPI stories that list him as 21;
+       the latter articles appeared after his July 3 birthday, so preserve the source-specific age labels.
+       Guerrero is explicitly described as 23 when last seen/reported missing in March 1988, which
+       conflicts with the FBI DOB-derived age of 22 on March 29. Tuomi is labelled 28 in a 1991
+       article, but that label should not be silently interpreted as his age at last contact in 1987;
+       DOB Dec. 19, 1962 would make him 24 on Sept. 15, 1987. Keep the age reference point and uncertain
+       death chronology explicit.
+
+V-S06. UPI — “Suit seeks $2 billion from alleged mass killer” (August 9, 1991) [CONTEMPORARY;
+       optional context]
+       URL: https://www.upi.com/amp/Archives/1991/08/09/Suit-seeks-2-billion-from-alleged-mass-killer/8664805091107/
+       Use only if a surviving claim discusses the civil suit filed on behalf of Ernest Miller's
+       estate or potential profits from books/films.
+       Limits: not a principal source for Miller's life, family background, or last-seen date.
+       Recheck exact article text before using it for any more specific contextual claim.
+
+V-S07. UPI — “Dahmer's 17th victim identified” (August 16, 1991) [CONTEMPORARY]
+       URL: https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+       Use for: Doxtator's identification and contemporary description of him as last seen in
+       January 1988 (month-level only); Sears's reported age (24) and contemporary account of the
+       March 1989 encounter.
+       Limits: the article does not support the exact January 16 Doxtator date. Its Sears account
+       says the encounter was the night of March 26 and says Sears planned to be home for Easter on
+       March 27, 1989; Easter Sunday in 1989 was March 26. Preserve that internal chronology problem
+       rather than claiming the dates reconcile.
+
+V-S08. UPI — “Dahmer opts for innocent and insanity pleas” (September 11, 1991) [CONTEMPORARY]
+       URL: https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+       Use for: procedural context and the contemporary statement that no homicide charge had been
+       filed over Tuomi because investigators/prosecutors considered evidence insufficient to
+       prosecute; also says no charge had yet been filed over Hicks at that time.
+       Limits: use for the charging status/reason reported in 1991, not as proof of a specific
+       Tuomi death date or of every detail in Dahmer's account.
+
+V-S09. The Washington Post — “Dahmer's Attorney Hints at Insanity Defense” (publisher page displays
+       August 22, 1991; the archive URL path contains August 23) [CONTEMPORARY]
+       URL: https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+       Use for: prosecutor's statement that charges were brought where probable cause could be
+       proven and that Tuomi was the final alleged Wisconsin victim whose body had not been found
+       and for whom investigators did not expect enough evidence to charge.
+       Limits: the publisher page displays August 22, 1991 and its dateline is Aug. 22; the archive URL
+       path contains August 23. This is a URL-path/date metadata difference, not a page-displayed
+       publication date of Aug. 23. Use only for
+       the qualified charging-status rationale; it does not resolve the uncertain recollection of
+       the year or provide a precise date of death. This publisher URL was checked for this working
+       copy and replaces the incorrect 96ce… URL variant used in an earlier tracker note.
+
+V-S10. The Washington Post — “Bones Found at Dahmer Site Identified” (displayed publication date
+       September 13, 1991; archive URL path includes September 14) [CONTEMPORARY]
+       URL: https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/
+       Use for: direct report that Hicks's remains were identified by comparing a molar, molar
+       fragment, and neck vertebra with his X-ray records.
+       Limits: record both the displayed date and the archive-path date in source metadata. Do not
+       rely on it as the sole source for the June 18, 1978 last-known date.
+
+B. Existing references to reuse (no renumbering now)
+----------------------------------------------------
+
+- Existing Victims ref [1] — Milwaukee Journal Sentinel retrospective: preferred source for the
+  biographical narrative, friends/family recollections, and the source's own age/date wording.
+- Existing Victims ref [2] — FBI Vault archive: retain as the parent source record, but cite a
+  specific Part and standalone PDF page/image in the final evidence trail.
+- Existing Victims ref [3] — DocumentCloud criminal complaint: cite the relevant count/paragraph or
+  PDF page for allegation dates and sworn statements; do not write allegations as findings.
+- Existing Victims ref [4] — UPI July 24, 1991 article: initial confession/victim-count reporting;
+  do not use it as the only source for the reason Tuomi was not charged.
+- Existing Victims refs [5] and [6] — NYT July 31, 1991 and WaPo May 2, 1992: Ohio discovery context
+  and Hicks family/sentencing perspective respectively. Add V-S10 for direct remains identification.
+- Existing Victims refs [7] and [8] — UPI Aug. 2, 1991 and Marquette AP July 26, 1991: family
+  relocation year / family reaction, and the Konerak incident accounts. The UPI article supports
+  the year 1980, not the exact month November; retain that month only if its specific Milwaukee
+  Sentinel clipping is separately identified and anchored.
+- Existing Victims refs [9]–[13] — victim-impact statement / remembrance / media-response sources;
+  use only for claims in scope and do not bring Netflix-media discourse into Tony Hughes's bio.
+- Existing Victims ref [14] — generic UPI Archives portal: locator/search tool only, not a direct
+  claim-level citation. Use V-S01–V-S10 for the specific article claims above.
+
+C. FBI PDF anchor locators under existing Victims ref [2]
+---------------------------------------------------------
+
+These are sub-document/page locators beneath ref [2], not new final source numbers.
+
+- FBI Part 01, official PDF download:
+  https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+  User-verified PDF pp. 24–25: victim-identification entries and DOBs; pp. 24–25 include the Hicks
+  DOB entry. User-verified PDF p. 43: Tuomi DOB described as what detectives “believe,” and the
+  investigative description/DOB for “Jamie E. Doxator.”
+- FBI Part 03, official PDF download:
+  https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+  User-verified PDF p. 10: the Tuomi FD-302 wording that places the Ambassador Hotel event
+  “somewhere around 1986 or 1987.”
+- FBI Part 06, official PDF download:
+  https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+  User-verified PDF p. 9: Oliver Lacy DOB 6-23-67; Matt Turner DOB 7-3-70 and alias Donald
+  Montrell; Jeremiah Weinberger DOB 9-29-67. This conflicts with Part 01 records for Lacy and
+  Weinberger. Treat the supplied transcription as user-verified, not as a claim that this assistant
+  independently re-inspected the page.
+- FBI Part 04, official Vault landing page / PDF to locate the Milwaukee Sentinel clipping:
+  https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2004
+  An earlier agent report cited an internal clipping at image/page 141 for the Sinthasomphone family's
+  move to Milwaukee in November 1980. The exact standalone PDF page/image mapping has not been
+  independently confirmed. Do not cite “page 141” until the file and page system are checked.
+
+D. Source candidates on hold (not cleared for citation)
+-------------------------------------------------------
+
+- UPI, “Fund for Dahmer victim family stolen” (said to be August 13, 1991): a prior audit supplied
+  this URL: https://www.upi.com/Archives/1991/08/13/Fund-for-Dahmer-victim-familystolen/3520682056000/
+  The link was inaccessible through the current page check and the title was not independently
+  recovered in search. Do not cite this entry until the article itself is opened and its contents
+  matched to a claim. Eddie Smith's family phone-call account is directly reported in V-S03 (UPI,
+  July 30, 1991), which should be preferred for that specific claim.
+- For Jamie Doxtator's exact frozen last-seen date of January 16, 1988, V-S07 reports only January;
+  a direct source for the exact day remains a claim-level gap.
+- For Konerak's family's exact arrival month (November 1980), the currently listed UPI family article
+  supports 1980 only. Identify and verify the exact Milwaukee Sentinel clipping before citing the
+  month.
+- For exact last-seen dates not directly substantiated by MJS, a complaint, or a named article,
+  retain a source-gap flag until an actual passage is anchored. Do not use the generic UPI portal
+  [14] as the citation substitute.
+
+E. Use rules for the next phase
+-------------------------------
+
+1. This supplement is a register work product, not inline citation text. Final public citations must
+   use the consolidated bibliography's final numbering, assigned only after de-duplication.
+2. Match the biographical claim to MJS [1] where MJS is the actual source; use official FBI/complaint
+   anchors for official record facts and contemporary articles for the precise contemporaneous
+   claim they support.
+3. Keep reported age, DOB-derived age, last-seen date, reported-missing date, alleged offense date,
+   identification date and family notification date distinct.
+4. Keep unresolved conflicts visible. An article describing a complaint is evidence that the
+   allegation was reported, not proof that the alleged offense date is a judicial finding.
+5. No text in 04_victims_content_plan_v02.txt was changed in this consolidation step.
+
+
+=====================================================================
+TIMELINE TAB
+=====================================================================
+(Master chronological timeline: 1960–1994 + later legal/institutional events.
+Date-uncertainty markers per plan: Tuomi, Straughter, Bradehoft.)
+
+1. FBI Vault — Jeffrey Lionel Dahmer (all parts) [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Covers: birth (May 21, 1960), criminal history (Aug. 8, 1982 State Fair
+   Park; Sept. 8, 1986 arrest / March 10, 1987 disorderly-conduct conviction
+   and probation), Army service and alcohol counseling (Dec. 1979–March 1981),
+   victim last-seen data, Tuomi uncertainty ("around 1986 or 1987").
+
+2. Washington Post — "Dahmer Says First Slaying Was in 1978" (July 29, 1991) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-07-29/dahmer-says-first-slaying-was-in-1978/4a8b7a1c-93f6-4f33-abbe-86f0a3a71ac6/
+   Covers: June 18, 1978 Hicks encounter; Bath Township; disposal account.
+
+3. New York Times — July 31, 1991 (Ohio bone fragments) [CONTEMPORARY]
+   URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+   Covers: late-July/Sept. 1991 Ohio forensic recovery and Hicks
+   identification thread.
+
+4. UPI Archives — "Police find body parts in apartment" (July 23, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-07-23/Police-find-body-parts-in-apartment/1119680241600/
+   Covers: arrest night/morning-after; probation status noted.
+
+5. UPI Archives — "Dahmer charged with dozen killings" (Aug. 6, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-08-06/Dahmer-charged-with-dozen-killings/6458681451200/
+   Covers: Aug. 6 charge expansion to 12 counts (timeline milestone).
+
+6. UPI Archives — "Dahmer moved out of Milwaukee County Jail" (Sept. 3, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-09-03/Dahmer-moved-out-of-Milwaukee-County-Jail/2556683870400/
+   Covers: custody/safety transfer after arrest.
+
+7. UPI Archives — "Two cops fired for returning naked boy to Dahmer"
+   (Sept. 6, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-09-06/Two-cops-fired-for-returning-naked-boy-to-Dahmer/7782684129600/
+   Covers: Sept. 6, 1991 firings of Balcerzak and Gabrish; Porubcan held in
+   abeyance (timeline + Systemic Failures).
+
+8. Washington Post — "Sweeping Changes Urged in Milwaukee Police Dept"
+   (Oct. 16, 1991) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-10-16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/
+   Covers: reform panel recommendation that Arreola produce a
+   community-oriented-policing plan within 90 days.
+
+9. UPI Archives — "Police officers fired in Dahmer case admit mistake"
+   (Oct. 13, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-10-13/Police-officers-fired-in-Dahmer-case-admit-mistake/8532718948800/
+   Covers: October 1992 guilty pleas to department-rule violations.
+
+10. UPI Archives — "Dahmer apartment building to be razed, turned into park"
+    (Aug. 13, 1992) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1992-08-13/Dahmer-apartment-building-to-be-razed-turned-into-park/4739713678400/
+    Covers: Campus Circle Project purchase; demolition/park plans.
+
+11. UPI Archives — "Dahmer's apartment building to be razed" (Nov. 14, 1992) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1992-11-14/Dahmers-apartment-building-to-be-razed/2592721717200/
+    Covers: November 1992 demolition of 924 N. 25th Street.
+
+12. New York Times — "Victory for Two in Dahmer Case" (April 28, 1994) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html
+    Covers: April 1994 reinstatement order (Judge Parins) and back pay.
+
+13. Trial-phase chronology: see WaPo/UPI February 1992 articles listed under
+    CASE TAB — Trial & Legal Proceedings (plea Jan. 13; jury selection
+    Jan. 27; verdict Feb. 15; sentencing Feb. 17; Ohio May 1).
+
+14. Federal civil litigation opinions (1992–1998) [PRIMARY]
+    URLs: listed under ANALYSIS TAB — Systemic Failures, entries 1–7.
+    Covers: May 27, 1991 incident findings, probation supervision record
+    (Donna Chester, home-visit waivers), officer discipline litigation.
+
+15. New York Times — Nov. 30 / Dec. 11, 1994 (prison death; guards report) [CONTEMPORARY]
+    URLs: see Overview entries 10–11.
+    Covers: Nov. 28, 1994 killing by Christopher Scarver; later review.
+
+
+=====================================================================
+CONTEXT TAB
+=====================================================================
+
+--- A. HISTORICAL CONTEXT: MILWAUKEE 1987–1991 ---
+
+1. Population Reference Bureau — "Least Segregated U.S. Metros..." (2011,
+   using Census data; Milwaukee index 81.5) [SCHOLARLY-adjacent data]
+   URL: https://www.prb.org/resource/least-segregated-u-s-metros-concentrated-in-fast-growing-south-and-west/
+   Covers: 1990-Census-based Black-white segregation ranking of Milwaukee.
+
+2. William H. Frey — "Racial Segregation in US Metropolitan Areas and Cities"
+   (2005, 1990 Census data analysis) [SCHOLARLY]
+   URL: https://frey-demographer.org/report/R-2005-2_RacialSegragationTrends.pdf
+   Covers: 1990 segregation indices; supports the "most segregated large
+   metro" framing with methodology caveats.
+
+3. Douglas S. Massey — "A Research Note on Trends in Black Hypersegregation"
+   (2015, PMC) [SCHOLARLY]
+   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4886656/
+   Covers: hypersegregation literature (Denton 1994 list of 29 metros
+   including Milwaukee) — scholarly frame for segregation claims.
+
+4. Oxford Research Encyclopedia of American History — "Milwaukee" [SCHOLARLY]
+   URL: https://academic.oup.com/edited-volume/61644/chapter/539895905
+   Covers: industrial suburbs vs. central city job loss; African American
+   North Side / Mexican American South Side concentration.
+
+5. Encyclopedia of Milwaukee (UW-Milwaukee) — entries: "Avenues West",
+   "Deindustrialization", "Police Department", "Lesbian and Gay History",
+   "Residential Segregation" [SCHOLARLY]
+   URL: https://emke.uwm.edu/
+   Covers: Near West Side / Avenues West setting, economy, policing, LGBTQ
+   history — main scholarly context spine.
+
+6. Federal Reserve Bank of Chicago — Midwest Economy: employment-by-industry
+   charts [PRIMARY-adjacent economic data]
+   URL: https://www.chicagofed.org/region/midwest-economy/employment-by-industry-charts
+   Covers: manufacturing share decline in the region/Wisconsin, 1980s–2000s.
+
+7. Federal Reserve Bank of Chicago — Chicago Fed Letter No. 136, "Recent
+   Trends in Job Displacement" (Dec. 1998) [SCHOLARLY]
+   URL: https://www.chicagofed.org/publications/chicago-fed-letter/1998/december-136
+   Covers: early-1980s displacement rates, including higher rates for Black
+   workers — supports deindustrialization framing.
+
+8. Milwaukee Police Department — official history and Chiefs of Police pages [PRIMARY]
+   URLs: https://city.milwaukee.gov/police/About-MPD/History
+   https://city.milwaukee.gov/police/About-MPD/Shares/Chiefs-of-Police
+   Covers: Breier (1964–84), Ziarnik (1984–89), Arreola (1989–96) chronology
+   used in the Context plan.
+
+9. Milwaukee Police Historical Society — "Police Chiefs" [SECONDARY]
+   URL: https://www.mphswi.org/DepartmentHistory/PoliceChiefs
+   Covers: chief-by-chief department history, including Breier-era context.
+
+10. Milwaukee Journal Sentinel — "Milwaukee Police Department changes in
+    policies, culture" interactive (2019) [SECONDARY]
+    URL: https://projects.jsonline.com/news/2019/3/21/timeline/milwaukee-police-changes-in-policies-culture.html
+    Covers: policing-culture timeline spanning Breier through Arreola reforms
+    (community-policing demonstration projects beginning 1989).
+
+11. Shepherd Express — "The Death of Ernest Lacy: What Happened in 1981 and
+    Why It Still Matters" (2021) [SECONDARY]
+    URL: https://shepherdexpress.com/culture/milwaukee-history/the-death-of-ernest-lacy-what-happened-in-1981-and-why-it-still-matters/
+    Covers: July 1981 in-custody death, inquest findings, later clearance —
+    per the refined plan wording.
+
+12. WUWM — "Ernest Lacy's Relatives Add Their Voices..." (July 30, 2020) [SECONDARY]
+    URL: https://www.wuwm.com/race-ethnicity/2020-07-30/ernest-lacys-relatives-add-their-voices-to-the-milwaukee-black-lives-matter-movement
+    Covers: Lacy case legacy and police-community trust.
+
+13. New York Times — "Scrutiny of Police Sought in Milwaukee" (July 28, 1991) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1991-07-28/us/scrutiny-of-police-sought-in-milwaukee.html
+    Covers: Black elected officials seeking AG investigation of MPD right
+    after the arrest — 1991 community-trust evidence.
+
+14. Wisconsin LGBTQ History Project [PRIMARY-adjacent oral history archive]
+    URL: https://www.wislgbthistory.com/
+    Archive: https://archive.wislgbthistory.com/
+    Covers: Milwaukee gay bars, organizations, publications, police
+    surveillance/raids; the "This Is It" photo collection (see also WPR:
+    https://www.wpr.org/news/milwaukee-oldest-gay-bar-this-is-it-donates-photos-lgbtq-history-project).
+
+15. ACLU of Wisconsin — "Queer Nightlife, Surveillance, and State Targeting" [SECONDARY]
+    URL: https://www.aclu-wi.org/news/queer-nightlife-surveillance-and-state-targeting/
+    Covers: Breier-era raids and surveillance of gay bars/bathhouses —
+    documented examples of hostility (per plan refinement).
+
+16. ACLU of Wisconsin — "How Queer Nightlife Helped Build the LGBTQ+ Rights
+    Movement" (Black Nite Brawl) [SECONDARY]
+    URL: https://www.aclu-wi.org/news/how-queer-nightlife-helped-build-the-lgbtq-rights-movement/
+    Covers: 1961 Black Nite Brawl and community strength/resistance history.
+
+17. Wisconsin LGBTQ History Project — AIDS history page [SECONDARY]
+    URL: https://www.wislgbthistory.com/news/honoring-our-unforgettable-history
+    Covers: Wisconsin's first AIDS case (1982) and community response.
+
+18. Milwaukee AIDS Project (MAP) history — Wisconsin LGBTQ History Project
+    archive [PRIMARY-adjacent]
+    URL: https://archive.wislgbthistory.com/organiz/health/map.htm
+    Covers: MAP founding and mid-1980s organized response (later ARCW).
+
+19. W. Wasielewski — "How a Small STD Clinic in Milwaukee Played a Large
+    Role..." (UW-Milwaukee thesis, 2018) [SCHOLARLY]
+    URL: https://minds.wisc.edu/bitstreams/e07ef66e-ad70-4e1c-bf80-547eb3309a2a/download
+    Covers: MAP origins and AIDS-era Milwaukee institutional history.
+
+20. Milwaukee County Historical Society — Milwaukee History Timeline [SECONDARY]
+    URL: https://milwaukeehistory.net/resources/milwaukee-history-timeline/
+    Covers: general city history orientation for the 1987–1991 setting.
+
+21. SAGE — Encyclopedia of Murder and Violent Crime: "The Less-Dead" [SCHOLARLY]
+    URL: https://sk.sagepub.com/ency/edvol/violentcrime/chpt/lessdead
+    Covers: Steven Egger's "less-dead" concept — to be used as an analytical
+    framework only, per the plan.
+
+22. Steven Egger — "Serial Murderers and Their Victims" (Wadsworth; 2nd ed.
+    1990) [SCHOLARLY — book]
+    Covers: original "less-dead"/victimology framework in book form.
+    Locate via library catalogs or Open Library: https://openlibrary.org/
+    (search: Egger serial murderers and their victims)
+
+
+23. Marc V. Levine (Center for Economic Development, UW-Milwaukee) [SCHOLARLY]
+    Research publications on the historical economic polarization, deindustrialization,
+    and hyper-segregation of post-industrial Milwaukee.
+    URL: https://uwm.edu/ced/
+
+24. City of Milwaukee Citizen Police Support Committee (1992) [PRIMARY]
+    "Report on MPD Operations, Community Race Relations, and Structural Oversight."
+    Official municipal review following the Dahmer arrest.
+
+25. Inquest and Litigation Records of the Ernest Lacy Incident (1981) [PRIMARY]
+    Milwaukee County Circuit Court records, inquest findings, and civil litigation dockets
+    documenting community mobilization and distrust regarding police in-custody deaths.
+
+--- B. EARLY LIFE & BACKGROUND ---
+
+1. FBI Vault — Jeffrey Lionel Dahmer [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Covers: birth, family, school years, Army service (Dec. 1979–Mar. 1981)
+   and alcohol counseling records, early arrests, 1988 Sinthasomphone case.
+
+2. Lionel Dahmer — "A Father's Story" (William Morrow, 1994) [SECONDARY — memoir]
+   URL: https://www.goodreads.com/en/book/show/609339.A_Father_s_Story
+   Covers: family recollections (hernia surgery, withdrawal, childhood);
+   USE AS ATTRIBUTED MEMOIR, not neutral third-party fact (per plan).
+
+3. Derf Backderf — "My Friend Dahmer" (Abrams ComicArts, 2012) [SECONDARY — memoir]
+   URL: https://www.abramsbooks.com/product/my-friend-dahmer_9781419702174/
+   Overview: https://en.wikipedia.org/wiki/My_Friend_Dahmer
+   Covers: Revere High School years, alcohol, "Doing a Dahmer", schoolmate
+   recollections; attributed memoir with documented sourcing notes.
+
+4. Washington Post — "Dahmer Says First Slaying Was in 1978" (July 29, 1991) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-07-29/dahmer-says-first-slaying-was-in-1978/4a8b7a1c-93f6-4f33-abbe-86f0a3a71ac6/
+   Covers: 1978 transition (graduation, parents' separation, Hicks murder).
+
+5. Patrick Kennedy & Robyn Maharaj — "Grilling Dahmer: The Interrogation of
+   'The Milwaukee Cannibal'" (2022) [SECONDARY — first-person investigator]
+   URL: https://www.amazon.com/GRILLING-DAHMER-Interrogation-Milwaukee-Cannibal/dp/1947290878
+   Covers: Dahmer's own account of his adolescence/fantasies as given in the
+   1991 interviews — attribute as Dahmer's statements.
+
+6. Inside Edition — 1993 prison interview tape (never-before-seen footage,
+   posted Oct. 2022) [PRIMARY-adjacent — Dahmer's own words]
+   URL: https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300
+   Tag page: https://www.insideedition.com/latest/tag/jeffrey-dahmer
+   Covers: Dahmer's post-conviction self-description (interviewed Jan. 11–12,
+   1993; FBI obtained uncut copy per Vault Part 03, June 23, 1993 memo).
+
+7. Wikipedia — "Jeffrey Dahmer" [TERTIARY / INDEX ONLY]
+   URL: https://en.wikipedia.org/wiki/Jeffrey_Dahmer
+   Covers: sourced chronology of childhood, Bath Township, Army, 1988 case —
+   use its footnotes to reach primary sources.
+
+
+=====================================================================
+CASE TAB
+=====================================================================
+
+--- A. THE OFFENSE SERIES (/case/offense-series) ---
+
+1. FBI Vault — Jeffrey Lionel Dahmer [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Covers: offense-by-offense investigative records, last-seen dates, Tuomi
+   uncertainty ("around 1986 or 1987" vs. Sept. 15, 1987 last sighting).
+
+2. FBI — "Serial Killers, Part 7: Jeffrey Dahmer" [PRIMARY]
+   URL: https://www.fbi.gov/news/stories/serial-killers-part-7-jeffrey-dahmer
+   Covers: Apartment 213 evidence base (photographs, remains, 55-gallon
+   drum), the 11-victims figure, pattern reconstruction.
+
+3. Jeffrey Jentzen — "Micro Disasters: The Case of Serial Killer Jeffrey
+   Dahmer", Academic Forensic Pathology (2017) [SCHOLARLY]
+   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/
+   Journal page: https://journals.sagepub.com/doi/abs/10.23907/2017.037
+   Covers: peer-reviewed forensic review of scene/autopsy findings —
+   clinical, non-graphic method documentation per plan.
+
+4. Washington Post — "Despite Necrophilia, Dahmer Is Not Insane, Psychiatrist
+   Testifies" (Feb. 9, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/national/1992-02-09/despite-necrophilia-dahmer-is-not-insane-psychiatrist-testifies/41f6365a-b890-47b0-b701-790cf0f89d41/
+   Covers: Frederick Fosdal's testimony on drilling into four victims' heads
+   (Lindsey, Hughes, Sinthasomphone, Weinberger) — "Experimentation and
+   Control" subsection.
+
+5. Washington Post — "Dahmer Saw Freeze-Drying as Possibility" (Feb. 13, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-13/dahmer-saw-freeze-drying-as-possibility/643ceeb8-8526-4b50-ae0d-4d119af9c00c/
+   Covers: Park Dietz testimony on preservation/control experiments; trophy
+   retention and "permanent companion" evidence.
+
+6. DocumentCloud — criminal complaint (1991) [PRIMARY]
+   URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+   Covers: per-count charging facts, encounter/method summaries in legal
+   language, dates for Phase Two/Three entries.
+
+7. Milwaukee Journal Sentinel — victims retrospective (Sept. 2022) [SECONDARY]
+   URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+   Covers: how/where Dahmer encountered each victim (bars, mall, Pride,
+   Greyhound, hitchhiking) for "Background / Encounter" fields.
+
+8. New York Times — July 24, 1991 [CONTEMPORARY]
+   URL: https://www.nytimes.com/1991-07-24/us/parts-of-many-bodies-found-in-a-milwaukee-apartment.html
+   Covers: Oxford Apartments setting; residents' weeks of odor complaints
+   (Phase Three environment).
+
+9. UPI Archives — 1991 reporting (search "Dahmer") [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/
+   Covers: Ambassador Hotel (Tuomi), West Allis grandmother period, charge
+   expansions as victims were identified.
+
+10. Patrick Kennedy — "Grilling Dahmer" (2022) [SECONDARY — first-person]
+    URL: https://www.amazon.com/GRILLING-DAHMER-Interrogation-Milwaukee-Cannibal/dp/1947290878
+    Covers: confession-level detail on methods/pattern; attribute as
+    Dahmer's statements and Kennedy's account.
+
+--- B. INVESTIGATION & ARREST (/case/investigation) ---
+
+1. FBI — "Serial Killers, Part 7: Jeffrey Dahmer" [PRIMARY]
+   URL: https://www.fbi.gov/news/stories/serial-killers-part-7-jeffrey-dahmer
+   Covers: arrest sequence confirmation (11:30 p.m. encounter), FBI forensic
+   assistance (DNA, chemical, tool-mark, photographic exams), multi-state
+   tracing (Ohio, Florida, Germany checks).
+
+2. UPI Archives — "Police find body parts in apartment" (July 23, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-07-23/Police-find-body-parts-in-apartment/1119680241600/
+   Covers: night of arrest; conversion from assault complaint to homicide
+   investigation.
+
+3. New York Times — July 24 and July 26, 1991 [CONTEMPORARY]
+   URLs: https://www.nytimes.com/1991-07-24/us/parts-of-many-bodies-found-in-a-milwaukee-apartment.html
+   https://www.nytimes.com/1991-07-26/us/17-slayings-tied-to-milwaukee-man.html
+   Covers: apartment evidence description; scope expansion to 17 killings.
+
+4. Court TV — "WI v. Jeffrey Dahmer (1992): Victim Tracy Edwards Testifies" [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=qGLHDqcV-Pg
+   Covers: Edwards's courtroom account of July 22, 1991 (money/beer/photos
+   offer, knife threat, "eat his heart" statement) — testimony attribution.
+
+5. Court TV — "WI v. Jeffrey Dahmer (1992): Crime Scene Investigators" [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=WOqFOhsM17g
+   Covers: officers/investigators describing entry, photographs in drawer,
+   evidence discovery (Mueller/Rauth sequence).
+
+6. Washington Post — "Dahmer Says First Slaying Was in 1978" (July 29, 1991) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-07-29/dahmer-says-first-slaying-was-in-1978/4a8b7a1c-93f6-4f33-abbe-86f0a3a71ac6/
+   Covers: confession/reconstruction phase; detectives' interview content.
+
+7. Patrick Kennedy — "Grilling Dahmer" (2022) [SECONDARY — first-person]
+   URL: https://www.amazon.com/GRILLING-DAHMER-Interrogation-Milwaukee-Cannibal/dp/1947290878
+   Audiobook: https://www.audible.com/pd/Grilling-Dahmer-Audiobook/B09VY81QKS
+   Covers: the ~60-hour interviews by Det. Patrick Kennedy and Det. Dennis
+   Murphy; victim identification work (per plan's confession section).
+
+8. Court TV — "WI v. Jeffrey Dahmer (1992): Det. Patrick Kennedy" [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=CPjJ0jNFyVo
+   Covers: Kennedy's trial testimony about taking the confession.
+
+9. U of Michigan Pathology — "Uncovering the Truth" (Jeffrey Jentzen profile) [SECONDARY]
+   URL: https://www.pathology.med.umich.edu/news/262
+   Covers: Jentzen's role as Milwaukee County chief medical examiner and
+   NAME standards work; locate his "dismantling a museum" recollection
+   (verify exact wording/source before quoting — later recollection only).
+
+10. New York Times — July 31, 1991 (Ohio remains) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+    Covers: Bath Township property excavation; Hicks identification thread.
+
+11. UPI Archives — "Dahmer charged with dozen killings" (Aug. 6, 1991) and
+    subsequent charging stories [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1991-08-06/Dahmer-charged-with-dozen-killings/6458681451200/
+    Covers: how identifications converted into charges (4 -> 12 -> 15 counts).
+
+12. Survivor background (later profiles of Tracy Edwards) [TERTIARY — context only]
+    URLs: https://www.newsweek.com/tracy-edwards-jeffrey-dahmer-victim-netflix-where-he-now-1744915
+    https://www.goodhousekeeping.com/entertainment/a41737059/jeffrey-dahmer-tracy-edwards-now-victims-survivor/
+    https://nypost.com/2022-09-26/inside-the-sad-life-of-jeffery-dahmers-last-would-be-victim/
+    Covers: Edwards's life before/after July 22, 1991 — verify claims against
+    1992 testimony; NY Post item is tabloid-adjacent (caution).
+
+--- C. TRIAL & LEGAL PROCEEDINGS (/case/trial) ---
+
+1. Court TV — WI v. Jeffrey Dahmer (1992) trial archive [CONTEMPORARY]
+   URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+   Playlist: https://www.youtube.com/playlist?list=PLMD8umRLJkKwl6m5RZbGklOkudKOu_sHh
+   Covers: the televised sanity trial — the primary footage record for plea,
+   expert testimony, verdict, sentencing.
+
+2. Court TV — "WI v. Jeffrey Dahmer (1992): The Sentencing" [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=7FcVP7PZlMo
+   Covers: Feb. 17, 1992 sentencing; Dahmer's statement ("I knew I was evil");
+   victim impact statements including Rita Isbell.
+
+3. Washington Post — "Psychiatrist Calls Dahmer a Sane Killer" (Feb. 7, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-07/psychiatrist-calls-dahmer-a-sane-killer/91cb4a83-0190-4e21-8b00-15e4d3d899d8/
+   Covers: George Palermo's Feb. 6 testimony (court-appointed expert).
+
+4. Washington Post — "Despite Necrophilia, Dahmer Is Not Insane..." (Feb. 9, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/national/1992-02-09/despite-necrophilia-dahmer-is-not-insane-psychiatrist-testifies/41f6365a-b890-47b0-b701-790cf0f89d41/
+   Covers: Frederick Fosdal's prosecution testimony (Feb. 8–10).
+
+5. Washington Post — "Dahmer Saw Freeze-Drying as Possibility" (Feb. 13, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-13/dahmer-saw-freeze-drying-as-possibility/643ceeb8-8526-4b50-ae0d-4d119af9c00c/
+   Covers: Park Dietz testimony (Feb. 12–14); prosecution control/choice case.
+
+6. Washington Post — "Dahmer Case in Hands of the Jury" (Feb. 15, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-15/dahmer-case-in-hands-of-the-jury/666e0328-a55f-4903-82e4-b79732d0206d/
+   Covers: closing arguments — DA E. Michael McCann vs. Gerald Boyle; the
+   Wisconsin mental-responsibility standard framing.
+
+7. Washington Post — "Jury Finds Dahmer Was Sane" (Feb. 16, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-16/jury-finds-dahmer-was-sane/7ba3ebb0-ec67-4e84-8e02-a75ee4da29bf/
+   Covers: Feb. 15 verdict; 10-of-12 vote requirement; guilty-plea context.
+
+8. UPI Archives — "Jury finds Dahmer sane" (Feb. 15, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-02-15/Jury-finds-Dahmer-sane/6349698130000/
+   Covers: verdict; 10-2 vote on each count per contemporaneous reports.
+
+9. Washington Post — "Dahmer Is Sentenced to 15 Life Terms" (Feb. 18, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-18/dahmer-is-sentenced-to-15-life-terms/1c3c3176-2199-4393-84b5-5a6723c5360e/
+   Covers: Judge Laurence Gram Jr.; consecutive life terms; victim relatives
+   in court.
+
+10. UPI Archives — sentencing (Feb. 17, 1992) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1992-02-17/A-Milwaukee-County-judge-Monday-sentenced-Jeffrey-L-Dahmer/3417698302800/
+    Covers: sentencing day details.
+
+11. UPI Archives — "Dahmer sentenced to life for Hicks murder" (May 1, 1992) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1992-05-01/Dahmer-sentenced-to-life-for-Hicks-murder/7300704692800/
+    Covers: Ohio (Summit County) guilty plea and life sentence.
+
+12. Washington Post — "Dahmer Gets Life Term in 1978 Murder in Ohio"
+    (May 2, 1992) [CONTEMPORARY]
+    URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+    Covers: 16th murder conviction; Hicks family statements.
+
+13. Tampa Bay Times archive — "Dahmer pleads guilty to 16th" (May 2, 1992) [CONTEMPORARY]
+    URL: https://www.tampabay.com/archive/1992-05-02/dahmer-pleads-guilty-to-16th/
+    Covers: alternate wire account of the Ohio proceeding.
+
+14. Gregory J. O'Meara, S.J. — "Text, Context, and Pretext in State v.
+    Jeffrey Dahmer" (Marquette Law faculty paper, 2009) [SCHOLARLY]
+    URL: https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub
+    Covers: legal analysis of the trial narrative, sanity standard, and the
+    guilty-but-insane procedure — strong scholarly anchor for the Trial page.
+
+15. Wisconsin Circuit Court Access (WCCA) / Milwaukee County Clerk of Courts [PRIMARY]
+    URL: https://wcca.wicourts.gov/
+    Covers: State v. Dahmer, case no. 91-CF-3584 — official state case record
+    (charge structure: 2 first-degree murder + 13 first-degree intentional
+    homicide counts).
+
+16. UMKC Law — Famous Trials: Estate of Sinthasomphone v. Milwaukee [SCHOLARLY-adjacent]
+    URL: https://law2.umkc.edu/faculty/projects/ftrials/conlaw/Sinthasomphone.html
+    Covers: teaching-oriented overview linking the criminal case and the
+    civil litigation (useful orientation; cite the opinions themselves).
+
+17. DocumentCloud — criminal complaint (1991) [PRIMARY]
+    URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    Covers: charging document text used in trial-page background.
+
+
+=====================================================================
+ANALYSIS TAB
+=====================================================================
+
+--- A. SYSTEMIC FAILURES (/topics/systemic-failures) ---
+
+1. Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343
+   (E.D. Wis. 1992) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/district-courts/FSupp/785/1343/2144838/
+   Mirror: https://www.courtlistener.com/opinion/2144838/estate-of-sinthasomphone-v-city-of-milwaukee/
+   Covers: March 5, 1992 ruling on the pleadings — claims of race/national
+   origin/sexual-orientation discrimination allowed to proceed (allegations,
+   not proven findings).
+
+2. Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320
+   (E.D. Wis. 1993) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/district-courts/FSupp/838/1320/2255276/
+   Covers: Nov. 23, 1993 — qualified immunity on substantive due process;
+   equal-protection claim survives; Sandra Smith / Nicole Childress
+   identified; "some 30 minutes later" timing.
+
+3. Estate of Sinthasomphone v. City of Milwaukee, 878 F. Supp. 147
+   (E.D. Wis. 1995) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/district-courts/FSupp/878/147/1440090/
+   Covers: final pre-settlement posture of the equal-protection claim;
+   "eleven of the 17 victims were Black" finding cited in the plan.
+
+4. Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/district-courts/FSupp/906/485/2126565/
+   Covers: probation-supervision litigation — Donna Chester's conduct,
+   home-visit waiver system, treatment referrals.
+
+5. Weinberger v. Wisconsin, 105 F.3d 1182 (7th Cir. 1997) [PRIMARY]
+   URL: https://law.resource.org/pub/us/case/reporter/F3/105/105.F3d.1182.95-3398.html
+   Covers: Seventh Circuit affirms — no recklessness by Chester; home visits
+   would not necessarily have deterred Dahmer (display prominently per plan).
+
+6. Balcerzak v. City of Milwaukee, 980 F. Supp. 983 (E.D. Wis. 1997) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/district-courts/FSupp/980/983/1883340/
+   Covers: officers' own lawsuit over discipline/reinstatement — district
+   court stage.
+
+7. Balcerzak v. City of Milwaukee, 163 F.3d 993 (7th Cir. 1998) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/appellate-courts/F3/163/993/494395/
+   Covers: appeal outcome; documents the rule-violation charges and the full
+   disciplinary chronology (suspension -> firing -> abeyance -> pleas ->
+   Fire & Police Commission -> circuit court -> reinstatement).
+
+8. UPI Archives — "Police officers' attorney defends actions in Dahmer
+   incident" (Aug. 1, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-08-01/Police-officers-attorney-defends-actions-in-Dahmer-incident/8950681019200/
+   Covers: three officers (Balcerzak, Gabrish, Porubcan); the May 27 sequence.
+
+9. UPI Archives — "Laotian family upset after hearing tape" (Aug. 2, 1991) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+   Covers: released police radio tapes (including derogatory remarks);
+   family reaction — primary-source material for the recordings subsection.
+
+10. UPI Archives — "Two cops fired for returning naked boy to Dahmer"
+    (Sept. 6, 1991) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1991-09-06/Two-cops-fired-for-returning-naked-boy-to-Dahmer/7782684129600/
+    Covers: Arreola's firings; Porubcan's dismissal held in abeyance.
+
+11. UPI Archives — "Police officers fired in Dahmer case admit mistake"
+    (Oct. 13, 1992) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1992-10-13/Police-officers-fired-in-Dahmer-case-admit-mistake/8532718948800/
+    Covers: October 1992 pleas to department-rule violations.
+
+12. New York Times — "Victory for Two in Dahmer Case" (April 28, 1994) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html
+    Covers: Judge Robert Parins's reinstatement order; ~$55,000 back pay each.
+
+13. Washington Post — "Milwaukee to Pay $850,000 to Family of Dahmer Victim"
+    (April 26, 1995) [CONTEMPORARY]
+    URL: https://www.washingtonpost.com/archive/national/1995-04-26/milwaukee-to-pay-850000-to-family-of-dahmer-victim/a08988a1-9957-4c4e-85c4-0af729145603/
+    Covers: the April 1995 settlement; "not an admission of guilt" framing.
+
+14. Spokesman-Review — "City Agrees To Settle In Dahmer Suit" (March 22, 1995) [CONTEMPORARY]
+    URL: https://www.spokesman.com/stories/1995/mar/22/city-agrees-to-settle-in-dahmer-suit/
+    Covers: settlement agreement reporting (racism allegations context).
+
+15. Washington Post — "Sweeping Changes Urged in Milwaukee Police Dept"
+    (Oct. 16, 1991) [CONTEMPORARY]
+    URL: https://www.washingtonpost.com/archive/politics/1991-10-16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/
+    Covers: post-Konerak reform panel; community-oriented-policing plan
+    demanded of Chief Arreola.
+
+16. New York Times — "Scrutiny of Police Sought in Milwaukee" (July 28, 1991) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1991-07-28/us/scrutiny-of-police-sought-in-milwaukee.html
+    Covers: immediate community/civil-rights response to MPD.
+
+17. Milwaukee Fire and Police Commission [PRIMARY]
+    URL: https://city.milwaukee.gov/fpc
+    Discipline decisions: https://city.milwaukee.gov/DisciplineDecisions.htm
+    Covers: municipal disciplinary records referenced in the plan.
+
+18. Milwaukee Journal Sentinel (legacy) — "Cleveland tried to stop Dahmer
+    from killing" (2011) [SECONDARY]
+    URL: https://archive.jsonline.com/news/milwaukee/112910479.html
+    Covers: Glenda Cleveland's follow-up call (the recorded transfer and
+    "no witness information needed" exchange).
+
+19. Marquette AP wire archive — "2 Women Say Officers Failed To Aid
+    14-year-old" (July 26, 1991) [CONTEMPORARY]
+    URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+    Covers: witness accounts (Smith, Childress; Tina Spivey appears in some
+    accounts — attribute per plan).
+
+20. New York Times — July 24, 1991 [CONTEMPORARY]
+    URL: https://www.nytimes.com/1991-07-24/us/parts-of-many-bodies-found-in-a-milwaukee-apartment.html
+    Covers: housing/community complaints — residents' weeks of odors and
+    Dahmer's freezer explanation (Pamela Bass, Nanetta Lowery threads).
+
+21. Milwaukee Journal Sentinel — MPD policy/culture changes interactive (2019) [SECONDARY]
+    URL: https://projects.jsonline.com/news/2019/3/21/timeline/milwaukee-police-changes-in-policies-culture.html
+    Covers: institutional-response context across chiefs.
+
+22. SAGE — "The Less-Dead" encyclopedia entry [SCHOLARLY]
+    URL: https://sk.sagepub.com/ency/edvol/violentcrime/chpt/lessdead
+    Covers: Egger's analytical framework for the race/sexuality section
+    (framework only, not proof — per plan).
+
+23. Wikipedia — "John Balcerzak" [TERTIARY / INDEX ONLY]
+    URL: https://en.wikipedia.org/wiki/John_Balcerzak
+    Covers: sourced disciplinary chronology summary — verify against
+    Balcerzak opinions and FPC records before citing anything.
+
+--- B. PSYCHOLOGICAL PROFILE & EVALUATION (/topics/psychological-profile) ---
+
+1. Court TV — WI v. Jeffrey Dahmer (1992) archive [CONTEMPORARY — trial record]
+   URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+   Playlist: https://www.youtube.com/playlist?list=PLMD8umRLJkKwl6m5RZbGklOkudKOu_sHh
+   Covers: the expert witnesses' actual testimony (closest available
+   substitute for the trial transcript).
+
+2. Court TV — "Dr. Park Dietz" testimony clip [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=fbX-R0LMQsk
+   Covers: prosecution forensic psychiatrist — paraphilia vs. choice/control
+   distinction (plan's Section 3F).
+
+3. Washington Post — "Psychiatrist Calls Dahmer a Sane Killer" (Feb. 7, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-07/psychiatrist-calls-dahmer-a-sane-killer/91cb4a83-0190-4e21-8b00-15e4d3d899d8/
+   Covers: George Palermo (court-appointed) — personality disorder,
+   hostility, lust, power; "not psychotic"; legal sanity conclusion.
+
+4. Washington Post — "Despite Necrophilia, Dahmer Is Not Insane..." (Feb. 9, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/national/1992-02-09/despite-necrophilia-dahmer-is-not-insane-psychiatrist-testifies/41f6365a-b890-47b0-b701-790cf0f89d41/
+   Covers: Frederick Fosdal — necrophilia present but not legally disabling;
+   control-experiments testimony.
+
+5. Washington Post — "Dahmer Saw Freeze-Drying as Possibility" (Feb. 13, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-13/dahmer-saw-freeze-drying-as-possibility/643ceeb8-8526-4b50-ae0d-4d119af9c00c/
+   Covers: Park Dietz (Feb. 12–13) — instrumental drinking, planning,
+   examples of restraint; prosecution sanity case.
+
+6. UPI Archives — trial coverage Feb. 2–15, 1992 (search "Dahmer") [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/
+   Covers: day-by-day testimony for Berlin (Feb. 3–4), Becker (Feb. 4–5),
+   Wahlstrom (Feb. 5), Palermo (Feb. 6), Friedman (Feb. 6–7) — the plan
+   cites specific UPI dates for each expert.
+
+7. Jentzen, Palermo, Johnson, Ho, Stormo & Teggatz — "Destructive Hostility:
+   The Jeffrey Dahmer Case: A Psychiatric and Forensic Study of a Serial
+   Killer" (1994) [SCHOLARLY — WITHDRAWN; see caution]
+   URL: https://epublications.marquette.edu/dentistry_fac/74/
+   Second record: https://epublications.marquette.edu/dentistry_fac/73/
+   Covers: contemporaneous forensic-psychiatric interpretation. NOTE: the
+   Marquette record states the article was WITHDRAWN — use only as a
+   historical example of expert interpretation and cite the withdrawn status
+   (per plan rule).
+
+8. Jeffrey Jentzen — "Micro Disasters: The Case of Serial Killer Jeffrey
+   Dahmer", Academic Forensic Pathology (2017) [SCHOLARLY]
+   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/
+   Covers: peer-reviewed forensic-pathology synthesis of the case.
+
+9. Adam Lankford & Jenna K. Hayes — "Could Serial Killing Actually Be
+   Addictive?..." Sexual Health & Compulsivity 29(3–4), 2022 [SCHOLARLY]
+   URL: https://www.tandfonline.com/doi/abs/10.1080/26929953.2022.2126416
+   DOI: 10.1080/26929953.2022.2126416
+   Covers: behavioral-addiction model applied by analogy to DSM-5 SUD
+   criteria — single-case study, NOT a diagnosis (per plan limits).
+
+10. Gregory J. O'Meara, S.J. — "Text, Context, and Pretext in State v.
+    Jeffrey Dahmer" (2009) [SCHOLARLY]
+    URL: https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub
+    Covers: how prosecution/defense constructed psychological narratives —
+    useful for the "competing expert interpretations" section.
+
+11. Inside Edition — 1993 prison interview tape [PRIMARY-adjacent]
+    URL: https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300
+    Covers: Dahmer's own description of obsessive thoughts/"almost addictive"
+    behavior — post-conviction self-report only.
+
+12. FBI Vault Part 03 — June 23, 1993 memo re: Inside Edition uncut copy [PRIMARY]
+    URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+    Covers: FBI Behavioral Science Unit's acquisition of the uncut interview
+    (authenticity chain for the 1993 material).
+
+13. Wisconsin court records — State v. Dahmer, 91-CF-3584 (via WCCA / Clerk
+    of Courts; psychiatric reports under seal may be unavailable) [PRIMARY]
+    URL: https://wcca.wicourts.gov/
+    Covers: official case docket for the sanity-phase record.
+
+--- C. THEORIES & MOTIVATIONS (/topics/theories-motivations) ---
+
+1. Adam Lankford & Jenna K. Hayes (2022), Sexual Health & Compulsivity [SCHOLARLY]
+   URL: https://www.tandfonline.com/doi/abs/10.1080/26929953.2022.2126416
+   Covers: behavioral-addiction/escalation theory — the plan's Theory 2,
+   with the explicit analogy limitation.
+
+2. Jentzen et al. — "Destructive Hostility" (1994; WITHDRAWN) [SCHOLARLY]
+   URLs: https://epublications.marquette.edu/dentistry_fac/74/
+   https://epublications.marquette.edu/dentistry_fac/73/
+   Covers: hostility/power/sadism theory (plan's Theory 6) — must be flagged
+   as withdrawn and used only as historical expert interpretation.
+
+3. Inside Edition interview (Jan. 11–12, 1993; aired Feb. 1993) [PRIMARY-adjacent]
+   URL: https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300
+   Covers: Dahmer's own 1993 account — control, obsession, "almost addictive"
+   (plan's Module 1 "What Did Dahmer Say?").
+
+4. FBI Vault Part 03 (June 23, 1993 memo) [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   Covers: FBI BSU acquisition of the uncut Inside Edition interview —
+   documents the interview's provenance.
+
+5. Washington Post — "Dahmer Saw Freeze-Drying as Possibility" (Feb. 13, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-13/dahmer-saw-freeze-drying-as-possibility/643ceeb8-8526-4b50-ae0d-4d119af9c00c/
+   Covers: freeze-drying plan (Theory 1 evidence) and Dietz's
+   alcohol-as-instrument testimony (Theory 3).
+
+6. Washington Post — "Psychiatrist Calls Dahmer a Sane Killer" (Feb. 7, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1992-02-07/psychiatrist-calls-dahmer-a-sane-killer/91cb4a83-0190-4e21-8b00-15e4d3d899d8/
+   Covers: Palermo's fear-of-rejection/hostility/power formulation (Theory 5).
+
+7. Washington Post — "Despite Necrophilia, Dahmer Is Not Insane..." (Feb. 9, 1992) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/national/1992-02-09/despite-necrophilia-dahmer-is-not-insane-psychiatrist-testifies/41f6365a-b890-47b0-b701-790cf0f89d41/
+   Covers: Fosdal on necrophilia/control experiments (Theory 4 and the
+   "zombie" material in motivation context).
+
+8. Court TV — Dr. Park Dietz testimony clip [CONTEMPORARY]
+   URL: https://www.youtube.com/watch?v=fbX-R0LMQsk
+   Covers: Dietz's preferred-living-partner account; killings as means of
+   permanent control/possession (Theory 1 contrast).
+
+9. Patrick Kennedy — "Grilling Dahmer" (2022) [SECONDARY — first-person]
+   URL: https://www.amazon.com/GRILLING-DAHMER-Interrogation-Milwaukee-Cannibal/dp/1947290878
+   Covers: Dahmer's own words from the 1991 interviews — documented
+   statements layer (level 1) for the theories page.
+
+10. Netflix — "The Dahmer Tapes: Confessions of a Serial Killer" (2024,
+    dir. Joe Berlinger) [SECONDARY — uses primary audio]
+    URL: https://www.imdb.com/title/tt21946032/
+    Covers: Dahmer's recorded confession/interview audio — useful to locate
+    his statements, but cite the underlying tapes/recordings, not the series.
+
+11. UPI Archives — February 1992 trial coverage (Berlin/Becker/Wahlstrom
+    testimony dates) [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/
+    Covers: defense-side motivation testimony (sexual pathology,
+    compulsivity, control desire) as reported at the time.
+
+12. Steven Egger — "less-dead" framework (for victim-selection analysis
+    referenced in motivation debates) [SCHOLARLY]
+    URL: https://sk.sagepub.com/ency/edvol/violentcrime/chpt/lessdead
+    Covers: analytical question of marginalization in victim selection —
+    keep as framework, not as proof of Dahmer's strategic calculation.
+
+
+=====================================================================
+IMPACT TAB (/impact) — CONSOLIDATED MASTER RESEARCH DIRECTORY
+=====================================================================
+Content Plan: 07_impact_and_legacy_content_plan_v01.txt / impact.txt (Finalized & Approved)
+This directory organizes operational URLs and archival materials for the approved
+subsections of Tab 7 (Community & Civic Impact, Social Reform & Accountability,
+Restorative Victimology & Public Memory, Media Portrayal & True Crime Ethics, and Primary
+Sources & Historiography).
+
+--- A. COMMUNITY & CIVIC IMPACT (/impact/community-civic-impact) ---
+
+1. UPI Archives — "Dahmer apartment building to be razed, turned into park"
+   (Aug. 13, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-08-13/Dahmer-apartment-building-to-be-razed-turned-into-park/4739713678400/
+   Covers: Campus Circle Project purchase; "life rather than death" planting
+   rationale; end of unwanted tourism at 924 N. 25th St.
+
+2. UPI Archives — "Dahmer's apartment building to be razed" (Nov. 14, 1992) [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/1992-11-14/Dahmers-apartment-building-to-be-razed/2592721717200/
+   Covers: demolition (November 1992); Marquette-affiliated redevelopment.
+
+3. jsonline — "Memorial to Jeffrey Dahmer's victims unlikely to happen"
+   (Sept. 28, 2022) [SECONDARY]
+   URL: https://www.jsonline.com/story/news/2022-09-28/memorial-jeffrey-dahmers-victims-unlikely-happen-milwaukee/8122753001/
+   Covers: city's position on a victims' memorial; family and official views.
+
+4. jsonline (opinion) — "A memorial to Jeffrey Dahmer's victims is long
+   overdue in Milwaukee" (Oct. 19, 2022) [SECONDARY — opinion, attribute]
+   URL: https://www.jsonline.com/story/opinion/2022-10-19/memorial-jeffrey-dahmers-victims-long-overdue-milwaukee/10522845002/
+   Covers: newsroom retrospective (July 22, 1991 newsroom scene) + memorial
+   argument — civic-memory debate.
+
+5. New York Times — "Scrutiny of Police Sought in Milwaukee" (July 28, 1991) [CONTEMPORARY]
+   URL: https://www.nytimes.com/1991-07-28/us/scrutiny-of-police-sought-in-milwaukee.html
+   Covers: immediate community/civic response; Black elected officials'
+   demands — community anger and distrust in 1991.
+
+6. Washington Post — "Sweeping Changes Urged in Milwaukee Police Dept"
+   (Oct. 16, 1991) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-10-16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/
+   Covers: civic reform pressure on MPD after Konerak.
+
+7. Marquette Wire — "Jeffery Dahmer: Twenty years later" (Feb. 2012) [SECONDARY]
+   URL: https://marquettewire.org/3807972/tribune/tribune-featured/dahmer-closer-look/
+   Covers: how Milwaukee and Marquette communities moved forward two decades
+   on — long-term civic memory.
+
+8. jsonline (letters) — "Killer Jeffrey Dahmer should not be Milwaukee's most
+   famous resident" (March 25, 2024) [SECONDARY — opinion, attribute]
+   URL: https://www.jsonline.com/story/opinion/2024-03-25/jeffrey-dahmer-milwaukee-famous-resident-oprah-golda-meir/73069946007/
+   Covers: present-day civic identity debate about the case.
+
+9. WUWM — "Ernest Lacy's Relatives Add Their Voices..." (2020) [SECONDARY]
+   URL: https://www.wuwm.com/race-ethnicity/2020-07-30/ernest-lacys-relatives-add-their-voices-to-the-milwaukee-black-lives-matter-movement
+   Covers: pre-Dahmer policing controversies feeding into 1991 community
+   reaction (link to Context).
+
+10. New York Times — "Report Questions Actions of Dahmer Guards" (Dec. 11, 1994) [CONTEMPORARY]
+    URL: https://www.nytimes.com/1994-12-11/us/report-questions-actions-of-dahmer-guards.html
+    Covers: Wisconsin DOC institutional episode after the prison killing.
+
+--- B. SOCIAL IMPACT & REFORM (/impact/social-impact-reform) ---
+
+1. Milwaukee Journal Sentinel — "Milwaukee Police Department changes in
+   policies, culture" (2019 interactive) [SECONDARY]
+   URL: https://projects.jsonline.com/news/2019/3/21/timeline/milwaukee-police-changes-in-policies-culture.html
+   Covers: MPD policy/culture changes across eras including post-Dahmer
+   reforms (community policing trajectory under Arreola).
+
+2. Washington Post — Oct. 16, 1991 reform-panel article [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/politics/1991-10-16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/
+   Covers: the specific reform recommendations triggered by the case.
+
+3. Milwaukee Fire and Police Commission [PRIMARY]
+   URL: https://city.milwaukee.gov/fpc
+   Discipline decisions: https://city.milwaukee.gov/DisciplineDecisions.htm
+   Covers: oversight body proceedings; disciplinary policy context.
+
+4. Washington Post — "Milwaukee to Pay $850,000 to Family of Dahmer Victim"
+   (April 26, 1995) [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/national/1995-04-26/milwaukee-to-pay-850000-to-family-of-dahmer-victim/a08988a1-9957-4c4e-85c4-0af729145603/
+   Covers: civil settlement as accountability outcome (not admission).
+
+5. Spokesman-Review — "City Agrees To Settle In Dahmer Suit" (March 22, 1995) [CONTEMPORARY]
+   URL: https://www.spokesman.com/stories/1995/mar/22/city-agrees-to-settle-in-dahmer-suit/
+   Covers: settlement approval reporting.
+
+6. Balcerzak v. City of Milwaukee, 163 F.3d 993 (7th Cir. 1998) [PRIMARY]
+   URL: https://law.justia.com/cases/federal/appellate-courts/F3/163/993/494395/
+   Covers: legal resolution of officer discipline/reinstatement — employment-
+   law aftermath of the case.
+
+7. New York Times — "Victory for Two in Dahmer Case" (April 28, 1994) [CONTEMPORARY]
+   URL: https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html
+   Covers: reinstatement controversy — reform vs. discipline debate.
+
+8. Weinberger v. Wisconsin, 105 F.3d 1182 (7th Cir. 1997) [PRIMARY]
+   URL: https://law.resource.org/pub/us/case/reporter/F3/105/105.F3d.1182.95-3398.html
+   Covers: legal limits of probation-supervision liability — oversight-reform
+   discussion.
+
+9. ACLU of Wisconsin — "Pride and Privacy: Surveillance and Overpolicing of
+   Milwaukee's LGBTQ+ Community" (2024 report) [SECONDARY — advocacy]
+   URL: https://www.aclu-wi.org/news/pride-and-privacy-surveillance-and-overpolicing-milwaukees-lgbtq-community/
+   Covers: modern data on LGBTQ+ policing disparities — present-day reform
+   frame connecting back to 1991.
+
+10. ACLU of Wisconsin — "Queer Nightlife, Surveillance, and State Targeting" [SECONDARY — advocacy]
+    URL: https://www.aclu-wi.org/news/queer-nightlife-surveillance-and-state-targeting/
+    Covers: historical Breier-era surveillance as background for reform
+    narrative.
+
+11. Estate of Sinthasomphone opinions (1992/1993/1995) [PRIMARY]
+    URLs: see ANALYSIS TAB — Systemic Failures entries 1–3.
+    Covers: the civil-rights litigation that shaped institutional
+    accountability discussion.
+
+--- C. MEDIA & CULTURAL PORTRAYAL (/impact/media-cultural-portrayal) ---
+
+1. Wikipedia — "Monster: The Jeffrey Dahmer Story" (Netflix, 2022) [TERTIARY / INDEX]
+   URL: https://en.wikipedia.org/wiki/Monster:_The_Jeffrey_Dahmer_Story
+   Covers: series overview, reception, controversy documentation with
+   footnotes to news coverage.
+
+2. jsonline — "What's real, fiction on 'Monster: The Jeffrey Dahmer Story'"
+   (Sept. 23, 2022) [SECONDARY — fact-check]
+   URL: https://www.jsonline.com/story/news/2022-09-23/whats-real-fiction-monster-jeffrey-dahmer-story-netflix/8083469001/
+   Covers: episode-by-episode accuracy check (e.g., Glenda Cleveland's
+   actual residence) — historical record vs. dramatic reconstruction.
+
+3. The Hollywood Reporter — "Jeffrey Dahmer Netflix Show: Victim's Family
+   Speaks Out" (Sept. 28, 2022) [SECONDARY]
+   URL: https://www.hollywoodreporter.com/tv/tv-news/jeffrey-dahmer-netflix-tv-show-victim-family-speaks-out-1235228196/
+   Covers: Rita Isbell's criticism; families not consulted.
+
+4. The Guardian — "Dahmer series creator says relatives of victims did not
+   reply..." (Oct. 29, 2022) [SECONDARY]
+   URL: https://www.theguardian.com/media/2022/oct/29/dahmer-series-creator-ryan-murphy-victims-families-friends
+   Covers: Ryan Murphy's response to the families — both sides of the
+   portrayal-ethics debate.
+
+5. Business Insider — Rita Isbell first-person essay (Sept. 2022) [SECONDARY]
+   URL: https://www.businessinsider.com/rita-isbell-sister-jeffrey-dahmer-victim-talks-about-netflix-show-2022-9
+   Covers: victim's family member on the courtroom-scene recreation.
+
+6. Houston Public Media — Errol Lindsey's sister interview (Oct. 13, 2022) [SECONDARY]
+   URL: https://www.houstonpublicmedia.org/articles/shows/town-square/2022-10-13/435048/errol-lindseys-sister-criticizes-dahmer-netflix-series-says-it-forces-family-to-relive-painful-memories/
+   Covers: retraumatization criticism.
+
+7. Derf Backderf — "My Friend Dahmer" (graphic novel, 2012) [SECONDARY]
+   URLs: https://www.abramsbooks.com/product/my-friend-dahmer_9781419702174/
+   https://en.wikipedia.org/wiki/My_Friend_Dahmer
+   Covers: the influential memoir-as-comics portrayal and its 2017 film
+   adaptation (https://en.wikipedia.org/wiki/My_Friend_Dahmer_(film)).
+
+8. Brian Masters — "The Shrine of Jeffrey Dahmer" (UK, 1993; US title
+   "Killing for Company") [SECONDARY — book]
+   URLs: https://www.abebooks.com/9780340574829/Shrine-Jeffrey-Dahmer-Brian-MASTERS-0340574828/plp
+   https://www.amazon.com/KILLING-COMPANY-Brian-Masters/dp/0099552612
+   Covers: early major book-length portrayal; perpetrator-focused narrative
+   (contextualize per plan).
+
+9. Lionel Dahmer — "A Father's Story" (1994) [SECONDARY — memoir]
+   URL: https://www.goodreads.com/en/book/show/609339.A_Father_s_Story
+   Covers: father's memoir and its role in early media framing.
+
+10. Anne E. Schwartz — "The Man Who Could Not Kill Enough" (1991; reissued
+    2022 as "Monster: The True Story of the Jeffrey Dahmer Murders") [SECONDARY — book]
+    URLs: https://www.amazon.com/Man-Who-Could-Kill-Enough/dp/1559721170
+    https://www.goodreads.com/en/book/show/57684104-monster
+    Covers: first reporter on scene; contemporaneous book; Pulitzer-
+    nominated team reporting background.
+
+11. Don Davis — "The Milwaukee Murders" (Pinnacle, 1991; later reissued as
+    "The Jeffrey Dahmer Story: An American Nightmare") [SECONDARY — book]
+    URL: https://openlibrary.org/works/OL31352629W/The_Milwaukee_murders
+    Covers: early mass-market true-crime framing.
+
+12. "The Jeffrey Dahmer Files" (documentary, 2012) [SECONDARY — film]
+    URLs: https://en.wikipedia.org/wiki/The_Jeffrey_Dahmer_Files
+    https://www.imdb.com/title/tt1779076/
+    Trailer: https://www.youtube.com/watch?v=tvH1wrn4dgo
+    Covers: experimental documentary interviewing Jentzen, Det. Kennedy and
+    neighbor Pamela Bass — Milwaukee-perspective portrayal.
+
+13. "Dahmer" (feature film, 2002, dir. David Jacobson; Jeremy Renner) [SECONDARY — film]
+    URL: https://en.wikipedia.org/wiki/Dahmer_(film)
+    Covers: early dramatic adaptation.
+
+14. Netflix — "The Dahmer Tapes: Confessions of a Serial Killer" (2024,
+    Joe Berlinger) [SECONDARY — documentary using primary audio]
+    URL: https://www.imdb.com/title/tt21946032/
+    Covers: recent documentary form built on Dahmer's recorded statements.
+
+15. Inside Edition — 1993 prison interview (posted footage, 2022) [PRIMARY-adjacent]
+    URL: https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300
+    Covers: televised interview as media event; see FBI Vault Part 03 memo.
+
+16. Court TV — WI v. Jeffrey Dahmer (1992) [CONTEMPORARY — broadcast record]
+    URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+    Covers: the trial itself as a landmark televised media event.
+
+17. jsonline — documentary short series coverage (Oct. 17, 2022) [SECONDARY]
+    URL: https://www.jsonline.com/videos/opinion/2022-10-17/new-documentary-short-series-jeffrey-dahmer-focuses-what-dahmer-told-police/10527707002/
+    Covers: MJS reporters' participation in a 2022 documentary series —
+    local journalism's role in portrayals.
+
+18. jsonline — Investigation Discovery Dahmer programming (May 4, 2020) [SECONDARY]
+    URL: https://www.jsonline.com/story/entertainment/television-radio/2020-05-04/milwaukee-serial-killer-jeffrey-dahmer-investigation-discovery-show-memorial-day-special-documentary/3078348001/
+    Covers: cable true-crime programming cycle (pre-Netflix).
+
+19. LitHub — "Fictionalizing a Dark Chapter in the History of Milwaukee
+    Policing" (Aug. 2021) [SECONDARY — literary essay]
+    URL: https://lithub.com/fictionalizing-a-dark-chapter-in-the-history-of-milwaukee-policing/
+    Covers: fiction engaging MPD/Dahmer-era history; notes Arreola's
+    admissions about race in the officers' conduct.
+
+20. Today.com — "All About Glenda Cleveland Now..." (Oct. 2022) [TERTIARY — context]
+    URL: https://www.today.com/popculture/tv/glenda-cleveland-now-jeffrey-dahmer-neighbor-rcna50858
+    Covers: how Netflix's portrayal changed a real neighbor's story —
+    dramatization-vs-record example (verify against jsonline archive entry).
+
+--- D. MODERN RE-EXAMINATION (/impact/modern-re-examination) ---
+
+1. Milwaukee Journal Sentinel — victims retrospective (Sept. 28–29, 2022) [SECONDARY — landmark]
+   URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+   Covers: the 2022 shift toward victim-centered re-examination.
+
+2. jsonline — "What's real, fiction on 'Monster'" (Sept. 23, 2022) [SECONDARY]
+   URL: https://www.jsonline.com/story/news/2022-09-23/whats-real-fiction-monster-jeffrey-dahmer-story-netflix/8083469001/
+   Covers: modern fact-checking of portrayals against the record.
+
+3. jsonline — memorial debate (Sept. 28 & Oct. 19, 2022) [SECONDARY]
+   URLs: https://www.jsonline.com/story/news/2022-09-28/memorial-jeffrey-dahmers-victims-unlikely-happen-milwaukee/8122753001/
+   https://www.jsonline.com/story/opinion/2022-10-19/memorial-jeffrey-dahmers-victims-long-overdue-milwaukee/10522845002/
+   Covers: how the city remembers (or doesn't) — public-memory re-examination.
+
+4. jsonline — Dahmer-as-"famous resident" letters (March 2024) [SECONDARY — opinion]
+   URL: https://www.jsonline.com/story/opinion/2024-03-25/jeffrey-dahmer-milwaukee-famous-resident-oprah-golda-meir/73069946007/
+   Covers: present-day arguments over the case's place in city identity.
+
+5. The Guardian — Ryan Murphy/families (Oct. 29, 2022) [SECONDARY]
+   URL: https://www.theguardian.com/media/2022/oct/29/dahmer-series-creator-ryan-murphy-victims-families-friends
+   Covers: ethics-of-retelling debate — scholarship-of-memory angle.
+
+6. Adam Lankford & Jenna K. Hayes (2022) [SCHOLARLY]
+   URL: https://www.tandfonline.com/doi/abs/10.1080/26929953.2022.2126416
+   Covers: newest academic interpretation of the case (with limits).
+
+7. Jeffrey Jentzen — "Micro Disasters" (Academic Forensic Pathology, 2017) [SCHOLARLY]
+   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/
+   Covers: later peer-reviewed forensic re-examination by the original ME.
+
+8. Gregory J. O'Meara — "Text, Context, and Pretext in State v. Jeffrey
+   Dahmer" (2009) [SCHOLARLY]
+   URL: https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub
+   Covers: later legal-scholarship re-examination of the trial.
+
+9. Marquette Wire — "Jeffery Dahmer: Twenty years later" (2012) [SECONDARY]
+   URL: https://marquettewire.org/3807972/tribune/tribune-featured/dahmer-closer-look/
+   Covers: campus/city perspectives two decades after.
+
+10. LitHub — fictionalizing Milwaukee policing (2021) [SECONDARY]
+    URL: https://lithub.com/fictionalizing-a-dark-chapter-in-the-history-of-milwaukee-policing/
+    Covers: cultural/literary re-engagement with the case's policing history.
+
+11. A&E — "Case File: Jeffrey Dahmer" [TERTIARY / INDEX ONLY]
+    URL: https://www.aetv.com/articles/jeffrey-dahmer
+    Covers: current mainstream summary — gauge of present-day framing.
+
+12. Today.com — Glenda Cleveland explainer (2022) [TERTIARY — context]
+    URL: https://www.today.com/popculture/tv/glenda-cleveland-now-jeffrey-dahmer-neighbor-rcna50858
+    Covers: how individual participants are re-examined in the Netflix era.
+
+13. New York Times — Dec. 11, 1994 guards report [CONTEMPORARY]
+    URL: https://www.nytimes.com/1994-12-11/us/report-questions-actions-of-dahmer-guards.html
+    Covers: official scrutiny of the prison killing — institutional
+    re-examination thread.
+
+
+--- E. VERIFIED 50-SOURCE PRIMARY MASTER BIBLIOGRAPHY ---
+(Directly supporting 07_impact_and_legacy_content_plan_v01.txt and impact.txt)
+
+1. How did Jeffrey Dahmer harm Milwaukee's gay community? — WUWM 89.7 (NPR)
+   URL: https://www.wuwm.com/regional/how-did-jeffrey-dahmer-harm-milwaukees-gay-community
+2. Black queer Milwaukeeans on Netflix's series — NBC News / NBC Out
+   URL: https://www.nbcnews.com/nbc-out/out-pop-culture/black-queer-milwaukeeans-netflixs-jeffrey-dahmer-series-dare-rcna50745
+3. Dahmer Case Unleashes Black Anger in Milwaukee — Christian Science Monitor (1991)
+   URL: https://www.csmonitor.com/1991/0816/16041.html
+4. Milwaukee LGBTQ bars ban customers wearing costumes — FOX 29 Philadelphia / AP
+   URL: https://www.fox29.com/news/milwaukee-lbgtq-bars-ban-customers-wearing-jeffrey-dahmer-costumes
+5. Dahmer Discourse and Gay Identity — Critical Sociology / SAGE (1994)
+   URL: https://journals.sagepub.com/doi/10.1177/089692059402000305
+6. Sweeping Changes Urged in Milwaukee Police Dept — Washington Post (1991)
+   URL: https://www.washingtonpost.com/archive/politics/1991/10/16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/
+7. Serial Killers, Part 7: Jeffrey Dahmer — FBI (2016)
+   URL: https://www.fbi.gov/news/stories/serial-killers-part-7-jeffrey-dahmer
+8. Dahmer Case Forces Police to Look Closely at Themselves — Orlando Sentinel (1992)
+   URL: https://www.orlandosentinel.com/1992/12/13/dahmer-case-forces-police-to-look-closely-at-themselves/
+9. Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343 (E.D. Wis. 1992)
+   URL: https://law2.umkc.edu/faculty/projects/ftrials/conlaw/Sinthasomphone.html
+10. What Was Jeffrey Dahmer's Murder Trial Like? — A&E Television Networks
+    URL: https://www.aetv.com/articles/dahmer-trial
+11. 20 Years Later: Dahmer Case Still Provides Lessons — WISN 12 News (2011)
+    URL: https://www.wisn.com/article/20-years-later-dahmer-case-still-provides-lessons/6306981
+12. Fictionalizing a Dark Chapter in the History of Milwaukee Policing — LitHub (2021)
+    URL: https://lithub.com/fictionalizing-a-dark-chapter-in-the-history-of-milwaukee-policing/
+13. Lessons Police Have Learned From Dahmer's Case — Media Milwaukee (2024)
+    URL: https://mediamilwaukee.com/special-projects/lessons-police-have-learned-from-dahmers-case/
+14. Q&A: Anne E. Schwartz reflects 31 years later — Capital Times (2022)
+    URL: https://captimes.com/news/government/q-a-anne-e-schwartz-reflects-on-jeffrey-dahmer-case-31-years-later/article_80cc1777-cce8-5a5e-9cf2-4bf607047e7a.html
+15. 12 News Visits Dahmer's Old Neighborhood — WISN Archive
+    URL: https://www.youtube.com/watch?v=ZtlFdgYnSwQ
+16. Monster: Jeffrey Dahmer: Did TV go too far in 2022? — BBC Culture (2022)
+    URL: https://www.bbc.com/culture/article/20221213-monster-jeffrey-dahmer-did-tv-go-too-far-in-2022
+17. 'They're making money off tragedy' — The Conversation (2022)
+    URL: https://theconversation.com/theyre-making-money-off-tragedy-netflixs-dahmer-series-shows-the-dangers-of-fictionalising-real-horrors-192006
+18. Giving victims a voice or profiting off trauma? — ABC News Australia (2022)
+    URL: https://www.abc.net.au/news/2022-09-28/jeffrey-dahmer-netflix-series-victims-true-crime-entertainment/101473916
+19. The Controversy Behind Netflix's Series — TIME Magazine (2022)
+    URL: https://time.com/6218411/jeffrey-dahmer-netflix-controvesy/
+20. Backlash highlights ethical questions — Mashable (2022)
+    URL: https://mashable.com/article/jeffrey-dahmer-netflix-true-crime-ethics
+21. Our Obsession With Serial Killers: Media Study — Univ. of South Dakota (2023)
+    URL: https://red.library.usd.edu/honors-thesis/347/
+22. Jeffrey Dahmer — EBSCO Research Starters
+    URL: https://www.ebsco.com/research-starters/history/jeffrey-dahmer/
+23. Impact of Jeffrey Dahmer's Crimes — CliffsNotes
+    URL: https://www.cliffsnotes.com/study-notes/34055021
+24. Society's true crime obsession contains ethical questions — TPR (2022)
+    URL: https://www.tpr.org/podcast/the-source/2022-10-28/societys-true-crime-obsession-contains-ethical-questions-about-the-genres-exploitive-nature-and-biases
+25. A lover or a monster: Dahmer in true crime genre — Diggit Magazine (2022)
+    URL: https://www.diggitmagazine.com/papers/lover-or-monster-jeffrey-dahmer-true-crime-genre
+26. Destructive Hostility: The Dahmer Case — Marquette Univ. (Palermo et al.)
+    URL: https://epublications.marquette.edu/dentistry_fac/73/
+27. Jeffrey Dahmer — FBI Vault FOIA Archive
+    URL: https://vault.fbi.gov/search?SearchableText=jeffrey+dahmer
+28. The Situation Is Not At All Atypical — DA E. Michael McCann, PBS Frontline
+    URL: https://www.pbs.org/wgbh/pages/frontline/shows/bostonda/elsewhere/mccann.html
+29. FBI files offer glimpses of killer's mind — Chicago Sun-Times (2019)
+    URL: https://chicago.suntimes.com/2019/11/15/20959108/jeffrey-dahmer-fbi-files-serial-killers-chicago-milwaukee-cannibal-killer-anniversary
+30. Milwaukee to Pay $850,000 to Family — Washington Post (1995)
+    URL: https://www.washingtonpost.com/archive/national/1995/04/26/milwaukee-to-pay-850000-to-family-of-dahmer-victim/a08988a1-9957-4c4e-85c4-0af729145603/
+31. Cannibalism and related factors — PMC / NIH (2023)
+    URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10360974/
+32. All About Glenda Cleveland Now — TODAY.com (2022)
+    URL: https://www.today.com/popculture/tv/glenda-cleveland-now-jeffrey-dahmer-neighbor-rcna50858
+33. Glenda Cleveland Stayed Connected — Yahoo Lifestyle (2022)
+    URL: https://www.yahoo.com/lifestyle/woman-tried-stop-serial-killer-173300873.html
+34. Glenda Cleveland becomes Milwaukee's hero — The Hiller (2022)
+    URL: https://thehillernewspaper.org/5768/feature/articles/glenda-cleveland-becomes-milwaukees-hero-after-release-of-dahmer-documentary/
+35. Neighbor Called Police Multiple Times — People Magazine (2022)
+    URL: https://people.com/crime/glenda-cleveland-jeffrey-dahmer-neighbor-called-police-multiple-times/
+36. Milwaukee Common Council Settlement with ACLU (Collins) — ACLU (2018)
+    URL: https://www.aclu.org/press-releases/milwaukee-common-council-approves-historic-settlement-aclu-sweeping-police-reforms
+37. Estate of Sinthasomphone v. Milwaukee Case Brief — Studicata
+    URL: https://www.studicata.com/case-briefs/case/estate-of-sinthasomphone-v-milwaukee
+38. Estate of Sinthasomphone v. Milwaukee, 838 F. Supp. 1320 (E.D. Wis. 1993)
+    URL: https://www.casemine.com/judgement/us/59148468add7b049344b699e
+39. Milwaukee Fire and Police Commission Oversight — Wisconsin Justice Initiative
+    URL: https://www.wjiinc.org/blog/category/milwaukee-fire-and-police-commission
+40. National LGBTQ Task Force Records — Cornell University Library
+    URL: http://rmc.library.cornell.edu/EAD/htmldocs/RMM07301.html
+41. Society's contribution to a serial killer's freedom — Tiger Times (2023)
+    URL: https://www.tigertimesonline.com/viewpoint/2023/01/societys-contribution-to-a-serial-killers-freedom/
+42. Rita Isbell Talks About Netflix Show — Business Insider (2022)
+    URL: https://www.businessinsider.com/rita-isbell-sister-jeffrey-dahmer-victim-talks-about-netflix-show-2022-9
+43. 17 victims and what we knew about them — Milwaukee Journal Sentinel (2022)
+    URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+44. Balcerzak and Gabrish v. City of Milwaukee, 163 F.3d 993 (7th Cir. 1998)
+    URL: https://law.justia.com/cases/federal/appellate-courts/F3/163/993/494395/
+45. Collins et al. v. City of Milwaukee et al. — ACLU (2018)
+    URL: https://www.aclu.org/cases/collins-et-al-v-city-milwaukee-et-al
+46. City & MPD Remain Out of Compliance — ACLU of Wisconsin (Jan. 2025)
+    URL: https://www.aclu-wi.org/press-releases/after-five-years-city-milwaukee-and-milwaukee-police-department-remain-out-compliance/
+47. Dahmer on Netflix: What's Real, What's Fiction — IndieWire (2022)
+    URL: https://www.indiewire.com/features/general/dahmer-netflix-whats-real-whats-fiction-1234766516/
+48. Dahmer cops to get jobs back — UPI Archives (April 27, 1994)
+    URL: https://www.upi.com/Archives/1994/04/27/Dahmer-cops-to-get-jobs-back/8507767419200/
+49. How Disappearances Went Unnoticed — Media Milwaukee (2024)
+    URL: https://mediamilwaukee.com/special-projects/how-jeffrey-dahmers-victims-disappearances-went-unnoticed/
+50. Jeffrey Dahmer — Encyclopaedia Britannica
+    URL: https://www.britannica.com/biography/Jeffrey-Dahmer
+
+=====================================================================
+SOURCES TAB / METHODOLOGY (/sources) — MASTER REPOSITORY & EDITORIAL STANDARDS
+=====================================================================
+(Directly informs /sources.html: methodology, primary repositories, further reading)
+
+A. PRIMARY PUBLIC RECORD REPOSITORIES
+1. Milwaukee County Circuit Court Records Department, Milwaukee County Courthouse,
+   Milwaukee, WI. (Case No. F-912552, State of Wisconsin v. Jeffrey L. Dahmer).
+   Official criminal complaint, preliminary hearing minutes, 15 homicide charging schedules,
+   sanity-phase trial transcripts, and psychiatric exhibits.
+2. Federal Bureau of Investigation (FBI) Electronic Reading Room / The Vault.
+   19-part declassified Freedom of Information Act (FOIA) archive on Jeffrey Lionel Dahmer.
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+3. Wisconsin Historical Society Library & Archives, Madison, WI.
+   Television news broadcast collections (WTMJ-TV, WITI-TV, WISN-TV), newspaper morgues,
+   and contemporaneous civic records.
+4. Milwaukee Public Library Central Branch Periodical Archives.
+   Complete microfilm holdings of The Milwaukee Journal and The Milwaukee Sentinel
+   (July 1991 – December 1994).
+5. U.S. District Court for the Eastern District of Wisconsin (Milwaukee) & Western
+   District of Wisconsin (Madison) Federal Records.
+   Dockets and opinions for Estate of Sinthasomphone, Balcerzak v. Milwaukee, and
+   Weinberger v. Wisconsin.
+6. U.S. National Archives and Records Administration (NARA), Chicago Regional Facility.
+   Historical federal records and regional civil rights compliance documentation.
+
+B. EDITORIAL METHODOLOGY & RESEARCH STANDARDS
+1. Multi-Source Verification Rule:
+   Every factual claim concerning dates, victim ages, crime locations, and police
+   interactions is cross-referenced across at least two independent primary records
+   or contemporary court documents.
+2. Discrepancy Transparency Principle:
+   Where primary records conflict (such as the timeline of the Steven Tuomi homicide
+   or minor age variations in 1991 newspapers), the archive explicitly states the
+   divergence rather than enforcing artificial precision.
+3. Non-Graphic Representation & Human Dignity Standard:
+   Strict omission of graphic crime-scene photographs or sensationalized autopsy imagery,
+   prioritizing the biographical preservation and human dignity of the victims.
+4. Fact vs. Interpretation Distinction:
+   Rigid separation between established legal/physical facts (court records, ballistics,
+   pathology) and speculative or theoretical models (forensic psychiatry, psychiatric
+   diagnoses, psychological theories).
+
+C. CORE REPOSITORIES & SEARCH PORTALS
+1. FBI Vault — Dahmer file (repository) [PRIMARY]
+   URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+2. FBI — Serial Killers series landing (Parts 1–7) [PRIMARY]
+   URL: https://www.fbi.gov/news/stories/serial-killers-part-7-jeffrey-dahmer
+3. Justia Law — federal case opinions [PRIMARY]
+   URL: https://law.justia.com/
+4. CourtListener — federal case opinions/dockets [PRIMARY]
+   URL: https://www.courtlistener.com/
+5. Public.Resource.Org — F.3d reporter texts [PRIMARY]
+   URL: https://law.resource.org/pub/us/case/reporter/F3/105/105.F3d.1182.95-3398.html
+6. UPI Archives [CONTEMPORARY]
+   URL: https://www.upi.com/Archives/
+7. Washington Post archive [CONTEMPORARY]
+   URL: https://www.washingtonpost.com/archive/
+8. New York Times archive [CONTEMPORARY]
+   URL: https://www.nytimes.com/
+9. Milwaukee Journal Sentinel + legacy archive [CONTEMPORARY + later]
+   URLs: https://www.jsonline.com/ and https://archive.jsonline.com/
+10. Marquette University AP wire archive (CUAP) [CONTEMPORARY]
+    URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+11. Court TV trial archive [CONTEMPORARY]
+    URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+12. DocumentCloud — complaint scans [PRIMARY]
+    URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+13. Wisconsin Circuit Court Access [PRIMARY]
+    URL: https://wcca.wicourts.gov/
+14. Milwaukee Fire and Police Commission [PRIMARY]
+    URL: https://city.milwaukee.gov/fpc
+15. Marquette e-Publications (Jentzen et al. 1994, withdrawn) [SCHOLARLY]
+    URL: https://epublications.marquette.edu/dentistry_fac/74/
+16. Marquette Law Scholarship Repository (O'Meara 2009) [SCHOLARLY]
+    URL: https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub
+17. Academic Forensic Pathology / SAGE (Jentzen 2017) [SCHOLARLY]
+    URL: https://journals.sagepub.com/doi/abs/10.23907/2017.037
+18. Taylor & Francis (Lankford & Hayes 2022) [SCHOLARLY]
+    URL: https://www.tandfonline.com/doi/abs/10.1080/26929953.2022.2126416
+19. Encyclopedia of Milwaukee [SCHOLARLY]
+    URL: https://emke.uwm.edu/
+20. Oxford Research Encyclopedia of American History — Milwaukee [SCHOLARLY]
+    URL: https://academic.oup.com/edited-volume/61644/chapter/539895905
+21. Wisconsin LGBTQ History Project [PRIMARY-adjacent]
+    URL: https://www.wislgbthistory.com/
+22. ACLU of Wisconsin [SECONDARY — advocacy]
+    URL: https://www.aclu-wi.org/news/queer-nightlife-surveillance-and-state-targeting/
+23. Open Library (book records) [SECONDARY]
+    URL: https://openlibrary.org/
+24. Federal Reserve Bank of Chicago [PRIMARY-adjacent data]
+    URL: https://www.chicagofed.org/region/midwest-economy/employment-by-industry-charts
+
+Books for the "Further Reading" list (bibliographic):
+- Lionel Dahmer, "A Father's Story" (William Morrow, 1994) — memoir.
+- Derf Backderf, "My Friend Dahmer" (Abrams ComicArts, 2012) — graphic memoir.
+- Anne E. Schwartz, "The Man Who Could Not Kill Enough" (Birch Lane, 1991;
+  reissued as "Monster: The True Story of the Jeffrey Dahmer Murders", 2022).
+- Don Davis, "The Milwaukee Murders" (Pinnacle, 1991; reissued as "The
+  Jeffrey Dahmer Story: An American Nightmare").
+- Brian Masters, "The Shrine of Jeffrey Dahmer" (Hodder & Stoughton, 1993;
+  US: "Killing for Company").
+- Patrick Kennedy & Robyn Maharaj, "Grilling Dahmer: The Interrogation of
+  'The Milwaukee Cannibal'" (2022).
+- Steven Egger, "Serial Murderers and Their Victims" (Wadsworth, 2nd ed. 1990)
+  — "less-dead" concept (methodology reference).
+
+
+=====================================================================
+FINAL NOTES FOR MANUAL MATCHING
+=====================================================================
+1. Age/date discrepancies (per Victims plan): resolve Guerrero, Ricky Beeks
+   Smith, Eddie Smith, Ernest Miller, Curtis Straughter, Oliver Lacy against
+   FBI Vault (DOBs) vs. MJS 2022 retrospective (reported ages) vs.
+   DocumentCloud complaint (Straughter). Keep source notes; do not silently
+   choose.
+2. The 55- vs. 57-gallon drum discrepancy: tie the exact capacity to a named
+   source (FBI Part 7 says 55-gallon drum; contemporaneous papers vary).
+3. Steven Tuomi death date: FBI interview record says "around 1986 or 1987";
+   last seen Sept. 15, 1987. Preserve uncertainty marker.
+4. Jentzen et al. 1994 "Destructive Hostility": always flag WITHDRAWN status.
+5. Lankford & Hayes 2022: always present as single-case analogy study, not a
+   DSM diagnosis of "serial-killing addiction."
+6. Memoirs (Lionel Dahmer, Backderf, Kennedy): attribute as first-person
+   accounts; do not present as neutral third-party fact.
+7. Tertiary sources (Wikipedia, A&E, Biography.com, Today.com, NY Post):
+   indexes only — follow their footnotes to primary sources before citing.
+8. Paywalled archives (WaPo, NYT, jsonline): note access route in final
+   source notes (library databases, archive.today, or publisher archive).
+9. Impact tab: fully reconciled against 07_impact_and_legacy_content_plan_v01.txt
+   and its 50 verified citations.
+
+END OF SOURCES BY TAB & MASTER METHODOLOGY FILE

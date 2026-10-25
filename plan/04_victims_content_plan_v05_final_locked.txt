@@ -1,0 +1,839 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+VICTIMS TAB — FINAL LOCKED CONTENT PLAN & EVIDENTIARY SPECIFICATION
+Version: 0.5 — Final Locked Master Content Plan
+Date: 2026-10-25
+Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+
+================================================================================
+STATUS & EDITORIAL MANDATE
+================================================================================
+This document represents the finalized, locked content specification and evidentiary
+concordance for the Victims tab (/victims) and the front-page Selected Victims feature
+of the Jeffrey Dahmer Case Research Webapp.
+
+All factual claims, birth dates, ages, and chronological milestones in this release
+have been reconciled against the primary October 24, 2026 multi-agent forensic audits:
+  1. Agent A — FBI Vault Locator Audit (`fbi_vault_locator_audit.md`)
+  2. Agent B — Contemporary Press Audit (`contemporary_reporting_audit.md`)
+  3. Agent C — Official Chronology Audit (`official_chronology_audit.md`)
+  4. Master Table 1 Concordance (`Dahmer_Victims_Master_Citation_Tracker_v10.md`)
+  5. Master Table 1 Fact-Checked Register (`table_1_the_victims_v04.md`)
+
+This file supersedes all prior working copies (v01–v04) and is locked for web page
+generation (`victims.html`).
+
+--------------------------------------------------------------------------------
+CORE EDITORIAL PRINCIPLE
+--------------------------------------------------------------------------------
+The Victims section restores historical focus to the people who were killed: who they
+were, their backgrounds, family ties, artistic talents, personal styles, and aspirations.
+
+The page strictly adheres to the following editorial standards:
+1. Human-Centered Focus: Avoid defining victims solely by forensic details or case numbers.
+2. Chronological Ordering: Arranged chronologically by the best-supported last-known
+   sighting or contact period, not by perceived importance or judicial hierarchy.
+3. Strict Separation of Chronological Milestones:
+   - Milestone 1: Last-Known Sighting / Contact Date (reported by family, friends, or witnesses)
+   - Milestone 2: Missing-Person Report Date (formal law enforcement acceptance)
+   - Milestone 3: Alleged Offense Date (prosecutorial complaint / information allegations)
+   - Milestone 4: Official Forensic Identification Date (dental, fingerprint, or anthropological)
+4. Age Convention: Displayed age is age on the best-supported last-known date, calculated
+   from documented birth dates. An asterisk (*) indicates a documented birth date or
+   age-reference discrepancy (e.g., where press reported age at post-arrest identification
+   in 1991 rather than recalculating age at disappearance).
+5. Retirement of the Provisional Dagger (†): Following primary verification of David
+   Thomas's DOB (December 21, 1967; age 22 at disappearance), 100% of all 17 victims
+   possess primary DOB anchors in official investigative records. The dagger is retired.
+6. Non-Sensational Tone: No graphic murder details or sensationalism.
+7. Architectural Separation: Media controversies, entertainment debates (e.g., Netflix
+   portrayals), and Dahmer-themed tourism objections belong in the Impact tab (/impact).
+   Deep systemic police and probation failures belong in Systemic Failures (/topics/systemic-failures).
+
+
+================================================================================
+PAGE STRUCTURE & NAVIGATION SPECIFICATION
+================================================================================
+Header Navigation:
+    VICTIMS ▾
+
+Primary Route:
+    /victims
+
+Page Sections:
+1. Editorial Introduction & Memorial Dedication
+2. Interactive Table 1: The Victims (Master Reconciled Roster)
+3. Methodological Framework & Itemized Audit Notes
+4. 17 Fact-Checked Biographical Profiles (Chronological Order)
+5. Front-Page Selected Victims Specification (6 Featured Cards)
+6. About the Record (Archival Limitations & Source Standards)
+7. Final Authoritative Bibliography ([1]–[27])
+
+
+================================================================================
+TABLE 1: THE VICTIMS (MASTER RECONCILED REGISTER)
+================================================================================
+
+| Name | Age | Last known date / reported period | Background | Who They Were |
+|---|---:|---|---|---|
+| **Steven Hicks** | 18* | June 18, 1978 [1, 2] | Recent high-school graduate from Coventry Township, Ohio. [1] | Remembered by his father as deeply caring; his father recalled Hicks becoming distraught after shooting a rabbit on a hunting trip. [1] |
+| **Steven Tuomi** | 24* [2] | September 15, 1987 [1] | Grew up in Ontonagon in Michigan's Upper Peninsula; worked as a short-order cook at a Milwaukee restaurant. [1] | Former classmates remembered him as quiet and artistic; one recalled a stained-glass lamp he made in art class. [1] |
+| **James "Jamie" Doxtator** | 14* | January 1988 (reported by contemporary and retrospective press accounts [1, 14]; the FBI record describes the disappearance as occurring in spring 1988 [2], creating an unresolved age-reference discrepancy) | Oldest of four children; of Stockbridge and Oneida ancestry; lived in Milwaukee. [1] | Remembered by his mother, Debbie Vega, for enjoying pool, riding his bicycle, and spending time with family. [1] |
+| **Richard Guerrero** | 22* | March 1988 (disappearance period; exact last sighting not established) [1, 2, 11] | From a Mexican-American family in Milwaukee. [1] | His sister Janie Hagen described him as close to his family and said he helped his mother and babysat his young niece. [1] |
+| **Anthony Sears** | 24 | March 25, 1989 [1] | Milwaukee restaurant manager recently promoted at Baker's Square; saving money with plans to leave Milwaukee. [1] | Aspired to become a model; his mother recalled that he had discussed marrying his girlfriend once financially established. [1] |
+| **Raymond "Ricky Beeks" Smith** | 32* [2] | May 29, 1990 [1] | Lived with a half-sister in Milwaukee after his release from prison. [1] | Father to a ten-year-old daughter living in Rockford, Illinois; known as "Ricky Beeks" among friends and family. [1] |
+| **Edward "Eddie" Smith** | 27* [2] | June 14, 1990 (last seen by his sister, according to her later account) [1, 11] | Aspiring model raised in Milwaukee in a loving Christian home. [1, 8] | Known among friends for his personal style and head wraps, which led to the nickname "the Sheikh." [1] |
+| **Ernest Miller** | 23* [2] | September 2–3, 1990 (reported disappearance; departure recorded at 1:30 a.m. September 3) [1, 3, 11] | Graduate of Milwaukee High School of the Arts; preparing to begin classes at an arts college in Chicago. [1] | A gifted dancer and vocalist; his aunt Vivian Miller remembered him singing in church and performing from an early age. [1] |
+| **David Thomas** | 22* | September 24, 1990 (reported disappearance / missing-person report date; independent last sighting not established) [1, 2] | Longtime Milwaukee resident. [1] | Father to a two-year-old daughter, Courtia; his former partner Chandra Beanland remembered him as fun-loving. [1] |
+| **Curtis Straughter** | 17* | February 18, 1991 (grandmother's last-sighting statement in the complaint and FBI record); March 7, 1991 (date reported by the Milwaukee Journal Sentinel; discrepancy unresolved) [1, 2, 3] | Joined Gay Youth Milwaukee at age 15 and lived with his grandmother in Milwaukee. [1] | Worked as a nursing assistant and planned to earn a high-school equivalency certificate and attend modeling school. [1] |
+| **Errol Lindsey** | 19 | April 7, 1991 [1] | Youngest of six children in Milwaukee; worked making decorative plaster figures. [1] | His middle-school art teacher kept a watercolor he had made; his family remembered him as dependable and hardworking. [1, 8] |
+| **Anthony "Tony" Hughes** | 31 | May 24, 1991 [1] | Lived in Madison, Wisconsin, and had returned to Milwaukee to visit family. [1] | Deaf following an illness in infancy; communicated through lip-reading, sign language, and written notes. Family remembered him as sociable and caring. [1, 8] |
+| **Konerak Sinthasomphone** | 14 | May 27, 1991 (police encounter; treated here as the last-known contact; FBI records separately document that he left home May 26 and was reported missing May 28) [1, 2, 7, 20, 22] | Freshman at Pulaski High School; arrived in Milwaukee in 1980 with his family from Laos. [1, 19] | Son of a former farmer in Laos; enjoyed playing soccer with friends at Mitchell Park. [1] |
+| **Matt Turner** | 20 | June 30, 1991 [1, 12] | Native of Flint, Michigan; lived in Chicago and had stayed at a youth halfway house. [1] | Aspiring model who occasionally used the name Donald Montrell [2 (Part 06, PDF p. 9)]. He encountered Dahmer after Chicago's Gay Pride parade [1, 21]. |
+| **Jeremiah Weinberger** | 23* [2] | July 6, 1991 [1, 12] | Native of Puerto Rico residing in Chicago; worked as a customer service representative at a video store. [1] | His roommate remembered him as artistic, neat, courteous, and attentive to his appearance. [1] |
+| **Oliver Lacy** | 23* [2] | July 12, 1991 [1, 12] | Originally from Oak Park, Illinois; ran track at River Forest High School before relocating to Milwaukee. [1] | Youngest of three sons; father to a two-year-old son and engaged to be married; his mother remembered him as outspoken; wore a cross that had belonged to his late father. [1] |
+| **Joseph Bradehoft** | 25 | July 16, 1991 [1, 12] | Recently moved to Milwaukee; his brother Donald rented an apartment for him. He had previously lived in Minnesota and Illinois. [1] | Husband and father of three; loved sports and fishing; was traveling to a job interview. [1, 12] |
+
+Age Marker Legend:
+- `*` Documented birth-date or age-reference discrepancy (such as when date uncertainty
+  affects the calculated age, where investigative records list conflicting birth dates, or
+  where press reported age at post-arrest identification in 1991).
+- Unmarked ages reflect clean agreement between documented primary DOB and displayed age.
+- The provisional dagger (`†`) symbol is officially retired.
+
+
+================================================================================
+METHODOLOGICAL FRAMEWORK & ITEMIZED AUDIT NOTES
+================================================================================
+
+1. Distinction of Record Milestones:
+In case research, four distinct chronological milestones must never be conflated:
+   a. Last Known Date: The final reported date family, friends, or witnesses saw or spoke
+      with the victim alive; may remain approximate or disputed.
+   b. Missing Person Report Date: The date local law enforcement formally accepted a report.
+   c. Alleged Offense Date: The approximate date specified in charging complaints, derived
+      largely from Dahmer's interrogations.
+   d. Forensic Identification Date: The date authorities established positive identity
+      (fingerprints, dental records, forensic anthropology, or photo confirmation).
+
+2. Itemized Victim Evidentiary Notes:
+
+* Steven Hicks:
+  - Last Known Date: Supported by retrospective accounts [1] and corroborated in FBI Vault
+    Part 03, PDF Page 52 (field report CV 7-MW-26057, Page 2): "HICKS was last seen on June 18, 1978."
+    Part 01, PDF p. 60 documents a June 24, 1978 Ohio missing-person report (a distinct event).
+  - Birth Date Records: FBI Part 03, PDF p. 51 and Part 01, PDF p. 39 list DOB as June 22, 1959.
+    FBI Part 01, PDF p. 25 lists June 27, 1959. Both establish his age as 18 on June 18, 1978.
+  - Forensic Recovery: Remains recovered in Bath Township, Ohio, in August 1991; identified
+    in September 1991 via dental/skeletal comparison [4, 17]. Displayed as 18*.
+
+* Steven Tuomi:
+  - Age Reference Discrepancy (24*): Milwaukee Journal Sentinel [1] and contemporary press
+    report age 28, reflecting his presumed age during the 1991 investigation. FBI Vault
+    Part 01, PDF Page 43 and Page 53 record detectives' belief that Tuomi's DOB was
+    December 19, 1962, establishing age 24 on September 15, 1987. Table displays 24*.
+  - Death Chronology & Legal Status: Dahmer's confession in FBI Vault Part 03, PDF Page 10
+    (FD-302 Page 8) stated the homicide occurred at the Ambassador Hotel "somewhere around
+    1986 or 1987." Because no physical remains were recovered, District Attorney E. Michael
+    McCann determined there was insufficient evidence to establish corpus delicti; no
+    homicide charge was filed in Wisconsin [15, 16].
+
+* James "Jamie" Doxtator:
+  - Last Known Date & Age Ambiguity (14*): Table uses January 1988 [1, 2]. MJS retrospective [1]
+    gives January 16. FBI Part 01, PDF Page 43 records detectives' notes on "Jamie E. Doxator"
+    with DOB March 1, 1973 (confirming age 14 in January 1988) and notes an alleged killing
+    date of 1/18/88. In contrast, FBI Part 01, PDF Page 60 notes disappearance in "spring of 1988"
+    (after his 15th birthday). Displayed as 14*.
+  - Descriptors: FBI Part 01, PDF Page 60 describes him as an "Indian male," consistent with
+    Stockbridge and Oneida ancestry [1].
+
+* Richard Guerrero:
+  - Age Reference Difference (22*): MJS retrospective reports age 25 [1]; UPI (July 30, 1991 [11])
+    reports age 23 at disappearance. FBI Vault Part 06, PDF Page 13 and Part 01, PDF Page 60
+    record DOB as December 12, 1965, yielding age 22 during March 1988 and age 25 in July 1991.
+    UPI's reported age of 23 remains unexplained. Table displays 22*.
+  - Disappearance Period: Disappeared in late March 1988; missing-person report filed
+    March 29, 1988 [2 (Part 06, PDF p. 13)].
+
+* Anthony Sears:
+  - Age Verification: FBI Vault Part 01, PDF Page 24 records DOB January 28, 1965, confirming
+    age 24 on March 25, 1989. Clean agreement; displayed as 24 without marker.
+  - Timeline Dissonance: FBI Part 06, PDF Page 12 records Sears last seen at home on
+    March 25, 1989 at 9:30 a.m.; reported missing March 29. Complaint witness Jeffrey Connor
+    stated they met at a tavern evening of March 25; after closing (early morning March 26),
+    Sears met Dahmer. Count 01 alleges homicide on or about March 26 [3]. UPI's mention of
+    Easter on March 27 reflects contemporary confusion with Easter Monday (Easter was March 26).
+
+* Raymond "Ricky Beeks" Smith:
+  - Age Reference Difference (32*): MJS reports age 33 [1]; UPI (August 6, 1991) also reports 33 [13].
+    FBI Vault Part 01, PDF Page 25 and Part 06, PDF Page 11 record DOB August 10, 1957, establishing
+    age 32 on the May 29, 1990 last-seen date. Press reported age 33 in 1991. Table displays 32*.
+  - Naming: Combines legal name and moniker ("Ricky Beeks") to preserve family recognition.
+
+* Edward "Eddie" Smith:
+  - Age Reference Difference (27*): MJS reports age 28 [1]; UPI (July 30, 1991) reports 28 [11].
+    FBI Vault Part 01, PDF Page 39 and Part 06, PDF Page 13 record DOB August 2, 1962, establishing
+    age 27 on June 14, 1990. He was 28 during the July 1991 identification period. Table displays 27*.
+  - Last Known Date: Sister last saw him June 14, 1990 [11]; missing-person report filed
+    June 23, 1990 (Part 06, PDF p. 13).
+
+* Ernest Miller:
+  - Age Reference Difference (23*): MJS reports age 24 [1]; UPI reports 24 [11]. FBI Vault
+    Part 01, PDF Page 39 and Part 06, PDF Page 12 record DOB May 5, 1967, establishing age 23
+    in September 1990. Age 24 was his age in July 1991. Table displays 23*.
+  - Chronology: MJS and UPI [1, 11] report last seen September 2, 1990. Complaint [3] and FBI
+    Part 06, PDF p. 12 record aunt's statement that he left at 1:30 a.m. September 3, was
+    reported missing September 4, and Count 03 alleges homicide on/about September 3.
+
+* David Thomas:
+  - Age Recalculation (22*): Direct inspection of FBI Vault Part 01, PDF Page 39 and Part 06,
+    PDF Page 13 establishes DOB as December 21, 1967. On his reported disappearance date of
+    September 24, 1990, he was exactly 22 years, 9 months, 3 days old. MJS [1] and UPI [11]
+    reported age 23, matching his age at post-arrest identification in July 1991. Table displays 22*;
+    provisional dagger (†) retired permanently.
+  - Milestones: Disappeared September 24, 1990; missing report filed September 24, 1990 [2].
+    Count 04 alleges homicide on/about September 24, 1990. Identified via Polaroid photographs;
+    no physical remains recovered.
+
+* Curtis Straughter:
+  - Age Discrepancy (17*): MJS reports age 18 [1]. FBI Vault Part 01, PDF Page 25 and Part 06,
+    PDF Page 11 record DOB April 16, 1973, establishing age 17 on both the February 18 sighting
+    and the March 7 date reported by MJS. He turned 18 on April 16, 1991, explaining why UPI [10]
+    reported age 18 at post-arrest dental identification on July 26, 1991. Table displays 17*.
+  - Last Sighting Conflict: MJS reports March 7, 1991 [1]. Criminal complaint p. 5 and FBI
+    Part 06, PDF p. 11 record grandmother's sworn statement that she last saw him February 18, 1991.
+    Count 05 alleges homicide on or about February 18, 1991.
+
+* Errol Lindsey:
+  - Record Consistency: Age 19. FBI Vault Part 01, PDF Page 25 and Part 06, PDF Page 11 record
+    DOB March 3, 1972, confirming age 19 on April 7, 1991. Last seen April 7, 1991; reported
+    missing by sister April 11, 1991. Identified July 26, 1991. Clean match; displayed as 19.
+
+* Anthony "Tony" Hughes:
+  - Record Consistency: Age 31. FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 10 record
+    DOB August 26, 1959, confirming age 31 on May 24, 1991. Last seen May 24, 1991 at 219 Club;
+    reported missing May 31, 1991 to Madison PD; identified July 25, 1991. Clean match; displayed as 31.
+
+* Konerak Sinthasomphone:
+  - Record Consistency: Age 14. FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 10 record
+    DOB December 2, 1976, confirming age 14 in May 1991. Left home May 26; police street
+    encounter occurred May 27 (displayed as last-known contact); reported missing by father
+    May 28, 1991 [1, 2, 7, 20, 22]. Identified July 24, 1991. Clean match; displayed as 14.
+
+* Matt Turner:
+  - Identity & Age: Age 20. FBI Vault Part 06, PDF Page 9 records DOB July 3, 1970 and alias
+    Donald Montrell. On June 30, 1991, he was 20 years, 11 months old. Part 01, PDF Page 25
+    confirms alias and Chicago AFIS fingerprint identification. Clean match; displayed as 20.
+
+* Jeremiah Weinberger:
+  - Age & DOB Conflict (23*): FBI Vault Part 01, PDF Page 25 records DOB September 25, 1967;
+    FBI Vault Part 06, PDF Page 9 records DOB September 29, 1967. (A third "Sept 28" variant
+    was an OCR misread of typed 9-29-67 on Part 06 p. 9). Both primary variants yield age 23
+    on July 6, 1991. Table displays 23*. Missing report filed July 6, 1991; Count 10 alleges
+    homicide on/about July 7, 1991 [3].
+
+* Oliver Lacy:
+  - Age Discrepancy & Internal Conflict (23*): MJS retrospective reports age 23 [1]. FBI Vault
+    Part 01, PDF Pages 8, 24, and 63 record DOB June 23, 1968, establishing age 23 on July 12, 1991.
+    In contrast, FBI Part 01, PDF Page 62 and Part 06, PDF Page 9 record DOB June 23, 1967
+    (which would yield age 24). Table displays 23* and documents this internal discrepancy.
+    Identified via fingerprints July 24, 1991 [2].
+
+* Joseph Bradehoft:
+  - Record Consistency: Age 25. FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 10 record
+    DOB January 24, 1966, confirming age 25 on July 16, 1991. Last seen alive July 16, 1991
+    leaving for a job interview [1, 12]. Count 12 alleges encounter on/about July 19, 1991.
+    Clean match; displayed as 25.
+
+
+================================================================================
+THE 17 FACT-CHECKED BIOGRAPHICAL PROFILES
+================================================================================
+
+1. STEVEN HICKS, 18*
+-------------------
+Biographical Profile:
+Steven Mark Hicks was a recent high-school graduate from Coventry Township, Ohio. [1]
+His father, Richard Hicks, described him as a deeply empathetic and gentle young man;
+in an Associated Press account, his father recalled that Steven had become inconsolably
+distraught after shooting a rabbit on a hunting trip, illustrating his aversion to violence. [1]
+Steven was an avid music enthusiast and was hitchhiking toward a rock concert at Chippewa
+Lake Park when he accepted a ride from Dahmer. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact: June 18, 1978. FBI Vault Part 03, PDF Page 52 explicitly records:
+  "HICKS was last seen on June 18, 1978." [2]
+- Missing-Person Report: Filed June 24, 1978 with the Bath Township / Summit County authorities
+  (FBI Vault Part 01, PDF p. 60). [2]
+- Forensic Recovery & Identification: Skeletal remains were recovered from Bath Township in
+  August 1991 and positively identified in September 1991 through dental and radiographic
+  comparison. [4, 17]
+- Legal Disposition: In May 1992, Dahmer pleaded guilty to aggravated murder in Summit County
+  Court of Common Pleas; Richard Hicks addressed the court regarding the permanent loss
+  inflicted upon the family. [5]
+- Birth Date & Age: FBI Part 03, PDF p. 51 and Part 01, PDF p. 39 list DOB June 22, 1959;
+  Part 01, PDF p. 25 lists June 27, 1959. Under both official records, he was 18 years old
+  on June 18, 1978. Displayed as 18*. [1, 2]
+
+
+2. STEVEN TUOMI, 24*
+-------------------
+Biographical Profile:
+Steven Walter Tuomi grew up in Ontonagon in Michigan's Upper Peninsula and later moved to
+Milwaukee, where he was employed as a short-order cook at a local restaurant. [1] Former
+high-school classmates remembered him as a quiet, thoughtful, and artistic individual;
+one classmate specifically recalled an intricate stained-glass lamp that Tuomi had
+designed and crafted in art class. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact: September 15, 1987. The Milwaukee Journal Sentinel retrospective [1]
+  records that Tuomi was last seen or heard from in Milwaukee on this date.
+- Absence of Missing Report & Corpus Delicti: Tuomi was not formally registered in MPD
+  missing-persons systems at the time of his disappearance. Following his arrest in 1991,
+  Dahmer confessed in FBI interviews (Part 03, PDF Page 10) to killing Tuomi at the
+  Ambassador Hotel "somewhere around 1986 or 1987." [2] Because no physical remains were ever
+  recovered, Milwaukee County District Attorney E. Michael McCann concluded there was
+  insufficient independent evidence to satisfy legal corpus delicti; consequently, no
+  criminal charge was filed in Wisconsin courts. [15, 16]
+- Birth Date & Age Recalculation: Retrospective press and 1991 contemporary news reported
+  Tuomi's age as 28, which represented his presumed age during the 1991 investigation.
+  FBI Vault Part 01, PDF Pages 43 and 53 record detectives' investigative belief that his
+  DOB was December 19, 1962. Calculating age from this anchor to September 15, 1987 yields
+  age 24 (24 years, 8 months, 27 days). Displayed as 24*. [1, 2]
+
+
+3. JAMES "JAMIE" DOXTATOR, 14*
+-----------------------------
+Biographical Profile:
+James "Jamie" Doxtator was the eldest of four children and was of Stockbridge and Oneida
+ancestry, residing in Milwaukee. [1] Standing nearly six feet tall, he was remembered by
+his mother, Debbie Vega, as a playful, energetic teenager who loved shooting pool, riding
+his bicycle through the neighborhood, and spending time with his brothers and sisters. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Disappearance: The MJS retrospective records his last sighting as
+  January 16, 1988 [1], while contemporary UPI reporting documents his disappearance as
+  January 1988 [14]. In contrast, FBI Vault Part 01, PDF Page 60 notes his disappearance
+  occurred in the "spring of 1988." [2]
+- Investigative Identification & Charging: Identified publicly in mid-August 1991 as
+  Dahmer's 17th victim [14]. A formal count of first-degree murder was included in the
+  state's final 15-count information on August 22, 1991. [3]
+- Birth Date & Age Discrepancy: FBI Vault Part 01, PDF Page 43 documents detectives' notes
+  recording DOB as March 1, 1973. If he disappeared in January 1988, he was 14 years,
+  10 months old; if in the spring after March 1, he had turned 15. The table displays 14*
+  to reflect this unresolved chronological divergence. [1, 2, 14]
+
+
+4. RICHARD GUERRERO, 22*
+-------------------------
+Biographical Profile:
+Richard Guerrero was born and raised in Milwaukee within a close-knit Mexican-American family. [1]
+His sister, Janie Hagen, described him as deeply dedicated to his family, recalling that he
+routinely assisted their mother with daily household chores and grocery shopping, and
+frequently babysat his young infant niece. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Disappearance Period & Missing Report: Guerrero disappeared in late March 1988. A formal
+  missing-person report was accepted by the Milwaukee Police Department on March 29, 1988
+  (FBI Vault Part 06, PDF Page 13). [2] An exact independent last-sighting day remains
+  unestablished in surviving police dockets.
+- Charging & Identification: Charged under Count 02 of the amended information on
+  August 22, 1991 as pre-1988 First-Degree Murder. Remains identified through forensic
+  anthropological matching in late August 1991. [2, 3]
+- Birth Date & Age Recalculation: FBI Vault Part 06, PDF Page 13 and Part 01, PDF Page 60
+  record his date of birth as December 12, 1965. In March 1988, he was 22 years, 3 months old.
+  The MJS retrospective reported age 25 (his age in 1991), while contemporary UPI accounts [11]
+  reported age 23. Displayed as 22* to preserve the documented age-at-disappearance. [1, 2, 11]
+
+
+5. ANTHONY SEARS, 24
+--------------------
+Biographical Profile:
+Anthony Lee Sears was an ambitious young professional in Milwaukee who had recently earned
+a promotion to restaurant manager at a local Baker's Square. [1] Energetic and charismatic,
+he harbored aspirations of pursuing a career in commercial modeling. [1] He was diligently
+saving earnings with the intention of relocating outside Milwaukee, and his mother recalled
+that he had discussed plans to marry his longtime girlfriend once he was financially settled. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Offense Date: FBI Vault Part 06, PDF Page 12 records that Sears was
+  last seen at home on March 25, 1989 at 9:30 a.m.; he was reported missing on March 29, 1989. [2]
+  Complaint witness Jeffrey Connor testified that they socialized at a tavern on the night of
+  March 25, and Sears left with Dahmer in the early morning hours of March 26. Count 01 of the
+  complaint alleges the homicide occurred on or about March 26, 1989. [3]
+- Identification: Positively identified from physical evidence on July 26, 1991 (FBI Part 01,
+  PDF Page 24). [2]
+- Birth Date & Age: FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 12 record DOB as
+  January 28, 1965. On March 25–26, 1989, he was exactly 24 years, 1 month, 25 days old.
+  Displayed as 24 without marker. [1, 2]
+
+
+6. RAYMOND "RICKY BEEKS" SMITH, 32*
+-----------------------------------
+Biographical Profile:
+Raymond Lamont Smith, known affectionately to relatives and lifelong friends as "Ricky Beeks,"
+was living with his half-sister in Milwaukee following his release from incarceration. [1]
+He was the devoted father of a ten-year-old daughter who resided in Rockford, Illinois. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Apartment 213 Context: The MJS retrospective records his last sighting
+  as May 29, 1990. [1] His homicide represented the first killing committed inside Dahmer's
+  residence at Apartment 213, Oxford Apartments (924 N. 25th Street).
+- Missing Report & Charging: FBI Part 06, PDF Page 11 records that no formal missing-person
+  report was on file prior to Dahmer's arrest. Homicide charged in Count 02 of the amended
+  criminal complaint. [2, 3] Positively identified through fingerprint analysis on July 25, 1991
+  (FBI Part 01, PDF Page 25). [2]
+- Birth Date & Age Recalculation: FBI Vault Part 01, PDF Page 25 and Part 06, PDF Page 11
+  record his DOB as August 10, 1957. On May 29, 1990, he was 32 years, 9 months, 19 days old.
+  Contemporary press [13] and the retrospective [1] reported his age as 33, reflecting his
+  age at post-arrest identification. Displayed as 32*. [1, 2]
+
+
+7. EDWARD "EDDIE" SMITH, 27*
+---------------------------
+Biographical Profile:
+Edward "Eddie" W. Smith was an aspiring fashion model raised in Milwaukee in a loving,
+devout Christian home. [1, 8] Highly regarded for his vibrant personality and distinctive
+sense of style, friends remembered him for wearing striking head wraps and turbans, which
+earned him the affectionate community moniker "the Sheikh." [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Telephone Calls: UPI reporting [11] records that Eddie's sister last
+  saw him at her residence on June 14, 1990. A formal missing-person report was accepted on
+  June 23, 1990 (FBI Part 06, PDF Page 13). [2] His sister later recounted receiving an
+  anonymous telephone call, believed to have originated from Dahmer, stating Eddie was dead. [1, 11]
+- Identification & Court Testimony: Positively identified on July 29, 1991 (Part 06, PDF p. 13). [2]
+  At the 1992 sentencing, family members delivered moving victim impact statements attesting
+  to his character and familial bonds. [8]
+- Birth Date & Age Recalculation: FBI Vault Part 01, PDF Page 39 and Part 06, PDF Page 13
+  record DOB as August 2, 1962. On June 14, 1990, he was 27 years, 10 months, 12 days old.
+  Contemporary reports listed him as 28 (his age during the July 1991 investigation, just
+  weeks prior to his 29th birthday). Displayed as 27*. [1, 2, 11]
+
+
+8. ERNEST MILLER, 23*
+---------------------
+Biographical Profile:
+Ernest Miller was an accomplished performing artist who graduated from the prestigious
+Milwaukee High School of the Arts. [1] A gifted vocalist and expressive dancer, he was
+preparing to relocate to Chicago to attend an arts college and pursue a professional dance
+career. [1] His aunt, Vivian Miller, recalled that he had demonstrated natural artistic talent
+from early childhood, frequently performing and singing in church choirs. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Chronology Separation: MJS and UPI [1, 11] report he was last seen
+  leaving home on Sunday evening, September 2, 1990. Sworn complaint records [3] and FBI
+  Part 06, PDF Page 12 note his departure at approximately 1:30 a.m. on September 3, 1990.
+  A missing-person report was filed by relatives on September 4, 1990. Count 03 alleges
+  the offense occurred on or about September 3, 1990. [3]
+- Identification: Positively identified from recovered remains on July 25, 1991 (FBI Part 01,
+  PDF Page 24). [2]
+- Birth Date & Age Recalculation: FBI Vault Part 01, PDF Page 39 and Part 06, PDF Page 12
+  record DOB as May 5, 1967. In September 1990, he was 23 years, 3 months, 28 days old.
+  Press reports in 1991 listed age 24, which he had reached in May 1991. Displayed as 23*. [1, 2]
+
+
+9. DAVID COURTNEY THOMAS, 22*
+----------------------------
+Biographical Profile:
+David Courtney Thomas was a lifelong Milwaukee resident and the proud father of a two-year-old
+daughter, Courtia Beanland. [1] His former partner, Chandra Beanland, remembered him as an
+outgoing, fun-loving, and spirited individual who brought joy to family gatherings. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Disappearance & Report: Thomas disappeared on September 24, 1990. A missing-person report
+  was formally filed by Chandra Beanland on the same date (September 24, 1990; FBI Vault
+  Part 06, PDF Page 13). [2]
+- Charging & Identification: Count 04 of the criminal complaint alleges the homicide occurred
+  on or about September 24, 1990. [3] Because no physical remains were recovered, he was
+  conclusively identified on July 30, 1991 through photographic evidence (Polaroid images
+  recovered from Dahmer's apartment). [2]
+- Primary DOB Verification & Dagger Retirement: Physical inspection of primary records
+  (FBI Vault Part 01, PDF Page 39 and Part 06, PDF Page 13) confirms his exact birth date:
+  "DOB: 12/21/67." On September 24, 1990, he was exactly 22 years, 9 months, and 3 days old.
+  Press reports listed age 23, which was his age at post-arrest identification in July 1991.
+  The provisional dagger (†) is permanently retired; displayed as 22*. [1, 2, 11]
+
+
+10. CURTIS STRAUGHTER, 17*
+--------------------------
+Biographical Profile:
+Curtis Straughter was a determined young man who had joined Gay Youth Milwaukee at age 15. [1]
+Residing with his grandmother in Milwaukee, he worked as a dedicated nursing assistant and
+was actively studying to obtain his high-school equivalency diploma with aspirations of
+enrolling in a professional modeling academy. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Sighting Divergence: The MJS retrospective records his last sighting as March 7, 1991. [1]
+  In contrast, the sworn criminal complaint (p. 5) [3] and FBI Vault Part 06, PDF Page 11 record
+  his grandmother Katherine Straughter's statement that she last saw him on February 18, 1991.
+  Count 05 of the complaint alleges the offense occurred on or about February 18, 1991. [3]
+- Identification & Sentencing: Identified through dental chart comparisons on July 26, 1991. [10]
+  His mother, Dorothy Straughter, delivered a powerful statement at the 1992 sentencing hearing
+  advocating for accountability and dignity. [8, 18]
+- Birth Date & Age Recalculation: FBI Vault Part 01, PDF Page 25 and Part 06, PDF Page 11
+  record his date of birth as April 16, 1973. On both February 18 and March 7, 1991, he was
+  17 years old. He turned 18 on April 16, 1991, explaining why contemporary news [10] reported
+  his age as 18 at post-arrest identification. Displayed as 17*. [1, 2, 3, 10]
+
+
+11. ERROL LINDSEY, 19
+---------------------
+Biographical Profile:
+Errol Lindsey was the youngest of six siblings in a close-knit Milwaukee family. [1]
+Industrious and reliable, he was employed making decorative plaster figures. [1] His eighth-grade
+art teacher preserved a delicate watercolor painting he had created, remembering him as a
+promising student. [1] His mother, Mildred Lindsey, recalled him as a dependable son whose daily
+routine was centered on his work and family. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Offense: Last seen on April 7, 1991. [1] A missing-person report was
+  filed by his sister on April 11, 1991 (FBI Part 06, PDF Page 11). [2] Count 06 of the complaint
+  alleges the offense occurred on or about April 7, 1991. [3]
+- Identification: Positively identified from skeletal remains through dental record comparison
+  on July 26, 1991 (FBI Part 01, PDF Page 25). [2]
+- Victim Impact Statement: At Dahmer's 1992 sentencing, Errol's sister, Rita Isbell, delivered
+  an iconic, intensely emotional victim impact statement confronting the perpetrator. [8]
+- Birth Date & Age: FBI Vault Part 01, PDF Page 25 and Part 06, PDF Page 11 record DOB as
+  March 3, 1972. On April 7, 1991, he was exactly 19 years, 1 month, 4 days old. Displayed
+  as 19 without marker. [1, 2]
+
+
+12. ANTHONY "TONY" HUGHES, 31
+----------------------------
+Biographical Profile:
+Anthony "Tony" Hughes resided in Madison, Wisconsin, and had traveled back to Milwaukee to
+spend time visiting family and friends. [1] Having lost his hearing following a severe bout
+with pneumonia during infancy, Hughes was deaf; he navigated the world with great warmth and
+fluidity, communicating effortlessly through lip-reading, American Sign Language, and written
+notes. [1] His mother, Shirley Hughes, remembered him as an extraordinarily loving, outgoing,
+and popular individual who maintained a broad, devoted circle of friends. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact: Last seen on May 24, 1991 at the 219 Club in Milwaukee. [1]
+- Missing Report & Offense: A missing-person report was filed with the Madison Police Department
+  on May 31, 1991 (FBI Part 06, PDF Page 10). [2] Count 07 of the complaint alleges the offense
+  occurred on or about May 24, 1991. [3]
+- Identification: Positively identified through dental records on July 25, 1991 (FBI Part 01,
+  PDF Page 24). [2] Shirley Hughes became a prominent civic voice during the trial and aftermath. [1, 8]
+- Birth Date & Age: FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 10 record DOB as
+  August 26, 1959. On May 24, 1991, he was 31 years, 8 months, 28 days old. Displayed as 31. [1, 2]
+
+
+13. KONERAK SINTHASOMPHONE, 14
+------------------------------
+Biographical Profile:
+Konerak Sinthasomphone was a member of a large Laotian immigrant family that settled in
+Milwaukee in 1980 after fleeing political upheaval in Laos. [1, 6, 19] His father had been
+a farmer in Laos. [1] Arriving in the United States around age three, Konerak attended
+Milwaukee Public Schools and was a freshman at Pulaski High School. [1] He was remembered
+by peers as an athletic teenager who loved playing soccer with friends at Mitchell Park. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Chronology of May 1991: Left his family residence on May 26, 1991. On the early morning of
+  May 27, 1991, an intoxicated and disoriented Konerak escaped from Apartment 213 onto the street,
+  where he was assisted by bystander Sandra Smith and Nicole Childress. [1, 7, 20] Milwaukee
+  police officers responded, accepted Dahmer's false explanation that Konerak was an adult domestic
+  partner, and escorted him back into Dahmer's apartment. He was murdered shortly thereafter.
+  His father formally filed a missing-person report on May 28, 1991. [2]
+- Identification & Legal Repercussions: Positively identified on July 24, 1991 through dental
+  matching (FBI Part 01, PDF Page 24). [2] The incident sparked immediate nationwide outrage,
+  resulting in the suspension of responding officers and formal inquiries into systemic bias. [7, 20, 22]
+- Birth Date & Age: FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 10 record DOB as
+  December 2, 1976. On May 27, 1991, he was exactly 14 years, 5 months, 25 days old.
+  Displayed as 14. [1, 2]
+
+[Callout Box / Sub-Section: Why His Case Matters]
+The murder of Konerak Sinthasomphone remains the most widely scrutinized institutional failure
+of the case. Konerak was the younger brother of Sombat Sinthasomphone, whom Dahmer had sexually
+assaulted in September 1988—a conviction that had placed Dahmer on state probation. [2, 3]
+Despite phone calls from neighborhood residents pleading for medical intervention, responding
+officers failed to verify Konerak's identity, age, or criminal records. Detailed documentary
+scrutiny of the 911 dispatch, radio logs, and administrative hearings is maintained under
+Systemic Failures (/topics/systemic-failures).
+
+
+14. MATT TURNER, 20
+-------------------
+Biographical Profile:
+Matt Turner was a native of Flint, Michigan, who had relocated to Chicago, where he resided
+in a youth halfway home. [1] Aspiring to build a career in the fashion and modeling industry,
+Turner was widely admired for his striking appearance and friendly demeanor. [1] He met Dahmer
+following the annual Chicago Gay Pride parade on June 30, 1991, and agreed to travel with him
+to Milwaukee. [1, 9, 21]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Offense: Last seen alive on June 30, 1991 in Chicago. [1, 12]
+  Count 09 of the criminal complaint alleges the homicide occurred on or about June 30, 1991. [3]
+- Identity Verification & Alias: Positively identified on July 25, 1991 through Chicago AFIS
+  fingerprint matching under his known alias, Donald Montrell (FBI Part 01, PDF Page 25;
+  Part 06, PDF Page 9). [2]
+- Birth Date & Age: FBI Vault Part 06, PDF Page 9 records his DOB as July 3, 1970. On June 30, 1991,
+  he was exactly 20 years, 11 months, 27 days old (three days before his 21st birthday).
+  Some subsequent news accounts printed age 21 based on post-July 3 reporting. Displayed as 20. [1, 2]
+
+
+15. JEREMIAH WEINBERGER, 23*
+----------------------------
+Biographical Profile:
+Jeremiah Weinberger was born in Puerto Rico and was living in Chicago, where he worked as a
+courteous and efficient customer service representative at a video store. [1] His roommate
+fondly remembered him as a creative, artistic, impeccably dressed individual who took great
+pride in maintaining a neat and welcoming home environment. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Missing Report: Encountered Dahmer at a Chicago establishment and traveled
+  to Milwaukee by Greyhound bus on July 6, 1991. [1, 9] Reported missing by his father to the
+  Chicago Police Department on July 6, 1991 (FBI Part 06, PDF Page 9). [2] Count 10 alleges
+  the homicide occurred on or about July 7, 1991. [3]
+- Identification: Positively identified via fingerprint analysis on July 25, 1991 (FBI Part 01,
+  PDF Page 25). [2]
+- Birth Date & Discrepancy (23*): FBI Vault Part 01, PDF Page 25 records DOB September 25, 1967;
+  FBI Vault Part 06, PDF Page 9 records DOB September 29, 1967. Both authentic records confirm
+  his age was 23 years, 9 months on July 6, 1991. Displayed as 23* to document the primary day
+  conflict. [1, 2]
+
+
+16. OLIVER LACY, 23*
+--------------------
+Biographical Profile:
+Oliver Lacy was the youngest of three sons, originally from Oak Park, Illinois, where he
+competed as a standout track athlete at River Forest High School. [1] A proud and devoted
+father to a two-year-old son, Emmanuel, Lacy had recently become engaged to be married. [1]
+His mother, Catherine Lacy, described him as outspoken, articulate, and deeply grounded in
+family; he faithfully wore a cross necklace that had belonged to his late father, having
+relocated to Milwaukee shortly after his father's passing. [1]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Missing Report: Last seen by his fiancée on July 12, 1991. [1, 12]
+  Reported missing to Milwaukee Police on July 15, 1991 (FBI Part 06, PDF Page 9). [2]
+  Count 11 of the complaint alleges the offense occurred on or about July 15, 1991. [3]
+- Identification: Identified via fingerprint comparisons on July 24, 1991 (FBI Part 01,
+  PDF Page 24). [2]
+- Birth Date & Discrepancy (23*): MJS retrospective reports age 23 [1]. FBI Vault Part 01,
+  PDF Pages 8, 24, and 63 record DOB as June 23, 1968, yielding age 23 on July 12, 1991.
+  Conversely, FBI Part 01, PDF Page 62 and Part 06, PDF Page 9 record June 23, 1967 (age 24).
+  Displayed as 23* to preserve this documented internal conflict. [1, 2]
+
+
+17. JOSEPH BRADEHOFT, 25
+------------------------
+Biographical Profile:
+Joseph Bradehoft had recently moved to Milwaukee in search of employment to provide for his
+family. [1] His brother Donald had assisted him by renting an apartment in the city. [1]
+Bradehoft was a devoted husband and father of three young children, ages two to seven, who
+were living in Minnesota. [1] An avid outdoorsman who loved sports and fishing, he was on his
+way to a scheduled job interview when he encountered Dahmer near the Marquette University campus. [1, 9]
+
+Case Milestones & Evidentiary Anchors:
+- Last Known Contact & Offense: Last seen alive on July 16, 1991 heading toward his job
+  interview. [1, 12] Count 12 of the criminal complaint alleges the offense occurred on or
+  about July 19, 1991. [3] He was the seventeenth and final fatal victim of the series.
+- Missing Report & Identification: Reported missing by his brother in mid-July 1991. Positively
+  identified from physical evidence on July 26, 1991 (FBI Part 01, PDF Page 24). [2]
+- Birth Date & Age: FBI Vault Part 01, PDF Page 24 and Part 06, PDF Page 10 record DOB as
+  January 24, 1966. On July 16, 1991, he was 25 years, 5 months, 22 days old. Displayed
+  as 25 without marker. [1, 2]
+
+
+================================================================================
+FRONT-PAGE SELECTED VICTIMS SPECIFICATION
+================================================================================
+The homepage feature (`index.html`) highlights six selected profiles to introduce readers
+to the diversity of backgrounds, aspirations, and chronological milestones across the case.
+
+Approved Six Profiles & Card Descriptors:
+1. Steven Hicks (18*)
+   Descriptor: Recent high-school graduate from Ohio; remembered by his family as deeply caring;
+   the first victim in the documented thirteen-year series. [1, 2]
+2. Richard Guerrero (22*)
+   Descriptor: Close to his family and involved in everyday family life in Milwaukee; remembered
+   for his devotion to his mother and young niece. [1, 2]
+3. Anthony Sears (24)
+   Descriptor: Promoted restaurant manager and aspiring commercial model with plans for marriage
+   and a future outside Milwaukee. [1]
+4. Anthony "Tony" Hughes (31)
+   Descriptor: Outgoing Madison resident with deep family ties; deaf since infancy, communicating
+   through sign language, lip-reading, and written notes. [1, 8]
+5. Konerak Sinthasomphone (14)
+   Descriptor: Pulaski High School freshman from a Laotian immigrant family; an avid soccer
+   player whose death sparked nationwide scrutiny of institutional policing. [1, 6, 7]
+6. Joseph Bradehoft (25)
+   Descriptor: Devoted father of three who had recently moved to Milwaukee to seek employment;
+   the final victim in the series. [1, 12]
+
+Card Hierarchy & UX Standards:
+- Do not assign numbers or ranks to the cards.
+- Visual card sizing creates editorial rhythm, not a hierarchy of human value.
+- Direct link from homepage feature to the full Memorial Roster on `/victims`.
+
+
+================================================================================
+ABOUT THE RECORD: ARCHIVAL METHODOLOGY & EVIDENCE STANDARDS
+================================================================================
+The documentary reconstruction of the lives of the seventeen victims is shaped by the uneven
+nature of surviving public and archival records. In accordance with serious historical standards:
+
+1. Asymmetry of Surviving Records:
+   Some victims' families spoke extensively with contemporary journalists and court reporters,
+   preserving rich biographical memories of childhood, hobbies, and personal aspirations.
+   For other individuals, surviving documentation is primarily confined to missing-person dockets,
+   fingerprint transmittals, and cold court records. The archive deliberately leaves gaps unfilled
+   rather than manufacturing speculative narrative detail.
+
+2. Source Hierarchy & Cross-Verification:
+   - Primary Official Records: FBI FOIA files (Parts 01, 03, 04, 06), Milwaukee County criminal
+     complaints, court sentencing transcripts, and coroner reports form the evidentiary baseline.
+   - Contemporary Press Reports (1991–1992): Wire services (AP, UPI) and local newspapers
+     (Milwaukee Journal, Milwaukee Sentinel, Chicago Tribune) provide immediate temporal reporting
+     but frequently reflect early investigative confusion (such as reporting age at identification).
+   - Retrospective Accounts (2022+): Comprehensive retrospectives (e.g., Milwaukee Journal
+     Sentinel 30-year retrospective) provide invaluable long-term family retrospectives but must
+     be checked against primary records for precise dates.
+
+3. Discrepancy Transparency:
+   Where authentic primary records diverge (such as conflicting birth dates recorded in FBI
+   dockets for Steven Hicks, Jeremiah Weinberger, and Oliver Lacy), the webapp does not silently
+   select one version. Both records are transparently documented in the audit notes, and the
+   visible age is qualified with an asterisk (*).
+
+
+================================================================================
+FINAL AUTHORITATIVE BIBLIOGRAPHY: VICTIMS REGISTER ([1]–[27])
+================================================================================
+
+[1] Milwaukee Journal Sentinel — “Jeffrey Dahmer’s 17 victims and what we knew about them”
+    (Sept. 28–29, 2022). [SECONDARY — Principal biographical source]
+    URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+    Used for: Core biographical narratives, family recollections, reported ages, and retrospective accounts.
+
+[2] Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, Vault Parts 01, 03, 04, and 06. [PRIMARY]
+    Collection URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+    - Part 01 PDF (68 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+    - Part 03 PDF (60 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+    - Part 04 Landing Page: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2004
+    - Part 06 PDF (74 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+    Used for: Verified 1-based PDF locators for all 17 primary DOB anchors, missing-person dates, forensic identifications,
+    confession summaries, and physical evidence tallies.
+
+[3] State of Wisconsin v. Jeffrey L. Dahmer — Milwaukee County Charging Documents (Case No. F-912542). [PRIMARY]
+    DocumentCloud URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    - Initial Criminal Complaint: July 25, 1991 (4 counts: Sears, Smith, Miller, Straughter)
+    - Amended Criminal Complaint: August 6, 1991 (12 counts)
+    - Preliminary Hearing Information: August 22, 1991 (15 counts total)
+    Used for: Sworn witness statements, formal charge specifications, statutory classifications, and alleged offense dates.
+
+[4] The New York Times — “Bone Fragments, Many Human, Are Found at Suspect’s Ohio Home” (July 31, 1991). [CONTEMPORARY]
+    URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+    Used for: Forensic search and excavation records at Bath Township, Ohio.
+
+[5] The Washington Post — “Dahmer Gets Life Term in 1978 Murder in Ohio” (May 2, 1992). [CONTEMPORARY]
+    URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+    Used for: Ohio judicial disposition, 16th life sentence, and Richard Hicks statement.
+
+[6] United Press International — “Laotian Family Upset After Hearing Tape” (August 2, 1991). [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+    Used for: Sinthasomphone family response, radio dispatch recording revelation, and 1980 arrival context.
+
+[7] Marquette University AP Wire Archive — “2 Women Say Officers Failed To Aid 14-year-old” (July 26, 1991). [CONTEMPORARY]
+    URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+    Used for: Sandra Smith and Nicole Childress statements regarding the May 27, 1991 encounter.
+
+[8] Court TV — WI v. Jeffrey Dahmer (1992): Sentencing Hearing Victim Impact Statements (Feb. 14–15, 1992). [PRIMARY RECORDING]
+    URL: https://www.youtube.com/watch?v=IiIZrCcCijc
+    Used for: Sworn in-court statements by Rita Isbell, Shirley Hughes, Carolyn Smith, and Dorothy Straughter.
+
+[9] United Press International — “Complaint: Man Killed Victims, Saved Heart to Eat” (July 25, 1991). [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+    Used for: Initial reporting on complaint allegations and encounter details.
+
+[10] United Press International — “Three More Mass Murder Victims Identified” (July 26, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/
+     Used for: Contemporaneous identification timelines and reported ages for Straughter, Lindsey, Hughes, and Ricky Beeks.
+
+[11] United Press International — “Dahmer Reportedly Made Terror Phone Calls” (July 30, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/
+     Used for: Reported telephone calls to Carolyn Smith, Guerrero family inquiries, and contemporary age references.
+
+[12] United Press International — “Family of Dahmer Victim Files Lawsuit” (August 5, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/
+     Used for: Civil filing reporting, last-seen dates reported for Turner, Weinberger, Lacy, and Bradehoft.
+
+[13] United Press International — “Dahmer Charged with Dozen Killings” (August 6, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+     Used for: Amended complaint filing context, Tuomi prosecutorial status, and 12-count charge matrix.
+
+[14] United Press International — “Dahmer’s 17th Victim Identified” (August 16, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+     Used for: Jamie Doxtator identification timeline and contemporary Sears Easter chronology analysis.
+
+[15] United Press International — “Dahmer Opts for Innocent and Insanity Pleas” (Sept. 11, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+     Used for: Arraignment proceedings, bifurcated plea entry, and Tuomi charging absence.
+
+[16] The Washington Post — “Dahmer’s Attorney Hints at Insanity Defense” (August 22/23, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+     Used for: Preliminary hearing waiver and prosecutorial statements regarding evidence thresholds.
+
+[17] The Washington Post — “Bones Found at Dahmer Site Identified” (Sept. 13/14, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/
+     Used for: Steven Hicks positive forensic identification by Summit County coroner and Ohio forensic teams.
+
+[18] United Press International — Milwaukee County Sentencing Report (Feb. 17, 1992). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/
+     Used for: Complete sentencing records, Dorothy Straughter statement, and judicial remarks by Judge Laurence Gram.
+
+[19] United Press International — “Lao Youth Mourned” (August 2, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/02/Lao-youth-mourned/3218681105600/
+     Used for: Sinthasomphone community memorial services and family background.
+
+[20] Associated Press / Marquette Wire — “Dahmer Charged in Four Slayings; Police Procedures Questioned” (July 26, 1991). [CONTEMPORARY]
+     URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1114&view=Search&mh=1
+     Used for: Initial judicial filings and emergence of police procedural scrutiny.
+
+[21] Chicago Tribune — “Chicago Ties Probed in Dahmer Murders” (July 29, 1991). [CONTEMPORARY]
+     URL: https://www.chicagotribune.com/1991/07/29/chicago-ties-probed-in-dahmer-murders/
+     Used for: Investigation into Turner and Weinberger encounters and travels from Chicago.
+
+[22] United Press International — “Two Officers Suspended in Dahmer Case” (July 28, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/
+     Used for: Administrative suspension of responding officers John Balcerzak, Joseph Gabrish, and Rick Porubcan.
+
+[23] United Press International — “Four More Victims Identified in Dahmer Case” (August 6, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/06/Four-more-victims-identified-in-Dahmer-case/7839681451200/
+     Used for: Formal expansion of victim identification lists and charging schedules.
+
+[24] Milwaukee Sentinel — “Victims’ Families Recall Lost Sons” (July 24, 1991). [CONTEMPORARY]
+     Archive Locator: Milwaukee Public Library Microfilm / FBI Part 04 Press Clipping.
+     Used for: Immediate family recollections and neighborhood reactions.
+
+[25] United Press International — “Dahmer Charged with Four Murders” (July 26, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/26/Dahmer-charged-with-four-murders/6849680500800/
+     Used for: Bail setting ($1 million) and initial 4-count court appearance.
+
+[26] The Washington Post — “12 Counts of Murder Filed Against Dahmer” (July 28, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1991/07/28/12-counts-of-murder-filed-against-dahmer/48274d81-8041-4775-8f68-75b28a2b5b31/
+     Used for: Contemporary summary of the expanding criminal charging roster.
+
+[27] United Press International — “Dahmer Formally Charged with 12 Murders” (August 2, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/02/Dahmer-formally-charged-with-12-murders/6721681105600/
+     Used for: Procedural filings leading to the August 6 amended complaint.
+
+
+================================================================================
+FINAL VERIFICATION SIGN-OFF & TAB CLOSURE
+================================================================================
+This locked content plan represents the definitive editorial and evidentiary standard
+for the Victims section of the Dahmer Case Archive.
+
+Status Check:
+- Table 1 Content & Milestones: VERIFIED & LOCKED
+- 17 Biographical Profiles: VERIFIED & LOCKED
+- DOB Anchors & Standalone Page Locators: 100% RECONCILED (Parts 01, 03, 06)
+- Discrepancy Annotations: COMPREHENSIVE & TRANSPARENT
+- Bibliography Entries: FULLY DEDUPLICATED & NUMBERED ([1]–[27])
+- Provisional Dagger (†): RETIRED
+
+Approval: The Victims tab is formally locked. Next implementation step is generating
+the production web page `victims.html` in accordance with the site's layout and component design.
+
+END OF VICTIMS FINAL LOCKED CONTENT PLAN

@@ -1,0 +1,561 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+CASE TAB — INVESTIGATION & ARREST + TRIAL & LEGAL PROCEEDINGS
+FACT-CHECKED & REFINED CONTENT / STRUCTURE PLAN
+Version: 0.2 — Working Reference
+Date: 2026-09-27
+
+STATUS
+------
+This document adds the two remaining major sections of the CASE tab:
+
+1. Investigation & Arrest
+2. Trial & Legal Proceedings
+
+The previously approved CASE -> The Offense Series remains the separate
+offense-profile component.
+
+This is NOT final website copy.
+Final prose and exact inline article citations will be inserted when the Case
+tab is locked.
+
+CASE TAB
+--------
+CASE
+- The Offense Series
+- Investigation & Arrest
+- Trial & Legal Proceedings
+
+ROUTES
+------
+Suggested:
+    /case/offense-series
+    /case/investigation
+    /case/trial
+
+CORE EDITORIAL PRINCIPLE
+------------------------
+The Case tab should reconstruct the criminal case using documentary evidence
+without becoming sensational.
+
+Investigation & Arrest:
+- reconstruct how the case was discovered
+- explain the police response and forensic investigation
+- establish how the 17-victim case was identified
+- explain the role of Dahmer's confession
+- link to Timeline and relevant institutional-analysis pages
+
+Trial & Legal Proceedings:
+- explain the charges and plea
+- explain the Wisconsin sanity phase
+- distinguish factual guilt from the mental-responsibility question
+- explain expert testimony and the jury's legal finding
+- document sentencing and the Ohio proceeding
+- avoid treating psychiatric or prosecution arguments as undisputed fact
+
+SECTION 1 — INVESTIGATION & ARREST
+----------------------------------
+
+1. TRACY EDWARDS AND THE ESCAPE
+-------------------------------
+Refined content:
+
+On the night of July 22, 1991, 32-year-old Tracy Edwards escaped from
+Dahmer's apartment with a handcuff attached to one wrist. At about 11:30 p.m.,
+Milwaukee police officers Rolf Mueller and Robert Rauth encountered Edwards,
+who said he had been threatened with a knife. The officers accompanied him
+back to the apartment to retrieve the key to the handcuff. The FBI confirms
+that the encounter directly led police to Apartment 213 and Dahmer's arrest.
+
+Edwards later testified that Dahmer had offered him money and beer to pose for
+photographs, then became threatening after they entered the apartment. Edwards
+described being held for several hours and said Dahmer threatened to eat his
+heart. These details belong to the Edwards subsection as testimony, not as
+objective narration.
+
+Source priority:
+- FBI: arrest sequence
+- 1992 trial testimony / Washington Post / Los Angeles Times: Edwards account
+
+Refinement:
+- Remove theatrical wording such as "operational opening."
+- Do not use "a man fled down a street with a handcuff" as the entire factual
+  source; identify Edwards and the responding officers.
+- "At approximately 11:30 p.m." is supported by the FBI.
+
+2. POLICE RETURN TO APARTMENT 213
+---------------------------------
+Refined content:
+
+When officers returned to Apartment 213 with Edwards, Dahmer met them at the
+door. Edwards identified the apartment and told officers that Dahmer had
+threatened him with a knife. One officer entered the bedroom to retrieve the
+handcuff key. There he saw an open drawer containing Polaroid photographs and
+recognized images of human bodies. The officers then arrested Dahmer and
+called for additional investigative assistance.
+
+The FBI records that the apartment contained numerous human remains and other
+evidence connected to multiple victims.
+
+Important refinement:
+- Do not present every detail of the photographs in the main narrative.
+- The "human bodies in various stages of dismemberment" description can be
+  attributed to officer testimony / contemporaneous reporting.
+- Avoid calling the apartment a "house of horrors" or "museum" in the article's
+  own voice.
+
+3. FORENSIC SEARCH AND EVIDENCE
+-------------------------------
+Refined content:
+
+A comprehensive search of Apartment 213 recovered remains associated with
+eleven victims, along with photographs, tools, and other evidence. The FBI
+later performed DNA, chemical, biological, tool-mark, photographic and
+computer examinations on evidence submitted by Milwaukee investigators.
+
+For historical reference, contemporaneous reporting described the apartment as
+containing seven skulls and four additional heads, preserved human remains,
+and a large drum containing remains in an acid solution. These details should
+be presented selectively and clinically.
+
+The final article should NOT reproduce a long inventory of body parts.
+
+Evidence presentation rule:
+- Main article: summarize the categories of evidence.
+- Optional expandable "Forensic evidence" module: provide a more detailed
+  inventory, with citations.
+- No graphic photographs.
+
+Important source discrepancy:
+Contemporary sources differ on the exact capacity stated for the large drum
+(55 versus 57 gallons). Use "large drum" in normal prose; use the exact
+capacity only when tied to a named source.
+
+4. JEFFREY JENTZEN
+------------------
+Dr. Jeffrey Jentzen was Milwaukee County's chief medical examiner at the time.
+In a later professional memoir/reflection, he described the case as feeling
+like "dismantling a museum" rather than handling an ordinary death
+investigation.
+
+Final wording:
+    "Jentzen later recalled the case as resembling the dismantling of a museum."
+
+Important:
+- This is a later recollection by Jentzen, not a contemporaneous quote that
+  should be presented without attribution.
+- Keep it optional and restrained because the website's tone does not depend
+  on a dramatic quotation.
+
+5. ARREST AND INITIAL INVESTIGATION
+-----------------------------------
+Refined content:
+
+Dahmer was arrested at Apartment 213 on July 22, 1991. The discovery converted
+what began as an assault/handcuff investigation into a major homicide
+investigation.
+
+The FBI soon offered forensic and identification assistance. Investigators
+traced Dahmer's history across multiple states and locations, while laboratory
+personnel examined evidence from the apartment.
+
+Source:
+FBI "Serial Killers, Part 7: Jeffrey Dahmer."
+
+6. CONFESSIONS AND INTERVIEWS
+-----------------------------
+Refined content:
+
+Beginning shortly after the arrest, Dahmer gave extensive statements to
+Milwaukee homicide investigators. Detectives Patrick Kennedy and Dennis
+Murphy interviewed him over roughly 60 hours. The interviews supplied a major
+source for reconstructing the series of seventeen killings and identifying
+victims whose remains or records had not initially been connected.
+
+Contemporaneous trial reporting described more than 60 hours of interviews,
+while Court TV's archive identifies Kennedy and Murphy as the detectives who
+took the confession.
+
+Important refinement:
+- Avoid saying "fully cooperative" without attribution or qualification.
+- Better:
+    "Dahmer gave extensive and detailed statements to investigators."
+- Avoid saying the confession alone "enabled forensic specialists to
+  reconstruct" everything; it worked together with physical and documentary
+  evidence.
+- The FBI explicitly says investigators used both forensic work and Dahmer's
+  confession to identify earlier victims.
+
+7. IDENTIFICATION OF VICTIMS
+----------------------------
+The identification process should be described as a combined investigation:
+- Dahmer's statements
+- physical remains
+- photographs
+- missing-person records
+- family reports
+- forensic testing
+- records from other jurisdictions
+
+The FBI says its investigators traced Dahmer's trail across the United States
+and internationally and checked whether he could be connected to unsolved
+murders in Ohio, Florida and Germany.
+
+This section should connect directly to:
+    /victims
+    /timeline
+    /topics/systemic-failures
+
+8. INVESTIGATION SUMMARY
+------------------------
+End the Investigation page with a short synthesis:
+
+The July 22 encounter did not begin as a planned homicide investigation. A
+surviving intended victim led officers to Apartment 213, where photographs and
+human remains transformed the case within hours. The subsequent investigation
+combined local police work, forensic examination, victim identification,
+missing-person records, and Dahmer's extensive statements to reconstruct a
+series that had remained fragmented across years and jurisdictions.
+
+Then:
+    View the Master Timeline -> /timeline
+    Explore The Offense Series -> /case/offense-series
+    Examine Systemic Failures -> /topics/systemic-failures
+
+SECTION 2 — TRIAL & LEGAL PROCEEDINGS
+-------------------------------------
+
+1. JANUARY 13, 1992 — PLEA
+---------------------------
+Refined content:
+
+On January 13, 1992, Dahmer entered a plea of guilty but insane to the
+fifteen Milwaukee murder charges.
+
+Those fifteen charges were not all styled identically under Wisconsin law:
+two were first-degree murder charges and thirteen were first-degree
+intentional homicide charges because the killings occurred under different
+versions of the law.
+
+Important:
+- Do not write "fifteen counts of first-degree intentional homicide."
+- Do not say the trial began on January 13.
+- January 13 was the plea hearing.
+- Jury selection began January 27; opening statements and the sanity trial
+  followed at the end of January.
+
+2. WHAT THE PLEA MEANT
+----------------------
+Wisconsin's procedure meant the guilty plea removed the ordinary factual-guilt
+phase. The remaining contested issue was whether Dahmer was legally
+responsible for the killings because of mental disease or defect.
+
+The relevant statutory formulation asks whether, because of mental disease or
+defect, the defendant lacked substantial capacity either to appreciate the
+wrongfulness of the conduct or to conform conduct to the requirements of law.
+
+Important refinement:
+- Do not label the standard simply as the "American Law Institute Model Penal
+  Code standard" in the main article.
+- Wisconsin law used language derived from the American Law Institute
+  formulation, but the immediate legal authority was Wisconsin statute.
+- For the webapp, call it the "Wisconsin mental-responsibility standard" and
+  cite the statute/case materials.
+
+3. SANITY TRIAL
+---------------
+Refined content:
+
+Jury selection took place in late January, and the sanity trial proceeded with
+testimony from detectives, psychiatrists, psychologists, forensic and other
+witnesses. The prosecution argued that Dahmer understood his actions were
+wrong and had exercised planning and concealment, while the defense argued
+that severe mental disturbance and paraphilic compulsions impaired his ability
+to control his behavior.
+
+Important:
+- Attribute arguments to the prosecution and defense.
+- Do not present "he was rational" or "he was irrational" as the site's own
+  psychological conclusion.
+- Detailed psychiatric analysis belongs under:
+    /topics/psychological-profile
+
+4. TELEVISED TRIAL
+------------------
+The trial received extensive television coverage. Court TV carried most of
+the proceedings live, while Milwaukee television also provided coverage.
+Contemporary reporting described national interest and extensive press
+attendance.
+
+Do not say "broadcast internationally" unless referring specifically to
+international news coverage rather than the courtroom broadcast itself.
+
+5. RITA ISBELL / VICTIM IMPACT
+------------------------------
+Rita Isbell, sister of Errol Lindsey, delivered a victim-impact statement at
+the February 17 sentencing hearing. Her confrontation with Dahmer became one
+of the most remembered moments associated with the proceedings.
+
+Important:
+- This was a sentencing/victim-impact event, not simply "trial testimony."
+- Keep it in Trial & Legal Proceedings because it is part of the sentencing
+  record.
+- The later Netflix recreation belongs in Media & Cultural Portrayal.
+
+6. FEBRUARY 15, 1992 — SANITY VERDICT
+-------------------------------------
+The jury found Dahmer legally sane on each of the fifteen murder counts.
+Contemporary reports state the vote was 10-2 on each count.
+
+The verdict did NOT mean the jury had just determined that Dahmer committed
+the killings; he had already pleaded guilty. The jury rejected the defense's
+claim of legal insanity/mental disease or defect sufficient to excuse criminal
+responsibility.
+
+This distinction must be explicit on the page.
+
+7. FEBRUARY 17, 1992 — SENTENCING
+---------------------------------
+Judge Laurence C. Gram Jr. sentenced Dahmer to fifteen consecutive life terms
+in Wisconsin.
+
+Wisconsin had no death penalty, so the consecutive life sentences were the
+maximum punishment available under the circumstances.
+
+8. MAY 1, 1992 — OHIO CASE
+---------------------------
+Dahmer was returned to Ohio and pleaded guilty to the 1978 murder of Steven
+Hicks. An Ohio judge imposed an additional life sentence.
+
+The combined result was sixteen murder convictions:
+- fifteen in Wisconsin
+- one in Ohio
+
+Important:
+- Do not use the unstable "940 years" or "957 years" arithmetic as the
+  headline legal outcome.
+- The stable facts are the fifteen consecutive Wisconsin life terms plus the
+  additional Ohio life sentence.
+
+9. POST-TRIAL LEGAL AFTERMATH
+-----------------------------
+The Trial page can end with a short link to:
+    Systemic Failures
+    Community & Civic Impact
+    Modern Re-examination
+
+The broader civil litigation concerning police conduct, institutional policies,
+and Konerak Sinthasomphone should be discussed under Impact/Systemic Failures,
+not treated as part of the criminal trial itself.
+
+LEGAL TIMELINE
+--------------
+Key dates for the Case page:
+
+July 22, 1991
+    Tracy Edwards escapes; Dahmer arrested.
+
+July 23, 1991 onward
+    Extensive homicide interviews begin.
+
+January 13, 1992
+    Guilty-but-insane plea to 15 Milwaukee charges.
+
+January 27–29, 1992
+    Jury selection.
+
+January 30, 1992
+    Opening phase / sanity trial begins.
+
+February 15, 1992
+    Jury finds Dahmer legally sane on all 15 counts.
+
+February 17, 1992
+    Fifteen consecutive Wisconsin life terms imposed.
+
+May 1, 1992
+    Ohio guilty plea for Steven Hicks; additional life sentence.
+
+CASE / TIMELINE CROSS-LINKING
+-----------------------------
+Timeline is the chronological navigation hub.
+
+Investigation events:
+    /timeline#tracy-edwards
+    /timeline#apartment-discovery
+    /timeline#confession
+
+Link to:
+    /case/investigation
+
+Trial events:
+    /timeline#guilty-but-insane-plea
+    /timeline#sanity-verdict
+    /timeline#sentencing
+    /timeline#ohio-sentencing
+
+Link to:
+    /case/trial
+
+Victim-specific events:
+    /timeline#victim-slug
+
+Link to:
+    /case/offense-series#victim-slug
+
+Institutional events:
+    /timeline#konerak-police-encounter
+
+Link to:
+    /topics/systemic-failures#konerak
+
+INVESTIGATION PAGE — INTERACTIVE DESIGN
+---------------------------------------
+Possible structure:
+
+    THE DISCOVERY
+
+    [Tracy Edwards]
+    [Police return to Apartment 213]
+    [Evidence discovered]
+    [Arrest]
+
+    FORENSIC INVESTIGATION
+
+    [Evidence categories]
+    [Victim identification]
+    [FBI assistance]
+
+    CONFESSION
+
+    [60+ hours of interviews]
+    [Victim reconstruction]
+
+Use expandable modules for the more detailed evidence.
+
+TRIAL PAGE — INTERACTIVE DESIGN
+-------------------------------
+Suggested structure:
+
+    THE CHARGE
+        15 Wisconsin counts
+
+    THE PLEA
+        Guilty but insane
+
+    THE QUESTION
+        Legal mental responsibility
+
+    THE SANITY TRIAL
+        Expert testimony / competing arguments
+
+    THE VERDICT
+        Sane, 10-2 on each count
+
+    THE SENTENCE
+        15 consecutive Wisconsin life terms
+
+    OHIO
+        Guilty plea for Steven Hicks
+        Additional life sentence
+
+A small "What was the jury actually deciding?" callout would be especially
+useful:
+
+    Dahmer admitted the killings.
+    The jury was asked whether he was legally responsible because of mental
+    disease or defect.
+
+SENSITIVITY / EDITORIAL RULES
+----------------------------
+- No graphic crime-scene photographs.
+- No graphic descriptions in the main narrative.
+- Forensic evidence should be summarized rather than catalogued sensationally.
+- If exact evidence inventories are included, place them behind an optional
+  expandable module with neutral labels.
+- Use direct quotations sparingly.
+- Attribute witness testimony and legal arguments.
+- Do not turn prosecutor or defense characterizations into the site's own
+  psychological conclusions.
+- Avoid loaded phrases such as "house of horrors," "grotesque museum," "monster,"
+  or "nightmare" in the site's own narrative voice.
+- Historical quotes may be retained when they add documentary value and are
+  clearly attributed.
+
+SOURCE PRIORITY
+---------------
+Highest priority:
+1. FBI records / FBI Vault
+2. Federal and state court opinions and filings
+3. Contemporary trial reporting
+4. Court TV archival trial material
+5. Forensic/academic sources
+6. Reputable later historical accounts
+
+Key sources used for this revision:
+- FBI, "Serial Killers, Part 7: Jeffrey Dahmer"
+- Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343 (E.D. Wis.
+  1992)
+- Estate of Sinthasomphone v. City of Milwaukee, 878 F. Supp. 147
+  (E.D. Wis. 1995)
+- Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995)
+- Weinberger v. State of Wisconsin, 105 F.3d 1182 (7th Cir. 1997)
+- Washington Post contemporary trial coverage
+- Los Angeles Times / Associated Press contemporary trial coverage
+- UPI Archives
+- Court TV archive of the 1992 trial
+- Dr. Jeffrey Jentzen / National Association of Medical Examiners career
+  reflection for the later "dismantling a museum" recollection
+
+CURRENT STATUS
+--------------
+Case -> Investigation & Arrest structure: APPROVED IN PRINCIPLE
+Case -> Trial & Legal Proceedings structure: APPROVED IN PRINCIPLE
+Investigation fact-check: COMPLETE / REFINED
+Trial fact-check: COMPLETE / REFINED
+Interactive approach: APPROVED IN PRINCIPLE
+Final prose: NOT YET LOCKED
+Article-level citations: NOT YET INSERTED
+
+NEXT STEP
+---------
+1. Finalize Investigation & Arrest prose.
+2. Finalize Trial & Legal Proceedings prose.
+3. Add exact source citations to individual factual claims.
+4. Add Timeline cross-links.
+5. Add links to Victims, Offense Series, Systemic Failures, Psychological
+   Profile, and Impact.
+6. Lock the complete Case tab.
+7. Move to Analysis.
+
+CHANGE LOG
+----------
+2026-09-27
+- Fact-checked and refined Investigation & Arrest and Trial & Legal Proceedings.
+- Corrected the Wisconsin charge description: two first-degree murder charges
+  and thirteen first-degree intentional homicide charges, rather than fifteen
+  first-degree intentional homicide charges.
+- Separated the January 13 guilty-but-insane plea from the January 27–30 trial
+  start.
+- Corrected the role of the jury: Dahmer had already admitted guilt; the
+  jury's task was the legal mental-responsibility/sanity question.
+- Reframed the insanity test as the Wisconsin statutory standard rather than
+  labeling it simply as the Model Penal Code.
+- Corrected Rita Isbell's appearance as a victim-impact statement at
+  sentencing rather than generic "trial testimony."
+- Corrected the television description: national Court TV coverage, with
+  extensive local/media coverage, rather than an unsupported "international
+  broadcast" claim.
+- Reframed prosecution claims as prosecution arguments rather than objective
+  findings.
+- Kept the FBI's 11-victim remains figure as the authoritative general
+  forensic summary.
+- Removed the exact evidence inventory from the main narrative and retained it
+  only as optional forensic detail.
+- Flagged the 55-gallon / 57-gallon drum discrepancy among sources.
+- Reframed Jentzen's "dismantling a museum" statement as a later professional
+  recollection.
+- Removed unstable cumulative-year arithmetic from the main legal summary.
+- Formalized cross-links between Investigation, Trial, Timeline, Victims,
+  Offense Series and Systemic Failures.
+
+END OF CASE INVESTIGATION & TRIAL PLAN
