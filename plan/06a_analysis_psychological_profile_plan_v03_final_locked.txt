@@ -1,0 +1,571 @@
+================================================================================
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+ANALYSIS TAB (PART A) — PSYCHOLOGICAL PROFILE & FORENSIC EVALUATION
+FINAL LOCKED CONTENT PLAN & EVIDENTIARY SPECIFICATION
+Version: 0.3 — Final Locked Master Specification
+Date: October 25, 2026
+Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+================================================================================
+
+================================================================================
+STATUS & EDITORIAL MANDATE
+================================================================================
+
+This document constitutes the finalized, locked master content plan, evidentiary
+concordance, and clinical psychiatric specification for Tab 6 Part A (Psychological
+Profile & Forensic Evaluation) of the Jeffrey Dahmer Case Research Webapp.
+
+All clinical diagnostic categories, expert witness testimonies, psychological batteries,
+neurological findings, psychiatric dissents, and courtroom sanity mechanics have been
+audited against primary archival records:
+  1. Milwaukee County Circuit Court Transcripts & Dockets:
+     - State of Wisconsin v. Jeffrey L. Dahmer, Case No. F-912542 (Sanity Trial Transcripts
+       before Judge Laurence C. Gram Jr., January 30 – February 15, 1992).
+  2. Primary Audio/Visual Broadcast Archives:
+     - Court TV Live Broadcast & Official Trial Video Archive: State of Wisconsin v. Jeffrey
+       Dahmer (1992 Sanity Phase proceedings, comprehensive video record).
+  3. Contemporary Legal & Journalistic Trial Reporting:
+     - The Washington Post Contemporary Trial Series (Feb 1 – Feb 16, 1992).
+     - UPI Wire Archives, Sanity Trial Coverage (Feb 2 – Feb 17, 1992).
+     - Associated Press & Los Angeles Times Trial Dispatches (February 1992).
+  4. Statutory and Procedural Authorities:
+     - Wis. Stat. § 971.15 ("Mental responsibility of defendant").
+     - Wis. Stat. § 971.165 ("Trial of defendant with mental disease or defect").
+     - Wis. Stat. § 805.09(2) ("Juries: Number of jurors; five-sixths verdict").
+     - American Psychiatric Association, Diagnostic and Statistical Manual of Mental
+       Disorders, Third Edition Revised (DSM-III-R, 1987).
+  5. Primary FBI FOIA Files:
+     - Jeffrey Lionel Dahmer Part 01.pdf (68 pp., verified)
+     - Jeffrey Lionel Dahmer Part 03 of 19.pdf (60 pp., verified)
+     - Jeffrey Lionel Dahmer Part 06 of 19.pdf (74 pp., verified)
+  6. Peer-Reviewed Academic & Legal Monographs:
+     - Gregory J. O'Meara, S.J., "Text, Context, and Pretext in State v. Jeffrey Dahmer"
+       (Marquette Law Review, 2009).
+     - Jeffrey Jentzen, "Micro Disasters: The Case of Serial Killer Jeffrey Dahmer"
+       (Academic Forensic Pathology, 2017).
+
+This specification supersedes all prior working copies (`plan/06a_analysis_psychological_profile_plan_v02.txt`)
+and establishes the permanent evidentiary baseline for the web application's Psychological Profile section.
+
+--------------------------------------------------------------------------------
+CORE EDITORIAL & METHODOLOGICAL RULES
+--------------------------------------------------------------------------------
+1. Restrained Scholarly Voice & Clinical Neutrality:
+   The narrative strictly adheres to objective medical, psychiatric, and legal terminology.
+   Sensationalized descriptors ("monster," "evil," "cannibal," "fiend") are strictly
+   prohibited in the website's own voice. Diagnostic concepts are analyzed clinically.
+2. The Foundational Conceptual Divide:
+   The website enforces the foundational legal-psychiatric distinction:
+     CLINICAL MENTAL DISORDER  ≠  LEGAL INSANITY / CRIMINAL RESPONSIBILITY
+   A psychiatric diagnosis is a medical classification of distress or behavioral deviation.
+   Legal insanity under Wis. Stat. § 971.15 is a formal legal standard requiring proof that
+   a mental disease or defect deprived the defendant of substantial capacity either to
+   appreciate the wrongfulness of his conduct or to conform his conduct to the law.
+3. Strict Attribution of Expert Opinions:
+   The website does not adopt any psychiatric theory or diagnostic label as settled objective
+   fact. Every diagnosis (necrophilia, borderline personality disorder, sadism, schizophrenia)
+   and motivational claim is strictly attributed to the evaluating clinician who testified to it.
+4. Historical Diagnostic Context (DSM-III-R):
+   Evaluations in 1991–1992 were conducted under the standards of DSM-III-R (1987). The website
+   reports historical clinical findings within their contemporary framework rather than
+   retroactively converting them into modern DSM-5-TR classifications.
+5. Complete Decoupling from Homosexuality:
+   The website explicitly emphasizes that homosexuality is not a psychiatric disorder (removed
+   from the DSM in 1973) and played no causal role in the crimes. Homosexuality must be strictly
+   distinguished from paraphilic disorders such as necrophilia.
+6. Dual Canonical Anchors & Alias Cross-Links:
+   Standardized anchor identifiers (`#topics-psychological-profile`, `#psychological-profile`,
+   `#sanity-trial-standard`, `#expert-witnesses`, `#control-experiments`, etc.) resolve incoming
+   links from Table 2 (Timeline), Tab 4 (Context), and Tab 5 (Case).
+
+
+================================================================================
+SECTION 1: THE FOUNDATIONAL DIVIDE: CLINICAL DISORDER VS. LEGAL INSANITY
+================================================================================
+
+--------------------------------------------------------------------------------
+1.1 The Legal Sanity Standard under Wisconsin Law
+Anchor: #sanity-trial-standard (Aliases: #wisconsin-sanity-standard, #legal-insanity)
+Cross-Links: -> /timeline#event-1992-sanity-trial | -> /case#sanity-trial | -> /case#statutory-split
+--------------------------------------------------------------------------------
+
+The 1992 Milwaukee trial (*State of Wisconsin v. Jeffrey L. Dahmer*, Case No. F-912542) was
+frequently misunderstood in popular coverage as a debate over whether Jeffrey Dahmer was
+"mentally ill" or "crazy." In fact, mental health experts across all parties agreed that Dahmer
+suffered from profound psychological, paraphilic, and addictive disorders [1: WaPo Feb 7, 1992;
+2: Court TV 1992].
+
+The trial was not a determination of factual guilt. On January 13, 1992, Dahmer entered formal
+guilty pleas to all 15 Milwaukee County homicide charges, conceding the physical commission
+(*actus reus*) of the crimes [1, 3: WaPo Jan 14, 1992].
+
+The trial before Judge Laurence C. Gram Jr. (January 27 – February 15, 1992) was exclusively a
+bifurcated Phase 2 sanity trial under Wis. Stat. § 971.165 to determine criminal responsibility [2].
+
+A. Wisconsin Statutory Test (Wis. Stat. § 971.15):
+   Wisconsin adheres to a modified version of the American Law Institute (ALI) Model Penal Code
+   mental responsibility standard:
+   - Subsection (1): "A person is not responsible for criminal conduct if at the time of such
+     conduct as a result of mental disease or defect the person lacked substantial capacity
+     either to appreciate the wrongfulness of his or her conduct or to conform his or her
+     conduct to the requirements of law."
+   - The Cognitive Prong: Lacking substantial capacity to *appreciate wrongfulness*.
+   - The Volitional Prong: Lacking substantial capacity to *conform conduct* to the law.
+
+B. Statutory Exclusions:
+   - Subsection (2): "As used in this section, the terms 'mental disease or defect' do not
+     include an abnormality manifested only by repeated criminal or otherwise antisocial
+     conduct." This statutory clause deliberately excludes standard Antisocial Personality
+     Disorder (psychopathy/sociopathy) from serving as a qualifying mental disease.
+   - Voluntary Intoxication Exclusion: Under Wisconsin jurisprudence, temporary impairment
+     resulting from voluntary alcohol or substance intoxication does not constitute a qualifying
+     mental disease or defect.
+
+C. Burden of Proof & Jury Mechanics:
+   - Under Wis. Stat. § 971.15(3), the state is not required to prove sanity beyond a reasonable
+     doubt. The defendant bears the affirmative burden of proving that he suffered from a mental
+     disease or defect and lacked substantial capacity by the greater weight of the credible
+     evidence (a civil preponderance standard).
+   - Under Wis. Stat. § 805.09(2), Wisconsin permits a five-sixths jury verdict (10 out of 12
+     jurors) in sanity phase special verdicts [2].
+
+
+================================================================================
+SECTION 2: CLINICAL METHODOLOGY & EVALUATION PROCEDURES
+================================================================================
+
+--------------------------------------------------------------------------------
+2.1 How Jeffrey Dahmer Was Evaluated
+Anchor: #evaluation-methodology (Aliases: #clinical-testing, #psychiatric-evaluation)
+Cross-Links: -> /case#investigation | -> /timeline#event-1992-sanity-trial
+--------------------------------------------------------------------------------
+
+Following his arrest on July 22, 1991, Dahmer underwent one of the most comprehensive forensic
+psychiatric assessments in American legal history, spanning over six months [2, 10: O'Meara 2009]:
+
+1. Clinical Interview Hours:
+   Mental health professionals conducted more than 200 hours of direct, in-person clinical
+   interviews with Dahmer at the Milwaukee County Jail [2, 4: WaPo Feb 13, 1992]. Dr. Park Dietz
+   alone conducted 18 hours of direct interviews across multiple sessions [4].
+2. Psychometric & Diagnostic Testing:
+   Evaluators administered comprehensive psychological testing batteries:
+   - Wechsler Adult Intelligence Scale-Revised (WAIS-R): Dahmer scored in the bright-normal to
+     superior range (Full-Scale IQ between 115 and 120), demonstrating preserved logical reasoning,
+     abstract comprehension, and intact verbal skills [2, 8: UPI Feb 6, 1992].
+   - Minnesota Multiphasic Personality Inventory (MMPI): Revealed severe elevations on clinical
+     scales associated with depression, social alienation, and schizoid detachment, alongside
+     high scores on psychopathic deviance, but did not display an active schizophrenic profile [2, 8].
+   - Projective Testing: Rorschach Inkblot and Thematic Apperception Tests (TAT) indicated
+     profound morbid preoccupations with inanimate anatomy, dissection, and bodily boundaries [2].
+3. Neurological & Biological Examinations:
+   - Comprehensive neurological workups, including electroencephalograms (EEG) and brain imaging
+     (CT/MRI), were conducted to evaluate possible organic brain damage or temporal lobe epilepsy
+     stemming from his childhood hernia surgery or head trauma.
+   - Findings: All neurological tests were normal, ruling out gross organic brain lesions,
+     epilepsy, or structural cerebral defects [2, 11: Jentzen 2017].
+4. Collateral & Archival Investigation:
+   Experts examined 60 hours of MPD detective interrogation tapes, military medical records
+   (documenting alcohol abuse counseling at Fort Stewart, GA; FBI Part 01 p. 29), Revere High School
+   dockets, probation records, crime scene photographs, and extensive family interviews [2, 15].
+
+
+================================================================================
+SECTION 3: THE 1992 EXPERT WITNESS DOSSIERS
+================================================================================
+
+--------------------------------------------------------------------------------
+3.1 Defense Expert Witnesses
+Anchor: #defense-experts (Aliases: #berlin-testimony, #becker-testimony, #wahlstrom-testimony)
+Cross-Links: -> /case#sanity-trial | -> /timeline#event-1992-sanity-trial
+--------------------------------------------------------------------------------
+
+The defense team (Gerald Boyle and Wendy Patrickus) called three primary expert witnesses to
+establish that Dahmer suffered from qualifying mental diseases that destroyed his volitional
+capacity to control his actions [2]:
+
+A. Dr. Frederick S. Berlin (Testimony: February 3–4, 1992):
+   - Professional Qualifications: Associate Professor of Psychiatry at Johns Hopkins University
+     School of Medicine; Founder and Director of the Johns Hopkins Sexual Disorders Clinic;
+     internationally recognized authority on sexual paraphilias [2, 5: WaPo Feb 4, 1992].
+   - Primary Diagnoses: Necrophilia as a primary paraphilic mental disease; severe paraphilia;
+     obsessive-compulsive disorder.
+   - Core Testimony:
+     1. Dr. Berlin testified that Dahmer suffered from an extreme, consuming form of necrophilia
+        that functioned as a profound mental disease within the meaning of Wis. Stat. § 971.15 [5].
+     2. He described Dahmer as being in the grip of progressive, intrusive erotic urges that
+        gradually displaced his conscious resistance: "He was sick, not evil... He was driven by
+        sexual obsessions over which he had no control" [5: WaPo Feb 4, 1992].
+     3. Dr. Berlin concluded that Dahmer completely lacked substantial capacity to conform his
+        conduct to the requirements of the law (volitional failure) [2, 5].
+   - Cross-Examination Concessions:
+     Prosecutor E. Michael McCann established that Dahmer never attempted to kill during daylight,
+     never attacked individuals in front of witnesses, and refrained when family members or
+     roommates were nearby, indicating situational awareness and selective behavioral inhibition [2, 5].
+
+B. Dr. Judith V. Becker (Testimony: February 4–5, 1992):
+   - Professional Qualifications: Professor of Psychiatry and Psychology at the University of
+     Arizona; clinical psychologist specializing in the assessment and treatment of sexual
+     offenders and paraphilias [2, 6: UPI Feb 5, 1992].
+   - Primary Diagnoses: Necrophilia; Paraphilia Not Otherwise Specified; Mixed Personality Disorder.
+   - Core Testimony:
+     1. Dr. Becker testified that Dahmer's necrophilic fantasies began in early adolescence and
+        progressively intensified into an overwhelming behavioral imperative [6].
+     2. She described how Dahmer engaged in compulsive rituals to satisfy erotic desires that
+        could only be achieved through inanimate, immobile human bodies [6].
+     3. She concluded that Dahmer was suffering from a qualifying mental disease and lacked the
+        capacity to conform his behavior to the law [2, 6].
+   - Crucial Cross-Examination Breakthrough:
+     On cross-examination by McCann, Dr. Becker acknowledged that Dahmer had released multiple
+     prospective victims (including Ronald Flowers in 1988 and Luis Sandoval) when situations
+     diverged from his expectations or when external risks arose [2, 6]. McCann utilized this
+     testimony to argue that Dahmer retained volitional control and made deliberate choices.
+
+C. Dr. Carl Wahlstrom (Testimony: February 5, 1992):
+   - Professional Qualifications: Forensic Psychiatrist; Assistant Professor of Psychiatry at
+     Rush-Presbyterian-St. Luke's Medical Center in Chicago [2, 7: UPI Feb 5, 1992].
+   - Primary Diagnoses (Multiaxial Formulation):
+     - Axis I: Necrophilia (primary paraphilia); Alcohol Dependence; Psychotic Disorder Not
+       Otherwise Specified (NOS).
+     - Axis II: Borderline Personality Disorder (BPD); Schizotypal Personality Disorder [7].
+   - Core Testimony:
+     1. Dr. Wahlstrom presented the most complex psychiatric formulation for the defense,
+        arguing that Dahmer suffered from multiple co-occurring psychiatric illnesses [7].
+     2. He highlighted severe borderline pathology, characterized by chronic emptiness, profound
+        terror of abandonment, and identity fragmentation [7].
+     3. He testified that Dahmer's crude surgical experiments (trepanning) were psychotic,
+        bizarre attempts to create living, compliant companions who could never leave him [2, 7].
+     4. He concluded that this constellation of severe disorders deprived Dahmer of substantial
+        capacity to conform his conduct to the law [7].
+
+--------------------------------------------------------------------------------
+3.2 Court-Appointed & Independent Experts
+Anchor: #court-appointed-experts (Aliases: #palermo-testimony, #fosdal-testimony, #friedman-testimony)
+Cross-Links: -> /case#sanity-trial | -> /timeline#event-1992-sanity-trial
+--------------------------------------------------------------------------------
+
+Judge Laurence Gram appointed independent mental health experts to conduct impartial evaluations
+for the court [2]:
+
+A. Dr. George F. Palermo (Testimony: February 6, 1992):
+   - Professional Qualifications: Forensic Psychiatrist; Clinical Professor of Psychiatry at
+     the Medical College of Wisconsin; Director of the Milwaukee County Court Clinic [2, 1: WaPo
+     Feb 7, 1992].
+   - Primary Diagnoses: Severe mixed personality disorder with antisocial, sadomasochistic, and
+     obsessive features; alcohol dependence; paraphilia [1]. Explicitly rejected psychosis and
+     rejected necrophilia as an independent mental disease [1].
+   - Core Testimony:
+     1. Dr. Palermo testified that Dahmer was not psychotic, not insane, and fully aware of his
+        actions [1: WaPo Feb 7, 1992].
+     2. He characterized Dahmer's primary motivation as a desire for total domination, control,
+        and possession, driven by underlying hostility, lust, power, and severe terror of rejection [1].
+     3. He characterized the murders in terms of sexual sadism and absolute control, testifying:
+        "He killed them because he wanted to possess them... He was a sane man who chose to do
+        evil things" [1: WaPo Feb 7, 1992].
+     4. Dr. Palermo concluded unequivocally that Dahmer was legally sane under Wisconsin law,
+        retaining substantial capacity both to appreciate the wrongfulness of his acts and to
+        conform his conduct to the law [1, 2].
+
+B. Dr. Samuel H. Friedman (Testimony: February 6–7, 1992):
+   - Professional Qualifications: Clinical Psychologist, Milwaukee County Court Clinic [2, 8:
+     UPI Feb 6, 1992].
+   - Evaluative Role: Administered psychological test batteries (WAIS-R, MMPI, Rorschach) at
+     the direction of Dr. Palermo [8].
+   - Core Testimony:
+     1. Dr. Friedman testified that Dahmer operated with intact cognitive faculties, above-average
+        intellect, and no thought disorder or hallucinations [8].
+     2. He described Dahmer as a solitary, detached predator who engaged in a pattern of hunting
+        and trophy collection, using remains to satisfy erotic needs for companionship [8].
+     3. He testified that Dahmer's psychological profile reflected severe character pathology,
+        but did not impair his capacity to choose his actions or understand their wrongfulness [2, 8].
+
+C. Dr. Frederick A. Fosdal (Testimony: February 8–10, 1992):
+   - Professional Qualifications: Forensic Psychiatrist, Madison, Wisconsin; past president of
+     the Wisconsin Psychiatric Association [2, 9: WaPo Feb 9, 1992].
+   - Primary Diagnoses: Necrophilia; Alcohol Dependence; Personality Disorder NOS [9].
+   - Core Testimony:
+     1. Dr. Fosdal agreed with defense experts that Dahmer met the clinical criteria for necrophilia,
+        confirming that Dahmer experienced genuine, compulsive erotic attraction to corpses [9].
+     2. However, Dr. Fosdal drew a crucial legal distinction: he testified that necrophilia was
+        a paraphilic sexual preference, NOT a "mental disease or defect" within the meaning of
+        Wis. Stat. § 971.15 [9: WaPo Feb 9, 1992].
+     3. He emphasized that paraphilic urges do not destroy volitional control or create an
+        irresistible impulse: "An urge is not an order... A paraphilia does not compel murder" [9].
+     4. He pointed to Dahmer's extensive concealment efforts, purchase of chemicals, and selective
+        timing as conclusive evidence of behavioral control.
+     5. Dr. Fosdal concluded Dahmer was legally sane on all counts [2, 9].
+
+--------------------------------------------------------------------------------
+3.3 Prosecution Expert Witness: Dr. Park Elliott Dietz
+Anchor: #dietz-testimony (Aliases: #park-dietz, #prosecution-psychiatrist)
+Cross-Links: -> /case#sanity-trial | -> /timeline#event-1992-sanity-trial
+--------------------------------------------------------------------------------
+
+Dr. Park Elliott Dietz testified for the prosecution across three days (February 12–14, 1992),
+providing the central forensic architecture that secured the jury's sanity verdict [2, 4: WaPo
+Feb 13, 1992]:
+
+A. Professional Qualifications:
+   Forensic Psychiatrist; Clinical Professor of Psychiatry and Biobehavioral Sciences at UCLA
+   School of Medicine; founder of Threat Assessment Group; prior testifying expert in high-profile
+   forensic cases (e.g., John Hinckley Jr.) [2, 4].
+
+B. Evaluative Scope:
+   Dr. Dietz conducted 18 hours of direct clinical interviews with Dahmer in January 1992,
+   reviewed all police recordings, analyzed autopsy reports, and performed detailed timeline
+   reconstructions [4].
+
+C. Primary Diagnoses:
+   - Paraphilia Not Otherwise Specified (Necrophilia).
+   - Alcohol Abuse and Dependence.
+   - Explicitly Rejected: Borderline Personality Disorder, Schizophrenia, Psychosis, and any
+     statutory "Mental Disease or Defect" [2, 4].
+
+D. The Core Conceptual Breakthrough: Desire vs. Volition:
+   Dr. Dietz established the theoretical distinction that dominated jury deliberations:
+   1. The Function of Paraphilia: Paraphilia accounts for what an individual finds sexually
+      arousing. Dahmer's paraphilia explained why he desired unconscious or inanimate male
+      bodies.
+   2. The Independence of Volition: Paraphilic arousal does not dictate or compel behavior.
+      Having an atypical sexual desire does not deprive an individual of the capacity to choose
+      how, when, or whether to act upon that desire [2, 4].
+
+E. Five Pillars of Legal Sanity (Dr. Dietz's Evidentiary Demonstration):
+   1. Deliberate Premeditation & Logistics: Dahmer engaged in complex, forward-looking planning—
+      sourcing specialized chemicals (muriatic acid, lye), procuring sedative pharmaceuticals
+      (triazolam / Halcion, chloroform), and preparing his apartment for homicidal acts [4].
+   2. Instrumental Use of Alcohol: Dahmer did not kill because alcohol induced an uncontrolled
+      rage. Rather, Dahmer deliberately used alcohol as a pharmacological tool to dull his own
+      squeamishness, suppress moral revulsion, and overcome internal hesitation prior to killing [4:
+      WaPo Feb 13, 1992].
+   3. Selective Impulse Control & Restraint: Dahmer demonstrated consistent self-control whenever
+      external risks were present:
+      - He never attacked anyone in public or in front of witnesses.
+      - He refrained from killing during periods when his grandmother or father was nearby.
+      - He released individuals (e.g., Ronald Flowers) when circumstances became complicated [2, 4].
+   4. Active Concealment & Flight Avoidance: Dahmer's actions following homicides—dismembering
+      remains, bleaching bones, dissolving tissue in acid, fabricating deceptive cover stories
+      to police and neighbors—demonstrated acute awareness of legal and moral wrongfulness [4].
+   5. The Preferred Living Partner Finding: Dahmer admitted to Dr. Dietz that his primary preference
+      was a living, permanently consenting partner. It was only when partners insisted on leaving
+      that Dahmer resorted to drugging and murder to prevent abandonment [2, 4].
+
+
+================================================================================
+SECTION 4: COMPARATIVE CLINICAL DIAGNOSTIC MATRIX
+================================================================================
+
+--------------------------------------------------------------------------------
+4.1 The 1992 Sanity Trial Expert Comparison Table
+Anchor: #expert-matrix (Aliases: #diagnostic-table, #expert-witnesses)
+--------------------------------------------------------------------------------
+
+The seven testifying mental health experts presented competing diagnostic formulations and
+conclusions regarding Wisconsin's statutory sanity test (Wis. Stat. § 971.15):
+
+| Expert Witness | Retained By / Role | Clinical Diagnoses (DSM-III-R) | Perspective on Necrophilia | Appreciate Wrongfulness? | Conform Conduct to Law? | Statutory Sanity Conclusion |
+|---|---|---|---|---|---|---|
+| **Dr. Frederick Berlin** | Defense | Necrophilia; Paraphilia; Obsessive-Compulsive Disorder | Qualifying mental disease; overwhelming urges | Yes (Cognitively intact) | **NO** (Volitional incapacity) | **LEGALLY INSANE** |
+| **Dr. Judith Becker** | Defense | Necrophilia; Paraphilia NOS; Mixed Personality Disorder | Severe progressive mental disease | Yes (Cognitively intact) | **NO** (Urges overwhelmed control) | **LEGALLY INSANE** |
+| **Dr. Carl Wahlstrom** | Defense | Necrophilia; Borderline PD; Schizotypal PD; Psychotic Disorder NOS | Severe paraphilia embedded in personality psychosis | Yes (Impaired by psychosis) | **NO** (Profound volitional failure) | **LEGALLY INSANE** |
+| **Dr. George Palermo** | Court-Appointed | Mixed Personality Disorder (Antisocial, Sadistic); Alcohol Dependence | Rejected as primary disease; attributed to lust/power | **YES** (Fully aware) | **YES** (Retained volitional control) | **LEGALLY SANE** |
+| **Dr. Samuel Friedman** | Court-Appointed | Personality Disorder; Solitary Predatory Hunting Profile | Behavioral trophy attachment; intact reasoning | **YES** (Fully aware) | **YES** (Retained volitional control) | **LEGALLY SANE** |
+| **Dr. Frederick Fosdal** | Court-Appointed | Necrophilia; Alcohol Dependence; Personality Disorder NOS | Paraphilic sexual preference, NOT a mental disease | **YES** (Fully aware) | **YES** (Urges did not compel actions) | **LEGALLY SANE** |
+| **Dr. Park Elliott Dietz** | Prosecution | Paraphilia NOS (Necrophilia); Alcohol Abuse/Dependence | Erotic desire, NOT volitional impairment | **YES** (Fully aware) | **YES** (Deliberate planning and restraint) | **LEGALLY SANE** |
+
+
+================================================================================
+SECTION 5: THE CONTROL EXPERIMENTS: TREPANNING & INSTRUMENTALITY
+================================================================================
+
+--------------------------------------------------------------------------------
+5.1 Crude Neurosurgical Interventions & The Pursuit of Submission
+Anchor: #control-experiments (Aliases: #zombie-experiments, #trepanning)
+Cross-Links: -> /case#experimentation | -> /topics/theories-motivations#possession-control
+--------------------------------------------------------------------------------
+
+During the spring and summer of 1991, Dahmer's offending evolved to include crude, amateur
+trepanning experiments performed on four victims: Errol Lindsey, Anthony Sears, Konerak
+Sinthasomphone, and Jeremiah Weinberger [2, 11: Jentzen 2017; 15: FBI Part 01 p. 24].
+
+A. Documented Procedure:
+   - While victims were deeply sedated with triazolam (Halcion) mixed into drinks, Dahmer used
+     a hand-held electric drill to create a burr hole through their frontal skulls [11, 15].
+   - Dahmer then used a plastic syringe to inject solutions of hydrochloric (muriatic) acid
+     or boiling water directly into the frontal lobes of their cerebral cortex [11, 15].
+   - In all four instances, the intervention caused cerebral edema, coma, and death, either
+     rapidly or within hours [11].
+
+B. Competing Psychiatric Interpretations at Trial:
+   - Defense Interpretation (Dr. Wahlstrom):
+     The defense presented these grotesque procedures as evidence of severe psychotic
+     disorganization and psychotic delusion. Dr. Wahlstrom argued that attempting to create a
+     docile, lobotomized "living zombie" through crude drilling was inherently irrational and
+     demonstrated that Dahmer had lost contact with reality [2, 7].
+   - Prosecution & Forensic Interpretation (Drs. Dietz & Fosdal):
+     Drs. Dietz and Fosdal testified that the experiments, while biologically ignorant, were
+     logically consistent with Dahmer's stated objective: creating an uncomplaining, permanently
+     compliant companion who would not abandon him [2, 4, 9].
+     1. Instrumental Goal: Dahmer explained to evaluators that he did not derive pleasure from
+        the act of drilling or inflicting pain; rather, he sought to eliminate the victim's
+        will and consciousness while keeping the body warm and living [4].
+     2. Avoiding Disposal Burdens: Dahmer stated that killing required extensive, exhausting
+        dismemberment and disposal procedures; if a victim could be kept in a docile, living state,
+        he would not need to continually seek new victims [4].
+     3. Preserved Reality Testing: When the experiments repeatedly failed and resulted in death,
+        Dahmer recognized that his technique did not work and reverted to dismemberment [2, 4].
+
+
+================================================================================
+SECTION 6: THE JURY VERDICT & STATUTORY DISPOSITION
+================================================================================
+
+--------------------------------------------------------------------------------
+6.1 Jury Deliberations & The 10–2 Sanity Finding
+Anchor: #sanity-verdict (Aliases: #jury-verdict, #trial-verdict)
+Cross-Links: -> /timeline#event-1992-sanity-trial | -> /case#sanity-trial | -> /case#sentencing-1992
+--------------------------------------------------------------------------------
+
+Following two weeks of testimony and closing arguments, the 12-member jury deliberated for
+approximately 20 hours over two days [2, 12: WaPo Feb 16, 1992].
+
+A. The Verdict Mechanics (February 15, 1992):
+   - Under Wis. Stat. § 805.09(2), at least 10 of 12 jurors had to agree on whether Dahmer
+     proved that he suffered from a mental disease or defect and lacked substantial capacity
+     on each count [2].
+   - Counts 1 and 2 (Homicides of Anthony Sears and Raymond Smith): The jury voted **10 to 2**
+     that Dahmer was legally sane [12: WaPo Feb 16, 1992].
+   - Counts 3 through 15 (Homicides of Ernest Miller through Joseph Bradehoft): The jury voted
+     **11 to 1** or **12 to 0 (unanimous)** that Dahmer was legally sane [12].
+   - Conclusion: The jury formally rejected the defense of mental disease or defect on all 15
+     Wisconsin counts, establishing Dahmer's full criminal responsibility under state law [2, 12].
+
+B. Legal Significance:
+   The verdict meant that while Dahmer was recognized by psychiatric experts as suffering from
+   severe sexual pathology, the jury determined he did not meet the rigorous statutory threshold
+   for legal insanity. He possessed substantial capacity to appreciate the wrongfulness of his
+   actions and retained the volitional capacity to refrain from killing [2, 12].
+
+
+================================================================================
+SECTION 7: EPISTEMOLOGICAL BOUNDARIES: WHAT EVALUATIONS ESTABLISH
+================================================================================
+
+--------------------------------------------------------------------------------
+7.1 What the Psychological Record Can and Cannot Establish
+Anchor: #evaluations-boundaries (Aliases: #clinical-conclusions, #epistemology)
+Cross-Links: -> /topics/theories-motivations#theories-boundaries | -> /overview#overview-conclusion
+--------------------------------------------------------------------------------
+
+To maintain scholarly rigor, the research webapp delineates the exact evidentiary boundaries
+of the 1991–1992 psychiatric evaluations:
+
+A. WHAT THE PSYCHOLOGICAL EVALUATIONS ESTABLISH (Documented Findings):
+   1. Dahmer suffered from severe, clinically recognized paraphilic pathology (specifically
+      necrophilia) and severe alcohol dependence [2, 4, 9].
+   2. Dahmer operated with intact cognitive faculties, normal-to-bright intellect (IQ 115–120),
+      and no gross organic brain lesions, intellectual disability, or active schizophrenic thought disorder [2, 8].
+   3. Dahmer demonstrated extensive, forward-looking premeditation, procurement of materials,
+      and active post-offense concealment, reflecting acute awareness of moral and legal wrongfulness [4].
+   4. Dahmer exhibited selective behavioral control, demonstrating the capacity to delay or
+      refrain from violence when external detection risks arose [4, 6].
+   5. The 1992 Milwaukee County jury rejected the legal insanity defense on all counts under
+      Wis. Stat. § 971.15 [12].
+
+B. WHAT THE PSYCHOLOGICAL EVALUATIONS CANNOT ESTABLISH (Unwarranted Speculation):
+   1. They do NOT establish that childhood experiences (e.g., 1964 hernia surgery or parental
+      divorce) mechanically caused or predetermined serial homicide.
+   2. They do NOT establish that alcohol alone caused the killings; alcohol functioned as an
+      instrumental disinhibitor rather than an involuntary trigger [4].
+   3. They do NOT establish that all statements made by Dahmer during psychiatric interviews
+      were unvarnished truth; evaluators recognized retrospective minimization and image management.
+   4. They do NOT establish a unified consensus diagnosis; evaluating clinicians fundamentally
+      disagreed over whether Dahmer had Borderline Personality Disorder, Schizotypal Personality
+      Disorder, or Sexual Sadism.
+   5. They do NOT provide a single, universal "root cause" of the killings.
+
+
+================================================================================
+SECTION 8: HISTORICAL TERMINOLOGY & DECOUPLING FROM HOMOSEXUALITY
+================================================================================
+
+--------------------------------------------------------------------------------
+8.1 Contemporary Diagnostic Context & Ethical Framing
+Anchor: #modern-caution (Aliases: #terminology-caution, #homosexuality-decoupling)
+Cross-Links: -> /context#milwaukee-lgbtq-history | -> /topics/systemic-failures#less-dead
+--------------------------------------------------------------------------------
+
+A. Diagnostic Manual Evolution (DSM-III-R vs. Modern Nosology):
+   The psychiatric terms utilized throughout the 1992 trial reflect the diagnostic standards of
+   the American Psychiatric Association's DSM-III-R (1987). Modern diagnostic criteria (DSM-5-TR,
+   2022) have revised paraphilic disorder definitions, personality disorder models, and substance
+   use classifications. The webapp reports historical diagnoses within their 1992 trial context
+   rather than retroactively constructing speculative modern diagnoses [2, 10].
+
+B. Complete Decoupling from Homosexuality:
+   1. Medical Fact: Homosexuality is not a mental disorder, illness, or criminal predisposition.
+      The American Psychiatric Association removed homosexuality from the DSM in 1973.
+   2. Trial Evidence: Mental health experts on both sides of the 1992 trial explicitly affirmed
+      that Dahmer's sexual orientation (homosexuality) had no causal relationship to his homicidal
+      conduct [2, 4, 5].
+   3. Paraphilic Distinction: Dahmer's homicides were driven by necrophilic fantasies of absolute
+      possession, somnophilia, and total submission, which exist independently of sexual orientation.
+      Equating homosexuality with violence or sexual deviance is medically and historically false.
+
+
+================================================================================
+SECTION 9: COMPLETE ANCHOR CONCORDANCE & CROSS-TAB NAVIGATION REGISTER
+================================================================================
+
+| Sub-Tab Section / Topic | Canonical Anchor ID | Declared Alias IDs | Timeline Target Anchor | Case / Context Cross-Link |
+|---|---|---|---|---|
+| **Psychological Profile Overview** | `#topics-psychological-profile` | `#psychological-profile`, `#psychiatric-profile` | `/timeline#event-1992-sanity-trial` | `/case#sanity-trial` |
+| **Wisconsin Sanity Standard** | `#sanity-trial-standard` | `#wisconsin-sanity-standard`, `#legal-insanity` | `/timeline#event-1992-sanity-trial` | `/case#statutory-split`, `/case#trial-plea` |
+| **Clinical Evaluation Methodology** | `#evaluation-methodology` | `#clinical-testing`, `#psychiatric-evaluation` | `/timeline#event-1992-sanity-trial` | `/case#investigation` |
+| **Defense Expert Witnesses** | `#defense-experts` | `#berlin-testimony`, `#becker-testimony`, `#wahlstrom-testimony` | `/timeline#event-1992-sanity-trial` | `/case#sanity-trial` |
+| **Court-Appointed Experts** | `#court-appointed-experts` | `#palermo-testimony`, `#fosdal-testimony`, `#friedman-testimony` | `/timeline#event-1992-sanity-trial` | `/case#sanity-trial` |
+| **Dr. Park Elliott Dietz Dossier** | `#dietz-testimony` | `#park-dietz`, `#prosecution-psychiatrist` | `/timeline#event-1992-sanity-trial` | `/case#sanity-trial` |
+| **Diagnostic Comparison Matrix** | `#expert-matrix` | `#diagnostic-table`, `#expert-witnesses` | `/timeline#event-1992-sanity-trial` | `/case#sanity-trial` |
+| **Control Experiments (Trepanning)** | `#control-experiments` | `#zombie-experiments`, `#trepanning` | `/timeline#event-1991-sinthasomphone` | `/case#experimentation`, `/topics/theories-motivations#possession-control` |
+| **10–2 Sanity Jury Verdict** | `#sanity-verdict` | `#jury-verdict`, `#trial-verdict` | `/timeline#event-1992-sanity-trial` | `/case#sanity-trial`, `/case#sentencing-1992` |
+| **Epistemological Boundaries** | `#evaluations-boundaries` | `#clinical-conclusions`, `#epistemology` | `/timeline#event-1992-sanity-trial` | `/topics/theories-motivations#theories-boundaries` |
+| **Terminology Caution & Decoupling** | `#modern-caution` | `#terminology-caution`, `#homosexuality-decoupling` | `/timeline#event-1992-sanity-trial` | `/context#milwaukee-lgbtq-history` |
+
+
+================================================================================
+SECTION 10: NUMBERED BIBLIOGRAPHY & EVIDENTIARY CITATIONS
+================================================================================
+
+[1] Washington Post, "Psychiatrist Calls Dahmer a Sane Killer" (Feb. 7, 1992).
+    Reporting on Dr. George Palermo's testimony and legal sanity conclusion.
+[2] Court TV Archive, State of Wisconsin v. Jeffrey Dahmer (1992 Sanity Phase Trial Broadcast).
+    Comprehensive video and transcript records of expert testimonies before Judge Laurence Gram.
+[3] Washington Post, "Dahmer Pleads Guilty to 15 Murders, Sane or Insane" (Jan. 14, 1992).
+    Documentation of formal guilty plea waiving Phase 1 guilt adjudication.
+[4] Washington Post, "Dahmer Saw Freeze-Drying as Possibility" (Feb. 13, 1992).
+    Reporting on Dr. Park Elliott Dietz's testimony on premeditation, alcohol as tool, and sanity.
+[5] Washington Post, "Psychiatrist Says Dahmer Was Driven by Obsessions" (Feb. 4, 1992).
+    Reporting on Dr. Frederick Berlin's testimony diagnosing necrophilia as an irresistible mental disease.
+[6] UPI Archives, "Psychologist Says Dahmer's Murders Were Sexually Driven" (Feb. 5, 1992).
+    Reporting on Dr. Judith Becker's testimony and cross-examination concessions regarding released victims.
+[7] UPI Archives, "Dahmer Had Multiple Mental Disorders, Doctor Testifies" (Feb. 5, 1992).
+    Reporting on Dr. Carl Wahlstrom's multiaxial diagnosis (borderline, schizotypal, necrophilia, psychosis).
+[8] UPI Archives, "Psychologist Says Dahmer Sane, Acted Like Predator" (Feb. 6, 1992).
+    Reporting on Dr. Samuel Friedman's psychological testing findings and predator-trophy formulation.
+[9] Washington Post, "Despite Necrophilia, Dahmer Is Not Insane, Psychiatrist Testifies" (Feb. 9, 1992).
+    Reporting on Dr. Frederick Fosdal's court-appointed testimony on paraphilia vs. mental disease.
+[10] O'Meara, Gregory J., S.J., "Text, Context, and Pretext in State v. Jeffrey Dahmer"
+     (42 Marquette Law Review, 2009). Scholarly analysis of legal-psychiatric narrative construction.
+[11] Jentzen, Jeffrey, "Micro Disasters: The Case of Serial Killer Jeffrey Dahmer",
+     Academic Forensic Pathology, 7(3): 355–368 (2017). Forensic neuropathology and trepanning analysis.
+[12] Washington Post, "Dahmer Ruled Sane, Sentenced to Life" (Feb. 16, 1992).
+     Contemporary reporting on the 10–2 jury sanity verdict across all 15 counts.
+[13] American Psychiatric Association, Diagnostic and Statistical Manual of Mental Disorders,
+     Third Edition, Revised (DSM-III-R). Washington, DC: APA, 1987.
+[14] Wisconsin Statutes Annotated, Chapter 971: Criminal Procedure — Mental Responsibility.
+     Wis. Stat. §§ 971.15, 971.165, and Wis. Stat. § 805.09(2).
+[15] Federal Bureau of Investigation, Jeffrey Lionel Dahmer FOIA Vault Records, Parts 01, 03, 06.
+     Washington, DC: FBI FOIA Release (Dahmer Part 01.pdf, 68 pp.; Part 03, 60 pp.; Part 06, 74 pp.).
+
+================================================================================
+END OF SPECIFICATION: TAB 6 PART A (PSYCHOLOGICAL PROFILE)
+================================================================================

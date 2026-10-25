@@ -632,21 +632,33 @@ GENERAL IMPLEMENTATION RULES
 
 IMPACT CONTENT STATUS
 ---------------------
-Joe has a research paper ready for the IMPACT section.
+[COMPLETED & LOCKED — 2026-10-25]
+Tab 7 (Impact & Legacy) has completed multi-agent empirical verification, claim-level
+citation auditing, and authoritative specification locking.
 
-It covers the planned Impact research areas:
-- Community & Civic Impact
-- Social Impact & Reform
-- Media & Cultural Portrayal
-- Modern Re-examination
-- Final Conclusion
+Authoritative Deliverables:
+- Master Specification & Closing Monograph: `plan/07_impact_and_legacy_content_plan_v02_final_locked.txt`
+- Authoritative 52-Entry Master Bibliography: `plan/08_impact_final_bibliography_v01.txt`
+- Comprehensive Evidentiary Audit Report: `plan/impact_evidentiary_audit.md`
+- Automated Link & Coordinate Test Suite: `tests/test_tab7_anchors.js`
 
-The research paper is ready and should be preserved as source material.
-
-Important workflow rule:
-Do NOT integrate or rewrite the Impact research into the webapp yet.
-We will add, validate, structure, and place this material when we actually
-work on the IMPACT section during the webapp content/architecture phase.
+Key Reconciled Evidentiary Findings:
+- Full 6-section structure plus Introduction and Master Research Conclusion closed.
+- 184 registered anchors guaranteeing 100% resolution for all cross-tab links.
+- Judicial accuracy: Reserve Circuit Judge Robert J. Parins (Wis. Stat. § 62.13(5)(i))
+  reversal of FPC officer discharges (1994).
+- Civic geography: Marquette University Campus Circle Project acquisition and demolition
+  of Oxford Apartments (Nov 1992).
+- Civil litigation: $850,000 municipal settlement approved by Common Council on April 25, 1995
+  without admission of liability.
+- Auction buyout: Joseph Zilber & Milwaukee Civic Pride $407,225 acquisition and Illinois
+  incineration of Dahmer estate murderabilia (1996).
+- Custodial homicide: Christopher Scarver's Nov 28, 1994 homicides of Dahmer and Jesse Anderson
+  at CCI (Columbia County Case No. 94-CF-208 before Judge Daniel George).
+- Rigorous witness disambiguation (Nicole Childress, Sandra Smith, Glenda Cleveland, Pamela Bass).
+- Dual-Failure Thesis terminal monograph delivering definitive scholarly closure while maintaining
+  absolute demarcation from the concise Overview conclusion (/overview#conclusion).
+- 100% pass on automated empirical stress test suite (`node tests/run_all_tests.js`).
 
 CURRENT PROJECT PHASE
 ---------------------
@@ -662,9 +674,9 @@ Work through:
 3. Timeline [COMPLETED & LOCKED — 05_timeline_content_plan_v04_final_locked.txt]
 4. Context [COMPLETED & LOCKED — 02_context_content_plan_v03_final_locked.txt]
 5. Case [COMPLETED & LOCKED — 03a_case_offense_series_plan_v03_final_locked.txt, 03b_case_investigation_and_trial_plan_v03_final_locked.txt]
-6. Analysis [CURRENT — 06a_analysis_psychological_profile_plan_v02.txt, 06b_analysis_systemic_failures_plan_v02.txt, 06c_analysis_theories_and_motivations_plan_v02.txt]
-7. Impact
-8. Sources / Methodology
+6. Analysis [COMPLETED & LOCKED — 06a_analysis_psychological_profile_plan_v03_final_locked.txt, 06b_analysis_systemic_failures_plan_v03_final_locked.txt, 06c_analysis_theories_and_motivations_plan_v03_final_locked.txt]
+7. Impact [COMPLETED & LOCKED — 07_impact_and_legacy_content_plan_v02_final_locked.txt]
+8. Sources / Methodology [CURRENT / PENDING GLOBAL CONSOLIDATION — plan/08_sources_by_tab.txt]
 
 PHASE C — DESIGN SPECIFICATION FINAL CHECK
 [AFTER CONTENT]
@@ -686,6 +698,65 @@ Only after explicit confirmation.
 
 CHANGE LOG
 ----------
+2026-10-25
+- Finalized and locked the Impact & Legacy Tab content specification:
+  `07_impact_and_legacy_content_plan_v02_final_locked.txt`, accompanied by
+  authoritative 52-entry standalone master bibliography `plan/08_impact_final_bibliography_v01.txt`,
+  master evidentiary audit report `plan/impact_evidentiary_audit.md`, and automated test
+  suite `tests/test_tab7_anchors.js`.
+  Verified complete factual, statutory, civic, and architectural concordance:
+  1. Mandated Content Structure: Fully detailed all 6 mandated sections plus Executive
+     Summary/Introduction and the terminal Master Research Conclusion monograph:
+     Section 1 (Community & Civic Impact), Section 2 (Social Reform & Institutional Accountability),
+     Section 3 (Restorative Victimology & Public Memory), Section 4 (Media Portrayal & True Crime Ethics),
+     Section 5 (Primary Sources & Historiography), and Section 6 (Dual-Failure Thesis closing treatise).
+  2. Legal & Judicial Reconciliations: Reconciled officer disciplinary review to Reserve Circuit Judge
+     Robert J. Parins presiding under Wis. Stat. § 62.13(5)(i) (Milwaukee County Case No. 92-CV-016254,
+     April 1994); documented 1995 Sinthasomphone civil litigation resolution ($850,000 Common Council
+     settlement without admission of municipal liability); and established statutory immunity of third-party
+     streaming productions under Wis. Stat. § 949.165 ("Son of Sam" law).
+  3. Municipal & Civic History: Documented the acquisition and razing of the Oxford Apartments (924 N. 25th
+     St.) by Marquette University's Campus Circle Project ($325,000 purchase; demolition Nov 14–16, 1992);
+     and detailed the 1996 murderabilia crisis where Joseph Zilber and the civic coalition Milwaukee Civic
+     Pride raised $407,225 to purchase Dahmer's estate belongings from probate court for incineration.
+  4. Custodial Homicide & Inmate Proceedings: Audited Christopher Scarver's November 28, 1994 fatal
+     bludgeoning of Dahmer and Jesse Anderson at Columbia Correctional Institution with a 20-inch 5-lb steel
+     weight bar, citing Columbia County Case No. 94-CF-208 before Judge Daniel George, WDOC security reviews,
+     and medical examiner pronouncements.
+  5. Witness Disambiguation & Restorative Victimology: Rigorously separated alley interveners Nicole Childress
+     and Sandra Smith, telephone advocate Glenda Cleveland (808 N. 24th St.), neighbor Pamela Bass (Apt 212),
+     and sole survivor Tracy Edwards; synchronized all 17 victim biographies with locked baseline ages and
+     discrepancy asterisks (*) in `plan/table_1_the_victims_v04.md`.
+  6. Empirical Link & Coordinate Integrity: Registered 184 canonical and alias anchors guaranteeing 100%
+     bidirectional resolution across all 14 incoming cross-tab links and 103 outgoing reverse links;
+     verified FBI Vault page coordinates within standalone PDF bounds; verified 100% green pass on
+     `node tests/run_all_tests.js`.
+- Advanced Phase B status to Tab 8: Sources & Historiography.
+2026-10-25
+- Finalized and locked the Analysis Tab tripartite content specifications:
+  `06a_analysis_psychological_profile_plan_v03_final_locked.txt`,
+  `06b_analysis_systemic_failures_plan_v03_final_locked.txt`, and
+  `06c_analysis_theories_and_motivations_plan_v03_final_locked.txt`, accompanied by
+  authoritative 36-entry standalone master bibliography `plan/08_analysis_final_bibliography_v01.txt`
+  and master evidentiary audit report `plan/analysis_evidentiary_audit.md`.
+  Verified complete factual and legal concordance:
+  1. Systemic Failures: May 27, 1991 Konerak Sinthasomphone encounter, paramedic dismissal,
+     recorded 911 dispatch audio and derogatory remarks, Glenda Cleveland's documented follow-up
+     calls, officer disciplinary proceedings (Chief Arreola discharges, FPC appeals, 1994 Judge Parins
+     reinstatement with back pay), federal civil rights litigation (Estate of Sinthasomphone, Judge
+     Evans opinions, 1995 $850,000 settlement without liability admission), probation supervision under
+     agent Donna Chester (Weinberger 7th Cir. affirmance, DOC 328.04 written home-visit waivers),
+     and Oxford Apartments tenant odor complaints.
+  2. Psychological Profile: Foundational clinical disorder vs. Wis. Stat. § 971.15 legal sanity divide;
+     over 200 hours of clinical interviews; dossiers and comparative diagnostic matrix for 7 testifying
+     experts (Berlin, Becker, Wahlstrom, Palermo, Friedman, Fosdal, Dietz); analysis of trepanning burr-hole
+     procedures as control experiments; 10–2 jury sanity verdict; epistemological boundaries; and
+     explicit decoupling of homosexuality from pathology.
+  3. Theories & Motivations: 3-tier epistemological certainty model; 7 competing theories (Possession &
+     Control, Behavioral Addiction / Lankford & Hayes 2022 SUD analogy and 1993 Inside Edition self-report,
+     Alcohol as Instrumental Tool, Sexual Gratification & Necrophilia, Fear of Rejection & Hostility,
+     Destructive Hostility / Jentzen 1994 withdrawn paper flag, Longitudinal Escalation across 3 phases).
+- Advanced Phase B status to Tab 7: Impact.
 2026-10-25
 - Finalized and locked the Case Tab content specifications:
   `03a_case_offense_series_plan_v03_final_locked.txt` and

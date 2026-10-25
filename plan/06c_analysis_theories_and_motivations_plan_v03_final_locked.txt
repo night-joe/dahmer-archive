@@ -1,0 +1,503 @@
+================================================================================
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+ANALYSIS TAB (PART C) — THEORIES & MOTIVATIONS: COMPETING EXPLANATIONS
+FINAL LOCKED CONTENT PLAN & EVIDENTIARY SPECIFICATION
+Version: 0.3 — Final Locked Master Specification
+Date: October 25, 2026
+Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+================================================================================
+
+================================================================================
+STATUS & EDITORIAL MANDATE
+================================================================================
+
+This document constitutes the finalized, locked master content plan, evidentiary
+concordance, and historiographical specification for Tab 6 Part C (Theories & Motivations)
+of the Jeffrey Dahmer Case Research Webapp.
+
+All explanatory models, clinical formulations, post-conviction self-reports, peer-reviewed
+criminological studies, and behavioral addiction analogies have been audited against primary
+archival records:
+  1. Primary Court Transcripts & Expert Witness Dockets:
+     - State of Wisconsin v. Jeffrey L. Dahmer, Case No. F-912542 (Sanity Trial Transcripts
+       before Judge Laurence C. Gram Jr., January 30 – February 15, 1992).
+     - Testimonies of Dr. Park Elliott Dietz, Dr. Frederick S. Berlin, Dr. Judith V. Becker,
+       Dr. Carl Wahlstrom, Dr. George F. Palermo, and Dr. Frederick A. Fosdal.
+  2. Peer-Reviewed Academic & Criminological Literature:
+     - Adam Lankford & Jenna K. Hayes, "Could Serial Killing Actually Be Addictive? A Close
+       Examination of Compulsion and Escalation in the Jeffrey Dahmer Case", Sexual Health &
+       Compulsivity, Vol. 29, Issue 3–4, pp. 198–224 (2022). DOI: 10.1080/26929953.2022.2126416.
+     - Gregory J. O'Meara, S.J., "Text, Context, and Pretext in State v. Jeffrey Dahmer"
+       (42 Marquette Law Review, 2009).
+     - Steven Egger, "The Less-Dead", SAGE Encyclopedia of Violent Crime (analytical framework).
+     - Jeffrey Jentzen et al., "Destructive Hostility: The Jeffrey Dahmer Case" (1994; noting
+       official withdrawn status in Marquette University repository).
+  3. Primary Audio & Broadcast Records:
+     - Court TV Live Broadcast & Official Trial Video Archive (1992 Sanity Trial).
+     - Inside Edition Prison Interview with Jeffrey Dahmer (conducted by Stone Phillips,
+       January 11–12, 1993; broadcast February 1993).
+     - FBI Behavioral Science Unit (BSU) Acquisition Memo for unedited Inside Edition tapes
+       (FBI Vault Part 03, June 23, 1993, p. 55).
+  4. Contemporary Journalistic & Wire Archives:
+     - The Washington Post Contemporary Trial Series (Feb 3 – Feb 16, 1992).
+     - UPI Wire Archives (February 1992).
+  5. Primary Investigative Audio & Interrogations:
+     - Milwaukee Police Department 60-Hour Interrogation Audio Dockets (Detectives Patrick
+       Kennedy and Dennis Murphy, July–August 1991).
+
+This specification supersedes all prior working copies (`plan/06c_analysis_theories_and_motivations_plan_v02.txt`)
+and establishes the permanent evidentiary baseline for the web application's Theories & Motivations section.
+
+--------------------------------------------------------------------------------
+CORE EDITORIAL & METHODOLOGICAL RULES
+--------------------------------------------------------------------------------
+1. Restrained Scholarly Register:
+   The narrative strictly maintains objective criminological, psychiatric, and historical
+   terminology. Popular sensationalized phrases ("true crime mysteries," "pure evil,"
+   "unfathomable monster") are strictly forbidden. Motivations are analyzed as competing,
+   attributed hypotheses rather than settled biological certainties.
+2. The Three Tiers of Epistemological Certainty:
+   The web application strictly distinguishes between three distinct evidentiary tiers:
+     - TIER 1: DOCUMENTED FACTS (Dahmer's sworn admissions, physical crime scene evidence,
+       autopsy toolmarks, court dockets).
+     - TIER 2: CLINICAL INTERPRETATIONS (Forensic formulations offered by testifying expert
+       witnesses under oath in 1992).
+     - TIER 3: SCHOLARLY HYPOTHESES (Peer-reviewed retrospective models, behavioral addiction
+       analogies, and criminological frameworks).
+   The website never blurs these three tiers into an undifferentiated narrative.
+3. No Single "Root Cause" Monoculture:
+   The web application explicitly rejects mono-causal explanations. No single theory—whether
+   necrophilia, loneliness, alcoholism, childhood trauma, or behavioral addiction—explains the
+   totality of the 17 homicides. The text presents competing interpretations with their
+   empirical foundations and evidentiary limitations.
+4. Methodological Precision Regarding Behavioral Addiction (Lankford & Hayes 2022):
+   The web application explicitly notes that Lankford & Hayes utilized DSM-5 Substance Use
+   Disorder criteria *by analytical analogy*. Serial homicide is not an officially recognized
+   diagnostic disorder in the DSM-5. This research is framed as a single-case heuristic.
+5. Mandatory Source Caveat on Withdrawn Publications:
+   The 1994 paper *Destructive Hostility* (Jentzen, Palermo et al.) must be explicitly cited
+   with its official institutional note from Marquette University stating that the article was
+   withdrawn. It is presented solely as a historical artifact of forensic debate.
+6. Dual Canonical Anchors & Alias Cross-Links:
+   Standardized anchor identifiers (`#topics-theories-motivations`, `#possession-control`,
+   `#behavioral-addiction`, `#alcohol-as-tool`, `#paraphilia-gratification`, `#rejection-abandonment`,
+   `#destructive-hostility`, `#behavioral-escalation`, etc.) resolve incoming links across all tabs.
+
+
+================================================================================
+SECTION 1: THE THREE TIERS OF EPISTEMOLOGICAL CERTAINTY
+================================================================================
+
+--------------------------------------------------------------------------------
+1.1 Methodological Grounding of Motivational Claims
+Anchor: #epistemological-tiers (Aliases: #certainty-levels, #methodology-tiers)
+Cross-Links: -> /sources#methodology | -> /overview#overview-conclusion
+--------------------------------------------------------------------------------
+
+Understanding why Jeffrey Dahmer killed requires establishing rigorous epistemological
+boundaries. Throughout the history of the case, confessions, trial arguments, clinical
+opinions, and academic theories have frequently been conflated into sensational headlines.
+The research webapp enforces a strict three-tier classification:
+
+- TIER 1: DOCUMENTED EVIDENCE (Primary Empirical Record):
+  * Dahmer's contemporaneous statements to Detectives Patrick Kennedy and Dennis Murphy during
+    his 60-hour interrogation in July–August 1991 [13: FBI Part 01].
+  * Physical evidence recovered from Apartment 213: drill bits, plastic syringes, hydrochloric
+    acid, chloroform, triazolam (Halcion), polaroid photographs, and preservation chemicals [13].
+  * Verified forensic pathology findings: burr holes drilled into skulls, absence of defensive
+    wounds, toxicology reports establishing heavy sedation and acute alcohol levels [10: Jentzen 2017].
+  * Milwaukee County Circuit Court dockets, guilty pleas, and the jury sanity verdict [1, 2].
+
+- TIER 2: CLINICAL INTERPRETATIONS (Attributed 1992 Trial Formulations):
+  * Formulations offered under oath by evaluating psychiatrists and psychologists during the 1992
+    sanity trial [2].
+  * Defense thesis: Irresistible necrophilic compulsion, borderline fragmentation, and volitional
+    incapacity (Drs. Berlin, Becker, Wahlstrom) [2, 5, 6, 7].
+  * Court-appointed thesis: Severe mixed personality disorder, narcissistic rage, hostility, and
+    predatory trophy hunting under preserved sanity (Drs. Palermo, Friedman, Fosdal) [1, 8, 9].
+  * Prosecution thesis: Erotic necrophilic preference retained under volitional control, forward-
+    looking premeditation, and instrumental use of alcohol (Dr. Park Dietz) [2, 4].
+
+- TIER 3: SCHOLARLY HYPOTHESES (Retrospective Academic Models):
+  * Retrospective criminological and psychological analyses published in peer-reviewed literature
+    following Dahmer's conviction and death [3: Lankford & Hayes 2022; 10: Jentzen 2017; 11: O'Meara 2009].
+  * Behavioral addiction models comparing serial murder progression to substance tolerance and
+    compulsion criteria [3].
+  * Sociological victimology analyzing institutional marginalization and predatory vulnerability
+    (Egger's "less-dead" framework) [12].
+
+
+================================================================================
+SECTION 2: THE SEVEN COMPETING MOTIVATIONAL THEORIES
+================================================================================
+
+--------------------------------------------------------------------------------
+2.1 Theory 1: Possession, Control & Companionship (The Dominant Courtroom Formulation)
+Anchor: #possession-control (Aliases: #companionship-theory, #possession-over-pain)
+Cross-Links: -> /case#experimentation | -> /topics/psychological-profile#control-experiments
+--------------------------------------------------------------------------------
+
+The primary formulation presented by defense counsel Gerald Boyle and partially corroborated
+by prosecution psychiatrist Dr. Park Dietz was that Dahmer killed not out of a sadistic desire
+to inflict agony, but out of an extreme, pathological desire for permanent possession, total
+control, and unresisting companionship [2, 4: WaPo Feb 13, 1992].
+
+A. Documented Evidence Base:
+   - Dahmer repeatedly confessed that his greatest terror was being abandoned by partners:
+     "I didn't want them to leave... I wanted to keep them with me" [13: FBI Part 01; 14: Kennedy 2022].
+   - Dahmer stated that he did not derive pleasure from the act of murder itself, which he
+     described as an unpleasant, exhausting necessity required to keep victims permanently [4, 14].
+   - Physical Preservation: Dahmer preserved bleached skulls, skeletons, and soft tissue specimens
+     in his freezer and closet, which he described as surrogate companions and physical trophies
+     that could never walk away [4, 13].
+
+B. The Freeze-Drying Inquiry (WaPo Feb 13, 1992):
+   - Dr. Park Dietz testified that during clinical evaluations, Dahmer revealed he had actively
+     investigated commercial freeze-drying technology as a means of permanently preserving an
+     entire human body intact for continued companionship and sexual access [4: WaPo Feb 13, 1992].
+   - Dahmer investigated equipment catalogs, but abandoned the project after discovering that
+     commercial freeze-drying apparatuses cost in excess of $10,000 to $20,000, which was far
+     beyond his financial means as a chocolate factory mixer [4].
+   - Criminological Significance: Demonstrates that Dahmer actively sought alternative methods
+     of permanent physical preservation that did not require continuous replacement of victims [4].
+
+C. The Crude Trepanning / "Zombie" Experiments:
+   - In 1991, Dahmer drilled into the skulls of four living victims (Errol Lindsey, Anthony Sears,
+     Konerak Sinthasomphone, Jeremiah Weinberger) and injected hydrochloric acid or boiling water
+     into their frontal lobes [10: Jentzen 2017; 13: FBI Part 01].
+   - Clinical Motivation: Dahmer explained to evaluators that he attempted to create a compliant,
+     vegetative, uncomplaining companion who would remain alive in his apartment without resisting,
+     making demands, or attempting to leave [4, 10].
+
+D. Critical Evidentiary Limits:
+   - While Dahmer claimed he "did not want to kill," he nonetheless carried out 17 deliberate
+     homicides, took extensive steps to purchase lethal chemicals and sedatives, and actively
+     destroyed forensic evidence.
+   - The desire for possession cannot be separated from the ultimate act of lethal violence [2, 4].
+
+--------------------------------------------------------------------------------
+2.2 Theory 2: Behavioral Addiction / Compulsion Model
+Anchor: #behavioral-addiction (Aliases: #compulsion-model, #lankford-hayes-study)
+Cross-Links: -> /timeline#chronological-timeline | -> /topics/theories-motivations#behavioral-escalation
+--------------------------------------------------------------------------------
+
+In 2022, criminologists Adam Lankford and Jenna K. Hayes published a landmark peer-reviewed study
+in *Sexual Health & Compulsivity* investigating whether Dahmer's escalating homicidal pattern
+conformed to the clinical dynamics of a severe behavioral addiction [3: Lankford & Hayes 2022].
+
+A. Full Scholarly Citation:
+   Lankford, Adam, & Hayes, Jenna K. (2022). "Could Serial Killing Actually Be Addictive? A Close
+   Examination of Compulsion and Escalation in the Jeffrey Dahmer Case." *Sexual Health &
+   Compulsivity*, Vol. 29, Issue 3–4, pp. 198–224. DOI: 10.1080/26929953.2022.2126416 [3].
+
+B. Methodological Design:
+   - Assembled a comprehensive longitudinal chronology of Dahmer's life, fantasy development,
+     substance abuse, and homicidal offenses [3].
+   - Systematically compared Dahmer's documented behaviors, temporal escalation, and self-reports
+     against the 11 diagnostic criteria for Substance Use Disorder (SUD) set forth in the
+     American Psychiatric Association's DSM-5 [3].
+   - Evaluated parallels to Compulsive Sexual Behavior Disorder (CSBD) under ICD-11 criteria [3].
+
+C. Key Comparative Findings (Addiction Dynamics Mapped by Analogy):
+   1. Tolerance (Escalating Dosage & Frequency): Dahmer required progressively greater frequency
+      and intensity of offending to achieve the same psychological gratification:
+      - 1978: 1 homicide (9-year cessation).
+      - 1987–1989: 4 homicides over 26 months (~6.5 months between offenses).
+      - 1990: 4 homicides over 12 months (~3 months between offenses).
+      - 1991: 8 homicides over 7 months (~26 days between offenses, culminating in 4 homicides
+        in July 1991 alone) [3].
+   2. Withdrawal / Restlessness: Dahmer experienced severe physical and psychological agitation,
+      obsessive intrusive thoughts, and profound depression during intervals between homicides [3].
+   3. Unsuccessful Efforts to Cut Down or Cease: Dahmer repeatedly attempted to halt his homicidal
+      conduct (including engaging in outpatient counseling, attending church, and attempting to
+      date living partners), but experienced catastrophic relapses [3].
+   4. Excessive Time Investment: Managing his offending pattern consumed virtually all waking
+      hours outside of work: cruising bars, procuring chemicals, dismembering remains, bleaching
+      bones, and disposing of soft tissue [3].
+   5. Continued Behavior Despite Severe Negative Consequences: Dahmer continued offending despite
+      crushing anxiety, fear of discovery, odor complaints from neighbors, police encounters,
+      and total personal deterioration [3].
+
+D. CRITICAL METHODOLOGICAL LIMITATION:
+   - The authors explicitly emphasized that the DSM-5 does NOT recognize "serial murder addiction"
+     as a clinical diagnosis. The SUD criteria were applied *strictly as an analytical analogy*
+     to model compulsion and escalation [3].
+   - The study represents a single-case retrospective analysis and cannot be generalized as an
+     established clinical category. The webapp presents this framework as a compelling heuristic,
+     not a formal medical diagnosis [3].
+
+E. Dahmer's 1993 Post-Conviction Self-Report (*Inside Edition*):
+   - In January 1993, Dahmer granted an in-depth interview to Stone Phillips at Columbia
+     Correctional Institution (broadcast in February 1993 on *Inside Edition*) [15: Inside Edition].
+   - Verbatim Self-Report: Dahmer independently used addiction terminology to explain his actions:
+     "It was an obsession that just consumed me... It became almost like a drug, an addiction.
+     It was a craving that just got bigger and bigger, and I couldn't stop it... Once it started,
+     it just took over my entire life" [15].
+   - FBI Primary Verification: On June 23, 1993, the FBI Behavioral Science Unit (BSU) at
+     Quantico, Virginia formally acquired an unedited, uncut master video duplicate of this
+     interview from King World Productions for forensic training and research (*Jeffrey Lionel
+     Dahmer Part 03 of 19.pdf*, p. 55) [13].
+
+--------------------------------------------------------------------------------
+2.3 Theory 3: Alcohol as an Instrumental Tool / Disinhibitor
+Anchor: #alcohol-as-tool (Aliases: #alcohol-disinhibition, #instrumental-drinking)
+Cross-Links: -> /context#revere-high-school-alcoholism | -> /topics/psychological-profile#dietz-testimony
+--------------------------------------------------------------------------------
+
+During the 1992 sanity trial, Dr. Park Elliott Dietz introduced the crucial forensic theory
+that Dahmer used alcohol not as an involuntary trigger for violence, but as a deliberate
+instrumental tool [2, 4: WaPo Feb 13, 1992].
+
+A. Clinical Formulation:
+   - Defense argument: Dahmer was a chronic alcoholic who suffered from alcoholic blackouts
+     and impaired volitional control [2, 7].
+   - Dr. Dietz's counter-formulation: Dahmer was indeed severely alcohol-dependent, but his
+     drinking was calculated and instrumental:
+     1. Overcoming Moral Inhibition: Dahmer retained an intellectual and moral understanding
+        that killing was horrific. Because he experienced conscious squeamishness and revulsion
+        at the prospect of dismemberment and strangulation, he deliberately consumed large
+        quantities of alcohol to numb his sensory qualms and suppress his conscious hesitation [4].
+     2. Facilitating Execution: Alcohol served as a pharmacological anesthetic that allowed him
+        to complete gruesome logistical tasks that he found intolerable while completely sober [4].
+
+B. Evidence of Behavioral Control While Drinking:
+   - Dr. Dietz demonstrated that Dahmer's alcohol consumption did not induce blind, disorganized
+     rage. Even while intoxicated, Dahmer:
+     * Carefully measured sedative doses of triazolam (Halcion) into victims' drinks [4].
+     * Refrained from violence whenever unexpected visitors or roommates arrived [4].
+     * Safely operated his vehicle and transported remains across Milwaukee [4].
+   - Synthesis: Alcohol was both a severe chronic disorder and a functional psychological tool.
+     The two formulations are complementary rather than mutually exclusive [2, 4].
+
+--------------------------------------------------------------------------------
+2.4 Theory 4: Sexual Gratification & Necrophilia
+Anchor: #paraphilia-gratification (Aliases: #necrophilic-fantasy, #sexual-motivation)
+Cross-Links: -> /topics/psychological-profile#expert-matrix | -> /case#offense-series
+--------------------------------------------------------------------------------
+
+The psychological record consistently affirms that Jeffrey Dahmer's offenses were fundamentally
+eroticized, driven by severe paraphilic fantasies centered on male anatomy, passivity, and
+corpses [2, 5: WaPo Feb 4, 1992; 6: UPI Feb 5, 1992].
+
+A. Clinical Nature of Dahmer's Paraphilia:
+   - Somnophilia: Erotic attraction to sleeping, unconscious, or heavily sedated individuals.
+     Dahmer's fantasy began with the desire to caress and position an unconscious male body
+     that could neither resist nor judge him [2, 6].
+   - Necrophilia: Erotic arousal derived from dead bodies. Evaluators across all parties (Drs.
+     Berlin, Becker, Wahlstrom, Fosdal, Dietz) agreed that Dahmer met the clinical definition
+     for necrophilia [2, 9].
+   - Visceral & Anatomical Fixation: Dahmer experienced intense sexual arousal from viewing
+     and handling internal human organs, viscera, and gleaming skeletal structures [2, 4].
+
+B. The Courtroom Disagreement on Impairment:
+   - The central controversy at trial was not whether Dahmer was a necrophile, but whether
+     necrophilia destroyed criminal responsibility:
+     * Defense View (Drs. Berlin & Becker): Necrophilia is a catastrophic paraphilic disorder
+       that creates an irresistible volitional drive, robbing the defendant of the capacity
+       to conform conduct to the law [5, 6].
+     * Prosecution View (Drs. Dietz & Fosdal): Necrophilia defines the nature of the erotic
+       appetite, but an atypical sexual desire does not compel murder. An individual retains the
+       volitional capacity to choose whether to act upon that desire [4, 9].
+
+--------------------------------------------------------------------------------
+2.5 Theory 5: Fear of Abandonment, Rejection & Narcissistic Hostility
+Anchor: #rejection-abandonment (Aliases: #palermo-hostility, #narcissistic-rage)
+Cross-Links: -> /topics/psychological-profile#palermo-testimony | -> /context#early-life
+--------------------------------------------------------------------------------
+
+Court-appointed psychiatrist Dr. George Palermo presented an influential clinical formulation
+that differed markedly from the defense's "lonely companion" thesis [1: WaPo Feb 7, 1992].
+
+A. Clinical Formulation:
+   - Dr. Palermo formulated Dahmer's crimes around deep-seated, infantile terror of abandonment,
+     extreme narcissism, and unconscious destructive hostility [1].
+   - Dynamics of Rejection: Dahmer possessed an intense fragility and could not tolerate the
+     prospect of a partner rejecting him, criticizing him, or leaving his presence [1].
+   - Preemptive Destruction: To prevent the pain of rejection, Dahmer preemptively destroyed
+     the individual. By sedating and killing the partner, Dahmer eliminated the possibility of
+     abandonment, turning an autonomous human being into a permanently subjugated, inanimate object [1].
+   - Sadistic Dominance: Dr. Palermo characterized Dahmer's actions in terms of sexual sadism,
+     power, and total subjugation, testifying: "It was an exercise of absolute power over life
+     and death" [1: WaPo Feb 7, 1992].
+
+B. Critical Evaluation:
+   - Dr. Palermo's formulation provides a valuable counter-weight to Dahmer's own self-exculpatory
+     narrative of benign companionship.
+   - However, the webapp maintains that Palermo's theory represents one expert's clinical
+     interpretation, not an undisputed consensus [1, 2].
+
+--------------------------------------------------------------------------------
+2.6 Theory 6: Destructive Hostility, Power & Sadism (The Withdrawn 1994 Paper)
+Anchor: #destructive-hostility (Aliases: #jentzen-palermo-paper, #withdrawn-paper)
+Cross-Links: -> /sources#methodology | -> /topics/psychological-profile#expert-matrix
+--------------------------------------------------------------------------------
+
+In 1994, Medical Examiner Dr. Jeffrey Jentzen, Dr. George Palermo, Dr. L. Thomas Johnson, and
+colleagues authored a paper examining destructive hostility and sadism in the Dahmer case [16:
+Jentzen et al. 1994].
+
+A. Full Citation & Institutional Status:
+   Jentzen, J., Palermo, G., Johnson, L. T., Ho, K.-C., Stormo, K. A., & Teggatz, J. (1994).
+   "Destructive Hostility: The Jeffrey Dahmer Case: A Psychiatric and Forensic Study of a
+   Serial Killer." Marquette University e-Publications [16].
+
+B. MANDATORY SOURCE STATUS NOTICE (WITHDRAWN):
+   - The institutional repository at Marquette University explicitly notes that this paper was
+     WITHDRAWN from formal publication [16].
+   - Methodological Mandate: The research webapp documents this article purely as a historical
+     artifact of contemporary forensic debate. The webapp explicitly notes its withdrawn status
+     and does NOT rely upon its conclusions as authoritative, peer-reviewed scientific proof [16].
+
+C. Conceptual Premise:
+   The paper argued that Dahmer harbored profound, unconscious sadistic rage that was channeled
+   into physical dismemberment, skull preservation, and anatomical defilement, reflecting an
+   active destructive hatred toward his victims rather than passive companionship [16].
+
+--------------------------------------------------------------------------------
+2.7 Theory 7: Longitudinal Behavioral Escalation & Offending Phases
+Anchor: #behavioral-escalation (Aliases: #offending-phases, #escalation-model)
+Cross-Links: -> /timeline#chronological-timeline | -> /case#offense-series
+--------------------------------------------------------------------------------
+
+A comprehensive empirical synthesis reveals that Dahmer's homicidal offending was not uniform;
+it evolved through three distinct chronological phases marked by escalating frequency and
+collapsing logistical control [10: Jentzen 2017; 13: FBI Part 01]:
+
+1. PHASE 1: ISOLATED ADOLESCENT OPPORTUNISM (June 18, 1978):
+   - Offense: Steven Hicks (Bath Township, Ohio).
+   - Offense Dynamics: Dahmer picked up an 18-year-old hitchhiker, drank beer, and bludgeoned
+     him with a barbell when Hicks attempted to leave [13: FBI Part 01 p. 27].
+   - Logistical Collapse & Hiatus: Panic-stricken dismemberment, initial shallow burial, later
+     exhumation, bone-crushing with a sledgehammer, and bone scattering. Followed by a nine-year
+     cessation of lethal violence during Army enlistment and early residence in West Allis [13].
+2. PHASE 2: WEST ALLIS & MILWAUKEE TRANSITIONAL OFFENDING (1987–1989):
+   - Offenses: Steven Tuomi, James Doxtator, Richard Guerrero, Anthony Sears.
+   - Offense Dynamics: Offending resumed in November 1987 at the Ambassador Hotel (Tuomi),
+     followed by three homicides at his grandmother's West Allis residence (225 24th Street) [13].
+   - Constraints & Sedation: Offenses were constrained by the physical presence of his grandmother;
+     Dahmer developed sedation techniques (triazolam) to prevent struggle and utilized basement
+     concealment; disposal intervals averaged ~6.5 months [13].
+3. PHASE 3: APARTMENT 213 ACCELERATION & COLLAPSE (May 1990 – July 1991):
+   - Offenses: Raymond Smith through Joseph Bradehoft (12 homicides in 14 months).
+   - Offense Dynamics: Total physical autonomy inside Apartment 213 at the Oxford Apartments.
+     Offending frequency escalated exponentially: 4 murders in 1990; 8 murders in the first
+     seven months of 1991 [13: FBI Part 01 p. 2].
+   - Terminal Disorganization: Trepanning experiments, retention of multiple decomposing bodies
+     simultaneously, severe odor crises, and total breakdown of concealment, terminating in the
+     escape of Tracy Edwards on July 22, 1991 [10, 13].
+
+
+================================================================================
+SECTION 3: SYNTHESIS MATRIX: COMPETING MOTIVATIONAL THEORIES
+================================================================================
+
+--------------------------------------------------------------------------------
+3.1 Comparative Framework of Explanatory Models
+Anchor: #theories-matrix (Aliases: #theories-comparison, #competing-explanations)
+--------------------------------------------------------------------------------
+
+| Theory / Model | Primary Proponents | Epistemological Tier | Core Explanatory Premise | Empirical Evidence in Record | Critical Limitations |
+|---|---|---|---|---|---|
+| **1. Possession & Control** | Gerald Boyle; Dr. Park Dietz | Tier 2 (Clinical Formulation) | Killing was instrumental to prevent abandonment and secure permanently unresisting companions | Statements to police; bleached skulls/skeletons; freeze-drying inquiry; trepanning | Does not negate conscious choice or criminal responsibility for murder |
+| **2. Behavioral Addiction** | Lankford & Hayes (2022); Dahmer (1993) | Tier 3 (Scholarly Hypothesis) | Homicidal behavior exhibited classic addiction tolerance, withdrawal, and escalating compulsion | Exponential escalation (1 -> 4 -> 12); 1993 Inside Edition self-report; failed cessation | DSM-5 does not recognize serial murder as an addiction; applied strictly by analogy |
+| **3. Alcohol as Tool** | Dr. Park Dietz | Tier 2 (Clinical Formulation) | Alcohol was used instrumentally to suppress moral qualms and deaden squeamishness before killing | Premeditated Halcion dosing; selective restraint when risk present; absence of blind rage | Does not diminish severity of chronic biological alcohol dependence |
+| **4. Paraphilia / Necrophilia** | Drs. Berlin, Becker, Wahlstrom, Fosdal | Tier 2 (Clinical Formulation) | Erotic arousal centered on somnophilia, unconscious passivity, and inanimate viscera | Consistent self-reports; polaroids of viscera; clinical consensus across all evaluators | Paraphilic desire explains sexual preference, but does not compel homicide |
+| **5. Rejection & Hostility** | Dr. George Palermo | Tier 2 (Clinical Formulation) | Fragile narcissism, terror of rejection, and unconscious rage drove preemptive lethal subjugation | Domination over victims; sadistic features; sudden violence when victims attempted to leave | Represents one expert's formulation rather than an empirical consensus |
+| **6. Destructive Hostility** | Jentzen, Palermo et al. (1994) | Tier 3 (Historical Artifact) | Dismemberment and skull preservation reflected active destructive sadism | Mutilation toolmarks; skull burr holes; acid dissolution of soft tissues | **WITHDRAWN** from publication; cannot be cited as peer-reviewed scientific consensus |
+| **7. Behavioral Escalation** | Jentzen (2017); FBI BSU Profiles | Tier 1/3 (Empirical Synthesis) | Offending progressed across 3 phases: adolescent panic, constrained sedation, and autonomous collapse | Chronological homicide intervals; shift from bone pulverization to vat dissolution | Descriptive of chronological pattern; does not identify underlying biological cause |
+
+
+================================================================================
+SECTION 4: EPISTEMOLOGICAL BOUNDARIES: WHAT THE RECORD SUPPORTS
+================================================================================
+
+--------------------------------------------------------------------------------
+4.1 Supported Findings vs. Unsupported Pop-Psychology
+Anchor: #theories-boundaries (Aliases: #epistemological-boundaries, #record-support)
+Cross-Links: -> /topics/psychological-profile#evaluations-boundaries | -> /overview#overview-conclusion
+--------------------------------------------------------------------------------
+
+A. WHAT THE HISTORICAL RECORD SUPPORTS (Empirically Grounded Findings):
+   1. Dahmer consistently described possession, companionship, and total control as central
+      conscious objectives of his offending [4, 13, 14].
+   2. All evaluating clinicians agreed that Dahmer suffered from severe necrophilia and severe
+      alcohol dependence [2, 4, 9].
+   3. Dahmer's offending demonstrated clear chronological escalation in frequency, logistics,
+      and preservation complexity, conforming empirically to tolerance and compulsion models [3].
+   4. Alcohol was utilized instrumentally to overcome conscious moral hesitation prior to killing [4].
+   5. The 1992 Milwaukee jury determined that Dahmer retained substantial capacity to appreciate
+      the wrongfulness of his acts and conform his behavior to the law [12].
+
+B. WHAT THE HISTORICAL RECORD DOES NOT SUPPORT (Unsupported Speculation):
+   1. The record does NOT support the claim that Dahmer was a helpless automaton who had "no
+      choice" in his killings; he demonstrated selective restraint and premeditated planning [4].
+   2. The record does NOT support the claim that childhood trauma, parental divorce, or 1964
+      hernia surgery mechanically caused him to become a serial killer.
+   3. The record does NOT support the claim that Dahmer killed out of racial hatred; evaluating
+      psychiatrists and the federal court record identified victim vulnerability, convenience,
+      and aesthetic physical preference rather than ideological racism as the primary drivers [1, 2].
+   4. The record does NOT support the claim that homosexuality caused or predisposed him to murder.
+   5. The record does NOT support the claim that any single theory provides a comprehensive,
+      all-encompassing explanation for the 17 murders.
+
+
+================================================================================
+SECTION 5: COMPLETE ANCHOR CONCORDANCE & CROSS-TAB NAVIGATION REGISTER
+================================================================================
+
+| Sub-Tab Section / Topic | Canonical Anchor ID | Declared Alias IDs | Timeline Target Anchor | Case / Context Cross-Link |
+|---|---|---|---|---|
+| **Theories & Motivations Overview** | `#topics-theories-motivations` | `#theories-motivations`, `#motivation-theories` | `/timeline#chronological-timeline` | `/topics/psychological-profile#expert-matrix` |
+| **Three Epistemological Tiers** | `#epistemological-tiers` | `#certainty-levels`, `#methodology-tiers` | `/timeline#chronological-timeline` | `/sources#methodology` |
+| **Theory 1: Possession & Control** | `#possession-control` | `#companionship-theory`, `#possession-over-pain` | `/timeline#chronological-timeline` | `/case#experimentation`, `/topics/psychological-profile#control-experiments` |
+| **Theory 2: Behavioral Addiction** | `#behavioral-addiction` | `#compulsion-model`, `#lankford-hayes-study` | `/timeline#chronological-timeline` | `/topics/theories-motivations#behavioral-escalation` |
+| **Theory 3: Alcohol as Tool** | `#alcohol-as-tool` | `#alcohol-disinhibition`, `#instrumental-drinking` | `/timeline#event-1982-state-fair` | `/context#revere-high-school-alcoholism`, `/topics/psychological-profile#dietz-testimony` |
+| **Theory 4: Sexual Gratification** | `#paraphilia-gratification` | `#necrophilic-fantasy`, `#sexual-motivation` | `/timeline#chronological-timeline` | `/topics/psychological-profile#expert-matrix` |
+| **Theory 5: Rejection & Hostility** | `#rejection-abandonment` | `#palermo-hostility`, `#narcissistic-rage` | `/timeline#event-1992-sanity-trial` | `/topics/psychological-profile#palermo-testimony` |
+| **Theory 6: Destructive Hostility** | `#destructive-hostility` | `#jentzen-palermo-paper`, `#withdrawn-paper` | `/timeline#event-1992-sanity-trial` | `/sources#methodology` |
+| **Theory 7: Behavioral Escalation** | `#behavioral-escalation` | `#offending-phases`, `#escalation-model` | `/timeline#chronological-timeline` | `/case#offense-series` |
+| **Theories Comparison Matrix** | `#theories-matrix` | `#theories-comparison`, `#competing-explanations` | `/timeline#chronological-timeline` | `/topics/psychological-profile#expert-matrix` |
+| **Epistemological Boundaries** | `#theories-boundaries` | `#epistemological-boundaries`, `#record-support` | `/timeline#chronological-timeline` | `/topics/psychological-profile#evaluations-boundaries` |
+
+
+================================================================================
+SECTION 6: NUMBERED BIBLIOGRAPHY & EVIDENTIARY CITATIONS
+================================================================================
+
+[1] Washington Post, "Psychiatrist Calls Dahmer a Sane Killer" (Feb. 7, 1992).
+    Reporting on Dr. George Palermo's testimony on rejection, hostility, and power.
+[2] Court TV Archive, State of Wisconsin v. Jeffrey Dahmer (1992 Sanity Phase Trial Broadcast).
+    Comprehensive video and transcript records of psychiatric testimony before Judge Laurence Gram.
+[3] Lankford, Adam, & Hayes, Jenna K. (2022). "Could Serial Killing Actually Be Addictive?
+    A Close Examination of Compulsion and Escalation in the Jeffrey Dahmer Case."
+    Sexual Health & Compulsivity, Vol. 29, Issue 3–4, pp. 198–224. DOI: 10.1080/26929953.2022.2126416.
+[4] Washington Post, "Dahmer Saw Freeze-Drying as Possibility" (Feb. 13, 1992).
+    Reporting on Dr. Park Elliott Dietz's testimony on freeze-drying, alcohol as tool, and sanity.
+[5] Washington Post, "Psychiatrist Says Dahmer Was Driven by Obsessions" (Feb. 4, 1992).
+    Reporting on Dr. Frederick Berlin's testimony on necrophilia and uncontrollable urges.
+[6] UPI Archives, "Psychologist Says Dahmer's Murders Were Sexually Driven" (Feb. 5, 1992).
+    Reporting on Dr. Judith Becker's testimony and cross-examination regarding released victims.
+[7] UPI Archives, "Dahmer Had Multiple Mental Disorders, Doctor Testifies" (Feb. 5, 1992).
+    Reporting on Dr. Carl Wahlstrom's testimony on borderline fragmentation and control experiments.
+[8] UPI Archives, "Psychologist Says Dahmer Sane, Acted Like Predator" (Feb. 6, 1992).
+    Reporting on Dr. Samuel Friedman's psychological testing findings and trophy attachment.
+[9] Washington Post, "Despite Necrophilia, Dahmer Is Not Insane, Psychiatrist Testifies" (Feb. 9, 1992).
+    Reporting on Dr. Frederick Fosdal's court-appointed testimony on necrophilia vs. mental disease.
+[10] Jentzen, Jeffrey, "Micro Disasters: The Case of Serial Killer Jeffrey Dahmer",
+     Academic Forensic Pathology, 7(3): 355–368 (2017). Forensic analysis of trepanning and logistics.
+[11] O'Meara, Gregory J., S.J., "Text, Context, and Pretext in State v. Jeffrey Dahmer"
+     (42 Marquette Law Review, 2009). Scholarly analysis of legal narrative construction.
+[12] Steven Egger, "The Less-Dead", SAGE Encyclopedia of Violent Crime (victimology framework).
+[13] Federal Bureau of Investigation, Jeffrey Lionel Dahmer FOIA Vault Records, Parts 01, 03, 06.
+     Washington, DC: FBI FOIA Release (Part 01, 68 pp.; Part 03, 60 pp.; Part 06, 74 pp.).
+[14] Patrick Kennedy, Grilling Dahmer: The Interrogation of "The Milwaukee Cannibal" (2022).
+     Primary documentation of Dahmer's 1991 interrogation statements.
+[15] Inside Edition, Prison Interview with Jeffrey Dahmer (Stone Phillips, Jan 11–12, 1993; aired Feb 1993).
+     Post-conviction self-report describing homicidal urges as "almost addictive".
+[16] Jentzen, J., Palermo, G., Johnson, L. T., Ho, K.-C., Stormo, K. A., & Teggatz, J. (1994).
+     "Destructive Hostility: The Jeffrey Dahmer Case: A Psychiatric and Forensic Study of a
+     Serial Killer." Marquette University e-Publications (Noting official WITHDRAWN status).
+
+================================================================================
+END OF SPECIFICATION: TAB 6 PART C (THEORIES & MOTIVATIONS)
+================================================================================

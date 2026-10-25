@@ -12,7 +12,12 @@ const targetFiles = [
   'plan/03b_case_investigation_and_trial_plan_v03_final_locked.txt',
   'plan/08_case_final_bibliography_v01.txt',
   'plan/table_1_the_victims_v04.md',
-  'plan/05_timeline_content_plan_v04_final_locked.txt'
+  'plan/05_timeline_content_plan_v04_final_locked.txt',
+  'plan/06a_analysis_psychological_profile_plan_v03_final_locked.txt',
+  'plan/06b_analysis_systemic_failures_plan_v03_final_locked.txt',
+  'plan/06c_analysis_theories_and_motivations_plan_v03_final_locked.txt',
+  'plan/08_analysis_final_bibliography_v01.txt',
+  'plan/07_impact_and_legacy_content_plan_v02_final_locked.txt'
 ];
 
 function auditFBICitations() {
