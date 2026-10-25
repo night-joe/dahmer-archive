@@ -1,7 +1,7 @@
 # The Jeffrey Dahmer Case Archive — Webapp Research & Development Guide
 
 **Last Updated:** 2026-10-25  
-**Current Phase:** Phase B — Content & Citation Verification (Tab-by-Tab)
+**Current Phase:** Phase 1 — Content & Citation Verification (Tab-by-Tab) *(corresponds to Phase B in Master Implementation Plan)*
 
 ---
 
@@ -22,7 +22,11 @@ This project is a serious, source-cited historical and research repository docum
 ## 2. Master Implementation Strategy
 
 > **Core Operating Rule:**  
-> **Finish claim-level citations and lock content across ALL tabs first, then build the HTML pages one by one.**
+> **Finish claim-level citations and lock content across ALL tabs first (Phase 1), then build the HTML pages one by one (Phase 2).**
+
+### Strategic Two-Phase Phasing:
+* **Phase 1: Content & Citation Verification (Master Plan Phase B):** Reconcile primary records (FBI Vault, dockets, contemporary reports), map 1-based page coordinates, resolve historical discrepancies, and lock all tab plans.
+* **Phase 2: HTML Page Implementation (Master Plan Phase D):** Construct semantic, accessible, responsive pages with cross-linking anchor IDs once content and citations are locked.
 
 ### Why this strategy:
 
@@ -37,10 +41,10 @@ This project is a serious, source-cited historical and research repository docum
 |#|Tab / Section|Target Working File(s)|Citations & Content Status|Last Updated|Notes / Key Milestones|
 |:-:|-|-|:-:|:-:|-|
 |**01**|**Overview**|[`plan/01_overview_content_plan_v02.txt`](plan/01_overview_content_plan_v02.txt)|**COMPLETED & LOCKED**|2026-10-19|Factual spine established; prototype [`overview.html`](overview.html) live.|
-|**02**|**Victims**|[`plan/04_victims_content_plan_v05_final_locked.txt`](plan/04_victims_content_plan_v05_final_locked.txt), [`plan/table_1_the_victims_v04.md`](plan/table_1_the_victims_v04.md)|**COMPLETED & LOCKED**|2026-10-25|100% primary DOB coverage; dagger (`†`) retired; 27-entry bibliography locked; 17 profiles fact-checked.|
-|**03**|**Timeline**|[`plan/05_timeline_content_plan_v04_final_locked.txt`](plan/05_timeline_content_plan_v04_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|Table 2 verified; 44 milestones cited with 1-based FBI locators; 33-entry bibliography locked; stable anchor IDs established.|
+|**02**|**Victims**|[`plan/04_victims_content_plan_v05_final_locked.txt`](plan/04_victims_content_plan_v05_final_locked.txt), [`plan/table_1_the_victims_v04.md`](plan/table_1_the_victims_v04.md)|**COMPLETED & LOCKED**|2026-10-25|100% primary DOB coverage; dagger (`†`) retired; 27-entry bibliography locked; 17 profiles fact-checked; verified in [`plan/Dahmer_Victims_Master_Citation_Tracker_v10.md`](plan/Dahmer_Victims_Master_Citation_Tracker_v10.md).|
+|**03**|**Timeline**|[`plan/05_timeline_content_plan_v04_final_locked.txt`](plan/05_timeline_content_plan_v04_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|Table 2 verified; 44 milestones cited with 1-based FBI locators; 33-entry bibliography locked; stable anchor IDs established (supersedes working draft [`plan/05_timeline_content_plan_v03.txt`](plan/05_timeline_content_plan_v03.txt)).|
 |**04**|**Context**|[`plan/02_context_content_plan_v03_final_locked.txt`](plan/02_context_content_plan_v03_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|Sections A & B audited; 32-source bibliography locked; primary FBI 1-based page coordinates verified (Part 01 p. 29); non-deterministic framing enforced.|
-|**05**|**Case**|[`plan/03a_case_offense_series_plan_v02.txt`](plan/03a_case_offense_series_plan_v02.txt), [`plan/03b_case_investigation_and_trial_plan_v02.txt`](plan/03b_case_investigation_and_trial_plan_v02.txt)|**[ ] IN PROGRESS**|2026-10-25|Offense pattern, investigation, arrest, and trial proceedings.|
+|**05**|**Case**|[`plan/03a_case_offense_series_plan_v02.txt`](plan/03a_case_offense_series_plan_v02.txt), [`plan/03b_case_investigation_and_trial_plan_v02.txt`](plan/03b_case_investigation_and_trial_plan_v02.txt)|**[ ] IN PROGRESS**|2026-10-25|Offense pattern, investigation, arrest, and trial proceedings; citation insertion & final locking active.|
 |**06**|**Analysis**|[`plan/06a_analysis_psychological_profile_plan_v02.txt`](plan/06a_analysis_psychological_profile_plan_v02.txt), [`plan/06b_analysis_systemic_failures_plan_v02.txt`](plan/06b_analysis_systemic_failures_plan_v02.txt), [`plan/06c_analysis_theories_and_motivations_plan_v02.txt`](plan/06c_analysis_theories_and_motivations_plan_v02.txt)|**[ ] PENDING**|—|Clinical psychiatry, 4 systemic failure themes, theories vs evidence.|
 |**07**|**Impact**|[`plan/07_impact_and_legacy_content_plan_v01.txt`](plan/07_impact_and_legacy_content_plan_v01.txt)|**[ ] PENDING FINAL RECONCILIATION**|2026-10-19|50 scholarly/primary citations drafted; needs global crosswalk verification.|
 |**08**|**Sources**|[`plan/08_sources_by_tab.txt`](plan/08_sources_by_tab.txt)|**[ ] PENDING GLOBAL CONSOLIDATION**|2026-10-19|Master repository directory governing `/sources.html`.|
@@ -67,7 +71,8 @@ This project is a serious, source-cited historical and research repository docum
 * **Victims Reconciled Concordance:** [`plan/Dahmer_Victims_Master_Citation_Tracker_v10.md`](plan/Dahmer_Victims_Master_Citation_Tracker_v10.md)
 * **Victims Master Table 1:** [`plan/table_1_the_victims_v04.md`](plan/table_1_the_victims_v04.md)
 * **Victims Final Locked Copy:** [`plan/04_victims_content_plan_v05_final_locked.txt`](plan/04_victims_content_plan_v05_final_locked.txt)
-* **Timeline Working Plan:** [`plan/05_timeline_content_plan_v03.txt`](plan/05_timeline_content_plan_v03.txt)
+* **Timeline Final Locked Copy:** [`plan/05_timeline_content_plan_v04_final_locked.txt`](plan/05_timeline_content_plan_v04_final_locked.txt) *(superseding working draft [`plan/05_timeline_content_plan_v03.txt`](plan/05_timeline_content_plan_v03.txt))*
+* **Context Final Locked Copy:** [`plan/02_context_content_plan_v03_final_locked.txt`](plan/02_context_content_plan_v03_final_locked.txt)
 * **Impact Final Research Dossier:** [`plan/07_impact_and_legacy_content_plan_v01.txt`](plan/07_impact_and_legacy_content_plan_v01.txt)
 * **Central Sources Register:** [`plan/08_sources_by_tab.txt`](plan/08_sources_by_tab.txt)
 * **Primary FBI Vault PDFs:** Located in [`assets/docs/`](assets/docs/) (`Dahmer_Part_01.pdf` [68 pp.], `Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf` [60 pp.], `Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf` [74 pp.]).
