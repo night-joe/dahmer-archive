@@ -661,8 +661,8 @@ Work through:
 2. Victims [COMPLETED & LOCKED — 04_victims_content_plan_v05_final_locked.txt]
 3. Timeline [COMPLETED & LOCKED — 05_timeline_content_plan_v04_final_locked.txt]
 4. Context [COMPLETED & LOCKED — 02_context_content_plan_v03_final_locked.txt]
-5. Case [CURRENT — 03a_case_offense_series_plan_v02.txt, 03b_case_investigation_and_trial_plan_v02.txt]
-6. Analysis
+5. Case [COMPLETED & LOCKED — 03a_case_offense_series_plan_v03_final_locked.txt, 03b_case_investigation_and_trial_plan_v03_final_locked.txt]
+6. Analysis [CURRENT — 06a_analysis_psychological_profile_plan_v02.txt, 06b_analysis_systemic_failures_plan_v02.txt, 06c_analysis_theories_and_motivations_plan_v02.txt]
 7. Impact
 8. Sources / Methodology
 
@@ -686,6 +686,21 @@ Only after explicit confirmation.
 
 CHANGE LOG
 ----------
+2026-10-25
+- Finalized and locked the Case Tab content specifications:
+  `03a_case_offense_series_plan_v03_final_locked.txt` and
+  `03b_case_investigation_and_trial_plan_v03_final_locked.txt`, accompanied by
+  authoritative standalone bibliography `plan/08_case_final_bibliography_v01.txt`.
+  Completed comprehensive multi-agent evidentiary audit across all 17 victim
+  homicide narratives (enforcing strict 4-milestone separation with verified
+  1-based FBI Vault physical page coordinates), the July 22, 1991 Tracy Edwards
+  escape and Apartment 213 forensic search, 60-hour detective interrogations,
+  charging evolution from 4 to 12 to 15 counts, statutory split between pre-1988
+  First-Degree Murder and post-1988 First-Degree Intentional Homicide (1987 Wis.
+  Act 399), bifurcated sanity trial under Wis. Stat. § 971.15, psychiatric
+  testimonies, 10–2 jury sanity verdict, and consecutive life sentences in
+  Wisconsin (15 terms / 936 years) and Ohio (16th life term).
+- Advanced Phase B status to Tab 6: Analysis.
 2026-10-25
 - Finalized and locked the Context Tab content specification:
   `02_context_content_plan_v03_final_locked.txt`. Completed multi-agent

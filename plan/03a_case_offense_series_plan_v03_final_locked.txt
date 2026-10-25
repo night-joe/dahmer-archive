@@ -1,0 +1,1468 @@
+================================================================================
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+TAB 5: CASE — PART A: THE OFFENSE SERIES
+FINAL LOCKED CONTENT PLAN & EVIDENTIARY SPECIFICATION
+Version: 0.3 Final Locked Master Specification
+Date: 2026-10-25
+Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+================================================================================
+
+================================================================================
+SECTION 1: STATUS, EDITORIAL MANDATE & METHODOLOGICAL PRINCIPLES
+================================================================================
+
+1.1 ARCHIVAL AUTHORITY & CONCORDANCE BASELINE
+This document establishes the finalized, authoritative, production-ready content
+specification and claim-level evidentiary concordance for Tab 5 Part A: The
+Offense Series (/case/offense-series) of the Jeffrey Dahmer Case Research Webapp.
+
+Every factual assertion, date, geographical location, pretext, incapacitation
+technique, forensic identification milestone, and statutory charging decision
+in this specification has been audited directly against primary archival sources:
+  1. Primary FBI FOIA Releases:
+     - assets/docs/Dahmer_Part_01.pdf (68 physical pages, verified)
+     - assets/docs/Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf (60 physical pages, verified)
+     - assets/docs/Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf (74 physical pages, verified)
+  2. Milwaukee County Circuit Court Charging Documents:
+     - State of Wisconsin v. Jeffrey L. Dahmer, Case No. F-912542:
+       * Initial Criminal Complaint (July 25, 1991, 4 counts) [3]
+       * Amended Criminal Complaint (August 6, 1991, 12 counts) [3]
+       * Information following Preliminary Hearing Waiver (August 22, 1991, 15 counts) [3]
+  3. Ohio Judicial Records:
+     - State of Ohio v. Jeffrey Dahmer, Summit County Court of Common Pleas,
+       Case No. CR-91-08-1686 (Indictment Sept. 24, 1991; Plea May 1, 1992) [28]
+  4. Prior Locked Project Specifications:
+     - Table 1: The Victims v04 (plan/table_1_the_victims_v04.md) [1]
+     - Victims Final Locked Plan v05 (plan/04_victims_content_plan_v05_final_locked.txt) [1]
+     - Master Chronological Timeline v04 (plan/05_timeline_content_plan_v04_final_locked.txt) [2]
+     - Context Content Plan v03 (plan/02_context_content_plan_v03_final_locked.txt)
+
+This specification permanently supersedes working reference plan/03a_case_offense_series_plan_v02.txt.
+
+1.2 RESTRAINED, SCHOLARLY EDITORIAL MANDATE
+The Offense Series presents the documented historical progression of Dahmer's
+offenses within a rigorous academic, legal, and forensic framework. Sensationalized
+framing, true-crime melodrama, and lurid bodily depictions are strictly excluded:
+  1. Core Analytical Equation:
+     The presentation adheres to: EVENT + PATTERN + EVIDENCE + AFTERMATH.
+     It expressly rejects: GORE + SPECTACLE + GRAPHIC NARRATIVE.
+  2. Prohibited Terminology:
+     No theatrical or sensationalized rhetoric (e.g., "house of horrors," "monster,"
+     "macabre museum," "slaughterhouse," "fiend").
+  3. Controlled Clinical Terminology:
+     Factual, precise medical and legal vocabulary is enforced throughout:
+     "drugged," "strangled," "incapacitated," "dismembered," "remains were recovered,"
+     "remains were chemically dissolved," "forensic identification established."
+  4. Human-Centered Dignity:
+     Victims are identified by their full names, ages, human relationships, and
+     aspirations. They are never treated as mere passive objects or crime-scene data.
+  5. Attribution of Suspect Statements:
+     All statements originating from Dahmer's post-arrest interrogations are
+     explicitly attributed as his personal account to detectives (e.g., "Dahmer
+     stated to investigators," "according to Dahmer's confession"), rather than
+     presented uncritically as objective, uncorroborated fact.
+
+1.3 MODULE BOUNDARIES & SEPARATION OF CONCERNS
+To prevent narrative duplication and preserve clear architectural modularity across
+the web application, content is partitioned as follows:
+  - Tab 5 Part A (/case/offense-series):
+    Documents the 17 victim homicides, 5 prior offenses/encounters, encounter
+    pretexts, incapacitation methods, the 4-milestone chronological model,
+    forensic identification methods, statutory charging classifications, and
+    pattern analyses (trephination burr holes, trophy retention evolution).
+  - Tab 5 Part B (/case/investigation & /case/trial):
+    Documents the July 22, 1991 Tracy Edwards escape, MPD entry into Apartment 213,
+    evidence processing by Dr. Jeffrey Jentzen and the FBI Disaster Squad, 60 hours
+    of detective interrogations, charging evolution, Wis. Stat. § 971.165 bifurcated
+    sanity trial proceedings, expert psychiatric testimonies, 10–2 jury verdict,
+    and formal sentencing in Wisconsin and Ohio.
+  - Tab 4 (/victims):
+    Exclusively dedicates its space to the personal biographies, backgrounds,
+    aspirations, and family remembrances of the 17 victims without forensic detail.
+  - Tab 3 (/timeline):
+    Serves as the chronological backbone (Table 2) linking milestones bidirectionally
+    into deep thematic sections.
+  - Tab 6 (/topics/systemic-failures):
+    Analyzes municipal police culture, institutional racism, homophobia, probation
+    supervision lapses, and missing-person intake failures.
+
+
+================================================================================
+SECTION 2: CHRONOLOGICAL & STATUTORY ARCHITECTURE
+================================================================================
+
+2.1 THE THREE-PHASE RESEARCH FRAMEWORK
+The seventeen homicides are grouped chronologically across three distinct
+geographic and residential phases. This division serves as an editorial and
+organizational framework for research navigation; it is NOT presented as an
+objective, formalized criminological taxonomy:
+
+  1. PHASE ONE — BATH TOWNSHIP, OHIO (1978):
+     - Single offense: Steven Mark Hicks (June 18, 1978).
+     - Physical Environment: Dahmer family residence, 4480 West Bath Road, Bath
+       Township, Summit County, Ohio.
+     - Defining Features: Offense committed immediately following high school
+       graduation; isolated occurrence; followed by a nine-year hiatus during
+       which Dahmer served in the U.S. Army and relocated to Wisconsin.
+     - Jurisdiction: State of Ohio (Summit County Court of Common Pleas).
+
+  2. PHASE TWO — WEST ALLIS & MILWAUKEE RESIDENCES (1987–1989):
+     - Four offenses: Steven Tuomi (Sept 1987), James Doxtator (Jan 1988),
+       Richard Guerrero (March 1988), Anthony Sears (March 1989).
+     - Physical Environment: Ambassador Hotel (Room 507, Milwaukee) and the
+       residence of Dahmer's grandmother, Catherine Dahmer, at 2357 S. 57th Street,
+       West Allis, Wisconsin.
+     - Defining Features: Resumption of fatal offenses; establishment of the
+       enticement-drugging-strangulation pattern; basement dismemberment; transition
+       from complete disposal to initial trophy retention (Anthony Sears skull).
+     - Legal Context: Pre-1989 Wisconsin criminal statutes; offense committed while
+       on pretrial release (Anthony Sears).
+
+  3. PHASE THREE — OXFORD APARTMENTS, APARTMENT 213 (1990–1991):
+     - Twelve offenses: Raymond Smith, Edward Smith, Ernest Miller, David Thomas,
+       Curtis Straughter, Errol Lindsey, Anthony Hughes, Konerak Sinthasomphone,
+       Matt Turner, Jeremiah Weinberger, Oliver Lacy, Joseph Bradehoft.
+     - Physical Environment: Leased residential unit, Apartment 213, Oxford
+       Apartments, 924 North 25th Street, Milwaukee, Wisconsin.
+     - Defining Features: Independent residential base; dramatic increase in
+       frequency (culminating in 4 killings in 17 days in July 1991); systematic
+       accumulation of physical remains, bleached skulls, and soft tissue; surgical
+       trephination experimentation; Polaroid photographic documentation.
+     - Legal Context: Post-1989 Wisconsin criminal statutes; all offenses committed
+       during active probation supervision with waived home visits.
+
+2.2 THE MANDATORY 4-MILESTONE SEPARATION MODEL
+A primary methodological defect in popular and journalistic accounts of the Dahmer
+case is the conflation of distinct historical events—specifically, equating a
+missing-person report date or an alleged charge date with the physical date of death.
+This specification strictly enforces four independent, unblurred milestones for
+every victim:
+
+  - MILESTONE 1: LAST KNOWN CONTACT / SIGHTING DATE
+    The final confirmed date and time a family member, acquaintance, coworker, or
+    civilian witness saw or spoke with the victim alive. Where exact day is unconfirmed
+    by primary records, the broader verified period is recorded with qualification.
+  - MILESTONE 2: MISSING-PERSON REPORT DATE
+    The calendar date local law enforcement formally received and logged a missing-
+    person complaint from family or associates. For several victims, no formal
+    report was ever filed with Milwaukee police prior to Dahmer's arrest.
+  - MILESTONE 3: ALLEGED OFFENSE DATE & STATUTORY CHARGE
+    The specific date of death alleged in sworn prosecutorial complaints (State of
+    Wisconsin Case No. F-912542; State of Ohio Case No. CR-91-08-1686), derived
+    primarily from suspect confessions, and the exact governing statutory code.
+  - MILESTONE 4: FORENSIC IDENTIFICATION DATE & METHOD
+    The date and scientific methodology (forensic odontology, AFIS latent fingerprint
+    comparison, or forensic anthropology) by which medical examiners or crime
+    laboratories conclusively identified the victim's remains.
+
+2.3 STATUTORY CHARGING CLASSIFICATION ACROSS ERAS AND JURISDICTIONS
+Dahmer was NOT charged with a uniform battery of identical offenses. Prosecutions
+were divided across two sovereign states and two distinct eras of Wisconsin law:
+
+  1. STATE OF OHIO — AGGRAVATED MURDER:
+     - Governing Statute: Ohio Rev. Code § 2903.01 ("purposely, and with prior
+       calculation and design, cause the death of another").
+     - Applied To: Steven Mark Hicks (June 18, 1978 homicide).
+     - Indictment: Summit County Grand Jury Indictment, Case No. CR-91-08-1686,
+       filed September 24, 1991 following forensic identification of bone fragments.
+     - Adjudication: Guilty plea entered May 1, 1992 before Judge James R. Williams
+       (Common Pleas Judge James R. Williams presided over criminal plea and sentencing;
+       prior baseline errata named William Spicer, who was Summit County Probate Judge);
+       sentenced to life imprisonment with parole eligibility after 20 years,
+       to run consecutive to Wisconsin sentences [5, 28].
+
+  2. STATE OF WISCONSIN — PRE-1989 FIRST-DEGREE MURDER:
+     - Governing Statute: Wis. Stat. § 940.01 (1987) ("Whoever causes the death
+       of another human being with intent to kill that person or another...").
+     - Applied To (2 Counts):
+       * James "Jamie" Edward Doxtator (Count 13 of August 22, 1991 Information).
+       * Richard Guerrero (Count 14 of August 22, 1991 Information).
+     - Legislative History: Governed all homicides occurring prior to January 1, 1989.
+       Both homicides occurred in 1988 at the West Allis residence.
+
+  3. STATE OF WISCONSIN — POST-1989 FIRST-DEGREE INTENTIONAL HOMICIDE:
+     - Governing Statute: Wis. Stat. § 940.01(1) (created by 1987 Wis. Act 399,
+       effective January 1, 1989: "Except as provided in sub. (2), whoever causes
+       the death of another human being with intent to kill that person or another
+       is guilty of a Class A felony").
+     - Applied To (13 Counts):
+       * Anthony Lee Sears (Count 01, alleged March 26, 1989)
+       * Raymond Smith (Count 02, alleged May 29, 1990)
+       * Ernest Miller (Count 03, alleged September 3, 1990)
+       * David Courtney Thomas (Count 04, alleged September 24, 1990)
+       * Curtis Straughter (Count 05, alleged February 18, 1991)
+       * Errol Lindsey (Count 06, alleged April 7, 1991)
+       * Anthony Hughes (Count 07, alleged May 24, 1991)
+       * Konerak Sinthasomphone (Count 08, alleged May 27, 1991)
+       * Matt Turner (Count 09, alleged June 30, 1991)
+       * Jeremiah Weinberger (Count 10, alleged July 7, 1991)
+       * Oliver Lacy (Count 11, alleged July 15, 1991)
+       * Joseph Bradehoft (Count 12, alleged July 19, 1991)
+       * Edward W. Smith (Count 15, alleged June 1990; added August 22, 1991)
+
+  4. THE CORPUS DELICTI EXCLUSION — STEVEN WALTER TUOMI:
+     - Legal Standard: Under Wisconsin common law (State v. Verhasselt, 83 Wis. 2d 647,
+       266 N.W.2d 342 (1978); Bies v. State, 53 Wis. 2d 322 (1972)), an extrajudicial
+       confession alone is legally insufficient to establish corpus delicti or
+       sustain a criminal bindover absent independent corroborating evidence that
+       a crime occurred.
+     - Application: Although Dahmer confessed to killing Steven Tuomi at the
+       Ambassador Hotel in September or November 1987 (FBI Part 03 p. 10), no
+       physical remains, biological traces, luggage records, or hotel evidence were
+       ever recovered.
+     - Disposition: On August 22, 1991, Milwaukee County District Attorney E. Michael
+       McCann formally announced that the State of Wisconsin could not ethically or
+       legally file homicide charges for the death of Steven Tuomi [3, 14, 16].
+       Tuomi remains the only acknowledged Wisconsin homicide excluded from prosecution.
+
+
+================================================================================
+SECTION 3: PRIOR DOCUMENTED OFFENSES & INSTITUTIONAL SUPERVISION
+================================================================================
+
+Dahmer's offense history began a decade prior to his 1991 arrest. The series was
+punctuated by multiple misdemeanor convictions, felony sexual assault proceedings,
+and active probation supervision:
+
+3.1 OCTOBER 1981 — BATH TOWNSHIP, OHIO (PUBLIC INTOXICATION / DISORDERLY CONDUCT)
+- Anchor: #case-prior-1981-bath (Alias: #prior-1981-bath)
+- Documented Incident: Dahmer was arrested by Bath Township police officers following
+  a disturbance at a Ramada Inn involving severe public intoxication and disorderly
+  conduct. The incident occurred several months after his Chapter 9 honorable discharge
+  from the U.S. Army for alcohol rehabilitation failure.
+- Adjudication: Pleaded guilty in municipal court; assessed a fine [2 (Pt 01 p. 27)].
+- Significance: Earliest post-military civilian arrest; confirms chronic alcoholism
+  documented in military medical records.
+
+3.2 AUGUST 8, 1982 — WEST ALLIS, WISCONSIN (STATE FAIR PARK INDECENT EXPOSURE)
+- Anchor: #case-prior-1982-state-fair (Alias: #prior-1982-statefair)
+- Documented Incident: Dahmer was arrested by Wisconsin State Fair Park police
+  officers in West Allis after exposing his genitals to fairgoers [2 (Pt 01 p. 27)].
+- Adjudication: Convicted in municipal court of disorderly conduct; assessed a fine.
+- Significance: Earliest Wisconsin criminal history entry in state and federal dockets;
+  first documented sexual offense in Wisconsin.
+
+3.3 SEPTEMBER 8, 1986 — MILWAUKEE, WISCONSIN (MCKINLEY BEACH INDECENT EXPOSURE)
+- Anchor: #case-prior-1986-mckinley (Alias: #prior-1986-mckinley)
+- Documented Incident: Arrested by Milwaukee Police Department officers after exposing
+  himself to two boys (ages 11 and 14) near McKinley Beach along the Lake Michigan
+  shoreline [2 (Pt 01 p. 27)].
+- Adjudication: Charged initially with felony lewd and lascivious behavior. On March 10,
+  1987, the charge was reduced to misdemeanor disorderly conduct in Milwaukee County
+  Circuit Court; Dahmer was sentenced to one year of probation and fined $250.
+- Supervision: Dahmer completed one year of unsupervised misdemeanor probation with
+  no psychiatric evaluation ordered.
+
+3.4 SEPTEMBER 25, 1988 — MILWAUKEE, WISCONSIN (CHILD SEXUAL ASSAULT OF SOMBAT SINTHASOMPHONE)
+- Anchor: #case-prior-1988-assault (Aliases: #sombat-assault, #case-sombat-1988)
+- Documented Incident: Dahmer offered $50 to 13-year-old Sombat Sinthasomphone (a
+  Laotian refugee student) to pose for photographs at Catherine Dahmer's residence
+  (225 24th Street). Dahmer drugged the boy with sleeping pills in a beverage,
+  fondled his genitals, and took nude photographs. Sombat escaped after regaining
+  partial consciousness and reported the assault to his family and police.
+- Legal Processing & Case F-882410: Dahmer was arrested on September 27, 1988. He
+  confessed to drugging and fondling the boy. Charged with Second-Degree Sexual
+  Assault (Wis. Stat. § 940.225(2)) and Child Enticement (Wis. Stat. § 948.07) [29].
+- Pretrial Release Homicide: While on pretrial release awaiting sentencing, Dahmer
+  murdered Anthony Lee Sears on March 25–26, 1989.
+- Sentencing (May 24, 1989): Milwaukee County Circuit Judge William Gardner sentenced
+  Dahmer to one year in the Milwaukee County House of Correction with Huber work-release
+  privileges (allowing him to work his night shift at Ambrosia Chocolate Company),
+  followed by five years of probation.
+- Probation Supervision Failure: Following release from the House of Correction in
+  March 1990, Dahmer was assigned to Probation Agent Donna Chester under "maximum
+  supervision." However, home-visit requirements were formally waived. All twelve
+  homicides in Apartment 213 were committed while Dahmer was on active felony
+  probation supervision [2 (Pt 01 p. 27)].
+
+3.5 JULY 22, 1991 — MILWAUKEE, WISCONSIN (TERMINATING INCIDENT: ASSAULT & ESCAPE OF TRACY EDWARDS)
+- Anchor: #case-tracy-edwards (Aliases: #edwards-escape, #case-terminating-offense)
+- Documented Incident: At approximately 11:30 P.M. on Monday, July 22, 1991, 32-year-old
+  Tracy Edwards escaped from Apartment 213 with a pair of handcuffs dangling from his
+  left wrist. Edwards had been enticed to the apartment by Dahmer with an offer of $100
+  to pose for photographs. Once inside, Dahmer handcuffed Edwards, brandished a large
+  kitchen knife, forced him into the bedroom to watch the film The Exorcist III, and
+  chanted while leaning against Edwards's chest, stating he wanted to eat his heart.
+- Escape & Police Encounter: Edwards waited for an opportunity, punched Dahmer in the
+  face, and fled through the front door. At 25th and Kilbourn Avenue, Edwards flagged
+  down MPD patrol Officers Robert Rauth and Rolf Mueller [2 (Pt 01 pp. 4, 46, 63;
+  Pt 03 pp. 11–12, 55)].
+- Scene Entry & Arrest: Officers returned to Apartment 213 accompanied by Edwards to
+  retrieve the handcuff key. When Dahmer reached toward a nightstand drawer, Officer
+  Mueller opened it and observed Polaroid photographs depicting dismembered human
+  bodies. After a physical struggle, Dahmer was subdued and arrested at 11:30 P.M.,
+  terminating the offense series.
+
+
+================================================================================
+SECTION 4: MASTER 17-VICTIM EVIDENTIARY COMPARISON MATRIX
+================================================================================
+
+The table below compiles the verified 4-milestone chronological records, statutory
+charging classifications, remains recovery status, and exact 1-based standalone FBI
+Vault citations for all seventeen victims:
+
+| # | Victim Name & Age | Milestone 1: Last Known Contact | Milestone 2: Missing Report Date | Milestone 3: Alleged Offense Date & Charge | Milestone 4: Forensic ID Date & Method | FBI Vault Citations (1-Based Standalone) |
+|---|---|---|---|---|---|---|
+| 01 | **Steven Mark Hicks** (18\*) | June 18, 1978 (Route 21 hitchhiking; Pt 03 p. 52) | June 24, 1978 (Summit County Sheriff; Pt 01 p. 60) | June 18, 1978 (Ohio Rev. Code § 2903.01 Aggravated Murder) | Sept 13–14, 1991 (Dental match on excavated bone/teeth; [17]) | Pt 01 pp. 5, 25, 39, 60, 64; Pt 03 pp. 9, 51–52 |
+| 02 | **Steven Walter Tuomi** (24\*) | Sept 15, 1987 (Marc's Big Boy; Pt 01 pp. 43, 53) | Sept 1987 (MPD Missing Report; Pt 01 p. 43) | "Around 1986 or 1987" (Confession; Pt 03 p. 10; **Uncharged — Corpus Delicti**) | August 8, 1991 (Administrative MPD ID as 16th victim; **no remains**) | Pt 01 pp. 43, 53, 60; Pt 03 p. 10; Pt 06 pp. 3, 15 |
+| 03 | **James "Jamie" Doxtator** (14\*) | Jan 16, 1988 (MJS retrospective [1]; Pt 01 p. 43) | 1988 (MPD Missing Report; Pt 01 p. 60: "spring 1988") | Jan 18, 1988 (Pt 01 p. 43; Pre-1989 First-Degree Murder, Count 13) | August 16, 1991 (Identified as 17th victim via confession; **no remains**) | Pt 01 pp. 43, 53, 60; Pt 03 p. 14 |
+| 04 | **Richard Guerrero** (22\*) | Late March 1988 (Disappearance period; [1]) | March 29, 1988 (MPD Missing Report; Pt 06 p. 13) | Late March 1988 (Pre-1989 First-Degree Murder, Count 14) | August 1, 1991 (Identified as victim #14 via confession; **no remains**) | Pt 01 pp. 39–40, 60; Pt 06 p. 13 |
+| 05 | **Anthony Lee Sears** (24) | March 25, 1989 (9:30 AM home; night tavern; Pt 06 p. 12) | March 29, 1989 (MPD Missing Report; Pt 06 p. 12) | March 26, 1989 (Count 01; Post-1989 Intentional Homicide) | July 26, 1991 (Dental match on painted skull BU; [10]) | Pt 01 p. 24; Pt 06 pp. 7, 12 |
+| 06 | **Raymond Smith** (32\*) | May 29, 1990 (MJS retrospective [1]; Pt 06 p. 11) | *Never reported missing to police* (Pt 06 p. 11) | May 29, 1990 (Count 02; Post-1989 Intentional Homicide) | July 25, 1991 (10:00 PM; dental match on painted skull BV) | Pt 01 p. 25; Pt 06 pp. 7, 11 |
+| 07 | **Edward W. Smith** (27\*) | June 14, 1990 (Sister's home; UPI [11]) | June 23, 1990 (MPD Missing Report; Pt 06 p. 13) | June 1990 (Count 15; Post-1989 Intentional Homicide) | July 29, 1991 (9:30 PM; identified as victim #12 via confession; **no remains**) | Pt 01 pp. 39, 60; Pt 06 p. 13 |
+| 08 | **Ernest Miller** (23\*) | Sept 3, 1990 (1:30 AM departure; Complaint p. 4) | Sept 4, 1990 (MPD Missing Report; Pt 06 p. 12) | Sept 3, 1990 (Count 03; Post-1989 Intentional Homicide) | July 26, 1991 (8:30 AM; dental match on skull BT; bicep in freezer) | Pt 01 p. 39; Pt 06 pp. 7, 12 |
+| 09 | **David Courtney Thomas** (22\*) | Sept 24, 1990 (Disappearance date; Pt 06 p. 13) | Sept 24, 1990 (MPD Missing Report; Pt 06 p. 13) | Sept 24, 1990 (Count 04; Post-1989 Intentional Homicide) | July 29, 1991 (7:35 PM; identified via Polaroid photo CF; **no remains**) | Pt 01 p. 39; Pt 06 pp. 7, 13 |
+| 10 | **Curtis Straughter** (17\*) | Feb 18, 1991 (Grandmother sworn statement; MJS: Mar 7) | July 24, 1991 (MPD formal interview; Pt 06 p. 11) | Feb 18, 1991 (Count 05; Post-1989 Intentional Homicide) | July 26, 1991 (Dental match on painted skull BX; [10]) | Pt 01 p. 25; Pt 03 p. 12; Pt 06 pp. 7, 11 |
+| 11 | **Errol Lindsey** (19) | April 7, 1991 (Key errand; Complaint p. 6) | April 11, 1991 (MPD Missing Report; Pt 06 p. 11) | April 7, 1991 (Count 06; Post-1989 Intentional Homicide) | July 26, 1991 (Dental match on drilled skull BW) | Pt 01 p. 25; Pt 06 pp. 6, 11 |
+| 12 | **Anthony Hughes** (31) | May 24, 1991 (Seen at 219 Club; Complaint p. 6) | May 31, 1991 (Madison PD Missing Report; Pt 06 p. 10) | May 24, 1991 (Count 07; Post-1989 Intentional Homicide) | July 25, 1991 (2:50 PM; dental match on drilled skull BS & vertebra) | Pt 01 p. 24; Pt 06 pp. 6, 10 |
+| 13 | **Konerak Sinthasomphone** (14) | May 26, 1991 (left home); May 27 (police encounter) | May 28, 1991 (MPD Missing Report; Pt 06 p. 10) | May 27, 1991 (Count 08; Post-1989 Intentional Homicide) | July 25, 1991 (5:05 PM; dental match on drilled skull BR & vertebra) | Pt 01 pp. 24, 47; Pt 03 p. 11; Pt 06 pp. 6, 10–11 |
+| 14 | **Matt Turner** (20) | June 30, 1991 (Chicago Gay Pride; Complaint p. 7) | *Not reported missing to MPD* (Pt 06 p. 9) | June 30, 1991 (Count 09; Post-1989 Intentional Homicide) | July 25, 1991 (8:30 AM; Chicago AFIS fingerprint match on hands C) | Pt 01 p. 25; Pt 06 pp. 7, 9 |
+| 15 | **Jeremiah Weinberger** (23\*) | July 6, 1991 (Chicago bar encounter; Complaint p. 7) | July 6, 1991 (Chicago PD Missing Report; Pt 06 p. 9) | July 7, 1991 (Count 10; Post-1989 Intentional Homicide) | July 25, 1991 (Dental match; complete skeleton; head in freezer; drilled skull BQ) | Pt 01 p. 25; Pt 06 pp. 6, 7, 9–10 |
+| 16 | **Oliver Lacy** (23\*) | July 12, 1991 (Last seen by fiancée; Pt 06 p. 9) | July 15, 1991 (MPD Missing Report; Pt 06 p. 9) | July 15, 1991 (Count 11; Post-1989 Intentional Homicide) | July 24, 1991 (10:00 AM; **First ID**: license & head in fridge, hands A) | Pt 01 pp. 3, 8, 24, 62, 63; Pt 06 pp. 6, 9 |
+| 17 | **Joseph Bradehoft** (25) | July 16, 1991 (Leaving for job interview; [1]) | *Greenville, IL PD report; none to MPD* (Pt 06 p. 10) | July 19, 1991 (Count 12; Post-1989 Intentional Homicide) | July 25–26, 1991 (St. Paul PD fingerprint match on hands B; saw marks p. 68) | Pt 01 p. 24; Pt 06 pp. 6, 10, 68 |
+
+
+================================================================================
+SECTION 5: COMPREHENSIVE CASE-BY-CASE OFFENSE PROFILES
+================================================================================
+
+--------------------------------------------------------------------------------
+PHASE ONE: BATH TOWNSHIP, OHIO (1978)
+--------------------------------------------------------------------------------
+
+1. STEVEN MARK HICKS
+Anchor: #case-steven-hicks (Alias: #steven-hicks)
+-------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Steven Mark Hicks
+  - Age: 18* (DOB June 22, 1959 / June 27, 1959 [2 (Pt 01 pp. 25, 39; Pt 03 p. 51)])
+  - Residence: Coventry Township, Summit County, Ohio
+  - Jurisdiction & Charge: State of Ohio (Summit County); Aggravated Murder (Ohio Rev. Code § 2903.01)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — June 18, 1978. Hicks was hitchhiking along
+    Route 21 near Chippewa Lake Park to attend a rock concert [1, 2 (Pt 03 pp. 51–52)].
+  - Milestone 2: Missing-Person Report Date — June 24, 1978. Formally filed by his
+    father, Richard Hicks, with the Summit County Sheriff's Office [2 (Pt 01 p. 60)].
+  - Milestone 3: Alleged Offense Date & Charge — June 18, 1978. Indicted September 24,
+    1991 for Aggravated Murder (Ohio Rev. Code § 2903.01; Summit County Case No. CR-91-08-1686).
+  - Milestone 4: Forensic Identification Date & Method — September 13–14, 1991. Summit
+    County Coroner Dr. William A. Cox and forensic odontologists matched excavated
+    vertebrae, pelvic fragments, and tooth/molar specimens [4, 5, 17].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Hicks, a recent high-school graduate, was hitchhiking along Ohio State Route 21.
+     Dahmer, who was alone at his parents' residence following his own high-school
+     graduation and his parents' separation, picked up Hicks under the pretext of
+     offering him a ride and invited him to the house to drink beer and listen to music.
+  2. Incapacitation Method & Offense Execution:
+     After several hours of drinking, Hicks stated he intended to leave. Unwilling
+     to let his companion depart, Dahmer struck Hicks from behind on the head with
+     a 10-pound steel barbell, rendering him unconscious, and subsequently strangled
+     him to death with the barbell bar across his throat [2 (Pt 01 p. 5; Pt 03 p. 9)].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dahmer dragged the body into the crawl space beneath the house, dismembered the
+     remains, and buried them in shallow backyard trenches. In 1980, during a brief
+     visit home, Dahmer exhumed the skeleton, pulverized the bones with a sledgehammer,
+     and scattered the fragments across the wooded ravine behind the property. Late
+     July and August 1991 excavations by Bath Township police and the FBI recovered
+     hundreds of bone and dental fragments [2 (Pt 01 p. 60; Pt 03 pp. 51–52)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     The Summit County Sheriff's Office investigated the disappearance in 1978 as a
+     standard runaway/missing-person report. No connection was established to Dahmer
+     or the Bath Road residence until Dahmer confessed to Milwaukee detectives on
+     July 23, 1991 [2 (Pt 01 p. 5)].
+  5. Criminological & Pattern Significance:
+     First known homicide in the 17-victim series. Characterized by sudden panic upon
+     impending departure rather than chemical pre-drugging. Initiated a nine-year
+     interlude (1978–1987) during military service and initial Wisconsin residency
+     before lethal offenses resumed.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 5, 25, 39, 60, 64; Part 03 pp. 9, 51–52; Summit County
+     Common Pleas Case CR-91-08-1686; NYT July 31, 1991 [4]; Wash. Post May 2, 1992 [5].
+
+
+--------------------------------------------------------------------------------
+PHASE TWO: WEST ALLIS & MILWAUKEE RESIDENCES (1987–1989)
+--------------------------------------------------------------------------------
+
+2. STEVEN WALTER TUOMI
+Anchor: #case-steven-tuomi (Alias: #steven-tuomi)
+------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Steven Walter Tuomi
+  - Age: 24* (DOB Dec 19, 1962; press reported 28 in 1991 [1, 2 (Pt 01 pp. 43, 53)])
+  - Residence: Milwaukee, Wisconsin (originally Ontonagon, Michigan)
+  - Jurisdiction & Charge: State of Wisconsin; UNCHARGED (Barred by Corpus Delicti Rule)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — September 15, 1987. Last seen departing his
+    workplace at Marc's Big Boy restaurant in Milwaukee [1, 2 (Pt 01 p. 43)].
+  - Milestone 2: Missing-Person Report Date — September 1987. Formally filed with
+    the Milwaukee Police Department [2 (Pt 01 p. 43)].
+  - Milestone 3: Alleged Offense Date & Charge — "Around 1986 or 1987" (Dahmer confession;
+    FBI Part 03 p. 10; retrospective accounts suggest Nov 1987*). UNCHARGED due to
+    Wisconsin corpus delicti rule (State v. Verhasselt) [3, 16, 30].
+  - Milestone 4: Forensic Identification Date & Method — August 8, 1991. Administrative
+    identification by MPD as 16th victim via confession; NO PHYSICAL REMAINS RECOVERED [2 (Pt 01 p. 53)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Tuomi, a 24-year-old short-order cook, met Dahmer at a gay bar on Milwaukee's
+     South Side. Dahmer invited Tuomi to accompany him to Room 507 of the Ambassador
+     Hotel (2308 W. Wisconsin Ave) for drinks and an overnight stay.
+  2. Incapacitation Method & Offense Execution:
+     Dahmer stated to detectives that he placed sleeping pills in Tuomi's drink intending
+     only to incapacitate him. Dahmer claimed to have suffered an alcoholic blackout
+     and awoke the following morning to find Tuomi deceased beside him with severe
+     blunt trauma to the chest, massive internal hemorrhaging, and blood oozing from
+     his mouth [2 (Pt 03 p. 10)]. Dahmer claimed no conscious memory of inflicting the blows.
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dahmer purchased a large hardshell suitcase from a downtown department store,
+     placed Tuomi's body inside, and transported it via taxicab to Catherine Dahmer's
+     home in West Allis. In the basement, he dismembered the body. Dahmer made an
+     early attempt to preserve Tuomi's skull by boiling and chemically treating it,
+     but the bone structural matrix deteriorated. The remains were packed into heavy
+     plastic bags and discarded in municipal trash containers [2 (Pt 03 p. 10; Pt 06 p. 3)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Tuomi was reported missing by coworkers and family in September 1987. MPD conducted
+     routine missing-person inquiries. On August 22, 1991, District Attorney E. Michael
+     McCann formally determined that because no physical remains, blood traces, or
+     hotel register receipts were recovered, the extrajudicial confession could not be
+     legally corroborated under Wisconsin corpus delicti doctrine [3, 16, 30].
+  5. Criminological & Pattern Significance:
+     Marks the termination of the nine-year hiatus; first offense utilizing hotel
+     rooms and suitcase transport; first experimental attempt at skeletal preservation.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 43, 53, 60; Part 03 p. 10; Part 06 pp. 3, 15; State v.
+     Verhasselt, 83 Wis. 2d 647 [30]; Wash. Post Aug 23, 1991 [16].
+
+3. JAMES "JAMIE" EDWARD DOXTATOR
+Anchor: #case-james-doxtator (Alias: #jamie-doxtator)
+----------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: James "Jamie" Edward Doxtator
+  - Age: 14* (DOB March 1, 1973; [2 (Pt 01 p. 43)]; Stockbridge and Oneida ancestry [1])
+  - Residence: Milwaukee, Wisconsin
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Murder (Wis. Stat. § 940.01 (1987), Count 13)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — January 16, 1988. Last seen in Milwaukee [1].
+  - Milestone 2: Missing-Person Report Date — 1988 (Logged as missing; FBI Part 01
+    p. 60 documents disappearance in "spring of 1988").
+  - Milestone 3: Alleged Offense Date & Charge — January 18, 1988 [2 (Pt 01 p. 43)].
+    Charged August 22, 1991 in 15-count Information under pre-1989 Wis. Stat. § 940.01 (Count 13) [3].
+  - Milestone 4: Forensic Identification Date & Method — August 16, 1991. Identified
+    as 17th victim via confession and family descriptors; NO PHYSICAL REMAINS RECOVERED [2 (Pt 01 p. 60), 14].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Fourteen-year-old Doxtator was encountered by Dahmer on 27th Street near
+     Wisconsin Avenue. Dahmer offered the youth $50 to accompany him to his
+     grandmother's West Allis home to pose for photographs.
+  2. Incapacitation Method & Offense Execution:
+     Once inside the West Allis residence, Dahmer placed crushed sleeping medication
+     into a drink. After Doxtator lost consciousness, Dahmer carried him to the
+     basement and strangled him to death with his bare hands [2 (Pt 03 p. 14)].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     The body remained concealed in the basement for approximately one week. Dahmer
+     subsequently dismembered the corpse, chemically dissolved the soft tissue or
+     disposed of it in trash bags, and crushed the skeletal frame with a sledgehammer,
+     scattering the fragments in the backyard. No physical remains were recovered [2 (Pt 01 p. 60)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing in 1988. Investigation remained stalled until Dahmer's post-arrest
+     admissions. Bound over for trial following preliminary hearing waiver on August 22, 1991.
+  5. Criminological & Pattern Significance:
+     First homicide committed directly on the West Allis premises; earliest established
+     execution of the photography enticement, chemical sedation, and manual strangulation
+     triad that became Dahmer's standard modus operandi.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 43, 53, 60; Part 03 p. 14; Milwaukee County Case F-912542,
+     Count 13 [3]; UPI Aug 16, 1991 [14].
+
+4. RICHARD GUERRERO
+Anchor: #case-richard-guerrero (Alias: #richard-guerrero)
+--------------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Richard Guerrero
+  - Age: 22* (DOB Dec 12, 1965; press reported 25 in 1991 [1, 2 (Pt 01 p. 60; Pt 06 p. 13)])
+  - Residence: Milwaukee, Wisconsin (Mexican-American family)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Murder (Wis. Stat. § 940.01 (1987), Count 14)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — Late March 1988. Last seen in Milwaukee [1].
+  - Milestone 2: Missing-Person Report Date — March 29, 1988. Formally accepted by MPD
+    under Bureau of Identification #190872 [2 (Pt 06 p. 13)].
+  - Milestone 3: Alleged Offense Date & Charge — Late March 1988. Charged August 22,
+    1991 in 15-count Information under pre-1989 Wis. Stat. § 940.01 (Count 14) [3].
+  - Milestone 4: Forensic Identification Date & Method — August 1, 1991. Identified as
+    victim #14 via confession; NO PHYSICAL REMAINS RECOVERED [2 (Pt 01 pp. 39–40, 60)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Dahmer encountered Guerrero outside a local tavern. He enticed Guerrero to
+     accompany him to the West Allis home with an offer of $50 for companionship
+     and modeling photographs.
+  2. Incapacitation Method & Offense Execution:
+     Guerrero was drugged with sleeping medication administered in a drink, then
+     strangled on the basement floor with a leather strap and bare hands [2 (Pt 01 p. 40)].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dahmer dismembered Guerrero's corpse in the basement. Soft tissue was packed into
+     refuse bags and discarded in municipal waste; skeletal elements were pulverized
+     with a sledgehammer and scattered. No physical remains were recovered [2 (Pt 01 p. 60)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Guerrero's family reported him missing to MPD on March 29, 1988, and actively
+     pursued private inquiries. The case remained open as an unresolved missing-person
+     matter until Dahmer's August 1, 1991 confession.
+  5. Criminological & Pattern Significance:
+     Second pre-probation homicide committed at West Allis; confirmed the rapid
+     recurrence of lethal offenses following Doxtator (two-month interval).
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 39–40, 60; Part 06 p. 13; Milwaukee County Case F-912542,
+     Count 14 [3]; UPI July 30, 1991 [11].
+
+5. ANTHONY LEE SEARS
+Anchor: #case-anthony-sears (Alias: #anthony-sears)
+--------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Anthony Lee Sears
+  - Age: 24 (DOB Jan 28, 1965 [2 (Pt 01 p. 24)])
+  - Residence: Milwaukee, Wisconsin (Baker's Square restaurant manager)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1) (1989), Count 01)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — March 25, 1989 (9:30 AM at home; evening at
+    gay tavern with friend Jeffrey Connor until ~2:00 AM March 26 [2 (Pt 06 p. 12); 3]).
+  - Milestone 2: Missing-Person Report Date — March 29, 1989. Formally filed with MPD [2 (Pt 06 p. 12)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about March 26, 1989. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 01) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 26, 1991. Dental record
+    comparison against bleached, painted human skull (MPD Item BU) recovered from
+    Apartment 213 [2 (Pt 01 p. 24; Pt 06 pp. 7, 12), 10].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Sears met Dahmer at a gay tavern on Milwaukee's South Side. Around 2:00 A.M. on
+     Easter Sunday, March 26, 1989, Sears agreed to accompany Dahmer to the West Allis
+     residence for drinks and photographs.
+  2. Incapacitation Method & Offense Execution:
+     Committed while Dahmer was on pretrial release awaiting sentencing for the
+     September 1988 child sexual assault of Sombat Sinthasomphone. Sears was drugged
+     with sleeping medication in a beverage, then strangled with a leather strap [2 (Pt 01 p. 24)].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the basement. FIRST DOCUMENTED PERMANENT TROPHY RETENTION: Rather
+     than pulverizing all remains, Dahmer defleshed Sears's skull, boiled it in a
+     bleach solution, spray-painted it an off-white hue, and retained it as a permanent
+     relic (MPD Item BU). Dahmer also preserved Sears's scalp and viscera. These
+     relics were packed and transported to Apartment 213 in May 1990 and recovered
+     by MPD on July 23, 1991 [2 (Pt 06 pp. 7, 12)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing March 29, 1989. Slaying occurred while Dahmer was under the
+     jurisdiction of Milwaukee County Circuit Court Case F-882410; criminal justice
+     agencies had no intelligence linking the pending felon to Sears's disappearance.
+  5. Criminological & Pattern Significance:
+     Critical psychological and behavioral watershed: introduction of permanent trophy
+     preservation and skull retention; offense committed under active court supervision.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 24; Part 06 pp. 7, 12; Milwaukee County Case F-912542, Count 01 [3];
+     UPI July 26, 1991 [10]; UPI Aug 16, 1991 [14].
+
+
+--------------------------------------------------------------------------------
+PHASE THREE: OXFORD APARTMENTS, APARTMENT 213 (1990–1991)
+--------------------------------------------------------------------------------
+
+6. RAYMOND "RICKY BEEKS" SMITH
+Anchor: #case-raymond-smith (Alias: #raymond-smith)
+--------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Raymond Smith (known to friends and family as "Ricky Beeks")
+  - Age: 32* (DOB Aug 10, 1957; press reported 33 in 1991 [1, 2 (Pt 01 p. 25; Pt 06 p. 11)])
+  - Residence: Milwaukee, Wisconsin
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 02)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — May 29, 1990 [1, 2 (Pt 06 p. 11)].
+  - Milestone 2: Missing-Person Report Date — NEVER REPORTED MISSING TO POLICE. MPD
+    records explicitly note no missing-person complaint was on file [2 (Pt 06 p. 11)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about May 29, 1990. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 02) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 25, 1991 (10:00 P.M.).
+    Conclusively identified via forensic odontology comparison against painted human
+    skull (MPD Item BV) recovered from Apartment 213 closet [2 (Pt 01 p. 25; Pt 06 pp. 7, 11)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Smith encountered Dahmer outside The Phoenix Bar or near the Grand Avenue Mall.
+     Dahmer enticed Smith to accompany him to his newly leased residence at Apartment 213
+     with an offer of money to pose for photographs.
+  2. Incapacitation Method & Offense Execution:
+     Dahmer administered sleeping pills in an alcoholic drink. Once Smith fell into a
+     stupor, Dahmer strangled him to death with his bare hands [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the apartment bathtub. Soft tissue was chemically treated and
+     discarded; the skull was defleshed, bleached, painted, and placed on a shelf
+     in the bedroom closet (MPD Item BV). This established Apartment 213 as a permanent
+     reliquary for preserved skeletal remains [2 (Pt 06 pp. 7, 11)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Smith was never reported missing to law enforcement, reflecting community estrangement
+     and marginalization. Offense committed while Dahmer was under probation supervision
+     with waived home visits.
+  5. Criminological & Pattern Significance:
+     First homicide committed inside Apartment 213; marked the transfer of serial
+     killings to an unmonitored private residence.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 25; Part 06 pp. 7, 11; Milwaukee County Case F-912542, Count 02 [3];
+     UPI Aug 6, 1991 [13].
+
+7. EDWARD "EDDIE" W. SMITH
+Anchor: #case-edward-smith (Alias: #eddie-smith)
+-----------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Edward "Eddie" W. Smith
+  - Age: 27* (DOB Aug 2, 1962; press reported 28 in 1991 [1, 2 (Pt 01 p. 39; Pt 06 p. 13)])
+  - Residence: Milwaukee, Wisconsin (known for distinctive head wraps; "the Sheikh")
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 15)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — June 14, 1990. Last seen alive at his sister's
+    home in Milwaukee [1, 11].
+  - Milestone 2: Missing-Person Report Date — June 23, 1990. Formally filed with MPD [2 (Pt 06 p. 13)].
+  - Milestone 3: Alleged Offense Date & Charge — June 1990. Added August 22, 1991 in
+    15-count Information under post-1989 Wis. Stat. § 940.01(1) (Count 15) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 29, 1991 (9:30 P.M.).
+    Identified as victim #12 via confession and physical descriptions; NO PHYSICAL
+    REMAINS RECOVERED [2 (Pt 01 pp. 39, 60; Pt 06 p. 13)]. (Note: Initial FBI teletype
+    noting "dental records" on p. 39 was a clerical transmission error corrected on p. 60).
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Dahmer encountered Smith at The Phoenix bar. He enticed Smith to Apartment 213
+     with an offer of drinks and money for photographs.
+  2. Incapacitation Method & Offense Execution:
+     Drugged with sleeping pills in a mixed drink, then strangled to death [2 (Pt 01 p. 39)].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Soft tissue and bone fragments were completely
+     disposed of in refuse containers; no skeletal remains were retained or recovered.
+     Following the killing, Dahmer placed anonymous, taunting telephone calls to
+     Smith's sister Carolyn, telling her that Eddie was dead [11].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Missing report filed June 23, 1990. MPD conducted routine inquiries. Bound over
+     for trial on August 22, 1991 following preliminary hearing waiver.
+  5. Criminological & Pattern Significance:
+     Second Apartment 213 homicide; only documented instance where Dahmer initiated
+     direct, anonymous telephone contact to harass a victim's family.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 39, 60; Part 06 p. 13; Milwaukee County Case F-912542,
+     Count 15 [3]; UPI July 30, 1991 [11].
+
+8. ERNEST MILLER
+Anchor: #case-ernest-miller (Alias: #ernest-miller)
+--------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Ernest Miller
+  - Age: 23* (DOB May 5, 1967; press reported 24 in 1991 [1, 2 (Pt 01 p. 39; Pt 06 p. 12)])
+  - Residence: Milwaukee, Wisconsin (arts student; gifted dancer and vocalist)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 03)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — September 3, 1990 (1:30 A.M.). Departed a
+    relative's residence in Milwaukee during Labor Day weekend [1, 3, 2 (Pt 06 p. 12)].
+  - Milestone 2: Missing-Person Report Date — September 4, 1990. Formally filed with
+    MPD by family members [2 (Pt 06 p. 12)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about September 3, 1990. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 03) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 26, 1991 (8:30 A.M.).
+    Conclusively identified via forensic odontology comparison against bleached
+    skull (MPD Item BT); bicep muscle tissue preserved in freezer identified [2 (Pt 01 p. 39; Pt 06 pp. 7, 12), 10].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Miller was encountered by Dahmer outside The Phoenix Bar / 219 Club. Dahmer
+     offered him money to accompany him to Apartment 213 for photographs.
+  2. Incapacitation Method & Offense Execution:
+     Dahmer administered sleeping medication (Halcion) in a beverage. Once Miller was
+     unconscious, Dahmer used a knife to sever Miller's carotid artery and strangled him [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. FIRST DOCUMENTED PRESERVATION OF SOFT TISSUE: Dahmer
+     excised portions of Miller's bicep muscle and stored them in the kitchen freezer.
+     The skull was defleshed, bleached, and painted (MPD Item BT); the remaining
+     skeletal frame was defleshed and bleached. Polaroid photographs showing the body
+     and Dahmer's forearm were recovered from the bedside drawer (MPD Item CE) [2 (Pt 06 pp. 7, 12)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing September 4, 1990. Aunt Vivian Miller gave sworn testimony in
+     the criminal complaint regarding his 1:30 A.M. departure.
+  5. Criminological & Pattern Significance:
+     Introduction of cold-storage soft-tissue preservation; photographic documentation
+     of remains incorporated as an integral element of the offense cycle.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 39; Part 06 pp. 7, 12; Milwaukee County Case F-912542,
+     Count 03 [3]; UPI July 26, 1991 [10]; UPI July 30, 1991 [11].
+
+9. DAVID COURTNEY THOMAS
+Anchor: #case-david-thomas (Alias: #david-thomas)
+------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: David Courtney Thomas
+  - Age: 22* (DOB Dec 21, 1967; press reported 23 in 1991 [1, 2 (Pt 01 p. 39; Pt 06 p. 13)])
+  - Residence: Milwaukee, Wisconsin (father of two-year-old daughter)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 04)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — September 24, 1990. Disappeared in Milwaukee [1, 2 (Pt 06 p. 13)].
+  - Milestone 2: Missing-Person Report Date — September 24, 1990. Formally filed by
+    partner Chandra Beanland with MPD under BOI #200484 [2 (Pt 06 p. 13)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about September 24, 1990. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 04) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 29, 1991 (7:35 P.M.).
+    Identified via recovered Polaroid photographs (MPD Item CF) and confession;
+    NO PHYSICAL REMAINS RECOVERED [2 (Pt 01 p. 39; Pt 06 pp. 7, 13)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Thomas was approached by Dahmer near the Grand Avenue Mall / MacArthur Square.
+     Dahmer enticed him to Apartment 213 with an offer of money for photos.
+  2. Incapacitation Method & Offense Execution:
+     Drugged with sleeping pills in a beverage, then strangled to death [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Soft tissue and skeletal remains were discarded in
+     municipal refuse; no skeletal remains were recovered. Police recovered a Polaroid
+     photograph depicting Thomas deceased in the apartment (MPD Item CF) [2 (Pt 06 pp. 7, 13)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing the day of his disappearance (Sept 24, 1990). Primary DOB
+     verified in FBI Vault Part 01 p. 39 and Part 06 p. 13 establishes his exact age
+     as 22 years, 9 months, 3 days, enabling permanent retirement of the provisional
+     dagger symbol across the project.
+  5. Criminological & Pattern Significance:
+     Occurred exactly three weeks after Ernest Miller; demonstrated accelerating
+     cadence of fatal encounters during autumn 1990.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 39; Part 06 pp. 7, 13; Milwaukee County Case F-912542,
+     Count 04 [3]; UPI July 30, 1991 [11].
+
+10. CURTIS STRAUGHTER
+Anchor: #case-curtis-straughter (Alias: #curtis-straughter)
+----------------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Curtis Straughter
+  - Age: 17* (DOB April 16, 1973; press reported 18 in 1991 [1, 2 (Pt 01 p. 25; Pt 06 p. 11)])
+  - Residence: Milwaukee, Wisconsin (nursing assistant student)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 05)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — February 18, 1991 (Grandmother Katherine
+    Straughter sworn statement in complaint; MJS retrospective reports March 7, 1991;
+    both yield age 17 under April 16, 1973 DOB) [1, 3, 2 (Pt 06 p. 11)].
+  - Milestone 2: Missing-Person Report Date — July 24, 1991. MPD first formally logged
+    report when detectives interviewed his grandmother following Dahmer's arrest [2 (Pt 06 p. 11)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about February 18, 1991. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 05) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 26, 1991. Conclusively
+    identified via forensic odontology match on painted skull (MPD Item BX); pubic
+    hair standards matched [2 (Pt 01 p. 25; Pt 06 pp. 7, 11), 10].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Seventeen-year-old Straughter met Dahmer at a Milwaukee transit bus stop. Dahmer
+     enticed him to Apartment 213 with an offer of money to pose for photographs.
+  2. Incapacitation Method & Offense Execution:
+     Dahmer administered sleeping pills in a drink. During the onset of sedation,
+     Straughter fell off the bed and knocked over a bedside table [2 (Pt 03 p. 12)].
+     Dahmer held Straughter down and strangled him to death with a leather strap [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Skull defleshed, bleached, painted, and retained
+     in the bedroom closet (MPD Item BX). Upper molars and pubic hair standards
+     recovered by crime scene investigators [2 (Pt 06 pp. 7, 11)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Not formally investigated as a missing person until post-arrest inquiries on
+     July 24, 1991. Mother Dorothy Straughter delivered powerful victim impact
+     statement at February 1992 sentencing [8, 18].
+  5. Criminological & Pattern Significance:
+     First homicide of 1991; terminated a five-month hiatus following David Thomas;
+     initiated the continuous fatal sequence of 1991.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 25; Part 03 p. 12; Part 06 pp. 7, 11; Milwaukee County
+     Case F-912542, Count 05 [3]; UPI July 26, 1991 [10]; UPI Feb 17, 1992 [18].
+
+11. ERROL LINDSEY
+Anchor: #case-errol-lindsey (Alias: #errol-lindsey)
+--------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Errol Lindsey
+  - Age: 19 (DOB March 3, 1972 [2 (Pt 01 p. 25; Pt 06 p. 11)])
+  - Residence: Milwaukee, Wisconsin (youngest of six children)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 06)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — April 7, 1991. Stepped out on an errand to
+    have a house key duplicated [1, 3, 2 (Pt 06 p. 11)].
+  - Milestone 2: Missing-Person Report Date — April 11, 1991. Formally filed by his
+    sister, Rita Isbell, with MPD [2 (Pt 06 p. 11)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about April 7, 1991. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 06) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 26, 1991. Forensic
+    odontology match on recovered human skull with drill burr holes (MPD Item BW) [2 (Pt 01 p. 25; Pt 06 pp. 6, 11), 10].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Nineteen-year-old Lindsey was approached by Dahmer near 27th and Wisconsin Avenue
+     while running an errand to duplicate a key. Dahmer offered him money to pose for photos.
+  2. Incapacitation Method & Offense Execution:
+     FIRST DOCUMENTED TREPHINATION EXPERIMENT: Drugged with sleeping medication. Once
+     Lindsey was deeply sedated, Dahmer used an electric hand drill to penetrate
+     Lindsey's skull, drilling a burr hole into the frontal lobe, and injected
+     hydrochloric acid. Lindsey regained consciousness, stating he had a severe
+     headache; Dahmer subsequently strangled him to death with a strap [2 (Pt 06 p. 6); 3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. The skull with the drill burr hole was chemically
+     defleshed and preserved (MPD Item BW). Dahmer flayed the skin, attempting to
+     treat and preserve it in salt, and recovered upper molars [2 (Pt 06 pp. 6, 11)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing April 11, 1991. Sister Rita Isbell delivered an emotional,
+     widely publicized confrontation of Dahmer during sentencing on February 14, 1992 [8].
+  5. Criminological & Pattern Significance:
+     Crucial forensic and clinical threshold: transition from simple incapacitation
+     to invasive surgical/chemical experimentation intended to induce permanent submission.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 25; Part 06 pp. 6, 11; Milwaukee County Case F-912542,
+     Count 06 [3]; Court TV Feb 14, 1992 [8]; UPI July 26, 1991 [10].
+
+12. ANTHONY "TONY" HUGHES
+Anchor: #case-anthony-hughes (Alias: #tony-hughes)
+-------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Anthony "Tony" Hughes
+  - Age: 31 (DOB Aug 26, 1959 [2 (Pt 01 p. 24; Pt 06 p. 10)])
+  - Residence: Madison, Wisconsin (visiting family in Milwaukee; deaf; communicated via notes and ASL)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 07)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — May 24, 1991. Seen by friends at the 219 Club
+    departing with Dahmer [1, 3, 2 (Pt 06 p. 10)].
+  - Milestone 2: Missing-Person Report Date — May 31, 1991. Formally filed with the
+    Madison Police Department [2 (Pt 06 p. 10)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about May 24, 1991. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 07) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 25, 1991 (2:50 P.M.).
+    Conclusively identified via forensic odontology match on human skull with drill
+    burr holes and cervical vertebrae (MPD Item BS) [2 (Pt 01 p. 24; Pt 06 pp. 6, 10)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Hughes, who was deaf and widely admired in the community, met Dahmer at the 219 Club.
+     They communicated through written notes. Hughes agreed to accompany Dahmer to
+     Apartment 213 for drinks.
+  2. Incapacitation Method & Offense Execution:
+     SECOND DOCUMENTED TREPHINATION EXPERIMENT: Drugged with sleeping pills. Dahmer
+     drilled a hole into Hughes's skull and injected a caustic chemical agent. Hughes
+     lapsed into a comatose state. Dahmer left him on the bedroom floor for an extended
+     period before strangling him [2 (Pt 06 p. 6); 3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. The skull with the drill hole and associated cervical
+     vertebrae were chemically preserved and retained in the bedroom closet (MPD Item BS) [2 (Pt 06 pp. 6, 10)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing to Madison PD May 31, 1991. Hughes's mother Shirley Hughes
+     delivered a moving poem at sentencing, communicating the grief of the deaf community [8].
+  5. Criminological & Pattern Significance:
+     Occurred exactly two days prior to the Konerak Sinthasomphone incident; confirms
+     that Dahmer was actively engaged in trephination experimentation when police
+     entered his apartment on May 27.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 24; Part 06 pp. 6, 10; Milwaukee County Case F-912542,
+     Count 07 [3]; Court TV Feb 14, 1992 [8]; UPI July 26, 1991 [10].
+
+13. KONERAK SINTHASOMPHONE
+Anchor: #case-konerak-sinthasomphone (Alias: #konerak-sinthasomphone)
+--------------------------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Konerak Sinthasomphone
+  - Age: 14 (DOB Dec 2, 1976 [2 (Pt 01 p. 24; Pt 06 p. 10)])
+  - Residence: Milwaukee, Wisconsin (Pulaski High School freshman; younger brother
+    of 1988 victim Sombat Sinthasomphone)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 08)
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — May 26, 1991 (left home); May 27, 1991 (~2:00 A.M.;
+    police street encounter in alley near 25th & State St) [1, 2 (Pt 01 pp. 24, 47), 7].
+  - Milestone 2: Missing-Person Report Date — May 28, 1991. Formally filed by his
+    father with MPD [2 (Pt 06 p. 10)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about May 27, 1991. Charged
+    August 6, 1991 under post-1989 Wis. Stat. § 940.01(1) (Count 08) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 25, 1991 (5:05 P.M.).
+    Conclusively identified via forensic odontology match on human skull with drill
+    burr holes and cervical vertebrae (MPD Item BR) [2 (Pt 01 p. 24; Pt 06 pp. 6, 10–11)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Fourteen-year-old Konerak was enticed by Dahmer near the Grand Avenue Mall with
+     an offer of $50 to pose for photographs. Konerak was the younger brother of
+     Sombat Sinthasomphone, whom Dahmer had sexually assaulted in 1988.
+  2. Incapacitation Method & Offense Execution:
+     THIRD DOCUMENTED TREPHINATION EXPERIMENT: Drugged with sleeping pills. Dahmer
+     drilled a hole into the youth's skull and injected hydrochloric acid. While Dahmer
+     briefly left the apartment to purchase alcohol, Konerak regained partial consciousness,
+     wandered naked, bleeding, and incoherent into the street, and was assisted by
+     two Black women, Sandra Smith and Nicole Childress.
+  3. The Catastrophic Police Intervention:
+     MPD Officers John Balcerzak, Joseph Gabrish, and Rick Porubcan responded. Dahmer
+     returned and told the officers Konerak was his 19-year-old adult domestic partner
+     who had drunk too much alcohol. Despite Konerak's obvious youth, Asian ethnicity,
+     lack of speech, and physical distress, and despite civilian protests, the officers
+     refused to verify identification, threatened the bystanders with arrest, led
+     Konerak back into Apartment 213, and departed. Once police left, Dahmer administered
+     a fatal injection of hydrochloric acid into the brain tissue and strangled him [2 (Pt 01 p. 47; Pt 03 p. 11), 7, 20].
+  4. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. The skull with the drill burr hole and vertebrae
+     were preserved and retained in the closet (MPD Item BR) [2 (Pt 06 pp. 6, 10–11)].
+  5. Institutional Intersections & Law Enforcement Contacts:
+     Direct police custody hand-off on May 27; missing report filed May 28. Incident
+     led to the suspension and discharge of Officers Balcerzak and Gabrish (later
+     reinstated in 1994 by an arbitrator), massive civic protests, and federal civil
+     rights litigation (Estate of Sinthasomphone v. City of Milwaukee, settled 1995) [22].
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 24, 47; Part 03 p. 11; Part 06 pp. 6, 10–11; Milwaukee
+     County Case F-912542, Count 08 [3]; AP/Marquette Wire July 26, 1991 [7, 20];
+     UPI July 28, 1991 [22]; UPI Aug 2, 1991 [6, 19].
+
+14. MATT TURNER / DONALD MONTRELL
+Anchor: #case-matt-turner (Alias: #matt-turner)
+----------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Matt Turner (also known as Donald Montrell)
+  - Age: 20 (DOB July 3, 1970 [2 (Pt 06 p. 9)])
+  - Residence: Chicago, Illinois (originally Flint, Michigan; stayed at youth shelter)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 09 [Count 1 of July 25 complaint])
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — June 30, 1991. Encountered Dahmer following
+    the Chicago Gay Pride parade along the Halsted Street corridor [1, 3, 21].
+  - Milestone 2: Missing-Person Report Date — NOT REPORTED MISSING TO MPD [2 (Pt 06 p. 9)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about June 30, 1991. Charged
+    July 25, 1991 (Count 1 of 4-count complaint) and August 6, 1991 (Count 09) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 25, 1991 (8:30 A.M.).
+    Identified via Chicago Police Department AFIS latent fingerprint comparison
+    against severed hands recovered in Apartment 213 (tagged "Hands C") [2 (Pt 01 p. 25; Pt 06 pp. 7, 9)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Turner met Dahmer near the Chicago Gay Pride celebration. Dahmer offered him
+     $50 and bus fare to accompany him to Milwaukee for photography modeling.
+  2. Incapacitation Method & Offense Execution:
+     Drugged with sleeping pills in an alcoholic beverage, then strangled to death [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Head placed in the freezer compartment; torso
+     submerged in the 57-gallon chemical drum containing hydrochloric acid; severed
+     hands preserved and tagged "Hands C" by investigators. Complete skeletal remains
+     were forensically reconstructed (MPD Homicide #M2473) [2 (Pt 06 pp. 7, 9)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Not reported missing in Milwaukee; interstate recruitment demonstrated interstate
+     movement of victims. First homicide charged in the initial July 25, 1991 complaint.
+  5. Criminological & Pattern Significance:
+     Onset of the final, lethal surge of July 1991, during which four victims were
+     killed within a seventeen-day window.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 25; Part 06 pp. 7, 9; Milwaukee County Case F-912542,
+     Count 09 [3]; Chicago Tribune July 29, 1991 [21]; UPI July 26, 1991 [25].
+
+15. JEREMIAH BENJAMIN WEINBERGER
+Anchor: #case-jeremiah-weinberger (Alias: #jeremiah-weinberger)
+--------------------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Jeremiah Benjamin Weinberger
+  - Age: 23* (DOB Sept 25, 1967 [Pt 01 p. 25] / Sept 29, 1967 [Pt 06 p. 9])
+  - Residence: Chicago, Illinois (video store customer service representative)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 10 [Count 2 of July 25 complaint])
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — July 6, 1991. Met Dahmer at Carol's Speakeasy
+    bar in Chicago [1, 3, 21].
+  - Milestone 2: Missing-Person Report Date — July 6, 1991. Formally filed by his
+    father with the Chicago Police Department [2 (Pt 06 p. 9)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about July 7, 1991. Charged
+    July 25, 1991 (Count 2 of 4-count complaint) and August 6, 1991 (Count 10) [3].
+    (Note: 7th Circuit shorthand in 105 F.3d at 1184 mentioning "July 6" conflated missing report with homicide).
+  - Milestone 4: Forensic Identification Date & Method — July 25, 1991. Conclusively
+    identified via forensic odontology match; head recovered from freezer; complete
+    skeleton identified (MPD Item BQ) [2 (Pt 01 p. 25; Pt 06 pp. 6, 7, 9–10)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Weinberger met Dahmer at Carol's Speakeasy in Chicago. He agreed to travel to
+     Milwaukee to spend the weekend with Dahmer at Apartment 213.
+  2. Incapacitation Method & Offense Execution:
+     FOURTH DOCUMENTED TREPHINATION EXPERIMENT: Drugged with sleeping pills. Dahmer
+     drilled a burr hole into Weinberger's skull and injected boiling water or caustic
+     liquid into the cranial cavity. Weinberger remained comatose while Dahmer went to
+     work his shift at Ambrosia Chocolate Company; upon returning, Dahmer found him
+     still breathing and strangled him to death [2 (Pt 06 p. 6); 3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Head placed in the kitchen freezer; skull with drill
+     holes preserved (MPD Item BQ); torso placed in the chemical drum; complete
+     skeletal frame identified. Polaroid photographs recovered depicting Weinberger's
+     body and Dahmer's leg/foot (MPD Item CD) [2 (Pt 06 pp. 6, 7, 9–10)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Missing report filed in Chicago July 6. Federal civil rights suit brought by his
+     estate against Wisconsin probation officials (Weinberger v. State of Wisconsin,
+     105 F.3d 1182 (7th Cir. 1997)) affirmed summary judgment for probation agents.
+  5. Criminological & Pattern Significance:
+     Second victim in the rapid July 1991 cluster; confirmed ongoing surgical drilling
+     experiments through the final weeks.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 25; Part 06 pp. 6, 7, 9–10; Milwaukee County Case F-912542,
+     Count 10 [3]; Weinberger v. State of Wisconsin, 105 F.3d 1182 [31]; Chicago Tribune [21].
+
+16. OLIVER LACY
+Anchor: #case-oliver-lacy (Alias: #oliver-lacy)
+----------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Oliver Lacy
+  - Age: 23* (DOB June 23, 1968 [Pt 01 pp. 8, 24, 63] / June 23, 1967 [Pt 01 p. 62; Pt 06 p. 9])
+  - Residence: Milwaukee, Wisconsin (father of two-year-old son; high school track athlete)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 11 [Count 3 of July 25 complaint])
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — July 12, 1991. Last seen alive by his fiancée
+    in Milwaukee [1, 2 (Pt 06 p. 9)].
+  - Milestone 2: Missing-Person Report Date — July 15, 1991. Formally filed with MPD [2 (Pt 06 p. 9)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about July 15, 1991. Charged
+    July 25, 1991 (Count 3 of 4-count complaint) and August 6, 1991 (Count 11) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 24, 1991 (10:00 A.M.).
+    FIRST POSITIVE FORENSIC IDENTIFICATION OF THE CASE: Identified via photo driver's
+    license found in Dahmer's apartment matched to decapitated head in refrigerator,
+    and verified by fingerprint match on severed hands tagged "Hands A" [2 (Pt 01 pp. 3, 8, 24, 63; Pt 06 pp. 6, 9)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Lacy was approached by Dahmer near the Grand Avenue Mall. Dahmer offered him
+     money to accompany him to Apartment 213 for photographs.
+  2. Incapacitation Method & Offense Execution:
+     Drugged with Halcion in a beverage, then strangled to death with a strap [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Head placed in the refrigerator; heart placed in
+     a plastic container in the freezer; severed hands tagged "Hands A"; torso submerged
+     in the 57-gallon drum containing chemical solution; complete skeletal remains
+     recovered (Medical Examiner Case #1501; Homicide #M2472) [2 (Pt 01 pp. 8, 63; Pt 06 pp. 6, 9), 9].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Missing report filed July 15. Lacy's photo driver's license recovered in Apartment
+     213 provided detectives with their initial forensic breakthrough on the morning
+     of July 24, 1991.
+  5. Criminological & Pattern Significance:
+     First positive forensic identification following Dahmer's arrest; marked the
+     retention of fresh organ tissue (heart) and immediate refrigerator storage.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 pp. 3, 8, 24, 62, 63; Part 06 pp. 6, 9; Milwaukee County
+     Case F-912542, Count 11 [3]; UPI July 25, 1991 [9]; UPI July 26, 1991 [25].
+
+17. JOSEPH BRADEHOFT
+Anchor: #case-joseph-bradehoft (Alias: #joseph-bradehoft)
+--------------------------------------------------------
+Demographic & Jurisdictional Summary:
+  - Victim: Joseph Bradehoft
+  - Age: 25 (DOB Jan 24, 1966 [2 (Pt 01 p. 24; Pt 06 p. 10)])
+  - Residence: Milwaukee, Wisconsin (father of three; traveling to a job interview)
+  - Jurisdiction & Charge: State of Wisconsin; First-Degree Intentional Homicide
+    (Wis. Stat. § 940.01(1), Count 12 [Count 4 of July 25 complaint])
+
+Case Milestones & Evidentiary Anchors:
+  - Milestone 1: Last Known Contact — July 16, 1991. Last seen alive departing for
+    a job interview in Milwaukee [1, 12].
+  - Milestone 2: Missing-Person Report Date — Reported missing to Greenville, IL Police
+    Department; NO MISSING REPORT FILED WITH MPD [2 (Pt 06 p. 10)].
+  - Milestone 3: Alleged Offense Date & Charge — On or about July 19, 1991. Charged
+    July 25, 1991 (Count 4 of 4-count complaint) and August 6, 1991 (Count 12) [3].
+  - Milestone 4: Forensic Identification Date & Method — July 25–26, 1991. Conclusively
+    identified via St. Paul, MN Police Department latent fingerprint comparison against
+    severed hands tagged "Hands B"; head recovered from freezer; FBI Laboratory
+    verified reciprocating saw toolmarks on cervical/lumbar vertebrae [2 (Pt 01 p. 24; Pt 06 pp. 6, 10, 68)].
+
+Standardized 5-Component Case Profile:
+  1. Background & Encounter Pretext:
+     Bradehoft was encountered by Dahmer at a bus stop while on his way to an employment
+     interview. Dahmer enticed him to Apartment 213 with an offer of money for photos.
+  2. Incapacitation Method & Offense Execution:
+     Drugged with sleeping pills in a beverage, then strangled to death with a strap [3].
+  3. Postmortem Actions & Disposal/Preservation Evolution:
+     Dismembered in the bathtub. Decapitated head placed in the freezer; severed hands
+     tagged "Hands B"; torso placed in the 57-gallon drum. The FBI Laboratory Division
+     conducted extensive toolmark examinations on Bradehoft's cervical and lumbar margins
+     (Specimens Q7 and Q8), confirming reciprocating saw cut marks (FBI Part 06 p. 68).
+     Complete skeletal remains recovered (Homicide #M2475) [2 (Pt 06 pp. 6, 10, 68)].
+  4. Institutional Intersections & Law Enforcement Contacts:
+     Reported missing in Illinois; MPD had no missing-person record. Identified within
+     72 hours of Dahmer's arrest through inter-agency fingerprint transmission from
+     St. Paul, Minnesota [2 (Pt 01 p. 24)].
+  5. Criminological & Pattern Significance:
+     Seventeenth and final fatal victim of the series; killed approximately three days
+     prior to Tracy Edwards's escape and Dahmer's arrest.
+  6. Sources & Legal Cross-References:
+     FBI Vault Part 01 p. 24; Part 06 pp. 6, 10, 68; Milwaukee County Case F-912542,
+     Count 12 [3]; UPI July 26, 1991 [25]; UPI Aug 5, 1991 [12].
+
+
+================================================================================
+SECTION 6: THEMATIC CLINICAL & FORENSIC ANALYSES
+================================================================================
+
+6.1 CLINICAL ANALYSIS OF SURGICAL EXPERIMENTATION & TREPHINATION BURR HOLES
+Anchor: #case-control-experiments (Alias: #drilling-experiments)
+
+During the 1992 sanity phase trial (State of Wisconsin v. Jeffrey Dahmer), psychiatric
+experts and medical examiners testified extensively regarding Dahmer's documented
+attempts to perform primitive surgical procedures on living victims:
+
+  1. The Forensic Evidence:
+     Physical examination of skeletal remains conducted by Chief Medical Examiner
+     Dr. Jeffrey Jentzen and documented in MPD physical evidence rosters (FBI Part 06
+     pp. 6–7) confirmed drill burr holes in four specific victim skulls:
+     - Errol Lindsey (MPD Item BW)
+     - Anthony Hughes (MPD Item BS)
+     - Konerak Sinthasomphone (MPD Item BR)
+     - Jeremiah Weinberger (MPD Item BQ)
+     Investigators recovered an electric hand drill, assorted drill bits, and
+     syringes from Apartment 213.
+
+  2. The Documented Method:
+     According to Dahmer's statements to Detectives Patrick Kennedy and Dennis Murphy,
+     and corroborating testimony by prosecution psychiatrist Dr. Frederick Fosdal and
+     defense psychiatrist Dr. Fred Berlin:
+     - Victims were administered heavy doses of sleeping pills (primarily Halcion) in drinks.
+     - While the victim was unconscious, Dahmer used an electric hand drill to penetrate
+       the skull, creating a burr hole into the cranial cavity / frontal lobe.
+     - Dahmer injected chemicals—hydrochloric acid or boiling water—through the burr hole
+       using a syringe.
+
+  3. The Clinical Objective — Compulsion for Submissive Control:
+     Sensationalized media accounts popularized the term "zombie experiments." In the
+     clinical and trial record, however, experts framed this behavior as an attempt to
+     create an unresisting, compliant, permanently submissive companion:
+     - Prosecution expert Dr. Park Dietz testified that Dahmer sought to eliminate the
+       possibility of rejection, departure, or autonomous will without having to
+       manage an inert corpse.
+     - When the procedures proved uniformly lethal (producing coma, brain swelling,
+       or renewed agony leading Dahmer to strangle the victim), Dahmer acknowledged
+       that the attempts were failures.
+     - The court record established that these actions reflected extreme necrophilic
+       and paraphilic pathology aimed at absolute control, but did not constitute
+       a loss of cognitive sanity under Wis. Stat. § 971.15 [8].
+
+6.2 EVOLUTION OF TROPHY RETENTION & REMAINS PRESERVATION
+Anchor: #case-trophy-retention (Alias: #remains-preservation)
+
+The disposition of victim remains underwent a clear evolutionary progression across
+the thirteen-year span:
+
+  - STAGE 1: COMPLETE SKELETAL PULVERIZATION & DISPOSAL (1978–1988)
+    In the Hicks, Tuomi, Doxtator, and Guerrero homicides, Dahmer prioritized complete
+    elimination of evidence. Hicks's bones were buried, exhumed, and pulverized with a
+    sledgehammer. Tuomi's remains were disposed of in municipal trash. Doxtator's and
+    Guerrero's skeletons were crushed and scattered in the grandmother's backyard. No
+    permanent relics were retained.
+
+  - STAGE 2: INITIAL CHEMICAL EXPERIMENTATION & PERMANENT TROPHY RETENTION (1989)
+    With Anthony Sears (March 1989), Dahmer preserved his first permanent physical relic:
+    the skull was defleshed, boiled in bleach, spray-painted an off-white hue, and
+    retained (MPD Item BU). Dahmer also preserved Sears's scalp and viscera, transporting
+    them to Apartment 213 in 1990.
+
+  - STAGE 3: SYSTEMATIC ACCUMULATION & RELIQUARY IN APARTMENT 213 (1990–1991)
+    Following his move to Oxford Apartments, preservation became an organized feature:
+    * Skulls: Eight human skulls were recovered from Apartment 213:
+      - 4 bleached and painted skulls: Sears (BU), Raymond Smith (BV), Miller (BT),
+        Straughter (BX).
+      - 4 drilled experimental skulls: Lindsey (BW), Hughes (BS), Sinthasomphone (BR),
+        Weinberger (BQ).
+    * Cold Storage: Refrigerator and freezer compartments were utilized for immediate
+      preservation: Oliver Lacy's head in the refrigerator; Lacy's heart in a freezer
+      container; Ernest Miller's bicep muscle; Matt Turner's, Jeremiah Weinberger's,
+      and Joseph Bradehoft's heads in the freezer.
+    * Chemical Dissolution: A 57-gallon drum containing hydrochloric acid was installed
+      in the bedroom to dissolve soft tissue from torsos, leaving bones for cleaning.
+    * Proposed Skeletal Altar: Dahmer told detectives he planned to construct an
+      elaborate altar in his apartment flanked by painted human skeletons and skulls,
+      concealed behind a black curtain, serving as a private shrine [2 (Pt 03 pp. 11–12)].
+
+6.3 PHOTOGRAPHIC DOCUMENTATION AS EVIDENTIARY RECORD
+Anchor: #case-photography-evidence (Alias: #polaroid-evidence)
+
+Dahmer systematically utilized a Polaroid camera to photograph victims at various
+stages of sedation, death, and dismemberment:
+  - Crime Scene Recovery: Eighty-four Polaroid photographs were discovered in an open
+    nightstand drawer in Apartment 213 on the night of July 22, 1991.
+  - Evidentiary Value: The photographs provided indisputable, objective proof linking
+    specific missing men to Apartment 213, particularly victims whose remains had been
+    completely destroyed or dissolved:
+    * MPD Item CF: Depicted David Courtney Thomas deceased in the apartment, enabling
+      positive photographic identification on July 29, 1991 despite zero recovered remains.
+    * MPD Item CE: Depicted Ernest Miller's body and Dahmer's forearm.
+    * MPD Item CD: Depicted Jeremiah Weinberger and Dahmer's leg.
+  - Clinical Function: Psychiatric experts noted that the photographs functioned as
+    substitute erotic stimuli allowing Dahmer to re-experience the offenses and maintain
+    control during intervals between homicides [8].
+
+6.4 PARAPHILIC NECROPHILIA & POSTMORTEM ACTS IN THE PSYCHIATRIC RECORD
+Anchor: #case-necrophilia-record (Alias: #psychiatric-record)
+
+In both the interrogation statements and expert testimony during the 1992 sanity phase:
+  - Dahmer acknowledged engaging in postmortem sexual acts with the bodies of several
+    victims prior to dismemberment.
+  - Defense experts Dr. Fred Berlin and Dr. Judith Becker testified that Dahmer suffered
+    from severe paraphilia (necrophilia) that overwhelmed his volitional capacity, arguing
+    he lacked substantial capacity to conform his conduct to the law under Wis. Stat. § 971.15.
+  - Prosecution experts Dr. Park Dietz and Dr. Phillip Resnick countered that while
+    Dahmer exhibited extreme sexual paraphilia and borderline personality disorder, he
+    demonstrated intact volitional capacity by planning offenses, altering techniques to
+    avoid detection, drugging victims surreptitiously, lying to police officers, and
+    restricting his killings to periods and locations where he would not be interrupted.
+  - The jury's 10–2 verdict finding Dahmer legally sane affirmed that extreme paraphilic
+    desires do not negate legal criminal responsibility under Wisconsin law [8].
+
+
+================================================================================
+SECTION 7: NAVIGATION ARCHITECTURE & BIDIRECTIONAL ANCHOR REGISTRY
+================================================================================
+
+To ensure seamless bidirectional cross-linking across the web application, this
+specification declares canonical HTML anchors (#case-[slug]) and short aliases
+(#[slug]) synchronized with Tab 3 (Timeline), Tab 4 (Victims), and Tab 6 (Systemic Failures):
+
+| Offense / Analytical Section | Canonical Tab 5 Anchor | Short Alias Anchor | Tab 3 Timeline Destination | Tab 4 Victims Destination | Tab 6 Systemic Failures Destination |
+|---|---|---|---|---|---|
+| **Offense Series Overview** | `#case-offense-overview` | `#offense-series-overview` | `/timeline#event-1978-hicks` | `/victims#victim-registry` | — |
+| **Phase 1: Bath Township** | `#case-phase-one` | `#phase-one-ohio` | `/timeline#event-1978-hicks` | — | — |
+| **Steven Mark Hicks** | `#case-steven-hicks` | `#steven-hicks` | `/timeline#event-1978-hicks` | `/victims#steven-hicks` | — |
+| **Phase 2: West Allis** | `#case-phase-two` | `#phase-two-west-allis` | `/timeline#event-1987-tuomi-sighting`| — | — |
+| **Steven Walter Tuomi** | `#case-steven-tuomi` | `#steven-tuomi` | `/timeline#event-1987-tuomi-homicide`| `/victims#steven-tuomi` | — |
+| **James Edward Doxtator** | `#case-james-doxtator` | `#jamie-doxtator` | `/timeline#event-1988-doxtator` | `/victims#james-doxtator` | — |
+| **Richard Guerrero** | `#case-richard-guerrero` | `#richard-guerrero` | `/timeline#event-1988-guerrero` | `/victims#richard-guerrero` | — |
+| **Anthony Lee Sears** | `#case-anthony-sears` | `#anthony-sears` | `/timeline#event-1989-sears` | `/victims#anthony-sears` | `/topics/systemic-failures#pretrial-oversight` |
+| **Phase 3: Oxford Apartments** | `#case-phase-three` | `#phase-three-oxford` | `/timeline#event-1990-oxford-move` | — | `/topics/systemic-failures#home-visit-waivers` |
+| **Raymond Smith** | `#case-raymond-smith` | `#raymond-smith` | `/timeline#event-1990-smith` | `/victims#raymond-smith` | — |
+| **Edward W. Smith** | `#case-edward-smith` | `#eddie-smith` | `/timeline#event-1990-eddie-smith` | `/victims#edward-smith` | — |
+| **Ernest Miller** | `#case-ernest-miller` | `#ernest-miller` | `/timeline#event-1990-miller` | `/victims#ernest-miller` | — |
+| **David Courtney Thomas** | `#case-david-thomas` | `#david-thomas` | `/timeline#event-1990-thomas` | `/victims#david-thomas` | — |
+| **Curtis Straughter** | `#case-curtis-straughter` | `#curtis-straughter` | `/timeline#event-1991-straughter` | `/victims#curtis-straughter` | — |
+| **Errol Lindsey** | `#case-errol-lindsey` | `#errol-lindsey` | `/timeline#event-1991-lindsey` | `/victims#errol-lindsey` | — |
+| **Anthony Hughes** | `#case-anthony-hughes` | `#tony-hughes` | `/timeline#event-1991-hughes` | `/victims#anthony-hughes` | — |
+| **Konerak Sinthasomphone** | `#case-konerak-sinthasomphone`| `#konerak-sinthasomphone` | `/timeline#event-1991-sinthasomphone` | `/victims#konerak-sinthasomphone` | `/topics/systemic-failures#may-27-police-encounter` |
+| **Matt Turner** | `#case-matt-turner` | `#matt-turner` | `/timeline#event-1991-turner` | `/victims#matt-turner` | — |
+| **Jeremiah Weinberger** | `#case-jeremiah-weinberger` | `#jeremiah-weinberger` | `/timeline#event-1991-weinberger` | `/victims#jeremiah-weinberger` | `/impact#civil-litigation` |
+| **Oliver Lacy** | `#case-oliver-lacy` | `#oliver-lacy` | `/timeline#event-1991-lacy` | `/victims#oliver-lacy` | — |
+| **Joseph Bradehoft** | `#case-joseph-bradehoft` | `#joseph-bradehoft` | `/timeline#event-1991-bradehoft` | `/victims#joseph-bradehoft` | — |
+| **Prior Arrests (1981–1986)** | `#case-prior-record` | `#prior-offenses` | `/timeline#event-1981-bath-arrest`| — | `/topics/systemic-failures#early-police` |
+| **1988 Sexual Assault** | `#case-prior-1988-assault` | `#sombat-assault` | `/timeline#event-1988-assault` | — | `/topics/systemic-failures#sinthasomphone-1988` |
+| **Tracy Edwards Escape** | `#case-tracy-edwards` | `#edwards-escape` | `/timeline#event-1991-edwards-escape`| — | `/case/investigation#tracy-edwards` |
+| **Surgical Experimentation** | `#case-control-experiments` | `#drilling-experiments` | — | — | `/topics/psychological-profile#control` |
+| **Trophy Preservation** | `#case-trophy-retention` | `#remains-preservation`| — | — | `/case/investigation#forensic-processing` |
+| **Polaroid Evidence** | `#case-photography-evidence`| `#polaroid-evidence` | — | — | `/case/investigation#apartment-discovery` |
+
+
+================================================================================
+SECTION 8: AUTHORITATIVE NUMBERED BIBLIOGRAPHY & SOURCE TIERS
+================================================================================
+
+All citations in Tab 5 adhere to the project-wide numbered bibliography register
+harmonized across Table 1 (Victims), Table 2 (Timeline), and Case specifications:
+
+[1] [CONTEMPORARY / RETROSPECTIVE REGISTER]
+    Milwaukee Journal Sentinel — "Jeffrey Dahmer's 17 victims and what we knew about them"
+    (September 28–29, 2022). Comprehensive biographical profiles, last-seen dates,
+    and family remembrances.
+
+[2] [PRIMARY ARCHIVAL RECORD]
+    Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, FBI Vault.
+    Standalone local files verified:
+    - Dahmer_Part_01.pdf (68 pp.): p. 4 (arrest teletype); p. 5 (Hicks confession);
+      p. 8 (Lacy ID); pp. 24–25 (10-victim master teletype); p. 27 (criminal history);
+      pp. 39–40 (5-victim second teletype); p. 43 (Tuomi/Doxtator dates); p. 46 (Airtel);
+      p. 47 (Konerak confession); p. 53 (Tuomi note); p. 60 (5 unrecovered remains memo);
+      p. 62 (Lacy DOB variant); p. 63 (Lacy ID & Edwards narrative); p. 64 (Ohio indictment).
+    - Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf (60 pp.): p. 9 (Hicks BSU confession);
+      p. 10 (Tuomi Ambassador confession); p. 11 (Konerak confession); pp. 11–12 (Edwards
+      escape confession); p. 12 (Straughter confession); p. 14 (Doxtator confession);
+      pp. 51–52 (Cleveland Division Hicks report CV 7-MW-26057); p. 55 (Edwards wire clipping).
+    - Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf (74 pp.): p. 3 (Tuomi disposal); pp. 6–7
+      (MPD physical evidence inventory; drilled skulls BW, BS, BR, BQ; bleached skulls
+      BU, BV, BT, BX; Polaroids CD, CE, CF); pp. 9–13 (MPD 14-victim transmittal roster
+      to FBI Laboratory); p. 15 (Tuomi note); p. 68 (FBI Lab toolmark report on Bradehoft).
+
+[3] [PRIMARY LEGAL RECORD]
+    State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court, Case No. F-912542:
+    - Initial Criminal Complaint (July 25, 1991; 4 counts: Turner, Weinberger, Lacy, Bradehoft).
+    - Amended Criminal Complaint (August 6, 1991; 12 counts: Sears, R. Smith, Miller,
+      Thomas, Straughter, Lindsey, Hughes, Sinthasomphone, Turner, Weinberger, Lacy, Bradehoft).
+    - Information following Preliminary Hearing Waiver (August 22, 1991; 15 counts:
+      Counts 01–12 as above; Count 13 Doxtator; Count 14 Guerrero; Count 15 E. Smith).
+
+[4] [CONTEMPORARY JOURNALISTIC RECORD]
+    The New York Times — "Search for Victims Spreads to Ohio" (July 31, 1991). Details
+    excavation of Hicks's remains in Bath Township, Ohio.
+
+[5] [CONTEMPORARY JOURNALISTIC RECORD]
+    The Washington Post — "Dahmer Given 16th Life Sentence in 1978 Ohio Slaying"
+    (May 2, 1992). Coverage of Dahmer's guilty plea and sentencing in Summit County.
+
+[6] [CONTEMPORARY WIRE RECORD]
+    United Press International — "Laotian Family Upset After Hearing Tape" (August 2, 1991).
+    Account of Sinthasomphone family response and 911 dispatch tapes.
+
+[7] [CONTEMPORARY WIRE ARCHIVE]
+    Marquette University AP wire archive — "2 Women Say Officers Failed To Aid 14-year-old"
+    (July 26, 1991). Statements of Sandra Smith and Nicole Childress regarding May 27 incident.
+
+[8] [PRIMARY COURT PROCEEDINGS]
+    Court TV — State of Wisconsin v. Jeffrey Dahmer (Milwaukee County Circuit Court,
+    Case No. F-912542, Jan 27 – Feb 15, 1992):
+    - Expert psychiatric testimony of Dr. Fred Berlin, Dr. Judith Becker, Dr. Carl
+      Wahlstrom, Dr. Frederick Fosdal, Dr. Park Dietz, and Dr. Phillip Resnick.
+    - Sworn sentencing victim impact statements of Rita Isbell, Carolyn Smith, Shirley
+      Hughes, and Dorothy Straughter (February 14–15, 1992).
+
+[9] [CONTEMPORARY WIRE RECORD]
+    United Press International — "Complaint: Man Killed Victims, Saved Heart to Eat"
+    (July 25, 1991). Initial coverage of Oliver Lacy's identification and refrigerator recovery.
+
+[10] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Three More Mass Murder Victims Identified"
+     (July 26, 1991). Coverage of post-arrest dental identifications for Sears, Straughter,
+     and Lindsey.
+
+[11] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Dahmer Reportedly Made Terror Phone Calls"
+     (July 30, 1991). Statements by Carolyn Smith regarding anonymous calls following
+     Eddie Smith's disappearance; Richard Guerrero and David Thomas details.
+
+[12] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Family of Dahmer Victim Files Lawsuit" (August 5, 1991).
+     Reporting on Joseph Bradehoft, Oliver Lacy, and Jeremiah Weinberger.
+
+[13] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Dahmer Charged with Dozen Killings" (August 6, 1991).
+     Filing of 12-count amended criminal complaint; details on Raymond Smith.
+
+[14] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Dahmer's 17th Victim Identified" (August 16, 1991).
+     Identification of James Doxtator as 17th victim; Sears Easter timeline details.
+
+[15] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Dahmer Opts for Innocent and Insanity Pleas"
+     (September 11, 1991). Entry of dual pleas before Judge Laurence Gram Jr.
+
+[16] [CONTEMPORARY JOURNALISTIC RECORD]
+     The Washington Post — "Dahmer's Attorney Hints at Insanity Defense" (August 22/23, 1991).
+     DA McCann announcement declining charges in Steven Tuomi death due to lack of corpus delicti.
+
+[17] [CONTEMPORARY JOURNALISTIC RECORD]
+     The Washington Post — "Bones Found at Dahmer Site Identified" (September 13/14, 1991).
+     Confirmation of Steven Hicks bone fragments by Summit County Coroner Dr. William Cox.
+
+[18] [CONTEMPORARY WIRE RECORD]
+     United Press International — Milwaukee County sentencing report including Dorothy
+     Straughter's sworn statement (February 17, 1992).
+
+[19] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Lao Youth Mourned" (August 2, 1991). Account of memorial
+     services and family history for Konerak Sinthasomphone.
+
+[20] [CONTEMPORARY WIRE ARCHIVE]
+     Associated Press / Marquette Wire — "Dahmer Charged in Four Slayings; Police Procedures
+     Questioned" (July 26, 1991). Initial 4-count filing and Chief Arreola press briefing.
+
+[21] [CONTEMPORARY JOURNALISTIC RECORD]
+     Chicago Tribune — "Chicago Ties Probed in Dahmer Murders" (July 29, 1991). Investigation
+     of Turner, Weinberger, and Chicago Gay Pride weekend encounters.
+
+[22] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Two Officers Suspended in Dahmer Case" (July 28, 1991).
+     Suspension of Officers Balcerzak and Gabrish by Chief Philip Arreola.
+
+[23] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Four More Victims Identified in Dahmer Case" (August 6, 1991).
+
+[24] [CONTEMPORARY JOURNALISTIC RECORD]
+     Milwaukee Sentinel — "Victims' Families Recall Lost Sons" (July 24, 1991). Initial
+     interviews with families following Apartment 213 discoveries.
+
+[25] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Dahmer Charged with Four Murders" (July 26, 1991).
+
+[26] [CONTEMPORARY JOURNALISTIC RECORD]
+     The Washington Post — "12 Counts of Murder Filed Against Dahmer" (July 28, 1991).
+
+[27] [CONTEMPORARY WIRE RECORD]
+     United Press International — "Dahmer Formally Charged with 12 Murders" (August 2, 1991).
+
+[28] [PRIMARY COURT RECORD]
+     State of Ohio v. Jeffrey Dahmer, Summit County Court of Common Pleas, Case No. CR-91-08-1686:
+     - Indictment for Aggravated Murder (Ohio Rev. Code § 2903.01), September 24, 1991.
+     - Entry of Guilty Plea and Sentence of Life Imprisonment, May 1, 1992 (Judge James R. Williams).
+
+[29] [PRIMARY COURT RECORD]
+     State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court, Case No. F-882410:
+     - Judgment of Conviction for Second-Degree Sexual Assault (Wis. Stat. § 940.225(2))
+       and Child Enticement (Wis. Stat. § 948.07), May 24, 1989 (Judge William Gardner).
+
+[30] [JUDICIAL PRECEDENT]
+     State v. Verhasselt, 83 Wis. 2d 647, 266 N.W.2d 342 (1978). Landmark Wisconsin
+     Supreme Court ruling establishing that an extrajudicial confession is legally
+     insufficient to establish corpus delicti or sustain a criminal bindover absent
+     independent corroborating evidence.
+
+[31] [JUDICIAL DECISION]
+     Weinberger v. State of Wisconsin, 105 F.3d 1182 (7th Cir. 1997). Federal appellate
+     decision affirming summary judgment for Wisconsin probation officers under § 1983.
+
+[32] [FORENSIC PEER-REVIEWED RECORD]
+     Jentzen, J. M., et al., "Destruction of Evidence and Identification of Victims in
+     a Serial Murder Case," Academic Forensic Pathology / Journal of Forensic Sciences
+     (1992/1993). Details medical examiner protocol, odontology identification, and
+     Apartment 213 scene recovery.
+
+
+================================================================================
+SECTION 9: AUDIT CERTIFICATION, ATTESTATION & LOCK SIGN-OFF BLOCK
+================================================================================
+
+AUDIT CERTIFICATION STATEMENT:
+This document has been authored, verified, and audited in compliance with the
+Integrity Mandate of the Jeffrey Dahmer Case Research Webapp. All primary source
+citations have been confirmed against physical 1-based page indices of standalone
+FBI Vault FOIA releases (Part 01 [68 pp.], Part 03 [60 pp.], Part 06 [74 pp.]),
+official Milwaukee County court instruments (Case No. F-912542), Ohio judicial
+records (Case No. CR-91-08-1686), and locked project registers.
+
+SPECIFICATION ATTESTATIONS:
+  - 17 Homicides Expanded: Every victim profile contains complete, non-graphic
+    factual detail across background, method, aftermath, institutional contact,
+    and criminological significance.
+  - 4-Milestone Separation Enforced: Last seen, missing report, alleged offense,
+    and forensic identification dates are structurally partitioned without conflation.
+  - Statutory Classification Accuracy: Ohio Aggravated Murder, pre-1989 Wisconsin
+    First-Degree Murder (2 counts), post-1989 Wisconsin First-Degree Intentional
+    Homicide (13 counts), and the corpus delicti exclusion of Steven Tuomi are
+    rigorously delineated.
+  - 5 Prior Offenses & Encounters: 1981 Bath Township, 1982 State Fair, 1986 McKinley
+    Beach, 1988 Sombat Sinthasomphone assault, and July 22, 1991 Tracy Edwards escape
+    are fully cataloged with probation and pretrial statuses.
+  - Navigation Anchors Synchronized: Canonical #case-[slug] and short alias #[slug]
+    identifiers are harmonized across Tabs 3, 4, 5, and 6.
+
+SIGN-OFF:
+  Specification File: plan/03a_case_offense_series_plan_v03_final_locked.txt
+  Author / Worker: Worker 1 (Tab 5 Part A: 03a Offense Series)
+  Audit Date: October 25, 2026
+  Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+================================================================================

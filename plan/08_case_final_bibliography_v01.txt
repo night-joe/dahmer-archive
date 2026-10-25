@@ -1,0 +1,661 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+CASE TAB — FINAL NUMBERED BIBLIOGRAPHY & SOURCE CROSSWALK
+Version: 1.0 — Authoritative Master Bibliography & Harmonization Crosswalk for Tab 5 (Case)
+Date: 2026-10-25
+Status: LOCKED / PRODUCTION-READY FOR IMPLEMENTATION
+
+================================================================================
+SCOPE NOTE & DUAL-SPECIFICATION ARCHITECTURE
+================================================================================
+
+1. DUAL-SPECIFICATION MODULAR STRUCTURE:
+   Tab 5 (Case) of the Jeffrey Dahmer Case Research Webapp is structurally partitioned
+   into two locked specification documents:
+   - Part A: The Offense Series (`plan/03a_case_offense_series_plan_v03_final_locked.txt`)
+     Covers the 17 victim homicides, 5 prior offenses/contacts, strict 4-milestone separation,
+     1-based FBI Vault physical page coordinates, and statutory homicide classifications.
+   - Part B: Investigation, Arrest & Trial Proceedings (`plan/03b_case_investigation_and_trial_plan_v03_final_locked.txt`)
+     Covers the July 22, 1991 Tracy Edwards escape, MPD Apartment 213 entry and search,
+     60-hour detective interrogations, administrative actions against officers, charging
+     evolution (4 -> 12 -> 15 counts), Ohio indictment, bifurcated trial under Wis. Stat.
+     § 971.15 & § 971.165, expert psychiatric testimonies, 10–2 jury sanity verdict,
+     sentencing proceedings, and post-trial litigation.
+
+2. BIBLIOGRAPHY REGISTERS & CITATION CITING CONVENTIONS:
+   To maintain 100% evidentiary integrity without destabilizing cross-tab citations:
+   - Part A Register ([1]–[32]): Formatted according to the project-wide master register
+     harmonized across Table 1 (Victims Tab 04) and Table 2 (Timeline Tab 05), where [1] is
+     the Milwaukee Journal Sentinel retrospective, [2] is the FBI Vault primary record,
+     [3] is the Milwaukee County criminal complaint, etc.
+   - Part B Register ([1]–[33]): Formatted as an authoritative standalone trial and
+     investigation register, beginning with primary investigative and court dockets ([1]–[3]),
+     statutory authorities ([4]–[8]), Court TV trial archives ([9]), and contemporaneous
+     press coverage of trial proceedings ([10]–[33]).
+   - Master Unified Register: This document (`08_case_final_bibliography_v01.txt`) constitutes
+     the definitive harmonization bridge between both registers, providing an exhaustive
+     bidirectional crosswalk, deduplicated master listings, and evidentiary verification notes.
+
+================================================================================
+SECTION 1: MASTER CROSSWALK CONCORDANCE
+================================================================================
+
+TABLE 1.1: PART B REGISTER ([1]–[33]) TO PART A REGISTER ([1]–[32]) CROSSWALK
+--------------------------------------------------------------------------------
+Part B Citation | Primary Subject / Instrument                   | Matching Part A Citation
+----------------|------------------------------------------------|-------------------------
+[1]             | FBI Vault FOIA Records (Parts 01, 03, 06)      | Part A [2]
+[2]             | State v. Dahmer Milwaukee Complaint (F-912542) | Part A [3]
+[3]             | State of Ohio v. Dahmer (CR-91-08-1686)        | Part A [28]
+[4]             | 1987 Wisconsin Act 399 (Statutory Revision)    | Part A Statutory Analysis
+[5]             | Wis. Stat. § 940.01 / § 940.01(1)              | Part A Statutory Analysis
+[6]             | Wis. Stat. § 971.15 & § 971.165 (Sanity Test)  | Part A Section 7
+[7]             | Wis. Stat. § 805.09(2) (5/6ths Jury Rule)      | Part A Section 7
+[8]             | Ohio Rev. Code § 2903.01 (Aggravated Murder)   | Part A Section 3
+[9]             | Court TV Trial Broadcast & Archive (1992)      | Part A [8]
+[10]            | WaPo (Jan 14, 1992 - Guilty/Insane Plea)       | Part A Section 7
+[11]            | WaPo (Jan 31, 1992 - Trial Opening Testimony)  | Part A Section 7
+[12]            | WaPo (Feb 4, 1992 - Dr. Berlin Testimony)      | Part A Section 7
+[13]            | WaPo (Feb 11, 1992 - Dr. Dietz / Resnick)      | Part A Section 7
+[14]            | WaPo (Feb 16, 1992 - 10-2 Sanity Verdict)      | Part A Section 7
+[15]            | UPI (Feb 17, 1992 - 15 Life Terms Sentencing)  | Part A [18]
+[16]            | WaPo (May 2, 1992 - Ohio 16th Life Sentence)   | Part A [5]
+[17]            | UPI (July 23, 1991 - Body parts in apartment)  | Part A Section 5
+[18]            | UPI (July 25, 1991 - Initial Complaint)        | Part A [9]
+[19]            | UPI (Aug 6, 1991 - 12 Killings Complaint)      | Part A [13]
+[20]            | WaPo (Aug 23, 1991 - Hints Insanity / Tuomi)   | Part A [16]
+[21]            | UPI (July 28, 1991 - Officers Suspended)       | Part A [22]
+[22]            | UPI (Sept 6, 1991 - Officers Fired)            | Part A Section 6
+[23]            | NYT (Apr 28, 1994 - Officers Reinstated)       | Part A Section 6
+[24]            | State v. Verhasselt (Corpus Delicti Precedent) | Part A [30]
+[25]            | Bies v. State (Confession Corroboration)       | Part A Section 6
+[26]            | Estate of Sinthasomphone v. Milwaukee (1992)   | Part A Section 6
+[27]            | Weinberger v. State of Wisconsin (1997)        | Part A [31]
+[28]            | NYT (Nov 29, 1994 - Dahmer Slain in Prison)    | Part A Section 7
+[29]            | WI DOC Report (Dec 1994 - Prison Homicide)     | Part A Section 7
+[30]            | Dr. Jeffrey Jentzen ME Reflections (NAME)      | Part A [32]
+[31]            | Milwaukee Journal Sentinel Retrospective (2022)| Part A [1]
+[32]            | UPI (Sept 11, 1991 - Dual Pleas / Tuomi)       | Part A [15]
+[33]            | UPI (Aug 16, 1991 - 17th Victim Identified)    | Part A [14]
+
+
+TABLE 1.2: PART A REGISTER ([1]–[32]) TO PART B REGISTER ([1]–[33]) CROSSWALK
+--------------------------------------------------------------------------------
+Part A Citation | Primary Subject / Instrument                   | Matching Part B Citation
+----------------|------------------------------------------------|-------------------------
+[1]             | Milwaukee Journal Sentinel Retrospective (2022)| Part B [31]
+[2]             | FBI Vault FOIA Records (Parts 01, 03, 06)      | Part B [1]
+[3]             | State v. Dahmer Milwaukee Complaint (F-912542) | Part B [2]
+[4]             | NYT (July 31, 1991 - Search Spreads to Ohio)   | Part B Section 3
+[5]             | WaPo (May 2, 1992 - Ohio 16th Life Sentence)   | Part B [16]
+[6]             | UPI (Aug 2, 1991 - Laotian Family Upset Tape)  | Part B Section 2
+[7]             | Marquette AP Archive (July 26, 1991 - 2 Women) | Part B Section 2
+[8]             | Court TV Trial Broadcast & Archive (1992)      | Part B [9]
+[9]             | UPI (July 25, 1991 - Initial Complaint)        | Part B [18]
+[10]            | UPI (July 26, 1991 - 3 More Identified)        | Part B Section 3
+[11]            | UPI (July 30, 1991 - Terror Phone Calls)       | Part B Section 3
+[12]            | UPI (Aug 5, 1991 - Victim Family Lawsuit)      | Part B Section 3
+[13]            | UPI (Aug 6, 1991 - 12 Killings Complaint)      | Part B [19]
+[14]            | UPI (Aug 16, 1991 - 17th Victim Identified)    | Part B [33]
+[15]            | UPI (Sept 11, 1991 - Dual Pleas / Tuomi)       | Part B [32]
+[16]            | WaPo (Aug 22/23, 1991 - Hints Insanity / Tuomi)| Part B [20]
+[17]            | WaPo (Sept 13/14, 1991 - Hicks Bones Confirmed)| Part B Section 3
+[18]            | UPI (Feb 17, 1992 - 15 Life Terms Sentencing)  | Part B [15]
+[19]            | UPI (Aug 2, 1991 - Lao Youth Mourned)          | Part B Section 2
+[20]            | AP / Marquette (July 26, 1991 - 4 Slayings)    | Part B Section 3
+[21]            | Chicago Tribune (July 29, 1991 - Chicago Ties) | Part B Section 2
+[22]            | UPI (July 28, 1991 - Officers Suspended)       | Part B [21]
+[23]            | UPI (Aug 6, 1991 - 4 More Identified)          | Part B Section 3
+[24]            | Milwaukee Sentinel (July 24, 1991 - Families)  | Part B Section 2
+[25]            | UPI (July 26, 1991 - Charged 4 Murders)        | Part B Section 3
+[26]            | WaPo (July 28, 1991 - 12 Counts Filed)         | Part B Section 3
+[27]            | UPI (Aug 2, 1991 - Formally Charged 12)        | Part B Section 3
+[28]            | State of Ohio v. Dahmer (CR-91-08-1686)        | Part B [3]
+[29]            | State v. Dahmer 1988/89 Sexual Assault (F-882410)| Part B Section 3
+[30]            | State v. Verhasselt (Corpus Delicti Precedent) | Part B [24]
+[31]            | Weinberger v. State of Wisconsin (1997)        | Part B [27]
+[32]            | Jentzen et al. Forensic Pathology Record (1993)| Part B [30]
+
+
+TABLE 1.3: WORKING DRAFT REGISTER (08_sources_by_tab.txt) TO LOCKED REGISTER CROSSWALK
+--------------------------------------------------------------------------------
+Draft Handle / Source Name                       | Locked Register Citation
+-------------------------------------------------|-------------------------
+A.1 FBI Vault                                    | Part A [2] / Part B [1]
+A.2 FBI "Serial Killers Part 7"                  | Part A [2] / Part B [1]
+A.3 Jeffrey Jentzen "Micro Disasters" (2017)     | Part A [32] / Part B [30]
+A.4 WaPo Feb 9, 1992 (Fosdal testimony)          | Part B [9], [13]
+A.5 WaPo Feb 13, 1992 (Dietz testimony)          | Part B [9], [13]
+A.6 DocumentCloud Criminal Complaint             | Part A [3] / Part B [2]
+A.7 MJS Victims Retrospective (Sept 2022)        | Part A [1] / Part B [31]
+A.8 NYT July 24, 1991                            | Part A [24], Part B [17]
+A.9 UPI Archives Search                          | Part A [9]–[15], Part B [17]–[22]
+A.10 Patrick Kennedy "Grilling Dahmer" (2022)   | Part A Section 5, Part B [1]
+B.1 FBI "Serial Killers Part 7"                  | Part A [2] / Part B [1]
+B.2 UPI July 23, 1991                            | Part B [17]
+B.3 NYT July 24 and 26, 1991                     | Part A [24], Part B [17]
+B.4 Court TV Edwards Testimony                   | Part B [9]
+B.5 Court TV Crime Scene Investigators           | Part B [9]
+B.6 WaPo July 29, 1991                           | Part A [26]
+B.7 Patrick Kennedy "Grilling Dahmer"            | Part A Section 5, Part B [1]
+B.8 Court TV Det. Patrick Kennedy                | Part B [9]
+B.9 U of Michigan Pathology / Jentzen Profile    | Part A [32] / Part B [30]
+B.10 NYT July 31, 1991 (Ohio remains)            | Part A [4]
+B.11 UPI Aug 6, 1991 (Charged dozen killings)    | Part A [13] / Part B [19]
+B.12 Survivor Background (Tracy Edwards)         | Part B [9], [11]
+C.1 Court TV Trial Archive                       | Part A [8] / Part B [9]
+C.2 Court TV The Sentencing                      | Part A [8] / Part B [9]
+C.3 WaPo Feb 7, 1992 (Palermo testimony)         | Part B [9], [13]
+C.4 WaPo Feb 9, 1992 (Fosdal testimony)          | Part B [9], [13]
+C.5 WaPo Feb 13, 1992 (Dietz testimony)          | Part B [9], [13]
+C.6 WaPo Feb 15, 1992 (McCann closing arguments) | Part B [9], [14]
+C.7 WaPo Feb 16, 1992 (Jury finds sane)          | Part B [14]
+C.8 UPI Feb 15, 1992 (Jury finds sane)           | Part B [14]
+C.9 WaPo Feb 18, 1992 (15 life terms)            | Part B [15]
+C.10 UPI Feb 17, 1992 (Sentencing)               | Part A [18] / Part B [15]
+C.11 UPI May 1, 1992 (Hicks plea)                | Part A [5], [28] / Part B [3], [16]
+C.12 WaPo May 2, 1992 (Hicks sentencing)         | Part A [5] / Part B [16]
+C.13 Tampa Bay Times May 2, 1992                 | Part B [16]
+C.14 Gregory J. O'Meara (2009 Marquette Law)     | Part B Section 4
+C.15 WCCA Case No. 91-CF-3584 / F-912542         | Part A [3] / Part B [2]
+C.16 UMKC Law Sinthasomphone Analysis            | Part B [26]
+C.17 DocumentCloud Criminal Complaint            | Part A [3] / Part B [2]
+
+================================================================================
+SECTION 2: AUTHORITATIVE NUMBERED BIBLIOGRAPHY: TAB 5 PART B REGISTER ([1]–[33])
+================================================================================
+
+[1] Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, Vault Parts 01, 03, and 06. [PRIMARY]
+    Collection URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+    - Part 01 PDF (68 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+    - Part 03 PDF (60 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+    - Part 06 PDF (74 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+    Archive / File Locator: Local repository files: assets/docs/Dahmer_Part_01.pdf, assets/docs/Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf, assets/docs/Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf
+    Used for: Verified 1-based PDF locators for Edwards escape and arrest (Pt 01 pp. 4, 46, 63; Pt 03 pp. 11–12, 55),
+    detective interrogation summaries (Pt 01 pp. 20–25; Pt 03 pp. 1–60), victim identification teletypes (Pt 01 pp. 24–25,
+    39–40, 43, 53, 60), Ohio indictment teletype (Pt 01 p. 64), Tuomi Ambassador Hotel confession (Pt 03 p. 10), and
+    MPD physical evidence logs and toolmark saw examinations (Pt 06 pp. 6–7, 9–13, 68).
+
+[2] State of Wisconsin v. Jeffrey L. Dahmer — Milwaukee County Charging Documents & Information (Case No. F-912542). [PRIMARY]
+    DocumentCloud URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    - Initial Complaint (July 25, 1991, 4 counts: Turner, Weinberger, Lacy, Bradehoft; Judge Frank Crivello).
+    - Amended Complaint (August 6, 1991, 12 counts: Sears through Bradehoft; Detective Dennis Murphy, ADA Gerald Ptacek, Judge Jeffrey Wagner).
+    - Preliminary Hearing Waiver & Information (August 22, 1991, 15 counts: DA E. Michael McCann, Judge Jeffrey Wagner).
+    Used for: Complete procedural charging evolution, victim identifications, offense dates, and bail determinations.
+
+[3] State of Ohio v. Jeffrey L. Dahmer — Summit County Court of Common Pleas (Case No. CR-91-08-1686). [PRIMARY]
+    Summit County Clerk of Courts, Akron, Ohio.
+    - Grand Jury Indictment (September 24, 1991).
+    - Arraignment, Guilty Plea & Sentencing Transcript before Judge James R. Williams (May 1, 1992).
+    Used for: Ohio jurisdiction over Steven Hicks homicide, Aggravated Murder charge (Ohio Rev. Code § 2903.01), and 16th life sentence.
+
+[4] 1987 Wisconsin Act 399 — Revision of Wisconsin Homicide Statutes (eff. January 1, 1989). [PRIMARY STATUTE]
+    Wisconsin Legislature Digital Archives: https://docs.legis.wisconsin.gov/1987/related/acts/399.pdf
+    Used for: Legislative repeal of former First-Degree Murder statute and enactment of First-Degree Intentional Homicide.
+
+[5] Wisconsin Statutes § 940.01 (1987) ("First-Degree Murder") & § 940.01(1) (1989) ("First-Degree Intentional Homicide"). [PRIMARY STATUTE]
+    Wisconsin Legislature: https://docs.legis.wisconsin.gov/statutes/statutes/940/01
+    Used for: Statutory split of Milwaukee charges: 2 counts pre-1989 murder (Doxtator, Guerrero) vs. 13 counts post-1989 intentional homicide.
+
+[6] Wisconsin Statutes § 971.15 ("Mental responsibility of defendant") & § 971.165 ("Trial of defendant with mental disease or defect"). [PRIMARY STATUTE]
+    Wisconsin Legislature: https://docs.legis.wisconsin.gov/statutes/statutes/971/15
+    Used for: Statutory two-prong mental responsibility test, personality disorder exclusion, civil burden of proof on defendant, and bifurcated trial mechanics.
+
+[7] Wisconsin Statutes § 805.09(2) ("Juries: Number of jurors; five-sixths verdict"). [PRIMARY STATUTE]
+    Wisconsin Legislature: https://docs.legis.wisconsin.gov/statutes/statutes/805/09/2
+    Used for: Legal authority governing Wisconsin civil five-sixths (10–2) jury verdict rule in sanity phase proceedings.
+
+[8] Ohio Revised Code § 2903.01 ("Aggravated Murder"). [PRIMARY STATUTE]
+    Ohio Laws & Administrative Rules: https://codes.ohio.gov/ohio-revised-code/section-2903.01
+    Used for: Statutory charge governing Steven Hicks homicide in Summit County, Ohio.
+
+[9] Court TV — State of Wisconsin v. Jeffrey Dahmer (1992) Live Broadcast & Video Archive. [PRIMARY RECORDING]
+    URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+    Used for: Verbatim courtroom proceedings, opening statements, Tracy Edwards testimony, Officers Mueller and Rauth testimony,
+    defense expert testimonies (Drs. Berlin, Becker, Wahlstrom), prosecution rebuttal testimonies (Drs. Dietz, Resnick, Fosdal),
+    court-appointed expert testimony (Dr. Palermo), jury verdict return, and sentencing victim impact statements.
+
+[10] The Washington Post — “Dahmer Pleads Guilty, Insane in 15 Slayings” (January 14, 1992). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1992-01-14/dahmer-pleads-guilty-insane-in-15-slayings/50aeb4db-10c3-4d4b-a630-1ee7d1ef51db/
+     Used for: January 13, 1992 dual plea hearing before Judge Laurence C. Gram Jr.
+
+[11] The Washington Post — “Dahmer's Trial Opens With Graphic Testimony” (January 31, 1992). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1992/01/31/dahmers-trial-opens-with-graphic-testimony/55c5dfb5-d146-4cb2-82dc-df4cbb9d3434/
+     Used for: Sanity trial opening statements, courtroom security precautions, and Tracy Edwards testimony.
+
+[12] The Washington Post — “Psychiatrist Testifies Dahmer Acted on Impulse” (February 4, 1992). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1992/02/04/psychiatrist-testifies-dahmer-acted-on-impulse/9cbe778b-d7d8-4ae7-8ce6-764f697486e9/
+     Used for: Defense psychiatric testimony of Dr. Fred Berlin regarding necrophilia as an uncontrollable volitional disorder.
+
+[13] The Washington Post — “Dahmer Sane, Able to Control Impulses, Expert Testifies” (February 11, 1992). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1992/02/11/dahmer-sane-able-to-control-impulses-expert-testifies/bebc1f60-038c-4861-ab42-2bdf6ad22757/
+     Used for: Prosecution expert testimony of Dr. Park Dietz, Dr. Phillip Resnick, and court expert Dr. George Palermo.
+
+[14] The Washington Post — “Jury Rejects Insanity Defense, Finds Dahmer Sane” (February 16, 1992). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1992-02-16/jury-rejects-insanity-defense-finds-dahmer-sane/68a98c56-6be1-4df2-ab69-450f3b483ad3/
+     Used for: 10–2 jury sanity verdict across all 15 counts and five-hour deliberation sequence.
+
+[15] United Press International — “Dahmer Sentenced to 15 Life Terms” (February 17, 1992). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/
+     Used for: Judge Laurence C. Gram Jr. Wisconsin sentencing hearing, 15 consecutive life terms, 936-year parole minimum, and Dahmer allocution.
+
+[16] The Washington Post — “Dahmer Given 16th Life Sentence in 1978 Ohio Slaying” (May 2, 1992). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+     Used for: May 1, 1992 Summit County Court of Common Pleas plea and sentencing before Judge James R. Williams, and statement of Martha Hicks.
+
+[17] United Press International — “Police find body parts in apartment” (July 23, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991-07-23/Police-find-body-parts-in-apartment/1119680241600/
+     Used for: Overnight arrest sequence, Tracy Edwards escape, responding Officers Mueller and Rauth, and Apt 213 entry.
+
+[18] United Press International — “Complaint: Man Killed Victims, Saved Heart to Eat” (July 25, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+     Used for: Initial 4-count criminal complaint (Turner, Weinberger, Lacy, Bradehoft), $1M bail, and Judge Frank Crivello.
+
+[19] United Press International — “Dahmer Charged with Dozen Killings” (August 6, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+     Used for: 12-count amended criminal complaint, $5M bail, Detective Murphy sworn statement, and August 13 preliminary hearing scheduling.
+
+[20] The Washington Post — “Dahmer’s Attorney Hints at Insanity Defense” (August 23, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+     Used for: August 22, 1991 preliminary hearing waiver, 15-count bindover, and exclusion of Steven Tuomi.
+
+[21] United Press International — “Two Officers Suspended in Dahmer Case” (July 28, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/
+     Used for: Chief Philip Arreola administrative suspensions of Officers Balcerzak, Gabrish, and Porubcan on July 26, 1991.
+
+[22] United Press International — “Two cops fired for returning naked boy to Dahmer” (September 6, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991-09-06/Two-cops-fired-for-returning-naked-boy-to-Dahmer/7782684129600/
+     Used for: Departmental termination of Balcerzak and Gabrish by Chief Arreola following internal affairs report.
+
+[23] The New York Times — “Victory for Two in Dahmer Case” (April 28, 1994). [CONTEMPORARY]
+     URL: https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html
+     Used for: Arbitrator/Judge Robert J. Parins ruling overturning firings of Balcerzak and Gabrish with $55,000 back pay, and MPA 94% no-confidence vote.
+
+[24] State of Wisconsin v. Verhasselt, 83 Wis. 2d 647, 266 N.W.2d 342 (1978). [PRIMARY JUDICIAL OPINION]
+     Justia URL: https://law.justia.com/cases/wisconsin/supreme-court/1978/76-200-cr-6.html
+     Used for: Wisconsin common-law *corpus delicti* rule requiring corroborating physical evidence beyond an extrajudicial confession.
+
+[25] Bies v. State, 53 Wis. 2d 322, 193 N.W.2d 46 (1972). [PRIMARY JUDICIAL OPINION]
+     Justia URL: https://law.justia.com/cases/wisconsin/supreme-court/1972/53-wis-2d-322-6.html
+     Used for: Corroboration standard governing uncorroborated confessions in Wisconsin criminal prosecutions.
+
+[26] Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343 (E.D. Wis. 1992). [PRIMARY JUDICIAL OPINION]
+     Justia URL: https://law.justia.com/cases/federal/district-courts/FSupp/785/1343/2144702/
+     Used for: Judicial findings regarding the May 27, 1991 police encounter with Konerak Sinthasomphone and denial of qualified immunity.
+
+[27] Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995), aff'd 105 F.3d 1182 (7th Cir. 1997). [PRIMARY JUDICIAL OPINION]
+     CourtListener URL: https://www.courtlistener.com/opinion/2126871/weinberger-v-state-of-wisconsin/
+     Used for: State probation supervision history, Donna Chester case logs, and home-visit waiver standards.
+
+[28] The New York Times — “Dahmer Is Slain in Prison; Inmate With Iron Bar Kills Notorious Serial Slayer” (November 29, 1994). [CONTEMPORARY]
+     URL: https://www.nytimes.com/1994-11-29/us/dahmer-is-slain-in-prison-inmate-with-iron-bar-kills-notorious-serial-slayer.html
+     Used for: Fatal assault of Jeffrey Dahmer at Columbia Correctional Institution by Christopher Scarver.
+
+[29] Wisconsin Department of Corrections — Investigative Report into the Homicides of Jeffrey Dahmer and Jesse Anderson (December 1994). [PRIMARY]
+     State Archival Record: Madison, WI.
+     Used for: Official investigative chronology of November 28, 1994 Columbia Correctional Institution gym incident.
+
+[30] Dr. Jeffrey Jentzen — “Reflections on the Milwaukee Serial Homicide Investigation,” National Association of Medical Examiners (NAME) Proceedings / Career Reflections. [SECONDARY]
+     Used for: Medical examiner scene processing, preservation of remains, and retrospective professional reflection ("dismantling a museum").
+
+[31] Milwaukee Journal Sentinel — “Jeffrey Dahmer’s 17 victims and what we knew about them” (September 28–29, 2022). [SECONDARY]
+     URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+     Used for: Victim family accounts, Rita Isbell victim impact context, and Steven Tuomi historical background.
+
+[32] United Press International — “Dahmer Opts for Innocent and Insanity Pleas” (September 11, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+     Used for: Procedural record confirming DA McCann exclusion of Steven Tuomi charges due to lack of physical corpus delicti.
+
+[33] United Press International — “Dahmer’s 17th Victim Identified” (August 16, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+     Used for: Jamie Doxtator identification timeline and prosecutorial announcement.
+
+================================================================================
+SECTION 3: AUTHORITATIVE NUMBERED BIBLIOGRAPHY: TAB 5 PART A REGISTER ([1]–[32])
+================================================================================
+
+[1] Milwaukee Journal Sentinel — "Jeffrey Dahmer's 17 victims and what we knew about them"
+    (September 28–29, 2022). [CONTEMPORARY / RETROSPECTIVE REGISTER; SECONDARY]
+    URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+    Used for: Comprehensive biographical profiles, last-seen dates, and family remembrances across all 17 victims.
+
+[2] Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, FBI Vault. [PRIMARY ARCHIVAL RECORD]
+    Collection URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+    Standalone local files verified:
+    - Dahmer_Part_01.pdf (68 pp.): p. 4 (arrest teletype); p. 5 (Hicks confession);
+      p. 8 (Lacy ID); pp. 24–25 (10-victim master teletype); p. 27 (criminal history);
+      pp. 39–40 (5-victim second teletype); p. 43 (Tuomi/Doxtator dates); p. 46 (Airtel);
+      p. 47 (Konerak confession); p. 53 (Tuomi note); p. 60 (5 unrecovered remains memo);
+      p. 62 (Lacy DOB variant); p. 63 (Lacy ID & Edwards narrative); p. 64 (Ohio indictment).
+    - Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf (60 pp.): p. 9 (Hicks BSU confession);
+      p. 10 (Tuomi Ambassador confession); p. 11 (Konerak confession); pp. 11–12 (Edwards
+      escape confession); p. 12 (Straughter confession); p. 14 (Doxtator confession);
+      pp. 51–52 (Cleveland Division Hicks report CV 7-MW-26057); p. 55 (Edwards wire clipping).
+    - Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf (74 pp.): p. 3 (Tuomi disposal); pp. 6–7
+      (MPD physical evidence inventory; drilled skulls BW, BS, BR, BQ; bleached skulls
+      BU, BV, BT, BX; Polaroids CD, CE, CF); pp. 9–13 (MPD 14-victim transmittal roster
+      to FBI Laboratory); p. 15 (Tuomi note); p. 68 (FBI Lab toolmark report on Bradehoft).
+
+[3] State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court, Case No. F-912542. [PRIMARY LEGAL RECORD]
+    DocumentCloud URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    - Initial Criminal Complaint (July 25, 1991; 4 counts: Turner, Weinberger, Lacy, Bradehoft).
+    - Amended Criminal Complaint (August 6, 1991; 12 counts: Sears, R. Smith, Miller,
+      Thomas, Straughter, Lindsey, Hughes, Sinthasomphone, Turner, Weinberger, Lacy, Bradehoft).
+    - Information following Preliminary Hearing Waiver (August 22, 1991; 15 counts:
+      Counts 01–12 as above; Count 13 Doxtator; Count 14 Guerrero; Count 15 E. Smith).
+
+[4] The New York Times — "Search for Victims Spreads to Ohio" (July 31, 1991). [CONTEMPORARY JOURNALISTIC RECORD]
+    URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+    Used for: Details excavation of Hicks's remains in Bath Township, Ohio.
+
+[5] The Washington Post — "Dahmer Given 16th Life Sentence in 1978 Ohio Slaying" (May 2, 1992). [CONTEMPORARY JOURNALISTIC RECORD]
+    URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+    Used for: Coverage of Dahmer's guilty plea and sentencing in Summit County Court of Common Pleas.
+
+[6] United Press International — "Laotian Family Upset After Hearing Tape" (August 2, 1991). [CONTEMPORARY WIRE RECORD]
+    URL: https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+    Used for: Account of Sinthasomphone family response and 911 dispatch tapes.
+
+[7] Marquette University AP wire archive — "2 Women Say Officers Failed To Aid 14-year-old" (July 26, 1991). [CONTEMPORARY WIRE ARCHIVE]
+    URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+    Used for: Statements of Sandra Smith and Nicole Childress regarding May 27 incident.
+
+[8] Court TV — State of Wisconsin v. Jeffrey Dahmer (Milwaukee County Circuit Court, Case No. F-912542, Jan 27 – Feb 15, 1992). [PRIMARY COURT PROCEEDINGS]
+    URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+    Used for:
+    - Expert psychiatric testimony of Dr. Fred Berlin, Dr. Judith Becker, Dr. Carl
+      Wahlstrom, Dr. Frederick Fosdal, Dr. Park Dietz, and Dr. Phillip Resnick.
+    - Sworn sentencing victim impact statements of Rita Isbell, Carolyn Smith, Shirley
+      Hughes, and Dorothy Straughter (February 14–15, 1992).
+
+[9] United Press International — "Complaint: Man Killed Victims, Saved Heart to Eat" (July 25, 1991). [CONTEMPORARY WIRE RECORD]
+    URL: https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+    Used for: Initial coverage of Oliver Lacy's identification and refrigerator recovery.
+
+[10] United Press International — "Three More Mass Murder Victims Identified" (July 26, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/
+     Used for: Coverage of post-arrest dental identifications for Sears, Straughter, and Lindsey.
+
+[11] United Press International — "Dahmer Reportedly Made Terror Phone Calls" (July 30, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/
+     Used for: Statements by Carolyn Smith regarding anonymous calls following Eddie Smith's disappearance; Richard Guerrero and David Thomas details.
+
+[12] United Press International — "Family of Dahmer Victim Files Lawsuit" (August 5, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/
+     Used for: Reporting on Joseph Bradehoft, Oliver Lacy, and Jeremiah Weinberger.
+
+[13] United Press International — "Dahmer Charged with Dozen Killings" (August 6, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+     Used for: Filing of 12-count amended criminal complaint; details on Raymond Smith.
+
+[14] United Press International — "Dahmer's 17th Victim Identified" (August 16, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+     Used for: Identification of James Doxtator as 17th victim; Sears Easter timeline details.
+
+[15] United Press International — "Dahmer Opts for Innocent and Insanity Pleas" (September 11, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+     Used for: Entry of dual pleas before Judge Laurence Gram Jr.
+
+[16] The Washington Post — "Dahmer's Attorney Hints at Insanity Defense" (August 22/23, 1991). [CONTEMPORARY JOURNALISTIC RECORD]
+     URL: https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+     Used for: DA McCann announcement declining charges in Steven Tuomi death due to lack of corpus delicti.
+
+[17] The Washington Post — "Bones Found at Dahmer Site Identified" (September 13/14, 1991). [CONTEMPORARY JOURNALISTIC RECORD]
+     URL: https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/
+     Used for: Confirmation of Steven Hicks bone fragments by Summit County Coroner Dr. William Cox.
+
+[18] United Press International — Milwaukee County sentencing report including Dorothy Straughter's sworn statement (February 17, 1992). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/
+     Used for: Sentencing coverage and Dorothy Straughter sworn impact statement.
+
+[19] United Press International — "Lao Youth Mourned" (August 2, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991-08-02/Lao-youth-mourned/681024000/
+     Used for: Account of memorial services and family history for Konerak Sinthasomphone.
+
+[20] Associated Press / Marquette Wire — "Dahmer Charged in Four Slayings; Police Procedures Questioned" (July 26, 1991). [CONTEMPORARY WIRE ARCHIVE]
+     URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1114&view=Search&mh=1
+     Used for: Initial 4-count filing and Chief Arreola press briefing.
+
+[21] Chicago Tribune — "Chicago Ties Probed in Dahmer Murders" (July 29, 1991). [CONTEMPORARY JOURNALISTIC RECORD]
+     URL: https://www.chicagotribune.com/1991/07/29/chicago-ties-probed-in-dahmer-murders/
+     Used for: Investigation of Turner, Weinberger, and Chicago Gay Pride weekend encounters.
+
+[22] United Press International — "Two Officers Suspended in Dahmer Case" (July 28, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/
+     Used for: Suspension of Officers Balcerzak and Gabrish by Chief Philip Arreola.
+
+[23] United Press International — "Four More Victims Identified in Dahmer Case" (August 6, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991-08-06/Four-more-victims-identified-in-Dahmer-case/645954600/
+     Used for: Identification sequence for Raymond Smith, Eddie Smith, Ernest Miller, and David Thomas.
+
+[24] Milwaukee Sentinel — "Victims' Families Recall Lost Sons" (July 24, 1991). [CONTEMPORARY JOURNALISTIC RECORD]
+     Archive Locator: Milwaukee Public Library Microforms / NewsBank Archive.
+     Used for: Initial interviews with families following Apartment 213 discoveries.
+
+[25] United Press International — "Dahmer Charged with Four Murders" (July 26, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991-07-26/Dahmer-charged-with-four-murders/5881680500800/
+     Used for: Procedural detail on initial four charges before Judge Crivello.
+
+[26] The Washington Post — "12 Counts of Murder Filed Against Dahmer" (July 28, 1991). [CONTEMPORARY JOURNALISTIC RECORD]
+     URL: https://www.washingtonpost.com/archive/politics/1991/07/28/12-counts-of-murder-filed-against-dahmer/45e1286c-ec55-4654-8e11-e4ea502cf065/
+     Used for: Contemporary summary of the expanding charging matrix.
+
+[27] United Press International — "Dahmer Formally Charged with 12 Murders" (August 2, 1991). [CONTEMPORARY WIRE RECORD]
+     URL: https://www.upi.com/Archives/1991-08-02/Dahmer-formally-charged-with-12-murders/5138681105600/
+     Used for: Formal arraignment coverage on amended complaint.
+
+[28] State of Ohio v. Jeffrey Dahmer, Summit County Court of Common Pleas, Case No. CR-91-08-1686. [PRIMARY COURT RECORD]
+     Summit County Clerk of Courts, Akron, Ohio.
+     - Indictment for Aggravated Murder (Ohio Rev. Code § 2903.01), September 24, 1991.
+     - Entry of Guilty Plea and Sentence of Life Imprisonment, May 1, 1992 (Judge James R. Williams).
+
+[29] State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court, Case No. F-882410. [PRIMARY COURT RECORD]
+     Milwaukee County Clerk of Circuit Court Records.
+     - Judgment of Conviction for Second-Degree Sexual Assault (Wis. Stat. § 940.225(2))
+       and Child Enticement (Wis. Stat. § 948.07), May 24, 1989 (Judge William Gardner).
+
+[30] State v. Verhasselt, 83 Wis. 2d 647, 266 N.W.2d 342 (1978). [JUDICIAL PRECEDENT]
+     Justia URL: https://law.justia.com/cases/wisconsin/supreme-court/1978/76-200-cr-6.html
+     Used for: Landmark Wisconsin Supreme Court ruling establishing that an extrajudicial confession is legally
+     insufficient to establish corpus delicti or sustain a criminal bindover absent independent corroborating evidence.
+
+[31] Weinberger v. State of Wisconsin, 105 F.3d 1182 (7th Cir. 1997). [JUDICIAL DECISION]
+     CourtListener URL: https://www.courtlistener.com/opinion/2126871/weinberger-v-state-of-wisconsin/
+     Used for: Federal appellate decision affirming summary judgment for Wisconsin probation officers under § 1983.
+
+[32] Jentzen, J. M., et al., "Destruction of Evidence and Identification of Victims in a Serial Murder Case," Academic Forensic Pathology / Journal of Forensic Sciences (1992/1993). [FORENSIC PEER-REVIEWED RECORD]
+     DOI / PMC URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/
+     Used for: Details medical examiner protocol, odontology identification, and Apartment 213 scene recovery.
+
+================================================================================
+SECTION 4: UNIFIED DEDUPLICATED MASTER CONCORDANCE REGISTER
+================================================================================
+
+This register provides a consolidated, deduplicated inventory of every authority
+cited across both Part A (Offense Series) and Part B (Investigation & Trial),
+alphabetized by issuing entity or author.
+
+1. Bies v. State, 53 Wis. 2d 322, 193 N.W.2d 46 (1972) [PRIMARY JUDICIAL OPINION]
+   - URL: https://law.justia.com/cases/wisconsin/supreme-court/1972/53-wis-2d-322-6.html
+   - Cited in: Part B [25]
+
+2. Chicago Tribune — "Chicago Ties Probed in Dahmer Murders" (July 29, 1991) [CONTEMPORARY]
+   - URL: https://www.chicagotribune.com/1991/07/29/chicago-ties-probed-in-dahmer-murders/
+   - Cited in: Part A [21]
+
+3. Court TV — State of Wisconsin v. Jeffrey Dahmer (1992) Live Broadcast & Archive [PRIMARY RECORDING]
+   - URL: https://www.courttv.com/trials/wi-v-dahmer-1992/
+   - Playlist: https://www.youtube.com/playlist?list=PLMD8umRLJkKwl6m5RZbGklOkudKOu_sHh
+   - Cited in: Part A [8], Part B [9]
+
+4. Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343 (E.D. Wis. 1992) [PRIMARY JUDICIAL OPINION]
+   - URL: https://law.justia.com/cases/federal/district-courts/FSupp/785/1343/2144702/
+   - Cited in: Part B [26]
+
+5. Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Files (Parts 01, 03, 06) [PRIMARY]
+   - Collection URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+   - Part 01 PDF: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+   - Part 03 PDF: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+   - Part 06 PDF: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+   - Cited in: Part A [2], Part B [1]
+
+6. Jentzen, Dr. Jeffrey M., et al. — Forensic Pathology Reports & Career Reflections (1993, 2017) [SCHOLARLY / SECONDARY]
+   - PMC URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/
+   - Cited in: Part A [32], Part B [30]
+
+7. Marquette University AP Wire Archive (CUAP Database, July 1991) [CONTEMPORARY]
+   - URLs: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+   - Cited in: Part A [7], [20]
+
+8. Milwaukee Journal Sentinel — "Jeffrey Dahmer's 17 victims and what we knew about them" (Sept 2022) [SECONDARY]
+   - URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+   - Cited in: Part A [1], Part B [31]
+
+9. Milwaukee Sentinel — "Victims' Families Recall Lost Sons" (July 24, 1991) [CONTEMPORARY]
+   - Locator: Milwaukee Public Library Microforms
+   - Cited in: Part A [24]
+
+10. The New York Times — Contemporaneous Case Reporting (1991, 1994) [CONTEMPORARY]
+    - July 31, 1991 (Ohio search): https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+    - April 28, 1994 (Officer arbitration): https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html
+    - November 29, 1994 (Prison homicide): https://www.nytimes.com/1994-11-29/us/dahmer-is-slain-in-prison-inmate-with-iron-bar-kills-notorious-serial-slayer.html
+    - Cited in: Part A [4], Part B [23], [28]
+
+11. 1987 Wisconsin Act 399 — Legislative Revision of Homicide Statutes (eff. Jan 1, 1989) [PRIMARY STATUTE]
+    - URL: https://docs.legis.wisconsin.gov/1987/related/acts/399.pdf
+    - Cited in: Part B [4]
+
+12. Ohio Revised Code § 2903.01 ("Aggravated Murder") [PRIMARY STATUTE]
+    - URL: https://codes.ohio.gov/ohio-revised-code/section-2903.01
+    - Cited in: Part B [8]
+
+13. State of Ohio v. Jeffrey L. Dahmer, Summit County Case No. CR-91-08-1686 [PRIMARY COURT RECORD]
+    - Indictment (Sept 24, 1991) & Judgment Entry (May 1, 1992)
+    - Cited in: Part A [28], Part B [3]
+
+14. State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Case No. F-882410 [PRIMARY COURT RECORD]
+    - Judgment of Conviction (May 24, 1989, Judge William Gardner)
+    - Cited in: Part A [29]
+
+15. State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Case No. F-912542 [PRIMARY COURT RECORD]
+    - DocumentCloud Complaint: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    - Initial Complaint (July 25, 1991); Amended Complaint (Aug 6, 1991); Information (Aug 22, 1991)
+    - Cited in: Part A [3], Part B [2]
+
+16. State v. Verhasselt, 83 Wis. 2d 647, 266 N.W.2d 342 (1978) [PRIMARY JUDICIAL OPINION]
+    - URL: https://law.justia.com/cases/wisconsin/supreme-court/1978/76-200-cr-6.html
+    - Cited in: Part A [30], Part B [24]
+
+17. United Press International — Wire Service Case Reporting (1991–1992) [CONTEMPORARY]
+    - July 23, 1991 (Arrest): https://www.upi.com/Archives/1991-07-23/Police-find-body-parts-in-apartment/1119680241600/
+    - July 25, 1991 (Complaint): https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+    - July 26, 1991 (3 more ID): https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/
+    - July 28, 1991 (Suspensions): https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/
+    - July 30, 1991 (Phone calls): https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/
+    - Aug 2, 1991 (Family tape): https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+    - Aug 5, 1991 (Lawsuit): https://www.upi.com/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/
+    - Aug 6, 1991 (12 killings): https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+    - Aug 16, 1991 (17th victim): https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+    - Sept 6, 1991 (Cops fired): https://www.upi.com/Archives/1991-09-06/Two-cops-fired-for-returning-naked-boy-to-Dahmer/7782684129600/
+    - Sept 11, 1991 (Plea / Tuomi): https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+    - Feb 17, 1992 (Sentencing): https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/
+    - Cited in: Part A [6], [9]–[15], [18], [19], [22], [23], [25], [27]; Part B [15], [17]–[19], [21], [22], [32], [33]
+
+18. The Washington Post — Contemporaneous Case Reporting (1991–1992) [CONTEMPORARY]
+    - July 28, 1991 (12 counts): https://www.washingtonpost.com/archive/politics/1991/07/28/12-counts-of-murder-filed-against-dahmer/45e1286c-ec55-4654-8e11-e4ea502cf065/
+    - Aug 23, 1991 (Insanity / Tuomi): https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+    - Sept 14, 1991 (Hicks bones): https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/
+    - Jan 14, 1992 (Plea): https://www.washingtonpost.com/archive/politics/1992-01-14/dahmer-pleads-guilty-insane-in-15-slayings/50aeb4db-10c3-4d4b-a630-1ee7d1ef51db/
+    - Jan 31, 1992 (Trial opens): https://www.washingtonpost.com/archive/politics/1992/01/31/dahmers-trial-opens-with-graphic-testimony/55c5dfb5-d146-4cb2-82dc-df4cbb9d3434/
+    - Feb 4, 1992 (Berlin testimony): https://www.washingtonpost.com/archive/politics/1992/02/04/psychiatrist-testifies-dahmer-acted-on-impulse/9cbe778b-d7d8-4ae7-8ce6-764f697486e9/
+    - Feb 11, 1992 (Dietz testimony): https://www.washingtonpost.com/archive/politics/1992/02/11/dahmer-sane-able-to-control-impulses-expert-testifies/bebc1f60-038c-4861-ab42-2bdf6ad22757/
+    - Feb 16, 1992 (Sanity verdict): https://www.washingtonpost.com/archive/politics/1992-02-16/jury-rejects-insanity-defense-finds-dahmer-sane/68a98c56-6be1-4df2-ab69-450f3b483ad3/
+    - May 2, 1992 (Ohio sentencing): https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+    - Cited in: Part A [5], [16], [17], [26]; Part B [10]–[14], [16], [20]
+
+19. Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995), aff'd 105 F.3d 1182 (7th Cir. 1997) [PRIMARY JUDICIAL OPINION]
+    - URL: https://www.courtlistener.com/opinion/2126871/weinberger-v-state-of-wisconsin/
+    - Cited in: Part A [31], Part B [27]
+
+20. Wisconsin Department of Corrections — Investigative Report into Homicides of Dahmer and Anderson (1994) [PRIMARY]
+    - State Archival Record, Madison, WI
+    - Cited in: Part B [29]
+
+21. Wisconsin Statutes § 805.09(2) ("Juries: Number of jurors; five-sixths verdict") [PRIMARY STATUTE]
+    - URL: https://docs.legis.wisconsin.gov/statutes/statutes/805/09/2
+    - Cited in: Part B [7]
+
+22. Wisconsin Statutes § 940.01 ("First-Degree Murder") & § 940.01(1) ("First-Degree Intentional Homicide") [PRIMARY STATUTE]
+    - URL: https://docs.legis.wisconsin.gov/statutes/statutes/940/01
+    - Cited in: Part B [5]
+
+23. Wisconsin Statutes § 971.15 ("Mental responsibility") & § 971.165 ("Bifurcated trial") [PRIMARY STATUTE]
+    - URL: https://docs.legis.wisconsin.gov/statutes/statutes/971/15
+    - Cited in: Part B [6]
+
+================================================================================
+SECTION 5: SOURCE VERIFICATION NOTES — OPEN ITEMS PRESERVED
+================================================================================
+
+1. STEVEN TUOMI CORPUS DELICTI & UNCHARGED STATUS:
+   - Extrajudicial Confession: During post-arrest debriefings with Detectives Kennedy and
+     Murphy, Dahmer confessed to killing Steven Tuomi at the Ambassador Hotel (FBI Part 03, p. 10).
+     Dahmer stated the event occurred "somewhere around 1986 or 1987," whereas missing-person
+     reports established Tuomi was last seen alive on September 15, 1987 (Marc's Big Boy).
+   - Legal Corpus Delicti Threshold: Under Wisconsin Supreme Court precedent (*State v. Verhasselt*,
+     83 Wis. 2d 647, 266 N.W.2d 342 (1978)), an extrajudicial confession cannot support a bindover
+     or conviction without independent corroborating evidence of corpus delicti. Because Dahmer
+     disposed of Tuomi's remains in the trash and zero biological or physical trace evidence was
+     recovered (FBI Part 01, pp. 43, 60; Part 06, pp. 3, 15), District Attorney E. Michael McCann
+     formally declined to file homicide charges on August 22, 1991.
+   - Editorial Mandate: Webapp text preserves Tuomi as one of the 17 homicide victims while
+     strictly differentiating him from the 15 charged Milwaukee homicides.
+
+2. STATUTORY SPLIT UNDER 1987 WISCONSIN ACT 399:
+   - Effective Date: January 1, 1989. Act 399 overhauled Wisconsin criminal homicide law,
+     repealing former Wis. Stat. § 940.01 ("First-Degree Murder") and enacting Wis. Stat.
+     § 940.01(1) ("First-Degree Intentional Homicide").
+   - Charging Allocation:
+     * Pre-1989 Offenses (2 Counts First-Degree Murder): Count 13 (James Doxtator, Jan 1988)
+       and Count 14 (Richard Guerrero, March 1988).
+     * Post-1989 Offenses (13 Counts First-Degree Intentional Homicide): Counts 01–12 and 15
+       (Anthony Sears through Joseph Bradehoft).
+     * Non-Wisconsin Offense: Steven Hicks charged under Ohio Rev. Code § 2903.01 ("Aggravated Murder").
+
+3. FOUR-MILESTONE SEPARATION ACROSS ALL 17 VICTIMS:
+   Every victim profile in Tab 5 strictly maintains temporal and institutional boundaries between:
+   (1) Last Known Sighting Date (witness, friend, or family contact)
+   (2) Missing-Person Report Date (police department intake)
+   (3) Alleged Offense Date (prosecutorial complaint allegation)
+   (4) Forensic Identification Date (dental, fingerprint, or anthropological match).
+   Example: Curtis Straughter grandmother last saw him Feb 18, 1991; reported missing
+   subsequently; alleged offense date Feb 18, 1991; identified post-arrest on July 26, 1991.
+
+4. 1-BASED FBI VAULT PHYSICAL PAGE INDICES:
+   All citations to primary FBI files cite exact 1-based PDF coordinates corresponding
+   to standalone archival files in `assets/docs/`:
+   - `Dahmer_Part_01.pdf` (68 pp.)
+   - `Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf` (60 pp.)
+   - `Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf` (74 pp.)
+   No internal unpaginated Bates ranges or offset estimates are used.
+
+5. WISCONSIN SANITY TRIAL MECHANICS (WIS. STAT. § 971.15 & § 805.09(2)):
+   - Trial Bifurcation: On January 13, 1992, Dahmer entered a plea of guilty but not guilty
+     by reason of mental disease or defect (NGI) across all 15 Milwaukee counts. Under
+     Wis. Stat. § 971.165, this waived the guilt phase, leaving only the sanity phase to be tried.
+   - Burden of Proof: Under Wis. Stat. § 971.15(3), legal insanity is an affirmative defense
+     where the defendant bears the civil burden of proving lack of substantial capacity by the
+     greater weight of the credible evidence (preponderance).
+   - Five-Sixths Jury Rule: Under Wis. Stat. § 805.09(2), a sanity verdict in Wisconsin requires
+     only 10 of 12 jurors to agree. On February 15, 1992, the jury returned a 10–2 verdict finding
+     Dahmer legally sane across all 15 counts.
+
+6. CONTEMPORANEOUS FORENSIC EVIDENCE VS. RETROSPECTIVE MEMOIRS:
+   - Physical Scene Recovery: Medical Examiner Dr. Jeffrey Jentzen's contemporaneous recovery
+     logs and peer-reviewed articles document the retrieval of remains belonging to 11 victims
+     at Apartment 213, toolmark examinations of hand saws (FBI Part 06, p. 68), and dental matches.
+   - Attributed Reflections: Jentzen's retrospective characterization of Apartment 213 as
+     "dismantling a museum" is strictly attributed as a post-trial professional reflection rather
+     than contemporaneous objective evidence.
+   - Detective Interrogations: Patrick Kennedy's memoir (*Grilling Dahmer*, 2022) is cited as
+     an attributed first-person perspective, whereas official confession summaries are cited
+     directly to FBI Vault records (Part 01, pp. 20–25; Part 03, pp. 1–60) and court complaints.
