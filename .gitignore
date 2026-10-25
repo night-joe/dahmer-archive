@@ -20,3 +20,4 @@ ehthumbs_vista.db
 *.log
 *.tmp
 *.bak
+.last_synced_sha

@@ -133,6 +133,16 @@ git pull --ff-only
 
 [`.gitattributes`](.gitattributes) normalizes every text file to LF in both the repository and the working tree, and marks PDFs and images as binary. This repository's local config sets `core.autocrlf` to `false` so the Git for Windows system default cannot override the attributes file.
 
+### Git-free pull fallback (`pull.ps1`)
+
+If working on a machine where Git CLI is not installed (or in restricted environments), run:
+
+```powershell
+.\pull.ps1
+```
+
+This queries the GitHub API directly for the latest commit on `main`, checks whether the local workspace is already up to date, and downloads/extracts any updated files directly into the workspace without needing Git. Use `.\pull.ps1 -Force` to force-sync all files.
+
 ### If a pull is rejected because of uncommitted work
 
 ```powershell
