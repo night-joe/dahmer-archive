@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# Line-ending policy
+#
+# Store everything as LF in the repository and in the working tree, on every
+# machine. Without this, a Windows box with core.autocrlf=true and a machine
+# with it unset can disagree about every single line in a file, and you get a
+# 30 KB diff that says absolutely nothing.
+#
+# .gitattributes overrides core.autocrlf, so this wins regardless of how each
+# machine is configured.
+# ---------------------------------------------------------------------------
+* text=auto eol=lf
+
+# Text formats used in this archive
+*.md     text eol=lf
+*.txt    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.js     text eol=lf
+*.json   text eol=lf
+*.ps1    text eol=lf
+*.psm1   text eol=lf
+
+# Config files: always text, never converted
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# ---------------------------------------------------------------------------
+# Binary formats
+# Never convert, never attempt a text diff.
+# ---------------------------------------------------------------------------
+*.pdf   -text
+*.webp  -text
+*.png   -text
+*.jpg   -text
+*.jpeg  -text
+*.gif   -text
+*.ico   -text
+*.mp3   -text
+*.mp4   -text
+*.zip   -text
