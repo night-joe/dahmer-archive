@@ -15,7 +15,7 @@ function auditTab7Anchors() {
     plan02: 'plan/02_context_content_plan_v03_final_locked.txt',
     plan03a: 'plan/03a_case_offense_series_plan_v03_final_locked.txt',
     plan03b: 'plan/03b_case_investigation_and_trial_plan_v03_final_locked.txt',
-    plan01: 'plan/01_overview_content_plan_v02.txt',
+    plan01: 'plan/01_overview_content_plan_v03_final_locked.txt',
     table1: 'plan/table_1_the_victims_v04.md',
     plan06a: 'plan/06a_analysis_psychological_profile_plan_v03_final_locked.txt',
     plan06b: 'plan/06b_analysis_systemic_failures_plan_v03_final_locked.txt',

@@ -1,0 +1,374 @@
+{
+  "generated": "2026-10-26",
+  "total_conflicts_registered": 43,
+  "aliases": [
+    {
+      "conflict_id": "R-01",
+      "alias": "/case/offense-series",
+      "target": "case.html#offense-series",
+      "category": "D",
+      "status": "resolved",
+      "resolution": "Part A wrapper, repairs four dangling inbound links"
+    },
+    {
+      "conflict_id": "R-02",
+      "alias": "/case/investigation",
+      "target": "case.html#investigation-arrest",
+      "category": "D",
+      "status": "resolved",
+      "resolution": "Tier 1 wrapper, plan's #investigation stays on content block"
+    },
+    {
+      "conflict_id": "R-03",
+      "alias": "/case/trial",
+      "target": "case.html#trial-proceedings",
+      "category": "D",
+      "status": "resolved",
+      "resolution": "Tier 1 wrapper, #trial-plea and #sanity-trial remain"
+    },
+    {
+      "conflict_id": "R-04",
+      "alias": "/case#arrest-and-discovery",
+      "target": "case.html#arrest-and-discovery",
+      "category": "CARRIED",
+      "status": "carried",
+      "resolution": "Carried to case.html build step; choose canonical arrest/discovery block"
+    },
+    {
+      "conflict_id": "R-05",
+      "alias": "/case#case-detective-interrogations",
+      "target": "case.html#investigation",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Alias #case-detective-interrogations to #investigation"
+    },
+    {
+      "conflict_id": "R-06",
+      "alias": "/topics/systemic-failures",
+      "target": "analysis.html#topics-systemic-failures",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to analysis.html#topics-systemic-failures"
+    },
+    {
+      "conflict_id": "R-07",
+      "alias": "/topics/psychological-profile",
+      "target": "analysis.html#topics-psychological-profile",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to analysis.html#topics-psychological-profile"
+    },
+    {
+      "conflict_id": "R-08",
+      "alias": "/topics/theories-motivations",
+      "target": "analysis.html#topics-theories-motivations",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to analysis.html#topics-theories-motivations"
+    },
+    {
+      "conflict_id": "R-09",
+      "alias": "/analysis#psychiatric-profile",
+      "target": "analysis.html#topics-psychological-profile",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Declared alias of #topics-psychological-profile"
+    },
+    {
+      "conflict_id": "R-10",
+      "alias": "/impact/community-civic-impact",
+      "target": "impact.html#community",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to impact.html#community"
+    },
+    {
+      "conflict_id": "R-11",
+      "alias": "/impact/social-impact-reform",
+      "target": "impact.html#reform",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to impact.html#reform"
+    },
+    {
+      "conflict_id": "R-12",
+      "alias": "/impact/media-cultural-portrayal",
+      "target": "impact.html#media-ethics",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to impact.html#media-ethics"
+    },
+    {
+      "conflict_id": "R-13",
+      "alias": "/impact/modern-re-examination",
+      "target": "impact.html#primary-sources",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Build-time rewrite to impact.html#primary-sources"
+    },
+    {
+      "conflict_id": "R-14",
+      "alias": "#civil-litig",
+      "target": "impact.html#civil-litigation",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #civil-litigation, repaired truncated table entry"
+    },
+    {
+      "conflict_id": "R-15",
+      "alias": "#oxford-demol",
+      "target": "impact.html#oxford-demolition",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #oxford-demolition"
+    },
+    {
+      "conflict_id": "R-16",
+      "alias": "#officer-reinst",
+      "target": "impact.html#officer-reinstatement",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #officer-reinstatement"
+    },
+    {
+      "conflict_id": "R-17",
+      "alias": "/overview#conclusion",
+      "target": "overview.html#overview-conclusion",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #overview-conclusion"
+    },
+    {
+      "conflict_id": "R-18",
+      "alias": "/victims#eddie-smith",
+      "target": "victims.html#edward-smith",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Registry alias from Section 5.6"
+    },
+    {
+      "conflict_id": "R-19",
+      "alias": "/victims#tony-hughes",
+      "target": "victims.html#anthony-hughes",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Registry alias from Section 5.6"
+    },
+    {
+      "conflict_id": "R-20",
+      "alias": "/victims#jamie-doxtator",
+      "target": "victims.html#james-doxtator",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Registry alias from Section 5.6"
+    },
+    {
+      "conflict_id": "R-21",
+      "alias": "#event-1990-smith",
+      "target": "timeline.html#event-1990-eddie-smith",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #event-1990-eddie-smith"
+    },
+    {
+      "conflict_id": "R-22",
+      "alias": "#steven-hicks",
+      "target": "timeline.html#event-1978-hicks",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #event-1978-hicks"
+    },
+    {
+      "conflict_id": "R-23",
+      "alias": "#tracy-edwards",
+      "target": "timeline.html#event-1991-edwards-escape",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #event-1991-edwards-escape"
+    },
+    {
+      "conflict_id": "R-24",
+      "alias": "#konerak-sinthasomphone",
+      "target": "timeline.html#event-1991-sinthasomphone",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #event-1991-sinthasomphone"
+    },
+    {
+      "conflict_id": "R-25",
+      "alias": "#trial",
+      "target": "timeline.html#event-1992-sanity-trial",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Alias #trial to #event-1992-sanity-trial"
+    },
+    {
+      "conflict_id": "R-26",
+      "alias": "#sentencing",
+      "target": "timeline.html#event-1992-sentencing",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #event-1992-sentencing"
+    },
+    {
+      "conflict_id": "R-27",
+      "alias": "#officer-discipline",
+      "target": "timeline.html#event-1991-officer-suspensions",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #event-1991-officer-suspensions"
+    },
+    {
+      "conflict_id": "R-28",
+      "alias": "/timeline#probation",
+      "target": "context.html#probation-supervision-failure",
+      "category": "A",
+      "status": "resolved",
+      "resolution": "Cross-page resolve to context.html#probation-supervision-failure"
+    },
+    {
+      "conflict_id": "R-29",
+      "alias": "#apartment-discovery",
+      "target": "timeline.html#apartment-discovery",
+      "category": "CARRIED",
+      "status": "carried",
+      "resolution": "Carried to timeline.html build step; ambiguous between 1990 move and 1991 search"
+    },
+    {
+      "conflict_id": "R-30",
+      "alias": "#oxford-apartments-profile",
+      "target": "context.html#avenues-west-oxford-apartments",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #avenues-west-oxford-apartments"
+    },
+    {
+      "conflict_id": "R-31",
+      "alias": "#lgbtq-community",
+      "target": "context.html#milwaukee-lgbtq-history",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #milwaukee-lgbtq-history"
+    },
+    {
+      "conflict_id": "R-32",
+      "alias": "#konerak",
+      "target": "analysis.html#konerak-sinthasomphone",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #konerak-sinthasomphone under #topics-systemic-failures"
+    },
+    {
+      "conflict_id": "R-33",
+      "alias": "#control",
+      "target": "analysis.html#control-experiments",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Canonical #control-experiments"
+    },
+    {
+      "conflict_id": "R-34",
+      "alias": "/case/reporter",
+      "target": null,
+      "category": "C",
+      "status": "excluded",
+      "resolution": "Category C legal citation artifact; not a routable link"
+    },
+    {
+      "conflict_id": "R-35",
+      "alias": "/victims/sources",
+      "target": null,
+      "category": "C",
+      "status": "excluded",
+      "resolution": "Category C heading reference; not a routable link"
+    },
+    {
+      "conflict_id": "R-36",
+      "alias": "/timeline/milwaukee-police-changes-in-policies-culture",
+      "target": null,
+      "category": "CARRIED",
+      "status": "carried",
+      "resolution": "Carried to timeline.html build step; malformed source title rendered as path"
+    },
+    {
+      "conflict_id": "R-37",
+      "alias": "/case/estate-of-sinthasomphone-v-milwaukee",
+      "target": null,
+      "category": "CARRIED",
+      "status": "carried",
+      "resolution": "Carried to case.html build step; resolve to analysis topic or source reference"
+    },
+    {
+      "conflict_id": "R-38",
+      "alias": "#victim-slug",
+      "target": null,
+      "category": "C",
+      "status": "excluded",
+      "resolution": "Category C template token; not a routable link"
+    },
+    {
+      "conflict_id": "R-39a",
+      "alias": "#milwaukee-context",
+      "target": "context.html#milwaukee-context",
+      "category": "D",
+      "status": "resolved",
+      "resolution": "Tier 1 page-level section wrapper on context.html"
+    },
+    {
+      "conflict_id": "R-39b",
+      "alias": "#community-impact",
+      "target": "impact.html#community",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Nav Tier 1 / Tier 2 alias on impact.html"
+    },
+    {
+      "conflict_id": "R-39c",
+      "alias": "#modern-reexamination",
+      "target": "impact.html#primary-sources",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Nav Tier 1 / Tier 2 alias on impact.html"
+    },
+    {
+      "conflict_id": "R-39d",
+      "alias": "#full-conclusion",
+      "target": "impact.html#master-conclusion",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Nav Tier 1 / Tier 2 alias on impact.html"
+    },
+    {
+      "conflict_id": "R-40",
+      "alias": "#historiographical-eval.",
+      "target": "impact.html#historiographical-evaluation",
+      "category": "C",
+      "status": "excluded",
+      "resolution": "Truncation artifact with trailing period; canonical is #historiographical-evaluation"
+    },
+    {
+      "conflict_id": "VICTIM-01",
+      "alias": "jamie-doxtator",
+      "target": "victims.html#james-doxtator",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Victim slug alias from Section 5.6"
+    },
+    {
+      "conflict_id": "VICTIM-02",
+      "alias": "eddie-smith",
+      "target": "victims.html#edward-smith",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Victim slug alias from Section 5.6"
+    },
+    {
+      "conflict_id": "VICTIM-03",
+      "alias": "tony-hughes",
+      "target": "victims.html#anthony-hughes",
+      "category": "B",
+      "status": "resolved",
+      "resolution": "Victim slug alias from Section 5.6"
+    }
+  ]
+}

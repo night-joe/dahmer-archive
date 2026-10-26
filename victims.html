@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The 17 Victims: Biographical Reconstruction &amp; Case Register — The Dahmer Case Archive</title>
+  <meta name="description" content="Human-centered biographical reconstruction and verified evidentiary register for the seventeen victims of Jeffrey Dahmer (1978–1991), with Table 1 milestone chronology.">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <style>
+    /* Victims Tab Custom Page Styles */
+    .timeline-table-wrapper {
+      overflow-x: auto;
+      border: 1px solid var(--border-medium);
+      background: var(--bg-card);
+      margin: var(--space-md) 0;
+      -webkit-overflow-scrolling: touch;
+    }
+    .timeline-table-wrapper:focus {
+      outline: 2px solid var(--accent-red);
+      outline-offset: 2px;
+    }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: var(--text-sm);
+      text-align: left;
+    }
+    .data-table th {
+      background-color: var(--bg-subtle);
+      color: var(--text-primary);
+      font-weight: 700;
+      padding: var(--space-xs) var(--space-sm);
+      border-bottom: 2px solid var(--border-medium);
+      white-space: nowrap;
+    }
+    .data-table td {
+      padding: var(--space-xs) var(--space-sm);
+      border-bottom: 1px solid var(--border-hairline);
+      vertical-align: top;
+      line-height: 1.45;
+    }
+    .data-table tr:hover {
+      background-color: var(--bg-tint);
+    }
+    .table-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-sm);
+      padding: var(--space-xs) var(--space-sm);
+      background-color: var(--bg-subtle);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-xs);
+    }
+    .table-search-box {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      flex: 1 1 240px;
+    }
+    .table-search-box input {
+      width: 100%;
+      padding: 6px 10px;
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-xs);
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+    .table-sort-box {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+    }
+    .table-sort-box select {
+      padding: 6px 10px;
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-xs);
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+    .table-reset-btn {
+      padding: 6px 12px;
+      font-family: var(--font-sans);
+      font-size: var(--text-xs);
+      font-weight: 600;
+      background: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-xs);
+      cursor: pointer;
+      color: var(--text-primary);
+    }
+    .table-reset-btn:hover {
+      background: var(--bg-tint);
+      border-color: var(--text-primary);
+    }
+    .asterisk-link {
+      color: var(--accent-red);
+      font-weight: bold;
+      text-decoration: none;
+      padding: 0 2px;
+    }
+    .asterisk-link:hover {
+      text-decoration: underline;
+    }
+    .victim-detail-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      border-top: 4px solid var(--accent-red);
+      border-radius: var(--radius-sm);
+      padding: var(--space-lg);
+      margin: var(--space-xl) 0;
+      transition: box-shadow 0.2s ease;
+    }
+    .victim-detail-panel:target {
+      box-shadow: 0 0 0 3px rgba(140, 29, 29, 0.3);
+      border-top-color: var(--accent-red-hover);
+    }
+    .victim-order-tag {
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+    .victim-meta {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      margin: var(--space-xs) 0 var(--space-md) 0;
+      line-height: 1.5;
+    }
+    .anchor-target-marker {
+      display: block;
+      position: relative;
+      top: -80px;
+      visibility: hidden;
+      height: 0;
+    }
+    .footnote-backref {
+      font-family: var(--font-sans);
+      display: inline-block;
+      min-width: 24px;
+      min-height: 24px;
+      line-height: 24px;
+      text-align: center;
+      margin-left: 4px;
+      text-decoration: none;
+      color: var(--accent-red);
+    }
+    .footnote-backref:hover {
+      text-decoration: underline;
+    }
+    .canonical-source-link {
+      display: inline-block;
+      margin-left: var(--space-xs);
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+    .canonical-source-link:hover {
+      text-decoration: underline;
+      color: var(--accent-red);
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Skip to Main Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Edition Bar -->
+  <aside class="site-topbar" aria-label="Archive Edition Information">
+    <div class="container site-topbar-inner">
+      <div class="topbar-edition">
+        <span>The Jeffrey Dahmer Case Archive</span>
+        <span class="topbar-bullet" aria-hidden="true">•</span>
+        <span>Biographical Reconstruction &amp; Case Register</span>
+      </div>
+      <div class="topbar-meta">
+        <span>Jurisdiction: Milwaukee, WI / Bath, OH</span>
+        <span class="topbar-bullet" aria-hidden="true">•</span>
+        <span>17 Confessed Offenses</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Site Masthead -->
+  <header class="site-masthead" role="banner">
+    <div class="container masthead-inner">
+      <div class="masthead-kicker">Biographical Reconstruction &amp; Case Register</div>
+      <p class="masthead-title"><a href="index.html">The Dahmer Case Archive</a></p>
+      <p class="masthead-subtitle">A documentary and historical record of the Milwaukee offenses, institutional failures, and civic aftermath</p>
+    </div>
+  </header>
+
+  <!-- Primary Sticky Header Navigation (18 Nav Links) -->
+  <div class="site-nav-wrapper">
+    <div class="container site-nav-container">
+      <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle Navigation Menu">
+        <span class="toggle-icon" aria-hidden="true">☰</span>
+        <span class="toggle-text">Menu</span>
+      </button>
+
+      <nav id="primary-nav" class="site-nav" aria-label="Primary Site Navigation">
+        <ul class="nav-list" role="menubar">
+          <li class="nav-item" role="none">
+            <a href="overview.html" class="nav-link" role="menuitem">Overview</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="victims.html" class="nav-link active" role="menuitem" aria-current="page">Victims</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="timeline.html" class="nav-link" role="menuitem">Timeline</a>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="context.html" class="nav-link" role="menuitem" aria-haspopup="true">
+              Context <span class="arrow-icon" aria-hidden="true">▾</span>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-label="Context Submenu">
+              <li class="dropdown-item" role="none"><a href="context.html#milwaukee-context" role="menuitem">Milwaukee: 1987–1991</a></li>
+              <li class="dropdown-item" role="none"><a href="context.html#early-life" role="menuitem">Early Life &amp; Background</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="case.html" class="nav-link" role="menuitem" aria-haspopup="true">
+              Case <span class="arrow-icon" aria-hidden="true">▾</span>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-label="Case Submenu">
+              <li class="dropdown-item" role="none"><a href="case.html#offense-series" role="menuitem">The Offense Series</a></li>
+              <li class="dropdown-item" role="none"><a href="case.html#investigation-arrest" role="menuitem">Investigation &amp; Arrest</a></li>
+              <li class="dropdown-item" role="none"><a href="case.html#trial-proceedings" role="menuitem">Trial &amp; Legal Proceedings</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="analysis.html" class="nav-link" role="menuitem" aria-haspopup="true">
+              Analysis <span class="arrow-icon" aria-hidden="true">▾</span>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-label="Analysis Submenu">
+              <li class="dropdown-item" role="none"><a href="analysis.html#systemic-failures" role="menuitem">Systemic Failures</a></li>
+              <li class="dropdown-item" role="none"><a href="analysis.html#psychological-profile" role="menuitem">Psychological Profile &amp; Evaluation</a></li>
+              <li class="dropdown-item" role="none"><a href="analysis.html#theories-motivations" role="menuitem">Theories &amp; Motivations</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="impact.html" class="nav-link" role="menuitem" aria-haspopup="true">
+              Impact <span class="arrow-icon" aria-hidden="true">▾</span>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-label="Impact Submenu">
+              <li class="dropdown-item" role="none"><a href="impact.html#community-impact" role="menuitem">Community &amp; Civic Impact</a></li>
+              <li class="dropdown-item" role="none"><a href="impact.html#social-reform" role="menuitem">Social Impact &amp; Reform</a></li>
+              <li class="dropdown-item" role="none"><a href="impact.html#media-portrayal" role="menuitem">Media &amp; Cultural Portrayal</a></li>
+              <li class="dropdown-item" role="none"><a href="impact.html#modern-reexamination" role="menuitem">Modern Re-examination</a></li>
+              <li class="dropdown-item" role="none"><a href="impact.html#full-conclusion" role="menuitem">Full Research Conclusion</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" role="none">
+            <a href="sources.html" class="nav-link" role="menuitem" aria-haspopup="true">
+              Sources <span class="arrow-icon" aria-hidden="true">▾</span>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-label="Sources Submenu">
+              <li class="dropdown-item" role="none"><a href="sources.html#key-sources" role="menuitem">Key Sources &amp; Bibliography</a></li>
+              <li class="dropdown-item" role="none"><a href="sources.html#methodology" role="menuitem">Methodology &amp; Standards</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <div class="container article-container">
+      
+      <!-- L1 Page Header Block -->
+      <header class="article-header" style="margin-bottom: var(--space-lg);">
+        <span class="editorial-kicker">Biographical Reconstruction • The 17 Victims</span>
+        <h1 style="font-size: var(--text-2xl); margin-top: var(--space-2xs); margin-bottom: var(--space-sm);">
+          The Victims: Biographical Reconstruction &amp; Case Register
+        </h1>
+        <p class="lead-paragraph">
+          Between 1978 and 1991, seventeen men and boys were killed in Ohio and Wisconsin. For decades, true-crime media has reduced their lives to forensic evidence tallies and sensationalized headlines. This archive restores historical focus to who they were: their personal identities, talents, family bonds, and aspirations. Each individual is documented chronologically by their best-supported last-known contact, with transparent evidentiary reconciliation of official records.
+        </p>
+
+        <!-- Summary Stats Module -->
+        <div class="article-meta" style="margin-top: var(--space-sm); border-top: 1px solid var(--border-light); padding-top: var(--space-xs);">
+          <span class="article-meta-item"><strong>17</strong> Confessed Killings</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span class="article-meta-item"><strong>16</strong> Judicial Convictions</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span class="article-meta-item"><strong>13-Year</strong> Span (1978–1991)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span class="article-meta-item">4-Milestone Separation Model</span>
+        </div>
+      </header>
+
+      <!-- Section 1: Table 1 The Chronological Victims Roster -->
+      <section id="table-1-the-victims" aria-labelledby="table-1-heading" style="margin-bottom: var(--space-2xl);">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs); border-bottom: 2px solid var(--border-dark); padding-bottom: var(--space-xs); margin-bottom: var(--space-md);">
+          <h2 id="table-1-heading" style="font-size: var(--text-xl); margin: 0;">
+            Table 1: The Chronological Victims Roster
+          </h2>
+          <a href="#biographical-profiles" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">
+            Skip to Biographical Profiles ↓
+          </a>
+        </div>
+
+        <p class="text-secondary" style="font-size: 0.95rem; margin-bottom: var(--space-md);">
+          The master fact-checked register of all seventeen victims, ordered strictly by their documented last-known contact date rather than judicial count numbers or sensational press hierarchies.
+        </p>
+
+        <!-- Interactive Filtering & Sorting Controls -->
+        <div class="table-controls">
+          <div class="table-search-box">
+            <label for="table-search-input" style="font-weight: 600; font-size: var(--text-xs); color: var(--text-muted); text-transform: uppercase;">Search:</label>
+            <input type="search" id="table-search-input" placeholder="Filter by name, background, city..." aria-label="Filter victims table">
+          </div>
+          <div class="table-sort-box">
+            <label for="table-sort-select" style="font-weight: 600; font-size: var(--text-xs); color: var(--text-muted); text-transform: uppercase;">Sort By:</label>
+            <select id="table-sort-select" aria-label="Sort victims table">
+              <option value="default">Chronological (1–17)</option>
+              <option value="name-asc">Victim Name (A–Z)</option>
+              <option value="age-asc">Age (Youngest First)</option>
+              <option value="age-desc">Age (Oldest First)</option>
+            </select>
+          </div>
+          <button type="button" id="table-reset-btn" class="table-reset-btn">Reset</button>
+        </div>
+        <div id="table-search-status" class="sr-only" aria-live="polite">Showing all 17 victims</div>
+
+        <!-- Responsive Table Container -->
+        <div class="timeline-table-wrapper" tabindex="0" role="region" aria-label="Table 1: The Chronological Victims Roster">
+          <table class="timeline-table data-table" aria-label="Victims Chronological Register">
+            <thead>
+              <tr>
+                <th scope="col" style="min-width: 170px;">Name</th>
+                <th scope="col" style="min-width: 65px; text-align: right;">Age</th>
+                <th scope="col" style="min-width: 160px;">Last Known Date / Period</th>
+                <th scope="col" style="min-width: 220px;">Background &amp; Origins</th>
+                <th scope="col" style="min-width: 290px;">Personal Identity &amp; Remembrances</th>
+              </tr>
+            </thead>
+            <tbody id="victims-table-body">
+              
+      <tr class="victim-row" data-order="1" data-name="hicks" data-age="18">
+        <td class="col-name">
+          <a href="#steven-hicks"><strong>Steven Hicks</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          18<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          June 18, 1978
+        </td>
+        <td class="col-bg">
+          Recent high-school graduate from Coventry Township, Ohio.
+        </td>
+        <td class="col-identity">
+          Remembered by his father as deeply empathetic and gentle; his father recalled Hicks becoming distraught after shooting a rabbit on a hunting trip, illustrating his aversion to violence. <sup class="citation"><a href="#fn-1" id="ref-1">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2">[2]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="2" data-name="tuomi" data-age="24">
+        <td class="col-name">
+          <a href="#steven-tuomi"><strong>Steven Tuomi</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          24<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          Sept. 15, 1987
+        </td>
+        <td class="col-bg">
+          Grew up in Ontonagon in Michigan's Upper Peninsula; worked as a short-order cook at a Milwaukee restaurant.
+        </td>
+        <td class="col-identity">
+          Former high-school classmates remembered him as quiet, thoughtful, and artistic; one specifically recalled an intricate stained-glass lamp that Tuomi had designed and crafted in art class. <sup class="citation"><a href="#fn-1" id="ref-1-2">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-2">[2]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="3" data-name="doxtator" data-age="14">
+        <td class="col-name">
+          <a href="#james-doxtator"><strong>James "Jamie" Doxtator</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          14<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          Jan. 16, 1988 (MJS) / Spring 1988 (FBI)
+        </td>
+        <td class="col-bg">
+          Oldest of four children; of Stockbridge and Oneida ancestry; lived in Milwaukee.
+        </td>
+        <td class="col-identity">
+          Standing nearly six feet tall, he was remembered by his mother, Debbie Vega, as a playful, energetic teenager who loved shooting pool, riding his bicycle through the neighborhood, and spending time with his family. <sup class="citation"><a href="#fn-1" id="ref-1-3">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-3">[2]</a></sup><sup class="citation"><a href="#fn-14" id="ref-14">[14]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="4" data-name="guerrero" data-age="22">
+        <td class="col-name">
+          <a href="#richard-guerrero"><strong>Richard Guerrero</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          22<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          Late March 1988
+        </td>
+        <td class="col-bg">
+          From a close-knit Mexican-American family in Milwaukee.
+        </td>
+        <td class="col-identity">
+          His sister Janie Hagen described him as close to his family and recalled that he routinely helped his mother with household chores and babysat his infant niece. <sup class="citation"><a href="#fn-1" id="ref-1-4">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-4">[2]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11">[11]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="5" data-name="sears" data-age="24">
+        <td class="col-name">
+          <a href="#anthony-sears"><strong>Anthony Sears</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          24
+        </td>
+        <td class="col-lastseen">
+          March 25, 1989
+        </td>
+        <td class="col-bg">
+          Milwaukee restaurant manager recently promoted at Baker's Square; saving money with plans to leave Milwaukee.
+        </td>
+        <td class="col-identity">
+          Aspired to become a model; his mother recalled that he had discussed plans to marry his girlfriend once financially established. <sup class="citation"><a href="#fn-1" id="ref-1-5">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-5">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3">[3]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="6" data-name="smith" data-age="32">
+        <td class="col-name">
+          <a href="#raymond-smith"><strong>Raymond "Ricky Beeks" Smith</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          32<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          May 29, 1990
+        </td>
+        <td class="col-bg">
+          Lived with a half-sister in Milwaukee following release from incarceration.
+        </td>
+        <td class="col-identity">
+          Father to a ten-year-old daughter living in Rockford, Illinois; known affectionately as "Ricky Beeks" among family and friends. <sup class="citation"><a href="#fn-1" id="ref-1-6">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-6">[2]</a></sup><sup class="citation"><a href="#fn-13" id="ref-13">[13]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="7" data-name="smith" data-age="27">
+        <td class="col-name">
+          <a href="#edward-smith"><strong>Edward "Eddie" Smith</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          27<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          June 14, 1990
+        </td>
+        <td class="col-bg">
+          Aspiring model raised in Milwaukee in a loving Christian home.
+        </td>
+        <td class="col-identity">
+          Known among friends for his vibrant personality, personal style, and head wraps, which led to the nickname "the Sheikh." <sup class="citation"><a href="#fn-1" id="ref-1-7">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-7">[2]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8">[8]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11-2">[11]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="8" data-name="miller" data-age="23">
+        <td class="col-name">
+          <a href="#ernest-miller"><strong>Ernest Miller</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          23<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          Sept. 2–3, 1990
+        </td>
+        <td class="col-bg">
+          Graduate of Milwaukee High School of the Arts; preparing to begin classes at an arts college in Chicago.
+        </td>
+        <td class="col-identity">
+          A gifted dancer and vocalist; his aunt Vivian Miller remembered him singing in church and performing from an early age. <sup class="citation"><a href="#fn-1" id="ref-1-8">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-8">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-2">[3]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11-3">[11]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="9" data-name="thomas" data-age="22">
+        <td class="col-name">
+          <a href="#david-thomas"><strong>David Thomas</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          22<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          Sept. 24, 1990
+        </td>
+        <td class="col-bg">
+          Longtime Milwaukee resident; proud father of a two-year-old daughter.
+        </td>
+        <td class="col-identity">
+          Father to a two-year-old daughter, Courtia; his former partner Chandra Beanland remembered him as an outgoing, fun-loving individual. <sup class="citation"><a href="#fn-1" id="ref-1-9">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-9">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-3">[3]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11-4">[11]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="10" data-name="straughter" data-age="17">
+        <td class="col-name">
+          <a href="#curtis-straughter"><strong>Curtis Straughter</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          17<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          Feb. 18, 1991 (Sworn) / March 7, 1991 (MJS)
+        </td>
+        <td class="col-bg">
+          Joined Gay Youth Milwaukee at age 15 and lived with his grandmother in Milwaukee.
+        </td>
+        <td class="col-identity">
+          Worked as a dedicated nursing assistant and was studying to earn his high-school equivalency diploma and attend modeling school. <sup class="citation"><a href="#fn-1" id="ref-1-10">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-10">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-4">[3]</a></sup><sup class="citation"><a href="#fn-10" id="ref-10">[10]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="11" data-name="lindsey" data-age="19">
+        <td class="col-name">
+          <a href="#errol-lindsey"><strong>Errol Lindsey</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          19
+        </td>
+        <td class="col-lastseen">
+          April 7, 1991
+        </td>
+        <td class="col-bg">
+          Youngest of six children in Milwaukee; worked making decorative plaster figures.
+        </td>
+        <td class="col-identity">
+          His middle-school art teacher kept a watercolor he had made; his family remembered him as dependable, hardworking, and deeply devoted to his relatives. <sup class="citation"><a href="#fn-1" id="ref-1-11">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-11">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-5">[3]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8-2">[8]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="12" data-name="hughes" data-age="31">
+        <td class="col-name">
+          <a href="#anthony-hughes"><strong>Anthony "Tony" Hughes</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          31
+        </td>
+        <td class="col-lastseen">
+          May 24, 1991
+        </td>
+        <td class="col-bg">
+          Lived in Madison, Wisconsin, and had returned to Milwaukee to visit family.
+        </td>
+        <td class="col-identity">
+          Deaf following an illness in infancy; communicated through lip-reading, sign language, and written notes. Mother Shirley Hughes remembered him as extraordinarily loving, sociable, and popular. <sup class="citation"><a href="#fn-1" id="ref-1-12">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-12">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-6">[3]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8-3">[8]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="13" data-name="sinthasomphone" data-age="14">
+        <td class="col-name">
+          <a href="#konerak-sinthasomphone"><strong>Konerak Sinthasomphone</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          14
+        </td>
+        <td class="col-lastseen">
+          May 27, 1991
+        </td>
+        <td class="col-bg">
+          Freshman at Pulaski High School; arrived in Milwaukee in 1980 with his family from Laos.
+        </td>
+        <td class="col-identity">
+          Son of a former farmer in Laos; enjoyed playing soccer with friends at Mitchell Park; younger brother of 1988 assault victim Sombat. <sup class="citation"><a href="#fn-1" id="ref-1-13">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-13">[2]</a></sup><sup class="citation"><a href="#fn-6" id="ref-6">[6]</a></sup><sup class="citation"><a href="#fn-7" id="ref-7">[7]</a></sup><sup class="citation"><a href="#fn-19" id="ref-19">[19]</a></sup><sup class="citation"><a href="#fn-20" id="ref-20">[20]</a></sup><sup class="citation"><a href="#fn-22" id="ref-22">[22]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="14" data-name="turner" data-age="20">
+        <td class="col-name">
+          <a href="#matt-turner"><strong>Matt Turner</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          20
+        </td>
+        <td class="col-lastseen">
+          June 30, 1991
+        </td>
+        <td class="col-bg">
+          Native of Flint, Michigan; lived in Chicago and had stayed at a youth halfway house.
+        </td>
+        <td class="col-identity">
+          Aspiring model who occasionally used the name Donald Montrell; remembered for his friendly, engaging personality and striking appearance. <sup class="citation"><a href="#fn-1" id="ref-1-14">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-14">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-7">[3]</a></sup><sup class="citation"><a href="#fn-9" id="ref-9">[9]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12">[12]</a></sup><sup class="citation"><a href="#fn-21" id="ref-21">[21]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="15" data-name="weinberger" data-age="23">
+        <td class="col-name">
+          <a href="#jeremiah-weinberger"><strong>Jeremiah Weinberger</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          23<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          July 6, 1991
+        </td>
+        <td class="col-bg">
+          Native of Puerto Rico residing in Chicago; worked as a customer service representative at a video store.
+        </td>
+        <td class="col-identity">
+          His roommate remembered him as artistic, neat, courteous, and attentive to his appearance; took great pride in a welcoming home. <sup class="citation"><a href="#fn-1" id="ref-1-15">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-15">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-8">[3]</a></sup><sup class="citation"><a href="#fn-9" id="ref-9-2">[9]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-2">[12]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="16" data-name="lacy" data-age="23">
+        <td class="col-name">
+          <a href="#oliver-lacy"><strong>Oliver Lacy</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          23<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a>
+        </td>
+        <td class="col-lastseen">
+          July 12, 1991
+        </td>
+        <td class="col-bg">
+          Originally from Oak Park, Illinois; standout track athlete at River Forest High School before relocating to Milwaukee.
+        </td>
+        <td class="col-identity">
+          Proud and devoted father to a two-year-old son, Emmanuel; engaged to be married; mother Catherine remembered him as outspoken and disciplined; wore father's cross necklace. <sup class="citation"><a href="#fn-1" id="ref-1-16">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-16">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-9">[3]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-3">[12]</a></sup>
+        </td>
+      </tr>
+      <tr class="victim-row" data-order="17" data-name="bradehoft" data-age="25">
+        <td class="col-name">
+          <a href="#joseph-bradehoft"><strong>Joseph Bradehoft</strong></a>
+        </td>
+        <td class="col-age" style="text-align: right; font-family: var(--font-mono); white-space: nowrap;">
+          25
+        </td>
+        <td class="col-lastseen">
+          July 16, 1991
+        </td>
+        <td class="col-bg">
+          Recently moved to Milwaukee; his brother Donald rented an apartment for him. Previously lived in MN and IL.
+        </td>
+        <td class="col-identity">
+          Devoted husband and father of three young children; loved sports and fishing; was traveling to a job interview when he was killed. <sup class="citation"><a href="#fn-1" id="ref-1-17">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-17">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-10">[3]</a></sup><sup class="citation"><a href="#fn-9" id="ref-9-3">[9]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-4">[12]</a></sup>
+        </td>
+      </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Table 1 Notation & Convention Legend -->
+        <div id="table-1-legend" class="badge-legend" style="background-color: var(--bg-subtle); border: 1px solid var(--border-medium); padding: var(--space-md); border-radius: var(--radius-sm); margin-top: var(--space-sm);">
+          <div style="font-weight: 700; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-primary); margin-bottom: var(--space-2xs);">
+            Table 1 Notation &amp; Conventions
+          </div>
+          <ul style="margin: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.5; color: var(--text-secondary);">
+            <li><strong>* Asterisk:</strong> Indicates a documented birth-date or age-reference discrepancy. Specifically, in 1991 news wire reporting, journalists frequently reported victims' ages at the time of Dahmer's post-arrest discovery rather than calculating age at disappearance (e.g., Richard Guerrero, Raymond Smith, Edward Smith, Ernest Miller, David Thomas, Curtis Straughter), or primary investigative files contained internal date variations (Steven Hicks, Steven Tuomi, James Doxtator, Jeremiah Weinberger, Oliver Lacy). Unmarked ages reflect clean agreement between documented primary DOB and displayed age.</li>
+            <li><strong>Provisional Dagger Notation:</strong> Permanently retired across the archive following primary verification of David Thomas's official birth date (Dec. 21, 1967; age 22 years, 9 months at disappearance) in FBI Vault records. All seventeen victims are anchored by verified primary birth records.</li>
+            <li><strong>Chronological Ordering:</strong> Governed strictly by the best-supported last-known contact date, not judicial count order or charging schedules.</li>
+            <li><strong>4-Milestone Separation:</strong> The archive rigorously distinguishes Last Known Sighting (Milestone 1), Missing-Person Report Date (Milestone 2), Alleged Offense Date (Milestone 3), and Forensic Identification Date (Milestone 4).</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 2: 17 Biographical Profiles -->
+      <section id="biographical-profiles" aria-labelledby="profiles-heading">
+        <div style="border-bottom: 2px solid var(--border-dark); padding-bottom: var(--space-xs); margin-bottom: var(--space-md);">
+          <span class="editorial-kicker">Memorial Profiles • Comprehensive Record</span>
+          <h2 id="profiles-heading" style="font-size: var(--text-xl); margin: 0;">
+            The Seventeen Biographical Profiles
+          </h2>
+        </div>
+
+        <p class="text-secondary" style="font-size: 0.95rem; margin-bottom: var(--space-lg);">
+          Full biographical profiles reconstructing who each victim was as an individual, supported by verified primary investigative citations, sworn courtroom impact testimony from families, and archival records.
+        </p>
+
+        
+    <!-- Victim 01: Steven Mark Hicks -->
+    <article id="steven-hicks" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 01 of 17 • 1978 Series Commencement</span>
+          <span class="badge-evidence badge-primary">Primary Skeletal & Dental ID</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Steven Mark Hicks
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 18<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> June 22, 1959 (Pt 03 p. 51; Pt 01 p. 39) / June 27, 1959 (Pt 01 p. 25)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> White</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> June 18, 1978</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Steven Mark Hicks was a recent high-school graduate from Coventry Township, Ohio. His father, Richard Hicks, described him as a deeply empathetic and gentle young man; in an Associated Press account, his father recalled that Steven had become inconsolably distraught after shooting a rabbit on a hunting trip, illustrating his aversion to violence. Steven was an avid music enthusiast and was hitchhiking toward a rock concert at Chippewa Lake Park when he accepted a ride from Dahmer. <sup class="citation"><a href="#fn-1" id="ref-1-18">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> June 18, 1978. Accepted ride while hitchhiking toward Chippewa Lake Park concert. <sup class="citation"><a href="#fn-2" id="ref-2-18">[2]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> June 24, 1978. Filed with Summit County Sheriff's Department, Ohio. <sup class="citation"><a href="#fn-2" id="ref-2-19">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> June 18, 1978. Aggravated Murder (Ohio R.C. 2903.01, Case CR-91-08-1686). <sup class="citation"><a href="#fn-3" id="ref-3-11">[3]</a></sup><sup class="citation"><a href="#fn-5" id="ref-5">[5]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> Sept. 13–14, 1991. Forensic odontology & radiographic bone matching by Summit County coroner. <sup class="citation"><a href="#fn-4" id="ref-4">[4]</a></sup><sup class="citation"><a href="#fn-17" id="ref-17">[17]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Ohio (16th life term, May 1992). Pulverized bone fragments recovered Bath Township, August 1991.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1978-06-18" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 02: Steven Walter Tuomi -->
+    <article id="steven-tuomi" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 02 of 17 • 1987 Ambassador Hotel (Uncharged)</span>
+          <span class="badge-evidence badge-primary">Confession Attribution (Corpus Delicti Bar)</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Steven Walter Tuomi
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 24<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Dec. 19, 1962 (MPD detective belief; Pt 01 pp. 43, 53)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> White</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> Sept. 15, 1987</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Steven Walter Tuomi grew up in Ontonagon in Michigan's Upper Peninsula and later moved to Milwaukee, where he was employed as a short-order cook at a local restaurant. Former high-school classmates remembered him as a quiet, thoughtful, and artistic individual; one classmate specifically recalled an intricate stained-glass lamp that Tuomi had designed and crafted in art class. <sup class="citation"><a href="#fn-1" id="ref-1-19">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> Sept. 15, 1987. Last seen departing employment at Marc's Big Boy restaurant in Milwaukee. <sup class="citation"><a href="#fn-1" id="ref-1-20">[1]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> Sept. 1987. Routine MPD missing report logged by family/employer. <sup class="citation"><a href="#fn-2" id="ref-2-20">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> "Around 1986 or 1987" (Dahmer confession; Pt 03 p. 10). Ambassador Hotel. UNCHARGED. <sup class="citation"><a href="#fn-2" id="ref-2-21">[2]</a></sup><sup class="citation"><a href="#fn-15" id="ref-15">[15]</a></sup><sup class="citation"><a href="#fn-16" id="ref-16">[16]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> August 8, 1991. Administrative confession attribution only; NO FORENSIC ID. <sup class="citation"><a href="#fn-2" id="ref-2-22">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> UNCHARGED. Barred under Wisconsin corpus delicti rule (State v. Verhasselt); no physical remains ever recovered.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1987-09-15" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 03: James "Jamie" Edward Doxtator -->
+    <article id="james-doxtator" class="victim-detail-panel">
+      <span id="jamie-doxtator" class="anchor-target-marker"></span>
+    <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 03 of 17 • Early 1988 West Allis Series</span>
+          <span class="badge-evidence badge-primary">Confession & Investigative Corroboration</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          James "Jamie" Edward Doxtator
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 14<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> March 1, 1973 (Pt 01 p. 43)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Native American (Stockbridge & Oneida ancestry)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> Jan. 16, 1988 (MJS) / Spring 1988 (FBI)</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          James "Jamie" Doxtator was the eldest of four children and was of Stockbridge and Oneida ancestry, residing in Milwaukee. Standing nearly six feet tall, he was remembered by his mother, Debbie Vega, as a playful, energetic teenager who loved shooting pool, riding his bicycle through the neighborhood, and spending time with his brothers and sisters. <sup class="citation"><a href="#fn-1" id="ref-1-21">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> January 16, 1988 (reported in press and police notes); FBI records alternatively describe disappearance as spring 1988. <sup class="citation"><a href="#fn-1" id="ref-1-22">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-23">[2]</a></sup><sup class="citation"><a href="#fn-14" id="ref-14-2">[14]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> 1988. Logged into Milwaukee Police Department missing-persons registry. <sup class="citation"><a href="#fn-2" id="ref-2-24">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about Jan. 18, 1988. First-Degree Murder (pre-1989 Wis. Stat. § 940.01, Count 13). <sup class="citation"><a href="#fn-3" id="ref-3-12">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> August 16, 1991. Identified via detailed confession and family descriptors; 17th victim announced. <sup class="citation"><a href="#fn-2" id="ref-2-25">[2]</a></sup><sup class="citation"><a href="#fn-14" id="ref-14-3">[14]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 13). Dismembered at West Allis; no physical remains recovered.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1988-01-16" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 04: Richard Guerrero -->
+    <article id="richard-guerrero" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 04 of 17 • Spring 1988 West Allis Series</span>
+          <span class="badge-evidence badge-primary">Anthropological Corroboration</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Richard Guerrero
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 22<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Dec. 12, 1965 (Pt 06 p. 13; Pt 01 p. 60) / Dec. 6, 1965 (Pt 01 p. 40)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Hispanic / Mexican-American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> Late March 1988</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Richard Guerrero was born and raised in Milwaukee within a close-knit Mexican-American family. His sister, Janie Hagen, described him as deeply dedicated to his family, recalling that he routinely assisted their mother with daily household chores and grocery shopping, and frequently babysat his young infant niece. <sup class="citation"><a href="#fn-1" id="ref-1-23">[1]</a></sup><sup class="citation"><a href="#fn-24" id="ref-24">[24]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> Late March 1988. Last seen departing for a local tavern outing in Milwaukee; exact day unestablished in surviving dockets. <sup class="citation"><a href="#fn-1" id="ref-1-24">[1]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11-5">[11]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> March 29, 1988. Formally accepted by MPD Bureau of Identification (BOI #190872; Pt 06 p. 13). <sup class="citation"><a href="#fn-2" id="ref-2-26">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> Late March 1988. First-Degree Murder (pre-1989 Wis. Stat. § 940.01, Count 14). <sup class="citation"><a href="#fn-3" id="ref-3-13">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> August 1, 1991 (confession); late August 1991 (forensic anthropological match). <sup class="citation"><a href="#fn-2" id="ref-2-27">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 14). Dismembered at West Allis residence; no physical remains recovered.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1988-03-24" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 05: Anthony Lee Sears -->
+    <article id="anthony-sears" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 05 of 17 • 1989 West Allis / Count 01</span>
+          <span class="badge-evidence badge-primary">Primary Forensic Odontology Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Anthony Lee Sears
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 24</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Jan. 28, 1965 (Pt 01 p. 24; Pt 06 p. 12)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> March 25, 1989</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Anthony Lee Sears was an ambitious young professional in Milwaukee who had recently earned a promotion to restaurant manager at a local Baker's Square. Energetic and charismatic, he harbored aspirations of pursuing a career in commercial modeling. He was diligently saving earnings with the intention of relocating outside Milwaukee, and his mother recalled that he had discussed plans to marry his longtime girlfriend once he was financially settled. <sup class="citation"><a href="#fn-1" id="ref-1-25">[1]</a></sup><sup class="citation"><a href="#fn-24" id="ref-24-2">[24]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> March 25, 1989 (9:30 AM at home; socialized at tavern until ~2:00 AM March 26). <sup class="citation"><a href="#fn-1" id="ref-1-26">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-28">[2]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> March 29, 1989. Formal missing-person report filed with MPD (Pt 06 p. 12). <sup class="citation"><a href="#fn-2" id="ref-2-29">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about March 26, 1989. First-Degree Intentional Homicide (§ 940.01(1), Count 01). <sup class="citation"><a href="#fn-3" id="ref-3-14">[3]</a></sup><sup class="citation"><a href="#fn-25" id="ref-25">[25]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 26, 1991. Forensic odontology match against painted skull (MPD Item BU; Pt 01 p. 24). <sup class="citation"><a href="#fn-2" id="ref-2-30">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 01). Painted skull and scalp preserved in Apt 213; recovered July 23, 1991.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1989-03-25" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 06: Raymond Lamont Smith (Ricky Beeks) -->
+    <article id="raymond-smith" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 06 of 17 • First Apartment 213 Homicide</span>
+          <span class="badge-evidence badge-primary">Primary Forensic Odontology Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Raymond Lamont Smith (Ricky Beeks)
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 32<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> August 10, 1957 (Pt 01 p. 25; Pt 06 p. 11)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> May 29, 1990</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Raymond Lamont Smith, known affectionately to relatives and lifelong friends as "Ricky Beeks," was living with his half-sister in Milwaukee following his release from incarceration. He was the devoted father of a ten-year-old daughter who resided in Rockford, Illinois. <sup class="citation"><a href="#fn-1" id="ref-1-27">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> May 29, 1990. Last seen departing in Milwaukee after meeting Dahmer near downtown. <sup class="citation"><a href="#fn-1" id="ref-1-28">[1]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> NEVER REPORTED MISSING TO POLICE (Pt 06 p. 11 explicitly confirms no report filed). <sup class="citation"><a href="#fn-2" id="ref-2-31">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about May 29, 1990. First-Degree Intentional Homicide (§ 940.01(1), Count 02). <sup class="citation"><a href="#fn-3" id="ref-3-15">[3]</a></sup><sup class="citation"><a href="#fn-25" id="ref-25-2">[25]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 25, 1991 (10:00 PM). Forensic odontology match on bleached painted skull (MPD Item BV; Pt 01 p. 25). <sup class="citation"><a href="#fn-2" id="ref-2-32">[2]</a></sup><sup class="citation"><a href="#fn-13" id="ref-13-2">[13]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 02). First homicide inside Apt 213; skull preserved in bedroom closet.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1990-05-20" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 07: Edward "Eddie" W. Smith -->
+    <article id="edward-smith" class="victim-detail-panel">
+      <span id="eddie-smith" class="anchor-target-marker"></span>
+    <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 07 of 17 • Summer 1990 Apt 213 / Count 15</span>
+          <span class="badge-evidence badge-primary">Confession & Photo Identification</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Edward "Eddie" W. Smith
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 27<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> August 2, 1962 (Pt 01 p. 39; Pt 06 p. 13)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> June 14, 1990</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Edward "Eddie" W. Smith was an aspiring fashion model raised in Milwaukee in a loving, devout Christian home. Highly regarded for his vibrant personality and distinctive sense of style, friends remembered him for wearing striking head wraps and turbans, which earned him the affectionate community moniker "the Sheikh." <sup class="citation"><a href="#fn-1" id="ref-1-29">[1]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8-4">[8]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> June 14, 1990. Last seen alive at sister's home in Milwaukee. <sup class="citation"><a href="#fn-1" id="ref-1-30">[1]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11-6">[11]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> June 23, 1990. Formal missing-person report accepted by MPD (Pt 06 p. 13). <sup class="citation"><a href="#fn-2" id="ref-2-33">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> June 1990. First-Degree Intentional Homicide (§ 940.01(1), Count 15). <sup class="citation"><a href="#fn-3" id="ref-3-16">[3]</a></sup><sup class="citation"><a href="#fn-26" id="ref-26">[26]</a></sup><sup class="citation"><a href="#fn-27" id="ref-27">[27]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 29, 1991 (9:30 PM). Positively identified via confession, photo, and physical descriptors (Pt 01 p. 39; Pt 06 p. 13). <sup class="citation"><a href="#fn-2" id="ref-2-34">[2]</a></sup><sup class="citation"><a href="#fn-23" id="ref-23">[23]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 15). Dismembered in Apt 213; refuse disposal; no physical remains recovered.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1990-06-14" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 08: Ernest Marquez Miller -->
+    <article id="ernest-miller" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 08 of 17 • Fall 1990 Apt 213 / Count 03</span>
+          <span class="badge-evidence badge-primary">Odontology & Soft-Tissue Anatomical ID</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Ernest Marquez Miller
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 23<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> May 5, 1967 (Pt 01 p. 39; Pt 06 p. 12)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> Sept. 2–3, 1990</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Ernest Miller was an accomplished performing artist who graduated from the prestigious Milwaukee High School of the Arts. A gifted vocalist and expressive dancer, he was preparing to relocate to Chicago to attend an arts college and pursue a professional dance career. His aunt, Vivian Miller, recalled that he had demonstrated natural artistic talent from early childhood, frequently performing and singing in church choirs. <sup class="citation"><a href="#fn-1" id="ref-1-31">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> Sept. 3, 1990 (1:30 AM departure from aunt's residence; contemporary press reported Sept. 2). <sup class="citation"><a href="#fn-1" id="ref-1-32">[1]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-17">[3]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> Sept. 4, 1990. Missing-person report filed by relatives with MPD (Pt 06 p. 12). <sup class="citation"><a href="#fn-2" id="ref-2-35">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about Sept. 3, 1990. First-Degree Intentional Homicide (§ 940.01(1), Count 03). <sup class="citation"><a href="#fn-3" id="ref-3-18">[3]</a></sup><sup class="citation"><a href="#fn-25" id="ref-25-3">[25]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 26, 1991 (8:30 AM). Odontology on painted skull (MPD Item BT); bicep tissue in freezer (Pt 01 p. 24). <sup class="citation"><a href="#fn-2" id="ref-2-36">[2]</a></sup><sup class="citation"><a href="#fn-23" id="ref-23-2">[23]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 03). First preserved soft tissue (freezer bicep muscle) and bleached skull in closet.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1990-09-02" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 09: David Courtney Thomas -->
+    <article id="david-thomas" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 09 of 17 • Fall 1990 Apt 213 / Count 04</span>
+          <span class="badge-evidence badge-primary">Polaroid Photographic Identification</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          David Courtney Thomas
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 22<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Dec. 21, 1967 (Pt 01 p. 39; Pt 06 p. 13)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> Sept. 24, 1990</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          David Courtney Thomas was a lifelong Milwaukee resident and the proud father of a two-year-old daughter, Courtia Beanland. His former partner, Chandra Beanland, remembered him as an outgoing, fun-loving, and spirited individual who brought joy to family gatherings. <sup class="citation"><a href="#fn-1" id="ref-1-33">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> Sept. 24, 1990. Disappeared near downtown Milwaukee; independent sighting hour unrecorded. <sup class="citation"><a href="#fn-1" id="ref-1-34">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-37">[2]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> Sept. 24, 1990. MPD missing report filed by partner Chandra Beanland (BOI #200484; Pt 06 p. 13). <sup class="citation"><a href="#fn-2" id="ref-2-38">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about Sept. 24, 1990. First-Degree Intentional Homicide (§ 940.01(1), Count 04). <sup class="citation"><a href="#fn-3" id="ref-3-19">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 29, 1991 (7:35 PM). Identified via Polaroid photograph (MPD Item CF) and confession; no physical remains recovered. <sup class="citation"><a href="#fn-2" id="ref-2-39">[2]</a></sup><sup class="citation"><a href="#fn-11" id="ref-11-7">[11]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 04). Dismembered in Apt 213; photographic evidence recovered July 22, 1991.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1990-09-24" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 10: Curtis Durrell Straughter -->
+    <article id="curtis-straughter" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 10 of 17 • First 1991 Homicide / Count 05</span>
+          <span class="badge-evidence badge-primary">Forensic Odontology & Hair Microscopy</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Curtis Durrell Straughter
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 17<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> April 16, 1973 (Pt 01 p. 25; Pt 06 p. 11)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> Feb. 18, 1991 (Sworn) / March 7, 1991 (MJS)</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Curtis Straughter was a determined young man who had joined Gay Youth Milwaukee at age 15. Residing with his grandmother in Milwaukee, he worked as a dedicated nursing assistant and was actively studying to obtain his high-school equivalency diploma with aspirations of enrolling in a professional modeling academy. <sup class="citation"><a href="#fn-1" id="ref-1-35">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> Feb. 18, 1991 (grandmother's sworn statement in complaint); March 7, 1991 (date reported by MJS; unresolved divergence). <sup class="citation"><a href="#fn-1" id="ref-1-36">[1]</a></sup><sup class="citation"><a href="#fn-2" id="ref-2-40">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-20">[3]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> July 24, 1991. MPD formally logged missing report when detectives interviewed grandmother (Pt 06 p. 11). <sup class="citation"><a href="#fn-2" id="ref-2-41">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about Feb. 18, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 05). <sup class="citation"><a href="#fn-3" id="ref-3-21">[3]</a></sup><sup class="citation"><a href="#fn-25" id="ref-25-4">[25]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 26, 1991. Forensic odontology on painted skull (MPD Item BX) and pubic hair comparison (Pt 01 p. 25). <sup class="citation"><a href="#fn-2" id="ref-2-42">[2]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8-5">[8]</a></sup><sup class="citation"><a href="#fn-10" id="ref-10-2">[10]</a></sup><sup class="citation"><a href="#fn-18" id="ref-18">[18]</a></sup><sup class="citation"><a href="#fn-23" id="ref-23-3">[23]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 05). First killing of 1991 calendar year; skull preserved in bedroom closet.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-02-18" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 11: Errol Lindsey -->
+    <article id="errol-lindsey" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 11 of 17 • Spring 1991 Apt 213 / Count 06</span>
+          <span class="badge-evidence badge-primary">Primary Forensic Odontology Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Errol Lindsey
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 19</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> March 3, 1972 (Pt 01 p. 25; Pt 06 p. 11)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> April 7, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Errol Lindsey was the youngest of six siblings in a close-knit Milwaukee family. Industrious and reliable, he was employed making decorative plaster figures. His eighth-grade art teacher preserved a delicate watercolor painting he had created, remembering him as a promising student. His mother, Mildred Lindsey, recalled him as a dependable son whose daily routine was centered on his work and family. <sup class="citation"><a href="#fn-1" id="ref-1-37">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> April 7, 1991. Stepped out on a key-duplication errand near 27th and Wisconsin; encountered Dahmer. <sup class="citation"><a href="#fn-1" id="ref-1-38">[1]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> April 11, 1991. Formal missing-person report filed with MPD by his sister Rita Isbell (Pt 06 p. 11). <sup class="citation"><a href="#fn-2" id="ref-2-43">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about April 7, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 06). <sup class="citation"><a href="#fn-3" id="ref-3-22">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 26, 1991. Odontology match on skull with burr hole (MPD Item BW; Pt 01 p. 25). <sup class="citation"><a href="#fn-2" id="ref-2-44">[2]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8-6">[8]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 06). First trephination experiment; skull with drill hole preserved.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-04-07" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 12: Anthony "Tony" Carter Hughes -->
+    <article id="anthony-hughes" class="victim-detail-panel">
+      <span id="tony-hughes" class="anchor-target-marker"></span>
+    <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 12 of 17 • Late May 1991 / Count 07</span>
+          <span class="badge-evidence badge-primary">Primary Forensic Odontology Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Anthony "Tony" Carter Hughes
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 31</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> August 26, 1959 (Pt 01 p. 24; Pt 06 p. 10)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> May 24, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Anthony "Tony" Hughes resided in Madison, Wisconsin, and had traveled back to Milwaukee to spend time visiting family and friends. Having lost his hearing following a severe bout with pneumonia during infancy, Hughes was deaf; he navigated the world with great warmth and fluidity, communicating effortlessly through lip-reading, American Sign Language, and written notes. His mother, Shirley Hughes, remembered him as an extraordinarily loving, outgoing, and popular individual who maintained a broad, devoted circle of friends. <sup class="citation"><a href="#fn-1" id="ref-1-39">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> May 24, 1991. Socialized at the 219 Club in Milwaukee while visiting family from Madison. <sup class="citation"><a href="#fn-1" id="ref-1-40">[1]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> May 31, 1991. Filed with Madison Police Department (Pt 06 p. 10). <sup class="citation"><a href="#fn-2" id="ref-2-45">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about May 24, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 07). <sup class="citation"><a href="#fn-3" id="ref-3-23">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 25, 1991 (2:50 PM). Forensic odontology match on skull with drill burr hole (MPD Item BS; Pt 01 p. 24). <sup class="citation"><a href="#fn-2" id="ref-2-46">[2]</a></sup><sup class="citation"><a href="#fn-8" id="ref-8-7">[8]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 07). Second trephination experiment; drilled skull preserved in Apt 213.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-05-24" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 13: Konerak Sinthasomphone -->
+    <article id="konerak-sinthasomphone" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 13 of 17 • May 27 Police Encounter / Count 08</span>
+          <span class="badge-evidence badge-primary">Primary Forensic Odontology Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Konerak Sinthasomphone
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 14</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Dec. 2, 1976 (Pt 01 p. 24; Pt 06 p. 10)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Asian / Laotian</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> May 27, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Konerak Sinthasomphone was a member of a large Laotian immigrant family that settled in Milwaukee in 1980 after fleeing political upheaval in Laos. His father had been a farmer in Laos. Arriving in the United States around age three, Konerak attended Milwaukee Public Schools and was a freshman at Pulaski High School. He was remembered by peers as an athletic teenager who loved playing soccer with friends at Mitchell Park. <sup class="citation"><a href="#fn-1" id="ref-1-41">[1]</a></sup><sup class="citation"><a href="#fn-6" id="ref-6-2">[6]</a></sup><sup class="citation"><a href="#fn-19" id="ref-19-2">[19]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> May 27, 1991 (~2:00 AM police street encounter; escaped briefly from Apt 213 before officers returned him). <sup class="citation"><a href="#fn-1" id="ref-1-42">[1]</a></sup><sup class="citation"><a href="#fn-7" id="ref-7-2">[7]</a></sup><sup class="citation"><a href="#fn-20" id="ref-20-2">[20]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> May 28, 1991. Formal missing-person report filed by father with MPD (Pt 06 p. 10). <sup class="citation"><a href="#fn-2" id="ref-2-47">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about May 27, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 08). <sup class="citation"><a href="#fn-3" id="ref-3-24">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 24, 1991. Odontology match on skull with drill burr hole (MPD Item BR; Pt 01 p. 24). <sup class="citation"><a href="#fn-2" id="ref-2-48">[2]</a></sup><sup class="citation"><a href="#fn-7" id="ref-7-3">[7]</a></sup><sup class="citation"><a href="#fn-20" id="ref-20-3">[20]</a></sup><sup class="citation"><a href="#fn-22" id="ref-22-2">[22]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 08). Third trephination experiment; drilled skull preserved in Apt 213.</li>
+          </ul>
+        </div>
+
+        
+      <div id="konerak-sinthasomphone-callout" class="editorial-callout" style="border-left: 4px solid var(--accent-red); background-color: var(--bg-subtle); padding: var(--space-md); margin: var(--space-md) 0;">
+        <h4 style="margin-top: 0; color: var(--accent-red); font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.05em;">
+          Why His Case Matters: The May 27 Institutional Failure
+        </h4>
+        <p style="font-size: var(--text-sm); margin-bottom: var(--space-xs); line-height: 1.55;">
+          The murder of Konerak Sinthasomphone remains the most widely scrutinized institutional failure of the Dahmer case. Konerak was the younger brother of Sombat Sinthasomphone, whom Dahmer had sexually assaulted in September 1988—a conviction that had placed Dahmer on state probation <sup class="citation"><a href="#fn-2" id="ref-2-49">[2]</a></sup><sup class="citation"><a href="#fn-3" id="ref-3-25">[3]</a></sup>. Despite repeated 911 calls from Black neighborhood residents Sandra Smith and Nicole Childress pleading for medical intervention for an injured child, responding police officers accepted Dahmer's false statement that Konerak was an adult domestic partner, threatened bystanders with arrest, and returned the 14-year-old boy to Dahmer's custody <sup class="citation"><a href="#fn-7" id="ref-7-4">[7]</a></sup><sup class="citation"><a href="#fn-20" id="ref-20-4">[20]</a></sup><sup class="citation"><a href="#fn-22" id="ref-22-3">[22]</a></sup>.
+        </p>
+        <p style="font-size: var(--text-sm); margin-bottom: 0;">
+          Detailed documentary scrutiny of the police radio tapes, officer disciplinary hearings, and civil rights litigation is maintained under <a href="analysis.html#systemic-failures">Analysis: Systemic Failures</a> and <a href="impact.html#social-reform">Impact: Social Reform</a>.
+        </p>
+      </div>
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-05-27" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 14: Matt Cleveland Turner (Donald Montrell) -->
+    <article id="matt-turner" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 14 of 17 • Pride Weekend / July 25 Count 1</span>
+          <span class="badge-evidence badge-primary">Chicago AFIS Latent Fingerprint Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Matt Cleveland Turner (Donald Montrell)
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 20</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> July 3, 1970 (Pt 06 p. 9)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> June 30, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Matt Turner was a native of Flint, Michigan, who had relocated to Chicago, where he resided in a youth halfway home. Aspiring to build a career in the fashion and modeling industry, Turner was widely admired for his striking appearance and friendly demeanor. He met Dahmer following the annual Chicago Gay Pride parade on June 30, 1991, and agreed to travel with him to Milwaukee. <sup class="citation"><a href="#fn-1" id="ref-1-43">[1]</a></sup><sup class="citation"><a href="#fn-21" id="ref-21-2">[21]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> June 30, 1991. Met Dahmer near Halsted Street following the Chicago Pride parade and traveled to Milwaukee. <sup class="citation"><a href="#fn-1" id="ref-1-44">[1]</a></sup><sup class="citation"><a href="#fn-9" id="ref-9-4">[9]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-5">[12]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> NOT REPORTED MISSING TO MPD (Chicago PD inquiries July 1991; Pt 06 p. 9). <sup class="citation"><a href="#fn-2" id="ref-2-50">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about June 30, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 09). <sup class="citation"><a href="#fn-3" id="ref-3-26">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 25, 1991 (8:30 AM). Chicago PD AFIS latent print match on severed hands ("Hands C"; Pt 01 p. 25). <sup class="citation"><a href="#fn-2" id="ref-2-51">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 09). Count 1 of July 25 complaint; torso in 55-gallon chemical drum; head in freezer.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-06-30" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 15: Jeremiah Benjamin Weinberger -->
+    <article id="jeremiah-weinberger" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 15 of 17 • July 1991 / July 25 Count 2</span>
+          <span class="badge-evidence badge-primary">Primary Forensic Odontology Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Jeremiah Benjamin Weinberger
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 23<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Sept. 25, 1967 (Pt 01 p. 25) / Sept. 29, 1967 (Pt 06 p. 9)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Hispanic / Puerto Rican</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> July 6, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Jeremiah Weinberger was born in Puerto Rico and was living in Chicago, where he worked as a courteous and efficient customer service representative at a video store. His roommate fondly remembered him as a creative, artistic, impeccably dressed individual who took great pride in maintaining a neat and welcoming home environment. <sup class="citation"><a href="#fn-1" id="ref-1-45">[1]</a></sup><sup class="citation"><a href="#fn-21" id="ref-21-3">[21]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> July 6, 1991. Met Dahmer at Carol's Speakeasy in Chicago and traveled by bus to Milwaukee. <sup class="citation"><a href="#fn-1" id="ref-1-46">[1]</a></sup><sup class="citation"><a href="#fn-9" id="ref-9-5">[9]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-6">[12]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> July 6, 1991. Filed by father with Chicago Police Department (Pt 06 p. 9). <sup class="citation"><a href="#fn-2" id="ref-2-52">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about July 7, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 10). <sup class="citation"><a href="#fn-3" id="ref-3-27">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 25, 1991. Odontology match; head preserved in freezer; drilled skull (MPD Item BQ; Pt 01 p. 25). <sup class="citation"><a href="#fn-2" id="ref-2-53">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 10). Count 2 of July 25 complaint; fourth trephination experiment; torso in drum.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-07-06" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 16: Oliver Joseph Lacy -->
+    <article id="oliver-lacy" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 16 of 17 • First Forensic ID in Apt 213 / Count 3</span>
+          <span class="badge-evidence badge-primary">Primary Fingerprint Identification</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Oliver Joseph Lacy
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 23<a href="#table-1-legend" class="asterisk-link" aria-label="Documented age discrepancy note">*</a></span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> June 23, 1968 (Pt 01 pp. 8, 24, 63) / June 23, 1967 (Pt 01 p. 62; Pt 06 p. 9)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> Black / African American</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> July 12, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Oliver Lacy was the youngest of three sons, originally from Oak Park, Illinois, where he competed as a standout track athlete at River Forest High School. A proud and devoted father to a two-year-old son, Emmanuel, Lacy had recently become engaged to be married. His mother, Catherine Lacy, described him as outspoken, articulate, and deeply grounded in family; he faithfully wore a cross necklace that had belonged to his late father, having relocated to Milwaukee shortly after his father's passing. <sup class="citation"><a href="#fn-1" id="ref-1-47">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> July 12, 1991. Last seen by fiancée in Milwaukee before encountering Dahmer near Wisconsin Avenue. <sup class="citation"><a href="#fn-1" id="ref-1-48">[1]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-7">[12]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> July 15, 1991. Formal missing-person report filed with MPD by fiancée (Pt 06 p. 9). <sup class="citation"><a href="#fn-2" id="ref-2-54">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about July 15, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 11). <sup class="citation"><a href="#fn-3" id="ref-3-28">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 24, 1991 (10:00 AM). Photo ID in Apt 213; fingerprint match on severed hands ("Hands A"; Pt 01 p. 24). <sup class="citation"><a href="#fn-2" id="ref-2-55">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 11). Count 3 of July 25 complaint; first positive forensic ID in case; heart in freezer.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-07-12" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+    <!-- Victim 17: Joseph Allen Bradehoft -->
+    <article id="joseph-bradehoft" class="victim-detail-panel">
+      <div class="victim-detail-header">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs);">
+          <span class="victim-order-tag">Victim 17 of 17 • Final Fatal Victim / Count 4</span>
+          <span class="badge-evidence badge-primary">St. Paul PD Latent Fingerprint Match</span>
+        </div>
+        <h3 class="victim-name" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-2xs);">
+          Joseph Allen Bradehoft
+        </h3>
+        <div class="victim-meta">
+          <span><strong>Age:</strong> 25</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>DOB:</strong> Jan. 24, 1966 (Pt 01 p. 24; Pt 06 p. 10)</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Demographics:</strong> White</span>
+          <span class="meta-divider" aria-hidden="true">•</span>
+          <span><strong>Last Known:</strong> July 16, 1991</span>
+        </div>
+      </div>
+
+      <div class="victim-bio-summary">
+        <h4 style="color: var(--accent-red); margin-top: var(--space-sm); margin-bottom: var(--space-xs); font-size: var(--text-base);">
+          Biographical Profile &amp; Remembrance
+        </h4>
+        <p style="line-height: var(--leading-normal);">
+          Joseph Bradehoft had recently moved to Milwaukee in search of employment to provide for his family. His brother Donald had assisted him by renting an apartment in the city. Bradehoft was a devoted husband and father of three young children, ages two to seven, who were living in Minnesota. An avid outdoorsman who loved sports and fishing, he was on his way to a scheduled job interview when he encountered Dahmer near the Marquette University campus. <sup class="citation"><a href="#fn-1" id="ref-1-49">[1]</a></sup>
+        </p>
+
+        <!-- 4-Milestone Separation Box -->
+        <div class="milestone-box" style="background-color: var(--bg-subtle); border: 1px solid var(--border-light); padding: var(--space-md); margin: var(--space-md) 0; border-radius: var(--radius-xs);">
+          <h5 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-primary);">
+            Evidentiary &amp; Case Milestones (4-Milestone Separation Model)
+          </h5>
+          <ul style="margin-bottom: 0; padding-left: 1.25rem; font-size: var(--text-sm); line-height: 1.6;">
+            <li><strong>Milestone 1 — Last-Known Sighting / Contact:</strong> July 16, 1991. Departing for a scheduled job interview near Marquette University campus. <sup class="citation"><a href="#fn-1" id="ref-1-50">[1]</a></sup><sup class="citation"><a href="#fn-9" id="ref-9-6">[9]</a></sup><sup class="citation"><a href="#fn-12" id="ref-12-8">[12]</a></sup></li>
+            <li><strong>Milestone 2 — Missing-Person Report Date:</strong> Reported to Greenville, IL Police; NO REPORT FILED WITH MPD (Pt 06 p. 10). <sup class="citation"><a href="#fn-2" id="ref-2-56">[2]</a></sup></li>
+            <li><strong>Milestone 3 — Alleged Offense Date &amp; Charge:</strong> On or about July 19, 1991. First-Degree Intentional Homicide (§ 940.01(1), Count 12). <sup class="citation"><a href="#fn-3" id="ref-3-29">[3]</a></sup></li>
+            <li><strong>Milestone 4 — Forensic Identification Date &amp; Method:</strong> July 25–26, 1991. St. Paul, MN PD latent print match on severed hands ("Hands B"; Pt 01 p. 24). <sup class="citation"><a href="#fn-2" id="ref-2-57">[2]</a></sup></li>
+            <li style="margin-top: var(--space-2xs); color: var(--text-secondary);"><strong>Evidentiary Disposition &amp; Physical Remains:</strong> Convicted in Milwaukee trial (Count 12). Count 4 of July 25 complaint; final fatal victim; torso in 55-gallon chemical drum.</li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+      <div class="victim-card-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-xs); margin-top: var(--space-md); padding-top: var(--space-sm); border-top: 1px solid var(--border-hairline);">
+        <a href="timeline.html#1991-07-16" class="read-more-link" style="padding: 0; font-size: var(--text-sm);">← View in Master Timeline</a>
+        <a href="#table-1-the-victims" style="font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-muted); text-decoration: none;">Back to Table 1 ↑</a>
+      </div>
+    </article>
+
+      </section>
+
+      <!-- Section 3: Archival Methodology -->
+      
+      <section id="archival-methodology" class="editorial-section" aria-labelledby="methodology-heading" style="margin-top: var(--space-2xl); border-top: 2px solid var(--border-dark); padding-top: var(--space-lg);">
+        <span class="editorial-kicker">Historiography &amp; Archival Integrity</span>
+        <h2 id="methodology-heading" style="font-size: var(--text-xl); margin-top: var(--space-2xs); margin-bottom: var(--space-sm);">
+          About the Record: Archival Limitations &amp; Evidence Standards
+        </h2>
+        
+        <p class="lead-paragraph">
+          The documentary reconstruction of the seventeen victims' lives is defined by the uneven nature of surviving municipal, federal, and journalistic archives. In keeping with rigorous historical scholarship, the archive operates under strict evidentiary boundaries.
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-lg); margin-top: var(--space-md);">
+          <div style="background: var(--bg-card); border: 1px solid var(--border-medium); padding: var(--space-md); border-radius: var(--radius-sm);">
+            <h3 style="font-size: var(--text-base); margin-top: 0; color: var(--accent-red);">
+              1. Asymmetry of Surviving Records
+            </h3>
+            <p style="font-size: var(--text-sm); line-height: 1.55; color: var(--text-secondary); margin-bottom: 0;">
+              Several victims' families—most notably those of Errol Lindsey, Anthony Hughes, and Konerak Sinthasomphone—spoke extensively with journalists and delivered profound courtroom statements, leaving rich personal and biographical memories. For others, surviving documentary trace is largely confined to missing-person dockets, latent fingerprint logs, and cold criminal complaints. The archive preserves these asymmetries transparently rather than manufacturing speculative narratives.
+            </p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-medium); padding: var(--space-md); border-radius: var(--radius-sm);">
+            <h3 style="font-size: var(--text-base); margin-top: 0; color: var(--accent-red);">
+              2. Source Hierarchy &amp; Charging Evolution
+            </h3>
+            <p style="font-size: var(--text-sm); line-height: 1.55; color: var(--text-secondary); margin-bottom: 0;">
+              Primary judicial records—including the initial July 25, 1991 four-count complaint <sup class="citation"><a href="#fn-3" id="ref-3-30">[3]</a></sup><sup class="citation"><a href="#fn-25" id="ref-25-5">[25]</a></sup>, the expanding twelve-count filings <sup class="citation"><a href="#fn-26" id="ref-26-2">[26]</a></sup><sup class="citation"><a href="#fn-27" id="ref-27-2">[27]</a></sup>, and the final 15-count preliminary information—form the baseline. Contemporary 1991 wire filings frequently recorded the victim's age at post-arrest discovery rather than recalculating age at disappearance, a systematic reporting artifact untangled in our master chronology.
+            </p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-medium); padding: var(--space-md); border-radius: var(--radius-sm);">
+            <h3 style="font-size: var(--text-base); margin-top: 0; color: var(--accent-red);">
+              3. Discrepancy Rules D-02 Through D-05
+            </h3>
+            <p style="font-size: var(--text-sm); line-height: 1.55; color: var(--text-secondary); margin-bottom: 0;">
+              Four locked discrepancy rules govern this register: <strong>D-02</strong> bars asserting a precise death date for Steven Tuomi due to uncharged corpus delicti; <strong>D-03</strong> preserves dual dates for James Doxtator (Jan 1988 vs Spring 1988); <strong>D-04</strong> preserves dual dates for Curtis Straughter (Feb 18 vs March 7, 1991); and <strong>D-05</strong> links all 11 calculated age discrepancies to the Table 1 legend.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Footnotes & Citation Register -->
+      <section class="footnotes-section" id="footnotes" aria-labelledby="footnotes-heading" style="margin-top: var(--space-2xl); border-top: 2px solid var(--border-dark); padding-top: var(--space-lg);">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: var(--space-xs); margin-bottom: var(--space-md); border-bottom: 1px solid var(--border-light); padding-bottom: var(--space-xs);">
+          <h3 id="footnotes-heading" class="footnotes-heading" style="margin: 0; font-size: var(--text-lg);">
+            Documentary Sources &amp; Citation Register ([1]–[27])
+          </h3>
+          <a href="sources.html#sources-victims" class="locator-pill" style="font-size: var(--text-xs);">
+            View Full Register in Sources Tab →
+          </a>
+        </div>
+
+        <ol class="footnotes-list" style="font-size: var(--text-sm); line-height: 1.6;">
+          
+          <li id="fn-1">
+            Milwaukee Journal Sentinel — “Jeffrey Dahmer’s 17 victims and what we knew about them” (Sept. 28–29, 2022). [SECONDARY — Principal biographical source]
+            <a href="sources.html#src-mjs-2022-09-28" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-1" class="footnote-backref" aria-label="Back to reference 1">&#8617;</a> <a href="#ref-1-2" class="footnote-backref" aria-label="Back to reference 1, occurrence 2">&#8617;</a> <a href="#ref-1-3" class="footnote-backref" aria-label="Back to reference 1, occurrence 3">&#8617;</a> <a href="#ref-1-4" class="footnote-backref" aria-label="Back to reference 1, occurrence 4">&#8617;</a> <a href="#ref-1-5" class="footnote-backref" aria-label="Back to reference 1, occurrence 5">&#8617;</a> <a href="#ref-1-6" class="footnote-backref" aria-label="Back to reference 1, occurrence 6">&#8617;</a> <a href="#ref-1-7" class="footnote-backref" aria-label="Back to reference 1, occurrence 7">&#8617;</a> <a href="#ref-1-8" class="footnote-backref" aria-label="Back to reference 1, occurrence 8">&#8617;</a> <a href="#ref-1-9" class="footnote-backref" aria-label="Back to reference 1, occurrence 9">&#8617;</a> <a href="#ref-1-10" class="footnote-backref" aria-label="Back to reference 1, occurrence 10">&#8617;</a> <a href="#ref-1-11" class="footnote-backref" aria-label="Back to reference 1, occurrence 11">&#8617;</a> <a href="#ref-1-12" class="footnote-backref" aria-label="Back to reference 1, occurrence 12">&#8617;</a> <a href="#ref-1-13" class="footnote-backref" aria-label="Back to reference 1, occurrence 13">&#8617;</a> <a href="#ref-1-14" class="footnote-backref" aria-label="Back to reference 1, occurrence 14">&#8617;</a> <a href="#ref-1-15" class="footnote-backref" aria-label="Back to reference 1, occurrence 15">&#8617;</a> <a href="#ref-1-16" class="footnote-backref" aria-label="Back to reference 1, occurrence 16">&#8617;</a> <a href="#ref-1-17" class="footnote-backref" aria-label="Back to reference 1, occurrence 17">&#8617;</a> <a href="#ref-1-18" class="footnote-backref" aria-label="Back to reference 1, occurrence 18">&#8617;</a> <a href="#ref-1-19" class="footnote-backref" aria-label="Back to reference 1, occurrence 19">&#8617;</a> <a href="#ref-1-20" class="footnote-backref" aria-label="Back to reference 1, occurrence 20">&#8617;</a> <a href="#ref-1-21" class="footnote-backref" aria-label="Back to reference 1, occurrence 21">&#8617;</a> <a href="#ref-1-22" class="footnote-backref" aria-label="Back to reference 1, occurrence 22">&#8617;</a> <a href="#ref-1-23" class="footnote-backref" aria-label="Back to reference 1, occurrence 23">&#8617;</a> <a href="#ref-1-24" class="footnote-backref" aria-label="Back to reference 1, occurrence 24">&#8617;</a> <a href="#ref-1-25" class="footnote-backref" aria-label="Back to reference 1, occurrence 25">&#8617;</a> <a href="#ref-1-26" class="footnote-backref" aria-label="Back to reference 1, occurrence 26">&#8617;</a> <a href="#ref-1-27" class="footnote-backref" aria-label="Back to reference 1, occurrence 27">&#8617;</a> <a href="#ref-1-28" class="footnote-backref" aria-label="Back to reference 1, occurrence 28">&#8617;</a> <a href="#ref-1-29" class="footnote-backref" aria-label="Back to reference 1, occurrence 29">&#8617;</a> <a href="#ref-1-30" class="footnote-backref" aria-label="Back to reference 1, occurrence 30">&#8617;</a> <a href="#ref-1-31" class="footnote-backref" aria-label="Back to reference 1, occurrence 31">&#8617;</a> <a href="#ref-1-32" class="footnote-backref" aria-label="Back to reference 1, occurrence 32">&#8617;</a> <a href="#ref-1-33" class="footnote-backref" aria-label="Back to reference 1, occurrence 33">&#8617;</a> <a href="#ref-1-34" class="footnote-backref" aria-label="Back to reference 1, occurrence 34">&#8617;</a> <a href="#ref-1-35" class="footnote-backref" aria-label="Back to reference 1, occurrence 35">&#8617;</a> <a href="#ref-1-36" class="footnote-backref" aria-label="Back to reference 1, occurrence 36">&#8617;</a> <a href="#ref-1-37" class="footnote-backref" aria-label="Back to reference 1, occurrence 37">&#8617;</a> <a href="#ref-1-38" class="footnote-backref" aria-label="Back to reference 1, occurrence 38">&#8617;</a> <a href="#ref-1-39" class="footnote-backref" aria-label="Back to reference 1, occurrence 39">&#8617;</a> <a href="#ref-1-40" class="footnote-backref" aria-label="Back to reference 1, occurrence 40">&#8617;</a> <a href="#ref-1-41" class="footnote-backref" aria-label="Back to reference 1, occurrence 41">&#8617;</a> <a href="#ref-1-42" class="footnote-backref" aria-label="Back to reference 1, occurrence 42">&#8617;</a> <a href="#ref-1-43" class="footnote-backref" aria-label="Back to reference 1, occurrence 43">&#8617;</a> <a href="#ref-1-44" class="footnote-backref" aria-label="Back to reference 1, occurrence 44">&#8617;</a> <a href="#ref-1-45" class="footnote-backref" aria-label="Back to reference 1, occurrence 45">&#8617;</a> <a href="#ref-1-46" class="footnote-backref" aria-label="Back to reference 1, occurrence 46">&#8617;</a> <a href="#ref-1-47" class="footnote-backref" aria-label="Back to reference 1, occurrence 47">&#8617;</a> <a href="#ref-1-48" class="footnote-backref" aria-label="Back to reference 1, occurrence 48">&#8617;</a> <a href="#ref-1-49" class="footnote-backref" aria-label="Back to reference 1, occurrence 49">&#8617;</a> <a href="#ref-1-50" class="footnote-backref" aria-label="Back to reference 1, occurrence 50">&#8617;</a>
+          </li>
+          <li id="fn-2">
+            Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, Vault Parts 01, 03, 04, and 06 (1991–1993). [PRIMARY]
+            <a href="sources.html#src-fbi-vault" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-2" class="footnote-backref" aria-label="Back to reference 2">&#8617;</a> <a href="#ref-2-2" class="footnote-backref" aria-label="Back to reference 2, occurrence 2">&#8617;</a> <a href="#ref-2-3" class="footnote-backref" aria-label="Back to reference 2, occurrence 3">&#8617;</a> <a href="#ref-2-4" class="footnote-backref" aria-label="Back to reference 2, occurrence 4">&#8617;</a> <a href="#ref-2-5" class="footnote-backref" aria-label="Back to reference 2, occurrence 5">&#8617;</a> <a href="#ref-2-6" class="footnote-backref" aria-label="Back to reference 2, occurrence 6">&#8617;</a> <a href="#ref-2-7" class="footnote-backref" aria-label="Back to reference 2, occurrence 7">&#8617;</a> <a href="#ref-2-8" class="footnote-backref" aria-label="Back to reference 2, occurrence 8">&#8617;</a> <a href="#ref-2-9" class="footnote-backref" aria-label="Back to reference 2, occurrence 9">&#8617;</a> <a href="#ref-2-10" class="footnote-backref" aria-label="Back to reference 2, occurrence 10">&#8617;</a> <a href="#ref-2-11" class="footnote-backref" aria-label="Back to reference 2, occurrence 11">&#8617;</a> <a href="#ref-2-12" class="footnote-backref" aria-label="Back to reference 2, occurrence 12">&#8617;</a> <a href="#ref-2-13" class="footnote-backref" aria-label="Back to reference 2, occurrence 13">&#8617;</a> <a href="#ref-2-14" class="footnote-backref" aria-label="Back to reference 2, occurrence 14">&#8617;</a> <a href="#ref-2-15" class="footnote-backref" aria-label="Back to reference 2, occurrence 15">&#8617;</a> <a href="#ref-2-16" class="footnote-backref" aria-label="Back to reference 2, occurrence 16">&#8617;</a> <a href="#ref-2-17" class="footnote-backref" aria-label="Back to reference 2, occurrence 17">&#8617;</a> <a href="#ref-2-18" class="footnote-backref" aria-label="Back to reference 2, occurrence 18">&#8617;</a> <a href="#ref-2-19" class="footnote-backref" aria-label="Back to reference 2, occurrence 19">&#8617;</a> <a href="#ref-2-20" class="footnote-backref" aria-label="Back to reference 2, occurrence 20">&#8617;</a> <a href="#ref-2-21" class="footnote-backref" aria-label="Back to reference 2, occurrence 21">&#8617;</a> <a href="#ref-2-22" class="footnote-backref" aria-label="Back to reference 2, occurrence 22">&#8617;</a> <a href="#ref-2-23" class="footnote-backref" aria-label="Back to reference 2, occurrence 23">&#8617;</a> <a href="#ref-2-24" class="footnote-backref" aria-label="Back to reference 2, occurrence 24">&#8617;</a> <a href="#ref-2-25" class="footnote-backref" aria-label="Back to reference 2, occurrence 25">&#8617;</a> <a href="#ref-2-26" class="footnote-backref" aria-label="Back to reference 2, occurrence 26">&#8617;</a> <a href="#ref-2-27" class="footnote-backref" aria-label="Back to reference 2, occurrence 27">&#8617;</a> <a href="#ref-2-28" class="footnote-backref" aria-label="Back to reference 2, occurrence 28">&#8617;</a> <a href="#ref-2-29" class="footnote-backref" aria-label="Back to reference 2, occurrence 29">&#8617;</a> <a href="#ref-2-30" class="footnote-backref" aria-label="Back to reference 2, occurrence 30">&#8617;</a> <a href="#ref-2-31" class="footnote-backref" aria-label="Back to reference 2, occurrence 31">&#8617;</a> <a href="#ref-2-32" class="footnote-backref" aria-label="Back to reference 2, occurrence 32">&#8617;</a> <a href="#ref-2-33" class="footnote-backref" aria-label="Back to reference 2, occurrence 33">&#8617;</a> <a href="#ref-2-34" class="footnote-backref" aria-label="Back to reference 2, occurrence 34">&#8617;</a> <a href="#ref-2-35" class="footnote-backref" aria-label="Back to reference 2, occurrence 35">&#8617;</a> <a href="#ref-2-36" class="footnote-backref" aria-label="Back to reference 2, occurrence 36">&#8617;</a> <a href="#ref-2-37" class="footnote-backref" aria-label="Back to reference 2, occurrence 37">&#8617;</a> <a href="#ref-2-38" class="footnote-backref" aria-label="Back to reference 2, occurrence 38">&#8617;</a> <a href="#ref-2-39" class="footnote-backref" aria-label="Back to reference 2, occurrence 39">&#8617;</a> <a href="#ref-2-40" class="footnote-backref" aria-label="Back to reference 2, occurrence 40">&#8617;</a> <a href="#ref-2-41" class="footnote-backref" aria-label="Back to reference 2, occurrence 41">&#8617;</a> <a href="#ref-2-42" class="footnote-backref" aria-label="Back to reference 2, occurrence 42">&#8617;</a> <a href="#ref-2-43" class="footnote-backref" aria-label="Back to reference 2, occurrence 43">&#8617;</a> <a href="#ref-2-44" class="footnote-backref" aria-label="Back to reference 2, occurrence 44">&#8617;</a> <a href="#ref-2-45" class="footnote-backref" aria-label="Back to reference 2, occurrence 45">&#8617;</a> <a href="#ref-2-46" class="footnote-backref" aria-label="Back to reference 2, occurrence 46">&#8617;</a> <a href="#ref-2-47" class="footnote-backref" aria-label="Back to reference 2, occurrence 47">&#8617;</a> <a href="#ref-2-48" class="footnote-backref" aria-label="Back to reference 2, occurrence 48">&#8617;</a> <a href="#ref-2-49" class="footnote-backref" aria-label="Back to reference 2, occurrence 49">&#8617;</a> <a href="#ref-2-50" class="footnote-backref" aria-label="Back to reference 2, occurrence 50">&#8617;</a> <a href="#ref-2-51" class="footnote-backref" aria-label="Back to reference 2, occurrence 51">&#8617;</a> <a href="#ref-2-52" class="footnote-backref" aria-label="Back to reference 2, occurrence 52">&#8617;</a> <a href="#ref-2-53" class="footnote-backref" aria-label="Back to reference 2, occurrence 53">&#8617;</a> <a href="#ref-2-54" class="footnote-backref" aria-label="Back to reference 2, occurrence 54">&#8617;</a> <a href="#ref-2-55" class="footnote-backref" aria-label="Back to reference 2, occurrence 55">&#8617;</a> <a href="#ref-2-56" class="footnote-backref" aria-label="Back to reference 2, occurrence 56">&#8617;</a> <a href="#ref-2-57" class="footnote-backref" aria-label="Back to reference 2, occurrence 57">&#8617;</a>
+          </li>
+          <li id="fn-3">
+            State of Wisconsin v. Jeffrey L. Dahmer — Milwaukee County Charging Documents (Case No. F-912542, July–August 1991). [PRIMARY]
+            <a href="sources.html#src-wi-complaint-f912542" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-3" class="footnote-backref" aria-label="Back to reference 3">&#8617;</a> <a href="#ref-3-2" class="footnote-backref" aria-label="Back to reference 3, occurrence 2">&#8617;</a> <a href="#ref-3-3" class="footnote-backref" aria-label="Back to reference 3, occurrence 3">&#8617;</a> <a href="#ref-3-4" class="footnote-backref" aria-label="Back to reference 3, occurrence 4">&#8617;</a> <a href="#ref-3-5" class="footnote-backref" aria-label="Back to reference 3, occurrence 5">&#8617;</a> <a href="#ref-3-6" class="footnote-backref" aria-label="Back to reference 3, occurrence 6">&#8617;</a> <a href="#ref-3-7" class="footnote-backref" aria-label="Back to reference 3, occurrence 7">&#8617;</a> <a href="#ref-3-8" class="footnote-backref" aria-label="Back to reference 3, occurrence 8">&#8617;</a> <a href="#ref-3-9" class="footnote-backref" aria-label="Back to reference 3, occurrence 9">&#8617;</a> <a href="#ref-3-10" class="footnote-backref" aria-label="Back to reference 3, occurrence 10">&#8617;</a> <a href="#ref-3-11" class="footnote-backref" aria-label="Back to reference 3, occurrence 11">&#8617;</a> <a href="#ref-3-12" class="footnote-backref" aria-label="Back to reference 3, occurrence 12">&#8617;</a> <a href="#ref-3-13" class="footnote-backref" aria-label="Back to reference 3, occurrence 13">&#8617;</a> <a href="#ref-3-14" class="footnote-backref" aria-label="Back to reference 3, occurrence 14">&#8617;</a> <a href="#ref-3-15" class="footnote-backref" aria-label="Back to reference 3, occurrence 15">&#8617;</a> <a href="#ref-3-16" class="footnote-backref" aria-label="Back to reference 3, occurrence 16">&#8617;</a> <a href="#ref-3-17" class="footnote-backref" aria-label="Back to reference 3, occurrence 17">&#8617;</a> <a href="#ref-3-18" class="footnote-backref" aria-label="Back to reference 3, occurrence 18">&#8617;</a> <a href="#ref-3-19" class="footnote-backref" aria-label="Back to reference 3, occurrence 19">&#8617;</a> <a href="#ref-3-20" class="footnote-backref" aria-label="Back to reference 3, occurrence 20">&#8617;</a> <a href="#ref-3-21" class="footnote-backref" aria-label="Back to reference 3, occurrence 21">&#8617;</a> <a href="#ref-3-22" class="footnote-backref" aria-label="Back to reference 3, occurrence 22">&#8617;</a> <a href="#ref-3-23" class="footnote-backref" aria-label="Back to reference 3, occurrence 23">&#8617;</a> <a href="#ref-3-24" class="footnote-backref" aria-label="Back to reference 3, occurrence 24">&#8617;</a> <a href="#ref-3-25" class="footnote-backref" aria-label="Back to reference 3, occurrence 25">&#8617;</a> <a href="#ref-3-26" class="footnote-backref" aria-label="Back to reference 3, occurrence 26">&#8617;</a> <a href="#ref-3-27" class="footnote-backref" aria-label="Back to reference 3, occurrence 27">&#8617;</a> <a href="#ref-3-28" class="footnote-backref" aria-label="Back to reference 3, occurrence 28">&#8617;</a> <a href="#ref-3-29" class="footnote-backref" aria-label="Back to reference 3, occurrence 29">&#8617;</a> <a href="#ref-3-30" class="footnote-backref" aria-label="Back to reference 3, occurrence 30">&#8617;</a>
+          </li>
+          <li id="fn-4">
+            The New York Times — “Bone Fragments, Many Human, Are Found at Suspect’s Ohio Home” (July 31, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-nyt-1991-07-31" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-4" class="footnote-backref" aria-label="Back to reference 4">&#8617;</a>
+          </li>
+          <li id="fn-5">
+            The Washington Post — “Dahmer Gets Life Term in 1978 Murder in Ohio” (May 2, 1992). [CONTEMPORARY]
+            <a href="sources.html#src-wapo-1992-05-02" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-5" class="footnote-backref" aria-label="Back to reference 5">&#8617;</a>
+          </li>
+          <li id="fn-6">
+            United Press International — “Laotian Family Upset After Hearing Tape” (August 2, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-02" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-6" class="footnote-backref" aria-label="Back to reference 6">&#8617;</a> <a href="#ref-6-2" class="footnote-backref" aria-label="Back to reference 6, occurrence 2">&#8617;</a>
+          </li>
+          <li id="fn-7">
+            Marquette University AP Wire Archive — “2 Women Say Officers Failed To Aid 14-year-old” (July 26, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-marquette-ap-1991-07-26" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-7" class="footnote-backref" aria-label="Back to reference 7">&#8617;</a> <a href="#ref-7-2" class="footnote-backref" aria-label="Back to reference 7, occurrence 2">&#8617;</a> <a href="#ref-7-3" class="footnote-backref" aria-label="Back to reference 7, occurrence 3">&#8617;</a> <a href="#ref-7-4" class="footnote-backref" aria-label="Back to reference 7, occurrence 4">&#8617;</a>
+          </li>
+          <li id="fn-8">
+            Court TV — WI v. Jeffrey Dahmer (1992): Sentencing Hearing Victim Impact Statements (Feb. 14–15, 1992). [PRIMARY RECORDING]
+            <a href="sources.html#src-courttv-1992" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-8" class="footnote-backref" aria-label="Back to reference 8">&#8617;</a> <a href="#ref-8-2" class="footnote-backref" aria-label="Back to reference 8, occurrence 2">&#8617;</a> <a href="#ref-8-3" class="footnote-backref" aria-label="Back to reference 8, occurrence 3">&#8617;</a> <a href="#ref-8-4" class="footnote-backref" aria-label="Back to reference 8, occurrence 4">&#8617;</a> <a href="#ref-8-5" class="footnote-backref" aria-label="Back to reference 8, occurrence 5">&#8617;</a> <a href="#ref-8-6" class="footnote-backref" aria-label="Back to reference 8, occurrence 6">&#8617;</a> <a href="#ref-8-7" class="footnote-backref" aria-label="Back to reference 8, occurrence 7">&#8617;</a>
+          </li>
+          <li id="fn-9">
+            United Press International — “Complaint: Man Killed Victims, Saved Heart to Eat” (July 25, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-07-25" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-9" class="footnote-backref" aria-label="Back to reference 9">&#8617;</a> <a href="#ref-9-2" class="footnote-backref" aria-label="Back to reference 9, occurrence 2">&#8617;</a> <a href="#ref-9-3" class="footnote-backref" aria-label="Back to reference 9, occurrence 3">&#8617;</a> <a href="#ref-9-4" class="footnote-backref" aria-label="Back to reference 9, occurrence 4">&#8617;</a> <a href="#ref-9-5" class="footnote-backref" aria-label="Back to reference 9, occurrence 5">&#8617;</a> <a href="#ref-9-6" class="footnote-backref" aria-label="Back to reference 9, occurrence 6">&#8617;</a>
+          </li>
+          <li id="fn-10">
+            United Press International — “Three More Mass Murder Victims Identified” (July 26, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-07-26" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-10" class="footnote-backref" aria-label="Back to reference 10">&#8617;</a> <a href="#ref-10-2" class="footnote-backref" aria-label="Back to reference 10, occurrence 2">&#8617;</a>
+          </li>
+          <li id="fn-11">
+            United Press International — “Dahmer Reportedly Made Terror Phone Calls” (July 30, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-07-30" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-11" class="footnote-backref" aria-label="Back to reference 11">&#8617;</a> <a href="#ref-11-2" class="footnote-backref" aria-label="Back to reference 11, occurrence 2">&#8617;</a> <a href="#ref-11-3" class="footnote-backref" aria-label="Back to reference 11, occurrence 3">&#8617;</a> <a href="#ref-11-4" class="footnote-backref" aria-label="Back to reference 11, occurrence 4">&#8617;</a> <a href="#ref-11-5" class="footnote-backref" aria-label="Back to reference 11, occurrence 5">&#8617;</a> <a href="#ref-11-6" class="footnote-backref" aria-label="Back to reference 11, occurrence 6">&#8617;</a> <a href="#ref-11-7" class="footnote-backref" aria-label="Back to reference 11, occurrence 7">&#8617;</a>
+          </li>
+          <li id="fn-12">
+            United Press International — “Family of Dahmer Victim Files Lawsuit” (August 5, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-05" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-12" class="footnote-backref" aria-label="Back to reference 12">&#8617;</a> <a href="#ref-12-2" class="footnote-backref" aria-label="Back to reference 12, occurrence 2">&#8617;</a> <a href="#ref-12-3" class="footnote-backref" aria-label="Back to reference 12, occurrence 3">&#8617;</a> <a href="#ref-12-4" class="footnote-backref" aria-label="Back to reference 12, occurrence 4">&#8617;</a> <a href="#ref-12-5" class="footnote-backref" aria-label="Back to reference 12, occurrence 5">&#8617;</a> <a href="#ref-12-6" class="footnote-backref" aria-label="Back to reference 12, occurrence 6">&#8617;</a> <a href="#ref-12-7" class="footnote-backref" aria-label="Back to reference 12, occurrence 7">&#8617;</a> <a href="#ref-12-8" class="footnote-backref" aria-label="Back to reference 12, occurrence 8">&#8617;</a>
+          </li>
+          <li id="fn-13">
+            United Press International — “Dahmer Charged with Dozen Killings” (August 6, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-06" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-13" class="footnote-backref" aria-label="Back to reference 13">&#8617;</a> <a href="#ref-13-2" class="footnote-backref" aria-label="Back to reference 13, occurrence 2">&#8617;</a>
+          </li>
+          <li id="fn-14">
+            United Press International — “Dahmer’s 17th Victim Identified” (August 16, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-16" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-14" class="footnote-backref" aria-label="Back to reference 14">&#8617;</a> <a href="#ref-14-2" class="footnote-backref" aria-label="Back to reference 14, occurrence 2">&#8617;</a> <a href="#ref-14-3" class="footnote-backref" aria-label="Back to reference 14, occurrence 3">&#8617;</a>
+          </li>
+          <li id="fn-15">
+            United Press International — “Dahmer Opts for Innocent and Insanity Pleas” (Sept. 11, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-09-11" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-15" class="footnote-backref" aria-label="Back to reference 15">&#8617;</a>
+          </li>
+          <li id="fn-16">
+            The Washington Post — “Dahmer’s Attorney Hints at Insanity Defense” (August 22/23, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-wapo-1991-08-23" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-16" class="footnote-backref" aria-label="Back to reference 16">&#8617;</a>
+          </li>
+          <li id="fn-17">
+            The Washington Post — “Bones Found at Dahmer Site Identified” (Sept. 13/14, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-wapo-1991-09-13" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-17" class="footnote-backref" aria-label="Back to reference 17">&#8617;</a>
+          </li>
+          <li id="fn-18">
+            United Press International — Milwaukee County Sentencing Report (Feb. 17, 1992). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1992-02-17" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-18" class="footnote-backref" aria-label="Back to reference 18">&#8617;</a>
+          </li>
+          <li id="fn-19">
+            United Press International — “Lao Youth Mourned” (August 2, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-02-mourned" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-19" class="footnote-backref" aria-label="Back to reference 19">&#8617;</a> <a href="#ref-19-2" class="footnote-backref" aria-label="Back to reference 19, occurrence 2">&#8617;</a>
+          </li>
+          <li id="fn-20">
+            Associated Press / Marquette Wire — “Dahmer Charged in Four Slayings; Police Procedures Questioned” (July 26, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-marquette-ap-1991-07-26" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-20" class="footnote-backref" aria-label="Back to reference 20">&#8617;</a> <a href="#ref-20-2" class="footnote-backref" aria-label="Back to reference 20, occurrence 2">&#8617;</a> <a href="#ref-20-3" class="footnote-backref" aria-label="Back to reference 20, occurrence 3">&#8617;</a> <a href="#ref-20-4" class="footnote-backref" aria-label="Back to reference 20, occurrence 4">&#8617;</a>
+          </li>
+          <li id="fn-21">
+            Chicago Tribune — “Chicago Ties Probed in Dahmer Murders” (July 29, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-chitrib-1991-07-29" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-21" class="footnote-backref" aria-label="Back to reference 21">&#8617;</a> <a href="#ref-21-2" class="footnote-backref" aria-label="Back to reference 21, occurrence 2">&#8617;</a> <a href="#ref-21-3" class="footnote-backref" aria-label="Back to reference 21, occurrence 3">&#8617;</a>
+          </li>
+          <li id="fn-22">
+            United Press International — “Two Officers Suspended in Dahmer Case” (July 28, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-07-28" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-22" class="footnote-backref" aria-label="Back to reference 22">&#8617;</a> <a href="#ref-22-2" class="footnote-backref" aria-label="Back to reference 22, occurrence 2">&#8617;</a> <a href="#ref-22-3" class="footnote-backref" aria-label="Back to reference 22, occurrence 3">&#8617;</a>
+          </li>
+          <li id="fn-23">
+            United Press International — “Four More Victims Identified in Dahmer Case” (August 6, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-06" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-23" class="footnote-backref" aria-label="Back to reference 23">&#8617;</a> <a href="#ref-23-2" class="footnote-backref" aria-label="Back to reference 23, occurrence 2">&#8617;</a> <a href="#ref-23-3" class="footnote-backref" aria-label="Back to reference 23, occurrence 3">&#8617;</a>
+          </li>
+          <li id="fn-24">
+            Milwaukee Sentinel — “Victims’ Families Recall Lost Sons” (July 24, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-ms-1991-07-24" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-24" class="footnote-backref" aria-label="Back to reference 24">&#8617;</a> <a href="#ref-24-2" class="footnote-backref" aria-label="Back to reference 24, occurrence 2">&#8617;</a>
+          </li>
+          <li id="fn-25">
+            United Press International — “Dahmer Charged with Four Murders” (July 26, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-07-26-b" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-25" class="footnote-backref" aria-label="Back to reference 25">&#8617;</a> <a href="#ref-25-2" class="footnote-backref" aria-label="Back to reference 25, occurrence 2">&#8617;</a> <a href="#ref-25-3" class="footnote-backref" aria-label="Back to reference 25, occurrence 3">&#8617;</a> <a href="#ref-25-4" class="footnote-backref" aria-label="Back to reference 25, occurrence 4">&#8617;</a> <a href="#ref-25-5" class="footnote-backref" aria-label="Back to reference 25, occurrence 5">&#8617;</a>
+          </li>
+          <li id="fn-26">
+            The Washington Post — “12 Counts of Murder Filed Against Dahmer” (July 28, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-wapo-1991-07-28" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-26" class="footnote-backref" aria-label="Back to reference 26">&#8617;</a> <a href="#ref-26-2" class="footnote-backref" aria-label="Back to reference 26, occurrence 2">&#8617;</a>
+          </li>
+          <li id="fn-27">
+            United Press International — “Dahmer Formally Charged with 12 Murders” (August 2, 1991). [CONTEMPORARY]
+            <a href="sources.html#src-upi-1991-08-02-charged" class="canonical-source-link">Canonical Source Record →</a>
+            <a href="#ref-27" class="footnote-backref" aria-label="Back to reference 27">&#8617;</a> <a href="#ref-27-2" class="footnote-backref" aria-label="Back to reference 27, occurrence 2">&#8617;</a>
+          </li>
+        </ol>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Broadsheet Editorial Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">The Dahmer Case Archive</div>
+          <p class="footer-brand-desc">
+            A non-sensational, source-cited historical repository examining the 1978–1991 offenses, institutional responses, and civic aftermath in Milwaukee and Ohio. Dedicated to historical accuracy and the memory of the victims.
+          </p>
+        </div>
+        <div class="footer-nav-group">
+          <div class="footer-nav-title">Archive Sections</div>
+          <ul class="footer-nav">
+            <li><a href="overview.html">Overview</a></li>
+            <li><a href="victims.html">Victims</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="context.html">Context</a></li>
+            <li><a href="case.html">Case Record</a></li>
+            <li><a href="analysis.html">Analysis</a></li>
+            <li><a href="impact.html">Impact &amp; Legacy</a></li>
+            <li><a href="sources.html">Sources &amp; Methodology</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <span>Documentary Research Project • Non-Commercial Educational Reference</span>
+        </div>
+        <div class="footer-meta">
+          <span>Based on primary judicial dockets, FBI files, contemporary reporting, and academic research. Designed for complete offline access.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/nav.js"></script>
+  <script>
+    // Client-side Table 1 search filter & sort (Zero network requests, offline file:// compatible)
+    (function() {
+      var searchInput = document.getElementById('table-search-input');
+      var sortSelect = document.getElementById('table-sort-select');
+      var resetBtn = document.getElementById('table-reset-btn');
+      var tableBody = document.getElementById('victims-table-body');
+      var liveStatus = document.getElementById('table-search-status');
+
+      if (!searchInput || !sortSelect || !tableBody) return;
+
+      var originalRows = Array.prototype.slice.call(tableBody.querySelectorAll('tr.victim-row'));
+
+      function filterAndSort() {
+        var query = searchInput.value.trim().toLowerCase();
+        var sortMode = sortSelect.value;
+        var visibleCount = 0;
+
+        // Filter
+        originalRows.forEach(function(row) {
+          var text = row.textContent.toLowerCase();
+          if (!query || text.indexOf(query) !== -1) {
+            row.style.display = '';
+            visibleCount++;
+          } else {
+            row.style.display = 'none';
+          }
+        });
+
+        // Announce count
+        if (liveStatus) {
+          liveStatus.textContent = 'Showing ' + visibleCount + ' of ' + originalRows.length + ' victims';
+        }
+
+        // Sort visible rows
+        var rowsToSort = originalRows.slice();
+        if (sortMode === 'name-asc') {
+          rowsToSort.sort(function(a, b) {
+            var nameA = a.getAttribute('data-name') || '';
+            var nameB = b.getAttribute('data-name') || '';
+            return nameA.localeCompare(nameB);
+          });
+        } else if (sortMode === 'age-asc') {
+          rowsToSort.sort(function(a, b) {
+            var ageA = parseInt(a.getAttribute('data-age') || '0', 10);
+            var ageB = parseInt(b.getAttribute('data-age') || '0', 10);
+            return ageA - ageB;
+          });
+        } else if (sortMode === 'age-desc') {
+          rowsToSort.sort(function(a, b) {
+            var ageA = parseInt(a.getAttribute('data-age') || '0', 10);
+            var ageB = parseInt(b.getAttribute('data-age') || '0', 10);
+            return ageB - ageA;
+          });
+        } else {
+          // default order
+          rowsToSort.sort(function(a, b) {
+            var ordA = parseInt(a.getAttribute('data-order') || '0', 10);
+            var ordB = parseInt(b.getAttribute('data-order') || '0', 10);
+            return ordA - ordB;
+          });
+        }
+
+        // Re-append in sorted order
+        rowsToSort.forEach(function(row) {
+          tableBody.appendChild(row);
+        });
+      }
+
+      searchInput.addEventListener('input', filterAndSort);
+      sortSelect.addEventListener('change', filterAndSort);
+      if (resetBtn) {
+        resetBtn.addEventListener('click', function() {
+          searchInput.value = '';
+          sortSelect.value = 'default';
+          filterAndSort();
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

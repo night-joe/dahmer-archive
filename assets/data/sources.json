@@ -1,0 +1,2471 @@
+{
+  "generated": "2026-10-26",
+  "canonical_count": 120,
+  "total_locators": 286,
+  "canonical": [
+    {
+      "id": "fbi-vault",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, FBI Vault. [PRIMARY ARCHIVAL RECORD] Standalone local files verified: - Dahmer_Part_01.pdf (68 pp.): p. 4 (arrest teletype); p. 5 (Hicks confession); p. 8 (Lacy ID); pp. 24–25 (10-victim master teletype); p. 27 (criminal history); pp. 39–40 (5-victim second teletype); p. 43 (Tuomi/Doxtator dates); p. 46 (Airtel); p. 47 (Konerak confession); p. 53 (Tuomi note); p. 60 (5 unrecovered remains memo); p. 62 (Lacy DOB variant); p. 63 (Lacy ID & Edwards narrative); p. 64 (Ohio indictment). - Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf (60 pp.): p. 9 (Hicks BSU confession); p. 10 (Tuomi Ambassador confession); p. 11 (Konerak confession); pp. 11–12 (Edwards escape confession); p. 12 (Straughter confession); p. 14 (Doxtator confession); pp. 51–52 (Cleveland Division Hicks report CV 7-MW-26057); p. 55 (Edwards wire clipping). - Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf (74 pp.): p. 3 (Tuomi disposal); pp. 6–7 (MPD physical evidence inventory; drilled skulls BW, BS, BR, BQ; bleached skulls BU, BV, BT, BX; Polaroids CD, CE, CF); pp. 9–13 (MPD 14-victim transmittal roster to FBI Laboratory); p. 15 (Tuomi note); p. 68 (FBI Lab toolmark report on Bradehoft).",
+      "url": "https://vault.fbi.gov/jeffrey-lionel-dahmer",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[1]"
+        },
+        {
+          "tab": "victims",
+          "local": "[2]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[1]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-22]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-23]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-24]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [1]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [2]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-10]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-13]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-14]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-15]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wi-complaint-f912542",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court, Case No. F-912542. [PRIMARY LEGAL RECORD] - Initial Criminal Complaint (July 25, 1991; 4 counts: Turner, Weinberger, Lacy, Bradehoft). - Amended Criminal Complaint (August 6, 1991; 12 counts: Sears, R. Smith, Miller, Thomas, Straughter, Lindsey, Hughes, Sinthasomphone, Turner, Weinberger, Lacy, Bradehoft). - Information following Preliminary Hearing Waiver (August 22, 1991; 15 counts: Counts 01–12 as above; Count 13 Doxtator; Count 14 Guerrero; Count 15 E. Smith).",
+      "url": "https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[2]"
+        },
+        {
+          "tab": "victims",
+          "local": "[3]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[2]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-25]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [2]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [3]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-06]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-10]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "oh-cr-91-08-1686",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "State of Ohio v. Jeffrey Dahmer, Summit County Court of Common Pleas, Case No. CR-91-08-1686. [PRIMARY COURT RECORD] Summit County Clerk of Courts, Akron, Ohio. - Indictment for Aggravated Murder (Ohio Rev. Code § 2903.01), September 24, 1991. - Entry of Guilty Plea and Sentence of Life Imprisonment, May 1, 1992 (Judge James R. Williams).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[3]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-26]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [3]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [28]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-11]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wi-f882410",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court, Case No. F-882410. [PRIMARY COURT RECORD] Milwaukee County Clerk of Circuit Court Records. - Judgment of Conviction for Second-Degree Sexual Assault (Wis. Stat. § 940.225(2)) and Child Enticement (Wis. Stat. § 948.07), May 24, 1989 (Judge William Gardner).",
+      "url": "https://wcca.wicourts.gov/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[4]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[30]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [29]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wis-971-15-165",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "Wisconsin Statutes Annotated, Chapter 971: Criminal Procedure — Mentally Ill Defendants. - Wis. Stat. § 971.15: \"Mental responsibility of defendant\" (Cognitive and volitional prongs). - Wis. Stat. § 971.165: \"Trial of defendant with mental disease or defect\" (Bifurcated procedure). - Wis. Stat. § 805.09(2): \"Juries: Number of jurors; five-sixths verdict\" (10 of 12 rule).",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/971/15",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[5]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [6]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-07]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "courttv-1992",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "broadcast-archive",
+      "citation": "Court TV — State of Wisconsin v. Jeffrey Dahmer (Milwaukee County Circuit Court, Case No. F-912542, Jan 27 – Feb 15, 1992). [PRIMARY COURT PROCEEDINGS] - Expert psychiatric testimony of Dr. Fred Berlin, Dr. Judith Becker, Dr. Carl Wahlstrom, Dr. Frederick Fosdal, Dr. Park Dietz, and Dr. Phillip Resnick. - Sworn sentencing victim impact statements of Rita Isbell, Carolyn Smith, Shirley Hughes, and Dorothy Straughter (February 14–15, 1992).",
+      "url": "https://www.courttv.com/trials/wi-v-dahmer-1992/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[6]"
+        },
+        {
+          "tab": "victims",
+          "local": "[8]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[19]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [9]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [8]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-11]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-17]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "sinthasomphone-1992",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343 (E.D. Wis. March 5, 1992) (Judge Terence T. Evans). Primary federal decision on motion to dismiss, holding that complaint stated valid Equal Protection claims regarding differential police protection based on race, national origin, and sexual orientation; notes 11 of 17 victims were Black.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/785/1343/2144838/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[7]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[25]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [26]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-02]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-01]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "sinthasomphone-1993",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320 (E.D. Wis. Nov. 23, 1993) (Judge Terence T. Evans). Primary federal qualified immunity decision documenting the factual sequence of the May 27, 1991 Konerak Sinthasomphone police encounter, dismissal of paramedics, Dahmer's deception, and subsequent homicide 30 minutes later.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/838/1320/2255276/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[8]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-01]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-02]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "weinberger-1997",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995), affirmed, 105 F.3d 1182 (7th Cir. 1997). Court: United States Court of Appeals for the Seventh Circuit. Panel: Circuit Judges Daniel A. Manion, Michael S. Kanne, and Diane P. Wood (Judge Manion authoring opinion). Date of Decision: February 4, 1997. Docket / Record: Seventh Circuit No. 96-1077.",
+      "url": "https://law.resource.org/pub/us/case/reporter/F3/105/105.F3d.1182.95-3398.html",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[9]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[26]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [27]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [31]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-03]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-04]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "balcerzak-1998",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] Balcerzak & Gabrish v. City of Milwaukee, 980 F. Supp. 983 (E.D. Wis. 1997), affirmed, 163 F.3d 993 (7th Cir. 1998). Court: United States Court of Appeals for the Seventh Circuit. Panel: Circuit Judges Walter J. Cummings, Richard D. Cudahy, and Terence T. Evans (Judge Cummings authoring opinion). Date of Decision: December 18, 1998 (District Court decision October 23, 1997). Docket / Record: Seventh Circuit Nos. 97-3932 & 97-4001.",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F3/163/993/494395/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[10]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-04]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-20]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-03]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-06]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wi-doc-1994",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "[PRIMARY] Wisconsin Department of Corrections, Division of Adult Institutions, Internal Administrative Security Inquiry: Fatal Assaults on Inmates Jeffrey Dahmer and Jesse Anderson at Columbia Correctional Institution. Investigating Body: WDOC Office of Internal Affairs & Security Audit Team. Date: December 1994.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[11]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[29]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [29]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-09]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mjs-2022-09-28",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[SECONDARY / RESTORATIVE] Milwaukee Journal Sentinel: \"Jeffrey Dahmer's 17 Victims and What We Knew About Them.\" Authors: Sophie Carson, Drake Bentley, and Journal Sentinel Staff. Date: September 28, 2022.",
+      "url": "https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[12]"
+        },
+        {
+          "tab": "victims",
+          "local": "[1]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[3]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [31]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [1]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-41]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nyt-1991-07-24",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "New York Times, \"Parts of Many Bodies Found in a Milwaukee Apartment\" (July 24, 1991). Reporting on Oxford Apartments tenant complaints, Pamela Bass, and odor reports.",
+      "url": "https://www.nytimes.com/1991-07-24/us/parts-of-many-bodies-found-in-a-milwaukee-apartment.html",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[13]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-22]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nyt-1991-07-26",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The New York Times - \"17 Slayings Tied to Milwaukee Man\" (July 26, 1991).",
+      "url": "https://www.nytimes.com/1991-07-26/us/17-slayings-tied-to-milwaukee-man.html",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[14]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nyt-1991-07-31",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The New York Times - \"Bone Fragments, Many Human, Are Found at Suspect's Ohio Home\" (July 31, 1991). [CONTEMPORARY]",
+      "url": "https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[15]"
+        },
+        {
+          "tab": "victims",
+          "local": "[4]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[5]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [4]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1991-07-29",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post (1991–1992). \"Dahmer Says First Slaying Was in 1978\" (July 29, 1991); contemporary reporting on MPA no-confidence vote (August 8, 1991); Ohio indictment coverage.",
+      "url": "https://www.washingtonpost.com/archive/politics/1991-07-29/dahmer-says-first-slaying-was-in-1978/4a8b7a1c-93f6-4f33-abbe-86f0a3a71ac6/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[16]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[4]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-31]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-07-23",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International - \"Police find body parts in apartment\" (July 23, 1991). [CONTEMPORARY]",
+      "url": "https://www.upi.com/Archives/1991-07-23/Police-find-body-parts-in-apartment/1119680241600/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[17]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[7]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [17]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-01-14",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Dahmer Pleads Guilty to 15 Murders, Sane or Insane\" (Jan 14, 1992). Reporting on Dahmer's formal guilty plea waiving Phase 1 guilt adjudication. --- TIER 5: PEER-REVIEWED SCHOLARLY & HISTORICAL MONOGRAPHS ---",
+      "url": "https://www.washingtonpost.com/archive/politics/1992-01-14/dahmer-pleads-guilty-insane-in-15-slayings/50aeb4db-10c3-4d4b-a630-1ee7d1ef51db/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[18]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[18]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [10]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-31]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-02-16",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] The Washington Post: \"Dahmer Juries Find Him Sane on All 15 Counts.\" Author: Associated Press / The Washington Post. Date: February 16, 1992.",
+      "url": "https://www.washingtonpost.com/archive/politics/1992-02-16/jury-rejects-insanity-defense-finds-dahmer-sane/68a98c56-6be1-4df2-ab69-450f3b483ad3/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[19]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[20]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [14]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-30]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-36]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1992-02-17",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — Milwaukee County sentencing report including Dorothy Straughter's sworn statement (February 17, 1992). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[20]"
+        },
+        {
+          "tab": "victims",
+          "local": "[18]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[21]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [15]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [18]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-05-02",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post — \"Dahmer Given 16th Life Sentence in 1978 Ohio Slaying\" (May 2, 1992). [CONTEMPORARY JOURNALISTIC RECORD]",
+      "url": "https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[21]"
+        },
+        {
+          "tab": "victims",
+          "local": "[5]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[22]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [16]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [5]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nyt-1994-11-29",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] The New York Times: \"Dahmer Is Slain in Prison; Inmate Attacked Killer of 17.\" Author: Dirk Johnson / The New York Times. Date: November 29, 1994.",
+      "url": "https://www.nytimes.com/1994-11-29/us/dahmer-is-slain-in-prison-inmate-with-iron-bar-kills-notorious-serial-slayer.html",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[22]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[28]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [28]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-35]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "marquette-ap-1991-07-26",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Marquette University CUAP AP Wire Archive, \"2 Women Say Officers Failed To Aid 14-year-old\" (July 26, 1991). Contemporary wire dispatch documenting statements of Nicole Childress and Sandra Smith.",
+      "url": "https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[23]"
+        },
+        {
+          "tab": "victims",
+          "local": "[7]"
+        },
+        {
+          "tab": "victims",
+          "local": "[20]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[14]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [7]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [20]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-17]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-09-06",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "UPI Archives, \"Two cops fired for returning naked boy to Dahmer\" (Sept 6, 1991). Wire reporting on Chief Philip Arreola's discharge of Balcerzak and Gabrish.",
+      "url": "https://www.upi.com/Archives/1991-09-06/Two-cops-fired-for-returning-naked-boy-to-Dahmer/7782684129600/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[24]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[16]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [22]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-18]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-33]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nyt-1994-04-28",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "New York Times, \"Victory for Two in Dahmer Case\" (April 28, 1994). Contemporary report on Reserve Judge Robert Parins's reinstatement order and back pay.",
+      "url": "https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[25]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[27]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [23]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-21]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-31]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1991-10-16",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Sweeping Changes Urged in Milwaukee Police Dept\" (Oct 16, 1991). Contemporary report on post-Dahmer police oversight and community-oriented reforms.",
+      "url": "https://www.washingtonpost.com/archive/politics/1991-10-16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[26]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[17]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-16]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-38]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1995-04-26",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Milwaukee to Pay $850,000 to Family of Dahmer Victim\" (April 26, 1995). Contemporary reporting on City Council's 14-2 vote approving civil rights settlement.",
+      "url": "https://www.washingtonpost.com/archive/national/1995-04-26/milwaukee-to-pay-850000-to-family-of-dahmer-victim/a08988a1-9957-4c4e-85c4-0af729145603/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[27]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-14]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-28]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-02-07",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Psychiatrist Calls Dahmer a Sane Killer\" (Feb 7, 1992). Reporting on Dr. George Palermo's testimony diagnosing mixed personality disorder, hostility, and sanity.",
+      "url": "https://www.washingtonpost.com/archive/politics/1992-02-07/psychiatrist-calls-dahmer-a-sane-killer/91cb4a83-0190-4e21-8b00-15e4d3d899d8/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[28]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-23]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-02-13",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Dahmer Saw Freeze-Drying as Possibility\" (Feb 13, 1992). Reporting on Dr. Park Elliott Dietz's testimony on freeze-drying, premeditation, alcohol as tool, and sanity.",
+      "url": "https://www.washingtonpost.com/archive/politics/1992-02-13/dahmer-saw-freeze-drying-as-possibility/643ceeb8-8526-4b50-ae0d-4d119af9c00c/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[29]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-24]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-02-04",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Psychiatrist Says Dahmer Was Driven by Obsessions\" (Feb 4, 1992). Reporting on Dr. Frederick Berlin's testimony diagnosing necrophilia as an irresistible mental disease.",
+      "url": "https://www.washingtonpost.com/archive/politics/1992/02/04/psychiatrist-testifies-dahmer-acted-on-impulse/9cbe778b-d7d8-4ae7-8ce6-764f697486e9/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[30]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [12]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-25]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1992-02-05-b",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "UPI Archives, \"Dahmer Had Multiple Mental Disorders, Doctor Testifies\" (Feb 5, 1992). Reporting on Dr. Carl Wahlstrom's multiaxial testimony on borderline pathology and control experiments.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[31]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-27]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1992-02-06",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "UPI Archives, \"Psychologist Says Dahmer Sane, Acted Like Predator\" (Feb 6, 1992). Reporting on Dr. Samuel Friedman's psychological testing findings and trophy attachment.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[32]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-28]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-02-09",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Washington Post, \"Despite Necrophilia, Dahmer Is Not Insane, Psychiatrist Testifies\" (Feb 9, 1992). Reporting on Dr. Frederick Fosdal's testimony establishing necrophilia as sexual preference, not legal disease.",
+      "url": "https://www.washingtonpost.com/archive/national/1992-02-09/despite-necrophilia-dahmer-is-not-insane-psychiatrist-testifies/41f6365a-b890-47b0-b701-790cf0f89d41/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[33]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-29]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-07-28",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Two Officers Suspended in Dahmer Case\" (July 28, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[38]"
+        },
+        {
+          "tab": "victims",
+          "local": "[22]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[15]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [21]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [22]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-08-02",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "UPI Archives, \"Laotian family upset after hearing tape\" (Aug 2, 1991). Contemporary wire reporting on released MPD radio tapes and \"delouse\" remarks.",
+      "url": "https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[39]"
+        },
+        {
+          "tab": "victims",
+          "local": "[6]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [6]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-19]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "inside-edition-1993",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "Inside Edition Interview with Jeffrey Dahmer (Jan 11–12, 1993; broadcast Feb 1993). Stone Phillips in-person prison interview at Columbia Correctional Institution. Uncut master copy acquired by FBI Behavioral Science Unit (FBI Part 03, p. 55).",
+      "url": "https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[40]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-30]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-12]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "chitrib-1991-07-29",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Chicago Tribune — \"Chicago Ties Probed in Dahmer Murders\" (July 29, 1991). [CONTEMPORARY JOURNALISTIC RECORD]",
+      "url": "https://www.chicagotribune.com/1991/07/29/chicago-ties-probed-in-dahmer-murders/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[41]"
+        },
+        {
+          "tab": "victims",
+          "local": "[21]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[13]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [21]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "omeara-2009",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "O'Meara, Gregory J., S.J. (2009). \"Text, Context, and Pretext in State v. Jeffrey Dahmer.\" 42 Marquette Law Review. Scholarly legal analysis of courtroom narrative construction, cross-examination strategies, and expert witness dynamics during the 1992 sanity trial.",
+      "url": "https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[34]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-33]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "jentzen-2017",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Jentzen, Jeffrey (2017). \"Micro Disasters: The Case of Serial Killer Jeffrey Dahmer.\" Academic Forensic Pathology, 7(3): 355–368. Comprehensive forensic pathology synthesis covering victim identification, trepanning burr-hole pathology, chemical dissolution, and scene recovery logistics.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[35]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-34]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-22]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "lankford-hayes-2022",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Lankford, Adam, & Hayes, Jenna K. (2022). \"Could Serial Killing Actually Be Addictive? A Close Examination of Compulsion and Escalation in the Jeffrey Dahmer Case.\" Sexual Health & Compulsivity, 29(3–4): 198–224. DOI: 10.1080/26929953.2022.2126416. Peer-reviewed empirical analysis applying DSM-5 SUD criteria by analogy to model compulsion, tolerance, and longitudinal behavioral escalation.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[36]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-32]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-24]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "kennedy-2022",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[MEMOIR / SECONDARY] Kennedy, Patrick, & Maharaj, Robyn (2022). Grilling Dahmer: The Interrogation of 'The Milwaukee Cannibal'. Publisher: Chicago: Chicago Review Press (ISBN: 978-1641607513).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "overview",
+          "local": "[37]"
+        },
+        {
+          "tab": "context",
+          "local": "[SRC-29]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-49]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-07-25",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Complaint: Man Killed Victims, Saved Heart to Eat\" (July 25, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[9]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[8]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [18]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [9]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-07-26",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Three More Mass Murder Victims Identified\" (July 26, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[10]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[32]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [10]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-07-30",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Dahmer Reportedly Made Terror Phone Calls\" (July 30, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[11]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[12]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [11]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-08-05",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Family of Dahmer Victim Files Lawsuit\" (August 5, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[12]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[33]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [12]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-08-06",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Four More Victims Identified in Dahmer Case\" (August 6, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[13]"
+        },
+        {
+          "tab": "victims",
+          "local": "[23]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[9]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [19]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [13]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [23]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-08-16",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Dahmer's 17th Victim Identified\" (August 16, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[14]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[11]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [33]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [14]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-09-11",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Dahmer Opts for Innocent and Insanity Pleas\" (September 11, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[15]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[31]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [32]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [15]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1991-08-23",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post — \"Dahmer's Attorney Hints at Insanity Defense\" (August 22/23, 1991). [CONTEMPORARY JOURNALISTIC RECORD]",
+      "url": "https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[16]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[10]"
+        },
+        {
+          "tab": "case",
+          "local": "Part B [20]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [16]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1991-09-13",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post — \"Bones Found at Dahmer Site Identified\" (September 13/14, 1991). [CONTEMPORARY JOURNALISTIC RECORD]",
+      "url": "https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[17]"
+        },
+        {
+          "tab": "timeline",
+          "local": "[6]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [17]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-08-02-mourned",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Lao Youth Mourned\" (August 2, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/08/02/Lao-youth-mourned/3218681105600/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[19]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [19]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ms-1991-07-24",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Milwaukee Sentinel — \"Victims' Families Recall Lost Sons\" (July 24, 1991). [CONTEMPORARY JOURNALISTIC RECORD] Archive Locator: Milwaukee Public Library Microforms / NewsBank Archive.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[24]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [24]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-07-26-b",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Dahmer Charged with Four Murders\" (July 26, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/07/26/Dahmer-charged-with-four-murders/6849680500800/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[25]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [25]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1991-07-28",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post — \"12 Counts of Murder Filed Against Dahmer\" (July 28, 1991). [CONTEMPORARY JOURNALISTIC RECORD]",
+      "url": "https://www.washingtonpost.com/archive/politics/1991/07/28/12-counts-of-murder-filed-against-dahmer/48274d81-8041-4775-8f68-75b28a2b5b31/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[26]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [26]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1991-08-02-charged",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — \"Dahmer Formally Charged with 12 Murders\" (August 2, 1991). [CONTEMPORARY WIRE RECORD]",
+      "url": "https://www.upi.com/Archives/1991/08/02/Dahmer-formally-charged-with-12-murders/6721681105600/",
+      "appears_in": [
+        {
+          "tab": "victims",
+          "local": "[27]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [27]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1992-08-13",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — “Dahmer apartment building to be razed, turned into park” (Aug. 13, 1992). [CONTEMPORARY]",
+      "url": "https://www.upi.com/Archives/1992-08-13/Dahmer-apartment-building-to-be-razed-turned-into-park/4739713678400/",
+      "appears_in": [
+        {
+          "tab": "timeline",
+          "local": "[23]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1992-11-14",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "United Press International — “Dahmer's apartment building to be razed” (Nov. 14, 1992). [CONTEMPORARY]",
+      "url": "https://www.upi.com/Archives/1992-11-14/Dahmers-apartment-building-to-be-razed/2592721717200/",
+      "appears_in": [
+        {
+          "tab": "timeline",
+          "local": "[24]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "census-1990",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "U.S. Census Bureau (1990–1992). 1990 Census of Population and Housing: Summary Tape File 3A (Wisconsin & Milwaukee PMSA). Washington, DC: U.S. Government Printing Office.",
+      "url": "https://www.census.gov/prod/cen1990/cp1/cp-1-51.pdf",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-01]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "frey-2005",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Frey, William H. (2005). Racial Segregation in U.S. Metropolitan Areas and Cities, 1990–2000: Patterns, Trends, and Explanations. Research Report 05-573. Ann Arbor, MI: Population Studies Center, University of Michigan.",
+      "url": "https://frey-demographer.org/report/R-2005-2_RacialSegragationTrends.pdf",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-02]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "prb-2011",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Population Reference Bureau (2011). Least Segregated U.S. Metros Concentrated in Fast-Growing South and West: 1990–2010 Analysis. Washington, DC: PRB.",
+      "url": "https://www.prb.org/resource/least-segregated-u-s-metros-concentrated-in-fast-growing-south-and-west/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-03]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "massey-denton-1993",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Massey, Douglas S., and Nancy A. Denton (1989, 1993, 2015). \"Hypersegregation in U.S. Metropolitan Areas: Black and Hispanic Segregation Along Five Dimensions,\" Demography, 26(3): 373–391; American Apartheid: Segregation and the Making of the Underclass, Cambridge, MA: Harvard University Press.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886656/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-04]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-25]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "levine-1992",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Levine, Marc V. (1992, 2003, 2019). The Economic State of Milwaukee: The Post-Industrial Trajectory; \"Stealth Depression\": Joblessness in the City of Milwaukee Since 1990; The Deindustrialization of Milwaukee, 1963–2009. Milwaukee, WI: University of Wisconsin-Milwaukee Center for Economic Development.",
+      "url": "https://uwm.edu/ced/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-05]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "chicago-fed-1998",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Federal Reserve Bank of Chicago (1998, 2000). Midwest Economy: Employment- by-Industry Historical Series (Seventh District); \"Recent Trends in Job Displacement,\" Chicago Fed Letter, No. 136 (December 1998).",
+      "url": "https://www.chicagofed.org/publications/chicago-fed-letter/1998/december-136",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-06]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "oxford-encyclopedia-2018",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Oxford Research Encyclopedia of American History (2018). \"Milwaukee: Industrial Suburbs, Deindustrialization, and Spatial Inequality.\" Oxford: Oxford University Press.",
+      "url": "https://academic.oup.com/edited-volume/61644/chapter/539895905",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-07]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "encyclopedia-milwaukee",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Encyclopedia of Milwaukee (2016–2022). Entries: \"Avenues West\", \"Deindustrialization\", \"Police Department\", \"Lesbian and Gay History\", \"Residential Segregation\". Milwaukee, WI: University of Wisconsin-Milwaukee.",
+      "url": "https://emke.uwm.edu/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-08]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mpd-chiefs-registry-2020",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "City of Milwaukee Police Department (2020). Historical Registry of Chiefs of Police: Harold Breier, Robert Ziarnik, Philip Arreola. Milwaukee, WI: City of Milwaukee.",
+      "url": "https://city.milwaukee.gov/police/About-MPD/History",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-09]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mphs-police-chiefs-2019",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "Milwaukee Police Historical Society (2019). Police Chiefs of Milwaukee: Breier to Arreola. Milwaukee, WI: MPHS.",
+      "url": "https://www.mphswi.org/DepartmentHistory/PoliceChiefs",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-10]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "citizen-police-committee-1992",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "City of Milwaukee Citizen Police Support Committee (1992). Report on MPD Operations, Community Race Relations, and Structural Oversight. Milwaukee, WI: City of Milwaukee.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-11]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "lacy-inquest-1981",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "Milwaukee County Circuit Court (1981). Inquest Proceedings into the Death of Ernest Lacy. Milwaukee, WI.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-12]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "shepherd-express-lacy-2020",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "Shepherd Express / WUWM (2020–2021). \"The Death of Ernest Lacy: What Happened in 1981 and Why It Still Matters.\"",
+      "url": "https://shepherdexpress.com/culture/milwaukee-history/the-death-of-ernest-lacy-what-happened-in-1981-and-why-it-still-matters/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-13]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nyt-1991-07-28",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The New York Times (July 28, 1991). \"Scrutiny of Police Sought in Milwaukee.\"",
+      "url": "https://www.nytimes.com/1991-07-28/us/scrutiny-of-police-sought-in-milwaukee.html",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-14]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wis-laws-1981-ch112",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "State of Wisconsin (1982, 1984). Chapter 112, Laws of 1981: An Act to Prohibit Discrimination Based on Sexual Orientation (Assembly Bill 70, signed Feb 25, 1982; effective March 2, 1982); 1983 Wisconsin Act 179 / Senate Bill 56: Powers of Board of Fire and Police Commissioners (enacted April 1984). Madison, WI: Wisconsin State Legislature.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-15]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wislgbtq-history-project",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "Wisconsin LGBTQ History Project (2018–2024). Milwaukee LGBTQ Community History & \"This Is It\" Archive. Milwaukee, WI.",
+      "url": "https://www.wislgbthistory.com/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-16]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "aclu-wi-2025",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "[PRIMARY / MONITORING] ACLU of Wisconsin, Independent Monitoring Analysis: \"After Five Years, City of Milwaukee and MPD Remain Out of Compliance with Collins Settlement.\" Publishing Body: American Civil Liberties Union of Wisconsin (aclu-wi.org). Date: January 2025.",
+      "url": "https://www.aclu-wi.org/news/queer-nightlife-surveillance-and-state-targeting/",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-17]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-52]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wislgbtq-aids-chronology-2021",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "Wisconsin LGBTQ History Project (2021). Wisconsin AIDS History Chronology.",
+      "url": "https://www.wislgbthistory.com/news/honoring-our-unforgettable-history",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-18]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "map-arcw-records",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "Milwaukee AIDS Project (MAP) / ARCW (1985–1991). Historical Organizational Records.",
+      "url": "https://archive.wislgbthistory.com/organiz/health/map.htm",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-19]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wasielewski-2018",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Wasielewski, W. (2018). How a Small STD Clinic in Milwaukee Played a Large Role in Fighting AIDS: A History of the Brady East STD Clinic and the Milwaukee AIDS Project. Master's Thesis, University of Wisconsin-Milwaukee.",
+      "url": "https://minds.wisc.edu/bitstreams/e07ef66e-ad70-4e1c-bf80-547eb3309a2a/download",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-20]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "egger-2002",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Steven Egger (2002). \"The Less-Dead.\" SAGE Encyclopedia of Violent Crime. Analytical framework examining how marginalized, stigmatized, or disenfranchised victim populations experience reduced social visibility, delayed police investigations, and heightened vulnerability to serial predators.",
+      "url": "https://sk.sagepub.com/ency/edvol/violentcrime/chpt/lessdead",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-21]"
+        },
+        {
+          "tab": "analysis",
+          "local": "[SRC-35]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-26]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "dahmer-1994",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[MEMOIR / SECONDARY] Dahmer, Lionel (1994). A Father's Story. Publisher: New York: William Morrow & Co. (ISBN: 978-0688121563).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-27]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-51]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "backderf-2012",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[MEMOIR / SECONDARY] Backderf, Derf (2012). My Friend Dahmer. Publisher: New York: Abrams ComicArts (ISBN: 978-1419702167).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-28]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-48]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mj-ms-reporting-series",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Milwaukee Journal / Milwaukee Sentinel (July–August 1991, November 1992). Contemporary reporting series on Ambrosia Chocolate employment, Huber work-release, Oxford Apartments odors, MPA no-confidence vote, and building demolition.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "context",
+          "local": "[SRC-32]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wis-act-399",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "1987 Wisconsin Act 399 — Revision of Wisconsin Homicide Statutes (eff. January 1, 1989). [PRIMARY STATUTE]",
+      "url": "https://docs.legis.wisconsin.gov/1987/related/acts/399.pdf",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [4]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wis-940-01",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "Wisconsin Statutes § 940.01 (1987) (\"First-Degree Murder\") & § 940.01(1) (1989) (\"First-Degree Intentional Homicide\"). [PRIMARY STATUTE]",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/940/01",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [5]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wis-805-09-2",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "Wisconsin Statutes § 805.09(2) (\"Juries: Number of jurors; five-sixths verdict\"). [PRIMARY STATUTE]",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/805/09/2",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [7]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "oh-rev-2903-01",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "Ohio Revised Code § 2903.01 (\"Aggravated Murder\"). [PRIMARY STATUTE]",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-2903.01",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [8]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-01-31",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post — “Dahmer's Trial Opens With Graphic Testimony” (January 31, 1992). [CONTEMPORARY]",
+      "url": "https://www.washingtonpost.com/archive/politics/1992/01/31/dahmers-trial-opens-with-graphic-testimony/55c5dfb5-d146-4cb2-82dc-df4cbb9d3434/",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [11]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1992-02-11",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "The Washington Post — “Dahmer Sane, Able to Control Impulses, Expert Testifies” (February 11, 1992). [CONTEMPORARY]",
+      "url": "https://www.washingtonpost.com/archive/politics/1992/02/11/dahmer-sane-able-to-control-impulses-expert-testifies/bebc1f60-038c-4861-ab42-2bdf6ad22757/",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [13]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "verhasselt-1978",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "State of Wisconsin v. Verhasselt, 83 Wis. 2d 647, 266 N.W.2d 342 (1978). [PRIMARY JUDICIAL OPINION]",
+      "url": "https://law.justia.com/cases/wisconsin/supreme-court/1978/76-200-cr-6.html",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [24]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [30]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "bies-1972",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "Bies v. State, 53 Wis. 2d 322, 193 N.W.2d 46 (1972). [PRIMARY JUDICIAL OPINION]",
+      "url": "https://law.justia.com/cases/wisconsin/supreme-court/1972/53-wis-2d-322-6.html",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [25]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "jentzen-1993",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "Jentzen, J. M., et al., \"Destruction of Evidence and Identification of Victims in a Serial Murder Case,\" Academic Forensic Pathology / Journal of Forensic Sciences (1992/1993). [FORENSIC PEER-REVIEWED RECORD] DOI / PMC URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/",
+      "appears_in": [
+        {
+          "tab": "case",
+          "local": "Part B [30]"
+        },
+        {
+          "tab": "case",
+          "local": "Part A [32]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "sinthasomphone-1995",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] Milwaukee Common Council, Resolution Approving Settlement of Civil Action in Estate of Sinthasomphone et al. v. City of Milwaukee et al., Resolution No. 941829. Legislative Body: Common Council of the City of Milwaukee (14-2 Affirmative Vote). Date of Enactment: April 25, 1995.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/878/147/1440090/",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-05]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-07]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wi-doc-328-04",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "statute",
+      "citation": "Wisconsin Administrative Code, Department of Corrections: - Wis. Admin. Code § DOC 328.04: \"Field Supervision of Offenders — Maximum Supervision Rules and Written Supervisory Waiver Provisions.\"",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-08]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "apa-dsm3r-1987",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "American Psychiatric Association (1987). Diagnostic and Statistical Manual of Mental Disorders, Third Edition, Revised (DSM-III-R). Washington, DC: American Psychiatric Association. Historical clinical diagnostic standard for paraphilia, necrophilia, personality disorders, and substance dependence applied at trial. --- TIER 3: PRIMARY ARCHIVAL & BROADCAST AUDIO/VISUAL RECORDS ---",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-09]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mpd-dispatch-1991",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "official-audio-recording",
+      "citation": "Milwaukee Police Department Released 911 Audio & Radio Dispatch Tapes (May 27, 1991). Official MPD audio recordings of bystander 911 calls, Squad 25 communications, derogatory \"delouse\" radio transmission, and Glenda Cleveland follow-up telephone exchanges. --- TIER 4: CONTEMPORARY JOURNALISTIC & WIRE SERVICE COVERAGE (1991–1995) ---",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-13]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "spokesman-1995-03-22",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "Spokesman-Review, \"City Agrees To Settle In Dahmer Suit\" (March 22, 1995). Reporting on the terms, municipal posture, and lack of admission of liability in settlement.",
+      "url": "https://www.spokesman.com/stories/1995/mar/22/city-agrees-to-settle-in-dahmer-suit/",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-15]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1992-02-05",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "UPI Archives, \"Psychologist Says Dahmer's Murders Were Sexually Driven\" (Feb 5, 1992). Reporting on Dr. Judith Becker's testimony on necrophilia and released victims cross-examination.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-26]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "jentzen-1994",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "Jentzen, J., Palermo, G., Johnson, L. T., Ho, K.-C., Stormo, K. A., & Teggatz, J. (1994). \"Destructive Hostility: The Jeffrey Dahmer Case: A Psychiatric and Forensic Study of a Serial Killer.\" Marquette University e-Publications. NOTE ON SOURCE INTEGRITY: Official Marquette University records document that this article was WITHDRAWN. It is documented strictly as a historical artifact of contemporary debate. ================================================================================",
+      "url": "https://epublications.marquette.edu/dentistry_fac/74/",
+      "appears_in": [
+        {
+          "tab": "analysis",
+          "local": "[SRC-36]"
+        },
+        {
+          "tab": "impact",
+          "local": "[SRC-27]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "bell-1984",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] Bell v. City of Milwaukee, 746 F.2d 1205 (7th Cir. 1984). Court: United States Court of Appeals for the Seventh Circuit. Author: Circuit Judge Walter J. Cummings. Date of Decision: September 4, 1984. Docket / Record: Nos. 82-2102, 82-2117, 82-2139.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-05]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "scarver-1995",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] State of Wisconsin v. Christopher J. Scarver, Columbia County Circuit Court Case No. 94-CF-208. Presiding Jurist: Hon. Daniel George, Circuit Judge. Date of Judgment: May 15, 1995. Prosecuting Authority: Columbia County District Attorney's Office.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-08]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "collins-2018",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] Collins et al. v. City of Milwaukee et al., United States District Court for the Eastern District of Wisconsin, Case No. 17-CV-00234. Presiding Jurist: Hon. Lynn Adelman, District Judge. Parties / Counsel: Represented by ACLU of Wisconsin and NAACP Legal Defense Fund. Date of Settlement Order: July 23, 2018.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-12]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mcme-autopsy-1991",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "[PRIMARY] Milwaukee County Medical Examiner (MCME), Autopsy Protocols, Identification Logs, and Forensic Anthropology Files: Jeffrey Dahmer Victims (July–September 1991). Lead Investigators: Dr. Jeffrey M. Jentzen, Dr. K. Alan Stormo, Dr. Robert W. Huntington III, Dr. Lowell Johnson (Odontology), and Dr. Kenneth Bennett (Anthropology).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-16]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wi-probate-94pr002145",
+      "tier": "primary-judicial",
+      "tier_label": "Primary Judicial, Statutory & Municipal Records",
+      "type": "judicial-record",
+      "citation": "[PRIMARY] Milwaukee County Circuit Court, Probate Division, In the Matter of the Estate of Jeffrey L. Dahmer, Deceased, Case No. 94-PR-002145. Presiding Jurist: Hon. William Gardner, Circuit Judge. Counsel / Receiver: Robert Wendy (Receiver); Thomas M. Jacobson (Counsel for 11 Families). Dates of Record: April–July 1996.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-18]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "usccr-1994",
+      "tier": "primary-archival",
+      "tier_label": "Primary Forensic, Archival & Investigative Repositories",
+      "type": "archival-foia",
+      "citation": "[PRIMARY] United States Commission on Civil Rights, Racial and Ethnic Tensions in American Communities: Poverty, Inequality, and Discrimination—Volume III: The Milwaukee Report. Publishing Body: U.S. Government Printing Office (Washington, D.C.). Date of Publication: November 1994.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-19]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tithecott-1997",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "[SCHOLARLY] Tithecott, Richard (1997). Of Men and Monsters: Jeffrey Dahmer and the Construction of the Serial Killer. Publisher: Madison: University of Wisconsin Press (ISBN: 978-0299156848).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-20]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "takach-2016",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "[SCHOLARLY] Takach, Michail (2022). Milwaukee Drag: A History of Queer Culture and Community. Publisher: Charleston: The History Press (ISBN: 978-1467149112).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-21]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "masters-1993",
+      "tier": "scholarly",
+      "tier_label": "Scholarly Monographs & Peer-Reviewed Academic Studies",
+      "type": "peer-reviewed-study",
+      "citation": "[SCHOLARLY] Masters, Brian (1993). The Shrine of Jeffrey Dahmer. Publisher: London: Hodder & Stoughton / New York: Coronet (ISBN: 978-0340591949).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-23]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "wapo-1996-05-29",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] The Washington Post: \"Dahmer Possessions to be Destroyed.\" Author: Associated Press / The Washington Post. Date: May 29, 1996.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-29]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ap-1996-05-29",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] Los Angeles Times: \"Civic Group Buys Dahmer Belongings to Keep Them Off Auction Block.\" Author: Associated Press / Los Angeles Times. Date: May 29, 1996.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-30]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "upi-1994-04-27",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] United Press International (UPI): \"Dahmer Cops to Get Jobs Back.\" Author: UPI Wire Archives. Date: April 27, 1994.",
+      "url": "https://www.upi.com/Archives/1994/04/27/Dahmer-cops-to-get-jobs-back/8507767419200/",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-32]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mj-1992-11-15",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] The Milwaukee Journal: \"Oxford Apartments Demolished by Campus Circle.\" Author: The Milwaukee Journal. Date: November 15, 1992.",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-34]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "csmonitor-1991-08-16",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] The Christian Science Monitor: \"Dahmer Case Unleashes Black Anger in Milwaukee.\" Author: Scott Bowles / The Christian Science Monitor. Date: August 16, 1991.",
+      "url": "https://www.csmonitor.com/1991/0816/16041.html",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-37]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "suntimes-2019-11-15",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] Chicago Sun-Times: \"Jeffrey Dahmer's FBI Files Offer Glimpses of the Serial Killer's Mind.\" Author: Jon Seidel / Chicago Sun-Times. Date: November 15, 2019.",
+      "url": "https://chicago.suntimes.com/2019/11/15/20959108/jeffrey-dahmer-fbi-files-serial-killers-chicago-milwaukee-cannibal-killer-anniversary",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-39]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "insider-2022-09-26",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[PRIMARY / WITNESS] Isbell, Rita: \"My Brother Was Murdered By Jeffrey Dahmer. I'm Pissed Netflix Recreated My Courtroom Breakdown.\" Publication: Business Insider (First-Person Testimonial Essay). Date: September 26, 2022.",
+      "url": "https://www.businessinsider.com/rita-isbell-sister-jeffrey-dahmer-victim-talks-about-netflix-show-2022-9",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-40]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mjs-2022-09-23",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[SECONDARY] Milwaukee Journal Sentinel: \"What's Real and What's Fiction on 'Monster: The Jeffrey Dahmer Story'.\" Author: Sophie Carson / Milwaukee Journal Sentinel. Date: September 23, 2022.",
+      "url": "https://www.jsonline.com/story/news/2022-09-23/whats-real-fiction-monster-jeffrey-dahmer-story-netflix/8083469001/",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-42]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "guardian-2022-10-29",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[SECONDARY] The Guardian: \"Dahmer Series Creator Says Relatives of Victims Did Not Reply to Outreach.\" Author: Guardian Media Desk / AP. Date: October 29, 2022.",
+      "url": "https://www.theguardian.com/media/2022/oct/29/dahmer-series-creator-ryan-murphy-victims-families-friends",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-43]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "bbc-2022-12-13",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[CRITIQUE] BBC Culture: \"Monster: Jeffrey Dahmer: Did TV Go Too Far in 2022?\" Author: Caryn James / BBC. Date: December 13, 2022.",
+      "url": "https://www.bbc.com/culture/article/20221213-monster-jeffrey-dahmer-did-tv-go-too-far-in-2022",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-44]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "conversation-2022-10",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[CRITIQUE] The Conversation: \"'They're Making Money Off Tragedy': The Dangers of Fictionalising Real Horrors.\" Author: Criminology & Media Studies Faculty / The Conversation. Date: October 2022.",
+      "url": "https://theconversation.com/theyre-making-money-off-tragedy-netflixs-dahmer-series-shows-the-dangers-of-fictionalising-real-horrors-192006",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-45]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "time-2022-09",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[SECONDARY] TIME Magazine: \"The Controversy Behind Netflix's Jeffrey Dahmer Series.\" Author: Cady Lang / TIME. Date: September 2022.",
+      "url": "https://time.com/6218411/jeffrey-dahmer-netflix-controvesy/",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-46]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ap-fox29-2022-10",
+      "tier": "contemporary",
+      "tier_label": "Contemporaneous Journalism & Investigative Wire Services",
+      "type": "newspaper",
+      "citation": "[CONTEMPORARY] FOX 29 Philadelphia / Associated Press: \"Milwaukee LGBTQ Bars Ban Customers From Wearing Jeffrey Dahmer Costumes.\" Date: October 2022.",
+      "url": "https://www.fox29.com/news/milwaukee-lbgtq-bars-ban-customers-wearing-jeffrey-dahmer-costumes",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-47]"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "schwartz-1992",
+      "tier": "secondary",
+      "tier_label": "Critical Media Studies, Ethics, Memoirs & Retrospectives",
+      "type": "book-or-retrospective",
+      "citation": "[JOURNALISTIC] Schwartz, Anne E. (1991). The Man Who Could Not Kill Enough: The Secret Murders of Milwaukee's Jeffrey Dahmer. (Reissued 2022 as Monster: The Jeffrey Dahmer Story, Skyhorse). Publisher: New York: Birch Lane Press (ISBN: 978-1559721172).",
+      "url": "",
+      "appears_in": [
+        {
+          "tab": "impact",
+          "local": "[SRC-50]"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

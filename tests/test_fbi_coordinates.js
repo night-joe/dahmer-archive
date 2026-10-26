@@ -8,6 +8,7 @@ const limits = {
 };
 
 const targetFiles = [
+  'plan/01_overview_content_plan_v03_final_locked.txt',
   'plan/03a_case_offense_series_plan_v03_final_locked.txt',
   'plan/03b_case_investigation_and_trial_plan_v03_final_locked.txt',
   'plan/08_case_final_bibliography_v01.txt',

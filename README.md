@@ -58,17 +58,17 @@ This project is a serious, source-cited historical and research repository docum
 Build order per Phase C Part 10.3. Status distinguishes "prototype exists" from
 "compliant with the locked content".
 
-* [~] **`index.html`** (Homepage editorial front page) — prototype exists, **needs rework**: 0 citations against a 9-row factual milestone table and the homepage feature
-* [~] **`overview.html`** (Comprehensive case overview) — prototype exists, **needs rework**: 22 footnotes vs the 41-entry register, 3 uncited superlatives (L174, L177, L205), and 16 duplicate DOM ids
-* [ ] **`sources.html`** (Research directory, methodology) — **next build step**: build-time generator, canonical permalink layer, two views
-* [ ] **`victims.html`** (Table 1, 17 profiles, detail panels) — clear to build
-* [ ] **`timeline.html`** (Table 2, era navigation, cross-linking anchors) — clear to build
+* [x] **`index.html`** (Homepage editorial front page) — reworked & verified: Mode B block citations and 9-row milestone table
+* [x] **`overview.html`** (Comprehensive case overview) — reworked & verified: 41-entry register, 0 duplicate DOM IDs, 55-gal drum capacity
+* [x] **`sources.html`** (Research directory, methodology) — completed: static build generator, canonical permalink layer, dual-view switching
+* [x] **`victims.html`** (Table 1, 17 profiles, detail panels) — completed & verified: Table 1 interactive register, 17 human-centered profiles, 27-citation register, WCAG AA compliance
+* [ ] **`timeline.html`** (Table 2, era navigation, cross-linking anchors) — next build step: clear to build
 * [ ] **`context.html`** (Historical Milwaukee 1987-1991 and early background) — clear to build
 * [ ] **`case.html`** (Offense series, investigation, trial) — must emit `#offense-series` wrapper (repairs 4 dangling inbound links)
 * [ ] **`analysis.html`** (Systemic failures, psychiatric profile, theories) — canonical anchors are `#topics-*`
 * [ ] **`impact.html`** (Community impact, media ethics, master conclusion) — 184 anchors; build last
 
-**Known site state at Phase C sign-off:** 2 of 9 pages exist; 7 nav targets currently 404. All 286 local register entries remain numbered as locked — the citation architecture adds permalinks, it does not renumber.
+**Known site state at Phase D Step 3:** 4 of 9 pages exist and are verified (`index.html`, `overview.html`, `sources.html`, `victims.html`); 5 nav targets currently 404. All 286 local register entries remain numbered as locked — the citation architecture adds permalinks, it does not renumber.
 
 ---
 
