@@ -1,7 +1,7 @@
 # The Jeffrey Dahmer Case Archive — Webapp Research & Development Guide
 
-**Last Updated:** 2026-10-25  
-**Current Phase:** Phase 1 — Content & Citation Verification (Tab-by-Tab) *(corresponds to Phase B in Master Implementation Plan)*
+**Last Updated:** 2026-10-26  
+**Current Phase:** Phase 1 — Content & Citation Verification (Tab-by-Tab) — **ALL TABS COMPLETE**; Phase 2 (HTML implementation) may begin.
 
 ---
 
@@ -40,14 +40,14 @@ This project is a serious, source-cited historical and research repository docum
 
 |#|Tab / Section|Target Working File(s)|Citations & Content Status|Last Updated|Notes / Key Milestones|
 |:-:|-|-|:-:|:-:|-|
-|**01**|**Overview**|[`plan/01_overview_content_plan_v02.txt`](plan/01_overview_content_plan_v02.txt)|**COMPLETED & LOCKED**|2026-10-19|Factual spine established; prototype [`overview.html`](overview.html) live.|
-|**02**|**Victims**|[`plan/04_victims_content_plan_v05_final_locked.txt`](plan/04_victims_content_plan_v05_final_locked.txt), [`plan/table_1_the_victims_v04.md`](plan/table_1_the_victims_v04.md)|**COMPLETED & LOCKED**|2026-10-25|100% primary DOB coverage; dagger (`†`) retired; 27-entry bibliography locked; 17 profiles fact-checked; verified in [`plan/Dahmer_Victims_Master_Citation_Tracker_v10.md`](plan/Dahmer_Victims_Master_Citation_Tracker_v10.md).|
+|**01**|**Overview**|[`plan/01_overview_content_plan_v03_final_locked.txt`](plan/01_overview_content_plan_v03_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-26|Claim-level citations inserted (v02 had deferred them); 41-entry register `[1]`–`[41]`; 65 cited claims (54 `/overview` + 11 homepage); verified verbatim FBI teletype anchor for the Edwards escape (Part 01 p. 4); 17/16/11 numeric separation enforced; 5 evaluative sentences flagged for Phase 2 rewrite; crosswalk reconciles all parent-tab numbering schemes (supersedes working reference [`plan/01_overview_content_plan_v02.txt`](plan/01_overview_content_plan_v02.txt)); prototype [`overview.html`](overview.html) live.|
+|**02**|**Victims**|[`plan/04_victims_content_plan_v05_final_locked.txt`](plan/04_victims_content_plan_v05_final_locked.txt), [`plan/table_1_the_victims_v04.md`](plan/table_1_the_victims_v04.md), [`plan/08_victims_final_bibliography_v02.txt`](plan/08_victims_final_bibliography_v02.txt)|**COMPLETED & LOCKED**|2026-10-26|100% primary DOB coverage; dagger (`†`) retired; 27-entry bibliography locked and **register regenerated** against the v05 lock (v1.0 held only 17 entries tied to the superseded v03 working copy); 17 profiles fact-checked; verified in [`plan/Dahmer_Victims_Master_Citation_Tracker_v10.md`](plan/Dahmer_Victims_Master_Citation_Tracker_v10.md).|
 |**03**|**Timeline**|[`plan/05_timeline_content_plan_v04_final_locked.txt`](plan/05_timeline_content_plan_v04_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|Table 2 verified; 44 milestones cited with 1-based FBI locators; 33-entry bibliography locked; stable anchor IDs established (supersedes working draft [`plan/05_timeline_content_plan_v03.txt`](plan/05_timeline_content_plan_v03.txt)).|
 |**04**|**Context**|[`plan/02_context_content_plan_v03_final_locked.txt`](plan/02_context_content_plan_v03_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|Sections A & B audited; 32-source bibliography locked; primary FBI 1-based page coordinates verified (Part 01 p. 29); non-deterministic framing enforced.|
 |**05**|**Case**|[`plan/03a_case_offense_series_plan_v03_final_locked.txt`](plan/03a_case_offense_series_plan_v03_final_locked.txt), [`plan/03b_case_investigation_and_trial_plan_v03_final_locked.txt`](plan/03b_case_investigation_and_trial_plan_v03_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|17 victim homicides audited; strict 4-milestone separation; 1-based FBI Vault coordinates; Edwards escape & Apt 213 search verified; statutory split (pre-1988 murder vs post-1988 intentional homicide, 1987 Wis. Act 399); Wis. Stat. § 971.15 sanity phase trial & sentencing locked.|
 |**06**|**Analysis**|[`plan/06a_analysis_psychological_profile_plan_v03_final_locked.txt`](plan/06a_analysis_psychological_profile_plan_v03_final_locked.txt), [`plan/06b_analysis_systemic_failures_plan_v03_final_locked.txt`](plan/06b_analysis_systemic_failures_plan_v03_final_locked.txt), [`plan/06c_analysis_theories_and_motivations_plan_v03_final_locked.txt`](plan/06c_analysis_theories_and_motivations_plan_v03_final_locked.txt)|**COMPLETED & LOCKED**|2026-10-25|Tripartite specification locked; 7 trial psychiatric expert dossiers verified; clinical disorder vs Wis. Stat. § 971.15 legal sanity divide enforced; May 27 Konerak incident & officer discipline/reinstatement (Parins 1994) audited; Sinthasomphone civil litigation ($850k settlement) verified; probation supervision (Chester, DOC 328.04 waivers, Weinberger 7th Cir.) reconciled; 7 motivational theories structured across 3 certainty tiers; 36-entry master bibliography locked in [`plan/08_analysis_final_bibliography_v01.txt`](plan/08_analysis_final_bibliography_v01.txt); audited in [`plan/analysis_evidentiary_audit.md`](plan/analysis_evidentiary_audit.md).|
 |**07**|**Impact**|[`plan/07_impact_and_legacy_content_plan_v02_final_locked.txt`](plan/07_impact_and_legacy_content_plan_v02_final_locked.txt), [`plan/08_impact_final_bibliography_v01.txt`](plan/08_impact_final_bibliography_v01.txt)|**COMPLETED & LOCKED**|2026-10-25|All 6 mandated sections + Introduction & Master Research Conclusion locked; 184 registered anchors (100% bidirectional cross-tab resolution in [`tests/test_tab7_anchors.js`](tests/test_tab7_anchors.js)); 52-source tiered master bibliography locked in [`plan/08_impact_final_bibliography_v01.txt`](plan/08_impact_final_bibliography_v01.txt); comprehensive evidentiary audit in [`plan/impact_evidentiary_audit.md`](plan/impact_evidentiary_audit.md); factually reconciled Judge Parins 1994 statutory reinstatement order, Marquette Campus Circle Project Oxford demolition, Sinthasomphone $850k civil settlement without admitted liability, Zilber $407k murderabilia auction buyout/incineration, Christopher Scarver 1994 CCI homicide proceedings (Columbia County Case No. 94-CF-208), historical witness disambiguation (Childress/Smith/Cleveland/Bass), and Dual-Failure Thesis closed.|
-|**08**|**Sources**|[`plan/08_sources_by_tab.txt`](plan/08_sources_by_tab.txt)|**[ ] IN PROGRESS**|2026-10-25|Master repository directory governing `/sources.html`; synthesizing bibliographies, evidentiary crosswalks, and primary archives from locked tabs 01–07 into final central reference matrix.|
+|**08**|**Sources**|[`plan/08_sources_by_tab.txt`](plan/08_sources_by_tab.txt)|**COMPLETED & LOCKED**|2026-10-26|v3.0 lock-synchronized master register; all seven tab registers reconciled (41 / 27 / 33 / 32 / 65 / 36 / 52 entries respectively); per-tab authoritative-register pointers added; stale v01 impact references corrected (50 → 52 sources); superseded "Section 8" reference replaced; 305 UTF-8 mojibake sequences repaired; governs `/sources.html` implementation in Phase 2.|
 
 ---
 
@@ -68,9 +68,12 @@ This project is a serious, source-cited historical and research repository docum
 ## 5. Master Reference Files Directory
 
 * **Master Plan:** [`plan/00_webapp_master_implementation_plan_v04.txt`](plan/00_webapp_master_implementation_plan_v04.txt)
+* **Overview Final Locked Copy:** [`plan/01_overview_content_plan_v03_final_locked.txt`](plan/01_overview_content_plan_v03_final_locked.txt) *(superseding working reference [`plan/01_overview_content_plan_v02.txt`](plan/01_overview_content_plan_v02.txt))*
+* **Overview Register:** 41 entries `[1]`–`[41]` inside the locked Overview plan, with a parent-tab crosswalk
 * **Victims Reconciled Concordance:** [`plan/Dahmer_Victims_Master_Citation_Tracker_v10.md`](plan/Dahmer_Victims_Master_Citation_Tracker_v10.md)
 * **Victims Master Table 1:** [`plan/table_1_the_victims_v04.md`](plan/table_1_the_victims_v04.md)
 * **Victims Final Locked Copy:** [`plan/04_victims_content_plan_v05_final_locked.txt`](plan/04_victims_content_plan_v05_final_locked.txt)
+* **Victims Authoritative Bibliography:** [`plan/08_victims_final_bibliography_v02.txt`](plan/08_victims_final_bibliography_v02.txt) *(27 entries, reconciled to v05; supersedes [`v01`](plan/08_victims_final_bibliography_v01.txt), which described the retired v03 working copy)*
 * **Timeline Final Locked Copy:** [`plan/05_timeline_content_plan_v04_final_locked.txt`](plan/05_timeline_content_plan_v04_final_locked.txt) *(superseding working draft [`plan/05_timeline_content_plan_v03.txt`](plan/05_timeline_content_plan_v03.txt))*
 * **Context Final Locked Copy:** [`plan/02_context_content_plan_v03_final_locked.txt`](plan/02_context_content_plan_v03_final_locked.txt)
 * **Case Offense Series Final Locked Copy:** [`plan/03a_case_offense_series_plan_v03_final_locked.txt`](plan/03a_case_offense_series_plan_v03_final_locked.txt)
@@ -85,7 +88,7 @@ This project is a serious, source-cited historical and research repository docum
 * **Impact Authoritative Master Bibliography:** [`plan/08_impact_final_bibliography_v01.txt`](plan/08_impact_final_bibliography_v01.txt)
 * **Impact Evidentiary Audit Report:** [`plan/impact_evidentiary_audit.md`](plan/impact_evidentiary_audit.md)
 * **Impact Link & Coordinate Test Suite:** [`tests/test_tab7_anchors.js`](tests/test_tab7_anchors.js)
-* **Central Sources Register:** [`plan/08_sources_by_tab.txt`](plan/08_sources_by_tab.txt)
+* **Central Sources Register:** [`plan/08_sources_by_tab.txt`](plan/08_sources_by_tab.txt) — v3.0, lock-synchronized across all seven tabs
 * **Primary FBI Vault PDFs:** Located in [`assets/docs/`](assets/docs/) (`Dahmer_Part_01.pdf` [68 pp.], `Jeffrey_Lionel_Dahmer_Part_03_of_19.pdf` [60 pp.], `Jeffrey_Lionel_Dahmer_Part_06_of_19.pdf` [74 pp.]).
 
 ---

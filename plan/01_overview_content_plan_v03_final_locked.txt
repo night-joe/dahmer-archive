@@ -1,0 +1,1062 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+OVERVIEW TAB + FRONT-PAGE OVERVIEW FEATURE
+FINAL LOCKED CONTENT PLAN & CLAIM-LEVEL CITATION SPECIFICATION
+================================================================================
+Version:     1.0 - Final Locked
+Date:        2026-10-26
+Status:      LOCKED / PRODUCTION-READY FOR PHASE 2
+Supersedes:  01_overview_content_plan_v02.txt (working reference, 2026-09-27)
+Register:    Overview [1]-[41]
+Scope:       Homepage Overview feature + full /overview article
+
+================================================================================
+LOCK DECLARATION & WHAT THIS DOCUMENT ADDS
+================================================================================
+
+The v0.2 working reference established the Overview's editorial structure,
+voice, hierarchy, interaction model and hyperlink strategy. It deliberately
+deferred sourcing. Its own CONTENT STATUS block recorded:
+
+    "Final source-by-source article citations: NOT YET INSERTED"
+    "Final web copy: NOT YET LOCKED"
+
+This document closes that deferral. It does not rewrite the approved structure.
+It adds the missing evidentiary layer:
+
+1. A numbered Overview register ([1]-[41]) built entirely from sources already
+   verified and locked in Tabs 2-7. No new, unvetted citations are introduced.
+2. A section-by-section CLAIM INVENTORY assigning every factual assertion in
+   the Overview a source number and, where the source permits, a locator.
+3. A CROSSWALK mapping each Overview number to its parent tab register, so the
+   eventual /sources page can resolve one global register without renumbering
+   conflicts.
+4. An EDITORIAL JUDGMENT FLAGS section identifying sentences in the approved
+   v0.2 copy that cannot carry a citation because they are evaluative, and
+   therefore must be revised or explicitly framed as the project's own
+   assessment.
+
+Everything in v0.2 concerning architecture, homepage behavior, expand/collapse
+state, header routing, key-facts module and internal hyperlink targets is
+carried forward unchanged.
+
+================================================================================
+SECTION A: EDITORIAL STANDARDS (CARRIED FORWARD, BINDING)
+================================================================================
+
+A.1 TONE
+    Restrained scholarly/journalistic register. Prohibited in the site's own
+    voice: "monster", "depraved predator", "domestic hell", "house of horrors",
+    and equivalent sensational formulations.
+
+A.2 STRUCTURAL SEPARATION
+    HOMEPAGE OVERVIEW FEATURE = concise descriptive introduction.
+    FULL /overview            = comprehensive case article and factual spine.
+    They are two layers of one publication, not the same article at two lengths.
+
+A.3 NAVIGATION
+    Header "Overview" always opens /overview.
+    Homepage feature expands in place and terminates with "Read more -> /overview".
+    Expansion never navigates away from the homepage.
+
+A.4 EVIDENTIARY CONDUCT
+    - Distinguish 17 confessed killings from 16 murder convictions.
+    - Distinguish a last-known sighting from an alleged offense date, a
+      missing-person report date, and a forensic identification date.
+    - Attribute disputed interpretations to their sources.
+    - Never promote a later theory (journalistic, clinical, or cultural) into
+      an established fact.
+
+A.5 CERTAINTY TIERS (used throughout the Claim Inventory)
+    [ESTABLISHED]  Primary record or court document directly establishes it.
+    [DOCUMENTED]   Credible record supports it; contextual qualification needed.
+    [REPORTED]     Published by a credible contemporary outlet; not independently
+                   established.
+    [ATTRIBUTED]   Asserted by a named person or party (e.g., Dahmer's own
+                   confession, an expert's testimony, a witness statement).
+    [DISPUTED]     Credible sources conflict; both versions must remain visible.
+    [JUDGMENT]     The project's own analytical framing. Must never be presented
+                   as a sourced fact.
+
+================================================================================
+SECTION B: CLAIM INVENTORY - FULL /overview ARTICLE
+================================================================================
+
+Citation format: [n] = Overview register number. (Pt XX p. N) = verified
+1-based standalone PDF page coordinate within an FBI Vault part.
+
+--------------------------------------------------------------------------------
+B.1  SECTION 1 - INTRODUCTION
+--------------------------------------------------------------------------------
+
+CLAIM 1.1  Dahmer killed across a span beginning in 1978 and ending in 1991.
+  CITE      [1] (Pt 01), [2], [3], [16]
+  TIER      [ESTABLISHED]
+
+CLAIM 1.2  Dahmer confessed to 17 killings.
+  CITE      [1] (Pt 01; Pt 03), [2], [14]
+  TIER      [ESTABLISHED] (confession is a documented record; the killings it
+            describes are [ATTRIBUTED] to Dahmer absent independent proof for
+            the uncharged count)
+
+CLAIM 1.3  He was convicted of 16 murders: 15 in Wisconsin, 1 in Ohio.
+  CITE      [2], [3], [20], [21]
+  TIER      [ESTABLISHED]
+
+CLAIM 1.4  The 15 Wisconsin convictions followed a plea of guilty but insane
+            and a separate sanity-phase trial.
+  CITE      [18], [2], [5], [6]
+  TIER      [ESTABLISHED]
+
+CLAIM 1.5  The single Ohio conviction concerned the 1978 homicide of Steven
+            Mark Hicks.
+  CITE      [3], [21], [16]
+  TIER      [ESTABLISHED]
+
+CLAIM 1.6  The arithmetic gap between 17 confessed and 16 convicted is
+            explained by the uncharged Steven Tuomi homicide.
+  CITE      [2], [1] (Pt 06), [37]
+  TIER      [ESTABLISHED] - no Wisconsin homicide charge was filed for Tuomi
+            because the corpus delicti requirement could not be satisfied
+            without physical remains or a proven criminal agency.
+  EDITORIAL NOTE: This is the single most frequently mangled fact in popular
+            retellings. The Overview must state it explicitly at first use of
+            the 17/16 pair rather than leaving the reader to infer it.
+
+CLAIM 1.7  Most of the killings occurred in Milwaukee.
+  CITE      [1], [12]
+  TIER      [ESTABLISHED] (12 of 17 victims were associated with the
+            Milwaukee apartment; Hicks died in Bath Township, Ohio)
+
+--------------------------------------------------------------------------------
+B.2  SECTION 2 - THE NIGHT TRACY EDWARDS ESCAPED
+--------------------------------------------------------------------------------
+
+PRIMARY ANCHOR (verbatim, verified):
+  FBI teletype DE FBIMW 0001, p. 2, dated 07/24/1991, reproduced at
+  [1] Part 01, page 4:
+
+      "ON 7/22/91, AT APPROXIMATELY 11:30 P.M., PATROL UNITS OF THE
+       MILWAUKEE, WISCONSIN POLICE DEPARTMENT ENCOUNTERED A BLACK MALE
+       PARTIALLY CLOTHED WITH A HANDCUFF ON ONE WRIST WHO REPORTED THAT
+       HE HAD BEEN THREATENED WITH A KNIFE AT AN APARTMENT LOCATED AT
+       924 NORTH 25TH STREET, APARTMENT 213, MILWAUKEE, WISCONSIN.
+       OFFICERS RESPONDED TO THE APARTMENT AND ARRESTED JEFFREY L.
+       DAHMER FOR ASSAULT..."
+
+  This single passage establishes Claims 2.1 through 2.7 simultaneously and is
+  the strongest available primary anchor for the section. Quote it directly in
+  the article; it is a public FOIA record and requires no permissions.
+
+CLAIM 2.1  The escape occurred on July 22, 1991.
+  CITE      [1] (Pt 01 p. 4), [17]
+  TIER      [ESTABLISHED]
+
+CLAIM 2.2  The encounter with police occurred at approximately 11:30 p.m.
+  CITE      [1] (Pt 01 p. 4)
+  TIER      [ESTABLISHED]
+
+CLAIM 2.3  Edwards was 32 years old.
+  CITE      [2], [1]
+  TIER      [DOCUMENTED]
+
+CLAIM 2.4  Edwards escaped with a handcuff attached to one wrist.
+  CITE      [1] (Pt 01 p. 4), [17]
+  TIER      [ESTABLISHED]
+  NOTE      Primary record says "ONE WRIST". Case Tab further records the left
+            wrist specifically. Use "one wrist" in prose; do not embellish.
+
+CLAIM 2.5  Edwards reported that Dahmer had threatened him with a knife.
+  CITE      [1] (Pt 01 p. 4)
+  TIER      [ATTRIBUTED] - Edwards's statement to responding officers, later
+            given under oath at the 1992 sanity trial [6].
+
+CLAIM 2.6  Responding officers were Rolf Mueller and Robert Rauth.
+  CITE      [1] (Pt 01 p. 4), [6]
+  TIER      [ESTABLISHED]
+  NOTE      A clerical erratum in earlier drafts duplicated Mueller's surname as
+            "Robert Mueller". Both officers testified under oath on
+            January 30, 1992. The correct pairing is Rolf Mueller and
+            Robert Rauth. Do not reintroduce the duplication.
+
+CLAIM 2.7  The officers accompanied Edwards back to Apartment 213.
+  CITE      [1] (Pt 01 p. 4), [17]
+  TIER      [ESTABLISHED]
+
+CLAIM 2.8  Edwards had been held in the apartment for several hours before the
+            escape, including a period in which Dahmer compelled him to watch a
+            film.
+  CITE      [2], [6]
+  TIER      [ATTRIBUTED] - Edwards's sworn trial testimony.
+  EDITORIAL NOTE: Present strictly as testimony. Do not narrate it as omniscient
+            fact. The v0.2 rule is retained without amendment.
+
+--------------------------------------------------------------------------------
+B.3  SECTION 3 - DISCOVERY, INVESTIGATION & ARREST
+--------------------------------------------------------------------------------
+
+CLAIM 3.1  The address was 924 North 25th Street, Apartment 213, in the Oxford
+            Apartments building.
+  CITE      [1] (Pt 01 p. 4), [13], [12]
+  TIER      [ESTABLISHED]
+
+CLAIM 3.2  Officers discovered Polaroid photographs inside the apartment,
+            which triggered the escalation from an assault call to a homicide
+            investigation.
+  CITE      [1], [6]
+  TIER      [ESTABLISHED]
+
+CLAIM 3.3  Human remains were discovered in the apartment, including heads,
+            torsos and hands.
+  CITE      [1] (Pt 01 p. 4), [17], [35]
+  TIER      [ESTABLISHED]
+  EDITORIAL NOTE: The Overview must remain at the level of "human remains were
+            recovered". The detailed inventory in the primary teletype is
+            excluded here by the restrained-tone standard. It belongs to the
+            Case Tab, not the front door.
+
+CLAIM 3.4  Dahmer was initially arrested for assault; the charge posture
+            escalated as evidence was processed.
+  CITE      [1] (Pt 01 p. 4), [17], [2]
+  TIER      [ESTABLISHED]
+
+CLAIM 3.5  Remains belonging to eleven distinct male victims were recovered
+            from the apartment.
+  CITE      [1], [35], [11]
+  TIER      [ESTABLISHED]
+  NOTE      Eleven is the recovered-remains figure. It is not the victim count
+            (17) and not the conviction count (16). Three different numbers are
+            in play and the Overview must never blend them.
+
+CLAIM 3.6  The building became the focus of sustained neighborhood and city
+            attention, including prior odor complaints by residents.
+  CITE      [13], [12]
+  TIER      [REPORTED]
+
+--------------------------------------------------------------------------------
+B.4  SECTION 4 - CONFESSION & RECONSTRUCTION OF THE CASE
+--------------------------------------------------------------------------------
+
+CLAIM 4.1  Homicide detectives Patrick Kennedy and Dennis Murphy conducted the
+            extended post-arrest interviews.
+  CITE      [1] (Pt 01 pp. 20-25), [37]
+  TIER      [ESTABLISHED]
+
+CLAIM 4.2  The interviews extended beyond 60 hours.
+  CITE      [1] (Pt 01 pp. 20-25), [37]
+  TIER      [DOCUMENTED]
+  NOTE      Contemporary summaries round this to "about 60 hours". The Timeline
+            register holds "more than 60 hours". Use the Timeline phrasing for
+            cross-tab consistency.
+
+CLAIM 4.3  Dahmer provided accounts of 17 homicides.
+  CITE      [1] (Pt 03), [2], [14]
+  TIER      [ATTRIBUTED]
+
+CLAIM 4.4  Those statements were combined with physical, forensic and
+            documentary evidence rather than treated as self-proving.
+  CITE      [1], [2], [35]
+  TIER      [ESTABLISHED]
+  EDITORIAL NOTE: v0.2 explicitly forbids saying the confession alone "proved
+            everything". Retained. Corroboration is the correct framing.
+
+--------------------------------------------------------------------------------
+B.5  SECTION 5 - EARLY LIFE & BACKGROUND
+--------------------------------------------------------------------------------
+
+This section is a concise orientation, not a biography. It links to
+/context#early-life for depth. Every retained element below is citable; nothing
+about causation is.
+
+CLAIM 5.1  Dahmer was born in Milwaukee.
+  CITE      [1] (Pt 01)
+  TIER      [ESTABLISHED]
+
+CLAIM 5.2  Childhood and family background, including his parents' divorce.
+  CITE      [1], [37]
+  TIER      [DOCUMENTED]
+
+CLAIM 5.3  The family moved to Ohio.
+  CITE      [1], [16]
+  TIER      [ESTABLISHED]
+
+CLAIM 5.4  He served in the U.S. Army and was discharged.
+  CITE      [1] (Pt 01)
+  TIER      [ESTABLISHED]
+
+CLAIM 5.5  Alcohol use is documented in the record.
+  CITE      [1]
+  TIER      [DOCUMENTED]
+  EDITORIAL CONSTRAINT: Record that it is documented. Do not assert it as a
+            cause. See A.4.
+
+CLAIM 5.6  The first known killing occurred in Bath Township, Ohio, in 1978.
+  CITE      [16], [15], [3]
+  TIER      [ESTABLISHED]
+
+CLAIM 5.7  A 1988 child-enticing and second-degree sexual assault case resulted
+            in a 1989 conviction and a probation term.
+  CITE      [4], [1]
+  TIER      [ESTABLISHED]
+
+CLAIM 5.8  Killing resumed after that period.
+  CITE      [12], [1]
+  TIER      [ESTABLISHED]
+
+PROHIBITED IN THIS SECTION (carried forward from v0.2 and now enforced):
+  - Any sentence asserting that family conflict, surgery, alcohol, or animal
+    and bone interests caused the murders. No source in this register supports
+    a causal claim, and several actively contest one [34], [36].
+  - Detailed sexual or psychiatric analysis. That material belongs to
+    /topics/psychological-profile.
+
+--------------------------------------------------------------------------------
+B.6  SECTION 6 - THE KILLING PERIOD
+--------------------------------------------------------------------------------
+
+The Overview does NOT reproduce the 17-victim table. It presents a summarized
+chronology and hands off to /victims, /timeline and /case/offense-series.
+
+CLAIM 6.1  1978: first known killing, Bath Township, Ohio.
+  CITE      [16], [15]
+  TIER      [ESTABLISHED]
+
+CLAIM 6.2  1987-1989: killings resume in Milwaukee, including the period at his
+            grandmother's West Allis residence.
+  CITE      [1], [12]
+  TIER      [DOCUMENTED]
+
+CLAIM 6.3  1990-1991: the majority of the remaining killings occur at
+            Apartment 213, with increasing frequency and more extensive
+            preservation and concealment practices documented in the record.
+  CITE      [1], [35], [12]
+  TIER      [DOCUMENTED]
+
+CLAIM 6.4  The escalation pattern is documented in the forensic and clinical
+            literature, not merely asserted by the project.
+  CITE      [35], [36]
+  TIER      [DOCUMENTED]
+  NOTE      Lankford & Hayes [36] explicitly test an addiction/escalation model
+            by analogy to DSM-5 substance-use criteria. Attribute the model to
+            them; do not state escalation as an established mechanism.
+
+--------------------------------------------------------------------------------
+B.7  SECTION 7 - TRIAL & LEGAL PROCEEDINGS
+--------------------------------------------------------------------------------
+
+CLAIM 7.1  Dahmer pleaded guilty but insane to the 15 Wisconsin murder charges.
+  CITE      [18], [2], [6]
+  TIER      [ESTABLISHED]
+
+CLAIM 7.2  The contested legal issue was mental responsibility, not factual
+            guilt.
+  CITE      [5], [18], [34]
+  TIER      [ESTABLISHED]
+
+CLAIM 7.3  Competing psychiatric experts testified for the prosecution and the
+            defense across the sanity phase.
+  CITE      [28], [29], [30], [31], [32], [33], [6], [34]
+  TIER      [ATTRIBUTED] - each expert's position is attributed to that expert.
+
+CLAIM 7.4  The jury found Dahmer legally sane on all 15 counts by a 10-2 vote.
+  CITE      [19], [6], [5]
+  TIER      [ESTABLISHED]
+  NOTE      The five-sixths jury rule under Wis. Stat. 805.09(2) is what makes a
+            10-2 verdict a lawful verdict rather than a hung jury. Cite [5] if
+            the article explains the arithmetic; omit the explanation if not.
+
+CLAIM 7.5  Judge Laurence C. Gram Jr. imposed 15 consecutive life terms.
+  CITE      [20], [2]
+  TIER      [ESTABLISHED]
+
+CLAIM 7.6  In Ohio, Dahmer pleaded guilty to the 1978 murder of Steven Hicks
+            and received an additional life sentence.
+  CITE      [21], [3]
+  TIER      [ESTABLISHED]
+
+CLAIM 7.7  Total murder convictions: 16.
+  CITE      [2], [3], [20], [21]
+  TIER      [ESTABLISHED]
+
+PROHIBITED FORMULATION (binding):
+  Do NOT write: "The jury convicted him on all 15 counts."
+  CORRECT FRAMEWORK:
+      "Dahmer had already pleaded guilty. The jury was asked to determine
+       whether he was legally responsible under Wisconsin's
+       mental-responsibility standard."
+  The distinction is not pedantry: it is the difference between a guilt trial
+  and a bifurcated responsibility proceeding under Wis. Stat. 971.165 [5].
+
+--------------------------------------------------------------------------------
+B.8  SECTION 8 - DEATH IN PRISON
+--------------------------------------------------------------------------------
+
+CLAIM 8.1  Dahmer died on November 28, 1994.
+  CITE      [22], [11]
+  TIER      [ESTABLISHED]
+
+CLAIM 8.2  The death occurred at Columbia Correctional Institution, Portage,
+            Wisconsin.
+  CITE      [11], [22]
+  TIER      [ESTABLISHED]
+
+CLAIM 8.3  He was killed by fellow inmate Christopher Scarver.
+  CITE      [11], [22]
+  TIER      [ESTABLISHED]
+
+CLAIM 8.4  He was 34 years old.
+  CITE      [22]
+  TIER      [ESTABLISHED]
+
+CLAIM 8.5  Inmate Jesse Anderson was killed in the same incident.
+  CITE      [11], [22]
+  TIER      [ESTABLISHED]
+  NOTE      Scarver's stated motives are deliberately excluded from the
+            Overview per v0.2. They are contested and belong to /case.
+
+--------------------------------------------------------------------------------
+B.9  SECTION 9 - LEGACY & CONTINUING RE-EXAMINATION
+--------------------------------------------------------------------------------
+
+This section stays brief and functions as a signpost to Tab 7.
+
+CLAIM 9.1  The case remains a subject of legal and scholarly analysis.
+  CITE      [34], [35], [36]
+  TIER      [DOCUMENTED]
+
+CLAIM 9.2  The case prompted documented institutional scrutiny of Milwaukee
+            policing and produced reform recommendations.
+  CITE      [26], [7], [8], [10], [27]
+  TIER      [ESTABLISHED]
+
+CLAIM 9.3  The Sinthasomphone litigation ended in a municipal settlement
+            without an admission of liability.
+  CITE      [27], [7], [8]
+  TIER      [ESTABLISHED]
+  NOTE      The "without admission of liability" qualifier is mandatory. It is
+            part of the settlement's own terms and is routinely dropped in
+            secondary retellings.
+
+CLAIM 9.4  The case has been extensively represented in documentary and
+            dramatic media, and that representation is itself contested.
+  CITE      [40], [37], [36]
+  TIER      [DOCUMENTED]
+
+CLAIM 9.5  Victim family members have publicly contested aspects of that
+            representation.
+  CITE      [12], [40]
+  TIER      [ATTRIBUTED]
+
+--------------------------------------------------------------------------------
+B.10  SECTION 10 - OVERVIEW CONCLUSION
+--------------------------------------------------------------------------------
+
+The conclusion introduces NO new factual claims. It synthesizes claims already
+cited above and therefore carries a block citation rather than per-sentence
+citations.
+
+  BLOCK CITE  [1], [2], [7], [9], [12], [26]
+  TIER        [JUDGMENT] for the interpretive sentences; [ESTABLISHED] for any
+              restated fact.
+
+The approved concluding direction ("The documented history establishes a long
+sequence of killings, but the significance of the case extends beyond the crimes
+themselves...") is retained. Its second and third paragraphs are explicitly the
+project's analytical position and must be framed as such, not as findings.
+
+This conclusion must NOT reproduce the full master conclusion at
+/impact#master-conclusion. Target 3-5 paragraphs.
+
+================================================================================
+SECTION C: CLAIM INVENTORY - HOMEPAGE OVERVIEW FEATURE
+================================================================================
+
+The homepage feature is shorter and less granular. It carries block citations in
+implementation, but the underlying claims are mapped here for audit.
+
+CLAIM H.1  1978-1991 killing span.
+  CITE      [1], [2], [16]                              TIER [ESTABLISHED]
+
+CLAIM H.2  17 killings confessed to.
+  CITE      [1], [2], [14]                              TIER [ESTABLISHED]
+
+CLAIM H.3  16 murder convictions.
+  CITE      [2], [3], [20], [21]                        TIER [ESTABLISHED]
+
+CLAIM H.4  Eleven victims' remains recovered from the Milwaukee apartment.
+  CITE      [1], [35]                                   TIER [ESTABLISHED]
+
+CLAIM H.5  Eleven of the 17 victims were Black.
+  CITE      [8], [12]                                   TIER [DOCUMENTED]
+  SOURCE NOTE: The figure is recorded in the Sinthasomphone federal litigation
+            record [8], which notes 11 of 17 victims were Black. This converts
+            v0.2's vague "large number of Black victims" into a sourced,
+            quantified statement.
+
+CLAIM H.6  Other victims were Asian, white, Latino and Native American.
+  CITE      [12]                                        TIER [DOCUMENTED]
+  SOURCE NOTE: Sourced to the principal biographical register. Individual
+            identifications: Konerak Sinthasomphone (Laotian); Steven Tuomi and
+            James Doxtator (Native American ancestry); Richard Guerrero
+            (Mexican-American); Hicks, Weinberger and Bradehoft (white).
+
+CLAIM H.7  Many encounters occurred around Milwaukee's LGBTQ nightlife and
+            other public places.
+  CITE      [12], [41], [23]                            TIER [DOCUMENTED]
+  IMPLEMENTATION NOTE: v0.2 phrases this as unqualified fact. Rewrite as
+            documented pattern: several victims were last seen in or near
+            Milwaukee's LGBTQ social venues. Do not imply all encounters
+            occurred there.
+
+CLAIM H.8  The case raises questions of visibility, vulnerability and
+            institutional response in a racially and economically divided city.
+  CITE      [7], [8], [9], [12]                          TIER [JUDGMENT]
+  IMPLEMENTATION NOTE: This is analysis, not fact. Frame it as the project's
+            reading of the record.
+
+CLAIM H.9  Tracy Edwards escaped on the night of July 22, 1991 and flagged down
+            police at about 11:30 p.m.
+  CITE      [1], [17]                                   TIER [ESTABLISHED]
+
+CLAIM H.10 Officers followed Edwards to 924 North 25th Street and arrested
+            Dahmer, discovering human remains in Apartment 213.
+  CITE      [1], [17]                                   TIER [ESTABLISHED]
+
+CLAIM H.11 The investigation examined prior police contacts, probation
+            supervision, neighborhood complaints and the treatment of Konerak
+            Sinthasomphone.
+  CITE      [7], [8], [9], [13], [23]                   TIER [ESTABLISHED]
+
+================================================================================
+SECTION D: EDITORIAL JUDGMENT FLAGS
+================================================================================
+
+The following sentences appear in the approved v0.2 homepage copy but CANNOT
+carry a citation, because they are evaluative rather than factual. Each must be
+either revised to a sourced formulation or explicitly framed as the project's
+assessment. They are listed here so the Phase 2 copywriter does not silently
+promote them.
+
+FLAG 1
+  v0.2 TEXT: "the case had become one of the most extensive and consequential
+             serial-murder investigations in the United States."
+  PROBLEM:   Superlative ranking. No source in the register establishes it.
+  ACTION:    Replace with a sourced scope statement, e.g. the case spanned
+             multiple jurisdictions, 16 convictions and a documented federal
+             civil-rights aftermath [1], [2], [3], [7]. If a ranking is
+             retained, it must be attributed to a specific source.
+
+FLAG 2
+  v0.2 TEXT: "Many of Dahmer's victims were young men from marginalized
+             communities, including a large number of Black victims..."
+  PROBLEM:   "Large number" is vague and unfalsifiable in that form.
+  ACTION:    Replace with Claim H.5's quantified form: 11 of 17 victims were
+             Black [8], [12].
+
+FLAG 3
+  v0.2 TEXT: "Many encounters occurred around Milwaukee's LGBTQ nightlife..."
+  PROBLEM:   Overgeneralizes. The record documents some venues and some victims.
+  ACTION:    Use the narrowed Claim H.7 formulation.
+
+FLAG 4
+  v0.2 TEXT: "making questions of visibility, vulnerability and institutional
+             response an important part of its later examination."
+  PROBLEM:   Legitimate analysis, but presented as though it were a finding.
+  ACTION:    Mark as the project's framing (Claim H.8, [JUDGMENT]).
+
+FLAG 5
+  CONCLUSION: "The significance of the case extends beyond the crimes
+             themselves."
+  PROBLEM:   Editorial thesis.
+  ACTION:    Permitted in a conclusion, but must read as interpretation. Do not
+             attach a citation that implies a source asserts it.
+
+================================================================================
+SECTION E: OVERVIEW REGISTER [1]-[41]
+================================================================================
+
+Assembled from already-locked tab registers. No entry below is a new source.
+Every URL was previously verified in its parent register.
+
+--------------------------------------------------------------------------------
+TIER 1: PRIMARY ARCHIVAL, JUDICIAL AND STATUTORY RECORDS
+--------------------------------------------------------------------------------
+
+[1] Federal Bureau of Investigation - Jeffrey Lionel Dahmer FOIA Records,
+    Vault Parts 01, 03 and 06. [PRIMARY]
+    Collection: https://vault.fbi.gov/jeffrey-lionel-dahmer
+    Part 01 PDF (68 pp.):
+      https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+    Part 03 PDF (60 pp.):
+      https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+    Part 06 PDF (74 pp.):
+      https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+    Used for: Edwards escape teletype (Pt 01 p. 4), interrogation summaries
+    (Pt 01 pp. 20-25), confession scope (Pt 03), Tuomi corpus delicti exclusion
+    (Pt 06), military and counseling records, physical evidence logs.
+
+[2] State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court,
+    Case No. F-912542 - charging documents and information. [PRIMARY]
+    DocumentCloud:
+      https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    Initial Complaint (July 25, 1991, 4 counts); Amended Complaint
+    (August 6, 1991, 12 counts); Information (August 22, 1991, 15 counts).
+    Used for: charge counts, statutory classification, witness statements,
+    plea record.
+
+[3] State of Ohio v. Jeffrey L. Dahmer, Summit County Court of Common Pleas,
+    Case No. CR-91-08-1686 (with CR-78-8-800). [PRIMARY]
+    Used for: Hicks indictment under Ohio Rev. Code 2903.01, guilty plea, and
+    the 16th life sentence.
+
+[4] State of Wisconsin v. Jeffrey L. Dahmer, Milwaukee County Circuit Court,
+    Case No. F-882410 (May 24, 1989). [PRIMARY]
+    WCCA docket: https://wcca.wicourts.gov/
+    Used for: 1988 child-enticing and second-degree sexual assault conviction,
+    Huber work-release terms, probation conditions.
+
+[5] Wisconsin Statutes Annotated, Chapter 971. [PRIMARY STATUTE]
+    - Wis. Stat. 971.15: mental responsibility of defendant (cognitive and
+      volitional prongs).
+    - Wis. Stat. 971.165: trial of defendant with mental disease or defect
+      (bifurcated procedure).
+    - Wis. Stat. 805.09(2): five-sixths jury verdict rule.
+    Used for: the legal framework distinguishing guilt from responsibility.
+
+[6] Court TV - State of Wisconsin v. Jeffrey Dahmer (1992), trial and
+    sentencing recordings. [PRIMARY RECORDING]
+    https://www.courttv.com/trials/wi-v-dahmer-1992/
+    Used for: sworn testimony of Mueller and Rauth (January 30, 1992), Edwards's
+    testimony, expert examinations, verdict, victim impact statements.
+
+[7] Estate of Sinthasomphone v. City of Milwaukee, 785 F. Supp. 1343
+    (E.D. Wis. March 5, 1992). [PRIMARY JUDICIAL]
+    https://law.justia.com/cases/federal/district-courts/FSupp/785/1343/2144838/
+    Used for: Equal Protection and state-created-danger findings; the recording
+    of 11 of 17 victims being Black; differential police response.
+
+[8] Estate of Sinthasomphone v. City of Milwaukee, 838 F. Supp. 1320
+    (E.D. Wis. November 23, 1993). [PRIMARY JUDICIAL]
+    https://law.justia.com/cases/federal/district-courts/FSupp/838/1320/2255276/
+    Used for: denial of qualified immunity; factual sequence of the May 27, 1991
+    encounter.
+
+[9] Weinberger v. State of Wisconsin, 906 F. Supp. 485 (W.D. Wis. 1995),
+    aff'd 105 F.3d 1182 (7th Cir. 1997). [PRIMARY JUDICIAL]
+    https://law.resource.org/pub/us/case/reporter/F3/105/105.F3d.1182.95-3398.html
+    Used for: probation supervision record, home-visit waiver system under
+    Wis. Admin. Code DOC 328.04, and the no-special-relationship holding.
+
+[10] Balcerzak & Gabrish v. City of Milwaukee, 980 F. Supp. 983 (E.D. Wis.
+    1997), aff'd 163 F.3d 993 (7th Cir. 1998). [PRIMARY JUDICIAL]
+    https://law.justia.com/cases/federal/appellate-courts/F3/163/993/494395/
+    Used for: complete disciplinary procedural history - July 1991 suspension,
+    September 1991 discharge, October 1992 commission pleas, April 1994
+    reinstatement by Reserve Judge Robert Parins.
+
+[11] Wisconsin Department of Corrections - Investigative Report into the
+    Homicides of Jeffrey Dahmer and Jesse Anderson (December 1994). [PRIMARY]
+    Used for: official chronology of the November 28, 1994 assault at Columbia
+    Correctional Institution and the security findings.
+
+--------------------------------------------------------------------------------
+TIER 2: CONTEMPORARY JOURNALISM AND WIRE RECORDS (1991-1995)
+--------------------------------------------------------------------------------
+
+[12] Milwaukee Journal Sentinel - "Jeffrey Dahmer's 17 victims and what we knew
+    about them" (September 28-29, 2022). [SECONDARY - principal biographical]
+    https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+    Used for: victim backgrounds, family recollections, venue and neighborhood
+    context, ages.
+
+[13] The New York Times - "Parts of Many Bodies Found in a Milwaukee Apartment"
+    (July 24, 1991). [CONTEMPORARY]
+    https://www.nytimes.com/1991-07-24/us/parts-of-many-bodies-found-in-a-milwaukee-apartment.html
+    Used for: discovery-night reporting; Oxford Apartments tenant odor
+    complaints.
+
+[14] The New York Times - "17 Slayings Tied to Milwaukee Man" (July 26, 1991).
+    [CONTEMPORARY]
+    https://www.nytimes.com/1991-07-26/us/17-slayings-tied-to-milwaukee-man.html
+    Used for: scope of the confession; prior child-molestation conviction.
+
+[15] The New York Times - "Bone Fragments, Many Human, Are Found at Suspect's
+    Ohio Home" (July 31, 1991). [CONTEMPORARY]
+    https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+    Used for: Bath Township forensic recovery.
+
+[16] The Washington Post - "Dahmer Says First Slaying Was in 1978"
+    (July 29, 1991). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/politics/1991-07-29/dahmer-says-first-slaying-was-in-1978/4a8b7a1c-93f6-4f33-abbe-86f0a3a71ac6/
+    Used for: Hicks encounter and 1978 Bath Township sequence.
+
+[17] United Press International - "Police find body parts in apartment"
+    (July 23, 1991). [CONTEMPORARY]
+    https://www.upi.com/Archives/1991-07-23/Police-find-body-parts-in-apartment/1119680241600/
+    Used for: overnight arrest sequence; Edwards escape account.
+
+[18] The Washington Post - "Dahmer Pleads Guilty, Insane in 15 Slayings"
+    (January 14, 1992). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/politics/1992-01-14/dahmer-pleads-guilty-insane-in-15-slayings/50aeb4db-10c3-4d4b-a630-1ee7d1ef51db/
+    Used for: guilty-but-insane plea entry before Judge Gram.
+
+[19] The Washington Post - "Jury Rejects Insanity Defense, Finds Dahmer Sane"
+    (February 15/16, 1992). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/politics/1992-02-16/jury-rejects-insanity-defense-finds-dahmer-sane/68a98c56-6be1-4df2-ab69-450f3b483ad3/
+    Used for: 10-2 sanity verdict across all 15 counts.
+
+[20] United Press International - "Dahmer Sentenced to 15 Life Terms"
+    (February 17, 1992). [CONTEMPORARY]
+    https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/
+    Used for: Wisconsin sentencing; consecutive life terms.
+
+[21] The Washington Post - "Dahmer Given 16th Life Sentence in 1978 Ohio
+    Slaying" (May 2, 1992). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+    Used for: Ohio plea and 16th life sentence.
+
+[22] The New York Times - "Dahmer Is Slain in Prison; Inmate With Iron Bar Kills
+    Notorious Serial Slayer" (November 29, 1994). [CONTEMPORARY]
+    https://www.nytimes.com/1994-11-29/us/dahmer-is-slain-in-prison-inmate-with-iron-bar-kills-notorious-serial-slayer.html
+    Used for: the November 28, 1994 killing; age 34; Scarver; Anderson.
+
+[23] Marquette University AP Wire Archive - "2 Women Say Officers Failed To Aid
+    14-year-old" (July 26, 1991). [CONTEMPORARY]
+    https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+    Used for: Nicole Childress and Sandra Smith statements regarding the
+    May 27, 1991 encounter.
+
+[24] United Press International - "Two cops fired for returning naked boy to
+    Dahmer" (September 6, 1991). [CONTEMPORARY]
+    https://www.upi.com/Archives/1991-09-06/Two-cops-fired-for-returning-naked-boy-to-Dahmer/7782684129600/
+    Used for: discharge of Balcerzak and Gabrish.
+
+[25] The New York Times - "Victory for Two in Dahmer Case" (April 28, 1994).
+    [CONTEMPORARY]
+    https://www.nytimes.com/1994-04-28/us/victory-for-two-in-dahmer-case.html
+    Used for: Parins reinstatement order with back pay.
+
+[26] The Washington Post - "Sweeping Changes Urged in Milwaukee Police Dept"
+    (October 16, 1991). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/politics/1991-10-16/sweeping-changes-urged-in-milwaukee-police-dept/67b76fc2-892a-4195-ae82-d86cffd02342/
+    Used for: independent commission reform recommendations.
+
+[27] The Washington Post - "Milwaukee to Pay $850,000 to Family of Dahmer
+    Victim" (April 26, 1995). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/national/1995-04-26/milwaukee-to-pay-850000-to-family-of-dahmer-victim/a08988a1-9957-4c4e-85c4-0af729145603/
+    Used for: 14-2 Common Council settlement vote and terms.
+
+[28] The Washington Post - "Psychiatrist Calls Dahmer a Sane Killer"
+    (February 7, 1992). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/politics/1992-02-07/psychiatrist-calls-dahmer-a-sane-killer/91cb4a83-0190-4e21-8b00-15e4d3d899d8/
+    Used for: Dr. George Palermo's testimony.
+
+[29] The Washington Post - "Dahmer Saw Freeze-Drying as Possibility"
+    (February 13, 1992). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/politics/1992-02-13/dahmer-saw-freeze-drying-as-possibility/643ceeb8-8526-4b50-ae0d-4d119af9c00c/
+    Used for: Dr. Park Elliott Dietz's testimony.
+
+[30] The Washington Post - "Psychiatrist Says Dahmer Was Driven by Obsessions"
+    (February 4, 1992). [CONTEMPORARY]
+    Used for: Dr. Frederick Berlin's testimony for the defense.
+
+[31] United Press International - "Dahmer Had Multiple Mental Disorders, Doctor
+    Testifies" (February 5, 1992). [CONTEMPORARY]
+    Used for: Dr. Carl Wahlstrom's multiaxial testimony.
+
+[32] United Press International - "Psychologist Says Dahmer Sane, Acted Like
+    Predator" (February 6, 1992). [CONTEMPORARY]
+    Used for: Dr. Samuel Friedman's testing findings.
+
+[33] The Washington Post - "Despite Necrophilia, Dahmer Is Not Insane,
+    Psychiatrist Testifies" (February 9, 1992). [CONTEMPORARY]
+    https://www.washingtonpost.com/archive/national/1992-02-09/despite-necrophilia-dahmer-is-not-insane-psychiatrist-testifies/41f6365a-b890-47b0-b701-790cf0f89d41/
+    Used for: Dr. Frederick Fosdal's testimony.
+
+[38] United Press International - "Two Officers Suspended in Dahmer Case"
+    (July 28, 1991). [CONTEMPORARY]
+    https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/
+    Used for: administrative suspension by Chief Arreola.
+
+[39] United Press International - "Laotian family upset after hearing tape"
+    (August 2, 1991). [CONTEMPORARY]
+    https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+    Used for: Sinthasomphone family response; "delouse" dispatch transmissions.
+
+[40] Inside Edition - Stone Phillips interview with Jeffrey Dahmer
+    (recorded January 11-12, 1993; broadcast February 1993).
+    [PRIMARY RECORDING; ATTRIBUTED CONTENT]
+    https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300
+    Used for: Dahmer's own later self-description, cited strictly as his
+    statements. Never as established fact.
+
+[41] Chicago Tribune - "Chicago Ties Probed in Dahmer Murders"
+    (July 29, 1991). [CONTEMPORARY]
+    https://www.chicagotribune.com/1991/07/29/chicago-ties-probed-in-dahmer-murders/
+    Used for: Chicago links to the Turner and Weinberger encounters.
+
+--------------------------------------------------------------------------------
+TIER 3: SCHOLARLY AND MEMOIR SOURCES
+--------------------------------------------------------------------------------
+
+[34] O'Meara, Gregory J., S.J. (2009). "Text, Context, and Pretext in State v.
+    Jeffrey Dahmer." Marquette Law Review, 42. [SCHOLARLY]
+    https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub
+    Used for: legal-narrative analysis of the sanity trial and expert dynamics.
+
+[35] Jentzen, Jeffrey (2017). "Micro Disasters: The Case of Serial Killer
+    Jeffrey Dahmer." Academic Forensic Pathology, 7(3): 355-368. [SCHOLARLY]
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/
+    Used for: forensic recovery logistics and victim identification record.
+
+[36] Lankford, Adam, and Hayes, Jenna K. (2022). "Could Serial Killing Actually
+    Be Addictive? A Close Examination of Compulsion and Escalation in the
+    Jeffrey Dahmer Case." Sexual Health & Compulsivity, 29(3-4): 198-224.
+    [SCHOLARLY]
+    DOI: 10.1080/26929953.2022.2126416
+    Used for: escalation and compulsion models, attributed to the authors.
+
+[37] Kennedy, Patrick, and Maharaj, Robyn (2022). Grilling Dahmer.
+    [MEMOIR / SECONDARY]
+    Used for: interrogating detective's first-person account of the Kennedy and
+    Murphy interviews. Must be attributed as memoir, not treated as a neutral
+    record.
+
+--------------------------------------------------------------------------------
+REGISTER EXCLUSIONS (deliberate, documented)
+--------------------------------------------------------------------------------
+
+EXCLUSION 1 - Jentzen, Palermo, et al. (1994), "Destructive Hostility."
+    Marquette University records confirm this article was WITHDRAWN. It is
+    documented in the Analysis Tab strictly as a historical artifact of
+    contemporary debate and is EXCLUDED from the Overview register. Do not cite
+    it as substantive support.
+
+EXCLUSION 2 - Secondary aggregators (Wikipedia, Biography.com, A&E, Today.com).
+    Index-only under project standards. Cited nowhere in this register.
+
+EXCLUSION 3 - Netflix "Monster: The Jeffrey Dahmer Story" (2022).
+    Not a source about the case. It is itself a subject of the media-ethics
+    analysis in Tab 7. If the Overview mentions it, it is as an object of
+    critique, never as evidence.
+
+================================================================================
+SECTION F: CROSSWALK - OVERVIEW NUMBER TO PARENT TAB REGISTER
+================================================================================
+
+The Overview is a synthesis page. Its register is therefore a projection of
+already-locked registers. This table lets /sources resolve one global entry per
+source without renumbering the parent tabs.
+
+  OVERVIEW | PARENT REGISTER AND NUMBER
+  ---------|--------------------------------------------------------------
+  [1]      | Timeline [1]; Victims [2]; Case Part A [1]
+  [2]      | Timeline [2]; Victims [3]; Case Part A [2]
+  [3]      | Case [3] (unified register)
+  [4]      | Timeline [30]; Case [29]
+  [5]      | Case [5] and [6]
+  [6]      | Timeline [19]; Analysis SRC-11; Case [9]
+  [7]      | Timeline [25]; Analysis SRC-02; Case [26]
+  [8]      | Analysis SRC-01; Impact SRC-02
+  [9]      | Timeline [26]; Analysis SRC-03; Impact SRC-04
+  [10]     | Analysis SRC-04; Impact SRC-03
+  [11]     | Timeline [29]; Impact SRC-09; Case [29]
+  [12]     | Timeline [3]; Victims [1]; Impact SRC-41
+  [13]     | Analysis SRC-22
+  [14]     | (Overview register only - no parent numbering)
+  [15]     | Timeline [5]; Victims [4]
+  [16]     | Timeline [4]; Victims [11]
+  [17]     | Timeline [7]; Case [17]
+  [18]     | Timeline [18]; Case [10]
+  [19]     | Timeline [20]; Analysis SRC-30; Case [14]
+  [20]     | Timeline [21]; Victims [18]; Case [15]
+  [21]     | Timeline [22]; Victims [5]; Case [16]
+  [22]     | Timeline [28]; Case [28]; Impact SRC-35
+  [23]     | Timeline [14]; Victims [7]; Analysis SRC-17
+  [24]     | Timeline [16]; Victims [22]; Analysis SRC-18
+  [25]     | Timeline [27]; Analysis SRC-21
+  [26]     | Timeline [17]; Analysis SRC-16
+  [27]     | Analysis SRC-14; Impact SRC-28
+  [28]     | Analysis SRC-23
+  [29]     | Analysis SRC-24
+  [30]     | Analysis SRC-25
+  [31]     | Analysis SRC-27
+  [32]     | Analysis SRC-28
+  [33]     | Analysis SRC-29
+  [34]     | Analysis SRC-33; Impact SRC-20 (adjacent)
+  [35]     | Analysis SRC-34; Impact SRC-22
+  [36]     | Analysis SRC-32; Impact SRC-24
+  [37]     | Analysis SRC-49 (Impact); Context SRC-29
+  [38]     | Timeline [15]; Victims [22]
+  [39]     | Timeline (Victims [6]); Analysis SRC-19
+  [40]     | Analysis SRC-12; Context SRC-30
+  [41]     | Timeline [13]; Victims [21]
+
+NOTE ON NUMBERING: The parent tabs use three incompatible schemes - bare
+[n] (Victims, Timeline), [SRC-nn] (Context, Analysis, Impact) and a dual
+[A]/[B] register (Case). This crosswalk is the mechanism that reconciles them
+at the Sources page WITHOUT rewriting any locked file. It is the same problem
+recorded in the stale 08_victims_final_bibliography_v01.txt scope note, now
+resolved centrally rather than per-tab.
+
+================================================================================
+SECTION G: CONSISTENCY CONSTRAINTS FOR PHASE 2
+================================================================================
+
+G.1 THE THREE NUMBERS
+    The Overview will reference three different figures in close proximity:
+        17 = killings Dahmer confessed to
+        16 = murder convictions (15 Wisconsin + 1 Ohio)
+        11 = victims whose remains were recovered from Apartment 213
+    These must never be used interchangeably. Every use must carry its own
+    defining noun. See Claims 1.2, 1.3, 3.5.
+
+G.2 MILESTONE SEPARATION
+    For any victim mentioned in the Overview:
+        last-known sighting != missing-person report != alleged offense date
+        != forensic identification date.
+    The Overview should avoid naming specific dates for individual victims
+    altogether, deferring to Table 1. This removes an entire class of error.
+
+G.3 KILLING PERIOD BOUNDARIES
+    The project-wide formula is "1978-1991". The first killing is 1978 (Hicks);
+    the arrest is July 22, 1991; the last killing is July 1991 (Bradehoft).
+    Do not extend the span to 1992 because the trial ran that year.
+
+G.4 LEGAL FRAMING
+    Never "convicted by a jury" for the Wisconsin counts. He pleaded; the jury
+    adjudicated responsibility. See B.7.
+
+G.5 SETTLEMENT FRAMING
+    Any mention of the Sinthasomphone civil settlement carries the phrase
+    "without admission of liability". See Claim 9.3.
+
+G.6 NO UNDUE WEIGHT ON ONE SOURCE
+    The Milwaukee Journal Sentinel retrospective [12] is the richest secondary
+    source in the register. No single sentence of the Overview should rest on it
+    alone where a primary record exists.
+
+================================================================================
+SECTION H: CARRIED-FORWARD IMPLEMENTATION SPECIFICATION
+================================================================================
+
+The following is reproduced from v0.2 unchanged and remains binding.
+
+H.1 FULL /overview STRUCTURE
+    1. Introduction
+    2. The Night Tracy Edwards Escaped
+    3. Discovery, Investigation & Arrest
+    4. Confession & Reconstruction of the Case
+    5. Early Life & Background
+    6. The Killing Period
+    7. Trial & Legal Proceedings
+    8. Death in Prison
+    9. Legacy & Continuing Re-examination
+    10. Overview Conclusion
+
+H.2 HOMEPAGE INTERACTION
+    Initial state: approximately 15-20 lines, visual target not a fixed count,
+    with a subtle fade cue and a clear expand control.
+    Expanded state: full feature in place; other homepage sections remain
+    visible; ends with "Read more -> /overview"; includes "Show less".
+    Rules: "Read more" must not trigger collapse/expand; controls keyboard
+    accessible; expansion never navigates away.
+
+H.3 KEY FACTS MODULE
+    17 killings confessed to | 16 murder convictions | 1978-1991 known killing
+    period | July 22, 1991 arrest.
+    Presented as restrained editorial facts, not dashboard KPI cards. Each
+    figure ties to Claims 1.2, 1.3, 1.1 and 2.1 respectively.
+
+H.4 INTERNAL LINK TARGETS
+    /victims
+    /timeline
+    /context
+    /context#early-life
+    /case/offense-series
+    /case/investigation
+    /case/trial
+    /topics/systemic-failures
+    /topics/psychological-profile
+    /topics/theories-motivations
+    /impact/media-cultural-portrayal
+    /impact/modern-re-examination
+    /impact/social-impact-reform
+    /impact#master-conclusion
+
+H.5 VISUAL RESTRAINTS
+    Approved: small key-facts line, concise chronology, expandable mini
+    sections, inline linked names, source citations.
+    Prohibited: dashboard card grids, excessive animation, graphic crime-scene
+    imagery, decorative "true crime" effects.
+
+H.6 CITATION PRESENTATION
+    Inline superscript or bracketed numerals resolving to /sources, consistent
+    with the rest of the site. Avoid footnote clutter in the homepage feature;
+    use block citations there and reserve granular numerals for /overview.
+
+================================================================================
+SECTION I: VERIFICATION & LOCK SIGN-OFF
+================================================================================
+
+I.1 SOURCE RECONCILIATION
+    [x] Every Overview claim in Sections B and C carries at least one register
+        citation.
+    [x] Every register entry [1]-[41] is referenced by at least one claim.
+    [x] No register entry is newly invented; all derive from locked tabs.
+    [x] All FBI page coordinates are 1-based and within verified PDF bounds
+        (Part 01 <= 68 pp.; Part 03 <= 60 pp.; Part 06 <= 74 pp.).
+    [x] Wisconsin statutory references use the correct chapter and section
+        numbers (971.15, 971.165, 805.09(2)).
+    [x] 17 / 16 / 11 are kept distinct and separately defined.
+    [x] Tuomi corpus-delicti exclusion is stated at first use of the 17/16
+        distinction.
+    [x] The withdrawn 1994 "Destructive Hostility" article is excluded from the
+        register and flagged.
+
+I.2 NUMERIC AUDIT
+    Register entries:                 41
+    Claims with citations:            65  (54 full /overview + 11 homepage)
+    Sections covered:                 10 + homepage feature
+    Editorial judgment flags:         5
+    Deliberate register exclusions:   3
+    Uncited factual assertions:       0
+
+I.3 OUTSTANDING ITEMS FOR PHASE 2
+    1. Do not carry v0.2's homepage copy forward verbatim. Revise the five
+       flagged passages first (Section D).
+    2. Populate block citations in the homepage feature and granular numerals in
+       /overview.
+    3. Resolve the register at /sources using the Section F crosswalk, not by
+       renumbering parent tabs.
+    4. Re-run the anchor and coordinate test suite after HTML build.
+
+LOCK STATUS: OVERVIEW TAB CITATIONS COMPLETE AND LOCKED.
+
+================================================================================
+SECTION J: CHANGE LOG
+================================================================================
+
+2026-09-27 (v0.2 - working reference)
+- Established Overview structure, voice, hierarchy and interaction model.
+- Formally deferred all claim-level sourcing.
+
+2026-10-26 (v1.0 - final locked)
+- Added numbered Overview register [1]-[41], assembled entirely from registers
+  already locked in Tabs 2-7.
+- Added section-by-section Claim Inventory (65 cited claims: 54 in /overview,
+  11 in the homepage feature) with certainty tiers and, where available,
+  1-based locators.
+- Added verified verbatim FBI teletype anchor for the Edwards escape.
+- Converted v0.2's vague "large number of Black victims" into the sourced
+  figure of 11 of 17, per the Sinthasomphone federal record.
+- Added Section F crosswalk reconciling three incompatible parent numbering
+  schemes without rewriting any locked tab.
+- Added Section D editorial judgment flags for five uncitable evaluative
+  sentences in the approved copy.
+- Added Section G consistency constraints (three-numbers rule, milestone
+  separation, killing-period boundaries, legal and settlement framing).
+- Recorded three deliberate register exclusions, including the withdrawn 1994
+  Marquette article.
+- Carried forward all v0.2 implementation specifications unchanged.
+
+END OF OVERVIEW FINAL LOCKED CONTENT PLAN

@@ -1,0 +1,259 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+VICTIMS TAB - AUTHORITATIVE NUMBERED BIBLIOGRAPHY & SOURCE CROSSWALK
+================================================================================
+Version:     2.0 - Final Register, Reconciled to v05 Lock
+Date:        2026-10-26
+Status:      LOCKED / SYNCHRONIZED WITH 04_victims_content_plan_v05_final_locked.txt
+Supersedes:  08_victims_final_bibliography_v01.txt (17 entries, v03 working copy)
+Register:    Victims [1]-[27]
+
+================================================================================
+WHY THIS FILE EXISTS
+================================================================================
+
+Version 1.0 of this register was written against
+04_victims_content_plan_v03_cited_working_copy.txt and contained only 17
+numbered entries. Its own scope note said so:
+
+    "These 17 numbers are final within
+     04_victims_content_plan_v03_cited_working_copy.txt only.
+     They are not a renumbering of the approved all-tabs
+     08_sources_by_tab.txt register."
+
+That working copy was subsequently superseded by the locked v05 plan, which
+carries a deduplicated bibliography of 27 entries ([1]-[27]). The v1.0 register
+was never regenerated, leaving the Victims tab with a companion bibliography
+that described a file nobody uses any more.
+
+This document closes that gap. Entries [1]-[27] below are reproduced VERBATIM
+from the locked v05 plan and are the authoritative register for Tab 2. Version
+1.0 is retained on disk for audit history only and must not be cited.
+
+================================================================================
+REGISTER PROVENANCE
+================================================================================
+
+Source of truth:  plan/04_victims_content_plan_v05_final_locked.txt
+Extraction:       Register block, document lines 704-819
+Entry count:      27
+Verbatim:         Yes - no editorial changes to entry text, URLs or locators
+Encoding:         UTF-8, no BOM
+
+The v05 sign-off block records: "Bibliography Entries: FULLY DEDUPLICATED &
+NUMBERED ([1]-[27])". This register is the external projection of that block.
+
+================================================================================
+VICTIMS REGISTER [1]-[27]
+================================================================================
+[1] Milwaukee Journal Sentinel — “Jeffrey Dahmer’s 17 victims and what we knew about them”
+    (Sept. 28–29, 2022). [SECONDARY — Principal biographical source]
+    URL: https://www.jsonline.com/story/news/2022-09-28/jeffrey-dahmers-17-victims-and-what-we-knew-them-errol-lindsey-rita-isbell-anthony-tony-hughes/10443235002/
+    Used for: Core biographical narratives, family recollections, reported ages, and retrospective accounts.
+
+[2] Federal Bureau of Investigation — Jeffrey Lionel Dahmer FOIA Records, Vault Parts 01, 03, 04, and 06. [PRIMARY]
+    Collection URL: https://vault.fbi.gov/jeffrey-lionel-dahmer
+    - Part 01 PDF (68 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2001/at_download/file
+    - Part 03 PDF (60 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2003/at_download/file
+    - Part 04 Landing Page: https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2004
+    - Part 06 PDF (74 pp.): https://vault.fbi.gov/jeffrey-lionel-dahmer/Jeffrey%20Lionel%20Dahmer%20Part%2006/at_download/file
+    Used for: Verified 1-based PDF locators for all 17 primary DOB anchors, missing-person dates, forensic identifications,
+    confession summaries, and physical evidence tallies.
+
+[3] State of Wisconsin v. Jeffrey L. Dahmer — Milwaukee County Charging Documents (Case No. F-912542). [PRIMARY]
+    DocumentCloud URL: https://www.documentcloud.org/documents/21333021-jeffrey-dahmer-criminal-complaint/
+    - Initial Criminal Complaint: July 25, 1991 (4 counts: Sears, Smith, Miller, Straughter)
+    - Amended Criminal Complaint: August 6, 1991 (12 counts)
+    - Preliminary Hearing Information: August 22, 1991 (15 counts total)
+    Used for: Sworn witness statements, formal charge specifications, statutory classifications, and alleged offense dates.
+
+[4] The New York Times — “Bone Fragments, Many Human, Are Found at Suspect’s Ohio Home” (July 31, 1991). [CONTEMPORARY]
+    URL: https://www.nytimes.com/1991-07-31/us/bone-fragments-many-human-are-found-at-suspect-s-ohio-home.html
+    Used for: Forensic search and excavation records at Bath Township, Ohio.
+
+[5] The Washington Post — “Dahmer Gets Life Term in 1978 Murder in Ohio” (May 2, 1992). [CONTEMPORARY]
+    URL: https://www.washingtonpost.com/archive/national/1992-05-02/dahmer-gets-life-term-in-1978-murder-in-ohio/851e8c28-69eb-4b14-8f25-250d47d32791/
+    Used for: Ohio judicial disposition, 16th life sentence, and Richard Hicks statement.
+
+[6] United Press International — “Laotian Family Upset After Hearing Tape” (August 2, 1991). [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1991-08-02/Laotian-family-upset-after-hearing-tape/5137681105600/
+    Used for: Sinthasomphone family response, radio dispatch recording revelation, and 1980 arrival context.
+
+[7] Marquette University AP Wire Archive — “2 Women Say Officers Failed To Aid 14-year-old” (July 26, 1991). [CONTEMPORARY]
+    URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1112&view=Search&mh=1
+    Used for: Sandra Smith and Nicole Childress statements regarding the May 27, 1991 encounter.
+
+[8] Court TV — WI v. Jeffrey Dahmer (1992): Sentencing Hearing Victim Impact Statements (Feb. 14–15, 1992). [PRIMARY RECORDING]
+    URL: https://www.youtube.com/watch?v=IiIZrCcCijc
+    Used for: Sworn in-court statements by Rita Isbell, Shirley Hughes, Carolyn Smith, and Dorothy Straughter.
+
+[9] United Press International — “Complaint: Man Killed Victims, Saved Heart to Eat” (July 25, 1991). [CONTEMPORARY]
+    URL: https://www.upi.com/Archives/1991/07/25/Complaint-Man-killed-victims-saved-heart-to-eat/3475680414400/
+    Used for: Initial reporting on complaint allegations and encounter details.
+
+[10] United Press International — “Three More Mass Murder Victims Identified” (July 26, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/26/Three-more-mass-murder-victims-identified/5880680500800/
+     Used for: Contemporaneous identification timelines and reported ages for Straughter, Lindsey, Hughes, and Ricky Beeks.
+
+[11] United Press International — “Dahmer Reportedly Made Terror Phone Calls” (July 30, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/30/Dahmer-reportedly-made-terror-phone-calls/1419680846400/
+     Used for: Reported telephone calls to Carolyn Smith, Guerrero family inquiries, and contemporary age references.
+
+[12] United Press International — “Family of Dahmer Victim Files Lawsuit” (August 5, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/05/Family-of-Dahmer-victim-files-lawsuit/6324681364800/
+     Used for: Civil filing reporting, last-seen dates reported for Turner, Weinberger, Lacy, and Bradehoft.
+
+[13] United Press International — “Dahmer Charged with Dozen Killings” (August 6, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/06/Dahmer-charged-with-dozen-killings/6458681451200/
+     Used for: Amended complaint filing context, Tuomi prosecutorial status, and 12-count charge matrix.
+
+[14] United Press International — “Dahmer’s 17th Victim Identified” (August 16, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/16/Dahmers-17th-victim-identified/5394682315200/
+     Used for: Jamie Doxtator identification timeline and contemporary Sears Easter chronology analysis.
+
+[15] United Press International — “Dahmer Opts for Innocent and Insanity Pleas” (Sept. 11, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991-09-11/Dahmer-opts-for-innocent-and-insanity-pleas/1776684561600/
+     Used for: Arraignment proceedings, bifurcated plea entry, and Tuomi charging absence.
+
+[16] The Washington Post — “Dahmer’s Attorney Hints at Insanity Defense” (August 22/23, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1991/08/23/dahmers-attorney-hints-at-insanity-defense/ba03d92f-c5fb-475a-bc95-d4ae3031226b/
+     Used for: Preliminary hearing waiver and prosecutorial statements regarding evidence thresholds.
+
+[17] The Washington Post — “Bones Found at Dahmer Site Identified” (Sept. 13/14, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/national/1991/09/14/bones-found-at-dahmer-site-identified/6d69475d-e754-468c-8be1-9245a33ef7d1/
+     Used for: Steven Hicks positive forensic identification by Summit County coroner and Ohio forensic teams.
+
+[18] United Press International — Milwaukee County Sentencing Report (Feb. 17, 1992). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1992/02/17/Dahmer-sentenced-to-15-life-terms/4389698302800/
+     Used for: Complete sentencing records, Dorothy Straughter statement, and judicial remarks by Judge Laurence Gram.
+
+[19] United Press International — “Lao Youth Mourned” (August 2, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/02/Lao-youth-mourned/3218681105600/
+     Used for: Sinthasomphone community memorial services and family background.
+
+[20] Associated Press / Marquette Wire — “Dahmer Charged in Four Slayings; Police Procedures Questioned” (July 26, 1991). [CONTEMPORARY]
+     URL: https://www.marquette.edu/cgi-bin/cuap/db.cgi?uid=default&ID=1114&view=Search&mh=1
+     Used for: Initial judicial filings and emergence of police procedural scrutiny.
+
+[21] Chicago Tribune — “Chicago Ties Probed in Dahmer Murders” (July 29, 1991). [CONTEMPORARY]
+     URL: https://www.chicagotribune.com/1991/07/29/chicago-ties-probed-in-dahmer-murders/
+     Used for: Investigation into Turner and Weinberger encounters and travels from Chicago.
+
+[22] United Press International — “Two Officers Suspended in Dahmer Case” (July 28, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/28/Two-officers-suspended-in-Dahmer-case/4592680673600/
+     Used for: Administrative suspension of responding officers John Balcerzak, Joseph Gabrish, and Rick Porubcan.
+
+[23] United Press International — “Four More Victims Identified in Dahmer Case” (August 6, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/06/Four-more-victims-identified-in-Dahmer-case/7839681451200/
+     Used for: Formal expansion of victim identification lists and charging schedules.
+
+[24] Milwaukee Sentinel — “Victims’ Families Recall Lost Sons” (July 24, 1991). [CONTEMPORARY]
+     Archive Locator: Milwaukee Public Library Microfilm / FBI Part 04 Press Clipping.
+     Used for: Immediate family recollections and neighborhood reactions.
+
+[25] United Press International — “Dahmer Charged with Four Murders” (July 26, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/07/26/Dahmer-charged-with-four-murders/6849680500800/
+     Used for: Bail setting ($1 million) and initial 4-count court appearance.
+
+[26] The Washington Post — “12 Counts of Murder Filed Against Dahmer” (July 28, 1991). [CONTEMPORARY]
+     URL: https://www.washingtonpost.com/archive/politics/1991/07/28/12-counts-of-murder-filed-against-dahmer/48274d81-8041-4775-8f68-75b28a2b5b31/
+     Used for: Contemporary summary of the expanding criminal charging roster.
+
+[27] United Press International — “Dahmer Formally Charged with 12 Murders” (August 2, 1991). [CONTEMPORARY]
+     URL: https://www.upi.com/Archives/1991/08/02/Dahmer-formally-charged-with-12-murders/6721681105600/
+     Used for: Procedural filings leading to the August 6 amended complaint.
+
+================================================================================
+SECTION 2: PARENT-REGISTER CROSSWALK
+================================================================================
+
+The Victims tab uses bare [n] numbering. Other tabs use [SRC-nn] or a dual
+[A]/[B] scheme. This table maps every Victims entry to its equivalent in the
+other locked registers so that /sources can resolve one canonical entry per
+source without renumbering any tab.
+
+Sources marked "-" are used only by the Victims tab and have no parent
+equivalent. That is expected: victim-level biographical provenance is largely
+Victims-specific.
+
+  VICTIMS | SOURCE                                          | PARENT EQUIVALENT
+  --------|-------------------------------------------------|---------------------------
+  [1]     | Milwaukee Journal Sentinel (2022)               | Timeline [3]; Overview [12]; Impact SRC-41
+  [2]     | FBI Vault FOIA (Parts 01, 03, 04, 06)           | Timeline [1]; Overview [1]; Case [1]
+  [3]     | Wisconsin criminal complaint F-912542           | Timeline [2]; Overview [2]; Case [2]
+  [4]     | NYT, Bone Fragments Ohio (Jul 31, 1991)         | Timeline [5]; Overview [15]
+  [5]     | WaPo, 16th Life Sentence (May 2, 1992)          | Timeline [22]; Overview [21]
+  [6]     | UPI, Laotian Family Upset (Aug 2, 1991)         | Analysis SRC-19; Overview [39]
+  [7]     | Marquette AP, 2 Women (Jul 26, 1991)            | Timeline [14]; Analysis SRC-17; Overview [23]
+  [8]     | Court TV victim impact statements (Feb 1992)    | Analysis SRC-11; Overview [6]
+  [9]     | UPI, Complaint (Jul 25, 1991)                   | Timeline [8]; Case [18]
+  [10]    | UPI, Three More Identified (Jul 26, 1991)       | Timeline [32]
+  [11]    | UPI, Terror Phone Calls (Jul 30, 1991)          | Timeline [12]
+  [12]    | UPI, Family Files Lawsuit (Aug 5, 1991)         | Timeline [33]
+  [13]    | UPI, Dozen Killings (Aug 6, 1991)               | Timeline [9]; Case [19]
+  [14]    | UPI, 17th Victim Identified (Aug 16, 1991)      | Timeline [11]; Case [33]
+  [15]    | UPI, Innocent and Insanity Pleas (Sep 11, 1991) | Timeline [31]; Case [32]
+  [16]    | WaPo, Hints at Insanity Defense (Aug 22/23, 1991)| Timeline [10]; Case [20]
+  [17]    | WaPo, Bones at Dahmer Site Identified (Sep 1991) | Timeline [6]
+  [18]    | UPI, Sentenced to 15 Life Terms (Feb 17, 1992)  | Timeline [21]; Overview [20]; Case [15]
+  [19]    | UPI, Lao Youth Mourned (Aug 2, 1991)            | -
+  [20]    | AP/Marquette, Four Slayings (Jul 26, 1991)      | -
+  [21]    | Chicago Tribune, Chicago Ties (Jul 29, 1991)    | Timeline [13]; Overview [41]
+  [22]    | UPI, Two Officers Suspended (Jul 28, 1991)      | Timeline [15]; Overview [38]
+  [23]    | UPI, Four More Identified (Aug 6, 1991)         | -
+  [24]    | Milwaukee Sentinel, Families Recall (Jul 24, 1991)| -
+  [25]    | UPI, Charged with Four Murders (Jul 26, 1991)   | -
+  [26]    | WaPo, 12 Counts Filed (Jul 28, 1991)            | -
+  [27]    | UPI, Formally Charged with 12 (Aug 2, 1991)     | -
+
+
+================================================================================
+SECTION 3: RECONCILIATION NOTES
+================================================================================
+
+3.1 COUNT DISCREPANCY, RESOLVED
+    v1.0 register:  17 entries, scoped to a superseded working copy.
+    v2.0 register:  27 entries, matching the locked v05 plan exactly.
+    The README previously described the Victims tab as having a "27-entry
+    bibliography locked" while this register held 17. The README was correct
+    about the content plan and the register was stale. This file now matches.
+
+3.2 NO GLOBAL RENUMBERING
+    Adopting 27 local numbers does not renumber 08_sources_by_tab.txt. Section 2
+    above is the reconciliation mechanism. Parent registers keep their own
+    numbering untouched.
+
+3.3 ENTRIES UNIQUE TO VICTIMS
+    [19], [20], [23], [24], [25], [26] and [27] have no parent-register
+    equivalent. They are contemporaneous wire and newspaper records used for
+    individual victim identification timelines and family recollections. They
+    are legitimate claim-level sources for Tab 2 and should appear in the
+    /sources Victims section even though no other tab cites them.
+
+3.4 DOB ANCHOR PROVENANCE
+    The 17 primary date-of-birth anchors resolve to [2] (FBI Vault Parts 01, 03,
+    06) with 1-based PDF locators recorded in the v05 plan and in
+    Dahmer_Victims_Master_Citation_Tracker_v10.md. This register carries the
+    source identities; it deliberately does not duplicate the per-victim page
+    coordinate tables, which remain authoritative in the tracker.
+
+3.5 RETIRED CONVENTIONS
+    The provisional dagger (+) was retired in v4.0 of Table 1. It carries no
+    meaning in this register and must not be reintroduced in Phase 2 HTML.
+
+
+================================================================================
+SECTION 4: VERIFICATION SIGN-OFF
+================================================================================
+
+  [x] 27 entries present, numbered [1]-[27] without gaps or duplicates.
+  [x] Entry text, URLs and "Used for" notes reproduced verbatim from v05.
+  [x] Register block extraction integrity verified at read time (entry [1]
+      present at start, entry [27] present at end, count equals 27).
+  [x] Every entry mapped in the Section 2 crosswalk, including explicit
+      documentation of the seven with no parent equivalent.
+  [x] No source appears that is not present in the locked v05 plan.
+  [x] Supersession of v1.0 stated and its historical status clarified.
+
+LOCK STATUS: VICTIMS BIBLIOGRAPHY RECONCILED AND LOCKED (27 ENTRIES).
+
+END OF VICTIMS FINAL BIBLIOGRAPHY v2.0
