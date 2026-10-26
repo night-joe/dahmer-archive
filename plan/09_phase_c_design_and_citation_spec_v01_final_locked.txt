@@ -1,0 +1,2088 @@
+JEFFREY DAHMER CASE RESEARCH WEBAPP
+PHASE C - DESIGN & CITATION SPECIFICATION
+FINAL CHECK, DECISIONS & LOCK
+================================================================================
+Version:     1.0 - Final Locked
+Date:        2026-10-26
+Status:      LOCKED
+Implements:  plan/00_webapp_master_implementation_plan_v04.txt, Phase C
+             ("Design Specification Final Check", document lines 681-697)
+Supersedes:  none - first Phase C specification
+Inputs:      7 tab registers (286 local entries), 9 canonical pages,
+             229 inventoried logical routes, 4 CSS files, 3 JS modules
+Author:      Phase C audit pass, 2026-10-26
+================================================================================
+
+
+================================================================================
+PART 0 - PURPOSE, GATE AND VERDICT VOCABULARY
+================================================================================
+
+0.1 WHAT THIS DOCUMENT IS
+-------------------------
+Phase C is the master plan's design and mechanics sign-off. It sits between
+Phase B (content finalization, now complete for all eight tabs) and Phase D
+(build), which the master plan permits "only after explicit confirmation".
+
+This document is that confirmation, item by item. Where the master plan asks
+for a decision, this document records one. Where a decision cannot honestly be
+made without an input that does not yet exist, the item is marked CARRIED and
+its blast radius is stated.
+
+The document is deliberately measurement-led. Contrast ratios were computed
+from the actual hex values in variables.css. Route counts were extracted from
+the locked plans, not estimated. Duplicate DOM IDs were counted in the shipped
+HTML, not inferred.
+
+0.2 MASTER-PLAN CHECKLIST MAPPING
+---------------------------------
+  MASTER PLAN ITEM        | SECTION | VERDICT
+  ------------------------|---------|--------------------------------------
+  final typography        | Part 1  | LOCKED
+  final colors            | Part 2  | LOCKED (all pairs measured, all pass)
+  final spacing           | Part 3  | LOCKED
+  final card hierarchy    | Part 4  | LOCKED (3 components CARRIED to build)
+  final routes            | Part 5  | LOCKED (alias strategy resolves variants)
+  final mobile behavior   | Part 6  | LOCKED
+  final citation mechanics| Part 7  | LOCKED (new architecture defined herein)
+  final image treatment   | Part 8  | LOCKED (rights clearance is per-asset)
+
+0.3 VERDICT VOCABULARY
+----------------------
+  LOCKED    Decided here. Binding on Phase D. Changing it requires a new
+            version of this document.
+  CARRIED   Decision accepted in principle; one named input is still required
+            before implementation. Implementation of the affected item waits.
+  BLOCKING  Must be resolved before the affected page may ship. Does not
+            necessarily block unrelated pages.
+  DEFERRED  Consciously out of Phase C scope; named owner/phase recorded.
+
+0.4 OUT OF SCOPE
+----------------
+  - Writing page copy. That is Phase D, and it must follow the locked tab
+    plans, not this document.
+  - Rewriting any locked tab plan. Forbidden. Every route and numbering
+    variant in this document is resolved by aliasing, never by editing a
+    locked file.
+  - Selecting, licensing or clearing individual images. Part 8 defines the
+    policy and the per-asset contract; clearance is an editorial action.
+  - Adding a build toolchain that requires a server. The archive ships as
+    static files and must remain openable over file://.
+
+0.5 GATE DECISION
+-----------------
+Phase D MAY BEGIN on the first build step defined in Part 10.3.
+
+This is not a blanket clearance for all nine pages. Each page carries its own
+row in the Part 10 readiness matrix, and three pages carry conditions.
+
+
+================================================================================
+PART 1 - TYPOGRAPHY (FINAL)
+================================================================================
+
+1.1 FONT STACKS
+---------------
+Declared in assets/css/variables.css:
+
+  --font-serif : Newsreader, Source Serif 4, Georgia, Cambria, Times New Roman
+  --font-sans  : Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+                 Helvetica Neue, Arial
+  --font-mono  : JetBrains Mono, SF Mono, Consolas, Courier New
+
+FINDING: the repository vendors no webfont files. assets/ contains css, js and
+pdf only. The named families resolve only if the reader happens to have them
+installed; otherwise the stack falls through to Georgia, Segoe UI and Consolas.
+
+DECISION 1.1 - LOCKED
+  Ship the declared stacks unchanged and add no webfont dependency in Phase D.
+  Rationale: a static archival site should not block first paint on a font CDN,
+  and self-hosting three families would add roughly 300-600 KB to a project
+  whose entire HTML payload is currently under 75 KB. The serif/sans/mono
+  hierarchy survives on system fallbacks.
+
+CONSEQUENCE TO ACCEPT
+  Typography will differ slightly between a machine with Newsreader installed
+  and one without. This is acceptable for an editorial archive and must not be
+  "fixed" by pinning a webfont later without a new version of this document.
+
+1.2 TYPE SCALE
+--------------
+  TOKEN       VALUE     APPROX PX   ASSIGNED USE
+  ----------  --------  ----------  ----------------------------------------
+  --text-xs   0.75rem   12px        Badges, order tags, victim meta, mono
+  --text-sm   0.875rem  14px        Footnotes, captions, table secondary
+  --text-base 1.05rem   16.8px      Body prose (article measure)
+  --text-md   1.15rem   18.4px      Lead paragraph, emphasis body
+  --text-lg   1.35rem   21.6px      h3, footnotes heading, card titles
+  --text-xl   1.85rem   29.6px      h2 section headings
+  --text-2xl  2.5rem    40px        h1 page title (non-masthead pages)
+  --text-3xl  3.2rem    51px        Masthead title (homepage only)
+
+  Line heights: tight 1.18 (display), snug 1.35 (headings), normal 1.68
+  (body, default), loose 1.85 (long-form quotations).
+
+1.3 ELEMENT ASSIGNMENTS
+-----------------------
+  Masthead title      --text-3xl / --font-serif / --leading-tight
+  Page h1             --text-2xl / --font-serif / --leading-tight
+  Section h2          --text-xl  / --font-serif / --leading-snug
+  Subsection h3       --text-lg  / --font-serif / --leading-snug
+  Body paragraph      --text-base/ --font-serif / --leading-normal
+  Lead paragraph      --text-md  / --font-serif / --leading-normal
+  Editorial kicker    --text-xs  / --font-sans  / uppercase, 0.08em tracking
+  Table cell          --text-sm  / --font-sans  (data tables)
+  Badge               --text-xs  / --font-sans  / uppercase
+  Footnote            --text-sm  / --font-sans  / --text-secondary
+  Citation superscript--text-xs  / --font-mono
+
+1.4 TYPOGRAPHIC RULES (BINDING)
+-------------------------------
+  1. Exactly one h1 per page.
+  2. Heading levels never skip. h2 follows h1, h3 follows h2.
+  3. Body measure is capped at --max-width-article (780px), targeting 65-75
+     characters per line.
+  4. No all-caps body text. Uppercase is restricted to kickers, badges and
+     table headers.
+  5. No text justification. Ragged-right only.
+  6. Emphasis uses <em> for titles of works and first-use foreign terms;
+     <strong> for names, dates and critical findings. No bold paragraphs.
+  7. No font sizes set inline except where the shipped homepage already does
+     so for legacy compatibility. New markup must use tokens.
+
+1.5 SIGN-OFF
+------------
+  Stack decided ................ LOCKED
+  Scale decided ................ LOCKED
+  Element map decided .......... LOCKED
+  Rules decided ................ LOCKED
+  Adds webfonts? ............... NO
+
+
+================================================================================
+PART 2 - COLOR (FINAL)
+================================================================================
+
+2.1 SURFACES
+------------
+  --bg-primary  #FCFBF9   Warm editorial off-white, page ground
+  --bg-card     #FFFFFF   Pure white, card and panel containers
+  --bg-subtle   #F5F2EB   Paper tint, callouts, table headers
+  --bg-tint     #EFECE3   Hover and active states
+  --bg-dark     #1A1A1A   Dark containers, inverted panels
+
+2.2 TEXT
+--------
+  --text-primary    #141414   Body and headings
+  --text-secondary  #3D3D3D   Subheads, variant body
+  --text-muted      #6B6862   Dates, metadata, footnotes
+  --text-inverse    #FCFBF9   Text on dark surfaces
+
+2.3 ACCENT
+----------
+  --accent-red         #8C1D1D   Active tab, citation numerals, tags
+  --accent-red-hover   #A82424   Hover state
+  --accent-red-subtle  #F9EBEB   Alert and highlighted-row wash
+  --accent-red-border  #D69797   Highlight panel border
+
+2.4 BORDERS
+-----------
+  --border-light      #E2DED6   Hairline separator
+  --border-medium     #C8C3B8   Structural box border
+  --border-dark       #1A1A1A   Broadsheet rules, masthead
+  --border-hairline   #EDEAE2   Ultra-subtle inner border
+
+2.5 EVIDENCE BADGES (SIX CLASSES)
+---------------------------------
+  CLASS            TEXT COLOR   BACKGROUND   INTENDED MEANING
+  ---------------  -----------  -----------  ------------------------------
+  badge-primary    #2C2A26      #EAE8E2      Primary archival record
+  badge-direct     #1E4E24      #E3EDE4      Direct contemporary evidence
+  badge-indirect   #6B4E00      #FFF3D6      Indirect or contextual evidence
+  badge-contemp    #1B4573      #E6EEF8      Contemporary reporting
+  badge-later      #4D2668      #F0E8F5      Later secondary or scholarly work
+  badge-disputed   #8C1D1D      #FBE6E6      Disputed or contested claim
+
+  Rule: badge text always names the category. Color is never the sole carrier
+  of meaning. A color-blind reader must lose no information.
+
+2.6 MEASURED CONTRAST AUDIT
+---------------------------
+Computed with the WCAG 2.1 relative-luminance formula against the actual hex
+values in variables.css. AA normal text requires 4.5:1; AA large text 3.0:1.
+
+  PAIR                                  RATIO   AA-NORMAL
+  ------------------------------------  ------  ---------
+  text-primary    on bg-primary         17.81   PASS
+  text-secondary  on bg-primary         10.50   PASS
+  text-muted      on bg-primary          5.37   PASS
+  accent-red      on bg-primary          8.80   PASS
+  text-inverse    on bg-dark            16.83   PASS
+  accent-red      on bg-card             9.10   PASS
+  text-muted      on bg-subtle           4.97   PASS
+  text-secondary  on bg-subtle           9.72   PASS
+  badge-primary   on its background     11.69   PASS
+  badge-direct    on its background      8.06   PASS
+  badge-indirect  on its background      7.01   PASS
+  badge-contemp   on its background      8.37   PASS
+  badge-later     on its background      9.80   PASS
+  badge-disputed  on its background      7.61   PASS
+  accent-red-hover on bg-primary         6.90   PASS
+
+RESULT: 15 of 15 measured pairs pass AA for normal text. No pair requires
+large-text exemption. No palette change is required for Phase D.
+
+2.7 COLOR RULES (BINDING)
+-------------------------
+  1. --accent-red is reserved. It marks citations, active navigation, kickers
+     and evidence tags. It is never used for decoration or section theming.
+  2. No new hex values in Phase D. Every color must resolve to a token.
+  3. No gradients, glows or drop-shadow accents. The shadow tokens are
+     structural only.
+  4. Status is never conveyed by color alone.
+  5. Dark surfaces (--bg-dark) are permitted only for inverted callouts and the
+     masthead. They are never used for body prose.
+
+2.8 SIGN-OFF
+------------
+  Palette decided .............. LOCKED
+  Contrast verified ............ 15/15 PASS
+  New colors permitted ......... NO
+
+
+================================================================================
+PART 3 - SPACING & LAYOUT (FINAL)
+================================================================================
+
+3.1 SPACING SCALE
+-----------------
+  --space-2xs   0.25rem    4px    Icon gaps, tight inline
+  --space-xs    0.5rem     8px    Badge padding, meta gaps
+  --space-sm    0.75rem   12px    Card inner rhythm, table cell padding
+  --space-md    1.25rem   20px    Paragraph separation, panel padding
+  --space-lg    2rem      32px    Card padding, block separation
+  --space-xl    3.25rem   52px    Section separation
+  --space-2xl   5rem      80px    Major page section breaks, footnotes offset
+
+3.2 CONTAINER WIDTHS
+--------------------
+  --max-width-page     1200px   Outer page shell, nav, footer
+  --max-width-wide     1040px   Homepage module grid
+  --max-width-article   780px   Prose measure on article pages
+  --header-height        52px   Sticky offset and scroll-margin basis
+
+3.3 BREAKPOINTS (RETAINED AS BUILT)
+-----------------------------------
+  WIDTH     OWNER             CURRENT DUTIES
+  --------  ----------------  ----------------------------------------------
+  960px     layout.css        Topbar stacks; editorial-grid to one column;
+                              hairline-right becomes bottom border;
+                              secondary-grid to two columns
+  860px     layout.css + nav  Masthead compresses; nav becomes mobile drawer;
+                              dropdowns become accordion; JS switches mode
+  768px     components.css    Table padding and font shrink; feature-card
+                              padding; victims-grid to one column
+  480px     layout.css        Masthead title to 1.75rem; topbar to 0.7rem;
+                              footer-bottom stacks
+
+DECISION 3.3 - LOCKED
+  Retain all four breakpoints. Do not consolidate them in Phase D. They are
+  already load-bearing and collapsing two of them would require re-testing
+  every shipped page for no user-visible gain. New components must hook into
+  one of these four widths and must not introduce a fifth.
+
+  Ownership rule: layout-level changes go in layout.css at 960/860/480;
+  component-level changes go in components.css at 768.
+
+3.4 GRID PATTERNS
+-----------------
+  .editorial-grid    Two-column editorial layout, collapses to one at 960px
+  .secondary-grid    Repeat(2, 1fr), collapses at 960px
+  .two-col-layout    Article plus aside, collapses at 960px
+  .victims-grid      auto-fill minmax(320px, 1fr), forced to 1 column at 768px
+  .card-deck         Homepage feature card row
+
+  Rule: new page layouts must compose from these five patterns. A new grid
+  primitive requires a recorded justification and a new version of this file.
+
+3.5 SIGN-OFF
+------------
+  Scale decided ................ LOCKED
+  Containers decided ........... LOCKED
+  Breakpoints decided .......... LOCKED (four retained)
+  New grid primitives .......... NOT PERMITTED without amendment
+
+
+================================================================================
+PART 4 - CARD HIERARCHY (FINAL)
+================================================================================
+
+4.1 EXISTING COMPONENT INVENTORY
+--------------------------------
+Extracted from components.css and layout.css. Grouped by function.
+
+  SHELL AND NAVIGATION
+    .skip-link, .site-topbar, .site-topbar-inner, .topbar-edition,
+    .topbar-meta, .topbar-bullet, .site-masthead, .masthead-inner,
+    .masthead-kicker, .masthead-title, .masthead-subtitle,
+    .site-nav-wrapper, .site-nav-container, .site-nav, .nav-list,
+    .nav-item, .nav-link, .dropdown-menu, .dropdown-item, .arrow-icon,
+    .mobile-nav-toggle, .toggle-icon, .site-footer, .footer-inner,
+    .footer-top, .footer-brand, .footer-nav, .footer-nav-group,
+    .footer-bottom
+
+  EDITORIAL PROSE
+    .lead-paragraph, .article-meta, .article-meta-item, .meta-divider,
+    .editorial-kicker, .pull-quote, .editorial-callout, .callout-title
+
+  CARDS AND MODULES
+    .feature-card, .feature-title, .feature-tag, .card-deck, .card-kicker,
+    .card-title, .card-secondary, .read-more-link
+
+  DATA AND TABLES
+    .timeline-table-wrapper, .timeline-table, .timeline-row,
+    .timeline-date-col, .timeline-contact-tag, .timeline-significance-tag,
+    .data-table-wrapper, .data-table, .data-row, .badge-evidence,
+    .badge-legend, .badge-legend-title
+
+  VICTIMS
+    .victims-grid, .victim-card, .victim-card-header, .victim-order-tag,
+    .victim-name, .victim-meta, .victim-bio-summary, .victim-card-footer,
+    .victim-detail-panel, .victim-detail-header
+
+  CITATIONS AND VISUALS
+    sup.citation, .footnotes-section, .footnotes-heading, .footnotes-list,
+    .footnote-backref, .visual-container, .visual-caption
+
+  FRONT-PAGE OVERVIEW
+    .overview-expandable, .overview-preview-text, .overview-fade-overlay,
+    .expand-actions-bar, .expand-toggle-btn, .highlight-pulse
+
+4.2 HIERARCHY LEVELS
+--------------------
+  L0  Masthead and page shell      No card. Full bleed.
+  L1  Page title block             h1 plus optional article-meta
+  L2  Section block                h2, optional kicker, prose or module grid
+  L3  Card or panel                feature-card, victim-card, victim-detail-panel,
+                                   visual-container, editorial-callout
+  L4  Inline element               badge, tag, citation, footnote, link
+
+  Rule: no card inside a card. L3 containers do not nest. Where a card must
+  hold sub-content, use bare L4 elements separated by hairlines.
+
+  Rule: an L2 section may contain either prose or cards, not both at the same
+  visual weight. If a section needs prose above cards, the prose is plain body
+  copy, not a card.
+
+4.3 PAGE-TO-COMPONENT MATRIX
+----------------------------
+  PAGE         | REQUIRED COMPONENTS
+  -------------|------------------------------------------------------------
+  index.html   | masthead, editorial-grid, feature-card, overview-expandable,
+               | timeline-table (9-row milestone), secondary-grid, footer
+  overview.html| masthead, lead-paragraph, article-meta, prose sections,
+               | pull-quote, footnotes-section
+  victims.html | masthead, prose intro, data-table (Table 1), victims-grid,
+               | victim-card x17, victim-detail-panel x17, footnotes
+  timeline.html| masthead, era sections, timeline-table, reverse-timeline-link,
+               | footnotes
+  context.html | masthead, prose sections, editorial-callout, data-table,
+               | footnotes
+  case.html    | masthead, prose sections, data-table (charging evolution),
+               | timeline-table (trial chronology), pull-quote, footnotes
+  analysis.html| masthead, prose sections, data-table (expert matrix),
+               | editorial-callout, footnotes
+  impact.html  | masthead, prose sections, editorial-callout, data-table,
+               | pull-quote, footnotes (184 registered anchors)
+  sources.html | masthead, view-switch, source-list, source-entry,
+               | tier badges, footnotes not applicable
+
+4.4 COMPONENTS TO ADD IN PHASE D
+--------------------------------
+REQUIRED
+
+  .source-list / .source-entry / .source-tier
+      The /sources page has no existing component vocabulary. Needs a list
+      container, an entry row carrying citation text, permalink, tier badge and
+      a locator list, and a tier heading treatment.
+
+  .view-switch
+      Two-view control for /sources (By Tab / By Source). Must be keyboard
+      operable and must not rely on JavaScript to expose content, since the
+      page must render over file://.
+
+  .anchor-alias
+      A zero-height inline span used to emit alias IDs for route variants
+      resolved in Part 5.8. Inherits no width, forces no line box, is not
+      focusable, and is hidden from assistive technology.
+
+  .table-controls
+      Table 1 is specified as interactive. Existing .data-table has no sort or
+      filter affordance. Needs a control bar and a sortable column header
+      treatment with aria-sort.
+
+OPTIONAL (recorded, not mandated)
+
+  .on-this-page
+      A local table of contents. Genuinely useful on impact.html, which carries
+      184 registered anchors. Not required by any locked plan, so not mandated.
+
+  .footnotes-section li:target
+      A highlight when a footnote is the navigation target. Purely cosmetic;
+      implement only if it costs no layout shift.
+
+NOT PERMITTED
+  Any new card type that duplicates .feature-card or .victim-card with
+  different colors. Visual differentiation is achieved by content and kicker,
+  not by a seventh card variant.
+
+4.5 SIGN-OFF
+------------
+  Hierarchy decided ............ LOCKED (four levels, no nesting)
+  Inventory recorded ........... LOCKED
+  Required new components ...... 4 named above
+  Optional components .......... 2 named above
+  New card types permitted ..... NO
+
+
+================================================================================
+PART 5 - ROUTES (FINAL)
+================================================================================
+
+5.1 CANONICAL PAGE SET
+----------------------
+Nine pages, flat files at repository root. No subdirectories, no server routing.
+
+  1. index.html       Homepage
+  2. overview.html    Overview
+  3. victims.html     Victims
+  4. timeline.html    Timeline
+  5. context.html     Milwaukee 1987-1991 + Early Life
+  6. case.html        Offense series, investigation, trial
+  7. analysis.html    Systemic failures, psychological profile, theories
+  8. impact.html      Community, reform, media, re-examination, conclusion
+  9. sources.html     Key sources, methodology
+
+5.2 PHYSICAL ROUTE CONTRACT
+---------------------------
+SHIPPED FORM:   page.html#anchor
+CANONICAL FOR:  every href attribute in shipped HTML.
+
+DECISION 5.2 - LOCKED
+  Flat file plus fragment. Sub-path routing is rejected for Phase D because it
+  would require rewriting the shipped navigation, the active-link logic in
+  nav.js, and every cross-tab link emitted by seven locked plans. The archive
+  has no server-side routing and must remain file://-safe.
+
+5.3 LOGICAL ROUTE GRAMMAR
+-------------------------
+The locked plans use a site-root vocabulary:
+
+  /page
+  /page/subsection
+  /page#anchor
+  /page/subsection#anchor
+
+These are LOGICAL routes. They are not href values. They are documentation and
+cross-reference notation, resolved to physical targets by the registry in 5.7.
+
+DECISION 5.3 - LOCKED
+  Locked plans are not edited. Logical routes are treated as valid identifiers
+  and resolved at build time. A test enforces that every logical route resolves
+  to exactly one physical target, except CATEGORY C tokens.
+
+5.4 THE TWO-TIER ANCHOR MODEL AND THE NAVIGATION CONTRACT
+---------------------------------------------------------
+This is the central route finding of Phase C. It was not visible until the plan
+anchor declarations were parsed rather than assumed.
+
+5.4.1 THE TWO TIERS
+
+  TIER 1 - PAGE-LEVEL SECTION ANCHORS
+    Exactly 15. One per navigable section, owned by the page shell.
+    These are the navigation targets. They exist so that navigation always
+    lands on a stable, page-authored section boundary regardless of how the
+    underlying content plan is subdivided.
+    Count: 15 Tier 1 anchors across 6 pages.
+      - 13 content-page anchors (context 2, case 3, analysis 3, impact 5),
+        compared against plan declarations in 5.4.3.
+      - 2 sources-page anchors (#key-sources, #methodology), specified in
+        Part 7.11. No plan declares them; they are defined here.
+
+  TIER 2 - PLAN-DECLARED DETAIL ANCHORS
+    Declared inside the locked plans, in two formats:
+      (a) single-line declaration:
+            Anchor: #slug (Aliases: #a, #b)
+      (b) concordance table row:
+            | Section | #canonical | #alias, #alias | ... |
+    Parsed counts, canonical plus declared aliases:
+      context   36
+      case      98
+      analysis  93
+      impact   153
+    These anchors are content addresses. They belong to the plans.
+
+DECISION 5.4 - LOCKED
+  Tier 1 and Tier 2 are separate namespaces. A Tier 1 anchor never replaces or
+  renames a Tier 2 anchor. Where both name the same block, the outer sectioning
+  element carries the Tier 1 id and an immediately nested element carries the
+  Tier 2 id. Both resolve.
+
+  Consequence: navigation is stable even when a plan's internal section naming
+  changes, and plan cross-links stay valid even when navigation is restructured.
+
+5.4.2 THE EIGHTEEN LINKS
+
+Verbatim from the shipped nav, which overview.html carries and index.html
+mirrors. Status is against the plan declarations, not against intention.
+
+  #   HREF                                  LABEL                       STATUS
+  --  ------------------------------------  --------------------------  ------
+  01  overview.html                         Overview                    PAGE
+  02  victims.html                          Victims                     PAGE
+  03  timeline.html                         Timeline                    PAGE
+  04  context.html#milwaukee-context        Milwaukee: 1987-1991        NEW
+  05  context.html#early-life               Early Life & Background     ALIAS
+  06  case.html#offense-series              The Offense Series          NEW
+  07  case.html#investigation-arrest        Investigation & Arrest      NEW
+  08  case.html#trial-proceedings           Trial & Legal Proceedings   NEW
+  09  analysis.html#systemic-failures       Systemic Failures           ALIAS
+  10  analysis.html#psychological-profile   Psychological Profile       ALIAS
+  11  analysis.html#theories-motivations    Theories & Motivations      ALIAS
+  12  impact.html#community-impact          Community & Civic Impact    NEW
+  13  impact.html#social-reform             Social Impact & Reform      ALIAS
+  14  impact.html#media-portrayal           Media & Cultural Portrayal  ALIAS
+  15  impact.html#modern-reexamination      Modern Re-examination       NEW
+  16  impact.html#full-conclusion           Full Research Conclusion    NEW
+  17  sources.html#key-sources              Key Sources & Bibliography  NEW
+  18  sources.html#methodology              Methodology & Standards     NEW
+
+  STATUS KEY
+    PAGE   Page-level link. No fragment required.
+    ALIAS  A plan declares this anchor as an alias of a Tier 2 canonical.
+    NEW    No plan declares this anchor. Phase D emits it as a Tier 1
+           page-level section: 7 of the 13 content-page anchors, plus the 2
+           sources-page anchors defined in Part 7.11.
+
+DECISION 5.4.2 - LOCKED
+  All 15 fragment anchors are emitted as Tier 1 page-level sections. The two
+  sources anchors are specified in Part 7.11. Nav hrefs are NOT changed. Every
+  one of the 18 links must resolve on all nine pages, and a Phase D test
+  extracts and compares all 18 from all 9.
+
+5.4.3 DISCOVERY: THE NAV AND THE PLANS SPEAK DIFFERENT VOCABULARIES
+
+Result of parsing every plan's anchor declarations and comparing them with the
+13 fragment links in the shipped nav:
+
+  nav anchors checked against plan declarations ......... 13
+  declared verbatim as a plan canonical .................. 0
+  declared as a plan alias ............................... 6
+  declared nowhere, requiring a new page-level anchor .... 7
+
+The six that resolve as declared aliases:
+
+  NAV ANCHOR              PLAN CANONICAL                    PLAN FILE
+  ----------------------  --------------------------------  ---------
+  #early-life             #birth-and-family-origins         02_context
+  #systemic-failures      #topics-systemic-failures         06b
+  #psychological-profile  #topics-psychological-profile     06a
+  #theories-motivations   #topics-theories-motivations      06c
+  #social-reform          #reform                           07_impact
+  #media-portrayal        #media-ethics                     07_impact
+
+The seven that resolve nowhere:
+
+  #milwaukee-context      No Milwaukee section wrapper is declared.
+  #offense-series         The case plan declares #case-offense-overview and
+                          #offense-series-overview, never #offense-series.
+  #investigation-arrest   The case plan declares #investigation, not this
+                          compound form.
+  #trial-proceedings      The case plan declares #trial-plea and #sanity-trial.
+  #community-impact       Impact declares #community, with aliases
+                          #civic-impact, #community-civic-impact, #civic-crisis.
+  #modern-reexamination   Impact's alias is #modern-re-examination, hyphenated.
+  #full-conclusion        Impact's aliases are #conclusion and #impact-conclusion.
+
+FINDING 5.4.3 - RECORDED
+  No shipped nav anchor is a canonical plan anchor. The navigation was authored
+  against the prototype's section names before the content plans were locked.
+  Under DECISION 5.4 this is survivable without editing either artifact,
+  because Tier 1 anchors are page-owned and additive.
+
+5.4.4 CONSEQUENCE: FOUR DANGLING CROSS-TAB LINKS
+
+The Context plan (line 862) and the Theories plan (lines 275, 359 and 458) all
+link to /case#offense-series. The Case plan never declares that anchor. Its
+nearest declarations are #case-offense-overview and #offense-series-overview,
+neither of which matches.
+
+Those four incoming links therefore resolve to nothing.
+
+RESOLUTION - LOCKED
+  The Case page emits #offense-series as its Tier 1 wrapper for Part A. This
+  satisfies all four inbound links without editing any locked plan, and it also
+  satisfies nav link 06. One wrapper repairs five references.
+
+  This is the clearest argument for the two-tier model: the page shell can
+  supply a missing address without touching the content that lives behind it.
+
+5.5 ANCHOR NAMING CONVENTION
+----------------------------
+  - lowercase
+  - kebab-case
+  - no leading "the" or "a"
+  - no trailing punctuation. The impact concordance table contains a row
+    reading #historiographical-eval. with a trailing period; the Anchor:
+    declaration in the same file reads #historiographical-evaluation. The
+    table row is a truncation artifact and is not a valid anchor (R-40).
+  - Tier 1: short noun phrase (#trial-proceedings)
+  - Tier 2 event anchors: #event-YYYY-slug (#event-1991-edwards-escape)
+  - Tier 2 victim anchors: canonical victim slug (#konerak-sinthasomphone)
+  - Tier 2 topic anchors: #topics-<section> for the three analysis overviews
+  - Source anchors: #src-<canonical-id> (Part 7.3)
+  - Era anchors: #era-N
+  - never numeric-only (#section-3 is prohibited)
+
+5.6 VICTIM ANCHOR REGISTRY
+--------------------------
+Authoritative source: tests/test_victim_slugs.js. Seventeen canonical slugs,
+three registered aliases. Both forms must resolve on victims.html.
+
+  #1   steven-hicks             (no alias)
+  #2   steven-tuomi             (no alias)
+  #3   james-doxtator           alias: jamie-doxtator
+  #4   richard-guerrero         (no alias)
+  #5   anthony-sears            (no alias)
+  #6   raymond-smith            (no alias)
+  #7   edward-smith             alias: eddie-smith
+  #8   ernest-miller            (no alias)
+  #9   david-thomas             (no alias)
+  #10  curtis-straughter        (no alias)
+  #11  errol-lindsey            (no alias)
+  #12  anthony-hughes           alias: tony-hughes
+  #13  konerak-sinthasomphone   (no alias)
+  #14  matt-turner              (no alias)
+  #15  jeremiah-weinberger      (no alias)
+  #16  oliver-lacy              (no alias)
+  #17  joseph-bradehoft         (no alias)
+
+DECISION 5.6 - LOCKED
+  Canonical slug wins in all new markup. Aliases are emitted as .anchor-alias
+  spans immediately before the canonical element. The test file is the registry
+  of record and must not be paraphrased.
+
+5.7 ALIAS POLICY
+----------------
+Four categories of alias, each with a fixed mechanism.
+
+  CATEGORY A - PAGE ALIAS
+    A logical path that names another page or a page subsection.
+    Example: /topics/systemic-failures
+             -> analysis.html#topics-systemic-failures
+    Mechanism: build-time rewrite of the logical route to the physical target.
+    No DOM alias needed.
+
+  CATEGORY B - SECTION ALIAS
+    A second name for a block that already has a canonical Tier 2 anchor.
+    Example: #investigation -> the case plan's #investigation block
+    Mechanism: the element emits its canonical id, and an .anchor-alias span
+    with the alias id is nested immediately inside it.
+
+  CATEGORY C - TEMPLATE TOKEN
+    A placeholder that is not a route at all.
+    Example: #victim-slug
+    Mechanism: none. Excluded from the registry and from link validation.
+
+  CATEGORY D - PAGE-LEVEL WRAPPER
+    A Tier 1 anchor that no plan declares, emitted by the page shell so that
+    navigation and inbound cross-tab links resolve.
+    Example: #offense-series on case.html
+    Mechanism: the page adds a wrapper element carrying the id. Additive only;
+    no plan anchor is renamed or removed.
+
+DECISION 5.7 - LOCKED
+  Aliases are additive and never replace a canonical anchor. No locked plan is
+  edited to remove a variant. No shipped nav anchor is renamed.
+
+5.8 ROUTE CONFLICT REGISTER
+---------------------------
+Every conflict below is present in at least one locked plan or in the shipped
+navigation. The "uses" column counts occurrences across plan/*.txt and
+plan/*.md. Resolutions are binding.
+
+  ID    CONFLICT                             USES   RESOLUTION
+  ----  ------------------------------------- ------ -------------------------
+  R-01  /case/offense-series vs              15/4   CAT D + B. Case page emits
+        /case#offense-series                          #offense-series as the
+                                                      Part A wrapper. Also
+                                                      repairs four dangling
+                                                      inbound links (5.4.4).
+  R-02  /case/investigation vs              11/6    CAT D + B. Case page emits
+        /case#investigation                           #investigation-arrest as
+                                                      Tier 1; plan's
+                                                      #investigation stays on
+                                                      the content block.
+  R-03  /case/trial vs nav #trial-proceedings 13/0   CAT D. Case page emits
+                                                      #trial-proceedings as
+                                                      Tier 1; #trial-plea and
+                                                      #sanity-trial remain.
+  R-04  /case#arrest-and-discovery vs        3/2/2   CARRIED. Three names for
+        /case#apartment213-discovery                  the arrest/discovery
+        /case#case-tracy-edwards-escape               block. Canonical chosen
+                                                      only after the case plan's
+                                                      section map is re-read in
+                                                      Phase D.
+  R-05  /case#investigation vs               6/4    CAT B. Alias
+        /case#case-detective-interrogations           #case-detective-
+                                                      interrogations to
+                                                      #investigation.
+  R-06  /topics/systemic-failures            18/0   CAT A. ->
+                                                      analysis.html#topics-
+                                                      systemic-failures.
+                                                      Declared aliases:
+                                                      #systemic-failures,
+                                                      #institutional-failures.
+  R-07  /topics/psychological-profile        10/0   CAT A. ->
+                                                      analysis.html#topics-
+                                                      psychological-profile.
+                                                      Declared aliases:
+                                                      #psychological-profile,
+                                                      #psychiatric-profile.
+  R-08  /topics/theories-motivations          9/0   CAT A. ->
+                                                      analysis.html#topics-
+                                                      theories-motivations.
+                                                      Declared aliases:
+                                                      #theories-motivations,
+                                                      #motivation-theories.
+  R-09  /analysis#psychiatric-profile         4/0   CAT B. Declared alias of
+                                                      #topics-psychological-
+                                                      profile.
+  R-10  /impact/community-civic-impact        7/0   CAT A. ->
+                                                      impact.html#community.
+                                                      Declared aliases:
+                                                      #civic-impact,
+                                                      #community-civic-impact,
+                                                      #civic-crisis.
+  R-11  /impact/social-impact-reform          6/0   CAT A. ->
+                                                      impact.html#reform.
+                                                      Declared aliases:
+                                                      #social-reform,
+                                                      #social-impact-reform,
+                                                      #institutional-
+                                                      accountability.
+  R-12  /impact/media-cultural-portrayal      7/0   CAT A. ->
+                                                      impact.html#media-ethics.
+                                                      Declared aliases:
+                                                      #media-portrayal,
+                                                      #media-cultural-
+                                                      portrayal,
+                                                      #true-crime-ethics.
+  R-13  /impact/modern-re-examination         8/0   CAT A. ->
+                                                      impact.html#primary-
+                                                      sources. Declared alias:
+                                                      #modern-re-examination.
+  R-14  #civil-litig vs #civil-litigation     1/10   CAT B. Canonical
+                                                      #civil-litigation. The
+                                                      shorter form appears in
+                                                      the impact inbound table
+                                                      as "#civil-litig." with a
+                                                      truncated period.
+  R-15  #oxford-demol vs #oxford-demolition   1/6    CAT B. Canonical
+                                                      #oxford-demolition.
+  R-16  #officer-reinst vs                    1/9    CAT B. Canonical
+        #officer-reinstatement                        #officer-reinstatement.
+  R-17  /overview#conclusion vs               9/8    CAT B. Canonical
+        /overview#overview-conclusion                 #overview-conclusion.
+  R-18  /victims#edward-smith vs              2/1    CAT B. Registry alias from
+        /victims#eddie-smith                          5.6.
+  R-19  /victims#anthony-hughes vs            2/1    CAT B. Registry alias from
+        /victims#tony-hughes                          5.6.
+  R-20  /victims#james-doxtator vs            3/2    CAT B. Registry alias from
+        /victims#jamie-doxtator                       5.6.
+  R-21  #event-1990-smith vs                  1/1    CAT B. Canonical
+        #event-1990-eddie-smith                       #event-1990-eddie-smith.
+  R-22  #steven-hicks vs #event-1978-hicks    1/6    CAT B. Canonical
+                                                      #event-1978-hicks.
+  R-23  #tracy-edwards vs                     1/2    CAT B. Canonical
+        #event-1991-edwards-escape                    #event-1991-edwards-
+                                                      escape.
+  R-24  #konerak-sinthasomphone vs           1/10/3  CAT B. Canonical
+        #event-1991-sinthasomphone                    #event-1991-
+        #konerak-police-encounter                     sinthasomphone. Declared
+                                                      alias
+                                                      #konerak-police-
+                                                      encounter.
+  R-25  #trial vs #event-1992-sanity-trial    1/19   CAT B. Alias #trial to
+                                                      #event-1992-sanity-trial.
+  R-26  #sentencing vs                        1/1    CAT B. Canonical
+        #event-1992-sentencing                        #event-1992-sentencing.
+  R-27  #officer-discipline vs                1/4    CAT B. Canonical
+        #event-1991-officer-suspensions               #event-1991-officer-
+                                                      suspensions.
+  R-28  #probation (timeline) vs              1/7    CAT A across pages. A
+        /context#probation-supervision-failure        timeline anchor cannot
+                                                      satisfy a context target.
+                                                      Resolve to
+                                                      context.html#probation-
+                                                      supervision-failure.
+  R-29  #apartment-discovery (timeline)       1/0    CARRIED. Ambiguous between
+                                                      the 1990 move and the 1991
+                                                      search. Must not be
+                                                      guessed.
+  R-30  #oxford-apartments-profile vs         1/3    CAT B. Canonical
+        #avenues-west-oxford-apartments               #avenues-west-oxford-
+                                                      apartments.
+  R-31  #lgbtq-community vs                   1/5    CAT B. Canonical
+        #milwaukee-lgbtq-history                      #milwaukee-lgbtq-history.
+  R-32  #konerak vs #konerak-sinthasomphone   1/2    CAT B within
+        (under /topics/systemic-failures)             #topics-systemic-
+                                                      failures. Canonical
+                                                      #konerak-sinthasomphone.
+  R-33  #control vs #control-experiments      1/2    CAT B. Canonical
+                                                      #control-experiments.
+  R-34  /case/reporter                        8/0    CATEGORY C. Not a route.
+                                                      Legal-citation artifact.
+  R-35  /victims/sources                      1/0    CATEGORY C. Not a route.
+                                                      Heading reference.
+  R-36  /timeline/milwaukee-police-changes-   6/0    CARRIED. Appears malformed:
+        in-policies-culture                           a source title rendered as
+                                                      a path. Confirm intent in
+                                                      Phase D.
+  R-37  /case/estate-of-sinthasomphone-v-     3/0    CARRIED. Either an analysis
+        milwaukee                                     topic route or a source
+                                                      reference. Confirm intent.
+  R-38  #victim-slug (case and timeline)      2/1    CATEGORY C. Template token.
+  R-39  NAV ANCHOR DRIFT: 7 of 13 nav        13/0   CAT D for 4 anchors
+        fragment anchors resolve to no                (#milwaukee-context,
+        plan declaration                              #offense-series,
+                                                      #investigation-arrest,
+                                                      #trial-proceedings);
+                                                      CAT B for 3 anchors
+                                                      (#community-impact,
+                                                      #modern-reexamination,
+                                                      #full-conclusion). See
+                                                      5.4.3 and 5.4.4.
+  R-40  #historiographical-eval. (impact      1/1    CATEGORY C. Truncation
+        concordance table) vs                         artifact with a trailing
+        #historiographical-evaluation                 period. Canonical is
+        (impact Anchor: line)                         #historiographical-
+                                                      evaluation.
+
+RESULT
+  40 conflicts registered and dispositioned.
+  CATEGORY A (page alias rewrite) ................. 8
+  CATEGORY B (section alias, dual emit) ........... 20
+  CATEGORY C (template or non-route) ............... 4
+  CATEGORY D (page-level wrapper) ................. 4
+  CARRIED ......................................... 4
+  TOTAL .......................................... 40
+
+  Note: R-01, R-02 and R-39 are compound. They are counted under CATEGORY D
+  because the wrapper is primary, but each also requires a CATEGORY B alias to
+  satisfy the plan-side variant of the same target.
+
+DECISION 5.8 - LOCKED
+  The four CARRIED items do not block the nine canonical pages. They affect only
+  specific cross-links inside case.html and timeline.html, which are scheduled
+  after sources, victims and overview in Part 10.3. Each must be resolved before
+  those two pages ship.
+
+5.9 ROUTE VALIDATION REQUIREMENTS
+---------------------------------
+A Phase D test must assert:
+
+  1. Every href in every shipped page resolves to an existing file and an
+     existing ID in that file.
+  2. All 18 nav links appear identically on all 9 pages, and all 18 resolve.
+  3. All 15 Tier 1 anchors exist on their pages.
+  4. Every logical route in plan/*.txt and plan/*.md resolves to a physical
+     target through the alias registry, except CATEGORY C tokens.
+  5. No page emits a duplicate DOM id.
+  6. Every alias ID has exactly one canonical target.
+  7. No Tier 1 anchor shadows a Tier 2 canonical anchor of a different meaning.
+
+5.10 SIGN-OFF
+-------------
+  Page set decided ............. LOCKED (9 pages, flat files)
+  Two-tier anchor model ........ LOCKED
+  Nav contract decided ......... LOCKED (18 links, 15 Tier 1 anchors)
+  Alias policy decided ......... LOCKED (4 categories)
+  Nav-versus-plan drift ........ DOCUMENTED, absorbed by Tier 1
+  Dangling cross-links found ... 4 (all to #offense-series)
+  Conflicts dispositioned ...... 40
+  Conflicts carried ............ 4
+  Blocking Phase D start ....... NO
+
+================================================================================
+PART 6 - MOBILE BEHAVIOR (FINAL)
+================================================================================
+
+6.1 BREAKPOINT BEHAVIOR SUMMARY
+-------------------------------
+  >= 961px   Full desktop. Two-column editorial grid. Nav dropdowns open on
+             hover and on focus. Topbar is a single row.
+  861-960px  Topbar stacks. Editorial and two-column grids collapse to one
+             column. Hairline-right becomes a bottom border. Secondary grid
+             drops to two columns.
+  <= 860px   Navigation switches to mobile mode. Masthead compresses.
+             Dropdowns become accordions. The drawer is toggled by
+             .mobile-nav-toggle with aria-expanded.
+  <= 768px   Tables reduce padding and font size. Cards reduce padding.
+             Victims grid becomes one column.
+  <= 480px   Masthead title to 1.75rem. Topbar to 0.7rem. Footer bottom stacks.
+
+6.2 NAVIGATION BEHAVIOR (as implemented in nav.js v2.0)
+-------------------------------------------------------
+  - Toggle button flips .is-open and aria-expanded, and swaps MENU/CLOSE text
+    and icon.
+  - Clicking outside the nav closes the drawer.
+  - At <= 860px, clicking the arrow toggles that item's accordion and prevents
+    the default link action.
+  - At > 860px, focus opens a dropdown and focusout closes it.
+  - Escape closes all dropdowns and the drawer, and returns focus to the
+    toggle button.
+  - Active state is derived from the current filename.
+
+DECISION 6.2 - LOCKED
+  Retain this behavior unchanged. It is already accessible, keyboard-operable
+  and requires no new JavaScript. Phase D must not replace it with a
+  CSS-only hover menu, which would break touch and keyboard parity.
+
+6.3 TABLE BEHAVIOR ON SMALL SCREENS
+-----------------------------------
+  .timeline-table-wrapper and .data-table-wrapper provide horizontal scroll.
+  At 768px, padding and font size reduce rather than the table restacking.
+
+DECISION 6.3 - LOCKED
+  Tables scroll horizontally. They do not become stacked cards. Rationale:
+  Table 1 carries five columns with long biographical text, and Table 2 carries
+  four columns with dates, and a stacked-card transformation destroys column
+  comparison, which is the entire point of a register.
+
+  REQUIREMENT: every scroll wrapper must be focusable (tabindex="0") and carry
+  an accessible name describing the table, so keyboard users can scroll it.
+
+  GAP FOUND: the shipped wrappers do not set tabindex. This is an
+  accessibility defect to fix in Phase D, not a design change.
+
+6.4 FOOTNOTES AND CITATIONS ON SMALL SCREENS
+--------------------------------------------
+  - Superscripts remain inline. They are not converted to endnote markers.
+  - The footnote list remains at the page foot, single column.
+  - Tapping a citation jumps to the footnote; the backref returns to the
+    citation.
+  - Because overview.html currently reuses ref-N IDs, the backref cannot
+    reliably return to the correct occurrence on any screen size. See 7.10.
+
+6.5 EXPANDABLE OVERVIEW ON THE HOMEPAGE
+---------------------------------------
+  - Collapsed state shows approximately 15-20 lines plus a fade overlay.
+  - Expanded state shows the full feature and swaps the control to "Show less".
+  - Expansion never navigates away.
+  - "Read more -> /overview" is a separate control from expand/collapse.
+
+DECISION 6.5 - LOCKED
+  Retain. On mobile the expanded state must not trap scroll and must not push
+  the footer beyond a reasonable scroll depth; if the feature exceeds roughly
+  four screens, the expand control must remain reachable via a sticky action
+  bar. .expand-actions-bar already exists for this purpose.
+
+6.6 TOUCH TARGETS
+-----------------
+  Minimum 44x44 CSS pixels for any interactive control.
+  Current nav links and toggle satisfy this. Citation superscripts do not and
+  are exempt as inline text references, provided the corresponding footnote
+  backref is at least 44px in its tappable area.
+
+DECISION 6.6 - LOCKED
+  Footnote backrefs must be padded to a 44px target on screens <= 860px.
+
+6.7 SIGN-OFF
+------------
+  Nav behavior decided ......... LOCKED (no rewrite)
+  Table behavior decided ....... LOCKED (scroll, not stack)
+  Table a11y gap recorded ...... tabindex missing on wrappers
+  Footnote behavior decided .... LOCKED
+  Touch target rule ............ LOCKED
+  New breakpoints .............. NONE
+
+
+================================================================================
+PART 7 - CITATION MECHANICS (FINAL)
+================================================================================
+
+7.1 THE PROBLEM, STATED PRECISELY
+---------------------------------
+Phase 1 produced seven independent numbered registers:
+
+  TAB  REGISTER              SCHEME        ENTRIES
+  ---  --------------------  ------------  -------
+  01   Overview              [1]-[41]         41
+  02   Victims               [1]-[27]         27
+  03   Timeline              [1]-[33]         33
+  04   Context               [SRC-01]-[32]    32
+  05   Case                  [A 1-32][B 1-33] 65
+  06   Analysis              [SRC-01]-[36]    36
+  07   Impact                [SRC-01]-[52]    52
+  ---  --------------------  ------------  -------
+  TOTAL LOCAL ENTRIES                        286
+
+The same source appears under different numbers in different tabs. The FBI
+Vault FOIA release alone is Timeline [1], Victims [2], Overview [1] and Case
+[1]. The Washington Post's January 14, 1992 plea report is Timeline [18],
+Case [10] and Overview [18].
+
+Four numbering schemes coexist: bare [n], [SRC-nn], a dual A/B register, and a
+subset of the same sources under both. Any attempt to impose one global
+sequence would renumber locked files and invalidate every citation already
+written into seven locked plans.
+
+7.2 DECISION: A PERMALINK LAYER, NOT A RENUMBERING
+--------------------------------------------------
+DECISION 7.2 - LOCKED
+
+  1. No tab is renumbered. Every local number keeps its current meaning
+     forever.
+  2. A canonical identifier is added as a PERMALINK, not as a replacement
+     number.
+  3. The canonical ID is stable, human-readable and derived from the source
+     itself, not from its position in any list.
+  4. /sources.html presents two views: by tab (local numbers preserved) and by
+     source (deduplicated, no numbers assigned).
+  5. A build-time generator produces the canonical map and fails the build if
+     any local entry cannot be mapped.
+
+This gives one resolvable identity per source without touching a single locked
+file.
+
+7.3 CANONICAL ID GRAMMAR
+------------------------
+FORM:   <outlet-or-body>-<disambiguator>
+ANCHOR: #src-<canonical-id>
+
+Lowercase kebab-case. No numbering. Dates are ISO-ish: YYYY-MM-DD.
+
+  PRIMARY ARCHIVAL / JUDICIAL / STATUTORY
+    fbi-vault
+    wi-complaint-f912542
+    oh-cr-91-08-1686
+    wi-f882410
+    wis-971-15
+    wis-971-165
+    wis-805-09-2
+    sinthasomphone-1992
+    sinthasomphone-1993
+    sinthasomphone-1995
+    weinberger-1997
+    balcerzak-1998
+    bell-1984
+    wi-doc-1994
+    courttv-1992
+
+  CONTEMPORARY JOURNALISM (outlet + date)
+    nyt-1991-07-24
+    nyt-1991-07-26
+    nyt-1991-07-31
+    nyt-1994-11-29
+    wapo-1991-07-29
+    wapo-1992-01-14
+    wapo-1992-02-16
+    upi-1991-07-23
+    upi-1991-09-06
+    mjs-2022-09-28
+    chitrib-1991-07-29
+    marquette-ap-1991-07-26
+
+  SCHOLARLY / MEMOIR / BROADCAST
+    omeara-2009
+    jentzen-2017
+    lankford-hayes-2022
+    kennedy-2022
+    inside-edition-1993
+
+DISAMBIGUATION RULES
+  - Two items from the same outlet on the same date take a letter suffix:
+    -b, -c, in order of first citation in the earliest locked register.
+  - A source with no publication date uses its award or filing year:
+    sinthasomphone-1992.
+  - A multi-part primary release is ONE canonical source with part-level
+    locators. The FBI Vault is one ID, not fourteen.
+
+7.4 WORKED EXAMPLES
+-------------------
+EXAMPLE A - THE DEDUPLICATION THAT MATTERS MOST
+
+  FBI Vault FOIA release
+    canonical id:   fbi-vault
+    anchor:         #src-fbi-vault
+    local numbers:  Timeline [1], Victims [2], Overview [1], Case [1]
+    By Tab view:    four rows across four sections, each linking to
+                    #src-fbi-vault
+    By Source view: ONE entry, listing four tab locators
+
+EXAMPLE B - A CONTEMPORARY REPORT CITED THREE TIMES
+
+  Washington Post, "Dahmer Pleads Guilty, Insane in 15 Slayings", 1992-01-14
+    canonical id:   wapo-1992-01-14
+    anchor:         #src-wapo-1992-01-14
+    local numbers:  Timeline [18], Case [10], Overview [18]
+    By Tab view:    three rows, one per section
+    By Source view: one entry with three locators
+
+EXAMPLE C - A SOURCE UNIQUE TO ONE TAB
+
+  UPI, "Lao Youth Mourned" (1991-08-02), cited only as Victims [19]
+    canonical id:   upi-1991-08-02
+    By Source view: one entry, one locator
+
+7.5 DATA MODEL
+--------------
+Build input, not runtime dependency. The page must render over file://, so the
+data is compiled into static HTML at build time. No fetch() at runtime.
+
+  assets/data/sources.json
+  {
+    "generated": "2026-10-26",
+    "canonical": [
+      {
+        "id": "wapo-1992-01-14",
+        "tier": "contemporary",
+        "type": "newspaper",
+        "citation": "The Washington Post - \"Dahmer Pleads Guilty, Insane in 15
+                     Slayings\" (January 14, 1992).",
+        "url": "https://www.washingtonpost.com/archive/...",
+        "appears_in": [
+          { "tab": "timeline", "local": 18 },
+          { "tab": "case",     "local": 10 },
+          { "tab": "overview", "local": 18 }
+        ],
+        "notes": ""
+      }
+    ]
+  }
+
+  assets/data/route-aliases.json
+  {
+    "aliases": [
+      { "alias": "investigation", "page": "case.html",
+        "target": "investigation-arrest", "category": "B" },
+      { "alias": "/topics/systemic-failures",
+        "target": "analysis.html#systemic-failures", "category": "A" }
+    ]
+  }
+
+7.6 DEDUPLICATION RULES
+-----------------------
+Two entries are the SAME source when any of these hold:
+
+  1. Identical normalized URL. Normalization strips protocol, www., trailing
+     slash, query tracking parameters and fragment.
+  2. Identical court case number and court.
+  3. Identical statutory section citation.
+  4. Identical outlet plus identical publication date plus identical headline.
+  5. Identical DOI.
+
+Two entries are NOT merged when:
+  - Same outlet, same date, different headline (letter suffix applies).
+  - Same event, different publication (each is its own source).
+  - A retrospective and a contemporary piece on the same event.
+
+The generator MUST emit a report listing every merge it performed and every
+near-miss it declined, so the deduplication is auditable rather than silent.
+
+7.7 DISPLAY NUMBERING
+---------------------
+  ON ARTICLE PAGES
+    Local numbers only. overview.html uses [1]-[41]; victims.html uses
+    [1]-[27]; and so on. Unchanged from the locked plans.
+
+  ON /sources.html, BY TAB VIEW
+    One section per tab, each reproducing that tab's local register in order.
+    Numbers restart per section. This mirrors the locked plans exactly.
+
+  ON /sources.html, BY SOURCE VIEW
+    No numbers at all. Entries are ordered by tier, then by canonical ID.
+    Each entry shows its canonical permalink and a list of "cited as" locators.
+
+DECISION 7.7 - LOCKED
+  No global display number is ever assigned. A source is addressed by
+  permalink, never by a master ordinal. This removes an entire class of future
+  renumbering error.
+
+7.8 CITATION DISPLAY MODES
+--------------------------
+MODE A - GRANULAR (article pages)
+  A superscript [n] per claim cluster, resolving to a page-foot footnote.
+  Use for: overview, victims, timeline, context, case, analysis, impact.
+  Density rule: no more than one superscript per sentence, placed at the end
+  of the cited clause, immediately after punctuation.
+
+MODE B - BLOCK (homepage)
+  No superscripts. Each homepage module ends with a single line:
+    "Sources for this section: [list of links]"
+  Use for: index.html feature, milestone table, research inquiries.
+  Rationale: the homepage is a front page, not an article. Twenty superscripts
+  in a 300-word feature is visual noise and undermines the expandable layout.
+
+MODE C - ATTRIBUTIVE (contested claims, any page)
+  A named attribution in prose plus a footnote:
+    "According to the FBI teletype, officers arrived at approximately 11:30
+     p.m. [1]"
+  Use whenever a claim is ATTRIBUTED or DISPUTED under the certainty tiers.
+  This is mandatory for expert testimony and for Dahmer's own statements.
+
+7.9 FOOTNOTE MARKUP CONTRACT
+----------------------------
+REQUIRED SHAPE
+
+  Citation:
+    <sup class="citation"><a href="#fn-7" id="ref-7">[7]</a></sup>
+
+  Second and later citations of the same footnote on the same page:
+    <sup class="citation"><a href="#fn-7" id="ref-7-2">[7]</a></sup>
+    <sup class="citation"><a href="#fn-7" id="ref-7-3">[7]</a></sup>
+
+  Footnote:
+    <li id="fn-7">
+      Citation text.
+      <a class="footnote-backref" href="#ref-7"
+         aria-label="Back to reference 7">&#8617;</a>
+      <a class="footnote-backref" href="#ref-7-2"
+         aria-label="Back to reference 7, second occurrence">&#8617;</a>
+    </li>
+
+RULES
+  1. Every id is unique in the document.
+  2. Every footnote lists one backref per citation occurrence.
+  3. Every footnote ends with a permalink to #src-<canonical-id>.
+  4. Footnote text is the full citation on first use; short form on later
+     pages is not permitted because each page is an independent document.
+  5. No footnote may be defined but never cited, and none cited but undefined.
+
+7.10 DEFECT FOUND IN THE SHIPPED PAGE
+-------------------------------------
+overview.html contains 83 id attributes but only 67 unique values. Sixteen are
+duplicates:
+
+  ref-7  x4     ref-1  x4     ref-17 x3     ref-3  x3
+  ref-9  x2     ref-13 x2     ref-5  x2     ref-4  x2
+  ref-6  x2     ref-2  x2
+
+CONSEQUENCE: every backref of type ref-N jumps to the FIRST occurrence of that
+ID, not the occurrence the reader came from. On a long page this means clicking
+the back arrow after footnote 7 can return the reader to an unrelated earlier
+citation. It also fails HTML validation.
+
+CLASSIFICATION: BLOCKING for overview.html only. It does not block any other
+page and does not block Phase D from starting on sources.html.
+
+FIX (Phase D, when overview.html is rebuilt): apply the ref-N-M suffix scheme in
+7.9 and emit one backref per occurrence.
+
+7.11 /sources.html ARCHITECTURE
+-------------------------------
+TWO VIEWS, ONE PAGE, NO JAVASCRIPT REQUIRED
+
+  VIEW 1 - BY TAB (default)
+    Nine sections, matching the nine pages. Each section reproduces that tab's
+    locked register with its local numbers. Anchor: #sources-<tab>.
+    A source cited in three tabs appears three times, each time linking to the
+    same canonical anchor. That redundancy is intentional: readers arrive by
+    tab, not by bibliography.
+
+  VIEW 2 - BY SOURCE (deduplicated)
+    Five tier sections, no numbers. Each entry carries the canonical permalink
+    and a "cited as" list. Anchor: #src-<canonical-id>.
+
+  VIEW SWITCH
+    Implemented as anchor links to #by-tab and #by-source. CSS :target reveals
+    the selected view. No JavaScript, no fetch, works over file://.
+    Default view is #by-tab. If neither target is present, both views render
+    sequentially rather than hiding one, so the page degrades safely.
+
+REQUIRED PAGE ANCHORS
+  #key-sources        (nav target; points to the by-source view)
+  #methodology        (nav target; the editorial standards section)
+  #by-tab
+  #by-source
+  #sources-overview, #sources-victims, #sources-timeline, #sources-context,
+  #sources-case, #sources-analysis, #sources-impact
+
+7.12 BUILD-TIME GENERATION
+--------------------------
+  tools/build_sources.mjs
+    INPUT   seven locked registers (parsed, not retyped)
+    OUTPUT  sources.html
+            assets/data/sources.json
+            assets/data/route-aliases.json
+            a merge report on stdout
+
+  RULES
+    - Never hand-type a citation into sources.html. It is generated or it does
+      not exist.
+    - The generator fails if a register entry cannot be parsed.
+    - The generator fails if a canonical ID collides.
+    - The generator reports the canonical count; this specification does not
+      assert one, because it has not been measured.
+
+  WHY NOT RUNTIME FETCH
+    The archive is opened as static files. fetch() of a local JSON file is
+    blocked by browser security on file://. Generating static HTML keeps the
+    site openable by double-click, which is how it has been reviewed so far.
+
+7.13 REQUIRED VALIDATION TESTS
+------------------------------
+  test_citations.js
+    - every [n] has a defined footnote
+    - every footnote has at least one citation
+    - no duplicate DOM ids
+    - every footnote links to a canonical id that exists in sources.json
+
+  test_routes.js
+    - every href resolves to an existing file
+    - every fragment resolves to an existing id in the target file
+    - all 18 nav links identical across all 9 pages
+    - every alias resolves to exactly one canonical target
+    - no CATEGORY C token appears in shipped HTML
+
+  test_sources_page.js
+    - every local register entry appears exactly once in the by-tab view
+    - every canonical id appears exactly once in the by-source view
+    - every canonical id has at least one local locator
+    - sum of locators equals the sum of register entries (286 at lock time)
+
+7.14 SIGN-OFF
+-------------
+  Architecture decided ......... LOCKED (permalink layer)
+  Renumbering .................. PROHIBITED
+  ID grammar ................... LOCKED
+  Display modes ................ LOCKED (A, B, C)
+  Footnote contract ............ LOCKED
+  Shipped defect ................ 16 duplicate ids, blocking for overview only
+  Generation ................... BUILD-TIME, no runtime fetch
+  Tests required ............... 3 named above
+
+
+================================================================================
+PART 8 - IMAGE TREATMENT (FINAL)
+================================================================================
+
+8.1 GOVERNING POLICY
+--------------------
+The archive is a documentary record about people who were killed and about the
+institutions that failed them. Imagery serves identification, context and
+accountability. It does not serve atmosphere.
+
+8.2 PERMITTED CATEGORIES
+------------------------
+  1. Redacted archival documents (FBI pages, charging documents, docket sheets)
+     where the source is public and the redaction is already part of the record.
+  2. Architectural and streetscape images of locations that are public and
+     non-sensational: the Oxford Apartments site before demolition, the
+     courthouse, the Milwaukee streetscape.
+  3. Maps and diagrams produced by this project (segregation maps, timelines,
+     institutional flow diagrams).
+  4. Typographic plates carrying dates, statutes or document excerpts.
+  5. Photographs of public events (courthouse arrivals, council meetings) where
+     rights are documented.
+
+8.3 PROHIBITED CATEGORIES (BINDING)
+-----------------------------------
+  1. Crime-scene photographs of any kind.
+  2. Autopsy, remains, or forensic imagery, including redacted versions.
+  3. Photographs of victims' remains or of the interior of Apartment 213
+     showing remains.
+  4. Prison photographs of the perpetrator presented for spectacle.
+  5. AI-generated or composited "reconstructions" presented as archival.
+  6. Any image whose rights basis is undocumented.
+
+8.4 PER-ASSET CONTRACT
+----------------------
+Every shipped image must carry, in this order:
+
+  <figure class="visual-container">
+    <img src="..." alt="[content description]" width="..." height="...">
+    <figcaption class="visual-caption">
+      [Caption text]. [Credit]. [Date]. [Rights status].
+    </figcaption>
+  </figure>
+
+  ALT TEXT RULE
+    Describe what the image shows and why it matters. Never begin with "Image
+    of" or "Picture of". Decorative images use alt="" and are not figures.
+
+  RIGHTS RULE
+    Rights status is one of: PUBLIC DOMAIN, GOVERNMENT RECORD, LICENSED,
+    PERMISSION GRANTED, FAIR USE (with rationale). "UNKNOWN" is not permitted
+    and means the asset does not ship.
+
+  DIMENSION RULE
+    width and height attributes are mandatory to prevent layout shift. Use the
+    intrinsic ratio; CSS scales.
+
+8.5 RIGHTS AND DIGNITY
+----------------------
+  - Victim portraits are permitted only where the family or a licensed
+    publication has made them public, and only with a credit.
+  - No image may be used to illustrate a theory. Images illustrate records.
+  - The non-graphic standard in 08_sources_by_tab is restated here as binding
+    for every page, not only Victims.
+
+8.6 SIGN-OFF
+------------
+  Policy decided ............... LOCKED
+  Prohibited list .............. LOCKED (6 categories)
+  Per-asset contract ........... LOCKED
+  Rights clearance ............. PER-ASSET, editorial action
+  Phase D may ship unlicensed images ... NO
+
+
+================================================================================
+PART 9 - DISCREPANCY REGISTER
+================================================================================
+
+9.1 PURPOSE
+-----------
+Phase C is the last point at which a factual conflict can be decided cheaply.
+Once pages are built, a conflict becomes a content bug. This register records
+every known conflict, its evidence, and the display rule Phase D must follow.
+
+Status values:
+  DECIDED   A display rule is set here and is binding.
+  RETAINED  The locked plan already states both values with attribution. Keep
+            it that way; do not "resolve" it by picking one.
+  BLOCKING  Cannot be decided without consulting a primary document.
+
+9.2 OPEN ITEMS
+--------------
+D-01  CHEMICAL DRUM CAPACITY
+  Conflict:  55-gallon vs 57-gallon.
+  Evidence:  FBI Part 7 records a 55-gallon drum. The source directory's own
+             cover note (08_sources_by_tab.txt, line 696) says 57-gallon.
+             overview.html line 205 says 57-gallon.
+  Problem:   The project contradicts itself, and the live page asserts the
+             value the primary record does not support.
+  STATUS:    DECIDED
+  RULE:      Display 55-gallon, attributed to the FBI record. Do not repeat the
+             capacity in body prose unless the sentence is about the drum
+             specifically. If a note is wanted, say that contemporaneous
+             reporting varied. The 57-gallon figure is retired.
+
+D-02  STEVEN TUOMI DEATH DATE
+  Conflict:  FBI interview record says "around 1986 or 1987". Last-seen date is
+             September 15, 1987.
+  STATUS:    RETAINED
+  RULE:      Never present a precise death date. Use "September 1987" in prose,
+             with the uncertainty marker carried in the Timeline and Victims
+             tabs. Do not compute an age from an assumed death date.
+
+D-03  JAMES DOXTATOR LAST-KNOWN DATE
+  Conflict:  Press accounts say January 1988. FBI describes spring 1988.
+  STATUS:    RETAINED
+  RULE:      Table 1 already states both with attribution. Keep that wording.
+             Prose should say "early 1988" and link to Table 1.
+
+D-04  CURTIS STRAUGHTER LAST-SIGHTING DATE
+  Conflict:  February 18, 1991 (grandmother's statement in complaint and FBI)
+             vs March 7, 1991 (Milwaukee Journal Sentinel).
+  STATUS:    RETAINED
+  RULE:      Keep both, attributed. Do not use either date to compute an age
+             without the asterisk convention.
+
+D-05  SIX AGE DISCREPANCIES
+  Subjects:  Guerrero, Raymond Smith, Edward Smith, Ernest Miller,
+             Curtis Straughter, Oliver Lacy.
+  STATUS:    RETAINED
+  RULE:      The asterisk convention in Table 1 governs. Any page repeating an
+             age must carry the asterisk and link to the Table 1 legend.
+
+D-06  JENTZEN ET AL. 1994, "DESTRUCTIVE HOSTILITY"
+  Conflict:  Withdrawn article still circulates as if authoritative.
+  STATUS:    DECIDED
+  RULE:      Never cited as live support. May appear only as a historical
+             artifact of contemporary debate, explicitly labelled WITHDRAWN.
+
+D-07  LANKFORD & HAYES 2022
+  Conflict:  Widely summarized as establishing "serial killing addiction".
+  STATUS:    DECIDED
+  RULE:      Present strictly as a single-case analogy to DSM-5 substance-use
+             criteria, attributed to the authors. Never as a diagnosis and
+             never as consensus.
+
+D-08  FIVE EDITORIAL SUPERLATIVES
+  Subjects:  "one of the most prolonged and consequential serial murder
+             series"; "large number of Black victims"; "many encounters
+             occurred around Milwaukee's LGBTQ nightlife"; "questions of
+             visibility, vulnerability and institutional response"; "the
+             significance of the case extends beyond the crimes themselves."
+  STATUS:    DECIDED
+  RULE:      Rewrite per Overview lock Section D. The quantified replacement
+             for victim demographics is 11 of 17 Black, per the Sinthasomphone
+             federal record. The remaining four are either narrowed to sourced
+             statements or explicitly framed as the project's assessment.
+
+D-09  ROUTE VARIANTS
+  Status:    See Part 5.8. R-04, R-29, R-36 and R-37 carried.
+
+9.3 RESOLVED ITEMS RETAINED FOR THE RECORD
+------------------------------------------
+  - 17 confessed killings, 16 murder convictions, 11 sets of remains recovered
+    from Apartment 213. Three numbers, three meanings, never interchangeable.
+  - Tuomi excluded from prosecution for want of corpus delicti. This is the
+    documented reason 17 confessed does not equal 17 convicted.
+  - "Convicted by a jury" is prohibited for the Wisconsin counts. He pleaded;
+    the jury adjudicated legal responsibility under Wis. Stat. 971.165.
+  - The Sinthasomphone settlement carries "without admission of liability".
+
+9.4 SIGN-OFF
+------------
+  Items registered ............. 9
+  Decided ...................... 4 (D-01, D-06, D-07, D-08)
+  Retained as attributed ....... 4 (D-02 to D-05)
+  Blocking ..................... 0
+
+
+================================================================================
+PART 10 - BUILD READINESS MATRIX
+================================================================================
+
+10.1 MATRIX
+-----------
+  PAGE            CONTENT  REGISTER  ANCHORS  COMPONENTS  CONDITION
+  --------------  -------  --------  -------  ----------  ----------------
+  index.html        YES      YES       n/a      YES        Rework: 0 citations
+  overview.html     YES      YES       YES      YES        Rework: 5 flags,
+                                                            22 vs 41 notes,
+                                                            16 duplicate ids
+  victims.html      YES      YES       YES      YES        Clear to build
+  timeline.html     YES      YES       YES      YES        Clear to build
+  context.html      YES      YES       YES      YES        Clear to build
+  case.html         YES      YES       YES      YES        4 dangling inbound
+                                                            links repaired by
+                                                            #offense-series;
+                                                            R-04 carried
+  analysis.html     YES      YES       YES      YES        Canonical anchors are
+                                                            #topics-*; aliases
+                                                            per R-06 to R-09
+  impact.html       YES      YES       YES      YES        Canonical anchors per
+                                                            R-10 to R-16; 153
+                                                            detail anchors
+  sources.html      YES      YES       n/a      NO         New generator and
+                                                            4 components
+
+10.2 BLOCKERS
+-------------
+  B-01  sources.html has no generator and no component vocabulary.
+        Resolution: Part 7.3-7.13 and Part 4.4. Owner: first Phase D step.
+  B-02  overview.html duplicate IDs and stale footnote coverage.
+        Resolution: Part 7.9 and Overview lock Section D. Owner: second step.
+  B-03  index.html carries zero citations.
+        Resolution: Overview lock Section C, Mode B block citations. Owner:
+        second step.
+  B-04  Table wrappers lack tabindex.
+        Resolution: Part 6.3. Owner: whichever page ships the table.
+  B-05  Four cross-tab links point at /case#offense-series, which the Case plan
+        never declares. Context line 862; Theories lines 275, 359, 458.
+        Resolution: emit #offense-series as the Case Part A Tier 1 wrapper
+        (Part 5.4.4). Owner: case.html build step.
+
+10.3 RECOMMENDED BUILD ORDER
+----------------------------
+  1. sources.html
+     Build the generator, emit sources.json, route-aliases.json and the static
+     page. This validates the entire citation architecture against all 286
+     local entries before any article page depends on it.
+
+  2. overview.html + index.html
+     Rebuild together. Resolve the five flags, expand footnotes to the 41-entry
+     register, fix the duplicate-ID defect, add block citations to the homepage
+     feature and milestone table.
+
+  3. victims.html
+     Largest data page, most complete underlying material (27 entries, 17
+     canonical slugs). Establishes the card and table patterns the later pages
+     reuse.
+
+  4. timeline.html
+     Already has 44 cited milestones and a tested anchor set.
+
+  5. context.html
+  6. case.html          (emit #offense-series wrapper first; resolve R-04)
+  7. analysis.html
+  8. impact.html        (184 anchors; last because it depends on the most
+                         cross-tab links)
+
+RATIONALE
+  sources.html first is counter-intuitive but correct: it is the only page that
+  exercises every register at once. Building it first means any architecture
+  defect surfaces before seven pages depend on it.
+
+10.4 SIGN-OFF
+-------------
+  Phase D may begin ............. YES
+  First step .................... sources.html
+  Pages clear to build now ...... 3 (victims, timeline, context)
+  Pages requiring rework ........ 2 (index, overview)
+  Page requiring new tooling .... 1 (sources)
+  Pages with carried route items  2 (case, timeline)
+
+
+================================================================================
+PART 11 - SIGN-OFF
+================================================================================
+
+11.1 CHECKLIST
+--------------
+  [x] Typography decided and documented
+  [x] Colors decided, with 15/15 measured contrast passes
+  [x] Spacing and breakpoints decided
+  [x] Card hierarchy decided (four levels, no nesting)
+  [x] Route architecture decided (9 pages, 18 nav links, 4 alias categories)
+  [x] Two-tier anchor model defined (15 Tier 1, plan Tier 2)
+  [x] Nav-versus-plan anchor drift measured and absorbed
+  [x] 4 dangling cross-tab links identified and repaired by wrapper
+  [x] 40 route conflicts dispositioned
+  [x] Mobile behavior decided
+  [x] Citation mechanics decided (permalink layer, no renumbering)
+  [x] Image treatment policy decided
+  [x] Discrepancy register compiled (9 items, 0 blocking)
+  [x] Build readiness assessed per page
+  [x] Build order set
+
+11.2 DECLARATION
+----------------
+The design and citation specification for the Dahmer Case Archive is FINAL and
+LOCKED as of 2026-10-26.
+
+Phase D is authorized to begin at Part 10.3, step 1.
+
+No locked tab plan is amended by this document. All route reconciliation is
+achieved by aliasing, all citation reconciliation by permalink. The seven
+registers retain their numbering intact and permanently.
+
+11.3 WHAT THIS UNLOCKS
+----------------------
+  - sources.html can be built without a further numbering decision.
+  - The two live pages can be brought into compliance with the Overview lock.
+  - The remaining five pages can be built in dependency order.
+  - The three required test suites can be written against a stated contract
+    rather than an inferred one.
+
+11.4 WHAT THIS DOES NOT UNLOCK
+------------------------------
+  - Shipping any page with an undefined canonical source.
+  - Renumbering a locked register.
+  - Adding a webfont, a fifth breakpoint or a seventh card variant.
+  - Shipping an image without a documented rights basis.
+  - Reintroducing the 57-gallon figure, the "convicted by a jury" formulation,
+    or any of the five editorial superlatives.
+
+
+================================================================================
+APPENDIX A - NAVIGATION CONTRACT (VERBATIM)
+================================================================================
+
+  01  overview.html                              Overview                    PAGE
+  02  victims.html                               Victims                     PAGE
+  03  timeline.html                              Timeline                    PAGE
+  04  context.html#milwaukee-context             Milwaukee: 1987-1991        NEW
+  05  context.html#early-life                    Early Life & Background     ALIAS
+  06  case.html#offense-series                   The Offense Series          NEW
+  07  case.html#investigation-arrest             Investigation & Arrest      NEW
+  08  case.html#trial-proceedings                Trial & Legal Proceedings   NEW
+  09  analysis.html#systemic-failures            Systemic Failures           ALIAS
+  10  analysis.html#psychological-profile        Psychological Profile       ALIAS
+  11  analysis.html#theories-motivations         Theories & Motivations      ALIAS
+  12  impact.html#community-impact               Community & Civic Impact    NEW
+  13  impact.html#social-reform                  Social Impact & Reform      ALIAS
+  14  impact.html#media-portrayal                Media & Cultural Portrayal  ALIAS
+  15  impact.html#modern-reexamination           Modern Re-examination       NEW
+  16  impact.html#full-conclusion                Full Research Conclusion    NEW
+  17  sources.html#key-sources                   Key Sources & Bibliography  NEW
+  18  sources.html#methodology                   Methodology & Standards     NEW
+
+  Count: 18 links across 9 pages. All 18 must resolve on all 9.
+
+  STATUS is measured against the locked plans, not against intent:
+    PAGE   3 links require no fragment.
+    ALIAS  6 anchors are declared by a plan as an alias of a Tier 2 canonical.
+    NEW   9 anchors are declared by no plan: 7 navigation fragments and the 2
+           sources.html anchors defined in Part 7.11.
+
+  Implementation: all 15 navigation fragments are emitted as Tier 1 page-level
+  sections (Part 5.4.2), whether or not a plan alias also exists. The ALIAS
+  status records provenance, not a different mechanism. The two sources anchors
+  are specified in Part 7.11.
+
+  Per-link detail and the resolutions behind each status: Part 5.4.2 to 5.4.4.
+
+
+================================================================================
+APPENDIX B - VICTIM ANCHOR REGISTRY
+================================================================================
+
+  CANONICAL SLUG            ALIAS              ORDER  NAME
+  ------------------------  -----------------  -----  --------------------------
+  steven-hicks              -                     1    Steven Mark Hicks
+  steven-tuomi              -                     2    Steven Walter Tuomi
+  james-doxtator            jamie-doxtator        3    James Edward Doxtator
+  richard-guerrero          -                     4    Richard Guerrero
+  anthony-sears             -                     5    Anthony Lee Sears
+  raymond-smith             -                     6    Raymond Smith
+  edward-smith              eddie-smith           7    Edward Smith
+  ernest-miller             -                     8    Ernest Miller
+  david-thomas              -                     9    David Thomas
+  curtis-straughter         -                    10    Curtis Straughter
+  errol-lindsey             -                    11    Errol Lindsey
+  anthony-hughes            tony-hughes          12    Anthony Hughes
+  konerak-sinthasomphone    -                    13    Konerak Sinthasomphone
+  matt-turner               -                    14    Matt Turner
+  jeremiah-weinberger       -                    15    Jeremiah Weinberger
+  oliver-lacy               -                    16    Oliver Lacy
+  joseph-bradehoft          -                    17    Joseph Bradehoft
+
+  Registry of record: tests/test_victim_slugs.js
+  Aliases: 3. Canonical slugs: 17.
+
+
+================================================================================
+APPENDIX C - ROUTE CONFLICT SUMMARY
+================================================================================
+
+  RESOLVED BY CATEGORY A (page alias rewrite, 8)
+    R-06, R-07, R-08, R-10, R-11, R-12, R-13
+    R-28  cross-page: timeline #probation -> context
+          #probation-supervision-failure
+
+  RESOLVED BY CATEGORY B (section alias, dual emit, 20)
+    R-05, R-09, R-14, R-15, R-16, R-17, R-18, R-19, R-20, R-21, R-22, R-23,
+    R-24, R-25, R-26, R-27, R-30, R-31, R-32, R-33
+
+  RESOLVED BY CATEGORY D (page-level wrapper, 4)
+    R-01  #offense-series        also repairs 4 dangling inbound links
+    R-02  #investigation-arrest
+    R-03  #trial-proceedings
+    R-39  nav anchor drift       grouped finding covering 7 nav anchors
+          (R-01, R-02 and R-39 are compound: D primary, B alias also required)
+
+  CARRIED (4)
+    R-04  three names for the arrest/discovery block
+    R-29  ambiguous apartment-discovery anchor
+    R-36  malformed timeline path
+    R-37  case-name used as a route
+
+  CATEGORY C, NOT ROUTES (4)
+    R-34  /case/reporter
+    R-35  /victims/sources
+    R-38  #victim-slug
+    R-40  #historiographical-eval.  truncated table artifact
+
+  TOTAL DISPOSITIONED: 40
+
+
+================================================================================
+APPENDIX D - FULL LOGICAL ROUTE INVENTORY
+================================================================================
+
+Extracted from every file in plan/ (229 unique logical routes). This appendix
+is evidence, not policy: the binding dispositions are in Part 5.8 and Appendix
+C. Any route not listed as a conflict there is canonical-by-default and must be
+validated by the Phase D route test.
+
+STATUS LEGEND
+  ALIAS      Matches a conflict resolution in Part 5.8
+  TEMPLATE   Placeholder token, not a route
+  CANONICAL  No conflict recorded; treated as a real target
+
+  ROUTE                                          USES  STATUS
+  ---------------------------------------------  ----  ---------
+  /analysis                                         3  CANONICAL
+  /analysis#psychiatric-profile                     4  ALIAS
+  /case                                            64  CANONICAL
+  /case#anthony-sears                               2  CANONICAL
+  /case#apartment213-discovery                      2  CARRIED
+  /case#arrest-and-discovery                        3  CARRIED
+  /case#case-custody-death                          2  CANONICAL
+  /case#case-detective-interrogations               2  CANONICAL
+  /case#case-forensic-processing                    4  CANONICAL
+  /case#case-tracy-edwards-escape                   2  CARRIED
+  /case#case-trial-chronology                       6  CANONICAL
+  /case#case-victim-impact                          4  CANONICAL
+  /case#charging-amended                            2  CANONICAL
+  /case#charging-complaint                          2  CANONICAL
+  /case#curtis-straughter                           2  CANONICAL
+  /case#david-thomas                                2  CANONICAL
+  /case#eddie-smith                                 2  CANONICAL
+  /case#ernest-miller                               2  CANONICAL
+  /case#errol-lindsey                               2  CANONICAL
+  /case#experimentation                             4  CANONICAL
+  /case#investigation                               6  CANONICAL
+  /case#jamie-doxtator                              2  CANONICAL
+  /case#jeremiah-weinberger                         2  CANONICAL
+  /case#joseph-bradehoft                            2  CANONICAL
+  /case#konerak-sinthasomphone                      3  CANONICAL
+  /case#matt-turner                                 2  CANONICAL
+  /case#offense-series                              4  CANONICAL
+  /case#ohio-investigation                          2  CANONICAL
+  /case#ohio-sentencing                             2  CANONICAL
+  /case#oliver-lacy                                 2  CANONICAL
+  /case#perpetrator-background                      2  CANONICAL
+  /case#perpetrator-death                           2  CANONICAL
+  /case#prior-record                                2  CANONICAL
+  /case#raymond-smith                               2  CANONICAL
+  /case#richard-guerrero                            2  CANONICAL
+  /case#sanity-trial                               13  CANONICAL
+  /case#sentencing-1992                             4  CANONICAL
+  /case#statutory-split                             4  CANONICAL
+  /case#steven-hicks                                3  CANONICAL
+  /case#steven-tuomi                                2  CANONICAL
+  /case#tony-hughes                                 2  CANONICAL
+  /case#trial-plea                                  3  CANONICAL
+  /case#west-allis-series                           1  CANONICAL
+  /case/estate-of-sinthasomphone-v-milwaukee        3  CARRIED
+  /case/investigation                              11  ALIAS
+  /case/investigation#apartment-discovery           1  ALIAS
+  /case/investigation#forensic-processing           1  ALIAS
+  /case/investigation#tracy-edwards                 1  ALIAS
+  /case/offense-series                             15  ALIAS
+  /case/offense-series#anthony-sears                1  ALIAS
+  /case/offense-series#experimentation              1  ALIAS
+  /case/offense-series#konerak-sinthasomphone       2  ALIAS
+  /case/offense-series#steven-hicks                 2  ALIAS
+  /case/offense-series#victim-slug                  2  TEMPLATE
+  /case/reporter                                    8  NON-ROUTE
+  /case/trial                                      13  ALIAS
+  /case/trial#1989-sentencing                       1  CANONICAL
+  /case/trial#sanity-trial                          1  CANONICAL
+  /case/trial#sanity-verdict                        1  CANONICAL
+  /context                                         10  CANONICAL
+  /context#alcohol                                  1  CANONICAL
+  /context#avenues-west-oxford-apartments           3  CANONICAL
+  /context#early-life                               8  CANONICAL
+  /context#historical-context-synthesis             6  CANONICAL
+  /context#less-dead-framework                      2  CANONICAL
+  /context#lgbtq-community                          1  ALIAS
+  /context#macroeconomic-restructuring              1  CANONICAL
+  /context#military                                 2  CANONICAL
+  /context#milwaukee-lgbtq-history                  5  CANONICAL
+  /context#mpd-institutional-culture                7  CANONICAL
+  /context#oxford-apartments-profile                1  ALIAS
+  /context#policing-and-community-trust             1  CANONICAL
+  /context#pre-1988-legal-contacts                  2  CANONICAL
+  /context#probation-supervision-failure            7  CANONICAL
+  /context#residential-segregation                  4  CANONICAL
+  /context#revere-high-school-alcoholism            2  CANONICAL
+  /impact                                           9  CANONICAL
+  /impact#7-point-editorial-test                    2  CANONICAL
+  /impact#civic-uprising                            1  CANONICAL
+  /impact#civil-litig                               1  ALIAS
+  /impact#civil-litigation                         10  CANONICAL
+  /impact#community                                 2  CANONICAL
+  /impact#conclusion                                1  CANONICAL
+  /impact#digital-desensitization                   1  CANONICAL
+  /impact#estate-auction-buyout                     3  CANONICAL
+  /impact#federal-civil-rights                      3  CANONICAL
+  /impact#historical-witnesses                      2  CANONICAL
+  /impact#impact-overview                           1  CANONICAL
+  /impact#lgbtq-resilience                          2  CANONICAL
+  /impact#master-conclusion                        22  CANONICAL
+  /impact#media-ethics                              8  CANONICAL
+  /impact#modern-policing-parallels                 3  CANONICAL
+  /impact#netflix-flashpoint                        5  CANONICAL
+  /impact#officer-reinst                            1  ALIAS
+  /impact#officer-reinstatement                     9  CANONICAL
+  /impact#oxford-demol                              1  ALIAS
+  /impact#oxford-demolition                         6  CANONICAL
+  /impact#primary-sources                           2  CANONICAL
+  /impact#reform                                    2  CANONICAL
+  /impact#scarver-custodial-homicide                1  CANONICAL
+  /impact#victims-memory                            4  CANONICAL
+  /impact/community-civic-impact                    7  ALIAS
+  /impact/media-cultural-portrayal                  7  ALIAS
+  /impact/modern-re-examination                     8  ALIAS
+  /impact/social-impact-reform                      6  ALIAS
+  /overview                                        50  CANONICAL
+  /overview#conclusion                              9  ALIAS
+  /overview#overview-conclusion                     8  CANONICAL
+  /sources                                         15  CANONICAL
+  /sources#methodology                              4  CANONICAL
+  /timeline                                        24  CANONICAL
+  /timeline#apartment-discovery                     1  CARRIED
+  /timeline#chronological-timeline                 10  CANONICAL
+  /timeline#civil-litigation                        1  CANONICAL
+  /timeline#confession                              1  CANONICAL
+  /timeline#era-1                                   1  CANONICAL
+  /timeline#era-2                                   1  CANONICAL
+  /timeline#event-1978-hicks                        6  CANONICAL
+  /timeline#event-1981-bath-arrest                  1  CANONICAL
+  /timeline#event-1982-state-fair                   3  CANONICAL
+  /timeline#event-1986-arrest                       1  CANONICAL
+  /timeline#event-1987-tuomi-homicide               1  CANONICAL
+  /timeline#event-1987-tuomi-sighting               1  CANONICAL
+  /timeline#event-1988-assault                      4  CANONICAL
+  /timeline#event-1988-doxtator                     1  CANONICAL
+  /timeline#event-1988-guerrero                     1  CANONICAL
+  /timeline#event-1989-sears                        1  CANONICAL
+  /timeline#event-1989-sentencing                   1  CANONICAL
+  /timeline#event-1990-eddie-smith                  1  CANONICAL
+  /timeline#event-1990-miller                       1  CANONICAL
+  /timeline#event-1990-odor-complaints              2  CANONICAL
+  /timeline#event-1990-oxford-move                  3  CANONICAL
+  /timeline#event-1990-probation-release            2  CANONICAL
+  /timeline#event-1990-smith                        1  ALIAS
+  /timeline#event-1990-thomas                       1  CANONICAL
+  /timeline#event-1991-bradehoft                    1  CANONICAL
+  /timeline#event-1991-edwards-escape               2  CANONICAL
+  /timeline#event-1991-hughes                       1  CANONICAL
+  /timeline#event-1991-lacy                         1  CANONICAL
+  /timeline#event-1991-lindsey                      1  CANONICAL
+  /timeline#event-1991-officer-suspensions          4  CANONICAL
+  /timeline#event-1991-sinthasomphone              10  CANONICAL
+  /timeline#event-1991-straughter                   1  CANONICAL
+  /timeline#event-1991-turner                       1  CANONICAL
+  /timeline#event-1991-weinberger                   1  CANONICAL
+  /timeline#event-1992-federal-litigation           3  CANONICAL
+  /timeline#event-1992-insanity-plea                1  CANONICAL
+  /timeline#event-1992-ohio-sentencing              1  CANONICAL
+  /timeline#event-1992-oxford-demolition            3  CANONICAL
+  /timeline#event-1992-sanity-trial                19  CANONICAL
+  /timeline#event-1992-sentencing                   1  CANONICAL
+  /timeline#event-1994-officer-reinstatement        3  CANONICAL
+  /timeline#event-1994-prison-death                 3  CANONICAL
+  /timeline#guilty-but-insane-plea                  1  CANONICAL
+  /timeline#konerak-police-encounter                3  CANONICAL
+  /timeline#konerak-sinthasomphone                  1  ALIAS
+  /timeline#officer-discipline                      1  ALIAS
+  /timeline#ohio-sentencing                         1  CANONICAL
+  /timeline#probation                               1  ALIAS
+  /timeline#sanity-trial                            1  CANONICAL
+  /timeline#sanity-verdict                          2  CANONICAL
+  /timeline#sentencing                              1  ALIAS
+  /timeline#steven-hicks                            1  ALIAS
+  /timeline#tracy-edwards                           1  ALIAS
+  /timeline#trial                                   1  ALIAS
+  /timeline#victim-slug                             1  TEMPLATE
+  /timeline/milwaukee-police-changes-in-policies-culture     6  CARRIED
+  /topics                                           1  CANONICAL
+  /topics/media-cultural-portrayal                  1  ALIAS
+  /topics/psychological-profile                    10  ALIAS
+  /topics/psychological-profile#control             1  ALIAS
+  /topics/psychological-profile#control-experiments     2  ALIAS
+  /topics/psychological-profile#dietz-testimony     2  ALIAS
+  /topics/psychological-profile#evaluations-boundaries     2  ALIAS
+  /topics/psychological-profile#expert-matrix       5  ALIAS
+  /topics/psychological-profile#palermo-testimony     2  ALIAS
+  /topics/systemic-failures                        18  ALIAS
+  /topics/systemic-failures#early-police            5  ALIAS
+  /topics/systemic-failures#home-visit-waivers      3  ALIAS
+  /topics/systemic-failures#housing-complaints      2  ALIAS
+  /topics/systemic-failures#housing-segregation     1  ALIAS
+  /topics/systemic-failures#huber-employment        1  ALIAS
+  /topics/systemic-failures#konerak                 2  ALIAS
+  /topics/systemic-failures#konerak-sinthasomphone     1  ALIAS
+  /topics/systemic-failures#less-dead               4  ALIAS
+  /topics/systemic-failures#lgbtq-estrangement      1  ALIAS
+  /topics/systemic-failures#macro-setting           1  ALIAS
+  /topics/systemic-failures#may-27-police-encounter     5  ALIAS
+  /topics/systemic-failures#officer-discipline      1  ALIAS
+  /topics/systemic-failures#officer-suspensions     2  ALIAS
+  /topics/systemic-failures#police-culture          1  ALIAS
+  /topics/systemic-failures#police-minority-trust     1  ALIAS
+  /topics/systemic-failures#pretrial-oversight      1  ALIAS
+  /topics/systemic-failures#prior-record            1  ALIAS
+  /topics/systemic-failures#probation               4  ALIAS
+  /topics/systemic-failures#probation-supervision     1  ALIAS
+  /topics/systemic-failures#sentencing-1989         2  ALIAS
+  /topics/systemic-failures#sinthasomphone-1988     3  ALIAS
+  /topics/systemic-failures#synthesis               1  ALIAS
+  /topics/systemic-failures#systemic-framework      7  ALIAS
+  /topics/theories-motivations                      9  ALIAS
+  /topics/theories-motivations#behavioral-escalation     4  ALIAS
+  /topics/theories-motivations#competing-explanations     1  ALIAS
+  /topics/theories-motivations#dahmer-own-account     1  ALIAS
+  /topics/theories-motivations#legal-responsibility     1  ALIAS
+  /topics/theories-motivations#possession-control     3  ALIAS
+  /topics/theories-motivations#theories-boundaries     2  ALIAS
+  /victims                                         24  CANONICAL
+  /victims#anthony-hughes                           2  CANONICAL
+  /victims#anthony-sears                            2  CANONICAL
+  /victims#curtis-straughter                        3  CANONICAL
+  /victims#david-thomas                             3  CANONICAL
+  /victims#eddie-smith                              1  ALIAS
+  /victims#edward-smith                             2  CANONICAL
+  /victims#ernest-miller                            3  CANONICAL
+  /victims#errol-lindsey                            3  CANONICAL
+  /victims#james-doxtator                           3  CANONICAL
+  /victims#jeremiah-weinberger                      3  CANONICAL
+  /victims#joseph-bradehoft                         3  CANONICAL
+  /victims#konerak-sinthasomphone                   6  CANONICAL
+  /victims#matt-turner                              3  CANONICAL
+  /victims#oliver-lacy                              3  CANONICAL
+  /victims#raymond-smith                            3  CANONICAL
+  /victims#richard-guerrero                         3  CANONICAL
+  /victims#steven-hicks                             8  CANONICAL
+  /victims#steven-tuomi                             6  CANONICAL
+  /victims#tony-hughes                              1  ALIAS
+  /victims#victim-registry                          1  CANONICAL
+  /victims/sources                                  1  NON-ROUTE
+
+  INVENTORY TOTALS
+  ----------------
+  Unique logical routes .... 229
+  Canonical ................ 149
+  Alias .................... 70
+  Carried .................. 6
+  Template ................. 2
+  Non-route ................ 2
+
+  Extraction scope: every .txt and .md file in plan/ except this
+  specification, so the document cannot inventory its own references.
+  Counts are occurrence counts, not page-variety counts.
+
+
+================================================================================
+APPENDIX E - CHANGE LOG
+================================================================================
+
+2026-10-26 (v1.0 - final locked)
+- First Phase C specification. Satisfies all eight items on the master plan's
+  Phase C checklist.
+- Measured contrast for 15 palette pairs using the WCAG 2.1 formula. All pass
+  AA for normal text. No palette change required.
+- Recorded that no webfont files are vendored, and decided to ship system
+  fallback stacks with no webfont dependency.
+- Inventoried 229 unique logical routes across every plan file.
+- Dispositioned 40 route conflicts: 8 by page alias, 20 by section alias, 4
+  by page-level wrapper, 4 classified as template or non-route, 4 carried.
+- Parsed every plan's anchor declarations in both formats (Anchor: lines and
+  concordance table rows) and compared them with the shipped navigation.
+- Established the two-tier anchor model: 13 page-level Tier 1 anchors versus
+  the plan-owned Tier 2 detail anchors (context 36, case 98, analysis 93,
+  impact 153).
+- Recorded that zero of the 13 navigation fragments is a canonical plan anchor:
+  6 are declared plan aliases and 7 are declared nowhere.
+- Identified 4 dangling cross-tab links to /case#offense-series from
+  Context line 862 and Theories lines 275, 359 and 458, and resolved all four
+  with a single Tier 1 wrapper on the Case page.
+- Recorded the truncated #historiographical-eval. table artifact in the Impact
+  concordance and confirmed the real anchor is #historiographical-evaluation.
+- Verified that the apparent mojibake in the Analysis concordance table
+  ("10?-"2") was a PowerShell ANSI display artifact, not file corruption; the
+  stored text is "10-2".
+- Established the victim anchor registry of record from test_victim_slugs.js:
+  17 canonical slugs, 3 aliases.
+- Defined the citation permalink architecture: canonical IDs, no global
+  renumbering, local numbers preserved permanently.
+- Specified the footnote markup contract and documented 16 duplicate DOM IDs
+  in the shipped overview.html as a blocking defect for that page only.
+- Defined build-time generation for sources.html and rejected runtime fetch,
+  to preserve file:// operation.
+- Recorded 9 factual or editorial discrepancies with display rules; none
+  blocking.
+- Set the build order, with sources.html first on the grounds that it exercises
+  all 286 local register entries at once.
+- Locked typography, color, spacing, card hierarchy, routes, mobile behavior,
+  citation mechanics and image treatment.
+
+END OF PHASE C DESIGN & CITATION SPECIFICATION

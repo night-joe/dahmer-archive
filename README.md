@@ -24,9 +24,11 @@ This project is a serious, source-cited historical and research repository docum
 > **Core Operating Rule:**  
 > **Finish claim-level citations and lock content across ALL tabs first (Phase 1), then build the HTML pages one by one (Phase 2).**
 
-### Strategic Two-Phase Phasing:
-* **Phase 1: Content & Citation Verification (Master Plan Phase B):** Reconcile primary records (FBI Vault, dockets, contemporary reports), map 1-based page coordinates, resolve historical discrepancies, and lock all tab plans.
-* **Phase 2: HTML Page Implementation (Master Plan Phase D):** Construct semantic, accessible, responsive pages with cross-linking anchor IDs once content and citations are locked.
+### Strategic Phasing:
+
+* **Phase 1 - Content & Citation Verification (Master Plan Phase B):** Reconcile primary records (FBI Vault, dockets, contemporary reports), map 1-based page coordinates, resolve historical discrepancies, and lock all tab plans. **COMPLETE** — all eight tabs locked.
+* **Phase C - Design & Citation Specification (Master Plan Phase C):** Lock typography, color, spacing, card hierarchy, routes, mobile behavior, citation mechanics and image treatment before any build work. **COMPLETE** — see [`plan/09_phase_c_design_and_citation_spec_v01_final_locked.txt`](plan/09_phase_c_design_and_citation_spec_v01_final_locked.txt).
+* **Phase 2 - HTML Page Implementation (Master Plan Phase D):** Construct semantic, accessible, responsive pages with cross-linking anchor IDs once content and citations are locked. **AUTHORIZED** — begins with `sources.html`.
 
 ### Why this strategy:
 
@@ -51,23 +53,29 @@ This project is a serious, source-cited historical and research repository docum
 
 ---
 
-## 4. Phase 2 Tracker: HTML Page Implementation (After Phase 1 is Complete)
+## 4. Phase 2 Tracker: HTML Page Implementation (Phase D — AUTHORIZED)
 
-* [x] **`index.html`** (Homepage editorial front page with expandable Overview preview & 6 Selected Victims cards)
-* [x] **`overview.html`** (Comprehensive case overview & factual spine)
-* [ ] **`victims.html`** (Interactive Table 1 with filters, 17 profiles, and modal/biographical expanders)
-* [ ] **`timeline.html`** (Interactive Table 2 with era navigation, category filters, and cross-linking anchors)
-* [ ] **`context.html`** (Historical Milwaukee 1987–1991 and early background)
-* [ ] **`case.html`** (Offense series, investigation, and trial)
-* [ ] **`analysis.html`** (Systemic failures, psychiatric profile, and research theories)
-* [ ] **`impact.html`** (Community impact, media ethics, and master closing conclusion)
-* [ ] **`sources.html`** (Comprehensive research directory, methodology, and further reading)
+Build order per Phase C Part 10.3. Status distinguishes "prototype exists" from
+"compliant with the locked content".
+
+* [~] **`index.html`** (Homepage editorial front page) — prototype exists, **needs rework**: 0 citations against a 9-row factual milestone table and the homepage feature
+* [~] **`overview.html`** (Comprehensive case overview) — prototype exists, **needs rework**: 22 footnotes vs the 41-entry register, 3 uncited superlatives (L174, L177, L205), and 16 duplicate DOM ids
+* [ ] **`sources.html`** (Research directory, methodology) — **next build step**: build-time generator, canonical permalink layer, two views
+* [ ] **`victims.html`** (Table 1, 17 profiles, detail panels) — clear to build
+* [ ] **`timeline.html`** (Table 2, era navigation, cross-linking anchors) — clear to build
+* [ ] **`context.html`** (Historical Milwaukee 1987-1991 and early background) — clear to build
+* [ ] **`case.html`** (Offense series, investigation, trial) — must emit `#offense-series` wrapper (repairs 4 dangling inbound links)
+* [ ] **`analysis.html`** (Systemic failures, psychiatric profile, theories) — canonical anchors are `#topics-*`
+* [ ] **`impact.html`** (Community impact, media ethics, master conclusion) — 184 anchors; build last
+
+**Known site state at Phase C sign-off:** 2 of 9 pages exist; 7 nav targets currently 404. All 286 local register entries remain numbered as locked — the citation architecture adds permalinks, it does not renumber.
 
 ---
 
 ## 5. Master Reference Files Directory
 
 * **Master Plan:** [`plan/00_webapp_master_implementation_plan_v04.txt`](plan/00_webapp_master_implementation_plan_v04.txt)
+* **Phase C Design & Citation Spec (Final Locked):** [`plan/09_phase_c_design_and_citation_spec_v01_final_locked.txt`](plan/09_phase_c_design_and_citation_spec_v01_final_locked.txt) — typography, color, spacing, card hierarchy, two-tier route model, mobile behavior, citation permalink architecture, image policy, discrepancy register, build order
 * **Overview Final Locked Copy:** [`plan/01_overview_content_plan_v03_final_locked.txt`](plan/01_overview_content_plan_v03_final_locked.txt) *(superseding working reference [`plan/01_overview_content_plan_v02.txt`](plan/01_overview_content_plan_v02.txt))*
 * **Overview Register:** 41 entries `[1]`–`[41]` inside the locked Overview plan, with a parent-tab crosswalk
 * **Victims Reconciled Concordance:** [`plan/Dahmer_Victims_Master_Citation_Tracker_v10.md`](plan/Dahmer_Victims_Master_Citation_Tracker_v10.md)
