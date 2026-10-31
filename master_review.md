@@ -6,7 +6,7 @@
 - Branch: main
 - Content baseline commit: fd39cbda6e24ae0ae58d7f6c96f89d9c1fa56190
 - Plan prepared: 2026-10-29
-- Last updated: 2026-10-29
+- Last updated: 2026-10-31
 - Substantive review started: 2026-10-29
 - Purpose: Assess content accuracy, consistency, evidence, attribution, clarity, and improvement opportunities.
 
@@ -64,6 +64,10 @@ Initial per-file defaults: Review status Pending; authority Unresolved; no verif
 
 Inventory exceptions: None identified during directory enumeration. T01 master-plan connector truncation was resolved using Joe's byte-identical upload; see T01 coverage.
 
+T02 progress as of 2026-10-31: both assigned Overview plans have been fully read. Their comparison, evidence reconciliation, and final per-file assessment remain in progress. These two files do not yet increase the completed-review totals. A supplied FBI PDF was consulted as evidence and does not add an extra completed baseline review target.
+
+Formal coverage remains 3/174 baseline files and 1/45 tasks. Reading progress is not the same as a completed review report or successful claim verification.
+
 ## 4. Document Authority and Version Map
 
 File labels and project trackers are leads, not final authority. T01 provisional assessment: use the root README as a candidate current version index, not proof of completion; treat plan/README.md as an older status snapshot; retain the master plan for foundational scope/editorial guidance while reconciling stale status and specific claims. These are review classifications, not approved source-file edits.
@@ -71,7 +75,7 @@ File labels and project trackers are leads, not final authority. T01 provisional
 | Subject | Candidate documents / task | Authority decision | Supporting evidence / supersession |
 |---|---|---|---|
 | Project guidance | T01 | Provisional roles established; A001 open | Root README is newer-looking but contains contradicted completion claims |
-| Overview | T02: v03 final_locked | Candidate, not certified | Root README explicitly supersedes v02 |
+| Overview | T02: 01_overview_content_plan_v03_final_locked.txt; historical predecessor v02 | v03 explicitly supersedes v02, but evidentiary/citation defects remain open; no blanket certification | v03 lock declaration; T02-F01–F13; source checks and crosswalk reconciliation pending |
 | Context | T03: v03 final_locked | Candidate, not certified | Listed in both READMEs and master phase list |
 | Offense series | T04: v03 final_locked | Candidate, not certified | Root README/master differ from planning README's v02 pointer |
 | Investigation and trial | T05: v03 final_locked | Candidate, not certified | Root README/master identify v03 |
@@ -225,11 +229,311 @@ Three assigned files fully read and assessed; 11 open findings (4 High, 6 Medium
 
 ### T02 — Overview Plans
 - [ ] Review completed and report recorded.
-Base: `plan/`
-Files: `01_overview_content_plan_v02.txt`; `01_overview_content_plan_v03_final_locked.txt`.
+
+Status: In progress — both plans read; evidence reconciliation and final assessment outstanding.
+
+Assigned files:
+- `plan/01_overview_content_plan_v02.txt`
+- `plan/01_overview_content_plan_v03_final_locked.txt`
 
 #### T02 Report
-Pending.
+
+##### Coverage and Provenance
+
+- v02 was read completely through GitHub and supplied text; baseline blob `05d81b6c2117665a0c53f166561527473c4419a3`.
+- v03 was completed from Joe's uploaded file after connector truncation. Its 50,684 bytes matched baseline blob `b2c08af67bb35d65adf55f492a9cdc775586d422`; 1,062 lines.
+- `Dahmer_Part_01.pdf` was supplied as a 68-page, 4,799,270-byte PDF; computed Git blob SHA `02b3ab9febd7547f35fcb398bbd7864a91620b83`. This fingerprint identifies the upload; it is not a fresh comparison with the repository PDF blob.
+- The PDF has no native selectable text. Tool-provided OCR was searched. OCR can omit or misread text; do not claim complete image-by-image inspection.
+- Joe supplied readable images of PDF-viewer pages 3 and 4. The assistant directly inspected them. The teletype date and the 215/213 quotation discrepancy are image-verified.
+- Screenshots of PDF-viewer pages 47–48 are only partially legible. Unreadable portions remain a documented limitation. Do not infer that missing information is absent from the original record.
+- External sources were inspected at the levels stated in each finding. Court TV descriptions are not substituted for testimony audio. No exact trial timestamp was independently verified for the interview-duration statement.
+- No historical/legal claim is certified solely because the original specification says verified or final_locked.
+
+##### Per-file Assessment: v02
+
+Role: historical working reference, explicitly superseded by v03. Reading complete; final review status In progress within T02.
+
+Strengths and checks without identified structural problems:
+- Clearly separates the concise homepage feature from the detailed Overview.
+- Establishes ten Overview sections and a distinct short conclusion.
+- Uses restrained tone and warns against treating confession as self-proving.
+- Explicitly discloses that final citations and locked web copy were not yet complete.
+
+Concerns and treatment:
+- Uncited historical working prose is not treated as current certified copy.
+- Superlative language, broad venue generalization, and interpretive framing are already flagged in v03; record them as known predecessor issues rather than duplicate current findings.
+- Do not edit v02 automatically while correcting the current specification. Preserve historical/version relationships.
+
+##### Per-file Assessment: v03
+
+Role: active Overview specification candidate. It explicitly supersedes v02; that establishes a version relationship, not factual correctness. Reading complete; review In progress.
+
+Strengths and checks without identified structural problems:
+- Distinguishes 17 confessed killings, 16 convictions, and 11 recovered-remains victims.
+- Separates testimony, reporting, interpretation, and disputed material in its intended tier model.
+- Adds 65 numbered claims: 54 for the full Overview and 11 for the homepage.
+- Contains 41 distinct register entries, five editorial flags, and three deliberate register exclusions; the structural counts do not establish source validity.
+- Preserves the two Overview experiences and the distinction between the short Overview conclusion and the full Impact conclusion.
+
+Concerns:
+- Primary-source support is overstated in places.
+- A purported verbatim quotation is altered.
+- A judicial outcome and interview attribution are mischaracterized.
+- Bibliographic metadata, crosswalk mapping and sign-off checks need reconciliation.
+- Several claim-level source passages remain inaccessible or uninspected.
+
+##### Findings
+
+All findings below have resolution Open. Confirming an evidentiary discrepancy does not mean the underlying historical fact is false, nor that any source correction has been applied. Preserve provisional assessments where stated.
+
+###### T02-F01 — Primary quotation is credited with unsupported details
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | B.2 primary-anchor declaration; Claims 2.1–2.7 |
+| Type | Citation or attribution problem |
+| Severity | High — provisional priority |
+| Assessment / evidence state | Confirmed support limitation |
+| Problem | The plan says a single FBI quotation establishes Claims 2.1–2.7. The supplied Part 01 page 4 does not name Edwards, state his age, name the officers, or explicitly say they accompanied him back. |
+| Evidence and limitations | Assistant directly inspected the supplied page-4 image; searchable PDF text is consistent. The generic police encounter, handcuff, reported knife threat and response are present, but not all claimed details. |
+| Proposed fix | Limit the quotation's support to its actual contents. Source age, names and accompaniment separately. For officer identification, cite existing Overview [17] at the explicit Rauth/Mueller passage; do not claim FBI page 4 establishes names. |
+| Related checks / files | M001; M004; T02-F12 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F02 — Resumption-of-killing chronology is ambiguous
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Claims 5.7–5.8; compare Claim 6.2 |
+| Type | Chronology problem |
+| Severity | Medium — provisional |
+| Assessment / evidence state | Confirmed wording ambiguity; intended interval unresolved |
+| Problem | The phrase "Killing resumed after that period" follows the 1988 case/1989 conviction, while the document also places the resumption in 1987. It does not say whether it means the original resumption or later continuation after imprisonment. |
+| Evidence and limitations | Internal comparison of v03; v02 also places the resumption in 1987. No alternative exact chronology is certified by this finding. |
+| Proposed fix | Name the interval and event explicitly; distinguish initial resumption from later continuation. Reconcile the final sentence against the Timeline/Case records. |
+| Related checks / files | T04; T05; T14 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F03 — Assault location is conflated with death location
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Claim 8.2 |
+| Type | Factual error / chronology qualification |
+| Severity | Medium — provisional |
+| Assessment / evidence state | Verification open |
+| Problem | Claim 8.2 categorically states death occurred at Columbia Correctional Institution. Retrieved reporting distinguishes the prison assault from death during transport or pronouncement at a hospital, with conflicting detail. |
+| Evidence and limitations | Reporting consulted: Washington Post, November 29, 1994; UPI, November 28, 1994. Do not silently select one conflicting account as definitive. |
+| Proposed fix | State "fatally attacked at Columbia Correctional Institution." If naming the exact place of death or pronouncement, establish it separately with an appropriate record. |
+| Related checks / files | T18; T19; unresolved source check |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F04 — Charging-document reference used for later procedural facts
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Register [2]; Claims 1.3–1.4, 7.1, 7.5 and 7.7 |
+| Type | Citation or attribution problem |
+| Severity | Medium — provisional |
+| Assessment / evidence state | Verification open |
+| Problem | Register [2] describes a complaint, amended complaint and information, but is also assigned to later plea, conviction and sentencing assertions. The linked contents could not be inspected. |
+| Evidence and limitations | An inaccessible retrieval does not prove the link is broken or the document excludes those records. The evidence gap concerns actual document scope. |
+| Proposed fix | Inspect the linked file. Provide exact pages if it includes later records; otherwise separate charging, plea, verdict and sentencing references. |
+| Related checks / files | DocumentCloud source [2]; T05 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F05 — 1993 qualified-immunity ruling is reversed in register
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Register [8] and dependent legal characterizations |
+| Type | Factual error / citation mismatch |
+| Severity | High |
+| Assessment / evidence state | Confirmed mismatch |
+| Problem | Register [8] describes denial of qualified immunity. The November 23, 1993 opinion grants qualified immunity and summary judgment on the due-process claim while leaving equal-protection claims. |
+| Evidence and limitations | Inspected opinion: https://law.justia.com/cases/federal/district-courts/FSupp/838/1320/2255276/ . Distinguish this result from the earlier 1992 pleading-stage decision [7]. |
+| Proposed fix | Describe the outcome by claim and procedural stage. Do not call it either a blanket immunity denial or dismissal of the entire litigation. |
+| Related checks / files | T16; T19; register [7] context |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F06 — Interview attribution and claim-to-source fit are incorrect
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Register [40]; Claims 9.4–9.5 |
+| Type | Citation or attribution problem |
+| Severity | High |
+| Assessment / evidence state | Attribution mismatch confirmed; wider support incomplete |
+| Problem | The linked Inside Edition 1993 interview identifies Nancy Glass, not Stone Phillips. Its publisher description does not substantiate the cited victims' family criticism of media representation. |
+| Evidence and limitations | Inspected publisher description, not the complete recording: https://www.insideedition.com/media/videos/never-before-seen-tape-of-1993-jeffrey-dahmer-prison-interview-77300 . |
+| Proposed fix | Correct the interviewer; verify recording/broadcast dates independently. Source family criticism to actual family statements or reporting. Attribute Dahmer's self-description, rather than treating it as neutral fact. |
+| Related checks / files | T18; T19 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F07 — Bibliographic metadata and source grouping require correction
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Register [12], [34] and [35] |
+| Type | Citation or attribution problem |
+| Severity | Medium |
+| Assessment / evidence state | Confirmed metadata problems; correction notice pending |
+| Problem | O'Meara is misidentified as "Marquette Law Review, 42"; the repository copy identifies 87 Denver University Law Review 97 (2009). Jentzen's article is listed at 355–368 instead of 444–452. A 2022 retrospective is grouped under contemporary journalism 1991–1995. |
+| Evidence and limitations | O'Meara: https://digitalcommons.du.edu/dlr/vol87/iss1/5/ ; repository PDF at https://scholarship.law.marquette.edu/cgi/viewcontent.cgi?article=1128&context=facpub . Jentzen: https://pmc.ncbi.nlm.nih.gov/articles/PMC6474573/ . The linked correction notice still needs examination for its impact. |
+| Proposed fix | Correct title/journal/volume/page metadata; use 444–452 for Jentzen; reclassify the 2022 retrospective. Inspect the correction notice before certifying affected claims. |
+| Related checks / files | T17; T20; correction-notice follow-up |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F08 — Every-source-used sign-off fails its own claim mapping
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | I.1 source-reconciliation checklist; Sections B/C/E |
+| Type | Internal inconsistency |
+| Severity | Medium |
+| Assessment / evidence state | Confirmed internal mismatch |
+| Problem | References [24], [25], [38] and [39] have no assignment in the 65 claims' explicit CITE fields, despite the checked assertion that every register entry is referenced by at least one claim. |
+| Evidence and limitations | A structural pass found 65 numbered claims (54 full Overview and 11 homepage) and 41 distinct register entries. Those counts are valid; they do not establish evidentiary correctness. |
+| Proposed fix | Assign sources only where relevant, or label unused entries background/further reading. Correct the sign-off; do not insert decorative citations to force compliance. |
+| Related checks / files | T20; T21 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F09 — Crosswalk identity conflicts remain unresolved
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Section F crosswalk and lock declaration |
+| Type | Cross-document inconsistency |
+| Severity | Medium |
+| Assessment / evidence state | Conflicts observed; parent-entry resolution open |
+| Problem | Overview [4] and [11] both map to Case [29]; Overview [24] and [38] both map to Victims [22] although they describe different sources. Overview [14] is marked Overview-only despite the claim that all entries derive from locked parent registers. |
+| Evidence and limitations | Internal mapping conflicts were inspected. Parent entries may be grouped records; their exact contents have not yet been reconciled, so do not assume which pointer is wrong. |
+| Proposed fix | Inspect the actual parent registers. Resolve source identities and explicitly document grouped entries and Overview-only exceptions. |
+| Related checks / files | T05; T06; T17; T20 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F10 — Categorical withdrawal claim is unsubstantiated
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Register Exclusion 1 |
+| Type | Unsupported or overstated claim |
+| Severity | High — provisional |
+| Assessment / evidence state | Provisional |
+| Problem | The document says Marquette confirms the 1994 "Destructive Hostility" article was withdrawn. Retrieved Marquette material presents an accepted manuscript and no withdrawal notice; PubMed indexes the article. This does not prove no notice exists elsewhere. |
+| Evidence and limitations | Inspected records: https://epublications.marquette.edu/dentistry_fac/73/ and https://pubmed.ncbi.nlm.nih.gov/7879770/ . |
+| Proposed fix | Locate a specific withdrawal/retraction notice before retaining "WITHDRAWN." Distinguish copyright restrictions, repository removal, journal retraction, and editorial exclusion. A project may exclude a paper without inventing a withdrawal rationale. |
+| Related checks / files | T17; source [35] depends in part on this earlier literature |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F11 — Use the directly applicable five-sixths verdict provision
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Claim 7.4; register [5] |
+| Type | Citation or attribution problem |
+| Severity | Medium |
+| Assessment / evidence state | Citation improvement supported |
+| Problem | The explanation cites civil-rule § 805.09(2), while § 971.165(2) directly states the responsibility-phase five-sixths rule. Do not present this finding as proof that a 10–2 responsibility verdict was invalid. |
+| Evidence and limitations | The inspected O'Meara article quotes § 971.165(2). A statutory historical-version check is appropriate for final legal copy. |
+| Proposed fix | Cite § 971.165(2) directly and preserve the guilt/responsibility distinction. |
+| Related checks / files | T05; T17 |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F12 — Purported verbatim FBI quotation changes apartment number
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | B.2 primary-anchor quotation |
+| Type | Citation or attribution problem |
+| Severity | High |
+| Assessment / evidence state | Confirmed direct-image mismatch |
+| Problem | PDF-viewer page 4, printed PAGE TWO, reads APARTMENT 215; v03 substitutes APARTMENT 213 while labelling its quotation verbatim and verified. |
+| Evidence and limitations | Assistant directly inspected Joe's screenshot; uploaded Part 01 searchable extraction agrees. Page 3 identifies the July 24, 1991 message, DE FBIMW #0001. A later investigative correction has not been located. |
+| Proposed fix | Preserve 215 in a direct quotation. Note the discrepancy separately and independently source the narrative address. Do not assert why the original says 215 without evidence. |
+| Related checks / files | T02-F01; M001; M004-date |
+| Resolution | Open; no source-file correction applied |
+
+###### T02-F13 — FBI interview locators do not support the assigned claims
+
+| Field | Draft record |
+|---|---|
+| File | `plan/01_overview_content_plan_v03_final_locked.txt` |
+| Location | Claims 4.1–4.2; register [1] Part 01 pp. 20–25 |
+| Type | Citation or attribution problem |
+| Severity | High — provisional priority |
+| Assessment / evidence state | Cited-range mismatch supported; alternative source available |
+| Problem | The assigned range concerns July 25–26 victim-identification and investigative-assistance updates. No supporting passage for the named detectives' extended interviews or the asserted "beyond 60 hours" duration was located there. |
+| Evidence and limitations | Uploaded PDF OCR supports the cited-range assessment; this is not an image-by-image certification of the entire file. Court TV's readable Murphy-recording description gives 60 hours and a 160-page confession. That description, not the testimony audio, was inspected. |
+| Proposed fix | Replace the unsupported FBI locator. Draft wording: "Court TV's trial archive describes Detective Dennis Murphy as one of the detectives who took Dahmer's 160-page confession during 60 hours of interviews." Cite Overview [6] with the specific recording URL. Do not infer Murphy alone, non-overlapping totals, or "more than 60." Inspect memoir [37] separately before using it as exact numeric support. |
+| Related checks / files | M004; Claims 4.1–4.2; original testimony/memoir follow-up |
+| Resolution | Open; no source-file correction applied |
+
+##### Latest Source-check Decisions
+
+| Subcheck | Evidence and current decision | Limitation |
+|---|---|---|
+| Teletype date | July 24, 1991; directly verified from supplied page-3 image, consistent with the message identifier on page 4 | This is the document date, not the July 22 incident date |
+| Apartment quotation | Page 4 reads 215; v03 quotes 213 | Reason for original discrepancy is unresolved; no later correction documented |
+| Edwards's age | Contemporary UPI August 9, 1991 reporting and a later UPI retrospective support age 32 at the journalism level | Do not claim the age appears in the page-4 teletype; exact primary-record passage not inspected |
+| Responding officers | UPI July 23, 1991 explicitly names Robert Rauth and Rolf Mueller | Contemporary reporting, not inspected testimony; the same early article calls the unnamed escapee a teenager, so do not use it as age evidence |
+| Claimed officer testimony date | Both officers testified January 30, 1992 remains unverified | Do not retain as established without the exact trial locator |
+| Interview duration and confession length | Joe agreed to use 60 hours and 160 pages with attribution to Court TV's description | No "Murphy alone," exclusive combined-hours calculation, or "more than 60" inferred from this description |
+| Alternative 66–68 hours / 168 pages | Do not adopt in the Overview at this stage | A third-party documentary transcript was found, but no independently inspected original-trial locator was established; preserve as an unresolved alternative, not disproved |
+
+Working wording for future correction approval:
+
+> Court TV's trial archive describes Detective Dennis Murphy as one of the detectives who took Dahmer's 160-page confession during 60 hours of interviews.
+
+This wording choice was agreed in discussion. It is not an applied source-file correction and does not resolve T02-F13 until the actual content/citation change is approved, applied, and rechecked.
+
+Working officer-name wording:
+
+> Contemporary UPI reporting identified the responding officers as Robert Rauth and Rolf Mueller.
+
+Use existing Overview [17] for this identification. The accessible URL is:
+https://www.upi.com/Archives/1991/07/23/Police-find-body-parts-in-apartment/1119680241600/
+
+The earlier failing hyphenated-date path should not be treated as proof the article does not exist. Record the successful URL as a proposed bibliography correction, not an already applied edit.
+
+Court TV's specific Murphy record, under existing Overview [6]:
+https://www.courttv.com/title/4-wi-v-dahmer-det-dennis-murphy/
+
+Other source pointers:
+- Patrick Kennedy archive identification: https://www.courttv.com/title/3-wi-v-dahmer-det-patrick-kennedy/
+- Edwards recording for possible primary verification: https://www.courttv.com/title/8-wi-v-dahmer-tracy-edwards/
+- Contemporary age reporting: https://www.upi.com/Archives/1991/08/09/Bond-of-1000-set-for-Tracy-Edwards/9536681710400/
+- Later UPI retrospective: https://www.upi.com/Entertainment_News/2022/09/28/Monster-the-Jeffrey-Dahmer-Story-Netflix-true-story-from-archives/7581664387064/
+
+Any additional source not already in the Overview register needs an explicit register/crosswalk decision. Do not silently reuse an unrelated existing source number.
+
+##### Open Work Before Finalizing T02
+
+- M002: establish the case-specific Tuomi non-prosecution rationale.
+- M003: verify the ancestry attribution through the relevant biographical/family-source passage.
+- M004: preserve the completed date subcheck and journalism/archive-description support; resolve or explicitly waive further primary inspection without pretending it occurred.
+- T02-F03: reconcile death/transport/pronouncement wording or retain the narrower fatal-assault formulation as a proposed correction.
+- T02-F04: inspect the actual complaint/document scope or identify alternative procedural records.
+- T02-F07: inspect the linked Jentzen correction notice for its implications.
+- T02-F09: reconcile crosswalk pointers against the actual parent registers.
+- T02-F10: locate any claimed withdrawal notice or qualify the declaration.
+- Complete the final per-file assessments and decide the justified task status. Do not check the task off solely because this progress report is recorded.
+
+##### T02 Progress Summary
+
+Two assigned files fully read; assessment and source reconciliation remain ongoing. Thirteen T02 finding entries are recorded in this draft: six High (including provisional priorities) and seven Medium. Some findings establish source/wording mismatches rather than false historical claims. All remain Open. No source files have been edited. The rest of the review manifest and T01 report must remain unchanged.
 
 ### T03 — Context Plans and Evidentiary Audit
 - [ ] Review completed and report recorded.
@@ -247,51 +551,50 @@ Files: `03a_case_offense_series_plan_v02.txt`; `03a_case_offense_series_plan_v03
 #### T04 Report
 Pending.
 
-### T05 — Investigation, Trial, and Case Bibliography
+### T05 — Investigation and Trial Plans
 - [ ] Review completed and report recorded.
 Base: `plan/`
-Files: `03b_case_investigation_and_trial_plan_v02.txt`; `03b_case_investigation_and_trial_plan_v03_final_locked.txt`; `08_case_final_bibliography_v01.txt`.
+Files: `03b_case_investigation_and_trial_plan_v02.txt`; `03b_case_investigation_and_trial_plan_v03_final_locked.txt`.
 
 #### T05 Report
 Pending.
 
-### T06 — Victims: Candidate Current Baseline
+### T06 — Victims: Plans, Table, Bibliography, and Tracker
 - [ ] Review completed and report recorded.
 Base: `plan/`
-Files: `04_victims_content_plan_v05_final_locked.txt`; `table_1_the_victims_v04.md`; `08_victims_final_bibliography_v02.txt`; `Dahmer_Victims_Master_Citation_Tracker_v10.md`.
-Purpose: Confirm authority and inspect all profiles, table entries, citation support, and milestone distinctions.
+Files: `04_victims_content_plan_v04.txt`; `04_victims_content_plan_v05_final_locked.txt`; `04_victims_table_1_v04_final_locked.txt`; `08_victims_final_bibliography_v02.txt`; `Dahmer_Victims_Master_Citation_Tracker_v10_final_locked.md`.
 
 #### T06 Report
 Pending.
 
-### T07 — Victims: Earlier Content Versions
+### T07 — Victims: Source Verification Audits (1991–1992)
 - [ ] Review completed and report recorded.
 Base: `plan/`
-Files: `04_victims_content_plan_v02.txt`; `04_victims_content_plan_v03_cited_working_copy.txt`; `04_victims_content_plan_v03_working_citations.txt`; `04_victims_content_plan_v04_citation_audit_corrected.txt`.
+Files: `1991-07-23-AP-Body-Parts.md`; `1991-07-24-AP-Charges-Details.md`; `1991-07-25-AP-Victim-ID.md`; `1991-07-26-AP-Search-Remains.md`; `1991-07-27-AP-Court-Appearance.md`; `1991-07-28-AP-Investigation-Expands.md`; `1991-07-29-AP-Victims-Identified.md`; `1991-07-30-AP-Details-Emerge.md`; `1991-07-31-AP-Ten-Charges.md`; `1991-08-01-AP-Family-Reaction.md`; `1991-08-06-AP-Twelve-Charges.md`; `1991-08-22-AP-Fifteen-Charges.md`; `1992-01-30-AP-Edwards-Testimony.md`.
 
 #### T07 Report
 Pending.
 
-### T08 — Victims: Earlier Tables and Reference
+### T08 — Victims: Source Verification Audits (Trial and Sentence)
 - [ ] Review completed and report recorded.
 Base: `plan/`
-Files: `table_1_reference.md`; `table_1_the_victims_v01.md`; `table_1_the_victims_v02.md`; `table_1_the_victims_v03.md`.
+Files: `1992-02-14-AP-Guilty-Verdict.md`; `1992-02-15-AP-Sanity-Phase-Verdict.md`; `1992-02-17-AP-Sentencing-Fifteen-Life-Terms.md`.
 
 #### T08 Report
 Pending.
 
-### T09 — Victims: Citation Audit Batches 1–3
+### T09 — Victims: Retrospective Reporting Audits
 - [ ] Review completed and report recorded.
 Base: `plan/`
-Files: `Dahmer_Victims_Citation_Audit_Batch_1.md`; `Dahmer_Victims_Citation_Audit_Batch_2.md`; `Dahmer_Victims_Citation_Audit_Batch_3.md`.
+Files: `2022-09-28-UPI-Retrospective.md`; `2022-10-03-AP-Fact-Check-Netflix.md`.
 
 #### T09 Report
 Pending.
 
-### T10 — Victims: Citation Audit Batches 4–6
+### T10 — Victims: Legal Record Audits
 - [ ] Review completed and report recorded.
 Base: `plan/`
-Files: `Dahmer_Victims_Citation_Audit_Batch_4.md`; `Dahmer_Victims_Citation_Audit_Batch_5.md`; `Dahmer_Victims_Citation_Audit_Batch_6.md`.
+Files: `Criminal-Complaint-F-912548-Summary.md`; `State-v-Dahmer-Sentencing-Transcript-Summary.md`.
 
 #### T10 Report
 Pending.
@@ -616,9 +919,53 @@ Entry format:
 
 Keep user-reported verification distinct from assistant inspection. If Joe supplies relevant evidence, record what was supplied and assess whether it supports the content.
 
+### M001 — FBI Part 01 page 4: quotation and scope
+
+- Task: T02.
+- Related findings: T02-F01, T02-F12.
+- Source: uploaded Dahmer_Part_01.pdf, PDF-viewer page 4 of 68; printed PAGE TWO, DE FBIMW 0001.
+- Question: Does the quoted page contain 213 or 215, and does it state Edwards's name/age, officer names, and explicit accompaniment?
+- Work status: Completed inspection.
+- Result: Contradicts the purported verbatim quotation; supports a scope limitation.
+- Inspection mode: Assistant inspected Joe's supplied image; OCR is consistent.
+- Outcome: 215 is printed; the additional identity/age/name/accompaniment assertions are not explicit in that passage.
+- Limitation: Does not establish the historically correct narrative address or the reason for the discrepancy.
+- Finding resolution: Still Open; no correction applied.
+
+### M002 — Tuomi non-prosecution explanation
+
+- Task: T02; Claim 1.6.
+- Work status: Pending.
+- Result: Not yet established.
+- Required evidence: Case-specific prosecutorial record or a clearly attributed account with exact passage/locator.
+- PDF consultation: Part 01 pp. 59–61 concerns charging/identification and missing physical remains for multiple people, including charged victims. It does not establish the asserted legal rationale for not charging Tuomi.
+- Caution: Do not infer a general no-body/no-prosecution rule from those pages.
+
+### M003 — Victim ancestry attribution
+
+- Task: T02; Claim H.6.
+- Work status: Pending.
+- Result: Not yet established.
+- Required evidence: Relevant passage in Overview [12] or an appropriate primary/family source, particularly for Tuomi.
+- PDF consultation: Part 01 pp. 43/53 label Tuomi white; classifications for Doxtator vary in the correspondence, including p. 60. Record-specific race labels do not by themselves establish or exclude all ancestry claims.
+- Caution: No new ancestry finding is asserted solely on this basis.
+
+### M004 — Remaining FBI/source-detail checks
+
+- Task: T02; spans multiple claims, not Claim 2.1 alone.
+- Work status: In progress; mixed subcheck results.
+- Related findings: T02-F01, T02-F13; other details require independent support.
+- Subchecks:
+  - Document date: Verified from image, July 24, 1991, PDF-viewer page 3.
+  - Edwards's age: Supported by contemporary/later UPI reporting; primary testimony not inspected.
+  - Officer names: Supported by contemporary UPI [17]; the asserted January 30 testimony date remains unverified.
+  - Duration/pages: Court TV description supports 60 hours/160 pages; primary audio not independently inspected. Joe agreed to use the description with explicit attribution.
+- Reading limitation: Part 01 pp. 47–48 remain only partly legible. Do not infer absence from unreadable portions or request repeated copies without a new reason.
+- Outcome boundary: Accepting attributed journalism/editorial descriptions is not the same as inspecting original testimony. Further primary checks can be retained or explicitly waived by decision, without falsely marking them verified.
+
 ## 8. Consolidated Findings Index
 
-11 open findings from T01: 4 High, 6 Medium, 1 Low. Full reports remain under T01. No corrections applied.
+24 finding entries — 11 T01 and 13 T02. Using the current priority labels: 10 High, 13 Medium, and 1 Low; T02 provisional priorities remain labelled. A001 is not counted as a finding. All 24 entries remain Open; no corrections applied. Verification questions M002–M004 are not additional defects. Full reports remain under each task.
 
 | Finding ID | File / subject | Severity | Short description | Evidence status | Resolution |
 |---|---|---|---|---|---|
@@ -633,6 +980,22 @@ Keep user-reported verification distinct from assistant inspection. If Joe suppl
 | T01-F09 | Master plan; README.md | High | Homicide revision applies from January 1, 1989 | Contradicted | Open |
 | T01-F10 | Master plan | High | Unqualified sole-survivor wording | Contradicted | Open |
 | T01-F11 | Master plan | Medium | Life terms conflated with parole calculation | Partially supported | Open |
+
+| Finding ID | File / subject | Severity | Short description | Evidence status | Resolution |
+|---|---|---|---|---|---|
+| T02-F01 | Overview v03 | High — provisional priority | Primary quotation is credited with unsupported details | Confirmed support limitation | Open |
+| T02-F02 | Overview v03 | Medium — provisional | Resumption-of-killing chronology is ambiguous | Confirmed wording ambiguity; intended interval unresolved | Open |
+| T02-F03 | Overview v03 | Medium — provisional | Assault location is conflated with death location | Verification open | Open |
+| T02-F04 | Overview v03 | Medium — provisional | Charging-document reference used for later procedural facts | Verification open | Open |
+| T02-F05 | Overview v03 | High | 1993 qualified-immunity ruling is reversed in register | Confirmed mismatch | Open |
+| T02-F06 | Overview v03 | High | Interview attribution and claim-to-source fit are incorrect | Attribution mismatch confirmed; wider support incomplete | Open |
+| T02-F07 | Overview v03 | Medium | Bibliographic metadata and source grouping require correction | Confirmed metadata problems; correction notice pending | Open |
+| T02-F08 | Overview v03 | Medium | Every-source-used sign-off fails its own claim mapping | Confirmed internal mismatch | Open |
+| T02-F09 | Overview v03 | Medium | Crosswalk identity conflicts remain unresolved | Conflicts observed; parent-entry resolution open | Open |
+| T02-F10 | Overview v03 | High — provisional | Categorical withdrawal claim is unsubstantiated | Provisional | Open |
+| T02-F11 | Overview v03 | Medium | Use the directly applicable five-sixths verdict provision | Citation improvement supported | Open |
+| T02-F12 | Overview v03 | High | Purported verbatim FBI quotation changes apartment number | Confirmed direct-image mismatch | Open |
+| T02-F13 | Overview v03 | High — provisional priority | FBI interview locators do not support the assigned claims | Cited-range mismatch supported; alternative source available | Open |
 
 Recommended correction order: F01/F06/F09/F10; guidance precedence and stale references F02–F05; scoped evidence wording F07/F11; metadata F08. These are proposals, not authorization to edit source files.
 
@@ -649,9 +1012,12 @@ Final assessment: Not yet available. T01 is reviewed; 171 baseline files and 44 
 
 Content handoff: Not yet available. Record authoritative versions, approved content decisions, and unresolved constraints for the later HTML/JSON/presentation review. Review completion alone does not mean content is finalized.
 
+T01 remains reviewed. T02 remains In progress with both files read and the above source checks documented. Keep formal coverage at 3 reviewed baseline files and 1 completed task until T02's final assessment is deliberately completed. Global reconciliation, manual-verification sign-off, and final content handoff remain unchecked.
+
 ## 10. Review Activity Log
 
 | Date | Action | Outcome / limitation | Baseline |
 |---|---|---|---|
 | 2026-10-29 | Prepared content-only review plan and enumerated baseline Markdown/TXT files | 174 files assigned to 45 tasks; all substantive reviews pending; no existing content changed | fd39cbda6e24ae0ae58d7f6c96f89d9c1fa56190 |
 | 2026-10-29 | Completed T01 guidance/authority assessment | 3 files reviewed; 11 findings; A001 open; no manual checks assigned; source files unchanged; upload resolved connector truncation | fd39cbda6e24ae0ae58d7f6c96f89d9c1fa56190 |
+| 2026-10-31 | Recorded T02 progress, source checks and findings | Both Overview plans read; 13 T02 finding entries; M001 image check completed; July 24 document date verified; UPI officer-name support and Court TV 60-hour/160-page description documented; M002–M004 retain stated limitations; no source-file corrections; task remains In progress | fd39cbda6e24ae0ae58d7f6c96f89d9c1fa56190 |
